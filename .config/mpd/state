@@ -1,9 +1,9 @@
-sw_volume: 82
+sw_volume: 84
 audio_device_state:1:pulse audio
 audio_device_state:1:toggle_visualizer
-state: play
-current: 200
-time: 0.625000
+state: pause
+current: 180
+time: 111.373000
 random: 0
 repeat: 0
 single: 0
@@ -214,4 +214,162 @@ playlist_begin
 199:2CELLOS - With or Without You [LIVE at iTunes Festival 2011].m4a
 200:2CELLOS - The Trooper Overture [OFFICIAL VIDEO].m4a
 201:2CELLOS - Smells Like Teen Spirit [Live at Exit Festival].opus
+202:Joji - Head In The Clouds (OUT NOW).opus
+203:joji - Head in the Clouds ☁☁☁ (official music video).opus
+204:88RISING - ALL OF OUR HEADS IN THE CLOUDS (VISUAL).opus
+205:2CELLOS - Smooth Criminal [LIVE Showcase, Tokyo].m4a
+206:2CELLOS - With or Without You [LIVE at iTunes Festival 2011].m4a
+207:2CELLOS - Smells Like Teen Spirit [LIVE at iTunes Festival 2011].m4a
+208:2CELLOS - Californication [LIVE VIDEO].opus
+209:2CELLOS - Fields of Gold [LIVE VIDEO].opus
+210:2CELLOS - Smells Like Teen Spirit [LIVE VIDEO].opus
+211:2CELLOS - You Shook Me All Night Long [LIVE in Dubrovnik].opus
+212:2CELLOS - Human Nature [LIVE VIDEO].opus
+213:2CELLOS - Viva La Vida [LIVE VIDEO].m4a
+214:2CELLOS - Highway To Hell [LIVE VIDEO].opus
+215:2CELLOS Misirlou from Pulp Fiction [HOLIDAY VIDEO].opus
+216:2CELLOS & Chad Smith - RHCP [LIVE VIDEO].m4a
+217:RED HOT CHILI PEPPERS & 2CELLOS - Californication [LIVE VIDEO].m4a
+218:2CELLOS - Charity event for Japan [LIVE VIDEO].m4a
+219:2CELLOS - The Book of Love [LIVE VIDEO].opus
+220:2CELLOS - We Found Love - Rihanna ft. Calvin Harris [LIVE VIDEO].opus
+221:2CELLOS - Vivaldi Allegro [LIVE VIDEO].opus
+222:2CELLOS - Vivaldi Largo [LIVE VIDEO].opus
+223:2CELLOS - With or Without You - Acoustic [LIVE VIDEO].opus
+224:2CELLOS Rocking HIGHWAY TO HELL in the audience!!!.ogg
+225:2CELLOS - Purple Haze - Jimi Hendrix [LIVE VIDEO].opus
+226:2CELLOS - Violoncelles Vibrez! - Sollima [LIVE VIDEO].opus
+227:2CELLOS - Bach Double Violin Concerto in D minor - 2nd mov [LIVE VIDEO].opus
+228:2CELLOS on 1 cello! Every Teardrop Is a Waterfall - Coldplay.opus
+229:2CELLOS - 2 Years Around the World! [Retrospective 2011 & 2012].ogg
+230:2CELLOS - Welcome To The Jungle [LIVE VIDEO].ogg
+231:2CELLOS - You Shook Me All Night Long [LIVE VIDEO].ogg
+232:2CELLOS - When I Come Around [LIVE at Arena Zagreb].opus
+233:2CELLOS - Back in Black [LIVE at Arena Zagreb].opus
+234:2CELLOS - Technical Difficulties [OFFICIAL VIDEO].opus
+235:2CELLOS - CRAZIEST MOMENTS!.opus
+236:2CELLOS - Oh, Well ft. Elton John.opus
+237:2CELLOS - Clocks ft. Lang Lang.opus
+238:2CELLOS - Bang Bang ft. Sky Ferreira.opus
+239:2CELLOS - Every Breath You Take ft. Steve Hunter.m4a
+240:2CELLOS - Every Breath You Take.opus
+241:2CELLOS - Hurt [OFFICIAL VIDEO].opus
+242:2CELLOS - Shostakovich - Prelude [LIVE VIDEO].opus
+243:2CELLOS - Welcome To The Jungle [OFFICIAL VIDEO].opus
+244:2CELLOS - Smooth Criminal [OFFICIAL VIDEO].opus
+245:2CELLOS - Benedictus [LIVE at Arena Zagreb].ogg
+246:2CELLOS - Il Libro Dell' Amore (The Book of Love) feat. Zucchero [OFFICIAL VIDEO].opus
+247:2CELLOS - Funniest moments 1.opus
+248:2CELLOS - Highway To Hell feat. Steve Vai [OFFICIAL VIDEO].ogg
+249:2CELLOS - The Making of IN2ITION.ogg
+250:2CELLOS - Kagemusha.opus
+251:ELTON JOHN about 2CELLOS.opus
+252:ZUCCHERO about 2CELLOS.m4a
+253:2CELLOS & LANG LANG - Clocks [The Making Of].opus
+254:2CELLOS - Supermassive Black Hole ft. Naya Rivera.opus
+255:2CELLOS - Where The Streets Have No Name [LIVE at Arena Pula].ogg
+256:2CELLOS - Resistance [LIVE at Arena Pula].opus
+257:2CELLOS - We Found Love [LIVE at Arena Pula].opus
+258:2CELLOS - Voodoo People [LIVE at Arena Pula].ogg
+259:2CELLOS - Smooth Criminal [LIVE at Arena Pula].opus
+260:2CELLOS - Welcome To The Jungle [LIVE at Arena Pula].ogg
+261:2CELLOS - You Shook Me All Night Long [LIVE at Arena Zagreb].ogg
+262:2CELLOS - Smells Like Teen Spirit [LIVE at Arena Zagreb].ogg
+263:2CELLOS - Hurt [LIVE at Arena Zagreb].opus
+264:2CELLOS - Technical Difficulties [LIVE at Arena Pula].ogg
+265:2CELLOS - Fragile [LIVE at Arena Pula].opus
+266:2CELLOS - Fields of Gold [LIVE at Arena Pula].opus
+267:2CELLOS - Good Riddance (Time Of Your Life) [LIVE at Arena Pula].opus
+268:2CELLOS - Every Teardrop Is a Waterfall [LIVE at Arena Pula].opus
+269:2CELLOS - The Book of Love [LIVE at Arena Pula].opus
+270:2CELLOS - With Or Without You [LIVE at Arena Pula].ogg
+271:2CELLOS - Viva La Vida [LIVE at Arena Pula].opus
+272:2CELLOS - Back in Black [LIVE at Arena Pula].opus
+273:2CELLOS - Thunderstruck [OFFICIAL VIDEO].opus
+274:2CELLOS - Human Nature [LIVE at Arena Pula].opus
+275:2CELLOS - Purple Haze [LIVE at Arena Pula].ogg
+276:2CELLOS - LIVE at Arena Pula 2013 [FULL CONCERT].opus
+277:2CELLOS - 'Mombasa' from INCEPTION [OFFICIAL VIDEO].opus
+278:2CELLOS - Funniest moments 2.opus
+279:2CELLOS - I Will Wait [OFFICIAL VIDEO].opus
+280:2CELLOS - Satisfaction [Live at Exit Festival].ogg
+281:2CELLOS - Thunderstruck [Live at Exit Festival].opus
+282:2CELLOS - Voodoo People [Live at Exit Festival].ogg
+283:2CELLOS - Smells Like Teen Spirit [Live at Exit Festival].opus
+284:2CELLOS - The Trooper Overture [OFFICIAL VIDEO].m4a
+285:2CELLOS - You Shook Me All Night Long [Live at Exit Festival].ogg
+286:2CELLOS - Shape Of My Heart [OFFICIAL VIDEO].opus
+287:2CELLOS - With Or Without You [Live at Exit Festival].ogg
+288:2CELLOS - New Official Video announcement!.m4a
+289:2CELLOS - Wake Me Up - Avicii [OFFICIAL VIDEO].opus
+290:2CELLOS - Funniest moments 3.ogg
+291:2CELLOS & LANG LANG - Live And Let Die [OFFICIAL VIDEO].opus
+292:2CELLOS - Hysteria [OFFICIAL VIDEO].opus
+293:2CELLOS - They Don't Care About Us - Michael Jackson [OFFICIAL VIDEO].opus
+294:2CELLOS - Celloverse [OFFICIAL VIDEO].opus
+295:2CELLOS - Funniest moments 4 (balkan humour).ogg
+296:2CELLOS - Gabriel's Oboe (The Mission).opus
+297:2CELLOS - Oblivion (Piazzolla).opus
+298:'From Pula 2 Pula' - The Journey of 2CELLOS (Documentary 2013).opus
+299:2CELLOS - Vivaldi Concerto for 2 violins in A minor (1st movement).opus
+300:2CELLOS - Vivaldi Concerto for 2 violins in A minor (2nd movement).opus
+301:2CELLOS - Vivaldi Concerto for 2 violins in A minor (3rd movement).ogg
+302:2CELLOS - Bach Double Violin Concerto in D minor (3rd movement).opus
+303:2CELLOS - Bach Double Violin Concerto in D minor (2nd movement).opus
+304:2CELLOS - Bach Double Violin Concerto in D minor (1st movement).ogg
+305:2CELLOS - With Or Without You (2015).opus
+306:2CELLOS - Smooth Criminal (2015).opus
+307:2CELLOS - Mombasa Live!.opus
+308:2CELLOS - 5 years of living their dream!.opus
+309:2CELLOS - Celloverse (Live at Suntory Hall, Tokyo).opus
+310:2CELLOS - 'Back to the Roots' FULL CONCERT 2015 (classical).ogg
+311:2CELLOS - WIth Or Without You (Live at Suntory Hall, Tokyo).opus
+312:Official 2CELLOS keyboard app.opus
+313:2CELLOS - Bach Air on a G string  (Live at Suntory Hall, Tokyo).opus
+314:2CELLOS - Whole Lotta Love vs. Beethoven 5th Symphony [OFFICIAL VIDEO].opus
+315:2CELLOS - Smooth Criminal (Live at Suntory Hall, Tokyo).opus
+316:2CELLOS - Mombasa (Live at Suntory Hall, Tokyo).opus
+317:2CELLOS - Gabriel's Oboe (Live at Suntory Hall, Tokyo).opus
+318:2CELLOS - Thunderstruck [Live at Arena di Verona].ogg
+319:2CELLOS - Highway to Hell [Live at Arena di Verona].opus
+320:2CELLOS - Back in Black [Live at Arena di Verona].opus
+321:2CELLOS - Smells Like Teen Spirit [Live at Arena di Verona].opus
+322:2CELLOS - J.S.Bach - Air on the G string [Live at Arena di Verona].opus
+323:2CELLOS - With Or Without You [Live at Arena di Verona].opus
+324:2CELLOS - Mombasa [Live at Arena di Verona].opus
+325:2CELLOS - The Show Must Go On  [OFFICIAL VIDEO].ogg
+326:2CELLOS - Game of Thrones [OFFICIAL VIDEO].opus
+327:2CELLOS - Wake Me Up_We Found Love [Live at Arena di Verona].ogg
+328:2CELLOS - Moon River [OFFICIAL VIDEO].opus
+329:2CELLOS - Fields Of Gold [Live at Arena di Verona].opus
+330:2CELLOS - Now We Are Free - Gladiator [OFFICIAL VIDEO].opus
+331:2CELLOS - Now We Are Free - Gladiator [Live at Sydney Opera House].ogg
+332:2CELLOS - Theme from Schindler's List [OFFICIAL VIDEO].opus
+333:2CELLOS - May It Be - The Lord of the Rings [OFFICIAL VIDEO].opus
+334:2CELLOS - Resistance [Live at Arena di Verona].opus
+335:2CELLOS at Rock am Ring 2017 - (I Can't Get No) Satisfaction.opus
+336:2CELLOS at Rock am Ring 2017 - The Trooper Overture.opus
+337:2CELLOS - Chariots of Fire [OFFICIAL VIDEO].opus
+338:2CELLOS - Despacito [OFFICIAL VIDEO].opus
+339:2CELLOS - The Godfather Theme [OFFICIAL VIDEO].opus
+340:2CELLOS - Back In Black [Live at Sydney Opera House].ogg
+341:2CELLOS - Human Nature [Live at Arena di Verona].opus
+342:2CELLOS - Love Story [OFFICIAL VIDEO].opus
+343:2CELLOS - LIVE at Arena di Verona 2016 [FULL CONCERT].opus
+344:2CELLOS - Cinema Paradiso [OFFICIAL VIDEO].ogg
+345:2CELLOS - My Heart Will Go On [OFFICIAL VIDEO].opus
+346:2CELLOS - My Heart Will Go On [Live at Sydney Opera House].opus
+347:2CELLOS - Highway To Hell [Live at Sydney Opera House].ogg
+348:2CELLOS - Cavatina [OFFICIAL VIDEO].opus
+349:2CELLOS - Cavatina [Live at Sydney Opera House].opus
+350:2CELLOS - For The Love Of A Princess [Live at Sydney Opera House].opus
+351:2CELLOS - Perfect - Ed Sheeran.m4a
+352:2CELLOS - Satisfaction [Live at Sydney Opera House].ogg
+353:2CELLOS - Smells Like Teen Spirit [Live at Sydney Opera House].ogg
+354:2CELLOS - Eye Of The Tiger [OFFICIAL VIDEO].opus
+355:2CELLOS - Seven Nation Army.opus
+356:2CELLOS performance at the 2018 UEFA Champions League Final.opus
+357:2CELLOS - Vivaldi Storm [OFFICIAL VIDEO].opus
+358:2CELLOS - Pirates Of The Caribbean [OFFICIAL VIDEO].opus
+359:2CELLOS - Hallelujah [OFFICIAL VIDEO].opus
 playlist_end

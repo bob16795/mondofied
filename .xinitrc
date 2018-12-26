@@ -6,6 +6,7 @@
 dunst &
 jgmenu &
 mpd &
+bar.sh &
 #xset r rate 200 50
 compton &
 feh --bg-fill ~/.config/wall.png
