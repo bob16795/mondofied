@@ -1,0 +1,9 @@
+#!/bin/bash
+
+SCRIPT_FOLDER="$HOME/bin"
+SCRIPT_FILE="$SCRIPT_FOLDER/$1"
+
+#touch $SCRIPT_FILE
+echo '#!/bin/bash' > $SCRIPT_FILE
+
+chmod +x $SCRIPT_FILE

@@ -1,0 +1,2 @@
+cd Music
+youtube-dl -a youtube.txt --download-archive arch.txt -x --audio-format mp3

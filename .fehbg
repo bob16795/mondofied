@@ -1,0 +1,2 @@
+#!/bin/sh
+feh --bg-fill '/home/john/.config/wall.png' 
