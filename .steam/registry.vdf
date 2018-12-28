@@ -1,0 +1,70 @@
+"Registry"
+{
+	"HKLM"
+	{
+		"Software"
+		{
+			"Valve"
+			{
+				"Steam"
+				{
+					"SteamPID"		"0"
+					"TempAppCmdLine"		""
+				}
+			}
+		}
+	}
+	"HKCU"
+	{
+		"Software"
+		{
+			"Valve"
+			{
+				"Steam"
+				{
+					"Apps"
+					{
+						"105600"
+						{
+							"installed"		"1"
+							"Updating"		"0"
+							"Running"		"0"
+							"name"		"Terraria"
+						}
+						"620"
+						{
+							"installed"		"1"
+							"Updating"		"0"
+							"Running"		"0"
+							"name"		"Portal 2"
+						}
+						"65980"
+						{
+							"installed"		"1"
+							"Updating"		"0"
+							"Running"		"0"
+						}
+						"8930"
+						{
+							"installed"		"1"
+							"Updating"		"0"
+							"Running"		"0"
+						}
+						"211820"
+						{
+							"installed"		"1"
+							"Updating"		"0"
+							"Running"		"0"
+						}
+					}
+					"RunningAppID"		"0"
+					"language"		"english"
+					"AutoLoginUser"		"preston3410"
+					"RememberPassword"		"1"
+					"SourceModInstallPath"		"/home/john/.local/share/Steam/steamapps\sourcemods"
+					"AlreadyRetriedOfflineMode"		"0"
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,31 @@
+class poly:
+	def __init__(self,nums):
+		self.list = nums
+	def height(self):
+		b = len(self.list)-1
+		for i in self.list:
+			b += abs(i)
+		print(self.string()+" is "+str(b))
+		return b
+	def string(self):
+		stri = ""
+		b = len(self.list)
+		for i in self.list:
+			b-=1
+			if b == 0:
+				stri += " + " + str(i)
+			elif b == 1:
+				if b == len(self.list)-1:
+					stri += str(i) + "x"
+				else:
+					stri += " + " + str(i) + "x"
+			elif(b == len(self.list)-1):
+				stri += str(i) + "x^" + str(b)
+			else:
+				stri += " + " + str(i) + "x^" + str(b)
+		return stri
+	def solve(self):
+		print(self.list)
+lol = poly([2,2,2,2,2,2,2,2,2,2,2,2])
+lol.height()
+

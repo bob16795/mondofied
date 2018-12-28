@@ -1,0 +1,1 @@
+/usr/share/playonlinux/playonlinux --run "Steam" & disown & exit
