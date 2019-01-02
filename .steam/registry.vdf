@@ -9,35 +9,33 @@
 				"Steam"
 				{
 					"language"		"english"
-					"AutoLoginUser"		"preston3410"
-					"RememberPassword"		"1"
-					"SourceModInstallPath"		"/home/john/.local/share/Steam/steamapps\sourcemods"
-					"AlreadyRetriedOfflineMode"		"0"
-					"RunningAppID"		"0"
 					"Apps"
 					{
-						"620"
-						{
-							"name"		"Portal 2"
-							"Running"		"0"
-							"installed"		"1"
-							"Updating"		"0"
-						}
 						"105600"
 						{
 							"installed"		"1"
 							"Updating"		"0"
 							"Running"		"0"
-							"name"		"Terraria"
 						}
 						"211820"
 						{
 							"installed"		"1"
 							"Updating"		"0"
 							"Running"		"0"
-							"name"		"Starbound"
+						}
+						"245470"
+						{
+							"installed"		"1"
+							"Updating"		"0"
+							"Running"		"0"
 						}
 						"344850"
+						{
+							"installed"		"1"
+							"Updating"		"0"
+							"Running"		"0"
+						}
+						"346010"
 						{
 							"installed"		"1"
 							"Updating"		"0"
@@ -48,22 +46,15 @@
 							"installed"		"1"
 							"Updating"		"0"
 							"Running"		"0"
-							"name"		"Starbound - Unstable"
 						}
-						"346010"
-						{
-							"installed"		"1"
-							"Updating"		"0"
-							"name"		"Besiege"
-							"Running"		"0"
-						}
-						"245470"
+						"620"
 						{
 							"installed"		"1"
 							"Updating"		"0"
 							"Running"		"0"
 						}
 					}
+					"RunningAppID"		"0"
 				}
 			}
 		}
@@ -76,7 +67,7 @@
 			{
 				"Steam"
 				{
-					"SteamPID"		"8305"
+					"SteamPID"		"24787"
 					"TempAppCmdLine"		""
 				}
 			}

@@ -1,0 +1,175 @@
+{
+  "font_options": ["subpixel_antialias"],
+  // "font_options": ["no_bold", "no_italic", "subpixel_antialias"],
+  // Using a ruler rules.
+  "rulers": [50],
+
+  "update_check": false,
+
+  // zen mode coding. Line number is visible in statusbar.
+  // and the biggest reason I used line numbers was to see if a
+  // line was folded, but I have wrapping disabled, and also the 
+  // line highlight helps to distinguish that.
+  "line_numbers": true,
+  "draw_centered": true,
+  // Line highlight is ugly, but it helps.
+  "highlight_line": true,
+
+  // space-indentation-masterrace
+  "translate_tabs_to_spaces": true,
+  "tab_size": 2,
+  // Set to false to disable detection of tabs vs. spaces on load
+  "detect_indentation": false,
+  "use_tab_stops": false,
+
+  // Controls how the indent guides are drawn, valid options are
+  // "draw_normal" and "draw_active". draw_active will draw the indent
+  // guides containing the caret in a different color.
+  "indent_guide_options": ["draw_active"],
+  // Calculates indentation automatically when pressing enter
+  "auto_indent": true,
+  // Trims white space added by auto_indent when moving 
+  //the caret off the line.
+  "trim_automatic_white_space": true,
+
+  // Annoying popup, just use F12 to go to definition, when needed.
+  "show_definitions": false,
+
+  // newline at EOF have saved me some headaches when parsing files in bash. 
+  "ensure_newline_at_eof_on_save": true,
+  "spell_check": false,
+  "remember_open_files": false,
+  "save_on_focus_lost": true,
+  "scroll_past_end": true,
+  "scroll_speed": 1.7,
+
+  // Makes auto indent a little smarter, e.g., by indenting the next line
+  // after an if statement in C. Requires auto_indent to be enabled.
+  "smart_indent": true,
+
+  // Adds whitespace up to the first open bracket when indenting. Requires
+  // auto_indent to be enabled. I don't know exactly what this does...
+  "indent_to_bracket": true,
+  
+  // Set to false to prevent word wrapped lines from being indented to the same
+  // level
+  "indent_subsequent_lines": true,
+
+  // Disables horizontal scrolling if enabled.
+  // May be set to true, false, or "auto", where it will be disabled for
+  // source code, and otherwise enabled.
+  // I force it on the file types with syntax specific settings.
+  // sometimes Sublime gets the syntax wrong and unwanted wrapping is applied.
+  "word_wrap": "false",
+
+  // Font options for theme text. Valid options are: "no_antialias",
+  // "gray_antialias", "gdi" (Windows only) and "directwrite" (Windows only)
+  // UI font is much more readable with "no_antialias", but it's too sharp.
+  // I will see if I can dim the font colors before turning it on again. 
+  "theme_font_options": [], 
+  
+  // By default, auto complete will commit the current completion on enter.
+  // This setting can be used to make it complete on tab instead.
+  // Completing on tab is generally a superior option, as it removes
+  // ambiguity between committing the completion and inserting a newline.
+  "auto_complete_commit_on_tab": true,
+
+  // Controls if auto complete is shown when snippet fields are active.
+  // Only relevant if auto_complete_commit_on_tab is true.
+  "auto_complete_with_fields": false,
+
+  // Controls what happens when pressing the up key while the first item in
+  // the auto complete window is selected: if false, the window is hidden,
+  // otherwise the last item in the window is selected. Likewise for the
+  // down key when the last item is selected.
+  "auto_complete_cycle": true,
+
+  // Automatically close HTML and XML tags when </ is entered.
+  "auto_close_tags": true,
+
+  // If true, the copy and cut commands will operate on the current line
+  // when the selection is empty, rather than doing nothing.
+  // if I had a nickel for every time my clipboard got shredded because
+  // this was true...
+  "copy_with_empty_selection": false,
+
+  // I'm not a huge fan of auto-complete, but sometimes it's nice
+  // but I have increased the delay from the default 50 to 800. 
+  "auto_complete": true,
+  "auto_complete_delay": 800,
+
+  // Controls auto pairing of quotes, brackets etc.
+  "auto_match_enabled": true,
+  
+  "tab_completion": false,
+
+  // Valid values are "system", "enabled" and "disabled"
+  // enabled basically means autohide, which might look nice,
+  // but since I most often doesn't have the minimap visible, I at least
+  // want the scrollbars to know where I am in the file. 
+  "overlay_scroll_bars": "disabled",
+
+  // Allows tabs to scroll left and right, instead of simply shrinking.
+  // This doesn't have to be disabled, but I don't like when tabs hide
+  // outside the scope of the tab bar.
+  "enable_tab_scrolling": false,
+
+  // Preview file contents when clicking on a file in the side bar. Double
+  // clicking or editing the preview will open the file and assign it a tab.
+  // I have set this to false, because it gets really annoying navigating the
+  // tree with the keyboard with preview enabled. And I also always forget files
+  // are in preview mode, which means their tab gets replaced when a new preview
+  // is selected.
+  "preview_on_click": true,
+
+  // folder_exclude_patterns and file_exclude_patterns control which files
+  // are listed in folders on the side bar. These can also be set on a per-
+  // project basis.
+  "file_exclude_patterns": ["*.pyc", "*.pyo", "*.exe", "*.dll", "*.obj","*.o", 
+                            "*.a", "*.lib", "*.so", "*.dylib", "*.ncb", "*.sdf", 
+                            "*.suo", "*.pdb", "*.idb", ".DS_Store", "*.class", 
+                            "*.psd", "*.db", "*.sublime-workspace"],
+
+  "folder_exclude_patterns": [".sass-cache", ".svn", ".hg", "CVS"],
+  // "folder_exclude_patterns": [".sass-cache", ".svn", ".git", ".hg", "CVS"],
+
+  // These files will still show up in the side bar, but won't be included in
+  // Goto Anything or Find in Files. By adding "*.sublime-package", 
+  // we get rid of the annoying Sublime Package Extraction dialog window,
+  // that pops up randomly when searching for files.
+  // Adding "*/Packages/*" removes packages folder, wich easily clutters the
+  // search.
+  "binary_file_patterns": ["*.jpg", "*.jpeg", "*.png", "*.gif", "*.ttf", 
+                           "*.tga", "*.dds", "*.ico", "*.eot", "*.pdf", 
+                           "*.swf", "*.jar", "*.zip", 
+                           "*/Packages/*", "*/conf/.*", "*.sublime-package",
+                           "*/python3.3/*" ],
+
+  // random boring settings
+  "always_show_minimap_viewport": true,
+  "highlight_modified_tabs": true,
+  "line_padding_bottom": 0,
+  "line_padding_top": 0,
+  "bold_folder_labels": true,
+  "caret_extra_bottom": 1,
+  "caret_extra_top": 1,
+  "caret_extra_width": 1,
+  "caret_style": "smooth",
+  "fade_fold_buttons": true,
+  "find_selected_text": true,
+  "show_encoding": true,
+  "show_line_endings": true,
+  "show_tab_close_buttons": false,
+  
+  // >> package specifics
+  "extract_sublime_package_ask_on_open": true,
+  "highlight_modified_tabs": true,
+  "vintage_ctrl_keys": true,
+  "vintage_start_in_command_mode": true,
+  "vintage_use_clipboard": true,
+
+  // Added `_`
+  "word_separators": "./\\()\"'-:,.;<>~!@#$%^&*|+=[]{}`~?_",
+}
+
+// syntax:ssDslash

@@ -1,0 +1,2 @@
+#!/bin/bash
+echo -n $(cd /home/john/pix && ls -d */ | cut -f1 -d'/'| rofi -dmenu)::$(rofi -dmenu "name")

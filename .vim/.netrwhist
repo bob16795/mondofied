@@ -1,4 +1,9 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =2
+let g:netrw_dirhist_cnt =7
 let g:netrw_dirhist_1='/home/john/.config/mondo/generator/configh'
 let g:netrw_dirhist_2='/home/john/.config/mondo/generator/globalsrasi'
+let g:netrw_dirhist_3='/home/john/.config/mondo/generator/alacrittyyml'
+let g:netrw_dirhist_4='/home/john/.config/ranger'
+let g:netrw_dirhist_5='/home/john/budlime/install'
+let g:netrw_dirhist_6='/home/john/.config/budlime/packages/DA UI'
+let g:netrw_dirhist_7='/home/john/.config/mondo/generator/configh'

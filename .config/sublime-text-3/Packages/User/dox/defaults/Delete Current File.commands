@@ -1,0 +1,6 @@
+[
+  {
+    "caption": "DeleteCurrentFile: Delete File",
+    "command": "delete_current_file"
+  }
+]

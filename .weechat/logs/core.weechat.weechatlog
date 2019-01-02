@@ -31,3 +31,8 @@
 2019-01-02 08:29:00		Plugins loaded: alias, aspell, buflist, charset, exec, fifo, fset, irc, logger, lua, perl, python, relay, script, trigger, xfer
 2019-01-02 08:29:12		fifo: pipe closed
 2019-01-02 08:29:12		perl: scripts unloaded
+2019-01-02 17:36:01	err:	buflist: warning: the script buffers.pl is loaded and provides a bar with list of buffers similar to the buflist plugin; you may want to uninstall the script buffers.pl (/script remove buffers.pl) or disable/unload the buflist plugin; see WeeChat release notes for more information
+2019-01-02 17:36:01		perl scripts loaded: buffers, iset
+2019-01-02 17:36:02		Plugins loaded: alias, aspell, buflist, charset, exec, fifo, fset, irc, logger, lua, perl, python, relay, script, trigger, xfer
+2019-01-02 17:36:03		fifo: pipe closed
+2019-01-02 17:36:03		perl: scripts unloaded

@@ -1,12 +1,10 @@
 {
 	"folder_history":
 	[
-		"/home/john/.config/mondo",
-		"/home/john/.config/sublime-text-3/Installed Packages",
-		"/home/john/.config/dwm"
+		"/home/john/.config/mondo"
 	],
 	"last_version": 3176,
-	"last_window_id": 10,
+	"last_window_id": 16,
 	"log_indexing": false,
 	"settings":
 	{
@@ -30,28 +28,32 @@
 				"selected_items":
 				[
 					[
-						"pack",
+						"reomv",
+						"Package Control: Remove Package"
+					],
+					[
+						"remove",
+						"Package Control: Remove Package"
+					],
+					[
+						"install",
 						"Package Control: Install Package"
 					],
 					[
 						"Package Control: ",
+						"Package Control: Remove Package"
+					],
+					[
+						"color",
+						"Package Control: Remove Package"
+					],
+					[
+						"w",
+						"Tasks: Archive within selection(s)"
+					],
+					[
+						"insta",
 						"Package Control: Install Package"
-					],
-					[
-						"inst",
-						"Package Control: Install Package"
-					],
-					[
-						"a",
-						"ActualVim: Disable (File)"
-					],
-					[
-						"actual",
-						"Preferences: ActualVim Settings"
-					],
-					[
-						"ac",
-						"Preferences: ActualVim Settings"
 					]
 				],
 				"width": 0.0
@@ -74,16 +76,11 @@
 			},
 			"file_history":
 			[
-				"/home/john/.config/sublime-text-3/Packages/Color Highlighter/ColorHighlighter.sublime-settings",
-				"/home/john/.config/dwm/config.h",
-				"/home/john/.config/dwm/config.h.old",
-				"/home/john/.config/sublime-text-3/Packages/User/ActualVim.sublime-settings",
-				"/home/john/.config/sublime-text-3/Packages/Package Control/Package Control.sublime-settings",
 				"/home/john/.config/sublime-text-3/Packages/User/Package Control.sublime-settings"
 			],
 			"find":
 			{
-				"height": 0.0
+				"height": 33.0
 			},
 			"find_in_files":
 			{
@@ -113,13 +110,17 @@
 			},
 			"incremental_find":
 			{
-				"height": 0.0
+				"height": 33.0
 			},
 			"input":
 			{
-				"height": 36.0
+				"height": 45.0
 			},
 			"menu_visible": true,
+			"output.SublimeLinter":
+			{
+				"height": 0.0
+			},
 			"output.find_results":
 			{
 				"height": 0.0
@@ -127,7 +128,7 @@
 			"pinned_build_system": "",
 			"replace":
 			{
-				"height": 0.0
+				"height": 62.0
 			},
 			"save_all_on_build": true,
 			"select_file":
@@ -158,7 +159,7 @@
 				"width": 0.0
 			},
 			"show_minimap": true,
-			"show_open_files": true,
+			"show_open_files": false,
 			"show_tabs": true,
 			"side_bar_visible": true,
 			"side_bar_width": 150.0,
@@ -181,13 +182,11 @@
 			"buffers":
 			[
 				{
-					"contents": "!! Theme:    deer\n!! Author:   john\n!! Created:  2019-01-01\n\ncolor_bg     4b0025\ncolor_fg     9da4ba\ncolor_2      3C437D\ncolor_3      4D4678\ncolor_4      305289\ncolor_5      286797\ncolor_6      1F7BA7\ncolor_7      2479A4\ncolor_8      9da4ba\nbg           ~/pix/Vibrant/lub.png\nalpha        0.5\n",
-					"file": "/home/john/.config/mondo/themes/triangles",
-					"file_size": 293,
-					"file_write_time": 131908458850167297,
+					"file": "/home/john/.config/mondo/themes/solarized-dark",
 					"settings":
 					{
-						"buffer_size": 293,
+						"buffer_size": 307,
+						"encoding": "UTF-8",
 						"line_ending": "Unix"
 					}
 				}
@@ -204,28 +203,32 @@
 				"selected_items":
 				[
 					[
-						"pack",
+						"reomv",
+						"Package Control: Remove Package"
+					],
+					[
+						"remove",
+						"Package Control: Remove Package"
+					],
+					[
+						"install",
 						"Package Control: Install Package"
 					],
 					[
 						"Package Control: ",
+						"Package Control: Remove Package"
+					],
+					[
+						"color",
+						"Package Control: Remove Package"
+					],
+					[
+						"w",
+						"Tasks: Archive within selection(s)"
+					],
+					[
+						"insta",
 						"Package Control: Install Package"
-					],
-					[
-						"inst",
-						"Package Control: Install Package"
-					],
-					[
-						"a",
-						"ActualVim: Disable (File)"
-					],
-					[
-						"actual",
-						"Preferences: ActualVim Settings"
-					],
-					[
-						"ac",
-						"Preferences: ActualVim Settings"
 					]
 				],
 				"width": 0.0
@@ -249,20 +252,17 @@
 			"expanded_folders":
 			[
 				"/home/john/.config/mondo",
+				"/home/john/.config/mondo/generator",
+				"/home/john/.config/mondo/generator/sublime",
 				"/home/john/.config/mondo/themes"
 			],
 			"file_history":
 			[
-				"/home/john/.config/sublime-text-3/Packages/Color Highlighter/ColorHighlighter.sublime-settings",
-				"/home/john/.config/dwm/config.h",
-				"/home/john/.config/dwm/config.h.old",
-				"/home/john/.config/sublime-text-3/Packages/User/ActualVim.sublime-settings",
-				"/home/john/.config/sublime-text-3/Packages/Package Control/Package Control.sublime-settings",
 				"/home/john/.config/sublime-text-3/Packages/User/Package Control.sublime-settings"
 			],
 			"find":
 			{
-				"height": 21.0
+				"height": 33.0
 			},
 			"find_in_files":
 			{
@@ -284,7 +284,7 @@
 				"replace_history":
 				[
 				],
-				"reverse": true,
+				"reverse": false,
 				"show_context": true,
 				"use_buffer2": true,
 				"whole_word": false,
@@ -304,29 +304,25 @@
 					[
 						{
 							"buffer": 0,
-							"file": "/home/john/.config/mondo/themes/triangles",
+							"file": "/home/john/.config/mondo/themes/solarized-dark",
 							"semi_transient": false,
 							"settings":
 							{
-								"buffer_size": 293,
+								"buffer_size": 307,
 								"regions":
 								{
 								},
 								"selection":
 								[
 									[
-										74,
-										74
+										289,
+										289
 									]
 								],
 								"settings":
 								{
-									"actual_mode": true,
-									"av:ctrl+n": true,
-									"av:ctrl+s": true,
-									"av:ctrl+w": true,
-									"av:mode:normal": true,
-									"av_input": true,
+									"apply_syntax_touched": true,
+									"git_gutter_is_enabled": true,
 									"syntax": "Packages/Text/Plain text.tmLanguage"
 								},
 								"translation.x": 0.0,
@@ -341,11 +337,11 @@
 			],
 			"incremental_find":
 			{
-				"height": 38.0
+				"height": 33.0
 			},
 			"input":
 			{
-				"height": 36.0
+				"height": 45.0
 			},
 			"layout":
 			{
@@ -369,17 +365,21 @@
 					1.0
 				]
 			},
-			"menu_visible": true,
+			"menu_visible": false,
+			"output.SublimeLinter":
+			{
+				"height": 0.0
+			},
 			"output.find_results":
 			{
 				"height": 0.0
 			},
 			"pinned_build_system": "",
-			"position": "0,0,0,0,0,0,13,1366,768,2646,1024",
+			"position": "0,0,0,0,0,219,34,1173,692,2646,1024",
 			"project": "",
 			"replace":
 			{
-				"height": 38.0
+				"height": 62.0
 			},
 			"save_all_on_build": true,
 			"select_file":
@@ -414,7 +414,7 @@
 			{
 			},
 			"show_minimap": true,
-			"show_open_files": true,
+			"show_open_files": false,
 			"show_tabs": true,
 			"side_bar_visible": true,
 			"side_bar_width": 150.0,
@@ -422,7 +422,7 @@
 			"template_settings":
 			{
 			},
-			"window_id": 10,
+			"window_id": 12,
 			"workspace_name": ""
 		}
 	],
