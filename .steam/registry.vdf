@@ -1,19 +1,5 @@
 "Registry"
 {
-	"HKLM"
-	{
-		"Software"
-		{
-			"Valve"
-			{
-				"Steam"
-				{
-					"SteamPID"		"0"
-					"TempAppCmdLine"		""
-				}
-			}
-		}
-	}
 	"HKCU"
 	{
 		"Software"
@@ -22,8 +8,21 @@
 			{
 				"Steam"
 				{
+					"language"		"english"
+					"AutoLoginUser"		"preston3410"
+					"RememberPassword"		"1"
+					"SourceModInstallPath"		"/home/john/.local/share/Steam/steamapps\sourcemods"
+					"AlreadyRetriedOfflineMode"		"0"
+					"RunningAppID"		"0"
 					"Apps"
 					{
+						"620"
+						{
+							"name"		"Portal 2"
+							"Running"		"0"
+							"installed"		"1"
+							"Updating"		"0"
+						}
 						"105600"
 						{
 							"installed"		"1"
@@ -31,38 +30,54 @@
 							"Running"		"0"
 							"name"		"Terraria"
 						}
-						"620"
-						{
-							"installed"		"1"
-							"Updating"		"0"
-							"Running"		"0"
-							"name"		"Portal 2"
-						}
-						"65980"
-						{
-							"installed"		"1"
-							"Updating"		"0"
-							"Running"		"0"
-						}
-						"8930"
-						{
-							"installed"		"1"
-							"Updating"		"0"
-							"Running"		"0"
-						}
 						"211820"
+						{
+							"installed"		"1"
+							"Updating"		"0"
+							"Running"		"0"
+							"name"		"Starbound"
+						}
+						"344850"
+						{
+							"installed"		"1"
+							"Updating"		"0"
+							"Running"		"0"
+						}
+						"367540"
+						{
+							"installed"		"1"
+							"Updating"		"0"
+							"Running"		"0"
+							"name"		"Starbound - Unstable"
+						}
+						"346010"
+						{
+							"installed"		"1"
+							"Updating"		"0"
+							"name"		"Besiege"
+							"Running"		"0"
+						}
+						"245470"
 						{
 							"installed"		"1"
 							"Updating"		"0"
 							"Running"		"0"
 						}
 					}
-					"RunningAppID"		"0"
-					"language"		"english"
-					"AutoLoginUser"		"preston3410"
-					"RememberPassword"		"1"
-					"SourceModInstallPath"		"/home/john/.local/share/Steam/steamapps\sourcemods"
-					"AlreadyRetriedOfflineMode"		"0"
+				}
+			}
+		}
+	}
+	"HKLM"
+	{
+		"Software"
+		{
+			"Valve"
+			{
+				"Steam"
+				{
+					"SteamPID"		"8305"
+					"TempAppCmdLine"		""
 				}
 			}
 		}

@@ -41,7 +41,7 @@
     (gimp-dock
         (side right)
         (book
-            (current-page 0)
+            (current-page 4)
             (dockable "gimp-brush-grid"
                 (tab-style automatic)
                 (aux-info
@@ -57,9 +57,15 @@
             (dockable "gimp-document-list"
                 (tab-style automatic)
                 (aux-info
-                    (show-button-bar "true"))))
+                    (show-button-bar "true")))
+            (dockable "gimp-tool-preset-editor"
+                (tab-style automatic)
+                (aux-info
+                    (show-button-bar "true")
+                    (edit-active "true")
+                    (current-data "Move"))))
         (book
-            (position 336)
+            (position 299)
             (current-page 0)
             (dockable "gimp-layer-list"
                 (tab-style automatic)
@@ -79,6 +85,17 @@
 (session-info "toplevel"
     (factory-entry "gimp-file-open-dialog")
     (position 0 13)
+    (size 780 545))
+(session-info "toplevel"
+    (factory-entry "gimp-toolbox-color-dialog")
+    (position 0 68))
+(session-info "toplevel"
+    (factory-entry "gimp-file-save-dialog")
+    (position 288 65)
+    (size 780 545))
+(session-info "toplevel"
+    (factory-entry "gimp-file-export-dialog")
+    (position 0 79)
     (size 780 545))
 
 (hide-docks no)

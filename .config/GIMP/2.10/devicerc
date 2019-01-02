@@ -4,8 +4,6 @@
     (icon-name "gimp-cursor")
     (name "Core Pointer")
     (tool-options "GimpRectangleSelectOptions"
-        (aspect-denominator 297.000000)
-        (aspect-numerator 733.000000)
         (tool "gimp-rect-select-tool"))
     (use-fg-bg no)
     (use-brush no)

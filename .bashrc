@@ -16,7 +16,7 @@ if [ "$EUID" -ne 0 ]
 fi
 
 #if [ "$(tty)" == "/dev/tty1" ]
-#source ~/.profile
+source ~/.profile
 #fi
 
 export GPG_TTY=$(tty)

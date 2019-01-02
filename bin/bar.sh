@@ -1,5 +1,6 @@
 while true;
 do
-	xsetroot -name "$(i3mpd) | $(i3battery BAT0) | $(i3mem) | $(i3pacman) | $(i3disk /) | $(i3mail)"
-    sleep .1
+	xsetroot -name "$(upower -i /org/freedesktop/UPower/devices/battery_BAT0| grep -E "percentage"| sed 's/    percentage:          //')"
+	#[ -f /dev/mmcblk0 ] && echo "lol" || echo "nope"
+	sleep .1
 done

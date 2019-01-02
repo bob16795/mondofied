@@ -1,2 +1,2 @@
 #!/bin/sh
-feh --bg-scale '/home/john/.config/left.png' '/home/john/.config/right.png' 
+feh --bg-scale '/home/john/pix/Unsorted/Comfy 34.jpg' 

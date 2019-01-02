@@ -13,7 +13,7 @@
    as a 2D sampler.
 
    See documentation for more details. */
-#request mod bars
+#request mod radial
 
 
 /* Window hints */
@@ -49,7 +49,7 @@
 #request settitle "GLava"
 
 /* Window geometry (x, y, width, height) */
-#request setgeometry 0 15 1366 753
+#request setgeometry 0 15 1364 1020
 
 /* Window background color (RGB format).
    Does not work with `setopacity "xroot"` */

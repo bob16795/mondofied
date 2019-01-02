@@ -1,0 +1,11 @@
+* {
+accent: #845E42;
+bg1: #120f0d;
+bg2: #A77A4B;
+fg1: #785C43;
+fg2: #976D45;
+redish: #dc322f;
+font1: "scientifica 12";
+}
+
+// syntax:ssDslash

@@ -1,0 +1,33 @@
+2018-12-30 12:43:58		New key binding (context "default"): meta-meta-OQ => /bar scroll buflist * e
+2018-12-30 12:43:58		New key binding (context "default"): meta-meta-OP => /bar scroll buflist * b
+2018-12-30 12:43:58		New key binding (context "default"): meta-OQ => /bar scroll buflist * +100%
+2018-12-30 12:43:58		New key binding (context "default"): meta-OP => /bar scroll buflist * -100%
+2018-12-30 12:43:58		Plugins loaded: alias, aspell, buflist, charset, exec, fifo, fset, irc, logger, lua, perl, python, relay, script, trigger, xfer
+2018-12-30 12:43:59	=!=	You can not write text in this buffer
+2018-12-30 12:44:00		fifo: pipe closed
+2018-12-31 12:11:30		New key binding (context "mouse"): @bar(buffers):ctrl-wheeldown => hsignal:buffers_mouse
+2018-12-31 12:11:30		New key binding (context "mouse"): @bar(buffers):ctrl-wheelup => hsignal:buffers_mouse
+2018-12-31 12:11:30		New key binding (context "mouse"): @item(buffers):button2* => hsignal:buffers_mouse
+2018-12-31 12:11:30		New key binding (context "mouse"): @item(buffers):button1* => hsignal:buffers_mouse
+2018-12-31 12:11:30	err:	buflist: warning: the script buffers.pl is loaded and provides a bar with list of buffers similar to the buflist plugin; you may want to uninstall the script buffers.pl (/script remove buffers.pl) or disable/unload the buflist plugin; see WeeChat release notes for more information
+2018-12-31 12:11:30	err:	Warning: /home/john/.weechat/iset.conf, line 36: unknown option for section "look": use_color = off
+2018-12-31 12:11:30		perl scripts loaded: buffers, iset
+2018-12-31 12:11:30		Plugins loaded: alias, aspell, buflist, charset, exec, fifo, fset, irc, logger, lua, perl, python, relay, script, trigger, xfer
+2018-12-31 12:13:42	err:	Too few arguments for command "/oper" (help on command: /help oper)
+2018-12-31 12:15:33		fifo: pipe closed
+2018-12-31 12:15:33		perl: scripts unloaded
+2018-12-31 12:15:34	err:	buflist: warning: the script buffers.pl is loaded and provides a bar with list of buffers similar to the buflist plugin; you may want to uninstall the script buffers.pl (/script remove buffers.pl) or disable/unload the buflist plugin; see WeeChat release notes for more information
+2018-12-31 12:15:34		perl scripts loaded: buffers, iset
+2018-12-31 12:15:34		Plugins loaded: alias, aspell, buflist, charset, exec, fifo, fset, irc, logger, lua, perl, python, relay, script, trigger, xfer
+2018-12-31 14:23:12		fifo: pipe closed
+2018-12-31 14:23:12		perl: scripts unloaded
+2019-01-01 14:59:23	err:	buflist: warning: the script buffers.pl is loaded and provides a bar with list of buffers similar to the buflist plugin; you may want to uninstall the script buffers.pl (/script remove buffers.pl) or disable/unload the buflist plugin; see WeeChat release notes for more information
+2019-01-01 14:59:23		perl scripts loaded: buffers, iset
+2019-01-01 14:59:23		Plugins loaded: alias, aspell, buflist, charset, exec, fifo, fset, irc, logger, lua, perl, python, relay, script, trigger, xfer
+2019-01-01 14:59:24		fifo: pipe closed
+2019-01-01 14:59:24		perl: scripts unloaded
+2019-01-02 08:29:00	err:	buflist: warning: the script buffers.pl is loaded and provides a bar with list of buffers similar to the buflist plugin; you may want to uninstall the script buffers.pl (/script remove buffers.pl) or disable/unload the buflist plugin; see WeeChat release notes for more information
+2019-01-02 08:29:00		perl scripts loaded: buffers, iset
+2019-01-02 08:29:00		Plugins loaded: alias, aspell, buflist, charset, exec, fifo, fset, irc, logger, lua, perl, python, relay, script, trigger, xfer
+2019-01-02 08:29:12		fifo: pipe closed
+2019-01-02 08:29:12		perl: scripts unloaded

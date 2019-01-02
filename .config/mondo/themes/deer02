@@ -1,0 +1,16 @@
+!! Theme:    deer
+!! Author:   john
+!! Created:  2019-01-01
+
+color_bg     091234
+color_fg     2D4D8E
+color_2      2067AC
+color_3      5A5F92
+color_4      1A7AC3
+color_5      956F90
+color_6      1C99CF
+color_7      9ad0dc
+color_8      6b919a
+bg           ~/pix/Etc/antlers.jpg
+alpha        0.5
+alpha_hex    80

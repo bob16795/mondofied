@@ -6,17 +6,20 @@
 dunst &
 jgmenu &
 mpd &
+spotify &
 #bar.sh &
 #xset r rate 200 50
 compton &
 #feh --bg-fill ~/.config/wall.png
-feh --bg-scale ~/.config/left.png ~/.config/right.png
-#polybar i3-bar &#"bar.sh &
+#polybar i3-bar &
+bar.sh &
 alacritty &
 firefox &
 dockd --daemon &
-glava &
-
+#glava &
+alacritty --class visual -e vis &
+steam &
+~/bin/wall.sh &
 #exec awesome
 exec dwm
 #exec i3

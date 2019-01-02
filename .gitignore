@@ -1,7 +1,10 @@
+.AndroidStudio3.2
+.wine
 .mozilla
 .ArchLabs-homepage
 .Genymobile
 .PlayOnLinux
+.surf
 .atom
 .cache
 .electron
@@ -26,6 +29,7 @@ dwn/**
 pix/**
 snd/**
 vid/**
+rom/**
 .Xauthority
 .bash_history
 .bash_logout
@@ -53,3 +57,4 @@ vid/**
 .config/mutt
 .config/lpass
 .config/dwm.old
+.config/GIMP
