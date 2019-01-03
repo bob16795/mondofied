@@ -23,7 +23,8 @@
 .ssh
 .xdg_menu_cache
 cld/**
-doc/**
+doc/src/**
+doc/arc/**
 dsk/**
 dwn/**
 pix/**

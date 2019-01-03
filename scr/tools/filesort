@@ -8,6 +8,7 @@ def check(j):
         return types[None].get(j.decode("utf-8").split('/')[-1], None)
 paths = ["/home/john/dwn",
         "/home/john/doc",
+        "/home/john/msc",
         "/home/john/pix/Unsorted/",
         "/home/john/rom/Unsorted"]
 
@@ -22,6 +23,28 @@ types = {
         "jpe":"/home/john/pix/Unsorted/",
         "jpeg":"/home/john/pix/Unsorted/",
         "part":"rm ",
+        "4tc":"rm ",
+        "xref":"rm ",
+        "tmp":"rm ",
+        "pyc":"rm ",
+        "pyo":"rm ",
+        "fls":"rm ",
+        "vrb":"rm ",
+        "fdb_latexmk":"rm ",
+        "bak":"rm ",
+        "swp":"rm ",
+        "aux":"rm ",
+        "log":"rm ",
+        "synctex(busy)":"rm ",
+        "lof":"rm ",
+        "out":"rm ",
+        "snm":"rm ",
+        "toc":"rm ",
+        "bcf":"rm ",
+        "xml":"rm ",
+        "gz" :"/home/john/doc/arc/",
+        "blg":"rm ",
+        "bbl":"rm ",
         "zip":"/home/john/doc/arc/",
         "exe":"/home/john/exc/",
         "msi":"/home/john/exc/",
@@ -53,10 +76,12 @@ for i in paths:
             if not ".git" in j.decode("utf-8"):
                 checked = check(j)
                 if not checked is None:
+                #checked = "/home/john/msc/"
                     if not checked == "rm ":
+                      if not j.decode("utf-8") == checked+j.decode("utf-8").split('/')[-1]:
                         print("mv '{}' '{}'".format(j.decode("utf-8"),checked+j.decode("utf-8").split('/')[-1]))
                     else:
-                        print(checked+"'"+j.decode("utf-8").split('/')[-1]+"'")
+                        print(checked+"'"+j.decode("utf-8") +"'")
 pix = subprocess.check_output(["tree","-N", "-f","-i", "/home/john/pix/Unsorted"]).split(b'\n')[1:-4]
 #for i in pix:
 #    subprocess.call(["feh", i.decode("utf-8")])

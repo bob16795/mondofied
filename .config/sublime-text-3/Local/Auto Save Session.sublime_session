@@ -2,12 +2,16 @@
 	"folder_history":
 	[
 		"/home/john/.config/mondo",
+		"/home/john/cfg",
+		"/home/john/cod",
+		"/home/john/.config/dwm",
+		"/home/john/.config/jgmenu",
 		"/home/john/scr",
 		"/home/john/bin",
 		"/home/john/doc"
 	],
 	"last_version": 3176,
-	"last_window_id": 34,
+	"last_window_id": 44,
 	"log_indexing": false,
 	"settings":
 	{
@@ -22,6 +26,22 @@
 			},
 			"build_system_choices":
 			[
+				[
+					[
+						[
+							"Packages/Python/Python.sublime-build",
+							""
+						],
+						[
+							"Packages/Python/Python.sublime-build",
+							"Syntax Check"
+						]
+					],
+					[
+						"Packages/Python/Python.sublime-build",
+						""
+					]
+				]
 			],
 			"build_varint": "",
 			"command_palette":
@@ -30,6 +50,26 @@
 				"last_filter": "",
 				"selected_items":
 				[
+					[
+						"linter",
+						"SublimeLinter: Lint This View"
+					],
+					[
+						"ins",
+						"Package Control: Install Package"
+					],
+					[
+						"install",
+						"Package Control: Install Package"
+					],
+					[
+						"pack",
+						"Package Control: Install Package"
+					],
+					[
+						"Package Control: ",
+						"Package Control: Install Package"
+					],
 					[
 						"w",
 						"Tasks: Archive within selection(s)"
@@ -52,14 +92,6 @@
 					],
 					[
 						"reomv",
-						"Package Control: Remove Package"
-					],
-					[
-						"install",
-						"Package Control: Install Package"
-					],
-					[
-						"Package Control: ",
 						"Package Control: Remove Package"
 					],
 					[
@@ -87,6 +119,23 @@
 			},
 			"file_history":
 			[
+				"/home/john/cfg/config/rofi/bmenu.rasi",
+				"/home/john/.config/mondo/generator/rofi/_mondo-template",
+				"/home/john/.config/mondo/post-apply",
+				"/home/john/.xinitrc",
+				"/home/john/.config/mondo/generator/alacritty/_mondo-template",
+				"/home/john/cfg/config/rofi/globals.rasi",
+				"/home/john/cfg/config/rofi/config",
+				"/home/john/cfg/scripts/tools/filesort",
+				"/home/john/.config/mondo/generator/sublime/_mondo-template",
+				"/home/john/.config/dwm/dwm.c",
+				"/home/john/.config/mondo/themes/comfy01",
+				"/home/john/.config/mondo/generator/dwm/_mondo-template",
+				"/home/john/.config/jgmenu/prepend.csv",
+				"/home/john/.config/mondo/generator/wallsh/_mondo-settings",
+				"/home/john/scr/tools/youdown",
+				"/home/john/.config/mondo/generator/alacrittyyml/_mondo-template",
+				"/home/john/.config/mondo/generator/mondotmTheme/_mondo-template",
 				"/home/john/.config/sublime-text-3/Packages/User/Notes.sublime-settings",
 				"/home/john/.config/sublime-text-3/Packages/PlainNotes/Notes.sublime-settings",
 				"/home/john/.config/sublime-text-3/Packages/User/GitGutter.sublime-settings",
@@ -112,6 +161,13 @@
 				"case_sensitive": false,
 				"find_history":
 				[
+					"attach",
+					"attachbelow",
+					"c->tags = m->tagset[m->seltags]; /* assign tags of target monitor */",
+					"spawn",
+					"0",
+					"\n\tattach(c)",
+					"\n\t"
 				],
 				"highlight": true,
 				"in_selection": false,
@@ -139,6 +195,10 @@
 			{
 				"height": 0.0
 			},
+			"output.exec":
+			{
+				"height": 183.0
+			},
 			"output.find_results":
 			{
 				"height": 0.0
@@ -147,10 +207,14 @@
 			{
 				"height": 84.0
 			},
-			"pinned_build_system": "",
+			"output.mdpopups":
+			{
+				"height": 0.0
+			},
+			"pinned_build_system": "Packages/Python/Python.sublime-build",
 			"replace":
 			{
-				"height": 68.0
+				"height": 38.0
 			},
 			"save_all_on_build": true,
 			"select_file":
@@ -170,7 +234,7 @@
 				[
 					[
 						"",
-						"~/doc/proj/school.sublime-project"
+						"~/doc/proj/config.sublime-project"
 					]
 				],
 				"width": 380.0
@@ -208,27 +272,42 @@
 			"buffers":
 			[
 				{
-					"file": "/home/john/.config/mondo/generator/wallsh/_mondo-settings",
+					"file": "/home/john/doc/src/Crq.tex",
 					"settings":
 					{
-						"buffer_size": 713,
+						"buffer_size": 305,
 						"encoding": "UTF-8",
 						"line_ending": "Unix"
 					}
 				},
 				{
-					"file": "/home/john/scr/tools/youdown",
+					"file": "/home/john/doc/src/itialianUnification.tex",
 					"settings":
 					{
-						"buffer_size": 452,
-						"encoding": "UTF-8",
+						"buffer_size": 1593,
 						"line_ending": "Unix"
 					}
 				}
 			],
-			"build_system": "",
+			"build_system": "Packages/LaTeXBox/support/LaTeX.sublime-build",
 			"build_system_choices":
 			[
+				[
+					[
+						[
+							"Packages/LaTeXBox/support/LaTeX.sublime-build",
+							""
+						],
+						[
+							"Packages/LaTeXBox/support/LaTeX.sublime-build",
+							"Force"
+						]
+					],
+					[
+						"Packages/LaTeXBox/support/LaTeX.sublime-build",
+						""
+					]
+				]
 			],
 			"build_varint": "",
 			"command_palette":
@@ -238,8 +317,20 @@
 				"selected_items":
 				[
 					[
+						"q",
+						"Quick File Move: Move Current File"
+					],
+					[
+						"install",
+						"Package Control: Install Package"
+					],
+					[
 						"w",
 						"Tasks: Archive within selection(s)"
+					],
+					[
+						"tutor",
+						"Sublime Tutor: Start"
 					],
 					[
 						"pro",
@@ -260,10 +351,6 @@
 					[
 						"reomv",
 						"Package Control: Remove Package"
-					],
-					[
-						"install",
-						"Package Control: Install Package"
 					],
 					[
 						"Package Control: ",
@@ -294,14 +381,22 @@
 			},
 			"expanded_folders":
 			[
-				"/home/john/bin",
-				"/home/john/scr",
-				"/home/john/scr/tools"
+				"/home/john/doc",
+				"/home/john/doc/pdf",
+				"/home/john/doc/proj",
+				"/home/john/doc/xls"
 			],
 			"file_history":
 			[
-				"/home/john/.config/mondo/generator/alacrittyyml/_mondo-template",
-				"/home/john/.config/mondo/generator/mondotmTheme/_mondo-template",
+				"/home/john/doc/src/venndiagram01.tex",
+				"/home/john/doc/src/Crq.tex",
+				"/home/john/.config/sublime-text-3/Packages/TeXPreview/TeXPreview (Linux).sublime-settings",
+				"/home/john/doc/src/Crq.pdf",
+				"/home/john/.config/sublime-text-3/Packages/TeXPreview/Default (Linux).sublime-keymap",
+				"/home/john/.config/sublime-text-3/Packages/User/TeXPreview (Linux).sublime-settings",
+				"/home/john/doc/proj/config.sublime-project",
+				"/home/john/doc/src/Imagery.tex",
+				"/home/john/doc/not/.brain/Inbox.note",
 				"/home/john/.config/sublime-text-3/Packages/User/Notes.sublime-settings",
 				"/home/john/.config/sublime-text-3/Packages/PlainNotes/Notes.sublime-settings",
 				"/home/john/.config/sublime-text-3/Packages/User/GitGutter.sublime-settings",
@@ -349,23 +444,26 @@
 					[
 						{
 							"buffer": 0,
-							"file": "/home/john/.config/mondo/generator/wallsh/_mondo-settings",
+							"file": "/home/john/doc/src/Crq.tex",
 							"semi_transient": false,
 							"settings":
 							{
-								"buffer_size": 713,
+								"buffer_size": 305,
 								"regions":
 								{
 								},
 								"selection":
 								[
 									[
-										702,
-										702
+										305,
+										305
 									]
 								],
 								"settings":
 								{
+									"SL.116.region_keys":
+									[
+									],
 									"apply_syntax_touched": true,
 									"git_gutter_is_enabled": true,
 									"syntax": "Packages/Text/Plain text.tmLanguage"
@@ -379,26 +477,23 @@
 						},
 						{
 							"buffer": 1,
-							"file": "/home/john/scr/tools/youdown",
-							"semi_transient": false,
+							"file": "/home/john/doc/src/itialianUnification.tex",
+							"semi_transient": true,
 							"settings":
 							{
-								"buffer_size": 452,
+								"buffer_size": 1593,
 								"regions":
 								{
 								},
 								"selection":
 								[
 									[
-										160,
-										160
+										0,
+										0
 									]
 								],
 								"settings":
 								{
-									"SL.286.region_keys":
-									[
-									],
 									"apply_syntax_touched": true,
 									"git_gutter_is_enabled": true,
 									"syntax": "Packages/Text/Plain text.tmLanguage"
@@ -443,22 +538,22 @@
 					1.0
 				]
 			},
-			"menu_visible": true,
+			"menu_visible": false,
 			"output.SublimeLinter":
 			{
 				"height": 0.0
+			},
+			"output.exec":
+			{
+				"height": 183.0
 			},
 			"output.find_results":
 			{
 				"height": 0.0
 			},
-			"output.jotter":
-			{
-				"height": 84.0
-			},
-			"pinned_build_system": "",
-			"position": "0,0,0,0,0,424,28,1351,753,2646,1024",
-			"project": "config",
+			"pinned_build_system": "Packages/LaTeXBox/support/LaTeX.sublime-build",
+			"position": "0,0,0,0,0,5,18,746,763,2646,1024",
+			"project": "school.sublime-project",
 			"replace":
 			{
 				"height": 68.0
@@ -481,7 +576,7 @@
 				[
 					[
 						"",
-						"~/doc/proj/config.sublime-project"
+						"~/doc/proj/school.sublime-project"
 					]
 				],
 				"width": 380.0
@@ -503,21 +598,22 @@
 			"show_open_files": true,
 			"show_tabs": true,
 			"side_bar_visible": true,
-			"side_bar_width": 264.0,
+			"side_bar_width": 229.0,
 			"status_bar_visible": true,
 			"template_settings":
 			{
 			},
-			"window_id": 28,
-			"workspace_name": "/home/john/doc/proj/config.sublime-workspace"
+			"window_id": 37,
+			"workspace_name": "/home/john/doc/proj/school.sublime-workspace"
 		}
 	],
 	"workspaces":
 	{
 		"recent_workspaces":
 		[
-			"/home/john/doc/proj/config.sublime-workspace",
 			"/home/john/doc/proj/school.sublime-workspace",
+			"/home/john/doc/proj/config.sublime-workspace",
+			"/home/john/doc/proj/cod.sublime-workspace",
 			"/home/john/.config/sublime-text-3/Packages/Sublime Tutor/tutorial/sublimetutor.sublime-workspace"
 		]
 	}

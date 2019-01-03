@@ -48,17 +48,17 @@ icon_size            = 11
 arrow_string        = ▸
 arrow_width         = 8
 
-color_menu_bg        = #002b36 100
-color_menu_fg        = #839496 100
+color_menu_bg        = #4b0025 100
+color_menu_fg        = #9da4ba 100
 #color_menu_border   = #1C2023 8
 
-color_norm_bg        = #002b36 0
-color_norm_fg        = #839496 100
+color_norm_bg        = #4b0025 0
+color_norm_fg        = #9da4ba 100
 
-color_sel_bg         = #859900 60
-color_sel_fg         = #b58900 100
+color_sel_bg         = #4D4678 60
+color_sel_fg         = #305289 100
 #color_sel_border    = #1C2023 8
 
-color_sep_fg         = #839496 40
+color_sep_fg         = #9da4ba 40
 
 #csv_name_format     = %n (%g)

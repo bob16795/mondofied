@@ -19,7 +19,9 @@
 		"Delete Current File",
 		"ExpandRegion",
 		"Extract Sublime Package",
+		"FileIcons",
 		"GitGutter",
+		"Gruvbox Dark",
 		"Horizontal Scroll",
 		"HTML-CSS-JS Prettify",
 		"Increment Selection",
@@ -48,6 +50,9 @@
 		"SublimeLinter-shellcheck",
 		"Table Editor",
 		"TeXPreview",
+		"Theme - Arc",
+		"Theme - Fladaptive",
+		"Theme - itg.flat",
 		"Zen Tabs"
 	],
 	"repositories":
