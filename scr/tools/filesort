@@ -1,0 +1,65 @@
+import os
+import subprocess
+import shutil
+def check(j):
+    if (j.decode("utf-8").split('.')[-1]) != j.decode("utf-8"):
+        return types.get(j.decode("utf-8").split('.')[-1], None)
+    else:
+        return types[None].get(j.decode("utf-8").split('/')[-1], None)
+paths = ["/home/john/dwn",
+        "/home/john/doc",
+        "/home/john/pix/Unsorted/",
+        "/home/john/rom/Unsorted"]
+
+types = {
+        "pdf":"/home/john/doc/pdf/",
+        "odt":"/home/john/doc/odt/",
+        "ods":"/home/john/doc/xls/",
+        "xlsx":"/home/john/doc/xls/",
+        "png":"/home/john/pix/Unsorted/",
+        "gif":"/home/john/pix/gif/",
+        "jpg":"/home/john/pix/Unsorted/",
+        "jpe":"/home/john/pix/Unsorted/",
+        "jpeg":"/home/john/pix/Unsorted/",
+        "part":"rm ",
+        "zip":"/home/john/doc/arc/",
+        "exe":"/home/john/exc/",
+        "msi":"/home/john/exc/",
+        "jar":"/home/john/exc/",
+        "sh" :"/home/john/exc/",
+        "apk":"/home/john/pho/apk/",
+        "7z" :"/home/john/doc/arc/",
+        "iso":"rm ",
+        "txt":"/home/john/doc/man/",
+        "html":"/home/john/doc/man/",
+        "md" :"/home/john/doc/man/",
+        "ms" :"/home/john/doc/src/",
+        "tex":"/home/john/doc/src/",
+        "bib":"/home/john/doc/cit/",
+        "nes":"/home/john/rom/nes/",
+        "smc":"/home/john/rom/snes/",
+        "sfc":"/home/john/rom/snes/",
+        None: {
+            "LICENSE":"/home/john/doc/man",
+            }
+        }
+
+for i in paths:
+    lol = subprocess.check_output(["tree","-N", "-f","-i", i])
+    nope = lol.split(b'\n')[1:-4]
+    for j in nope:
+        #print(j.decode("utf-8"))
+        if os.path.isfile(j.decode("utf-8")):
+            if not ".git" in j.decode("utf-8"):
+                checked = check(j)
+                if not checked is None:
+                    if not checked == "rm ":
+                        print("mv '{}' '{}'".format(j.decode("utf-8"),checked+j.decode("utf-8").split('/')[-1]))
+                    else:
+                        print(checked+"'"+j.decode("utf-8").split('/')[-1]+"'")
+pix = subprocess.check_output(["tree","-N", "-f","-i", "/home/john/pix/Unsorted"]).split(b'\n')[1:-4]
+#for i in pix:
+#    subprocess.call(["feh", i.decode("utf-8")])
+#    lol = subprocess.check_output(["/home/john/bin/rofipix"]).decode("utf-8").split("::")
+#    print("mv {} /home/john/pix/{}/{}$(ls /home/john/pix/{}/{}*.jpg | wc -l).jpg".format(i.decode("utf-8"), lol[0],lol[1] ,lol[0], lol[1]))
+    #print("feh {} && mv {} /home/john/pix/$( cd /home/john/pix && ls -d */ | cut -f1 -d'/'| rofi -dmenu)/$(rofi -dmenu)$(ls *.jpg | wc -l).png".format(i.decode("utf-8"),i.decode("utf-8")))

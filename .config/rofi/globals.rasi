@@ -1,9 +1,9 @@
 * {
-accent: #5A5F92;
-bg1: #091234;
-bg2: #956F90;
-fg1: #2D4D8E;
-fg2: #1A7AC3;
+accent: #859900;
+bg1: #002b36;
+bg2: #268bd2;
+fg1: #839496;
+fg2: #b58900;
 redish: #dc322f;
 font1: "scientifica 12";
 }

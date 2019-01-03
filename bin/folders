@@ -1,9 +1,0 @@
-# You can add comments to these files with #
-d	~/dox
-D	~/dwn
-m	~/mus
-pp	~/pix
-vv	~/vid
-s	~/bin
-cf	~/.config
-mon ~/.config/mondo

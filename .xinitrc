@@ -19,7 +19,7 @@ dockd --daemon &
 #glava &
 alacritty --class visual -e vis &
 steam &
-~/bin/wall.sh &
+~/scr/wall.sh &
 sublime &
 #exec awesome
 exec dwm

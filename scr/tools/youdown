@@ -1,0 +1,18 @@
+declare -i k;
+((k==0))
+for i in `cat ~/snd/youtube.txt`
+do
+	((k+=1)) && youtube-dl $i --download-archive ~/snd/archive -x --add-metadata -o "~/snd/%(uploader)s/%(title)s.%(ext)s" |grep download &
+done
+# --audio-format mp3
+wait
+
+declare -i k;
+((k==0))
+for i in `cat ~/vid/youtube.txt`
+do
+	((k+=1)) && youtube-dl $i --download-archive ~/vid/archive --add-metadata -o ~/Videos/%\(title\)s.%\(ext\)s -f 18 | grep download &
+done
+# --audio-format mp3
+wait
+

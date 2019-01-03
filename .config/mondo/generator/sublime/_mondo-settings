@@ -19,4 +19,4 @@
 
 # target can be an (absolute) file path to where
 # the file will be copied when a theme is applied.
-target="~/.config/sublime-text-3/Packages/User/DA Theme.sublime-settings"
+target=".config/sublime-text-3/Packages/mondo/mondo.tmTheme"

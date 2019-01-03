@@ -22,6 +22,7 @@
 							"installed"		"1"
 							"Updating"		"0"
 							"Running"		"0"
+							"name"		"Starbound"
 						}
 						"245470"
 						{
@@ -40,6 +41,7 @@
 							"installed"		"1"
 							"Updating"		"0"
 							"Running"		"0"
+							"name"		"Besiege"
 						}
 						"367540"
 						{
@@ -55,6 +57,10 @@
 						}
 					}
 					"RunningAppID"		"0"
+					"AutoLoginUser"		"preston3410"
+					"RememberPassword"		"1"
+					"SourceModInstallPath"		"/home/john/.local/share/Steam/steamapps\sourcemods"
+					"AlreadyRetriedOfflineMode"		"0"
 				}
 			}
 		}
@@ -67,7 +73,7 @@
 			{
 				"Steam"
 				{
-					"SteamPID"		"24787"
+					"SteamPID"		"27475"
 					"TempAppCmdLine"		""
 				}
 			}
