@@ -8,11 +8,28 @@
 	"buffers":
 	[
 		{
-			"file": "/home/john/cfg/scripts/tools/filesort",
+			"file": "/home/john/.config/mondo/themes/Antepenultimata",
 			"settings":
 			{
-				"buffer_size": 3296,
+				"buffer_size": 322,
 				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/home/john/cfg/scripts/install.sh",
+			"settings":
+			{
+				"buffer_size": 187,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/home/john/.config/mondo/colors",
+			"settings":
+			{
+				"buffer_size": 128,
 				"line_ending": "Unix"
 			}
 		}
@@ -114,10 +131,13 @@
 	"expanded_folders":
 	[
 		"/home/john/cfg",
-		"/home/john/cfg/scripts"
+		"/home/john/cfg/scripts",
+		"/home/john/.config/mondo",
+		"/home/john/.config/mondo/themes"
 	],
 	"file_history":
 	[
+		"/home/john/cfg/scripts/tools/filesort",
 		"/home/john/cfg/config/rofi/bmenu.rasi",
 		"/home/john/.config/mondo/generator/rofi/_mondo-template",
 		"/home/john/.config/mondo/post-apply",
@@ -125,7 +145,6 @@
 		"/home/john/.config/mondo/generator/alacritty/_mondo-template",
 		"/home/john/cfg/config/rofi/globals.rasi",
 		"/home/john/cfg/config/rofi/config",
-		"/home/john/cfg/scripts/tools/filesort",
 		"/home/john/.config/mondo/generator/sublime/_mondo-template",
 		"/home/john/.config/dwm/dwm.c",
 		"/home/john/.config/mondo/themes/comfy01",
@@ -184,29 +203,29 @@
 	"groups":
 	[
 		{
-			"selected": 0,
+			"selected": 1,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "/home/john/cfg/scripts/tools/filesort",
+					"file": "/home/john/.config/mondo/themes/Antepenultimata",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 3296,
+						"buffer_size": 322,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1255,
-								1255
+								219,
+								219
 							]
 						],
 						"settings":
 						{
-							"SL.21.region_keys":
+							"SL.161.region_keys":
 							[
 							],
 							"apply_syntax_touched": true,
@@ -214,10 +233,385 @@
 							"syntax": "Packages/Text/Plain text.tmLanguage"
 						},
 						"translation.x": 0.0,
-						"translation.y": 154.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "/home/john/cfg/scripts/install.sh",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 187,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								187,
+								187
+							]
+						],
+						"settings":
+						{
+							"apply_syntax_touched": true,
+							"git_gutter_is_enabled": true,
+							"syntax": "Packages/ShellScript/Shell-Unix-Generic.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		},
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 2,
+					"file": "/home/john/.config/mondo/colors",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 128,
+						"regions":
+						{
+							"col_3F2043FF":
+							{
+								"flags": 16,
+								"regions":
+								[
+									[
+										0,
+										7
+									]
+								],
+								"scope": "col_3F2043FF"
+							},
+							"col_3F2043FF_icon":
+							{
+								"flags": 16,
+								"icon": "Packages/User/Color Highlight.cache/col_3F2043FF_circle.png",
+								"regions":
+								[
+									[
+										0,
+										0
+									]
+								],
+								"scope": "col_gutter"
+							},
+							"col_402144FF":
+							{
+								"flags": 16,
+								"regions":
+								[
+									[
+										0,
+										7
+									]
+								],
+								"scope": "col_402144FF"
+							},
+							"col_402144FF_icon":
+							{
+								"flags": 16,
+								"icon": "Packages/User/Color Highlight.cache/col_402144FF_circle.png",
+								"regions":
+								[
+									[
+										0,
+										0
+									]
+								],
+								"scope": "col_gutter"
+							},
+							"col_A1889EFF":
+							{
+								"flags": 16,
+								"regions":
+								[
+									[
+										64,
+										71
+									]
+								],
+								"scope": "col_A1889EFF"
+							},
+							"col_A1889EFF_icon":
+							{
+								"flags": 16,
+								"icon": "Packages/User/Color Highlight.cache/col_A1889EFF_circle.png",
+								"regions":
+								[
+									[
+										64,
+										64
+									]
+								],
+								"scope": "col_gutter"
+							},
+							"col_B16AD9FF":
+							{
+								"flags": 16,
+								"regions":
+								[
+									[
+										8,
+										15
+									],
+									[
+										72,
+										79
+									]
+								],
+								"scope": "col_B16AD9FF"
+							},
+							"col_B16AD9FF_icon":
+							{
+								"flags": 16,
+								"icon": "Packages/User/Color Highlight.cache/col_B16AD9FF_circle.png",
+								"regions":
+								[
+									[
+										8,
+										8
+									],
+									[
+										72,
+										72
+									]
+								],
+								"scope": "col_gutter"
+							},
+							"col_BC85D2FF":
+							{
+								"flags": 16,
+								"regions":
+								[
+									[
+										48,
+										55
+									],
+									[
+										112,
+										119
+									]
+								],
+								"scope": "col_BC85D2FF"
+							},
+							"col_BC85D2FF_icon":
+							{
+								"flags": 16,
+								"icon": "Packages/User/Color Highlight.cache/col_BC85D2FF_circle.png",
+								"regions":
+								[
+									[
+										48,
+										48
+									],
+									[
+										112,
+										112
+									]
+								],
+								"scope": "col_gutter"
+							},
+							"col_D373CCFF":
+							{
+								"flags": 16,
+								"regions":
+								[
+									[
+										16,
+										23
+									],
+									[
+										80,
+										87
+									]
+								],
+								"scope": "col_D373CCFF"
+							},
+							"col_D373CCFF_icon":
+							{
+								"flags": 16,
+								"icon": "Packages/User/Color Highlight.cache/col_D373CCFF_circle.png",
+								"regions":
+								[
+									[
+										16,
+										16
+									],
+									[
+										80,
+										80
+									]
+								],
+								"scope": "col_gutter"
+							},
+							"col_D9A3A0FF":
+							{
+								"flags": 16,
+								"regions":
+								[
+									[
+										24,
+										31
+									],
+									[
+										88,
+										95
+									]
+								],
+								"scope": "col_D9A3A0FF"
+							},
+							"col_D9A3A0FF_icon":
+							{
+								"flags": 16,
+								"icon": "Packages/User/Color Highlight.cache/col_D9A3A0FF_circle.png",
+								"regions":
+								[
+									[
+										24,
+										24
+									],
+									[
+										88,
+										88
+									]
+								],
+								"scope": "col_gutter"
+							},
+							"col_E7C3E3FF":
+							{
+								"flags": 16,
+								"regions":
+								[
+									[
+										56,
+										63
+									],
+									[
+										120,
+										127
+									]
+								],
+								"scope": "col_E7C3E3FF"
+							},
+							"col_E7C3E3FF_icon":
+							{
+								"flags": 16,
+								"icon": "Packages/User/Color Highlight.cache/col_E7C3E3FF_circle.png",
+								"regions":
+								[
+									[
+										56,
+										56
+									],
+									[
+										120,
+										120
+									]
+								],
+								"scope": "col_gutter"
+							},
+							"col_F1D59AFF":
+							{
+								"flags": 16,
+								"regions":
+								[
+									[
+										32,
+										39
+									],
+									[
+										96,
+										103
+									]
+								],
+								"scope": "col_F1D59AFF"
+							},
+							"col_F1D59AFF_icon":
+							{
+								"flags": 16,
+								"icon": "Packages/User/Color Highlight.cache/col_F1D59AFF_circle.png",
+								"regions":
+								[
+									[
+										32,
+										32
+									],
+									[
+										96,
+										96
+									]
+								],
+								"scope": "col_gutter"
+							},
+							"col_F4DCA0FF":
+							{
+								"flags": 16,
+								"regions":
+								[
+									[
+										40,
+										47
+									],
+									[
+										104,
+										111
+									]
+								],
+								"scope": "col_F4DCA0FF"
+							},
+							"col_F4DCA0FF_icon":
+							{
+								"flags": 16,
+								"icon": "Packages/User/Color Highlight.cache/col_F4DCA0FF_circle.png",
+								"regions":
+								[
+									[
+										40,
+										40
+									],
+									[
+										104,
+										104
+									]
+								],
+								"scope": "col_gutter"
+							}
+						},
+						"selection":
+						[
+							[
+								102,
+								102
+							]
+						],
+						"settings":
+						{
+							"SL.164.region_keys":
+							[
+							],
+							"apply_syntax_touched": true,
+							"git_gutter_is_enabled": true,
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
 					"type": "text"
 				}
 			]
@@ -240,11 +634,18 @@
 				0,
 				1,
 				1
+			],
+			[
+				1,
+				0,
+				2,
+				1
 			]
 		],
 		"cols":
 		[
 			0.0,
+			0.5,
 			1.0
 		],
 		"rows":
@@ -253,7 +654,7 @@
 			1.0
 		]
 	},
-	"menu_visible": true,
+	"menu_visible": false,
 	"output.SublimeLinter":
 	{
 		"height": 0.0

@@ -1,0 +1,16 @@
+!! Theme:    deer
+!! Author:   john
+!! Created:  2019-01-01
+
+color_bg     402144
+color_fg     B16AD9
+color_2      D373CC
+color_3      D9A3A0
+color_4      F1D59A
+color_5      F4DCA0
+color_6      BC85D2
+color_7      E7C3E3
+color_8      A1889E
+bg           ~/pix/Unsorted/Antepenultimata.png
+alpha        0.5
+alpha_hex    80

@@ -11,4 +11,7 @@ x-scheme-handler/discord-378347429537251328=discord-378347429537251328.desktop
 x-scheme-handler/http=exo-web-browser.desktop
 x-scheme-handler/https=exo-web-browser.desktop
 x-scheme-handler/mailto=exo-mail-reader.desktop
-
+text/plain=vim.desktop;
+text/markdown=vim.desktop;
+image/png=feh.desktop;
+application/xml=qutebrowser.desktop;

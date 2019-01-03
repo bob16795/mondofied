@@ -1,4 +1,0 @@
-# OB_Autostart config
-LAUNCH_LIST = [
-	 ("Window switcher","skippy-xd --config $HOME/.config/skippy-xd/skippy-xd.rc --start-daemon","1","*"),
-	]

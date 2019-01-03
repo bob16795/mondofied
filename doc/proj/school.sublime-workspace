@@ -8,10 +8,20 @@
 	"buffers":
 	[
 		{
-			"file": "/home/john/doc/src/Crq.run.xml",
+			"file": "/home/john/doc/src/Crq.tex",
 			"settings":
 			{
-				"buffer_size": 2353,
+				"buffer_size": 305,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/home/john/doc/xls/lang.ods",
+			"settings":
+			{
+				"buffer_size": 38945,
+				"encoding": "Hexadecimal",
 				"line_ending": "Unix"
 			}
 		}
@@ -92,9 +102,10 @@
 	},
 	"console":
 	{
-		"height": 0.0,
+		"height": 112.0,
 		"history":
 		[
+			"ls"
 		]
 	},
 	"distraction_free":
@@ -108,13 +119,12 @@
 	},
 	"expanded_folders":
 	[
-		"/home/john/doc",
-		"/home/john/doc/src"
+		"/home/john/doc"
 	],
 	"file_history":
 	[
-		"/home/john/doc/src/Crq.tex",
 		"/home/john/doc/src/venndiagram01.tex",
+		"/home/john/doc/src/Crq.tex",
 		"/home/john/.config/sublime-text-3/Packages/TeXPreview/TeXPreview (Linux).sublime-settings",
 		"/home/john/doc/src/Crq.pdf",
 		"/home/john/.config/sublime-text-3/Packages/TeXPreview/Default (Linux).sublime-keymap",
@@ -169,11 +179,44 @@
 			[
 				{
 					"buffer": 0,
-					"file": "/home/john/doc/src/Crq.run.xml",
+					"file": "/home/john/doc/src/Crq.tex",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 305,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								305,
+								305
+							]
+						],
+						"settings":
+						{
+							"SL.116.region_keys":
+							[
+							],
+							"apply_syntax_touched": true,
+							"git_gutter_is_enabled": true,
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "/home/john/doc/xls/lang.ods",
 					"semi_transient": true,
 					"settings":
 					{
-						"buffer_size": 2353,
+						"buffer_size": 38945,
 						"regions":
 						{
 						},
@@ -187,14 +230,13 @@
 						"settings":
 						{
 							"apply_syntax_touched": true,
-							"git_gutter_is_enabled": true,
-							"syntax": "Packages/XML/XML.sublime-syntax"
+							"syntax": "Packages/Text/Plain text.tmLanguage"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 0,
+					"stack_index": 1,
 					"type": "text"
 				}
 			]
@@ -233,7 +275,7 @@
 	"menu_visible": false,
 	"output.SublimeLinter":
 	{
-		"height": 0.0
+		"height": 84.0
 	},
 	"output.exec":
 	{

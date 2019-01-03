@@ -1,0 +1,749 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"Bak",
+				"-Backspace"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "/home/john/cfg/config/dwm/install.sh",
+			"settings":
+			{
+				"buffer_size": 241,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/home/john/cfg/config/dwm/config.h",
+			"settings":
+			{
+				"buffer_size": 15403,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/home/john/doc/not/Todo_dwm.note",
+			"settings":
+			{
+				"buffer_size": 0,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "Packages/Makefile/Make.sublime-build",
+	"build_system_choices":
+	[
+		[
+			[
+				[
+					"Packages/Makefile/Make.sublime-build",
+					""
+				],
+				[
+					"Packages/Makefile/Make.sublime-build",
+					"Clean"
+				]
+			],
+			[
+				"Packages/Makefile/Make.sublime-build",
+				""
+			]
+		]
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: ",
+				"Package Control: Install Package"
+			],
+			[
+				"w",
+				"Tasks: Archive within selection(s)"
+			],
+			[
+				"pro",
+				"Project Manager: Add New Project"
+			],
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"open",
+				"View: Toggle Open Files in Side Bar"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"reomv",
+				"Package Control: Remove Package"
+			],
+			[
+				"color",
+				"Package Control: Remove Package"
+			]
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 112.0,
+		"history":
+		[
+			"subprocess.call([\"man\", \"dwm.1\"])",
+			"subprocess.call(man",
+			"import subprocess",
+			"import OS",
+			"os",
+			"man"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/home/john/cfg/config/dwm"
+	],
+	"file_history":
+	[
+		"/home/john/doc/proj/dwm.sublime-project",
+		"/home/john/doc/not/lol.note",
+		"/home/john/doc/not/todo.note",
+		"/home/john/.config/sublime-text-3/Packages/PlainNotes/Notes.sublime-settings",
+		"/home/john/.config/sublime-text-3/Packages/User/Notes.sublime-settings",
+		"/home/john/.config/sublime-text-3/Packages/mondo/mondo.tmTheme",
+		"/home/john/doc/not/create install script.note",
+		"/home/john/cfg/config/dwm/dwm.1",
+		"/home/john/.config/sublime-text-3/Packages/Terminal/Terminal.sublime-settings",
+		"/home/john/cfg/config/dwm/dwm",
+		"/home/john/cod/python/polynomial.py",
+		"/home/john/cod/python/nes/ppu.py",
+		"/home/john/cod/python/lol",
+		"/home/john/cod/python/nes/!",
+		"/home/john/.config/dwm/dwm.c",
+		"/home/john/.config/mondo/themes/comfy01",
+		"/home/john/.config/mondo/generator/dwm/_mondo-template",
+		"/home/john/.config/jgmenu/prepend.csv",
+		"/home/john/.config/mondo/generator/rofi/_mondo-template",
+		"/home/john/.config/mondo/generator/alacritty/_mondo-template",
+		"/home/john/.config/mondo/generator/sublime/_mondo-template",
+		"/home/john/.config/mondo/generator/wallsh/_mondo-settings",
+		"/home/john/scr/tools/youdown",
+		"/home/john/.config/mondo/generator/alacrittyyml/_mondo-template",
+		"/home/john/.config/mondo/generator/mondotmTheme/_mondo-template",
+		"/home/john/.config/sublime-text-3/Packages/User/GitGutter.sublime-settings",
+		"/home/john/.config/sublime-text-3/Packages/GitGutter/GitGutter.sublime-settings",
+		"/home/john/bin/cb-large",
+		"/home/john/.config/mondo/themes/light",
+		"/home/john/.config/mondo/themes/solarized-dark",
+		"/home/john/.config/sublime-text-3/Packages/User/Package Control.sublime-settings"
+	],
+	"find":
+	{
+		"height": 21.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"freely",
+			"attach",
+			"attachbelow",
+			"c->tags = m->tagset[m->seltags]; /* assign tags of target monitor */",
+			"spawn",
+			"0",
+			"\n\tattach(c)",
+			"\n\t"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 1,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "/home/john/cfg/config/dwm/install.sh",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 241,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								241,
+								241
+							]
+						],
+						"settings":
+						{
+							"apply_syntax_touched": true,
+							"git_gutter_is_enabled": true,
+							"syntax": "Packages/ShellScript/Shell-Unix-Generic.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "/home/john/cfg/config/dwm/config.h",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 15403,
+						"regions":
+						{
+							"col_1008FF11":
+							{
+								"flags": 16,
+								"regions":
+								[
+									[
+										11133,
+										11143
+									],
+									[
+										11216,
+										11226
+									]
+								],
+								"scope": "col_1008FF11"
+							},
+							"col_1008FF11_icon":
+							{
+								"flags": 16,
+								"icon": "Packages/User/Color Highlight.cache/col_1008FF11_circle.png",
+								"regions":
+								[
+									[
+										11100,
+										11100
+									],
+									[
+										11183,
+										11183
+									]
+								],
+								"scope": "col_gutter"
+							},
+							"col_1008FF12":
+							{
+								"flags": 16,
+								"regions":
+								[
+									[
+										10971,
+										10981
+									]
+								],
+								"scope": "col_1008FF12"
+							},
+							"col_1008FF12_icon":
+							{
+								"flags": 16,
+								"icon": "Packages/User/Color Highlight.cache/col_1008FF12_circle.png",
+								"regions":
+								[
+									[
+										10938,
+										10938
+									]
+								],
+								"scope": "col_gutter"
+							},
+							"col_1008FF13":
+							{
+								"flags": 16,
+								"regions":
+								[
+									[
+										11300,
+										11310
+									],
+									[
+										11381,
+										11391
+									]
+								],
+								"scope": "col_1008FF13"
+							},
+							"col_1008FF13_icon":
+							{
+								"flags": 16,
+								"icon": "Packages/User/Color Highlight.cache/col_1008FF13_circle.png",
+								"regions":
+								[
+									[
+										11267,
+										11267
+									],
+									[
+										11348,
+										11348
+									]
+								],
+								"scope": "col_gutter"
+							},
+							"col_1008FF14":
+							{
+								"flags": 16,
+								"regions":
+								[
+									[
+										11521,
+										11531
+									]
+								],
+								"scope": "col_1008FF14"
+							},
+							"col_1008FF14_icon":
+							{
+								"flags": 16,
+								"icon": "Packages/User/Color Highlight.cache/col_1008FF14_circle.png",
+								"regions":
+								[
+									[
+										11512,
+										11512
+									]
+								],
+								"scope": "col_gutter"
+							},
+							"col_1008FF16":
+							{
+								"flags": 16,
+								"regions":
+								[
+									[
+										11685,
+										11695
+									]
+								],
+								"scope": "col_1008FF16"
+							},
+							"col_1008FF16_icon":
+							{
+								"flags": 16,
+								"icon": "Packages/User/Color Highlight.cache/col_1008FF16_circle.png",
+								"regions":
+								[
+									[
+										11652,
+										11652
+									]
+								],
+								"scope": "col_gutter"
+							},
+							"col_1008FF17":
+							{
+								"flags": 16,
+								"regions":
+								[
+									[
+										11604,
+										11614
+									]
+								],
+								"scope": "col_1008FF17"
+							},
+							"col_1008FF17_icon":
+							{
+								"flags": 16,
+								"icon": "Packages/User/Color Highlight.cache/col_1008FF17_circle.png",
+								"regions":
+								[
+									[
+										11571,
+										11571
+									]
+								],
+								"scope": "col_gutter"
+							},
+							"col_1008FF31":
+							{
+								"flags": 16,
+								"regions":
+								[
+									[
+										11463,
+										11473
+									]
+								],
+								"scope": "col_1008FF31"
+							},
+							"col_1008FF31_icon":
+							{
+								"flags": 16,
+								"icon": "Packages/User/Color Highlight.cache/col_1008FF31_circle.png",
+								"regions":
+								[
+									[
+										11430,
+										11430
+									]
+								],
+								"scope": "col_gutter"
+							},
+							"col_1008FFB2":
+							{
+								"flags": 16,
+								"regions":
+								[
+									[
+										11052,
+										11062
+									]
+								],
+								"scope": "col_1008FFB2"
+							},
+							"col_1008FFB2_icon":
+							{
+								"flags": 16,
+								"icon": "Packages/User/Color Highlight.cache/col_1008FFB2_circle.png",
+								"regions":
+								[
+									[
+										11019,
+										11019
+									]
+								],
+								"scope": "col_gutter"
+							},
+							"col_3F2043FF":
+							{
+								"flags": 16,
+								"regions":
+								[
+									[
+										564,
+										571
+									]
+								],
+								"scope": "col_3F2043FF"
+							},
+							"col_3F2043FF_icon":
+							{
+								"flags": 16,
+								"icon": "Packages/User/Color Highlight.cache/col_3F2043FF_circle.png",
+								"regions":
+								[
+									[
+										525,
+										525
+									]
+								],
+								"scope": "col_gutter"
+							},
+							"col_B16AD9FF":
+							{
+								"flags": 16,
+								"regions":
+								[
+									[
+										662,
+										669
+									]
+								],
+								"scope": "col_B16AD9FF"
+							},
+							"col_B16AD9FF_icon":
+							{
+								"flags": 16,
+								"icon": "Packages/User/Color Highlight.cache/col_B16AD9FF_circle.png",
+								"regions":
+								[
+									[
+										623,
+										623
+									]
+								],
+								"scope": "col_gutter"
+							},
+							"col_D9A3A0FF":
+							{
+								"flags": 16,
+								"regions":
+								[
+									[
+										760,
+										767
+									]
+								],
+								"scope": "col_D9A3A0FF"
+							},
+							"col_D9A3A0FF_icon":
+							{
+								"flags": 16,
+								"icon": "Packages/User/Color Highlight.cache/col_D9A3A0FF_circle.png",
+								"regions":
+								[
+									[
+										721,
+										721
+									]
+								],
+								"scope": "col_gutter"
+							},
+							"col_F1D59AFF":
+							{
+								"flags": 16,
+								"regions":
+								[
+									[
+										711,
+										718
+									]
+								],
+								"scope": "col_F1D59AFF"
+							},
+							"col_F1D59AFF_icon":
+							{
+								"flags": 16,
+								"icon": "Packages/User/Color Highlight.cache/col_F1D59AFF_circle.png",
+								"regions":
+								[
+									[
+										672,
+										672
+									]
+								],
+								"scope": "col_gutter"
+							},
+							"col_F4DCA0FF":
+							{
+								"flags": 16,
+								"regions":
+								[
+									[
+										613,
+										620
+									]
+								],
+								"scope": "col_F4DCA0FF"
+							},
+							"col_F4DCA0FF_icon":
+							{
+								"flags": 16,
+								"icon": "Packages/User/Color Highlight.cache/col_F4DCA0FF_circle.png",
+								"regions":
+								[
+									[
+										574,
+										574
+									]
+								],
+								"scope": "col_gutter"
+							}
+						},
+						"selection":
+						[
+							[
+								4602,
+								4602
+							]
+						],
+						"settings":
+						{
+							"apply_syntax_touched": true,
+							"git_gutter_is_enabled": true,
+							"syntax": "Packages/C++/C++.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 792.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "/home/john/doc/not/Todo_dwm.note",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 0,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"apply_syntax_touched": true,
+							"color_scheme": "Packages/mondo/mondo.tmTheme",
+							"git_gutter_is_enabled": true,
+							"is_note": true,
+							"syntax": "Packages/PlainNotes/Note.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 20.0
+	},
+	"input":
+	{
+		"height": 32.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": false,
+	"output.SublimeLinter":
+	{
+		"height": 84.0
+	},
+	"output.exec":
+	{
+		"height": 165.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.jotter":
+	{
+		"height": 84.0
+	},
+	"output.mdpopups":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "Packages/Makefile/Make.sublime-build",
+	"project": "dwm.sublime-project",
+	"replace":
+	{
+		"height": 38.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"~/doc/proj/config.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 264.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

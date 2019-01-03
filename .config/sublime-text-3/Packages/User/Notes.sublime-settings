@@ -5,7 +5,9 @@
 	"jotter_date_format": "%d %b %Y",
 	"jotter_dir": ".brain",
 	"jotter_time_format": "%I:%M %p",
-	"list_options":
+	"note_color_scheme": "Packages/mondo/mondo.tmTheme",
+  "jotter_color_scheme": "Packages/mondo/mondo.tmTheme",
+  "list_options":
 	{
 		"display_folder": false,
 		"display_full_path": false,
