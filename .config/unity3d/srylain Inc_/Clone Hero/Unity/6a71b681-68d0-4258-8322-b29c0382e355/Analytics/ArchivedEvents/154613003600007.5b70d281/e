@@ -1,6 +1,0 @@
-{"type":"analytics.appRunning.v1","msg":{"ts":1546130036699,"duration":0,"local_time_offset":18000000}}
-{"type":"analytics.appRunning.v1","msg":{"ts":1546130156004,"duration":119,"local_time_offset":18000000}}
-{"type":"analytics.custom.v1","msg":{"ts":1546130185495,"name":"level_complete","custom_params":{"level_name":"Soulless 5","stars":3,"score":265804,"artist":"ExileLord","song":"Soulless 5","year":"2018","genre":"Suffering","charter":"Various","has_bots":false}}}
-{"type":"analytics.custom.v1","msg":{"ts":1546130187851,"name":"game_start","custom_params":{"player_count":1,"is_practice":false,"instrument_name_0":"Guitar","difficulty_name_0":"Easy","has_bots":false}}}
-{"type":"analytics.appRunning.v1","msg":{"ts":1546130234370,"duration":197,"local_time_offset":18000000}}
-(1){"type":"analytics.appStop.v1","msg":{"ts":1546130234370}}

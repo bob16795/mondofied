@@ -1,2 +1,2 @@
 #!/bin/bash
-feh --bg-scale ~/pix/solarized-light.png
+feh --bg-fill ~/pix/solarized-light.png

@@ -37,7 +37,7 @@ configuration {
 
 #entry {
     expand:     false;
-    width:      10em;
+    width:      1em;
 }
 
 #element {

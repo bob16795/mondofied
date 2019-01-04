@@ -4,11 +4,5 @@
     }, 
     "Todo_dwm.note": {
         "color_scheme": "Packages/mondo/mondo.tmTheme"
-    }, 
-    "lol.note": {
-        "color_scheme": "Packages/mondo/mondo.tmTheme"
-    }, 
-    "todo.note": {
-        "color_scheme": "Packages/PlainNotes/Color Schemes/Sticky-Yellow.tmTheme"
     }
 }

@@ -1,2 +1,2 @@
 #!/bin/bash
-feh --bg-scale ~/pix/Titans/crag_dragon.png
+feh --bg-fill ~/pix/Titans/crag_dragon.png

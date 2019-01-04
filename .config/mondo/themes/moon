@@ -12,5 +12,5 @@ color_6      A7BCC8
 color_7      cedadf
 color_8      90989c
 bg           ~/pix/moon.png
-alpha        0.0
-alpha_hex    00
+alpha        0d.5
+alpha_hex    88

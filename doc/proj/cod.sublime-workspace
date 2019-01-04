@@ -191,6 +191,12 @@
 						],
 						"settings":
 						{
+							"SL.177.region_keys":
+							[
+							],
+							"SL.180.region_keys":
+							[
+							],
 							"SL.185.region_keys":
 							[
 							],
@@ -238,7 +244,7 @@
 			1.0
 		]
 	},
-	"menu_visible": true,
+	"menu_visible": false,
 	"output.SublimeLinter":
 	{
 		"height": 0.0
@@ -250,6 +256,10 @@
 	"output.find_results":
 	{
 		"height": 0.0
+	},
+	"output.jotter":
+	{
+		"height": 84.0
 	},
 	"pinned_build_system": "Packages/Python/Python.sublime-build",
 	"project": "cod.sublime-project",

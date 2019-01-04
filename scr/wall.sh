@@ -1,2 +1,2 @@
 #!/bin/bash
-feh --bg-scale ~/pix/Unsorted/Antepenultimata.png
+feh --bg-fill ~/pix/Vibrant/light.jpg

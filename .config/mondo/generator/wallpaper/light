@@ -1,2 +1,2 @@
 #!/bin/bash
-feh --bg-scale ~/pix/Vibrant/light.jpg
+feh --bg-fill ~/pix/Vibrant/light.jpg

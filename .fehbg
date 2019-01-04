@@ -1,2 +1,2 @@
 #!/bin/sh
-feh --bg-scale '/home/john/pix/Unsorted/Antepenultimata.png' 
+feh --bg-fill '/home/john/pix/Vibrant/light.jpg' 

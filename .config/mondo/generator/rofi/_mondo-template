@@ -1,6 +1,6 @@
 * {
-accent: #%%color_3%%;
-bg1: #%%color_4%%;
+accent: #%%color_4%%;
+bg1: #%%color_3%%;
 bg2: #%%color_5%%;
 fg1: #%%color_bg%%;
 fg2: #%%color_fg%%;

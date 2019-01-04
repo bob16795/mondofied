@@ -247,6 +247,31 @@
 						"buffer_size": 15403,
 						"regions":
 						{
+							"col_012A35FF":
+							{
+								"flags": 16,
+								"regions":
+								[
+									[
+										564,
+										571
+									]
+								],
+								"scope": "col_012A35FF"
+							},
+							"col_012A35FF_icon":
+							{
+								"flags": 16,
+								"icon": "Packages/User/Color Highlight.cache/col_012A35FF_circle.png",
+								"regions":
+								[
+									[
+										525,
+										525
+									]
+								],
+								"scope": "col_gutter"
+							},
 							"col_1008FF11":
 							{
 								"flags": 16,
@@ -463,6 +488,31 @@
 								],
 								"scope": "col_gutter"
 							},
+							"col_268BD2FF":
+							{
+								"flags": 16,
+								"regions":
+								[
+									[
+										613,
+										620
+									]
+								],
+								"scope": "col_268BD2FF"
+							},
+							"col_268BD2FF_icon":
+							{
+								"flags": 16,
+								"icon": "Packages/User/Color Highlight.cache/col_268BD2FF_circle.png",
+								"regions":
+								[
+									[
+										574,
+										574
+									]
+								],
+								"scope": "col_gutter"
+							},
 							"col_3F2043FF":
 							{
 								"flags": 16,
@@ -488,6 +538,56 @@
 								],
 								"scope": "col_gutter"
 							},
+							"col_839496FF":
+							{
+								"flags": 16,
+								"regions":
+								[
+									[
+										662,
+										669
+									]
+								],
+								"scope": "col_839496FF"
+							},
+							"col_839496FF_icon":
+							{
+								"flags": 16,
+								"icon": "Packages/User/Color Highlight.cache/col_839496FF_circle.png",
+								"regions":
+								[
+									[
+										623,
+										623
+									]
+								],
+								"scope": "col_gutter"
+							},
+							"col_859900FF":
+							{
+								"flags": 16,
+								"regions":
+								[
+									[
+										760,
+										767
+									]
+								],
+								"scope": "col_859900FF"
+							},
+							"col_859900FF_icon":
+							{
+								"flags": 16,
+								"icon": "Packages/User/Color Highlight.cache/col_859900FF_circle.png",
+								"regions":
+								[
+									[
+										721,
+										721
+									]
+								],
+								"scope": "col_gutter"
+							},
 							"col_B16AD9FF":
 							{
 								"flags": 16,
@@ -509,6 +609,31 @@
 									[
 										623,
 										623
+									]
+								],
+								"scope": "col_gutter"
+							},
+							"col_B58900FF":
+							{
+								"flags": 16,
+								"regions":
+								[
+									[
+										711,
+										718
+									]
+								],
+								"scope": "col_B58900FF"
+							},
+							"col_B58900FF_icon":
+							{
+								"flags": 16,
+								"icon": "Packages/User/Color Highlight.cache/col_B58900FF_circle.png",
+								"regions":
+								[
+									[
+										672,
+										672
 									]
 								],
 								"scope": "col_gutter"
@@ -592,8 +717,8 @@
 						"selection":
 						[
 							[
-								4602,
-								4602
+								4600,
+								4600
 							]
 						],
 						"settings":
