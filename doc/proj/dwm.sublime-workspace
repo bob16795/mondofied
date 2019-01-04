@@ -28,14 +28,6 @@
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
-		},
-		{
-			"file": "/home/john/cfg/config/dwm/config.mk",
-			"settings":
-			{
-				"buffer_size": 936,
-				"line_ending": "Unix"
-			}
 		}
 	],
 	"build_system": "Packages/Makefile/Make.sublime-build",
@@ -206,7 +198,7 @@
 	"groups":
 	[
 		{
-			"selected": 1,
+			"selected": 0,
 			"sheets":
 			[
 				{
@@ -236,8 +228,14 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 2,
+					"stack_index": 0,
 					"type": "text"
+				},
+				{
+					"file": "/home/john/cfg/config/dwm/dwm.png",
+					"semi_transient": true,
+					"stack_index": 1,
+					"type": "image"
 				},
 				{
 					"buffer": 1,
@@ -593,8 +591,8 @@
 						"selection":
 						[
 							[
-								11985,
-								11985
+								11984,
+								11984
 							]
 						],
 						"settings":
@@ -610,36 +608,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 0,
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "/home/john/cfg/config/dwm/config.mk",
-					"semi_transient": true,
-					"settings":
-					{
-						"buffer_size": 936,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"apply_syntax_touched": true,
-							"syntax": "Packages/Makefile/Makefile.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
+					"stack_index": 2,
 					"type": "text"
 				}
 			]
