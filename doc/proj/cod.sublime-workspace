@@ -11,7 +11,7 @@
 			"file": "/home/john/cod/python/poly/polynomial.py",
 			"settings":
 			{
-				"buffer_size": 1764,
+				"buffer_size": 2057,
 				"line_ending": "Unix"
 			}
 		}
@@ -44,6 +44,14 @@
 		"selected_items":
 		[
 			[
+				"Package Control: ",
+				"Package Control: Install Package"
+			],
+			[
+				"linter",
+				"SublimeLinter: Lint This View"
+			],
+			[
 				"w",
 				"Tasks: Archive within selection(s)"
 			],
@@ -72,10 +80,6 @@
 				"Package Control: Install Package"
 			],
 			[
-				"Package Control: ",
-				"Package Control: Remove Package"
-			],
-			[
 				"color",
 				"Package Control: Remove Package"
 			]
@@ -91,7 +95,7 @@
 	},
 	"distraction_free":
 	{
-		"menu_visible": true,
+		"menu_visible": false,
 		"show_minimap": false,
 		"show_open_files": false,
 		"show_tabs": false,
@@ -101,11 +105,12 @@
 	"expanded_folders":
 	[
 		"/home/john/cod",
-		"/home/john/cod/python",
-		"/home/john/cod/python/poly"
+		"/home/john/cod/python"
 	],
 	"file_history":
 	[
+		"/home/john/cod/python/poly/polynomial.py",
+		"/home/john/cod/python/poly/test.py",
 		"/home/john/cod/python/polynomial.py",
 		"/home/john/cod/python/nes/ppu.py",
 		"/home/john/cod/python/lol",
@@ -146,6 +151,10 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"\t",
+			"\t\t\t",
+			"\t",
+			"if",
 			"attach",
 			"attachbelow",
 			"c->tags = m->tagset[m->seltags]; /* assign tags of target monitor */",
@@ -160,6 +169,7 @@
 		"regex": false,
 		"replace_history":
 		[
+			"    "
 		],
 		"reverse": false,
 		"show_context": true,
@@ -179,7 +189,7 @@
 					"semi_transient": true,
 					"settings":
 					{
-						"buffer_size": 1764,
+						"buffer_size": 2057,
 						"regions":
 						{
 						},
@@ -192,7 +202,7 @@
 						],
 						"settings":
 						{
-							"SL.82.region_keys":
+							"SL.206.region_keys":
 							[
 							],
 							"apply_syntax_touched": true,
@@ -253,6 +263,10 @@
 		"height": 0.0
 	},
 	"output.jotter":
+	{
+		"height": 84.0
+	},
+	"output.unsaved_changes":
 	{
 		"height": 84.0
 	},

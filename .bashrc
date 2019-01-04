@@ -57,7 +57,7 @@ shdl() { curl -O $(curl -s http://sci-hub.tw/"$@" | grep location.href | grep -o
 vf() { $EDITOR $(fzf) ;}
 #pdf() { groff -T pdf -t -ms $@ > $@i.pdf; zathura $@.pdf &; }
 export TERMINAL=alacritty
-export PATH=$PATH:~/bin
+export PATH=$PATH:~/bin:~/.gem/ruby/2.5.0/bin
 #~/.cache/wal/colors.sh
 #neofetch
 #source ~/.dotfiles/index.sh

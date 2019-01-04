@@ -14,8 +14,8 @@ compton & #composite
 #feh --bg-fill ~/.config/wall.png # wallpaper old
 ~/scr/wall.sh & # wallpaper
 #alacritty & # terminal
-#firefox & #web
-qutebrowser &
+firefox & #web
+#qutebrowser file:///home/john/.config/webhome/index.html &
 dockd --daemon & #dock
 #glava & # music vis
 alacritty --class visual -e vis & #music vis

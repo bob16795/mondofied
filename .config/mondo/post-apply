@@ -15,9 +15,5 @@
 # variables and stuff between the scripts.
 
 # eval "${1}"
-
-cd ~/.config/dwm/
-sudo make install
-#sh ~/scr/wall.sh
-sleep .5
-killall dwm
+sh ~/scr/wall.sh
+kill $(pidof dwm)

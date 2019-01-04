@@ -1,2 +1,2 @@
-mondo -fg all
+#mondo -fg all
 mondo -a $(mondo -l themes | rofi -dmenu "lol")

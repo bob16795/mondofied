@@ -2,10 +2,10 @@
 	"folders":
 	[
 		{
-			"path": "/home/john/doc"
+			"path": "/home/john/tmp"
 		},
 		{
-			"path": "/home/john/tmp"
+			"path": "/home/john/doc"
 		}
 	]
 }

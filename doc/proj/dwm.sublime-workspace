@@ -12,19 +12,10 @@
 	"buffers":
 	[
 		{
-			"file": "/home/john/cfg/config/dwm/install.sh",
+			"file": "/home/john/cfg/config/dwm/dwm.c",
 			"settings":
 			{
-				"buffer_size": 241,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "/home/john/cfg/config/dwm/config.h",
-			"settings":
-			{
-				"buffer_size": 15348,
+				"buffer_size": 57405,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
@@ -124,6 +115,10 @@
 	],
 	"file_history":
 	[
+		"/home/john/cfg/config/dwm/install.sh",
+		"/home/john/cfg/config/dwm/dwm.1",
+		"/home/john/cfg/config/dwm/.git/hooks/commit-msg.sample",
+		"/home/john/cfg/config/dwm/config.h",
 		"/home/john/doc/not/Todo_dwm.note",
 		"/home/john/doc/proj/dwm.sublime-project",
 		"/home/john/doc/not/lol.note",
@@ -132,7 +127,6 @@
 		"/home/john/.config/sublime-text-3/Packages/User/Notes.sublime-settings",
 		"/home/john/.config/sublime-text-3/Packages/mondo/mondo.tmTheme",
 		"/home/john/doc/not/create install script.note",
-		"/home/john/cfg/config/dwm/dwm.1",
 		"/home/john/.config/sublime-text-3/Packages/Terminal/Terminal.sublime-settings",
 		"/home/john/cfg/config/dwm/dwm",
 		"/home/john/cod/python/polynomial.py",
@@ -173,6 +167,9 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"quit",
+			"static void sigterm(int unused);",
+			"/*",
 			"freely",
 			"attach",
 			"attachbelow",
@@ -203,412 +200,46 @@
 			[
 				{
 					"buffer": 0,
-					"file": "/home/john/cfg/config/dwm/install.sh",
+					"file": "/home/john/cfg/config/dwm/dwm.c",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 241,
+						"buffer_size": 57405,
 						"regions":
 						{
-						},
-						"selection":
-						[
-							[
-								241,
-								241
-							]
-						],
-						"settings":
-						{
-							"apply_syntax_touched": true,
-							"git_gutter_is_enabled": true,
-							"syntax": "Packages/ShellScript/Shell-Unix-Generic.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				},
-				{
-					"file": "/home/john/cfg/config/dwm/dwm.png",
-					"semi_transient": true,
-					"stack_index": 1,
-					"type": "image"
-				},
-				{
-					"buffer": 1,
-					"file": "/home/john/cfg/config/dwm/config.h",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 15348,
-						"regions":
-						{
-							"col_083348FF":
+							"bookmark_n":
 							{
-								"flags": 16,
+								"flags": 144,
 								"regions":
 								[
 									[
-										564,
-										571
+										33467,
+										33471
 									]
-								],
-								"scope": "col_083348FF"
-							},
-							"col_083348FF_icon":
-							{
-								"flags": 16,
-								"icon": "Packages/User/Color Highlight.cache/col_083348FF_circle.png",
-								"regions":
-								[
-									[
-										525,
-										525
-									]
-								],
-								"scope": "col_gutter"
-							},
-							"col_1008FF11":
-							{
-								"flags": 16,
-								"regions":
-								[
-									[
-										11078,
-										11088
-									],
-									[
-										11161,
-										11171
-									]
-								],
-								"scope": "col_1008FF11"
-							},
-							"col_1008FF11_icon":
-							{
-								"flags": 16,
-								"icon": "Packages/User/Color Highlight.cache/col_1008FF11_circle.png",
-								"regions":
-								[
-									[
-										11045,
-										11045
-									],
-									[
-										11128,
-										11128
-									]
-								],
-								"scope": "col_gutter"
-							},
-							"col_1008FF12":
-							{
-								"flags": 16,
-								"regions":
-								[
-									[
-										10916,
-										10926
-									]
-								],
-								"scope": "col_1008FF12"
-							},
-							"col_1008FF12_icon":
-							{
-								"flags": 16,
-								"icon": "Packages/User/Color Highlight.cache/col_1008FF12_circle.png",
-								"regions":
-								[
-									[
-										10883,
-										10883
-									]
-								],
-								"scope": "col_gutter"
-							},
-							"col_1008FF13":
-							{
-								"flags": 16,
-								"regions":
-								[
-									[
-										11245,
-										11255
-									],
-									[
-										11326,
-										11336
-									]
-								],
-								"scope": "col_1008FF13"
-							},
-							"col_1008FF13_icon":
-							{
-								"flags": 16,
-								"icon": "Packages/User/Color Highlight.cache/col_1008FF13_circle.png",
-								"regions":
-								[
-									[
-										11212,
-										11212
-									],
-									[
-										11293,
-										11293
-									]
-								],
-								"scope": "col_gutter"
-							},
-							"col_1008FF14":
-							{
-								"flags": 16,
-								"regions":
-								[
-									[
-										11466,
-										11476
-									]
-								],
-								"scope": "col_1008FF14"
-							},
-							"col_1008FF14_icon":
-							{
-								"flags": 16,
-								"icon": "Packages/User/Color Highlight.cache/col_1008FF14_circle.png",
-								"regions":
-								[
-									[
-										11457,
-										11457
-									]
-								],
-								"scope": "col_gutter"
-							},
-							"col_1008FF16":
-							{
-								"flags": 16,
-								"regions":
-								[
-									[
-										11630,
-										11640
-									]
-								],
-								"scope": "col_1008FF16"
-							},
-							"col_1008FF16_icon":
-							{
-								"flags": 16,
-								"icon": "Packages/User/Color Highlight.cache/col_1008FF16_circle.png",
-								"regions":
-								[
-									[
-										11597,
-										11597
-									]
-								],
-								"scope": "col_gutter"
-							},
-							"col_1008FF17":
-							{
-								"flags": 16,
-								"regions":
-								[
-									[
-										11549,
-										11559
-									]
-								],
-								"scope": "col_1008FF17"
-							},
-							"col_1008FF17_icon":
-							{
-								"flags": 16,
-								"icon": "Packages/User/Color Highlight.cache/col_1008FF17_circle.png",
-								"regions":
-								[
-									[
-										11516,
-										11516
-									]
-								],
-								"scope": "col_gutter"
-							},
-							"col_1008FF31":
-							{
-								"flags": 16,
-								"regions":
-								[
-									[
-										11408,
-										11418
-									]
-								],
-								"scope": "col_1008FF31"
-							},
-							"col_1008FF31_icon":
-							{
-								"flags": 16,
-								"icon": "Packages/User/Color Highlight.cache/col_1008FF31_circle.png",
-								"regions":
-								[
-									[
-										11375,
-										11375
-									]
-								],
-								"scope": "col_gutter"
-							},
-							"col_1008FFB2":
-							{
-								"flags": 16,
-								"regions":
-								[
-									[
-										10997,
-										11007
-									]
-								],
-								"scope": "col_1008FFB2"
-							},
-							"col_1008FFB2_icon":
-							{
-								"flags": 16,
-								"icon": "Packages/User/Color Highlight.cache/col_1008FFB2_circle.png",
-								"regions":
-								[
-									[
-										10964,
-										10964
-									]
-								],
-								"scope": "col_gutter"
-							},
-							"col_54A9D8FF":
-							{
-								"flags": 16,
-								"regions":
-								[
-									[
-										662,
-										669
-									]
-								],
-								"scope": "col_54A9D8FF"
-							},
-							"col_54A9D8FF_icon":
-							{
-								"flags": 16,
-								"icon": "Packages/User/Color Highlight.cache/col_54A9D8FF_circle.png",
-								"regions":
-								[
-									[
-										623,
-										623
-									]
-								],
-								"scope": "col_gutter"
-							},
-							"col_71C3EFFF":
-							{
-								"flags": 16,
-								"regions":
-								[
-									[
-										760,
-										767
-									]
-								],
-								"scope": "col_71C3EFFF"
-							},
-							"col_71C3EFFF_icon":
-							{
-								"flags": 16,
-								"icon": "Packages/User/Color Highlight.cache/col_71C3EFFF_circle.png",
-								"regions":
-								[
-									[
-										721,
-										721
-									]
-								],
-								"scope": "col_gutter"
-							},
-							"col_88B8D1FF":
-							{
-								"flags": 16,
-								"regions":
-								[
-									[
-										711,
-										718
-									]
-								],
-								"scope": "col_88B8D1FF"
-							},
-							"col_88B8D1FF_icon":
-							{
-								"flags": 16,
-								"icon": "Packages/User/Color Highlight.cache/col_88B8D1FF_circle.png",
-								"regions":
-								[
-									[
-										672,
-										672
-									]
-								],
-								"scope": "col_gutter"
-							},
-							"col_93D0F0FF":
-							{
-								"flags": 16,
-								"regions":
-								[
-									[
-										613,
-										620
-									]
-								],
-								"scope": "col_93D0F0FF"
-							},
-							"col_93D0F0FF_icon":
-							{
-								"flags": 16,
-								"icon": "Packages/User/Color Highlight.cache/col_93D0F0FF_circle.png",
-								"regions":
-								[
-									[
-										574,
-										574
-									]
-								],
-								"scope": "col_gutter"
+								]
 							}
 						},
 						"selection":
 						[
 							[
-								11984,
-								11984
+								57346,
+								57346
 							]
 						],
 						"settings":
 						{
-							"SL.86.region_keys":
+							"SL.36.region_keys":
 							[
 							],
 							"apply_syntax_touched": true,
 							"git_gutter_is_enabled": true,
-							"syntax": "Packages/C++/C++.sublime-syntax"
+							"syntax": "Packages/C++/C.sublime-syntax"
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 25540.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 2,
+					"stack_index": 0,
 					"type": "text"
 				}
 			]
@@ -669,7 +300,7 @@
 	"project": "dwm.sublime-project",
 	"replace":
 	{
-		"height": 38.0
+		"height": 68.0
 	},
 	"save_all_on_build": true,
 	"select_file":

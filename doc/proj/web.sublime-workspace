@@ -1,0 +1,521 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "/home/john/cfg/config/webhome/styles.css",
+			"settings":
+			{
+				"buffer_size": 2223,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "Packages/Python/Python.sublime-build",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"Package Control: ",
+				"Package Control: Install Package"
+			],
+			[
+				"w",
+				"Tasks: Archive within selection(s)"
+			],
+			[
+				"q",
+				"Quick File Move: Move Current File"
+			],
+			[
+				"linter",
+				"SublimeLinter: Lint This View"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"pack",
+				"Package Control: Install Package"
+			],
+			[
+				"pro",
+				"Project Manager: Add New Project"
+			],
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"open",
+				"View: Toggle Open Files in Side Bar"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"reomv",
+				"Package Control: Remove Package"
+			],
+			[
+				"color",
+				"Package Control: Remove Package"
+			]
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/home/john/cfg/config/webhome"
+	],
+	"file_history":
+	[
+		"/home/john/cfg/config/mondo/themes/bird01",
+		"/home/john/cfg/config/sublime-text-3/Packages/User/mondo.sublime-build",
+		"/home/john/.config/mondo/generator/alacritty/_mondo-template",
+		"/home/john/cfg/scripts/tools/filesort",
+		"/home/john/.config/mondo/themes/Antepenultimata",
+		"/home/john/.config/mondo/themes/deer02",
+		"/home/john/.config/mondo/themes/solarized-dark02",
+		"/home/john/.config/mondo/post-apply",
+		"/home/john/.config/mondo/generator/gtk/_mondo-template",
+		"/home/john/.config/mondo/themes/solarized-dark01",
+		"/home/john/.config/sublime-text-3/Packages/User/mondo.sublime-build",
+		"/home/john/.config/mondo/generator/gtkrc-30/_mondo-settings",
+		"/home/john/.config/mondo/generator/gtk/_mondo-generate",
+		"/home/john/.config/mondo/generator/gtkrc-30/_mondo-template",
+		"/home/john/.config/mondo/generator/gtkrc-30/deer02",
+		"/home/john/.config/mondo/generator/gtkrc-20/_mondo-template",
+		"/home/john/.config/mondo/generator/gtk/_mondo-apply",
+		"/home/john/.config/mondo/generator/dwm/_mondo-apply",
+		"/home/john/.config/mondo/generator/qutebrowser/_mondo-template",
+		"/home/john/cfg/youtube.txt",
+		"/home/john/cfg/scripts/git_push.sh",
+		"/home/john/cfg/xinit",
+		"/home/john/cfg/gitignore",
+		"/home/john/.config/mondo/generator/alacritty/solarized-dark01",
+		"/home/john/.config/mondo/generator/configpy/_mondo-template",
+		"/home/john/.config/mondo/generator/dwm/_mondo-template",
+		"/home/john/cfg/config/vis/config",
+		"/home/john/doc/proj/config",
+		"/home/john/.config/mondo/themes/moon",
+		"/home/john/.config/mondo/generator/dunst/_mondo-template",
+		"/home/john/.config/mondo/generator/alacritty/solarized-dark",
+		"/home/john/.config/mondo/generator/configpy/_mondo-settings",
+		"/home/john/.config/mondo/generator/dunst/_mondo-settings",
+		"/home/john/.config/mondo/generator/wallpaper/_mondo-template",
+		"/home/john/cfg/scripts/install.sh",
+		"/home/john/.config/mondo/colors",
+		"/home/john/.config/mondo/generator/rofi/_mondo-template",
+		"/home/john/cfg/config/dwm/config.h",
+		"/home/john/cfg/config/rofi/bmenu.rasi",
+		"/home/john/doc/not/Todo_config.note",
+		"/home/john/cfg/config/rofi/globals.rasi",
+		"/home/john/doc/not/.brain/Inbox.note",
+		"/home/john/cfg/config/dwm.old/Makefile",
+		"/home/john/cfg/config/dwm/Makefile",
+		"/home/john/dox/not/config/note",
+		"/home/john/.xinitrc",
+		"/home/john/cfg/config/rofi/config",
+		"/home/john/.config/mondo/generator/sublime/_mondo-template",
+		"/home/john/.config/dwm/dwm.c",
+		"/home/john/.config/mondo/themes/comfy01",
+		"/home/john/.config/jgmenu/prepend.csv",
+		"/home/john/.config/mondo/generator/wallsh/_mondo-settings",
+		"/home/john/scr/tools/youdown",
+		"/home/john/.config/mondo/generator/alacrittyyml/_mondo-template",
+		"/home/john/.config/mondo/generator/mondotmTheme/_mondo-template",
+		"/home/john/.config/sublime-text-3/Packages/User/Notes.sublime-settings",
+		"/home/john/.config/sublime-text-3/Packages/PlainNotes/Notes.sublime-settings",
+		"/home/john/.config/sublime-text-3/Packages/User/GitGutter.sublime-settings",
+		"/home/john/.config/sublime-text-3/Packages/GitGutter/GitGutter.sublime-settings",
+		"/home/john/bin/cb-large",
+		"/home/john/.config/mondo/themes/light",
+		"/home/john/.config/mondo/themes/solarized-dark",
+		"/home/john/.config/sublime-text-3/Packages/User/Package Control.sublime-settings"
+	],
+	"find":
+	{
+		"height": 21.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"#",
+			" 0",
+			"thm",
+			"attach",
+			"attachbelow",
+			"c->tags = m->tagset[m->seltags]; /* assign tags of target monitor */",
+			"spawn",
+			"0",
+			"\n\tattach(c)",
+			"\n\t"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "/home/john/cfg/config/webhome/styles.css",
+					"semi_transient": true,
+					"settings":
+					{
+						"buffer_size": 2223,
+						"regions":
+						{
+							"col_272727FF":
+							{
+								"flags": 16,
+								"regions":
+								[
+									[
+										509,
+										516
+									],
+									[
+										780,
+										787
+									],
+									[
+										811,
+										818
+									],
+									[
+										1046,
+										1053
+									],
+									[
+										1729,
+										1736
+									]
+								],
+								"scope": "col_272727FF"
+							},
+							"col_272727FF_icon":
+							{
+								"flags": 16,
+								"icon": "Packages/User/Color Highlight.cache/col_272727FF_circle.png",
+								"regions":
+								[
+									[
+										487,
+										487
+									],
+									[
+										758,
+										758
+									],
+									[
+										789,
+										789
+									],
+									[
+										1024,
+										1024
+									],
+									[
+										1707,
+										1707
+									]
+								],
+								"scope": "col_gutter"
+							},
+							"col_5F4B8BFF":
+							{
+								"flags": 16,
+								"regions":
+								[
+									[
+										98,
+										105
+									]
+								],
+								"scope": "col_5F4B8BFF"
+							},
+							"col_5F4B8BFF_icon":
+							{
+								"flags": 16,
+								"icon": "Packages/User/Color Highlight.cache/col_5F4B8BFF_circle.png",
+								"regions":
+								[
+									[
+										76,
+										76
+									]
+								],
+								"scope": "col_gutter"
+							},
+							"col_8C8C8BFF":
+							{
+								"flags": 16,
+								"regions":
+								[
+									[
+										2134,
+										2141
+									]
+								],
+								"scope": "col_8C8C8BFF"
+							},
+							"col_8C8C8BFF_icon":
+							{
+								"flags": 16,
+								"icon": "Packages/User/Color Highlight.cache/col_8C8C8BFF_circle.png",
+								"regions":
+								[
+									[
+										2123,
+										2123
+									]
+								],
+								"scope": "col_gutter"
+							},
+							"col_F1F1F1FF":
+							{
+								"flags": 16,
+								"regions":
+								[
+									[
+										884,
+										891
+									]
+								],
+								"scope": "col_F1F1F1FF"
+							},
+							"col_F1F1F1FF_icon":
+							{
+								"flags": 16,
+								"icon": "Packages/User/Color Highlight.cache/col_F1F1F1FF_circle.png",
+								"regions":
+								[
+									[
+										873,
+										873
+									]
+								],
+								"scope": "col_gutter"
+							},
+							"col_FFFFFFFF":
+							{
+								"flags": 16,
+								"regions":
+								[
+									[
+										406,
+										410
+									],
+									[
+										1140,
+										1144
+									],
+									[
+										2045,
+										2049
+									],
+									[
+										2215,
+										2219
+									]
+								],
+								"scope": "col_FFFFFFFF"
+							},
+							"col_FFFFFFFF_icon":
+							{
+								"flags": 16,
+								"icon": "Packages/User/Color Highlight.cache/col_FFFFFFFF_circle.png",
+								"regions":
+								[
+									[
+										395,
+										395
+									],
+									[
+										1129,
+										1129
+									],
+									[
+										2034,
+										2034
+									],
+									[
+										2204,
+										2204
+									]
+								],
+								"scope": "col_gutter"
+							}
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"apply_syntax_touched": true,
+							"git_gutter_is_enabled": true,
+							"syntax": "Packages/CSS/CSS.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 20.0
+	},
+	"input":
+	{
+		"height": 47.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.SublimeLinter":
+	{
+		"height": 84.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "Packages/User/mondo.sublime-build",
+	"project": "web.sublime-project",
+	"replace":
+	{
+		"height": 38.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"~/doc/proj/config.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 257.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

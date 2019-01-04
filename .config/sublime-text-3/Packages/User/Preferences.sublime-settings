@@ -102,13 +102,15 @@
 	],
 	"close_windows_when_empty": false,
 	"color_scheme": "Packages/mondo/mondo.tmTheme",
+	"dictionary": "Packages/Language - English/en_US.dic",
 	"font": "scientifica",
 	"font_face": "scientifica",
 	"font_options":
 	[
-		"subpixel_antialias",
-		"noitalic"
+		"noitalic",
+		"subpixel_antialias"
 	],
+	"font_size": 11,
 	"highlight_modified_tabs": true,
 	"ignored_packages":
 	[

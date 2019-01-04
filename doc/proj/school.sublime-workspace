@@ -8,11 +8,11 @@
 	"buffers":
 	[
 		{
-			"file": "/home/john/doc/src/ss_Crq.tex",
+			"file": "/home/john/doc/pdf/journal.pdf",
 			"settings":
 			{
-				"buffer_size": 918,
-				"encoding": "UTF-8",
+				"buffer_size": 3514,
+				"encoding": "Western (Windows 1252)",
 				"line_ending": "Unix"
 			}
 		}
@@ -114,21 +114,29 @@
 	},
 	"expanded_folders":
 	[
+		"/home/john/tmp",
+		"/home/john/tmp/latex-templates",
 		"/home/john/doc",
+		"/home/john/doc/pdf",
 		"/home/john/doc/proj",
 		"/home/john/doc/src",
-		"/home/john/tmp",
-		"/home/john/tmp/latex-templates"
+		"/home/john/doc/xls"
 	],
 	"file_history":
 	[
+		"/home/john/doc/src/ss_Crq.tex",
+		"/home/john/doc/src/free_conlang.tex",
+		"/home/john/doc/src/ela_poem.tex",
+		"/home/john/doc/not/.brain/brain.json",
+		"/home/john/doc/not/.brain/Inbox.note",
+		"/home/john/doc/pdf/ss_itialianUnification.pdf",
+		"/home/john/doc/not/Todo_config.note",
 		"/home/john/tmp/latex-templates/article.tex",
 		"/home/john/tmp/latex-templates/handout.tex",
 		"/home/john/tmp/latex-templates/beamer.tex",
 		"/home/john/.config/sublime-text-3/Packages/Table Editor/Default (Linux).sublime-keymap",
 		"/home/john/.config/sublime-text-3/Packages/HTML-CSS-JS Prettify/HTMLPrettify.sublime-settings",
 		"/home/john/doc/src/ela_syllabus.tex",
-		"/home/john/doc/src/ela_poem.tex",
 		"/home/john/.config/sublime-text-3/Packages/TeXPreview/TeXPreview (Linux).sublime-settings",
 		"/home/john/doc/src/venndiagram01.tex",
 		"/home/john/doc/src/Crq.tex",
@@ -137,7 +145,6 @@
 		"/home/john/.config/sublime-text-3/Packages/User/TeXPreview (Linux).sublime-settings",
 		"/home/john/doc/proj/config.sublime-project",
 		"/home/john/doc/src/Imagery.tex",
-		"/home/john/doc/not/.brain/Inbox.note",
 		"/home/john/.config/sublime-text-3/Packages/User/Notes.sublime-settings",
 		"/home/john/.config/sublime-text-3/Packages/PlainNotes/Notes.sublime-settings",
 		"/home/john/.config/sublime-text-3/Packages/User/GitGutter.sublime-settings",
@@ -149,7 +156,7 @@
 	],
 	"find":
 	{
-		"height": 21.0
+		"height": 38.0
 	},
 	"find_in_files":
 	{
@@ -186,26 +193,23 @@
 			[
 				{
 					"buffer": 0,
-					"file": "/home/john/doc/src/ss_Crq.tex",
-					"semi_transient": false,
+					"file": "/home/john/doc/pdf/journal.pdf",
+					"semi_transient": true,
 					"settings":
 					{
-						"buffer_size": 918,
+						"buffer_size": 3514,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								453,
-								453
+								0,
+								0
 							]
 						],
 						"settings":
 						{
-							"SL.116.region_keys":
-							[
-							],
 							"apply_syntax_touched": true,
 							"git_gutter_is_enabled": true,
 							"syntax": "Packages/Text/Plain text.tmLanguage"
@@ -222,7 +226,7 @@
 	],
 	"incremental_find":
 	{
-		"height": 20.0
+		"height": 38.0
 	},
 	"input":
 	{
@@ -271,7 +275,7 @@
 	"project": "school.sublime-project",
 	"replace":
 	{
-		"height": 38.0
+		"height": 72.0
 	},
 	"save_all_on_build": true,
 	"select_file":
