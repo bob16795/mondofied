@@ -1,8 +1,0 @@
-<application>
-  <component name="PropertiesComponent">
-    <property name="AndroidInitConfigurator.V1" value="true" />
-    <property name="AndroidInitConfigurator.V3" value="true" />
-    <property name="AndroidInitConfigurator.V5" value="true" />
-    <property name="installed.kotlin.plugin.version" value="1.2.71-release-Studio3.2-1" />
-  </component>
-</application>
