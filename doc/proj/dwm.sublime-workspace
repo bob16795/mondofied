@@ -24,16 +24,16 @@
 			"file": "/home/john/cfg/config/dwm/config.h",
 			"settings":
 			{
-				"buffer_size": 15403,
+				"buffer_size": 15348,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "/home/john/doc/not/Todo_dwm.note",
+			"file": "/home/john/cfg/config/dwm/config.mk",
 			"settings":
 			{
-				"buffer_size": 0,
+				"buffer_size": 936,
 				"line_ending": "Unix"
 			}
 		}
@@ -132,6 +132,7 @@
 	],
 	"file_history":
 	[
+		"/home/john/doc/not/Todo_dwm.note",
 		"/home/john/doc/proj/dwm.sublime-project",
 		"/home/john/doc/not/lol.note",
 		"/home/john/doc/not/todo.note",
@@ -244,10 +245,10 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 15403,
+						"buffer_size": 15348,
 						"regions":
 						{
-							"col_012A35FF":
+							"col_083348FF":
 							{
 								"flags": 16,
 								"regions":
@@ -257,12 +258,12 @@
 										571
 									]
 								],
-								"scope": "col_012A35FF"
+								"scope": "col_083348FF"
 							},
-							"col_012A35FF_icon":
+							"col_083348FF_icon":
 							{
 								"flags": 16,
-								"icon": "Packages/User/Color Highlight.cache/col_012A35FF_circle.png",
+								"icon": "Packages/User/Color Highlight.cache/col_083348FF_circle.png",
 								"regions":
 								[
 									[
@@ -278,12 +279,12 @@
 								"regions":
 								[
 									[
-										11133,
-										11143
+										11078,
+										11088
 									],
 									[
-										11216,
-										11226
+										11161,
+										11171
 									]
 								],
 								"scope": "col_1008FF11"
@@ -295,12 +296,12 @@
 								"regions":
 								[
 									[
-										11100,
-										11100
+										11045,
+										11045
 									],
 									[
-										11183,
-										11183
+										11128,
+										11128
 									]
 								],
 								"scope": "col_gutter"
@@ -311,8 +312,8 @@
 								"regions":
 								[
 									[
-										10971,
-										10981
+										10916,
+										10926
 									]
 								],
 								"scope": "col_1008FF12"
@@ -324,8 +325,8 @@
 								"regions":
 								[
 									[
-										10938,
-										10938
+										10883,
+										10883
 									]
 								],
 								"scope": "col_gutter"
@@ -336,12 +337,12 @@
 								"regions":
 								[
 									[
-										11300,
-										11310
+										11245,
+										11255
 									],
 									[
-										11381,
-										11391
+										11326,
+										11336
 									]
 								],
 								"scope": "col_1008FF13"
@@ -353,12 +354,12 @@
 								"regions":
 								[
 									[
-										11267,
-										11267
+										11212,
+										11212
 									],
 									[
-										11348,
-										11348
+										11293,
+										11293
 									]
 								],
 								"scope": "col_gutter"
@@ -369,8 +370,8 @@
 								"regions":
 								[
 									[
-										11521,
-										11531
+										11466,
+										11476
 									]
 								],
 								"scope": "col_1008FF14"
@@ -382,8 +383,8 @@
 								"regions":
 								[
 									[
-										11512,
-										11512
+										11457,
+										11457
 									]
 								],
 								"scope": "col_gutter"
@@ -394,8 +395,8 @@
 								"regions":
 								[
 									[
-										11685,
-										11695
+										11630,
+										11640
 									]
 								],
 								"scope": "col_1008FF16"
@@ -407,8 +408,8 @@
 								"regions":
 								[
 									[
-										11652,
-										11652
+										11597,
+										11597
 									]
 								],
 								"scope": "col_gutter"
@@ -419,8 +420,8 @@
 								"regions":
 								[
 									[
-										11604,
-										11614
+										11549,
+										11559
 									]
 								],
 								"scope": "col_1008FF17"
@@ -432,8 +433,8 @@
 								"regions":
 								[
 									[
-										11571,
-										11571
+										11516,
+										11516
 									]
 								],
 								"scope": "col_gutter"
@@ -444,8 +445,8 @@
 								"regions":
 								[
 									[
-										11463,
-										11473
+										11408,
+										11418
 									]
 								],
 								"scope": "col_1008FF31"
@@ -457,8 +458,8 @@
 								"regions":
 								[
 									[
-										11430,
-										11430
+										11375,
+										11375
 									]
 								],
 								"scope": "col_gutter"
@@ -469,8 +470,8 @@
 								"regions":
 								[
 									[
-										11052,
-										11062
+										10997,
+										11007
 									]
 								],
 								"scope": "col_1008FFB2"
@@ -482,63 +483,13 @@
 								"regions":
 								[
 									[
-										11019,
-										11019
+										10964,
+										10964
 									]
 								],
 								"scope": "col_gutter"
 							},
-							"col_268BD2FF":
-							{
-								"flags": 16,
-								"regions":
-								[
-									[
-										613,
-										620
-									]
-								],
-								"scope": "col_268BD2FF"
-							},
-							"col_268BD2FF_icon":
-							{
-								"flags": 16,
-								"icon": "Packages/User/Color Highlight.cache/col_268BD2FF_circle.png",
-								"regions":
-								[
-									[
-										574,
-										574
-									]
-								],
-								"scope": "col_gutter"
-							},
-							"col_3F2043FF":
-							{
-								"flags": 16,
-								"regions":
-								[
-									[
-										564,
-										571
-									]
-								],
-								"scope": "col_3F2043FF"
-							},
-							"col_3F2043FF_icon":
-							{
-								"flags": 16,
-								"icon": "Packages/User/Color Highlight.cache/col_3F2043FF_circle.png",
-								"regions":
-								[
-									[
-										525,
-										525
-									]
-								],
-								"scope": "col_gutter"
-							},
-							"col_839496FF":
+							"col_54A9D8FF":
 							{
 								"flags": 16,
 								"regions":
@@ -548,12 +499,12 @@
 										669
 									]
 								],
-								"scope": "col_839496FF"
+								"scope": "col_54A9D8FF"
 							},
-							"col_839496FF_icon":
+							"col_54A9D8FF_icon":
 							{
 								"flags": 16,
-								"icon": "Packages/User/Color Highlight.cache/col_839496FF_circle.png",
+								"icon": "Packages/User/Color Highlight.cache/col_54A9D8FF_circle.png",
 								"regions":
 								[
 									[
@@ -563,7 +514,7 @@
 								],
 								"scope": "col_gutter"
 							},
-							"col_859900FF":
+							"col_71C3EFFF":
 							{
 								"flags": 16,
 								"regions":
@@ -573,12 +524,12 @@
 										767
 									]
 								],
-								"scope": "col_859900FF"
+								"scope": "col_71C3EFFF"
 							},
-							"col_859900FF_icon":
+							"col_71C3EFFF_icon":
 							{
 								"flags": 16,
-								"icon": "Packages/User/Color Highlight.cache/col_859900FF_circle.png",
+								"icon": "Packages/User/Color Highlight.cache/col_71C3EFFF_circle.png",
 								"regions":
 								[
 									[
@@ -588,32 +539,7 @@
 								],
 								"scope": "col_gutter"
 							},
-							"col_B16AD9FF":
-							{
-								"flags": 16,
-								"regions":
-								[
-									[
-										662,
-										669
-									]
-								],
-								"scope": "col_B16AD9FF"
-							},
-							"col_B16AD9FF_icon":
-							{
-								"flags": 16,
-								"icon": "Packages/User/Color Highlight.cache/col_B16AD9FF_circle.png",
-								"regions":
-								[
-									[
-										623,
-										623
-									]
-								],
-								"scope": "col_gutter"
-							},
-							"col_B58900FF":
+							"col_88B8D1FF":
 							{
 								"flags": 16,
 								"regions":
@@ -623,12 +549,12 @@
 										718
 									]
 								],
-								"scope": "col_B58900FF"
+								"scope": "col_88B8D1FF"
 							},
-							"col_B58900FF_icon":
+							"col_88B8D1FF_icon":
 							{
 								"flags": 16,
-								"icon": "Packages/User/Color Highlight.cache/col_B58900FF_circle.png",
+								"icon": "Packages/User/Color Highlight.cache/col_88B8D1FF_circle.png",
 								"regions":
 								[
 									[
@@ -638,57 +564,7 @@
 								],
 								"scope": "col_gutter"
 							},
-							"col_D9A3A0FF":
-							{
-								"flags": 16,
-								"regions":
-								[
-									[
-										760,
-										767
-									]
-								],
-								"scope": "col_D9A3A0FF"
-							},
-							"col_D9A3A0FF_icon":
-							{
-								"flags": 16,
-								"icon": "Packages/User/Color Highlight.cache/col_D9A3A0FF_circle.png",
-								"regions":
-								[
-									[
-										721,
-										721
-									]
-								],
-								"scope": "col_gutter"
-							},
-							"col_F1D59AFF":
-							{
-								"flags": 16,
-								"regions":
-								[
-									[
-										711,
-										718
-									]
-								],
-								"scope": "col_F1D59AFF"
-							},
-							"col_F1D59AFF_icon":
-							{
-								"flags": 16,
-								"icon": "Packages/User/Color Highlight.cache/col_F1D59AFF_circle.png",
-								"regions":
-								[
-									[
-										672,
-										672
-									]
-								],
-								"scope": "col_gutter"
-							},
-							"col_F4DCA0FF":
+							"col_93D0F0FF":
 							{
 								"flags": 16,
 								"regions":
@@ -698,12 +574,12 @@
 										620
 									]
 								],
-								"scope": "col_F4DCA0FF"
+								"scope": "col_93D0F0FF"
 							},
-							"col_F4DCA0FF_icon":
+							"col_93D0F0FF_icon":
 							{
 								"flags": 16,
-								"icon": "Packages/User/Color Highlight.cache/col_F4DCA0FF_circle.png",
+								"icon": "Packages/User/Color Highlight.cache/col_93D0F0FF_circle.png",
 								"regions":
 								[
 									[
@@ -717,18 +593,21 @@
 						"selection":
 						[
 							[
-								4600,
-								4600
+								11985,
+								11985
 							]
 						],
 						"settings":
 						{
+							"SL.86.region_keys":
+							[
+							],
 							"apply_syntax_touched": true,
 							"git_gutter_is_enabled": true,
 							"syntax": "Packages/C++/C++.sublime-syntax"
 						},
 						"translation.x": 0.0,
-						"translation.y": 792.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
@@ -736,11 +615,11 @@
 				},
 				{
 					"buffer": 2,
-					"file": "/home/john/doc/not/Todo_dwm.note",
-					"semi_transient": false,
+					"file": "/home/john/cfg/config/dwm/config.mk",
+					"semi_transient": true,
 					"settings":
 					{
-						"buffer_size": 0,
+						"buffer_size": 936,
 						"regions":
 						{
 						},
@@ -754,10 +633,7 @@
 						"settings":
 						{
 							"apply_syntax_touched": true,
-							"color_scheme": "Packages/mondo/mondo.tmTheme",
-							"git_gutter_is_enabled": true,
-							"is_note": true,
-							"syntax": "Packages/PlainNotes/Note.sublime-syntax"
+							"syntax": "Packages/Makefile/Makefile.sublime-syntax"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,

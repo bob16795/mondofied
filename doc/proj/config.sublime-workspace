@@ -163,7 +163,7 @@
 	],
 	"find":
 	{
-		"height": 21.0
+		"height": 35.0
 	},
 	"find_in_files":
 	{
@@ -208,11 +208,11 @@
 	],
 	"incremental_find":
 	{
-		"height": 20.0
+		"height": 35.0
 	},
 	"input":
 	{
-		"height": 32.0
+		"height": 47.0
 	},
 	"layout":
 	{
@@ -236,7 +236,7 @@
 			1.0
 		]
 	},
-	"menu_visible": true,
+	"menu_visible": false,
 	"output.SublimeLinter":
 	{
 		"height": 84.0
@@ -261,7 +261,7 @@
 	"project": "config",
 	"replace":
 	{
-		"height": 38.0
+		"height": 66.0
 	},
 	"save_all_on_build": true,
 	"select_file":

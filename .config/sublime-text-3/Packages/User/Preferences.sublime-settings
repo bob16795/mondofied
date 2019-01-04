@@ -107,9 +107,8 @@
 	"font_options":
 	[
 		"subpixel_antialias",
-		"no_italic"
+		"noitalic"
 	],
-	"font_size": 16,
 	"highlight_modified_tabs": true,
 	"ignored_packages":
 	[
@@ -134,7 +133,6 @@
 		"R",
 		"Rust",
 		"Scala",
-		"SnippetMaker",
 		"SublimeLinter-contrib-write-good",
 		"TCL",
 		"Textile"

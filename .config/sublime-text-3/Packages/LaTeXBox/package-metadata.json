@@ -1,1 +1,1 @@
-{"platforms": ["*"], "version": "3.1.1", "description": "A lightweight but deprecated LaTeX Plugin for Sublime Text 3", "sublime_text": ">=3119", "url": "https://github.com/randy3k/LaTeXBox", "dependencies": []}
+{"description": "A lightweight but deprecated LaTeX Plugin for Sublime Text 3", "dependencies": [], "url": "https://github.com/randy3k/LaTeXBox", "platforms": ["*"], "version": "3.1.1", "sublime_text": ">=3119"}

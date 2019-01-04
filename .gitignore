@@ -59,3 +59,6 @@ rom/**
 .config/lpass
 .config/dwm.old
 .config/GIMP
+gam/**
+exc/**
+pho/**

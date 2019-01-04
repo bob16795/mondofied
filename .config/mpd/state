@@ -1,9 +1,9 @@
-sw_volume: 92
+sw_volume: 94
 audio_device_state:1:pulse audio
 audio_device_state:1:toggle_visualizer
-state: play
-current: 39
-time: 4.266000
+state: pause
+current: 56
+time: 58.511000
 random: 0
 repeat: 0
 single: 0
@@ -52,4 +52,21 @@ playlist_begin
 37:hunter1s1k/Mans Not Hot_The Ting Goes But I'm Screaming The Lyrics.ogg
 38:DaymanOurSavior/EXTREME MEME MUSIC MEGAMASHUP.opus
 39:LIVELOVEASAPVEVO/A$AP Rocky - Praise The Lord (Da Shine) (Official Video) ft. Skepta.opus
+40:Ryan Upchurch/(NEW) “Tennessee Dreamin” by Upchurch.opus
+41:Ryan Upchurch/Upchurch 'Nutshell' (Alice In Chains).opus
+42:Ryan Upchurch/Upchurch “I’m comin over” (CHRIS YOUNG COVER).opus
+43:Reol Official/【kradness&れをる】リモコン【歌ってみた】.opus
+44:Celty/Saiya - Remote Control.opus
+45:TravisScottVEVO/Travis Scott - goosebumps (Official Music Video) ft. Kendrick Lamar.opus
+46:TrippieReddVEVO/Trippie Redd - Dark Knight Dummo ft. Travis Scott.opus
+47:TravisScottVEVO/Travis Scott - SICKO MODE ft. Drake.opus
+48:TravisScottVEVO/Travis Scott - YOSEMITE.opus
+49:hunter1s1k/Sicko Mode But Im Screaming The Lyrics.opus
+50:Trippie redd/Trippie Redd - Whats My Name  [Produced by - ozmusiqe].opus
+51:Trippie Redd - Topic/1400 _ 999 Freestyle.opus
+52:Monstercat - Uncaged/[DnB] - Tristam & Braken - Frame of Mind [Monstercat Release].opus
+53:ExileLord/GH3 Tapping Plugin - Fixed Starpower Gem Mutations.m4a
+54:Lyrical Lemonade/Ski Mask The Slump God - Catch Me Outside (Dir. by @_ColeBennett_).opus
+55:Lyrical Lemonade/Ski Mask The Slump God - BabyWipe (Dir. by @_ColeBennett_).opus
+56:Lyrical Lemonade/Ski Mask The Slump God - LA LA (Dir. by @_ColeBennett_).ogg
 playlist_end
