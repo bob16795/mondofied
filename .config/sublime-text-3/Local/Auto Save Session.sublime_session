@@ -266,15 +266,6 @@
 						"encoding": "UTF-8",
 						"line_ending": "Unix"
 					}
-				},
-				{
-					"contents": "{\n  \"shell_cmd\": \"\"\n}\n",
-					"settings":
-					{
-						"buffer_size": 22,
-						"line_ending": "Unix",
-						"name": "untitled.sublime-build"
-					}
 				}
 			],
 			"build_system": "Packages/LaTeXBox/support/LaTeX.sublime-build",
@@ -375,7 +366,6 @@
 			"expanded_folders":
 			[
 				"/home/john/doc",
-				"/home/john/doc/pdf",
 				"/home/john/doc/src",
 				"/home/john/tmp",
 				"/home/john/tmp/latex-templates"
@@ -441,7 +431,7 @@
 			"groups":
 			[
 				{
-					"selected": 1,
+					"selected": 0,
 					"sheets":
 					[
 						{
@@ -472,36 +462,6 @@
 								},
 								"translation.x": 0.0,
 								"translation.y": 66.0,
-								"zoom_level": 1.0
-							},
-							"stack_index": 1,
-							"type": "text"
-						},
-						{
-							"buffer": 1,
-							"semi_transient": false,
-							"settings":
-							{
-								"buffer_size": 22,
-								"regions":
-								{
-								},
-								"selection":
-								[
-									[
-										18,
-										18
-									]
-								],
-								"settings":
-								{
-									"apply_syntax_touched": true,
-									"default_dir": "/home/john/.config/sublime-text-3/Packages/User",
-									"git_gutter_is_enabled": false,
-									"syntax": "Packages/JavaScript/JSON.sublime-syntax"
-								},
-								"translation.x": 0.0,
-								"translation.y": 0.0,
 								"zoom_level": 1.0
 							},
 							"stack_index": 0,
