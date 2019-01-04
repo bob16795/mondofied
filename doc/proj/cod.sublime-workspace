@@ -8,7 +8,7 @@
 	"buffers":
 	[
 		{
-			"file": "/home/john/cod/python/polynomial.py",
+			"file": "/home/john/cod/python/poly/polynomial.py",
 			"settings":
 			{
 				"buffer_size": 1764,
@@ -101,7 +101,8 @@
 	"expanded_folders":
 	[
 		"/home/john/cod",
-		"/home/john/cod/python"
+		"/home/john/cod/python",
+		"/home/john/cod/python/poly"
 	],
 	"file_history":
 	[
@@ -174,7 +175,7 @@
 			[
 				{
 					"buffer": 0,
-					"file": "/home/john/cod/python/polynomial.py",
+					"file": "/home/john/cod/python/poly/polynomial.py",
 					"semi_transient": true,
 					"settings":
 					{
@@ -191,13 +192,7 @@
 						],
 						"settings":
 						{
-							"SL.177.region_keys":
-							[
-							],
-							"SL.180.region_keys":
-							[
-							],
-							"SL.185.region_keys":
+							"SL.82.region_keys":
 							[
 							],
 							"apply_syntax_touched": true,

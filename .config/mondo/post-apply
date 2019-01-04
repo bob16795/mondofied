@@ -18,6 +18,6 @@
 
 cd ~/.config/dwm/
 sudo make install
-sh ~/scr/wall.sh
+#sh ~/scr/wall.sh
 sleep .5
 killall dwm

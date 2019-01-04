@@ -23,6 +23,4 @@ steam & #game
 sublime & #dev
 
 
-#exec awesome
 exec dwm
-#exec i3

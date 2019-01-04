@@ -1,9 +1,9 @@
 sw_volume: 92
 audio_device_state:1:pulse audio
 audio_device_state:1:toggle_visualizer
-state: pause
-current: 38
-time: 78.207000
+state: play
+current: 39
+time: 4.266000
 random: 0
 repeat: 0
 single: 0
@@ -51,4 +51,5 @@ playlist_begin
 36:Ryan Upchurch/UPCHURCH “down in a hole” (AIC cover).opus
 37:hunter1s1k/Mans Not Hot_The Ting Goes But I'm Screaming The Lyrics.ogg
 38:DaymanOurSavior/EXTREME MEME MUSIC MEGAMASHUP.opus
+39:LIVELOVEASAPVEVO/A$AP Rocky - Praise The Lord (Da Shine) (Official Video) ft. Skepta.opus
 playlist_end
