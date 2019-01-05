@@ -301,7 +301,7 @@
 					"file": "/home/john/git/parbs.sh",
 					"settings":
 					{
-						"buffer_size": 10574,
+						"buffer_size": 10617,
 						"encoding": "UTF-8",
 						"line_ending": "Unix"
 					}
@@ -613,7 +613,7 @@
 							"semi_transient": false,
 							"settings":
 							{
-								"buffer_size": 10574,
+								"buffer_size": 10617,
 								"regions":
 								{
 									"bookmark_e":
@@ -631,8 +631,8 @@
 								"selection":
 								[
 									[
-										9365,
-										9365
+										9577,
+										9577
 									]
 								],
 								"settings":
@@ -645,7 +645,7 @@
 									"syntax": "Packages/ShellScript/Bash.sublime-syntax"
 								},
 								"translation.x": 0.0,
-								"translation.y": 1977.0,
+								"translation.y": 1911.0,
 								"zoom_level": 1.0
 							},
 							"stack_index": 0,
