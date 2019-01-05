@@ -19,7 +19,7 @@ esac done
 
 # DEFAULTS:
 [ -z ${dotfilesrepo+x} ] && dotfilesrepo="https://github.com/bob16795/config.git"
-[ -z ${progsfile+x} ] && progsfile="https://raw.githubusercontent.com/bob16795/colfig/master/scr/progs.csv"
+[ -z ${progsfile+x} ] && progsfile="https://raw.githubusercontent.com/bob16795/config/master/scr/progs.csv"
 [ -z ${aurhelper+x} ] && aurhelper="yay"
 
 ### FUNCTIONS ###
