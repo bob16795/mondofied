@@ -16,6 +16,7 @@
 							"installed"		"1"
 							"Updating"		"0"
 							"Running"		"0"
+							"name"		"Terraria"
 						}
 						"211820"
 						{
@@ -48,12 +49,14 @@
 							"installed"		"1"
 							"Updating"		"0"
 							"Running"		"0"
+							"name"		"Starbound - Unstable"
 						}
 						"620"
 						{
 							"installed"		"1"
 							"Updating"		"0"
 							"Running"		"0"
+							"name"		"Portal 2"
 						}
 					}
 					"RunningAppID"		"0"
@@ -73,7 +76,7 @@
 			{
 				"Steam"
 				{
-					"SteamPID"		"2706"
+					"SteamPID"		"1810"
 					"TempAppCmdLine"		""
 				}
 			}

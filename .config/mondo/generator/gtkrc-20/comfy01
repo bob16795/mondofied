@@ -3,7 +3,7 @@
 
 include "/home/luke/.gtkrc-2.0.mine"
 gtk-theme-name="Numixcomfy01"
-gtk-icon-theme-name="Adwaita"
+gtk-icon-theme-name="ePapirus"
 gtk-font-name="scientifica 10"
 gtk-cursor-theme-name="Adwaita"
 gtk-cursor-theme-size=0

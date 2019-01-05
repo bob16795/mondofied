@@ -8,19 +8,23 @@
 <VirtualBox xmlns="http://www.virtualbox.org/" version="1.12-linux">
   <Global>
     <ExtraData>
-      <ExtraDataItem name="GUI/LastWindowPosition" value="1366,13,1280,1011"/>
-      <ExtraDataItem name="GUI/SplitterSizes" value="425,851"/>
+      <ExtraDataItem name="GUI/LastWindowPosition" value="0,13,1366,755"/>
+      <ExtraDataItem name="GUI/RecentFolderCD" value="/home/john/dwn"/>
+      <ExtraDataItem name="GUI/RecentListCD" value="/home/john/dwn/archlinux-2019.01.01-x86_64.iso"/>
+      <ExtraDataItem name="GUI/SplitterSizes" value="454,908"/>
       <ExtraDataItem name="GUI/Statusbar" value="false"/>
       <ExtraDataItem name="GUI/Toolbar" value="false"/>
       <ExtraDataItem name="GUI/Toolbar/MachineTools/Order" value="None"/>
-      <ExtraDataItem name="GUI/UpdateCheckCount" value="2"/>
-      <ExtraDataItem name="GUI/UpdateDate" value="1 d, 2019-01-05, stable, 5.2.22"/>
+      <ExtraDataItem name="GUI/UpdateCheckCount" value="3"/>
+      <ExtraDataItem name="GUI/UpdateDate" value="1 d, 2019-01-06, stable, 5.2.22"/>
       <ExtraDataItem name="HostOnly/vboxnet0/IPAddress" value="192.168.56.1"/>
       <ExtraDataItem name="HostOnly/vboxnet0/IPNetMask" value="255.255.255.0"/>
       <ExtraDataItem name="HostOnly/vboxnet1/IPAddress" value="192.168.57.1"/>
       <ExtraDataItem name="HostOnly/vboxnet1/IPNetMask" value="255.255.255.0"/>
     </ExtraData>
-    <MachineRegistry/>
+    <MachineRegistry>
+      <MachineEntry uuid="{11db9f98-e6bc-4164-ad89-57ed1b0339e8}" src="/home/john/VirtualBox VMs/arch/arch.vbox"/>
+    </MachineRegistry>
     <NetserviceRegistry>
       <DHCPServers>
         <DHCPServer networkName="HostInterfaceNetworking-vboxnet0" IPAddress="192.168.56.100" networkMask="255.255.255.0" lowerIP="192.168.56.101" upperIP="192.168.56.254" enabled="1"/>

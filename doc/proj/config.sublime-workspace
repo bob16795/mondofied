@@ -8,11 +8,46 @@
 	"buffers":
 	[
 		{
-			"file": "/home/john/cfg/config/mondo/themes/bird01",
+			"file": "/home/john/cfg/config/mondo/post-apply",
 			"settings":
 			{
-				"buffer_size": 312,
+				"buffer_size": 555,
 				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/home/john/cfg/config/mondo/generator/gtkrc-20/_mondo-template",
+			"settings":
+			{
+				"buffer_size": 585,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/home/john/cfg/config/mondo/generator/gtkrc-30/_mondo-template",
+			"settings":
+			{
+				"buffer_size": 422,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/home/john/cfg/config/mondo/generator/dwm/_mondo-template",
+			"settings":
+			{
+				"buffer_size": 14310,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/home/john/cfg/config/mondo/pre-apply",
+			"settings":
+			{
+				"buffer_size": 478,
 				"line_ending": "Unix"
 			}
 		}
@@ -119,10 +154,17 @@
 	[
 		"/home/john/cfg",
 		"/home/john/cfg/config/mondo",
-		"/home/john/cfg/config/mondo/themes"
+		"/home/john/cfg/config/mondo/generator",
+		"/home/john/cfg/config/mondo/generator/dwm"
 	],
 	"file_history":
 	[
+		"/home/john/cfg/config/mondo/generator/homepage/_mondo-template",
+		"/home/john/cfg/config/mondo/themes/triangles02",
+		"/home/john/cfg/config/mondo/themes/bird01",
+		"/home/john/cfg/gitignore",
+		"/home/john/cfg/youtube.txt",
+		"/home/john/cfg/xinit",
 		"/home/john/cfg/config/sublime-text-3/Packages/User/mondo.sublime-build",
 		"/home/john/.config/mondo/generator/alacritty/_mondo-template",
 		"/home/john/cfg/scripts/tools/filesort",
@@ -141,10 +183,7 @@
 		"/home/john/.config/mondo/generator/gtk/_mondo-apply",
 		"/home/john/.config/mondo/generator/dwm/_mondo-apply",
 		"/home/john/.config/mondo/generator/qutebrowser/_mondo-template",
-		"/home/john/cfg/youtube.txt",
 		"/home/john/cfg/scripts/git_push.sh",
-		"/home/john/cfg/xinit",
-		"/home/john/cfg/gitignore",
 		"/home/john/.config/mondo/generator/alacritty/solarized-dark01",
 		"/home/john/.config/mondo/generator/configpy/_mondo-template",
 		"/home/john/.config/mondo/generator/dwm/_mondo-template",
@@ -202,6 +241,11 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"cairo-dock",
+			"cairo",
+			"Docky",
+			"*[]){",
+			",       ",
 			"#",
 			" 0",
 			"thm",
@@ -219,6 +263,8 @@
 		"regex": false,
 		"replace_history":
 		[
+			"Cairo-dock",
+			"cairo-dock"
 		],
 		"reverse": false,
 		"show_context": true,
@@ -234,19 +280,19 @@
 			[
 				{
 					"buffer": 0,
-					"file": "/home/john/cfg/config/mondo/themes/bird01",
+					"file": "/home/john/cfg/config/mondo/post-apply",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 312,
+						"buffer_size": 555,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								153,
-								153
+								543,
+								543
 							]
 						],
 						"settings":
@@ -254,7 +300,328 @@
 							"SL.13.region_keys":
 							[
 							],
-							"SL.299.region_keys":
+							"SL.14.region_keys":
+							[
+							],
+							"SL.15.region_keys":
+							[
+							],
+							"SL.16.region_keys":
+							[
+							],
+							"SL.23.region_keys":
+							[
+							],
+							"apply_syntax_touched": true,
+							"git_gutter_is_enabled": true,
+							"syntax": "Packages/ShellScript/Bash.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "/home/john/cfg/config/mondo/generator/gtkrc-20/_mondo-template",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 585,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								585,
+								585
+							]
+						],
+						"settings":
+						{
+							"apply_syntax_touched": true,
+							"git_gutter_is_enabled": true,
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 154.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "/home/john/cfg/config/mondo/generator/gtkrc-30/_mondo-template",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 422,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								130,
+								124
+							]
+						],
+						"settings":
+						{
+							"apply_syntax_touched": true,
+							"git_gutter_is_enabled": true,
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "/home/john/cfg/config/mondo/generator/dwm/_mondo-template",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 14310,
+						"regions":
+						{
+							"col_1008FF11":
+							{
+								"flags": 16,
+								"regions":
+								[
+									[
+										11835,
+										11845
+									],
+									[
+										11918,
+										11928
+									]
+								],
+								"scope": "col_1008FF11"
+							},
+							"col_1008FF11_icon":
+							{
+								"flags": 16,
+								"icon": "Packages/User/Color Highlight.cache/col_1008FF11_circle.png",
+								"regions":
+								[
+									[
+										11802,
+										11802
+									],
+									[
+										11885,
+										11885
+									]
+								],
+								"scope": "col_gutter"
+							},
+							"col_1008FF12":
+							{
+								"flags": 16,
+								"regions":
+								[
+									[
+										11673,
+										11683
+									]
+								],
+								"scope": "col_1008FF12"
+							},
+							"col_1008FF12_icon":
+							{
+								"flags": 16,
+								"icon": "Packages/User/Color Highlight.cache/col_1008FF12_circle.png",
+								"regions":
+								[
+									[
+										11640,
+										11640
+									]
+								],
+								"scope": "col_gutter"
+							},
+							"col_1008FF13":
+							{
+								"flags": 16,
+								"regions":
+								[
+									[
+										12002,
+										12012
+									],
+									[
+										12083,
+										12093
+									]
+								],
+								"scope": "col_1008FF13"
+							},
+							"col_1008FF13_icon":
+							{
+								"flags": 16,
+								"icon": "Packages/User/Color Highlight.cache/col_1008FF13_circle.png",
+								"regions":
+								[
+									[
+										11969,
+										11969
+									],
+									[
+										12050,
+										12050
+									]
+								],
+								"scope": "col_gutter"
+							},
+							"col_1008FF14":
+							{
+								"flags": 16,
+								"regions":
+								[
+									[
+										12223,
+										12233
+									]
+								],
+								"scope": "col_1008FF14"
+							},
+							"col_1008FF14_icon":
+							{
+								"flags": 16,
+								"icon": "Packages/User/Color Highlight.cache/col_1008FF14_circle.png",
+								"regions":
+								[
+									[
+										12214,
+										12214
+									]
+								],
+								"scope": "col_gutter"
+							},
+							"col_1008FF16":
+							{
+								"flags": 16,
+								"regions":
+								[
+									[
+										12387,
+										12397
+									]
+								],
+								"scope": "col_1008FF16"
+							},
+							"col_1008FF16_icon":
+							{
+								"flags": 16,
+								"icon": "Packages/User/Color Highlight.cache/col_1008FF16_circle.png",
+								"regions":
+								[
+									[
+										12354,
+										12354
+									]
+								],
+								"scope": "col_gutter"
+							},
+							"col_1008FF17":
+							{
+								"flags": 16,
+								"regions":
+								[
+									[
+										12306,
+										12316
+									]
+								],
+								"scope": "col_1008FF17"
+							},
+							"col_1008FF17_icon":
+							{
+								"flags": 16,
+								"icon": "Packages/User/Color Highlight.cache/col_1008FF17_circle.png",
+								"regions":
+								[
+									[
+										12273,
+										12273
+									]
+								],
+								"scope": "col_gutter"
+							},
+							"col_1008FF31":
+							{
+								"flags": 16,
+								"regions":
+								[
+									[
+										12165,
+										12175
+									]
+								],
+								"scope": "col_1008FF31"
+							},
+							"col_1008FF31_icon":
+							{
+								"flags": 16,
+								"icon": "Packages/User/Color Highlight.cache/col_1008FF31_circle.png",
+								"regions":
+								[
+									[
+										12132,
+										12132
+									]
+								],
+								"scope": "col_gutter"
+							},
+							"col_1008FFB2":
+							{
+								"flags": 16,
+								"regions":
+								[
+									[
+										11754,
+										11764
+									]
+								],
+								"scope": "col_1008FFB2"
+							},
+							"col_1008FFB2_icon":
+							{
+								"flags": 16,
+								"icon": "Packages/User/Color Highlight.cache/col_1008FFB2_circle.png",
+								"regions":
+								[
+									[
+										11721,
+										11721
+									]
+								],
+								"scope": "col_gutter"
+							}
+						},
+						"selection":
+						[
+							[
+								1365,
+								1365
+							]
+						],
+						"settings":
+						{
+							"SL.16.region_keys":
+							[
+							],
+							"SL.17.region_keys":
 							[
 							],
 							"apply_syntax_touched": true,
@@ -265,7 +632,39 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 0,
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "/home/john/cfg/config/mondo/pre-apply",
+					"semi_transient": true,
+					"settings":
+					{
+						"buffer_size": 478,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"SL.19.region_keys":
+							[
+							],
+							"apply_syntax_touched": true,
+							"syntax": "Packages/ShellScript/Bash.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
 					"type": "text"
 				}
 			]

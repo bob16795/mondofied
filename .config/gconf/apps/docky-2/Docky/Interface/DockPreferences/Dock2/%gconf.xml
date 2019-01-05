@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<gconf>
+	<entry name="FadeOnHide" mtime="1546648993" type="bool" value="false"/>
+	<entry name="Autohide" mtime="1546650060" type="string">
+		<stringvalue>Intellihide</stringvalue>
+	</entry>
+	<entry name="ZoomEnabled" mtime="1546648584" type="bool" value="false"/>
+	<entry name="PanelMode" mtime="1546649624" type="bool" value="false"/>
+	<entry name="ZoomPercent" mtime="1546648583" type="float" value="1"/>
+	<entry name="ThreeDimensional" mtime="1546648557" type="bool" value="true"/>
+	<entry name="Plugins" mtime="1546649339" type="list" ltype="string">
+		<li type="string">
+			<stringvalue>Clock</stringvalue>
+		</li>
+	</entry>
+	<entry name="MonitorNumber" mtime="1546649061" type="int" value="0"/>
+	<entry name="Position" mtime="1546650060" type="string">
+		<stringvalue>Bottom</stringvalue>
+	</entry>
+	<entry name="SortList" mtime="1546650060" type="list" ltype="string">
+		<li type="string">
+			<stringvalue>Clock</stringvalue>
+		</li>
+	</entry>
+</gconf>

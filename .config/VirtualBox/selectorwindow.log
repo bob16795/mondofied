@@ -1,21 +1,34 @@
 VirtualBox GUI VM Selector Window 5.2.22 r126257 linux.amd64 (Dec 25 2018 23:59:23) release log
-00:00:00.317330 Log opened 2019-01-04T15:36:44.251212000Z
-00:00:00.317332 Build Type: release
-00:00:00.317335 OS Product: Linux
-00:00:00.317337 OS Release: 4.19.12-arch1-1-ARCH
-00:00:00.317339 OS Version: #1 SMP PREEMPT Fri Dec 21 13:56:54 UTC 2018
-00:00:00.317370 DMI Product Name: 4291EK2
-00:00:00.317382 DMI Product Version: ThinkPad X220
-00:00:00.317434 Host RAM: 7858MB (7.6GB) total, 6273MB (6.1GB) available
-00:00:00.317438 Executable: /usr/lib/virtualbox/VirtualBox
-00:00:00.317439 Process ID: 10779
-00:00:00.317440 Package type: LINUX_64BITS_GENERIC (OSE)
-00:00:00.317478 Qt version: 5.12.0
-00:00:00.336488 GUI: UIMediumEnumerator: Medium-enumeration started...
-00:00:00.336532 GUI: UIMediumEnumerator: Medium-enumeration finished!
-00:00:00.339218 GUI: UIMediumEnumerator: Medium-enumeration started...
-00:00:00.339233 GUI: UIMediumEnumerator: Medium-enumeration finished!
-00:00:00.503098 GUI: UIDesktopWidgetWatchdog::sltHandleHostScreenAvailableGeometryCalculated: Screen 0 work area is actually resized to: 1371x18 x 694x1001
-00:00:00.503862 GUI: UIDesktopWidgetWatchdog::sltHandleHostScreenAvailableGeometryCalculated: Screen 1 work area is actually resized to: 2075x18 x 566x495
-00:00:02.801161 GUI: UIMediumEnumerator: Medium-enumeration started...
-00:00:02.801280 GUI: UIMediumEnumerator: Medium-enumeration finished!
+00:00:00.341552 Log opened 2019-01-05T16:57:02.120007000Z
+00:00:00.341553 Build Type: release
+00:00:00.341556 OS Product: Linux
+00:00:00.341557 OS Release: 4.19.12-arch1-1-ARCH
+00:00:00.341558 OS Version: #1 SMP PREEMPT Fri Dec 21 13:56:54 UTC 2018
+00:00:00.341596 DMI Product Name: 4291EK2
+00:00:00.341608 DMI Product Version: ThinkPad X220
+00:00:00.341646 Host RAM: 7858MB (7.6GB) total, 6036MB (5.8GB) available
+00:00:00.341650 Executable: /usr/lib/virtualbox/VirtualBox
+00:00:00.341650 Process ID: 4578
+00:00:00.341651 Package type: LINUX_64BITS_GENERIC (OSE)
+00:00:00.341682 Qt version: 5.12.0
+00:00:00.404133 GUI: UIMediumEnumerator: Medium-enumeration started...
+00:00:00.669181 GUI: UIDesktopWidgetWatchdog::sltHandleHostScreenAvailableGeometryCalculated: Screen 0 work area is actually resized to: 1366x13 x 704x1011
+00:00:00.709885 GUI: UIDesktopWidgetWatchdog::sltHandleHostScreenAvailableGeometryCalculated: Screen 1 work area is actually resized to: 2070x13 x 576x505
+00:00:00.779670 GUI: UIMediumEnumerator: Medium-enumeration finished!
+00:00:28.473052 GUI: UIMediumEnumerator: Medium-enumeration started...
+00:00:28.613561 GUI: UIMediumEnumerator: Medium-enumeration finished!
+00:00:35.807781 ERROR [COM]: aRC=NS_ERROR_UNEXPECTED (0x8000ffff) aIID={7844aa05-b02e-4cdd-a04f-ade4a762e6b7} aComponent={SessionWrap} aText={The session is not locked (session state: Unlocked)}, preserve=false aResultDetail=0
+00:00:38.102365 GUI: UIMediumEnumerator: Medium-enumeration finished!
+00:00:43.935269 GUI: UIMediumEnumerator: Medium-enumeration started...
+00:00:43.935398 GUI: UIMediumEnumerator: Medium-enumeration finished!
+00:00:59.764968 GUI: UIMediumEnumerator: Medium with key={89411fcd-a483-4741-843a-1291ddd8a977} created
+00:01:00.732257 GUI: UIMediumEnumerator: Medium-enumeration finished!
+00:01:02.502052 GUI: UIMediumEnumerator: Medium-enumeration started...
+00:01:02.710159 2D support test succeeded
+00:01:02.766407 GUI: UIMediumEnumerator: Medium-enumeration finished!
+00:07:45.386145 GUI: UIMediumEnumerator: Medium with key={2b802363-5cca-424d-8661-20e2d7c14d08} created
+00:07:49.317659 GUI: UIMediumEnumerator: Medium-enumeration finished!
+00:08:04.497406 GUI: UIMediumEnumerator: Medium-enumeration started...
+00:08:04.637271 GUI: UIMediumEnumerator: Medium-enumeration finished!
+00:08:26.192619 GUI: UIMediumEnumerator: Medium-enumeration finished!
+00:08:26.576993 GUI: UIMediumEnumerator: Medium-enumeration finished!

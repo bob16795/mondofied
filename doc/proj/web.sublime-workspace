@@ -8,10 +8,11 @@
 	"buffers":
 	[
 		{
-			"file": "/home/john/cfg/config/webhome/styles.css",
+			"file": "/home/john/cfg/config/webhome/index.html",
 			"settings":
 			{
-				"buffer_size": 2223,
+				"buffer_size": 5572,
+				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
 		}
@@ -216,210 +217,29 @@
 			[
 				{
 					"buffer": 0,
-					"file": "/home/john/cfg/config/webhome/styles.css",
-					"semi_transient": true,
+					"file": "/home/john/cfg/config/webhome/index.html",
+					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 2223,
+						"buffer_size": 5572,
 						"regions":
 						{
-							"col_272727FF":
-							{
-								"flags": 16,
-								"regions":
-								[
-									[
-										509,
-										516
-									],
-									[
-										780,
-										787
-									],
-									[
-										811,
-										818
-									],
-									[
-										1046,
-										1053
-									],
-									[
-										1729,
-										1736
-									]
-								],
-								"scope": "col_272727FF"
-							},
-							"col_272727FF_icon":
-							{
-								"flags": 16,
-								"icon": "Packages/User/Color Highlight.cache/col_272727FF_circle.png",
-								"regions":
-								[
-									[
-										487,
-										487
-									],
-									[
-										758,
-										758
-									],
-									[
-										789,
-										789
-									],
-									[
-										1024,
-										1024
-									],
-									[
-										1707,
-										1707
-									]
-								],
-								"scope": "col_gutter"
-							},
-							"col_5F4B8BFF":
-							{
-								"flags": 16,
-								"regions":
-								[
-									[
-										98,
-										105
-									]
-								],
-								"scope": "col_5F4B8BFF"
-							},
-							"col_5F4B8BFF_icon":
-							{
-								"flags": 16,
-								"icon": "Packages/User/Color Highlight.cache/col_5F4B8BFF_circle.png",
-								"regions":
-								[
-									[
-										76,
-										76
-									]
-								],
-								"scope": "col_gutter"
-							},
-							"col_8C8C8BFF":
-							{
-								"flags": 16,
-								"regions":
-								[
-									[
-										2134,
-										2141
-									]
-								],
-								"scope": "col_8C8C8BFF"
-							},
-							"col_8C8C8BFF_icon":
-							{
-								"flags": 16,
-								"icon": "Packages/User/Color Highlight.cache/col_8C8C8BFF_circle.png",
-								"regions":
-								[
-									[
-										2123,
-										2123
-									]
-								],
-								"scope": "col_gutter"
-							},
-							"col_F1F1F1FF":
-							{
-								"flags": 16,
-								"regions":
-								[
-									[
-										884,
-										891
-									]
-								],
-								"scope": "col_F1F1F1FF"
-							},
-							"col_F1F1F1FF_icon":
-							{
-								"flags": 16,
-								"icon": "Packages/User/Color Highlight.cache/col_F1F1F1FF_circle.png",
-								"regions":
-								[
-									[
-										873,
-										873
-									]
-								],
-								"scope": "col_gutter"
-							},
-							"col_FFFFFFFF":
-							{
-								"flags": 16,
-								"regions":
-								[
-									[
-										406,
-										410
-									],
-									[
-										1140,
-										1144
-									],
-									[
-										2045,
-										2049
-									],
-									[
-										2215,
-										2219
-									]
-								],
-								"scope": "col_FFFFFFFF"
-							},
-							"col_FFFFFFFF_icon":
-							{
-								"flags": 16,
-								"icon": "Packages/User/Color Highlight.cache/col_FFFFFFFF_circle.png",
-								"regions":
-								[
-									[
-										395,
-										395
-									],
-									[
-										1129,
-										1129
-									],
-									[
-										2034,
-										2034
-									],
-									[
-										2204,
-										2204
-									]
-								],
-								"scope": "col_gutter"
-							}
 						},
 						"selection":
 						[
 							[
-								0,
-								0
+								2069,
+								2069
 							]
 						],
 						"settings":
 						{
 							"apply_syntax_touched": true,
 							"git_gutter_is_enabled": true,
-							"syntax": "Packages/CSS/CSS.sublime-syntax"
+							"syntax": "Packages/HTML/HTML.sublime-syntax"
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 132.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,

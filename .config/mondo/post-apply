@@ -16,4 +16,5 @@
 
 # eval "${1}"
 sh ~/scr/wall.sh
-kill $(pidof dwm)
+kill -HUP $(pidof dwm)
+gtkreload
