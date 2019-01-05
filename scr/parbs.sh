@@ -207,6 +207,8 @@ serviceinit NetworkManager cronie
 # Most important command! Get rid of the beep!
 systembeepoff
 
+putgitrepo "https://github.com/NerdyPepper/scientifica" "/home/$name/fon/scientifica"
+
 sudo ln -fs ~/fon/scientifica/regular/scientifica-11.bdf /usr/share/fonts/scientifica-11.bdf
 sudo ln -fs ~/fon/scientifica/bold/scientifica-11.bdf /usr/share/fonts/scientificaBold-11.bdf
 
