@@ -21,6 +21,6 @@ dockd --daemon & #dock
 alacritty --class visual -e vis & #music vis
 steam & #game
 sublime & #dev
-cairo-dock &
+#cairo-dock &
 
 exec dwm
