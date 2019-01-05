@@ -11,6 +11,6 @@ color_5      268bd2
 color_6      d33682
 color_7      2aa198
 color_8      eee8d5
-bg           ~/pix/solarized-light.png
+bg           solarized-light.png
 alpha        1.0
 alpha_hex    ff

@@ -11,6 +11,6 @@ color_5      286797
 color_6      1F7BA7
 color_7      2479A4
 color_8      9da4ba
-bg           ~/pix/Vibrant/lub.png
+bg           lub.png
 alpha        0.5
 alpha_hex    80

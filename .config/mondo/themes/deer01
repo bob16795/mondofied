@@ -11,6 +11,6 @@ color_5      7b8993
 color_6      788790
 color_7      90e9f4
 color_8      64a3aa
-bg           ~/pix/deer.png
+bg           deer.png
 alpha        0.5
 alpha_hex    80

@@ -1,2 +1,2 @@
 #!/bin/bash
-feh --bg-fill ~/pix/moon.png
+feh --bg-fill ~/.config/mondo/images/moon.png

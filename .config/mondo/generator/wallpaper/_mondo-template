@@ -1,2 +1,2 @@
 #!/bin/bash
-feh --bg-fill %%bg%%
+feh --bg-fill ~/.config/mondo/images/%%bg%%

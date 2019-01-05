@@ -1,2 +1,2 @@
 #!/bin/bash
-feh --bg-fill ~/pix/deer.png
+feh --bg-fill ~/.config/mondo/images/deer.png

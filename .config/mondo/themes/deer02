@@ -11,6 +11,6 @@ color_5      956F90
 color_6      1C99CF
 color_7      9ad0dc
 color_8      6b919a
-bg           ~/pix/Etc/antlers.jpg
+bg           antlers.jpg
 alpha        0.9
 alpha_hex    E5

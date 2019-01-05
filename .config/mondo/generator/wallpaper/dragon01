@@ -1,2 +1,2 @@
 #!/bin/bash
-feh --bg-fill ~/pix/Titans/crag_dragon.png
+feh --bg-fill ~/.config/mondo/images/crag_dragon.png

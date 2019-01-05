@@ -11,6 +11,6 @@ color_5      D2CDB1
 color_6      E1DCC7
 color_7      edeae1
 color_8      a5a39d
-bg           ~/pix/Titans/crag_dragon.png
+bg           crag_dragon.png
 alpha        0.75
 alpha_hex    c0

@@ -11,6 +11,6 @@ color_5      93D0F0
 color_6      A6D8F3
 color_7      e3eff6
 color_8      9ea7ac
-bg           ~/pix/Vibrant/light.jpg
+bg           light.jpg
 alpha        0.5
 alpha_hex    80

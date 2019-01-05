@@ -1,2 +1,2 @@
 #!/bin/bash
-feh --bg-fill ~/pix/Unsorted/triangles_landscape.jpg
+feh --bg-fill ~/.config/mondo/images/triangles_landscape.jpg

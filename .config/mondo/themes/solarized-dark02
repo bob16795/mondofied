@@ -11,6 +11,6 @@ color_5      268bd2
 color_6      d33682
 color_7      2aa198
 color_8      eee8d5
-bg           ~/pix/Unsorted/sudoBlue.jpg
+bg           sudoBlue.jpg
 alpha        0.5
 alpha_hex    80
