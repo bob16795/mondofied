@@ -8,12 +8,15 @@
 <VirtualBox xmlns="http://www.virtualbox.org/" version="1.12-linux">
   <Global>
     <ExtraData>
-      <ExtraDataItem name="GUI/LastWindowPosition" value="0,13,1366,755"/>
+      <ExtraDataItem name="GUI/DetailsPageBoxes" value="general,system,preview,display,storage,audio,network,usb,sharedFolders,description"/>
+      <ExtraDataItem name="GUI/LastItemSelected" value="m=arch"/>
+      <ExtraDataItem name="GUI/LastWindowPosition" value="1478,13,704,1011"/>
       <ExtraDataItem name="GUI/RecentFolderCD" value="/home/john/dwn"/>
-      <ExtraDataItem name="GUI/SplitterSizes" value="454,908"/>
+      <ExtraDataItem name="GUI/RecentListCD" value="/home/john/dwn/archlinux-2019.01.01-x86_64.iso"/>
+      <ExtraDataItem name="GUI/SplitterSizes" value="216,484"/>
       <ExtraDataItem name="GUI/Statusbar" value="false"/>
       <ExtraDataItem name="GUI/Toolbar" value="false"/>
-      <ExtraDataItem name="GUI/Toolbar/MachineTools/Order" value="None"/>
+      <ExtraDataItem name="GUI/Toolbar/MachineTools/Order" value="Details"/>
       <ExtraDataItem name="GUI/UpdateCheckCount" value="3"/>
       <ExtraDataItem name="GUI/UpdateDate" value="1 d, 2019-01-06, stable, 5.2.22"/>
       <ExtraDataItem name="HostOnly/vboxnet0/IPAddress" value="192.168.56.1"/>

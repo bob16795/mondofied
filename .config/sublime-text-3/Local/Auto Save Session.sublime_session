@@ -405,6 +405,7 @@
 			],
 			"file_history":
 			[
+				"/home/john/git/chroot.sh",
 				"/home/john/git/pacman.txt",
 				"/home/john/git/parbs.sh",
 				"/home/john/git/README.md",
@@ -498,7 +499,7 @@
 			"groups":
 			[
 				{
-					"selected": 3,
+					"selected": 1,
 					"sheets":
 					[
 						{
@@ -547,24 +548,20 @@
 								"selection":
 								[
 									[
-										886,
-										886
+										567,
+										567
 									]
 								],
 								"settings":
 								{
-									"SL.26.region_keys":
-									[
-									],
 									"apply_syntax_touched": true,
-									"git_gutter_is_enabled": true,
 									"syntax": "Packages/ShellScript/Shell-Unix-Generic.sublime-syntax"
 								},
-								"translation.x": 0.0,
+								"translation.x": 194.0,
 								"translation.y": 0.0,
 								"zoom_level": 1.0
 							},
-							"stack_index": 3,
+							"stack_index": 0,
 							"type": "text"
 						},
 						{
@@ -597,7 +594,7 @@
 								"translation.y": 165.0,
 								"zoom_level": 1.0
 							},
-							"stack_index": 2,
+							"stack_index": 3,
 							"type": "text"
 						},
 						{
@@ -627,10 +624,10 @@
 									"syntax": "Packages/Text/Plain text.tmLanguage"
 								},
 								"translation.x": 0.0,
-								"translation.y": 264.0,
+								"translation.y": 66.0,
 								"zoom_level": 1.0
 							},
-							"stack_index": 0,
+							"stack_index": 2,
 							"type": "text"
 						},
 						{
