@@ -301,7 +301,7 @@
 					"file": "/home/john/git/parbs.sh",
 					"settings":
 					{
-						"buffer_size": 10696,
+						"buffer_size": 10742,
 						"encoding": "UTF-8",
 						"line_ending": "Unix"
 					}
@@ -508,7 +508,7 @@
 			"groups":
 			[
 				{
-					"selected": 2,
+					"selected": 3,
 					"sheets":
 					[
 						{
@@ -604,7 +604,7 @@
 								"translation.y": 264.0,
 								"zoom_level": 1.0
 							},
-							"stack_index": 0,
+							"stack_index": 1,
 							"type": "text"
 						},
 						{
@@ -613,7 +613,7 @@
 							"semi_transient": false,
 							"settings":
 							{
-								"buffer_size": 10696,
+								"buffer_size": 10742,
 								"regions":
 								{
 									"bookmark_e":
@@ -631,8 +631,8 @@
 								"selection":
 								[
 									[
-										9513,
-										9513
+										1062,
+										1065
 									]
 								],
 								"settings":
@@ -645,10 +645,10 @@
 									"syntax": "Packages/ShellScript/Bash.sublime-syntax"
 								},
 								"translation.x": 0.0,
-								"translation.y": 1944.0,
+								"translation.y": 99.0,
 								"zoom_level": 1.0
 							},
-							"stack_index": 1,
+							"stack_index": 0,
 							"type": "text"
 						},
 						{

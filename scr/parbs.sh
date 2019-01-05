@@ -211,11 +211,12 @@ serviceinit NetworkManager cronie
 
 # Most important command! Get rid of the beep!
 systembeepoff
+
+#install scientifica font
 dialog --infobox "Installing fonts..." 4 50
 putgitrepo "https://github.com/NerdyPepper/scientifica" "/home/$name/fon/scientifica"
-
-ln -fs ~/fon/scientifica/regular/scientifica-11.bdf /usr/share/fonts/scientifica-11.bdf
-ln -fs ~/fon/scientifica/bold/scientifica-11.bdf /usr/share/fonts/scientificaBold-11.bdf
+ln -fs /home/$name/fon/scientifica/regular/scientifica-11.bdf /usr/share/fonts/scientifica-11.bdf
+ln -fs /home/$name/fon/scientifica/bold/scientifica-11.bdf /usr/share/fonts/scientificaBold-11.bdf
 fc-cache -fv
 
 # This line, overwriting the `newperms` command above will allow the user to run
