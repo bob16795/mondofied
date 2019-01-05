@@ -8,10 +8,19 @@
 	"buffers":
 	[
 		{
-			"file": "/home/john/cfg/config/mondo/post-apply",
+			"file": "/home/john/cfg/config/mondo/themes/zdzis01",
 			"settings":
 			{
-				"buffer_size": 555,
+				"buffer_size": 325,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/home/john/cfg/config/mondo/generator/wallpaper/Antepenultimata",
+			"settings":
+			{
+				"buffer_size": 69,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
@@ -40,14 +49,6 @@
 			{
 				"buffer_size": 14310,
 				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "/home/john/cfg/config/mondo/pre-apply",
-			"settings":
-			{
-				"buffer_size": 478,
 				"line_ending": "Unix"
 			}
 		}
@@ -155,13 +156,29 @@
 		"/home/john/cfg",
 		"/home/john/cfg/config/mondo",
 		"/home/john/cfg/config/mondo/generator",
-		"/home/john/cfg/config/mondo/generator/dwm"
+		"/home/john/cfg/config/mondo/generator/wallpaper",
+		"/home/john/cfg/config/mondo/themes"
 	],
 	"file_history":
 	[
-		"/home/john/cfg/config/mondo/generator/homepage/_mondo-template",
 		"/home/john/cfg/config/mondo/themes/triangles02",
+		"/home/john/cfg/config/mondo/themes/triangles01",
+		"/home/john/cfg/config/mondo/themes/solarized-light",
+		"/home/john/cfg/config/mondo/themes/solarized-dark02",
+		"/home/john/cfg/config/mondo/themes/solarized-dark01",
+		"/home/john/cfg/config/mondo/themes/moon",
+		"/home/john/cfg/config/mondo/themes/light",
+		"/home/john/cfg/config/mondo/themes/dragon01",
+		"/home/john/cfg/config/mondo/themes/deer02",
+		"/home/john/cfg/config/mondo/themes/deer01",
+		"/home/john/cfg/config/mondo/themes/comfy01",
 		"/home/john/cfg/config/mondo/themes/bird01",
+		"/home/john/cfg/config/mondo/themes/Antepenultimata",
+		"/home/john/cfg/config/mondo/generator/wallpaper/_mondo-template",
+		"/home/john/cfg/config/mondo/generator/wallpaper/bird01",
+		"/home/john/cfg/config/mondo/generator/wallpaper/_mondo-generate",
+		"/home/john/cfg/config/mondo/post-apply",
+		"/home/john/cfg/config/mondo/generator/homepage/_mondo-template",
 		"/home/john/cfg/gitignore",
 		"/home/john/cfg/youtube.txt",
 		"/home/john/cfg/xinit",
@@ -275,41 +292,59 @@
 	"groups":
 	[
 		{
-			"selected": 0,
+			"selected": 1,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "/home/john/cfg/config/mondo/post-apply",
+					"file": "/home/john/cfg/config/mondo/themes/zdzis01",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 555,
+						"buffer_size": 325,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								543,
-								543
+								254,
+								254
 							]
 						],
 						"settings":
 						{
-							"SL.13.region_keys":
+							"apply_syntax_touched": true,
+							"git_gutter_is_enabled": true,
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "/home/john/cfg/config/mondo/generator/wallpaper/Antepenultimata",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 69,
+						"regions":
+						{
+						},
+						"selection":
+						[
 							[
-							],
-							"SL.14.region_keys":
-							[
-							],
-							"SL.15.region_keys":
-							[
-							],
-							"SL.16.region_keys":
-							[
-							],
-							"SL.23.region_keys":
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"SL.78.region_keys":
 							[
 							],
 							"apply_syntax_touched": true,
@@ -324,7 +359,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 1,
+					"buffer": 2,
 					"file": "/home/john/cfg/config/mondo/generator/gtkrc-20/_mondo-template",
 					"semi_transient": false,
 					"settings":
@@ -354,7 +389,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 2,
+					"buffer": 3,
 					"file": "/home/john/cfg/config/mondo/generator/gtkrc-30/_mondo-template",
 					"semi_transient": false,
 					"settings":
@@ -384,7 +419,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 3,
+					"buffer": 4,
 					"file": "/home/john/cfg/config/mondo/generator/dwm/_mondo-template",
 					"semi_transient": false,
 					"settings":
@@ -612,8 +647,8 @@
 						"selection":
 						[
 							[
-								1365,
-								1365
+								1364,
+								1364
 							]
 						],
 						"settings":
@@ -633,38 +668,6 @@
 						"zoom_level": 1.0
 					},
 					"stack_index": 2,
-					"type": "text"
-				},
-				{
-					"buffer": 4,
-					"file": "/home/john/cfg/config/mondo/pre-apply",
-					"semi_transient": true,
-					"settings":
-					{
-						"buffer_size": 478,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"SL.19.region_keys":
-							[
-							],
-							"apply_syntax_touched": true,
-							"syntax": "Packages/ShellScript/Bash.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
 					"type": "text"
 				}
 			]
