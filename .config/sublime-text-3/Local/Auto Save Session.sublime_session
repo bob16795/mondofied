@@ -283,16 +283,16 @@
 					"file": "/home/john/git/chroot.sh",
 					"settings":
 					{
-						"buffer_size": 713,
+						"buffer_size": 940,
 						"encoding": "UTF-8",
 						"line_ending": "Unix"
 					}
 				},
 				{
-					"file": "/home/john/git/README.md",
+					"file": "/home/john/git/parbs.sh",
 					"settings":
 					{
-						"buffer_size": 44,
+						"buffer_size": 10263,
 						"encoding": "UTF-8",
 						"line_ending": "Unix"
 					}
@@ -302,7 +302,6 @@
 					"settings":
 					{
 						"buffer_size": 18950,
-						"encoding": "UTF-8",
 						"line_ending": "Unix"
 					}
 				},
@@ -405,8 +404,10 @@
 			],
 			"file_history":
 			[
-				"/home/john/git/.gitignore",
 				"/home/john/git/pacman.txt",
+				"/home/john/git/parbs.sh",
+				"/home/john/git/README.md",
+				"/home/john/git/.gitignore",
 				"/home/john/doc/not/.brain/Inbox.note",
 				"/home/john/README.md",
 				"/home/john/.config/mondo/post-apply",
@@ -496,7 +497,7 @@
 			"groups":
 			[
 				{
-					"selected": 1,
+					"selected": 2,
 					"sheets":
 					[
 						{
@@ -512,8 +513,8 @@
 								"selection":
 								[
 									[
-										1915,
-										1915
+										1792,
+										1792
 									]
 								],
 								"settings":
@@ -529,7 +530,7 @@
 								"translation.y": 330.0,
 								"zoom_level": 1.0
 							},
-							"stack_index": 1,
+							"stack_index": 3,
 							"type": "text"
 						},
 						{
@@ -538,15 +539,15 @@
 							"semi_transient": false,
 							"settings":
 							{
-								"buffer_size": 713,
+								"buffer_size": 940,
 								"regions":
 								{
 								},
 								"selection":
 								[
 									[
-										471,
-										471
+										886,
+										886
 									]
 								],
 								"settings":
@@ -562,46 +563,46 @@
 								"translation.y": 0.0,
 								"zoom_level": 1.0
 							},
-							"stack_index": 0,
+							"stack_index": 2,
 							"type": "text"
 						},
 						{
 							"buffer": 2,
-							"file": "/home/john/git/README.md",
+							"file": "/home/john/git/parbs.sh",
 							"semi_transient": false,
 							"settings":
 							{
-								"buffer_size": 44,
+								"buffer_size": 10263,
 								"regions":
 								{
 								},
 								"selection":
 								[
 									[
-										44,
-										44
+										1002,
+										993
 									]
 								],
 								"settings":
 								{
-									"SL.22.region_keys":
+									"SL.29.region_keys":
 									[
 									],
 									"apply_syntax_touched": true,
 									"git_gutter_is_enabled": true,
-									"syntax": "Packages/Markdown/Markdown.sublime-syntax"
+									"syntax": "Packages/ShellScript/Bash.sublime-syntax"
 								},
 								"translation.x": 0.0,
-								"translation.y": 0.0,
+								"translation.y": 165.0,
 								"zoom_level": 1.0
 							},
-							"stack_index": 3,
+							"stack_index": 0,
 							"type": "text"
 						},
 						{
 							"buffer": 3,
 							"file": "/home/john/git/pacman.txt",
-							"semi_transient": false,
+							"semi_transient": true,
 							"settings":
 							{
 								"buffer_size": 18950,
@@ -611,8 +612,8 @@
 								"selection":
 								[
 									[
-										278,
-										278
+										0,
+										0
 									]
 								],
 								"settings":
@@ -625,7 +626,7 @@
 								"translation.y": 0.0,
 								"zoom_level": 1.0
 							},
-							"stack_index": 2,
+							"stack_index": 1,
 							"type": "text"
 						},
 						{
