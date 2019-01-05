@@ -19,7 +19,7 @@ THIS_FILE="${1##*/}"
 # To source the settings file one could use this:
 # source "${THIS_DIR}/_mondo-settings"
 
-gtk_dir="/home/john/thm/numix-solarized-gtk-theme"
+gtk_dir="~/thm/numix-solarized-gtk-theme"
 
 generategtk(){
   cd "$gtk_dir" || exit 

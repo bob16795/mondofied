@@ -203,8 +203,10 @@ sudo -u "$name" vim -E -c "PlugUpdate|visual|q|q" >/dev/null
 
 dialog --infobox "Installing themes this will take a while..." 4 50
 gem install sass
-putgitrepo "https://github.com/Ferdi265/numix-solarized-gtk-theme" "/home/$name/thm/numix-solarized-gtk-theme"
-sudo -u "$name" mondo -fg all >/dev/null
+source /home/$name/.bashrc
+sudo -u "$name" git clone https://github.com/Ferdi265/numix-solarized-gtk-theme ~/thm/numix-solarized-gtk-theme
+sudo -u "$name" mondo -fg all > /dev/null
+sudo -u "$name" mondo -a moon > /dev/null
 
 # Enable services here.
 serviceinit NetworkManager cronie
@@ -214,7 +216,7 @@ systembeepoff
 
 #install scientifica font
 dialog --infobox "Installing fonts..." 4 50
-putgitrepo "https://github.com/NerdyPepper/scientifica" "/home/$name/fon/scientifica"
+sudo -u "$name" git clone https://github.com/NerdyPepper/scientifica /home/$name/fon/scientifica
 ln -fs /home/$name/fon/scientifica/regular/scientifica-11.bdf /usr/share/fonts/scientifica-11.bdf
 ln -fs /home/$name/fon/scientifica/bold/scientifica-11.bdf /usr/share/fonts/scientificaBold-11.bdf
 fc-cache -fv

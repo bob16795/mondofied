@@ -17,11 +17,10 @@
 			}
 		},
 		{
-			"file": "/home/john/cfg/config/mondo/generator/wallpaper/Antepenultimata",
+			"file": "/home/john/cfg/config/mondo/post-apply",
 			"settings":
 			{
-				"buffer_size": 69,
-				"encoding": "UTF-8",
+				"buffer_size": 555,
 				"line_ending": "Unix"
 			}
 		},
@@ -154,13 +153,18 @@
 	"expanded_folders":
 	[
 		"/home/john/cfg",
+		"/home/john/cfg/scripts",
+		"/home/john/cfg/scripts/tools",
 		"/home/john/cfg/config/mondo",
 		"/home/john/cfg/config/mondo/generator",
-		"/home/john/cfg/config/mondo/generator/wallpaper",
-		"/home/john/cfg/config/mondo/themes"
+		"/home/john/cfg/config/mondo/generator/gtk",
+		"/home/john/cfg/config/mondo/generator/wallpaper"
 	],
 	"file_history":
 	[
+		"/home/john/cfg/scripts/tools/filesort",
+		"/home/john/cfg/config/mondo/generator/wallpaper/Antepenultimata",
+		"/home/john/cfg/config/mondo/generator/gtk/_mondo-generate",
 		"/home/john/cfg/config/mondo/themes/triangles02",
 		"/home/john/cfg/config/mondo/themes/triangles01",
 		"/home/john/cfg/config/mondo/themes/solarized-light",
@@ -184,7 +188,6 @@
 		"/home/john/cfg/xinit",
 		"/home/john/cfg/config/sublime-text-3/Packages/User/mondo.sublime-build",
 		"/home/john/.config/mondo/generator/alacritty/_mondo-template",
-		"/home/john/cfg/scripts/tools/filesort",
 		"/home/john/.config/mondo/themes/Antepenultimata",
 		"/home/john/.config/mondo/themes/deer02",
 		"/home/john/.config/mondo/themes/solarized-dark02",
@@ -248,9 +251,10 @@
 	},
 	"find_in_files":
 	{
-		"height": 0.0,
+		"height": 98.0,
 		"where_history":
 		[
+			""
 		]
 	},
 	"find_state":
@@ -258,6 +262,17 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"/home/john/",
+			"john",
+			"/home/john",
+			"\")))\n",
+			"/home/john/",
+			"\")))\n",
+			"/home/john",
+			"        ",
+			"/home/john/",
+			"#!/",
+			"/home/john",
 			"cairo-dock",
 			"cairo",
 			"Docky",
@@ -280,6 +295,7 @@
 		"regex": false,
 		"replace_history":
 		[
+			"~/",
 			"Cairo-dock",
 			"cairo-dock"
 		],
@@ -287,7 +303,7 @@
 		"show_context": true,
 		"use_buffer2": true,
 		"whole_word": false,
-		"wrap": true
+		"wrap": false
 	},
 	"groups":
 	[
@@ -308,8 +324,8 @@
 						"selection":
 						[
 							[
-								254,
-								254
+								251,
+								251
 							]
 						],
 						"settings":
@@ -327,11 +343,11 @@
 				},
 				{
 					"buffer": 1,
-					"file": "/home/john/cfg/config/mondo/generator/wallpaper/Antepenultimata",
-					"semi_transient": false,
+					"file": "/home/john/cfg/config/mondo/post-apply",
+					"semi_transient": true,
 					"settings":
 					{
-						"buffer_size": 69,
+						"buffer_size": 555,
 						"regions":
 						{
 						},
@@ -344,7 +360,10 @@
 						],
 						"settings":
 						{
-							"SL.78.region_keys":
+							"SL.199.region_keys":
+							[
+							],
+							"SL.203.region_keys":
 							[
 							],
 							"apply_syntax_touched": true,
@@ -382,7 +401,7 @@
 							"syntax": "Packages/Text/Plain text.tmLanguage"
 						},
 						"translation.x": 0.0,
-						"translation.y": 154.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 4,
@@ -647,8 +666,8 @@
 						"selection":
 						[
 							[
-								1364,
-								1364
+								1361,
+								1361
 							]
 						],
 						"settings":
@@ -728,7 +747,7 @@
 	"project": "config",
 	"replace":
 	{
-		"height": 38.0
+		"height": 68.0
 	},
 	"save_all_on_build": true,
 	"select_file":
