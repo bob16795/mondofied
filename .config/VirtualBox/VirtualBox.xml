@@ -11,10 +11,10 @@
       <ExtraDataItem name="GUI/DetailsPageBoxes" value="general,system,preview,display,storage,audio,network,usb,sharedFolders,description"/>
       <ExtraDataItem name="GUI/GroupDefinitions/" value="m=11db9f98-e6bc-4164-ad89-57ed1b0339e8"/>
       <ExtraDataItem name="GUI/LastItemSelected" value="m=arch"/>
-      <ExtraDataItem name="GUI/LastWindowPosition" value="1478,13,704,1011"/>
+      <ExtraDataItem name="GUI/LastWindowPosition" value="1366,13,1280,1011"/>
       <ExtraDataItem name="GUI/RecentFolderCD" value="/home/john/dwn"/>
       <ExtraDataItem name="GUI/RecentListCD" value="/home/john/dwn/archlinux-2019.01.01-x86_64.iso"/>
-      <ExtraDataItem name="GUI/SplitterSizes" value="216,484"/>
+      <ExtraDataItem name="GUI/SplitterSizes" value="394,882"/>
       <ExtraDataItem name="GUI/Statusbar" value="false"/>
       <ExtraDataItem name="GUI/SuppressMessages" value="confirmInputCapture"/>
       <ExtraDataItem name="GUI/Toolbar" value="false"/>

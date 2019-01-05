@@ -204,7 +204,7 @@ sudo -u "$name" vim -E -c "PlugUpdate|visual|q|q" >/dev/null
 dialog --infobox "Installing themes this will take a while..." 4 50
 gem install sass
 putgitrepo "https://github.com/Ferdi265/numix-solarized-gtk-theme" "/home/$name/thm/numix-solarized-gtk-theme"
-mondo -fg all >/dev/null
+sudo -u "$name" mondo -fg all >/dev/null
 
 # Enable services here.
 serviceinit NetworkManager cronie
@@ -214,8 +214,9 @@ systembeepoff
 dialog --infobox "Installing fonts..." 4 50
 putgitrepo "https://github.com/NerdyPepper/scientifica" "/home/$name/fon/scientifica"
 
-sudo ln -fs ~/fon/scientifica/regular/scientifica-11.bdf /usr/share/fonts/scientifica-11.bdf
-sudo ln -fs ~/fon/scientifica/bold/scientifica-11.bdf /usr/share/fonts/scientificaBold-11.bdf
+ln -fs ~/fon/scientifica/regular/scientifica-11.bdf /usr/share/fonts/scientifica-11.bdf
+ln -fs ~/fon/scientifica/bold/scientifica-11.bdf /usr/share/fonts/scientificaBold-11.bdf
+fc-cache -fv
 
 # This line, overwriting the `newperms` command above will allow the user to run
 # serveral important commands, `shutdown`, `reboot`, updating, etc. without a password.
@@ -223,6 +224,8 @@ newperms "%wheel ALL=(ALL) ALL\\n%wheel ALL=(ALL) NOPASSWD: /usr/bin/shutdown,/u
 
 # Make pacman and yay colorful because why not.
 sed -i "s/^#Color/Color/g" /etc/pacman.conf
+
+mkdir doc/src doc/arc dsk pix snd dwn vid 
 
 # Last message! Install complete!
 finalize
