@@ -292,7 +292,7 @@
 					"file": "/home/john/git/progs.csv",
 					"settings":
 					{
-						"buffer_size": 3134,
+						"buffer_size": 3178,
 						"encoding": "UTF-8",
 						"line_ending": "Unix"
 					}
@@ -301,16 +301,16 @@
 					"file": "/home/john/git/parbs.sh",
 					"settings":
 					{
-						"buffer_size": 10617,
+						"buffer_size": 10633,
 						"encoding": "UTF-8",
 						"line_ending": "Unix"
 					}
 				},
 				{
-					"file": "/home/john/git/install.sh",
+					"file": "/home/john/git/pacman.txt",
 					"settings":
 					{
-						"buffer_size": 1923,
+						"buffer_size": 18950,
 						"line_ending": "Unix"
 					}
 				}
@@ -577,15 +577,15 @@
 							"semi_transient": false,
 							"settings":
 							{
-								"buffer_size": 3134,
+								"buffer_size": 3178,
 								"regions":
 								{
 								},
 								"selection":
 								[
 									[
-										3063,
-										3063
+										3178,
+										3178
 									]
 								],
 								"settings":
@@ -601,7 +601,7 @@
 									"syntax": "Packages/Text/Plain text.tmLanguage"
 								},
 								"translation.x": 0.0,
-								"translation.y": 0.0,
+								"translation.y": 33.0,
 								"zoom_level": 1.0
 							},
 							"stack_index": 2,
@@ -613,7 +613,7 @@
 							"semi_transient": false,
 							"settings":
 							{
-								"buffer_size": 10617,
+								"buffer_size": 10633,
 								"regions":
 								{
 									"bookmark_e":
@@ -631,8 +631,8 @@
 								"selection":
 								[
 									[
-										9577,
-										9577
+										9285,
+										9285
 									]
 								],
 								"settings":
@@ -645,7 +645,7 @@
 									"syntax": "Packages/ShellScript/Bash.sublime-syntax"
 								},
 								"translation.x": 0.0,
-								"translation.y": 1911.0,
+								"translation.y": 2010.0,
 								"zoom_level": 1.0
 							},
 							"stack_index": 0,
@@ -653,11 +653,11 @@
 						},
 						{
 							"buffer": 4,
-							"file": "/home/john/git/install.sh",
+							"file": "/home/john/git/pacman.txt",
 							"semi_transient": true,
 							"settings":
 							{
-								"buffer_size": 1923,
+								"buffer_size": 18950,
 								"regions":
 								{
 								},
@@ -670,15 +670,11 @@
 								],
 								"settings":
 								{
-									"SL.109.region_keys":
-									[
-									],
 									"apply_syntax_touched": true,
-									"git_gutter_is_enabled": true,
-									"syntax": "Packages/ShellScript/Bash.sublime-syntax"
+									"syntax": "Packages/Markdown/Markdown.sublime-syntax"
 								},
 								"translation.x": 0.0,
-								"translation.y": 132.0,
+								"translation.y": 0.0,
 								"zoom_level": 1.0
 							},
 							"stack_index": 1,
