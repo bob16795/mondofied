@@ -202,6 +202,8 @@ dialog --infobox "Installing vim plugins..." 4 50
 sudo -u "$name" vim -E -c "PlugUpdate|visual|q|q" >/dev/null
 
 dialog --infobox "Installing themes this will take a while..." 4 50
+
+putgitrepo "https://github.com/Ferdi265/numix-solarized-gtk-theme" "/home/$name/thm/numix-solarized-gtk-theme"
 mondo -fg all >/dev/null
 
 # Enable services here.

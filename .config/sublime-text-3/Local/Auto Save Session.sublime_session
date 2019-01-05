@@ -298,19 +298,19 @@
 					}
 				},
 				{
-					"file": "/home/john/git/pacman.txt",
+					"file": "/home/john/git/parbs.sh",
 					"settings":
 					{
-						"buffer_size": 18950,
+						"buffer_size": 10574,
+						"encoding": "UTF-8",
 						"line_ending": "Unix"
 					}
 				},
 				{
-					"file": "/home/john/git/parbs.sh",
+					"file": "/home/john/git/install.sh",
 					"settings":
 					{
-						"buffer_size": 10462,
-						"encoding": "UTF-8",
+						"buffer_size": 1923,
 						"line_ending": "Unix"
 					}
 				}
@@ -508,7 +508,7 @@
 			"groups":
 			[
 				{
-					"selected": 2,
+					"selected": 3,
 					"sheets":
 					[
 						{
@@ -584,8 +584,8 @@
 								"selection":
 								[
 									[
-										3099,
-										3099
+										3063,
+										3063
 									]
 								],
 								"settings":
@@ -601,35 +601,6 @@
 									"syntax": "Packages/Text/Plain text.tmLanguage"
 								},
 								"translation.x": 0.0,
-								"translation.y": 198.0,
-								"zoom_level": 1.0
-							},
-							"stack_index": 0,
-							"type": "text"
-						},
-						{
-							"buffer": 3,
-							"file": "/home/john/git/pacman.txt",
-							"semi_transient": true,
-							"settings":
-							{
-								"buffer_size": 18950,
-								"regions":
-								{
-								},
-								"selection":
-								[
-									[
-										0,
-										0
-									]
-								],
-								"settings":
-								{
-									"apply_syntax_touched": true,
-									"syntax": "Packages/Markdown/Markdown.sublime-syntax"
-								},
-								"translation.x": 0.0,
 								"translation.y": 0.0,
 								"zoom_level": 1.0
 							},
@@ -637,12 +608,12 @@
 							"type": "text"
 						},
 						{
-							"buffer": 4,
+							"buffer": 3,
 							"file": "/home/john/git/parbs.sh",
 							"semi_transient": false,
 							"settings":
 							{
-								"buffer_size": 10462,
+								"buffer_size": 10574,
 								"regions":
 								{
 									"bookmark_e":
@@ -660,8 +631,8 @@
 								"selection":
 								[
 									[
-										7427,
-										7427
+										9365,
+										9365
 									]
 								],
 								"settings":
@@ -674,7 +645,40 @@
 									"syntax": "Packages/ShellScript/Bash.sublime-syntax"
 								},
 								"translation.x": 0.0,
-								"translation.y": 674.0,
+								"translation.y": 1977.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 0,
+							"type": "text"
+						},
+						{
+							"buffer": 4,
+							"file": "/home/john/git/install.sh",
+							"semi_transient": true,
+							"settings":
+							{
+								"buffer_size": 1923,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										0,
+										0
+									]
+								],
+								"settings":
+								{
+									"SL.109.region_keys":
+									[
+									],
+									"apply_syntax_touched": true,
+									"git_gutter_is_enabled": true,
+									"syntax": "Packages/ShellScript/Bash.sublime-syntax"
+								},
+								"translation.x": 0.0,
+								"translation.y": 132.0,
 								"zoom_level": 1.0
 							},
 							"stack_index": 1,
@@ -727,7 +731,7 @@
 				"height": 0.0
 			},
 			"pinned_build_system": "",
-			"position": "0,0,0,0,0,0,13,751,768,2646,1024",
+			"position": "0,0,0,0,0,0,13,1366,768,2646,1024",
 			"project": "git.sublime-project",
 			"replace":
 			{
