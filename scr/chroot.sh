@@ -18,7 +18,7 @@ pacman --noconfirm --needed -S grub && grub-install --target=i386-pc /dev/sda &&
 
 pacman --noconfirm --needed -S dialog
 larbs() { curl -O https://raw.githubusercontent.com/bob16795/config/master/scr/parbs.sh && bash parbs.sh ;}
-dialog --title "Install dduke's Rice" --yesno "This install script will easily let you access Luke's Auto-Rice Boostrapping Scripts (LARBS) which automatically install a full Arch Linux i3-gaps desktop environment.\n\nIf you'd like to install this, select yes, otherwise select no.\n\nLuke"  15 60 && larbs
+dialog --title "Install Prestons's Rice" --yesno "This install script will easily let you access Prestons's Auto-Rice Boostrapping Scripts (LARBS) which automatically install a full Arch Linux Dwm desktop environment.\n\nIf you'd like to install this, select yes, otherwise select no.\n\nLuke"  15 60 && larbs
 
 sudo pacman -S pip
 pip install yay
