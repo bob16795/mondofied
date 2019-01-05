@@ -3,7 +3,7 @@ audio_device_state:1:pulse audio
 audio_device_state:1:toggle_visualizer
 state: pause
 current: 66
-time: 49.677000
+time: 49.969000
 random: 0
 repeat: 0
 single: 0

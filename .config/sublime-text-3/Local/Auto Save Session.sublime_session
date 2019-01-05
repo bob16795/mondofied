@@ -301,7 +301,7 @@
 					"file": "/home/john/git/progs.csv",
 					"settings":
 					{
-						"buffer_size": 3598,
+						"buffer_size": 3670,
 						"encoding": "UTF-8",
 						"line_ending": "Unix"
 					}
@@ -606,15 +606,15 @@
 							"semi_transient": false,
 							"settings":
 							{
-								"buffer_size": 3598,
+								"buffer_size": 3670,
 								"regions":
 								{
 								},
 								"selection":
 								[
 									[
-										3598,
-										3598
+										3667,
+										3667
 									]
 								],
 								"settings":
