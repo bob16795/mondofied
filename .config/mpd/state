@@ -1,9 +1,9 @@
 sw_volume: 94
 audio_device_state:1:pulse audio
 audio_device_state:1:toggle_visualizer
-state: pause
-current: 255
-time: 115.845000
+state: play
+current: 20
+time: 4.329000
 random: 0
 repeat: 1
 single: 0
@@ -268,4 +268,47 @@ playlist_begin
 253:Reol Official/【kradness&れをる】リモコン【歌ってみた】.opus
 254:Celty/Saiya - Remote Control.opus
 255:W.N.O/Sheck Wes - Mo Bamba But I'm Making Every sound in the beat with my mouth.opus
+256:SOOOO Official/SOOOO - Happppy song  _ Kagamine Len 【Official】.ogg
+257:Rousseau/Rachmaninoff - Little Red Riding Hood (Etude Tableau Op. 39 No. 6).opus
+258:Rousseau/Mozart - Rondo Alla Turca (Turkish March).opus
+259:Rousseau/TheFatRat - MAYDAY ft. Laura Brehm (Piano Cover).opus
+260:Rousseau/Chopin - Nocturne in E Flat Major (Op. 9 No. 2).opus
+261:Rousseau/Fortnite Menu Theme Medley (Piano Cover).opus
+262:Rousseau/Zedd - One Strange Rock (Piano Cover).opus
+263:Rousseau/Zedd, Maren Morris & Grey - The Middle (Piano Cover).opus
+264:Rousseau/Debussy - Clair de Lune.opus
+265:Rousseau/Beethoven - Für Elise.opus
+266:Rousseau/Debussy - Arabesque No. 1.opus
+267:Rousseau/Post Malone - I Fall Apart (Piano Cover).opus
+268:Rousseau/Satie - Gymnopédie No. 1.opus
+269:Rousseau/Marshmello & Anne-Marie - FRIENDS (Piano Cover).opus
+270:Rousseau/Flight of the Bumblebee - Rimsky-Korsakov (arr. Rachmaninoff).opus
+271:Rousseau/K-391 & Alan Walker - Ignite (Piano Cover) [ft. Julie Bergan & Seungri].opus
+272:Rousseau/Beethoven - Moonlight Sonata (1st Movement).opus
+273:Rousseau/Liszt - La Campanella (100,000 special).opus
+274:Rousseau/Maroon 5 - Girls Like You ft. Cardi B (Piano Cover).opus
+275:Rousseau/Rachmaninoff - Prelude in C Sharp Minor (Op. 3 No. 2).opus
+276:Rousseau/Ludovico Einaudi - Nuvole Bianche.opus
+277:Rousseau/Chopin - Prelude in E Minor (Op. 28 No. 4).opus
+278:Rousseau/Chopin - Etude Op. 10 No. 4.opus
+279:Rousseau/Marshmello ft. Bastille - Happier (Piano Cover).opus
+280:Rousseau/Post Malone - Congratulations (Piano Cover) ft. Quavo.opus
+281:Rousseau/Beethoven - Moonlight Sonata (2nd Movement).opus
+282:Rousseau/Beethoven - Moonlight Sonata (3rd Movement).opus
+283:Rousseau/Yiruma - River Flows in You.opus
+284:Rousseau/Alan Walker - Darkside (Piano Cover) [ft. Au_Ra and Tomine Harket].opus
+285:Rousseau/Chopin - Minute Waltz (Op. 64 No. 1).opus
+286:Rousseau/Ludovico Einaudi - Fly (Piano Cover) [The Intouchables].opus
+287:Rousseau/Chopin - Etude Op. 25 No. 11 (Winter Wind).opus
+288:Rousseau/Alan Walker - Faded (Piano Cover).opus
+289:Rousseau/Beethoven - Moonlight Sonata (Full).opus
+290:Rousseau/Titanic Theme - My Heart Will Go On - Céline Dion (Piano Cover).opus
+291:Rousseau/Ludovico Einaudi - Una Mattina (The Intouchables).opus
+292:Rousseau/The Most Insane Piano Pieces (Vol.  1).opus
+293:Rousseau/J.S. Bach - Prelude in C Major.opus
+294:Rousseau/Chopin - Prelude in B Minor (Op. 28 No. 6).opus
+295:Rousseau/Mariah Carey - All I Want For Christmas Is You (Piano Cover).opus
+296:Rousseau/Carol of the Bells (Piano Cover).opus
+297:Rousseau/Liszt - Un Sospiro.opus
+298:hunter1s1k/Africa But Im Screaming The Lyrics.ogg
 playlist_end

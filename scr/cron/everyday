@@ -11,9 +11,9 @@ LOGFILE=$HOME/.last_run;
 if [ ! -f $LOGFILE ]; then
     ## If the command succeeds, update the log file
     cd ~
-    git add -A && git commit -m "$(date)" && touch $LOGFILE
+    git add -A && git commit -m "$(date)" && git push && touch $LOGFILE
     cd ~/.config/dwm
-    git add -A && git commit -m "$(date)" && touch $LOGFILE
+    git add -A && git commit -m "$(date)" && git push && touch $LOGFILE
 else
     ## If the file does exist, check its age
     AGE=$(stat -c "%Y" $LOGFILE);
@@ -22,9 +22,9 @@ else
     ## If the file is more than 24h old, run the command again
     if [[ $((DATE - AGE)) -gt 86400 ]]; then
     cd ~
-    git add -A && git commit -m "$(date)" && touch $LOGFILE
+    git add -A && git commit -m "$(date)" && git push && touch $LOGFILE
     cd ~/.config/dwm
-    git add -A && git commit -m "$(date)" && touch $LOGFILE
+    git add -A && git commit -m "$(date)" && git push && touch $LOGFILE
     fi
 fi
 
