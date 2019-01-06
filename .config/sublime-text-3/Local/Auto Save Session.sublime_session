@@ -338,7 +338,7 @@
 					"file": "/home/john/git/README.md",
 					"settings":
 					{
-						"buffer_size": 322,
+						"buffer_size": 324,
 						"encoding": "UTF-8",
 						"line_ending": "Unix"
 					}
@@ -699,15 +699,15 @@
 							"semi_transient": false,
 							"settings":
 							{
-								"buffer_size": 322,
+								"buffer_size": 324,
 								"regions":
 								{
 								},
 								"selection":
 								[
 									[
-										215,
-										215
+										14,
+										14
 									]
 								],
 								"settings":
