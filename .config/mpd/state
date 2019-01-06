@@ -2,8 +2,8 @@ sw_volume: 100
 audio_device_state:1:pulse audio
 audio_device_state:1:toggle_visualizer
 state: play
-current: 84
-time: 4.287000
+current: 465
+time: 0.711000
 random: 0
 repeat: 0
 single: 0
@@ -470,4 +470,15 @@ playlist_begin
 455:88rising/AUGUST 08 - Funeral (Official Music Video).opus
 456:88rising/AUGUST 08 - Spiral feat. WYNNE.opus
 457:88rising/AUGUST 08 ft. WYNNE - Spiral (Official Video).opus
+458:K - Music Sweet/​Camellia (Feat. Nanahira) - Can I Friend You On Bassbook  Lol.opus
+459:Lil pump/Kanye West & Lil Pump ft. Adele Givens - 'I Love It' (Official Music Video).opus
+460:88rising/Keith Ape ft. Wifisfuneral - Ninja Turtle.opus
+461:88rising/Keith Ape - My Wrist Clearer Than Water!.opus
+462:88rising/Keith Ape - Xen.opus
+463:88rising/Keith Ape - My Wrist Clearer Than Water! (Official Video).opus
+464:Ken Ashcorp/Ken Ashcorp - Rules of Nature (Acoustic Cover).opus
+465:88rising/Keith Ape ft. Wifisfuneral - Ninja Turtle.opus
+466:88rising/Keith Ape - My Wrist Clearer Than Water!.opus
+467:88rising/Keith Ape - Xen.opus
+468:88rising/Keith Ape - My Wrist Clearer Than Water! (Official Video).opus
 playlist_end
