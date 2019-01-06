@@ -3,6 +3,9 @@
 	[
 		{
 			"path": "/home/john/git"
+		},
+		{
+			"path": "/home/john/scr/updates"
 		}
 	]
 }
