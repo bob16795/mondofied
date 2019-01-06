@@ -238,6 +238,9 @@ sed -i "s/^#Color/Color/g" /etc/pacman.conf
 
 sudo -u "$name" mkdir ~/doc/src ~/doc/arc ~/dsk ~/pix ~/snd ~/dwn ~/vid 
 
-# Last message! Install complete!
+# Last update! then Install complete!
+rm ~/scr/updates/*
+sh ~/scr/update
+ 
 finalize
 clear

@@ -28,10 +28,11 @@
 			}
 		},
 		{
-			"file": "/home/john/cfg/config/mondo/themes/.current",
+			"file": "/home/john/cfg/config/mondo/themes/moon",
 			"settings":
 			{
-				"buffer_size": 350,
+				"buffer_size": 296,
+				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
 		},
@@ -164,6 +165,7 @@
 	"expanded_folders":
 	[
 		"/home/john/cfg",
+		"/home/john/cfg/scripts",
 		"/home/john/cfg/config/mondo",
 		"/home/john/cfg/config/mondo/generator",
 		"/home/john/cfg/config/mondo/themes"
@@ -422,24 +424,27 @@
 				},
 				{
 					"buffer": 2,
-					"file": "/home/john/cfg/config/mondo/themes/.current",
-					"semi_transient": true,
+					"file": "/home/john/cfg/config/mondo/themes/moon",
+					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 350,
+						"buffer_size": 296,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								331,
-								331
+								275,
+								275
 							]
 						],
 						"settings":
 						{
-							"SL.38.region_keys":
+							"SL.94.region_keys":
+							[
+							],
+							"SL.99.region_keys":
 							[
 							],
 							"apply_syntax_touched": true,
@@ -547,8 +552,8 @@
 						"selection":
 						[
 							[
-								6,
-								6
+								2,
+								2
 							]
 						],
 						"settings":
