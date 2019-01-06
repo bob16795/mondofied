@@ -319,7 +319,7 @@
 					"file": "/home/john/git/check",
 					"settings":
 					{
-						"buffer_size": 296,
+						"buffer_size": 321,
 						"encoding": "UTF-8",
 						"line_ending": "Unix"
 					}
@@ -588,15 +588,15 @@
 							"semi_transient": false,
 							"settings":
 							{
-								"buffer_size": 296,
+								"buffer_size": 321,
 								"regions":
 								{
 								},
 								"selection":
 								[
 									[
-										296,
-										296
+										55,
+										55
 									]
 								],
 								"settings":

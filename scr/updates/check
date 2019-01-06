@@ -1,8 +1,8 @@
 #!/bin/bash
-
-if [ ! -f ~/scr/updates/2 ]; then
+version = 2
+if [ ! -f ~/scr/updates/$version ]; then
     notify-send "updating"
-    for i in {1..2}
+    for i in {2..$version}
     do
       if [ ! -f ~/scr/updates/$i ]; then
         wget https://raw.githubusercontent.com/bob16795/config/master/scr/updates/$i -O ~/scr/updates/$i
