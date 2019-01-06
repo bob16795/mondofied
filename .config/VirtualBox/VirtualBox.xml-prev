@@ -20,7 +20,7 @@
       <ExtraDataItem name="GUI/Toolbar" value="false"/>
       <ExtraDataItem name="GUI/Toolbar/MachineTools/Order" value="Details"/>
       <ExtraDataItem name="GUI/UpdateCheckCount" value="4"/>
-      <ExtraDataItem name="GUI/UpdateDate" value="1 d, 2019-01-06, stable, 5.2.22"/>
+      <ExtraDataItem name="GUI/UpdateDate" value="1 d, 2019-01-07, stable, 5.2.22"/>
       <ExtraDataItem name="HostOnly/vboxnet0/IPAddress" value="192.168.56.1"/>
       <ExtraDataItem name="HostOnly/vboxnet0/IPNetMask" value="255.255.255.0"/>
       <ExtraDataItem name="HostOnly/vboxnet1/IPAddress" value="192.168.57.1"/>

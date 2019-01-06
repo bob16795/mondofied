@@ -8,28 +8,10 @@
 	"buffers":
 	[
 		{
-			"file": "/home/john/git/chroot.sh",
-			"settings":
-			{
-				"buffer_size": 889,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "/home/john/git/README.md",
-			"settings":
-			{
-				"buffer_size": 65,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		},
-		{
 			"file": "/home/john/git/progs.csv",
 			"settings":
 			{
-				"buffer_size": 3240,
+				"buffer_size": 3195,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
@@ -38,16 +20,34 @@
 			"file": "/home/john/git/parbs.sh",
 			"settings":
 			{
-				"buffer_size": 10824,
+				"buffer_size": 10912,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "/home/john/git/install.sh",
+			"file": "/home/john/git/README.md",
 			"settings":
 			{
-				"buffer_size": 1923,
+				"buffer_size": 186,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/home/john/git/.version",
+			"settings":
+			{
+				"buffer_size": 2,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/home/john/git/chroot.sh",
+			"settings":
+			{
+				"buffer_size": 910,
+				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
 		}
@@ -140,13 +140,14 @@
 	],
 	"file_history":
 	[
+		"/home/john/git/README.md",
 		"/home/john/git/parbs.sh",
+		"/home/john/git/pacman.txt",
+		"/home/john/git/progs.csv",
+		"/home/john/git/chroot.sh",
 		"/home/john/git/install.sh",
 		"/home/john/git/updates/1",
 		"/home/john/.config/sublime-text-3/Packages/User/git.sublime-build",
-		"/home/john/git/chroot.sh",
-		"/home/john/git/pacman.txt",
-		"/home/john/git/README.md",
 		"/home/john/git/.gitignore",
 		"/home/john/doc/not/.brain/Inbox.note",
 		"/home/john/README.md",
@@ -214,6 +215,8 @@
 		"find_history":
 		[
 			"luke",
+			"devel",
+			"luke",
 			"50",
 			"Larbs",
 			"PARBS",
@@ -245,92 +248,29 @@
 	"groups":
 	[
 		{
-			"selected": 4,
+			"selected": 1,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "/home/john/git/chroot.sh",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 889,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								889,
-								889
-							]
-						],
-						"settings":
-						{
-							"apply_syntax_touched": true,
-							"git_gutter_is_enabled": true,
-							"syntax": "Packages/ShellScript/Shell-Unix-Generic.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 4,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "/home/john/git/README.md",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 65,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								61,
-								61
-							]
-						],
-						"settings":
-						{
-							"apply_syntax_touched": true,
-							"git_gutter_is_enabled": true,
-							"syntax": "Packages/Markdown/Markdown.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 3,
-					"type": "text"
-				},
-				{
-					"buffer": 2,
 					"file": "/home/john/git/progs.csv",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 3240,
+						"buffer_size": 3195,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								3218,
-								3218
+								2415,
+								2415
 							]
 						],
 						"settings":
 						{
-							"SL.32.region_keys":
-							[
-							],
-							"SL.84.region_keys":
+							"SL.40.region_keys":
 							[
 							],
 							"apply_syntax_touched": true,
@@ -338,49 +278,32 @@
 							"syntax": "Packages/Text/Plain text.tmLanguage"
 						},
 						"translation.x": 0.0,
-						"translation.y": 12.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 2,
+					"stack_index": 1,
 					"type": "text"
 				},
 				{
-					"buffer": 3,
+					"buffer": 1,
 					"file": "/home/john/git/parbs.sh",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 10824,
+						"buffer_size": 10912,
 						"regions":
 						{
-							"bookmark_e":
-							{
-								"flags": 144,
-								"regions":
-								[
-									[
-										9275,
-										9279
-									]
-								]
-							}
 						},
 						"selection":
 						[
 							[
-								9522,
-								9522
+								9828,
+								9828
 							]
 						],
 						"settings":
 						{
-							"SL.163.region_keys":
-							[
-							],
-							"SL.212.region_keys":
-							[
-							],
-							"SL.99.region_keys":
+							"SL.69.region_keys":
 							[
 							],
 							"apply_syntax_touched": true,
@@ -388,19 +311,19 @@
 							"syntax": "Packages/ShellScript/Bash.sublime-syntax"
 						},
 						"translation.x": 0.0,
-						"translation.y": 1891.0,
+						"translation.y": 2045.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
+					"stack_index": 0,
 					"type": "text"
 				},
 				{
-					"buffer": 4,
-					"file": "/home/john/git/install.sh",
+					"buffer": 2,
+					"file": "/home/john/git/README.md",
 					"semi_transient": true,
 					"settings":
 					{
-						"buffer_size": 1923,
+						"buffer_size": 186,
 						"regions":
 						{
 						},
@@ -413,18 +336,83 @@
 						],
 						"settings":
 						{
-							"SL.215.region_keys":
+							"SL.73.region_keys":
 							[
 							],
 							"apply_syntax_touched": true,
-							"git_gutter_is_enabled": true,
-							"syntax": "Packages/ShellScript/Bash.sublime-syntax"
+							"syntax": "Packages/Markdown/Markdown.sublime-syntax"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 0,
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "/home/john/git/.version",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"SL.60.region_keys":
+							[
+							],
+							"apply_syntax_touched": true,
+							"git_gutter_is_enabled": true,
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "/home/john/git/chroot.sh",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 910,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								590,
+								590
+							]
+						],
+						"settings":
+						{
+							"SL.41.region_keys":
+							[
+							],
+							"apply_syntax_touched": true,
+							"git_gutter_is_enabled": true,
+							"syntax": "Packages/ShellScript/Shell-Unix-Generic.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
 					"type": "text"
 				}
 			]
@@ -472,6 +460,10 @@
 	"output.find_results":
 	{
 		"height": 0.0
+	},
+	"output.jotter":
+	{
+		"height": 84.0
 	},
 	"pinned_build_system": "",
 	"project": "git.sublime-project",

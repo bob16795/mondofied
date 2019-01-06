@@ -28,10 +28,10 @@
 			}
 		},
 		{
-			"file": "/home/john/cfg/config/mondo/themes/tree01",
+			"file": "/home/john/cfg/config/mondo/generator/alacritty/_mondo-template",
 			"settings":
 			{
-				"buffer_size": 302,
+				"buffer_size": 19049,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
@@ -158,12 +158,14 @@
 		"/home/john/cfg",
 		"/home/john/cfg/config/mondo",
 		"/home/john/cfg/config/mondo/generator",
+		"/home/john/cfg/config/mondo/generator/alacritty",
 		"/home/john/cfg/config/mondo/generator/dwm",
 		"/home/john/cfg/config/mondo/images",
 		"/home/john/cfg/config/mondo/themes"
 	],
 	"file_history":
 	[
+		"/home/john/cfg/config/mondo/themes/tree01",
 		"/home/john/cfg/config/mondo/generator/dwm/_mondo-settings",
 		"/home/john/cfg/config/mondo/generator/wallpaper/_mondo-apply",
 		"/home/john/cfg/config/mondo/generator/gtk/_mondo-apply",
@@ -361,7 +363,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 4,
+					"stack_index": 3,
 					"type": "text"
 				},
 				{
@@ -386,6 +388,9 @@
 							"SL.15.region_keys":
 							[
 							],
+							"SL.77.region_keys":
+							[
+							],
 							"SL.82.region_keys":
 							[
 							],
@@ -397,35 +402,622 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 3,
+					"stack_index": 1,
 					"type": "text"
 				},
 				{
 					"buffer": 2,
-					"file": "/home/john/cfg/config/mondo/themes/tree01",
+					"file": "/home/john/cfg/config/mondo/generator/alacritty/_mondo-template",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 302,
+						"buffer_size": 19049,
 						"regions":
 						{
+							"col_000000FF":
+							{
+								"flags": 16,
+								"regions":
+								[
+									[
+										4838,
+										4846
+									],
+									[
+										4905,
+										4910
+									],
+									[
+										5167,
+										5172
+									],
+									[
+										5540,
+										5545
+									],
+									[
+										5945,
+										5953
+									]
+								],
+								"scope": "col_000000FF"
+							},
+							"col_000000FF_icon":
+							{
+								"flags": 16,
+								"icon": "Packages/User/Color Highlight.cache/col_000000FF_circle.png",
+								"regions":
+								[
+									[
+										4826,
+										4826
+									],
+									[
+										4901,
+										4901
+									],
+									[
+										5163,
+										5163
+									],
+									[
+										5533,
+										5533
+									],
+									[
+										5917,
+										5917
+									]
+								],
+								"scope": "col_gutter"
+							},
+							"col_0000FFFF":
+							{
+								"flags": 16,
+								"regions":
+								[
+									[
+										5022,
+										5026
+									],
+									[
+										5284,
+										5288
+									],
+									[
+										5648,
+										5652
+									]
+								],
+								"scope": "col_0000FFFF"
+							},
+							"col_0000FFFF_icon":
+							{
+								"flags": 16,
+								"icon": "Packages/User/Color Highlight.cache/col_0000FFFF_circle.png",
+								"regions":
+								[
+									[
+										5018,
+										5018
+									],
+									[
+										5280,
+										5280
+									],
+									[
+										5641,
+										5641
+									]
+								],
+								"scope": "col_gutter"
+							},
+							"col_008000FF":
+							{
+								"flags": 16,
+								"regions":
+								[
+									[
+										4964,
+										4969
+									],
+									[
+										5226,
+										5231
+									],
+									[
+										5594,
+										5599
+									]
+								],
+								"scope": "col_008000FF"
+							},
+							"col_008000FF_icon":
+							{
+								"flags": 16,
+								"icon": "Packages/User/Color Highlight.cache/col_008000FF_circle.png",
+								"regions":
+								[
+									[
+										4960,
+										4960
+									],
+									[
+										5222,
+										5222
+									],
+									[
+										5587,
+										5587
+									]
+								],
+								"scope": "col_gutter"
+							},
+							"col_00FFFFFF":
+							{
+								"flags": 16,
+								"regions":
+								[
+									[
+										5080,
+										5084
+									],
+									[
+										5342,
+										5346
+									],
+									[
+										5702,
+										5706
+									]
+								],
+								"scope": "col_00FFFFFF"
+							},
+							"col_00FFFFFF_icon":
+							{
+								"flags": 16,
+								"icon": "Packages/User/Color Highlight.cache/col_00FFFFFF_circle.png",
+								"regions":
+								[
+									[
+										5076,
+										5076
+									],
+									[
+										5338,
+										5338
+									],
+									[
+										5695,
+										5695
+									]
+								],
+								"scope": "col_gutter"
+							},
+							"col_333333FF":
+							{
+								"flags": 16,
+								"regions":
+								[
+									[
+										5550,
+										5558
+									]
+								],
+								"scope": "col_333333FF"
+							},
+							"col_333333FF_icon":
+							{
+								"flags": 16,
+								"icon": "Packages/User/Color Highlight.cache/col_333333FF_circle.png",
+								"regions":
+								[
+									[
+										5533,
+										5533
+									]
+								],
+								"scope": "col_gutter"
+							},
+							"col_6699CCFF":
+							{
+								"flags": 16,
+								"regions":
+								[
+									[
+										5658,
+										5666
+									]
+								],
+								"scope": "col_6699CCFF"
+							},
+							"col_6699CCFF_icon":
+							{
+								"flags": 16,
+								"icon": "Packages/User/Color Highlight.cache/col_6699CCFF_circle.png",
+								"regions":
+								[
+									[
+										5641,
+										5641
+									]
+								],
+								"scope": "col_gutter"
+							},
+							"col_66CCCCFF":
+							{
+								"flags": 16,
+								"regions":
+								[
+									[
+										5712,
+										5720
+									]
+								],
+								"scope": "col_66CCCCFF"
+							},
+							"col_66CCCCFF_icon":
+							{
+								"flags": 16,
+								"icon": "Packages/User/Color Highlight.cache/col_66CCCCFF_circle.png",
+								"regions":
+								[
+									[
+										5695,
+										5695
+									]
+								],
+								"scope": "col_gutter"
+							},
+							"col_99CC99FF":
+							{
+								"flags": 16,
+								"regions":
+								[
+									[
+										5604,
+										5612
+									]
+								],
+								"scope": "col_99CC99FF"
+							},
+							"col_99CC99FF_icon":
+							{
+								"flags": 16,
+								"icon": "Packages/User/Color Highlight.cache/col_99CC99FF_circle.png",
+								"regions":
+								[
+									[
+										5587,
+										5587
+									]
+								],
+								"scope": "col_gutter"
+							},
+							"col_9A9A9AFF":
+							{
+								"flags": 16,
+								"regions":
+								[
+									[
+										4606,
+										4614
+									]
+								],
+								"scope": "col_9A9A9AFF"
+							},
+							"col_9A9A9AFF_icon":
+							{
+								"flags": 16,
+								"icon": "Packages/User/Color Highlight.cache/col_9A9A9AFF_circle.png",
+								"regions":
+								[
+									[
+										4584,
+										4584
+									]
+								],
+								"scope": "col_gutter"
+							},
+							"col_CC99CCFF":
+							{
+								"flags": 16,
+								"regions":
+								[
+									[
+										5685,
+										5693
+									]
+								],
+								"scope": "col_CC99CCFF"
+							},
+							"col_CC99CCFF_icon":
+							{
+								"flags": 16,
+								"icon": "Packages/User/Color Highlight.cache/col_CC99CCFF_circle.png",
+								"regions":
+								[
+									[
+										5668,
+										5668
+									]
+								],
+								"scope": "col_gutter"
+							},
+							"col_DDDDDDFF":
+							{
+								"flags": 16,
+								"regions":
+								[
+									[
+										5739,
+										5747
+									]
+								],
+								"scope": "col_DDDDDDFF"
+							},
+							"col_DDDDDDFF_icon":
+							{
+								"flags": 16,
+								"icon": "Packages/User/Color Highlight.cache/col_DDDDDDFF_circle.png",
+								"regions":
+								[
+									[
+										5722,
+										5722
+									]
+								],
+								"scope": "col_gutter"
+							},
+							"col_F2777AFF":
+							{
+								"flags": 16,
+								"regions":
+								[
+									[
+										5577,
+										5585
+									]
+								],
+								"scope": "col_F2777AFF"
+							},
+							"col_F2777AFF_icon":
+							{
+								"flags": 16,
+								"icon": "Packages/User/Color Highlight.cache/col_F2777AFF_circle.png",
+								"regions":
+								[
+									[
+										5560,
+										5560
+									]
+								],
+								"scope": "col_gutter"
+							},
+							"col_FF0000FF":
+							{
+								"flags": 16,
+								"regions":
+								[
+									[
+										4935,
+										4938
+									],
+									[
+										5197,
+										5200
+									],
+									[
+										5567,
+										5570
+									]
+								],
+								"scope": "col_FF0000FF"
+							},
+							"col_FF0000FF_icon":
+							{
+								"flags": 16,
+								"icon": "Packages/User/Color Highlight.cache/col_FF0000FF_circle.png",
+								"regions":
+								[
+									[
+										4931,
+										4931
+									],
+									[
+										5193,
+										5193
+									],
+									[
+										5560,
+										5560
+									]
+								],
+								"scope": "col_gutter"
+							},
+							"col_FF00FFFF":
+							{
+								"flags": 16,
+								"regions":
+								[
+									[
+										5051,
+										5058
+									],
+									[
+										5313,
+										5320
+									],
+									[
+										5675,
+										5682
+									]
+								],
+								"scope": "col_FF00FFFF"
+							},
+							"col_FF00FFFF_icon":
+							{
+								"flags": 16,
+								"icon": "Packages/User/Color Highlight.cache/col_FF00FFFF_circle.png",
+								"regions":
+								[
+									[
+										5047,
+										5047
+									],
+									[
+										5309,
+										5309
+									],
+									[
+										5668,
+										5668
+									]
+								],
+								"scope": "col_gutter"
+							},
+							"col_FFCC66FF":
+							{
+								"flags": 16,
+								"regions":
+								[
+									[
+										5631,
+										5639
+									]
+								],
+								"scope": "col_FFCC66FF"
+							},
+							"col_FFCC66FF_icon":
+							{
+								"flags": 16,
+								"icon": "Packages/User/Color Highlight.cache/col_FFCC66FF_circle.png",
+								"regions":
+								[
+									[
+										5614,
+										5614
+									]
+								],
+								"scope": "col_gutter"
+							},
+							"col_FFFF00FF":
+							{
+								"flags": 16,
+								"regions":
+								[
+									[
+										4993,
+										4999
+									],
+									[
+										5255,
+										5261
+									],
+									[
+										5621,
+										5627
+									]
+								],
+								"scope": "col_FFFF00FF"
+							},
+							"col_FFFF00FF_icon":
+							{
+								"flags": 16,
+								"icon": "Packages/User/Color Highlight.cache/col_FFFF00FF_circle.png",
+								"regions":
+								[
+									[
+										4989,
+										4989
+									],
+									[
+										5251,
+										5251
+									],
+									[
+										5614,
+										5614
+									]
+								],
+								"scope": "col_gutter"
+							},
+							"col_FFFFFFFF":
+							{
+								"flags": 16,
+								"regions":
+								[
+									[
+										4641,
+										4649
+									],
+									[
+										4862,
+										4870
+									],
+									[
+										5109,
+										5114
+									],
+									[
+										5371,
+										5376
+									],
+									[
+										5729,
+										5734
+									],
+									[
+										6098,
+										6103
+									]
+								],
+								"scope": "col_FFFFFFFF"
+							},
+							"col_FFFFFFFF_icon":
+							{
+								"flags": 16,
+								"icon": "Packages/User/Color Highlight.cache/col_FFFFFFFF_circle.png",
+								"regions":
+								[
+									[
+										4616,
+										4616
+									],
+									[
+										4848,
+										4848
+									],
+									[
+										5105,
+										5105
+									],
+									[
+										5367,
+										5367
+									],
+									[
+										5722,
+										5722
+									],
+									[
+										6051,
+										6051
+									]
+								],
+								"scope": "col_gutter"
+							}
 						},
 						"selection":
 						[
 							[
-								302,
-								302
+								494,
+								494
 							]
 						],
 						"settings":
 						{
-							"SL.16.region_keys":
-							[
-							],
-							"SL.17.region_keys":
-							[
-							],
-							"SL.87.region_keys":
+							"SL.83.region_keys":
 							[
 							],
 							"apply_syntax_touched": true,
@@ -476,12 +1068,6 @@
 					"type": "text"
 				},
 				{
-					"file": "/home/john/cfg/config/mondo/images/lub.png",
-					"semi_transient": true,
-					"stack_index": 1,
-					"type": "image"
-				},
-				{
 					"buffer": 4,
 					"file": "/home/john/cfg/config/mondo/generator/gtkrc-20/_mondo-apply",
 					"semi_transient": false,
@@ -494,8 +1080,8 @@
 						"selection":
 						[
 							[
-								10,
-								10
+								9,
+								9
 							]
 						],
 						"settings":
@@ -511,7 +1097,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 5,
+					"stack_index": 4,
 					"type": "text"
 				}
 			]

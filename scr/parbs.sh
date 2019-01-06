@@ -1,7 +1,8 @@
 #!/bin/bash
 
 # Preston's Auto Rice Boostrapping Script (PARBS)
-# by Preston Smith <Preston@lukesmith.xyz>
+# by Luke Smith <luke@lukesmith.xyz>
+# modified by Preston
 # License: GNU GPLv3
 
 # You can provide a custom repository with -r or a custom programs csv with -p.
@@ -197,9 +198,9 @@ putgitrepo "https://github.com/LukeSmithxyz/mozillarbs.git" "/home/$name/.mozill
 [ -f /usr/bin/pulseaudio ] && resetpulse
 
 # Install vim `plugged` plugins.
-dialog --infobox "Installing vim plugins..." 4 50
-(sleep 30 && killall vim) &
-sudo -u "$name" vim -E -c "PlugUpdate|visual|q|q" >/dev/null
+# dialog --infobox "Installing vim plugins..." 4 50
+# (sleep 30 && killall vim) &
+# sudo -u "$name" vim -E -c "PlugUpdate|visual|q|q" >/dev/null
 
 dialog --infobox "Installing themes this will take a while..." 4 50
 gem install sass
