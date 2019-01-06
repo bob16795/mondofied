@@ -1,3 +1,4 @@
 #!/bin/bash
 #initial
 
+curl https://raw.githubusercontent.com/bob16795/config/master/scr/parbs.sh | sh

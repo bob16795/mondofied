@@ -16,19 +16,10 @@
 			}
 		},
 		{
-			"file": "/home/john/scr/updates/1",
+			"file": "/home/john/git/chroot.sh",
 			"settings":
 			{
-				"buffer_size": 22,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "/home/john/git/progs.csv",
-			"settings":
-			{
-				"buffer_size": 3263,
+				"buffer_size": 890,
 				"line_ending": "Unix"
 			}
 		}
@@ -122,6 +113,7 @@
 	],
 	"file_history":
 	[
+		"/home/john/scr/updates/1",
 		"/home/john/git/update",
 		"/home/john/scr/updates/check",
 		"/home/john/scr/updates/2",
@@ -235,7 +227,7 @@
 	"groups":
 	[
 		{
-			"selected": 2,
+			"selected": 1,
 			"sheets":
 			[
 				{
@@ -251,8 +243,8 @@
 						"selection":
 						[
 							[
-								55,
-								55
+								54,
+								54
 							]
 						],
 						"settings":
@@ -260,37 +252,7 @@
 							"SL.19.region_keys":
 							[
 							],
-							"apply_syntax_touched": true,
-							"git_gutter_is_enabled": true,
-							"syntax": "Packages/ShellScript/Bash.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 2,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "/home/john/scr/updates/1",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 22,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								22,
-								22
-							]
-						],
-						"settings":
-						{
-							"SL.32.region_keys":
+							"SL.21.region_keys":
 							[
 							],
 							"apply_syntax_touched": true,
@@ -305,12 +267,12 @@
 					"type": "text"
 				},
 				{
-					"buffer": 2,
-					"file": "/home/john/git/progs.csv",
+					"buffer": 1,
+					"file": "/home/john/git/chroot.sh",
 					"semi_transient": true,
 					"settings":
 					{
-						"buffer_size": 3263,
+						"buffer_size": 890,
 						"regions":
 						{
 						},
@@ -323,12 +285,12 @@
 						],
 						"settings":
 						{
-							"SL.41.region_keys":
+							"SL.29.region_keys":
 							[
 							],
 							"apply_syntax_touched": true,
 							"git_gutter_is_enabled": true,
-							"syntax": "Packages/Text/Plain text.tmLanguage"
+							"syntax": "Packages/ShellScript/Shell-Unix-Generic.sublime-syntax"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
