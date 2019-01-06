@@ -1,0 +1,5 @@
+#!/bin/bash
+
+if [ ! -f /tmp/foo.txt ]; then
+    notify-send "updating"
+fi

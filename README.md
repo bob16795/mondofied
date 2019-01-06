@@ -4,7 +4,7 @@ too install run scr/install.sh on a live arch media
 or run scr/parbs.sh on a preinstalled arch system
 
 # Versions
-# 1:
+## 1:
  - Initial version
  
 # TODO:

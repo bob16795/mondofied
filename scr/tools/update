@@ -1,0 +1,3 @@
+#!/bin/bash
+wget https://raw.githubusercontent.com/bob16795/config/master/scr/updates/check -O ~/scr/updates/check
+sh ~/scr/updates/check
