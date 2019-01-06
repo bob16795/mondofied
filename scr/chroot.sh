@@ -16,5 +16,5 @@ systemctl start NetworkManager
 pacman --noconfirm --needed -S grub && grub-install --target=i386-pc /dev/sda && grub-mkconfig -o /boot/grub/grub.cfg
 
 pacman --noconfirm --needed -S dialog
-parbs() { curl -O https://raw.githubusercontent.com/bob16795/config/master/scr/parbs.sh && bash parbs.sh > /root/install.log;}
+parbs() { curl -O https://raw.githubusercontent.com/bob16795/config/master/scr/parbs.sh && bash parbs.sh;}
 dialog --title "Install Prestons's Rice" --yesno "This install script will easily let you access Prestons's Auto-Rice Boostrapping Scripts (PARBS) which automatically install a full Arch Linux Dwm desktop environment.\n\nIf you'd like to install this, select yes, otherwise select no.\n\nPreston"  15 60 && parbs

@@ -16,7 +16,7 @@
       <ExtraDataItem name="GUI/RecentListCD" value="/home/john/dwn/archlinux-2019.01.01-x86_64.iso"/>
       <ExtraDataItem name="GUI/SplitterSizes" value="394,882"/>
       <ExtraDataItem name="GUI/Statusbar" value="false"/>
-      <ExtraDataItem name="GUI/SuppressMessages" value="confirmInputCapture"/>
+      <ExtraDataItem name="GUI/SuppressMessages" value="confirmInputCapture,remindAboutAutoCapture,remindAboutMouseIntegration"/>
       <ExtraDataItem name="GUI/Toolbar" value="false"/>
       <ExtraDataItem name="GUI/Toolbar/MachineTools/Order" value="Details"/>
       <ExtraDataItem name="GUI/UpdateCheckCount" value="4"/>

@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
 cd ~
-git add -A && git commit -m "$(date) auto commit" && git push
+git add -A && git commit -m "$(date) manual commit" && git push
 cd ~/.config/dwm
-git add -A && git commit -m "$(date) auto commit" && git push
+git add -A && git commit -m "$(date) manual commit" && git push
