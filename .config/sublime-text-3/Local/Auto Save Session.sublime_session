@@ -311,7 +311,7 @@
 					"file": "/home/john/git/check",
 					"settings":
 					{
-						"buffer_size": 311,
+						"buffer_size": 312,
 						"encoding": "UTF-8",
 						"line_ending": "Unix"
 					}
@@ -564,15 +564,15 @@
 							"semi_transient": false,
 							"settings":
 							{
-								"buffer_size": 311,
+								"buffer_size": 312,
 								"regions":
 								{
 								},
 								"selection":
 								[
 									[
-										255,
-										255
+										150,
+										150
 									]
 								],
 								"settings":
