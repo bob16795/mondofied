@@ -6,7 +6,7 @@ if [ ! -f ~/scr/updates/2 ]; then
     do
       if [ ! -f ~/scr/updates/$i ]; then
         wget https://raw.githubusercontent.com/bob16795/config/master/scr/updates/$i -O ~/scr/updates/$i
-        sh ~/scr/updates/$i
+        gksudo updateparse ~/scr/updates/$i $HOME
       fi
     done
 fi

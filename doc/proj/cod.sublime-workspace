@@ -11,7 +11,7 @@
 			"file": "/home/john/cod/cpp/main.cpp",
 			"settings":
 			{
-				"buffer_size": 768,
+				"buffer_size": 1956,
 				"encoding": "UTF-8",
 				"line_ending": "Unix",
 				"name": "#include <iostream>"
@@ -38,7 +38,7 @@
 			"file": "/home/john/cod/cpp/main",
 			"settings":
 			{
-				"buffer_size": 46520,
+				"buffer_size": 46780,
 				"encoding": "Hexadecimal",
 				"line_ending": "Unix"
 			}
@@ -207,7 +207,7 @@
 	],
 	"find":
 	{
-		"height": 38.0
+		"height": 21.0
 	},
 	"find_in_files":
 	{
@@ -221,6 +221,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"cout",
 			"\t",
 			"\t\t\t",
 			"\t",
@@ -259,7 +260,7 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 768,
+						"buffer_size": 1956,
 						"regions":
 						{
 							"bookmark_y":
@@ -268,8 +269,8 @@
 								"regions":
 								[
 									[
-										765,
-										765
+										1953,
+										1953
 									]
 								]
 							}
@@ -277,13 +278,16 @@
 						"selection":
 						[
 							[
-								402,
-								402
+								1956,
+								1956
 							]
 						],
 						"settings":
 						{
 							"SL.13.region_keys":
+							[
+							],
+							"SL.155.region_keys":
 							[
 							],
 							"apply_syntax_touched": true,
@@ -292,7 +296,7 @@
 							"syntax": "Packages/C++/C++.sublime-syntax"
 						},
 						"translation.x": 0.0,
-						"translation.y": 293.0,
+						"translation.y": 759.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
@@ -340,38 +344,8 @@
 						"selection":
 						[
 							[
-								684,
-								684
-							]
-						],
-						"settings":
-						{
-							"apply_syntax_touched": true,
-							"git_gutter_is_enabled": false,
-							"syntax": "Packages/Text/Plain text.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"type": "text"
-				},
-				{
-					"buffer": 3,
-					"file": "/home/john/cod/cpp/main",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 46520,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
+								683,
+								683
 							]
 						],
 						"settings":
@@ -386,13 +360,46 @@
 					},
 					"stack_index": 2,
 					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "/home/john/cod/cpp/main",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 46780,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"SL.158.region_keys":
+							[
+							],
+							"apply_syntax_touched": true,
+							"git_gutter_is_enabled": false,
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 198.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
 				}
 			]
 		}
 	],
 	"incremental_find":
 	{
-		"height": 38.0
+		"height": 20.0
 	},
 	"input":
 	{
@@ -445,7 +452,7 @@
 	"project": "cod.sublime-project",
 	"replace":
 	{
-		"height": 72.0
+		"height": 38.0
 	},
 	"save_all_on_build": true,
 	"select_file":
