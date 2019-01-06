@@ -338,7 +338,7 @@
 					"file": "/home/john/git/README.md",
 					"settings":
 					{
-						"buffer_size": 303,
+						"buffer_size": 322,
 						"encoding": "UTF-8",
 						"line_ending": "Unix"
 					}
@@ -555,7 +555,7 @@
 			"groups":
 			[
 				{
-					"selected": 0,
+					"selected": 3,
 					"sheets":
 					[
 						{
@@ -571,8 +571,8 @@
 								"selection":
 								[
 									[
-										150,
-										150
+										149,
+										149
 									]
 								],
 								"settings":
@@ -606,7 +606,7 @@
 								"translation.y": 0.0,
 								"zoom_level": 1.0
 							},
-							"stack_index": 0,
+							"stack_index": 1,
 							"type": "text"
 						},
 						{
@@ -699,15 +699,15 @@
 							"semi_transient": false,
 							"settings":
 							{
-								"buffer_size": 303,
+								"buffer_size": 322,
 								"regions":
 								{
 								},
 								"selection":
 								[
 									[
-										174,
-										174
+										215,
+										215
 									]
 								],
 								"settings":
@@ -735,7 +735,7 @@
 								"translation.y": 0.0,
 								"zoom_level": 1.0
 							},
-							"stack_index": 2,
+							"stack_index": 0,
 							"type": "text"
 						},
 						{
@@ -768,7 +768,7 @@
 								"translation.y": 0.0,
 								"zoom_level": 1.0
 							},
-							"stack_index": 1,
+							"stack_index": 2,
 							"type": "text"
 						}
 					]

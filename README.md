@@ -12,6 +12,7 @@ or run scr/parbs.sh on a preinstalled arch system
 ### 2
 
 # TODO:
+ - optional themes
  - system settings?
  - get install working
  - make updates script?
