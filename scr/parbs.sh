@@ -205,12 +205,15 @@ putgitrepo "https://github.com/LukeSmithxyz/mozillarbs.git" "/home/$name/.mozill
 #get dwm source for mondo
 sudo -u "$name" git clone http://github.com/bob16795/dwm /home/$name/.config/dwm > /dev/null
 
+#copy rofi theme
+cp /home/$name/.config/rofi/bmenu.rasi /usr/share/rofi/> /dev/null
+
 #setup themes
 dialog --infobox "Installing themes this will take a while..." 4 50
 gem install sass
 export PATH = $PATH:/root/.gem/ruby/2.5.0/bin
-sudo -u "$name" git clone https://github.com/Ferdi265/numix-solarized-gtk-theme /home/$name/thm/numix-solarized-gtk-theme
-sudo -u "$name" mondo -fg moon > /dev/null
+sudo -u "$name" git clone https://github.com/Ferdi265/numix-solarized-gtk-theme /home/$name/thm/numix-solarized-gtk-theme > /dev/null
+sudo -u "$name" mondo -fg moon
 sudo -u "$name" mondo -a moon > /dev/null
 
 # Enable services here.
@@ -221,10 +224,10 @@ systembeepoff
 
 #install fonts
 dialog --infobox "Installing fonts..." 4 50
-cd /etc/fonts/conf.d/
-sudo rm /etc/fonts/conf.d/10* && sudo rm -rf 70-no-bitmaps.conf && sudo ln -s ../conf.avail/70-yes-bitmaps.conf
+cd /etc/fonts/conf.d/> /dev/null
+sudo rm /etc/fonts/conf.d/10* && sudo rm -rf 70-no-bitmaps.conf && sudo ln -s ../conf.avail/70-yes-bitmaps.conf> /dev/null
 #scientifica
-sudo -u "$name" git clone https://github.com/NerdyPepper/scientifica /home/$name/fon/scientifica
+sudo -u "$name" git clone https://github.com/NerdyPepper/scientifica /home/$name/fon/scientifica> /dev/null
 ln -fs /home/$name/fon/scientifica/regular/scientifica-11.bdf /usr/share/fonts/scientifica-11.bdf > /dev/null
 ln -fs /home/$name/fon/scientifica/bold/scientifica-11.bdf /usr/share/fonts/scientificaBold-11.bdf > /dev/null
 fc-cache -fv > /dev/null
