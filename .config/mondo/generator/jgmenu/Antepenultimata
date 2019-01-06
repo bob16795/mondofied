@@ -48,11 +48,11 @@ icon_size            = 11
 arrow_string        = ▸
 arrow_width         = 8
 
-color_menu_bg        = #402144 100
+color_menu_bg        = #fcf9f9 100
 color_menu_fg        = #B16AD9 100
 #color_menu_border   = #1C2023 8
 
-color_norm_bg        = #402144 0
+color_norm_bg        = #fcf9f9 0
 color_norm_fg        = #B16AD9 100
 
 color_sel_bg         = #D9A3A0 60

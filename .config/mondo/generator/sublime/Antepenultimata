@@ -16,7 +16,7 @@
         <key>settings</key>
         <dict>
           <key>background</key>
-          <string>#402144</string>
+          <string>#fcf9f9</string>
           <key>caret</key>
           <string>#B16AD9</string>
           <key>foreground</key>
@@ -40,7 +40,7 @@
           <key>popupCss</key>
           <string>
             html {
-            background-color: 402144;
+            background-color: fcf9f9;
             color: #B16AD9;
             }
 

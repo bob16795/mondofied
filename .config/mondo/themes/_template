@@ -1,27 +1,14 @@
 
-bg           #222222
-bg2          #333333
+color_bg     f2f2f2
+color_fg     0C3853
+color_2      34424A
+color_3      596148
+color_4      716E43
+color_5      945531
+color_6      105EA2
+color_7      09281F
+color_8      666665
 
-fg           #DDDDDD
-comment      #AAAAAA
-
-red          #FF0000
-green        #00FF00
-blue         #0000FF
-yellow       #FFFF00
-cyan         #00FFFF
-magenta      #FF00FF
-
-dark         #000000
-light        #FFFFFF
-
-activebg     cyan
-activefg     light
-activehl     dark
-
-inactivebg   blue
-inactivefg   fg
-
-selectedbg   magenta
-selectedfg   light
-
+bg           .png
+alpha        0.75
+alpha_hex    BF

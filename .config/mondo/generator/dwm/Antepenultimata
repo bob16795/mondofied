@@ -7,7 +7,7 @@ static const int topbar             = 1;        /* 0 means bottom bar */
 static const barmode 				        = 0;
 static const char *fonts[]          = { "scientifica:size=11" };
 static const char dmenufont[]       = "scientifica:size=11";
-static const char col_gray1[]       = "#402144";
+static const char col_gray1[]       = "#fcf9f9";
 static const char col_gray2[]       = "#F4DCA0";
 static const char col_gray3[]       = "#B16AD9";
 static const char col_gray4[]       = "#F1D59A";

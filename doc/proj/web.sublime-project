@@ -3,6 +3,9 @@
 	[
 		{
 			"path": "/home/john/cfg/config/webhome"
+		},
+		{
+			"path": "/home/john/www"
 		}
 	]
 }

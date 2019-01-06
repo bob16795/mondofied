@@ -8,10 +8,10 @@
 	"buffers":
 	[
 		{
-			"file": "/home/john/doc/src/free_conlang.aux",
+			"file": "/home/john/tmp/latex-templates/beamer.tex",
 			"settings":
 			{
-				"buffer_size": 1226,
+				"buffer_size": 760,
 				"line_ending": "Unix"
 			}
 		}
@@ -114,7 +114,6 @@
 	"expanded_folders":
 	[
 		"/home/john/tmp",
-		"/home/john/tmp/latex-templates",
 		"/home/john/doc",
 		"/home/john/doc/pdf",
 		"/home/john/doc/proj",
@@ -192,11 +191,11 @@
 			[
 				{
 					"buffer": 0,
-					"file": "/home/john/doc/src/free_conlang.aux",
+					"file": "/home/john/tmp/latex-templates/beamer.tex",
 					"semi_transient": true,
 					"settings":
 					{
-						"buffer_size": 1226,
+						"buffer_size": 760,
 						"regions":
 						{
 						},
@@ -209,8 +208,12 @@
 						],
 						"settings":
 						{
+							"SL.101.region_keys":
+							[
+							],
 							"apply_syntax_touched": true,
-							"syntax": "Packages/Text/Plain text.tmLanguage"
+							"git_gutter_is_enabled": true,
+							"syntax": "Packages/LaTeX/TeX.sublime-syntax"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,

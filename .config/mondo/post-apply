@@ -15,6 +15,4 @@
 # variables and stuff between the scripts.
 
 # eval "${1}"
-sh ~/scr/wall.sh
-kill -HUP $(pidof dwm)
 gtkreload

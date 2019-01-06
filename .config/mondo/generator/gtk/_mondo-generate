@@ -28,3 +28,4 @@ generategtk(){
 dialog --infobox "generating gtk for ${THIS_FILE} ..." 4 50
 cp -f "$1" "${gtk_dir}/${THIS_FILE}.colors"
 generategtk >/dev/null
+clear

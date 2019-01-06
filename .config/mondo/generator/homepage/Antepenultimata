@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto+Mono');
 
 body {
-    background-color: #402144;
+    background-color: #fcf9f9;
     margin: 0px;
 }
 

@@ -109,32 +109,8 @@
 	[
 		"subpixel_antialias"
 	],
+	"font_size": 8,
 	"highlight_modified_tabs": true,
-	"ignored_packages":
-	[
-		"A File Icon",
-		"ActionScript",
-		"AppleScript",
-		"ASP",
-		"Batch File",
-		"Clojure",
-		"D",
-		"Erlang",
-		"Graphviz",
-		"Groovy",
-		"Lisp",
-		"Matlab",
-		"Objective-C",
-		"OCaml",
-		"PackageDev",
-		"Pascal",
-		"R",
-		"Rust",
-		"Scala",
-		"SublimeLinter-contrib-write-good",
-		"TCL",
-		"Textile"
-	],
 	"skin": "",
 	"theme": "Adaptive.sublime-theme",
 	"translate_tabs_to_spaces": true
