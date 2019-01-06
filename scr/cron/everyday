@@ -1,0 +1,23 @@
+#!/usr/bin/env bash
+
+## The command you want to run, change this to whatever
+## command you actually want.
+COMMAND='echo foo';
+
+## Define the log file
+LOGFILE=$HOME/.last_run;
+
+## If the log file doesn't exist, run your command
+if [ ! -f $LOGFILE ]; then
+    ## If the command succeeds, update the log file
+    git add -A && git commit -m "$(date)" && touch $LOGFILE
+else
+    ## If the file does exist, check its age
+    AGE=$(stat -c "%Y" $LOGFILE);
+    ## Get the current time
+    DATE=$(date +%s);
+    ## If the file is more than 24h old, run the command again
+    if [[ $((DATE - AGE)) -gt 86400 ]]; then
+	    git add -A && git commit -m "$(date)" && touch $LOGFILE;
+    fi
+fi

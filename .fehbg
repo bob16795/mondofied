@@ -1,2 +1,2 @@
 #!/bin/sh
-feh --bg-fill '/home/john/pix/Art/Zdzisław Beksiński/1342985252561.jpg' 
+feh --bg-fill '/home/john/.config/mondo/images/antlers.jpg' 

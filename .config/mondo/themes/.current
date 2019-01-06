@@ -1,13 +1,13 @@
-color_2             679288
-alpha_hex           c0
-color_3             A3A087
-color_fg            3B8284
-color_4             D3B286
-color_5             DFBA86
-color_6             B5C39C
-color_7             eedfbd
-bg                  ~/pix/Unsorted/Comfy\ 34.jpg
-color_8             a69c84
-theme               comfy01
-alpha               0.75
-color_bg            0a2037
+color_2             2067AC
+alpha_hex           E5
+color_3             5A5F92
+color_fg            2D4D8E
+color_4             1A7AC3
+color_5             956F90
+color_6             1C99CF
+color_7             9ad0dc
+bg                  antlers.jpg
+color_8             6b919a
+theme               deer02
+alpha               0.9
+color_bg            091234

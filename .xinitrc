@@ -7,7 +7,7 @@ dunst & #notifications
 jgmenu & #menu
 mpd & #music
 #spotify & #music
-#bar.sh & # status
+#bar & # status
 slstatus & # status
 #xset r rate 300 50 #key repeate
 compton & #composite

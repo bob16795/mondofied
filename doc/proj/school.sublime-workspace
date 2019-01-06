@@ -8,11 +8,10 @@
 	"buffers":
 	[
 		{
-			"file": "/home/john/doc/pdf/journal.pdf",
+			"file": "/home/john/doc/src/free_conlang.aux",
 			"settings":
 			{
-				"buffer_size": 3514,
-				"encoding": "Western (Windows 1252)",
+				"buffer_size": 1226,
 				"line_ending": "Unix"
 			}
 		}
@@ -193,11 +192,11 @@
 			[
 				{
 					"buffer": 0,
-					"file": "/home/john/doc/pdf/journal.pdf",
+					"file": "/home/john/doc/src/free_conlang.aux",
 					"semi_transient": true,
 					"settings":
 					{
-						"buffer_size": 3514,
+						"buffer_size": 1226,
 						"regions":
 						{
 						},
@@ -211,7 +210,6 @@
 						"settings":
 						{
 							"apply_syntax_touched": true,
-							"git_gutter_is_enabled": true,
 							"syntax": "Packages/Text/Plain text.tmLanguage"
 						},
 						"translation.x": 0.0,

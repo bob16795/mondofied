@@ -2,7 +2,7 @@
 # Any customization should be done in ~/.gtkrc-2.0.mine instead.
 
 include "/home/luke/.gtkrc-2.0.mine"
-gtk-theme-name="Numixcomfy01"
+gtk-theme-name="Numixdeer02"
 gtk-icon-theme-name="ePapirus"
 gtk-font-name="scientifica 10"
 gtk-cursor-theme-name="Adwaita"

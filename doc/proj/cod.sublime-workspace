@@ -8,17 +8,85 @@
 	"buffers":
 	[
 		{
-			"file": "/home/john/cod/python/poly/polynomial.py",
+			"file": "/home/john/cod/cpp/main.cpp",
 			"settings":
 			{
-				"buffer_size": 2057,
+				"buffer_size": 768,
+				"encoding": "UTF-8",
+				"line_ending": "Unix",
+				"name": "#include <iostream>"
+			}
+		},
+		{
+			"file": "/home/john/cod/cpp/cpu_instrs/readme.txt",
+			"settings":
+			{
+				"buffer_size": 4925,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/home/john/cod/cpp/cpu_instrs/cpu_instrs.gb",
+			"settings":
+			{
+				"buffer_size": 163840,
+				"encoding": "Hexadecimal",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/home/john/cod/cpp/main",
+			"settings":
+			{
+				"buffer_size": 46520,
+				"encoding": "Hexadecimal",
 				"line_ending": "Unix"
 			}
 		}
 	],
-	"build_system": "Packages/Python/Python.sublime-build",
+	"build_system": "Packages/C++/C++ Single File.sublime-build",
 	"build_system_choices":
 	[
+		[
+			[
+				[
+					"Packages/C++/C++ Single File.sublime-build",
+					""
+				],
+				[
+					"Packages/C++/C++ Single File.sublime-build",
+					"Run"
+				]
+			],
+			[
+				"Packages/C++/C++ Single File.sublime-build",
+				""
+			]
+		],
+		[
+			[
+				[
+					"Packages/C++/C++ Single File.sublime-build",
+					""
+				],
+				[
+					"Packages/C++/C++ Single File.sublime-build",
+					"Run"
+				],
+				[
+					"Packages/User/git.sublime-build",
+					""
+				],
+				[
+					"Packages/User/mondo.sublime-build",
+					""
+				]
+			],
+			[
+				"Packages/C++/C++ Single File.sublime-build",
+				""
+			]
+		],
 		[
 			[
 				[
@@ -105,10 +173,12 @@
 	"expanded_folders":
 	[
 		"/home/john/cod",
-		"/home/john/cod/python"
+		"/home/john/cod/cpp",
+		"/home/john/cod/cpp/cpu_instrs"
 	],
 	"file_history":
 	[
+		"/home/john/cod/cpp/cpu_instrs/cpu_instrs.gb",
 		"/home/john/cod/python/poly/polynomial.py",
 		"/home/john/cod/python/poly/test.py",
 		"/home/john/cod/python/polynomial.py",
@@ -137,7 +207,7 @@
 	],
 	"find":
 	{
-		"height": 21.0
+		"height": 38.0
 	},
 	"find_in_files":
 	{
@@ -185,11 +255,56 @@
 			[
 				{
 					"buffer": 0,
-					"file": "/home/john/cod/python/poly/polynomial.py",
+					"file": "/home/john/cod/cpp/main.cpp",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 768,
+						"regions":
+						{
+							"bookmark_y":
+							{
+								"flags": 144,
+								"regions":
+								[
+									[
+										765,
+										765
+									]
+								]
+							}
+						},
+						"selection":
+						[
+							[
+								402,
+								402
+							]
+						],
+						"settings":
+						{
+							"SL.13.region_keys":
+							[
+							],
+							"apply_syntax_touched": true,
+							"auto_name": "#include <iostream>",
+							"git_gutter_is_enabled": true,
+							"syntax": "Packages/C++/C++.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 293.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "/home/john/cod/cpp/cpu_instrs/readme.txt",
 					"semi_transient": true,
 					"settings":
 					{
-						"buffer_size": 2057,
+						"buffer_size": 4925,
 						"regions":
 						{
 						},
@@ -202,18 +317,74 @@
 						],
 						"settings":
 						{
-							"SL.206.region_keys":
-							[
-							],
 							"apply_syntax_touched": true,
-							"git_gutter_is_enabled": true,
-							"syntax": "Packages/Python/Python.sublime-syntax"
+							"syntax": "Packages/Markdown/Markdown.sublime-syntax"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 0,
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "/home/john/cod/cpp/cpu_instrs/cpu_instrs.gb",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 163840,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								684,
+								684
+							]
+						],
+						"settings":
+						{
+							"apply_syntax_touched": true,
+							"git_gutter_is_enabled": false,
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "/home/john/cod/cpp/main",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 46520,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"apply_syntax_touched": true,
+							"git_gutter_is_enabled": false,
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
 					"type": "text"
 				}
 			]
@@ -221,11 +392,11 @@
 	],
 	"incremental_find":
 	{
-		"height": 20.0
+		"height": 38.0
 	},
 	"input":
 	{
-		"height": 32.0
+		"height": 38.0
 	},
 	"layout":
 	{
@@ -249,14 +420,14 @@
 			1.0
 		]
 	},
-	"menu_visible": false,
+	"menu_visible": true,
 	"output.SublimeLinter":
 	{
 		"height": 0.0
 	},
 	"output.exec":
 	{
-		"height": 183.0
+		"height": 178.0
 	},
 	"output.find_results":
 	{
@@ -270,11 +441,11 @@
 	{
 		"height": 84.0
 	},
-	"pinned_build_system": "Packages/Python/Python.sublime-build",
+	"pinned_build_system": "Packages/C++/C++ Single File.sublime-build",
 	"project": "cod.sublime-project",
 	"replace":
 	{
-		"height": 38.0
+		"height": 72.0
 	},
 	"save_all_on_build": true,
 	"select_file":
@@ -316,7 +487,7 @@
 	"show_open_files": true,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 264.0,
+	"side_bar_width": 257.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{

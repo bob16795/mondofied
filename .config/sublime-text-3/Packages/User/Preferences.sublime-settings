@@ -107,10 +107,8 @@
 	"font_face": "scientifica",
 	"font_options":
 	[
-		"noitalic",
 		"subpixel_antialias"
 	],
-	"font_size": 12,
 	"highlight_modified_tabs": true,
 	"ignored_packages":
 	[
@@ -121,11 +119,9 @@
 		"Batch File",
 		"Clojure",
 		"D",
-		"DA UI",
 		"Erlang",
 		"Graphviz",
 		"Groovy",
-		"LaTeX",
 		"Lisp",
 		"Matlab",
 		"Objective-C",

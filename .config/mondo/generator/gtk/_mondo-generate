@@ -19,12 +19,12 @@ THIS_FILE="${1##*/}"
 # To source the settings file one could use this:
 # source "${THIS_DIR}/_mondo-settings"
 
-gtk_dir="~/thm/numix-solarized-gtk-theme"
+gtk_dir="$HOME/thm/numix-solarized-gtk-theme"
 
 generategtk(){
   cd "$gtk_dir" || exit 
   sudo make THEME=$THIS_FILE install
 }
-
+dialog --infobox "generating gtk for ${THIS_FILE} ..." 4 50
 cp -f "$1" "${gtk_dir}/${THIS_FILE}.colors"
-generategtk
+generategtk >/dev/null
