@@ -19,8 +19,9 @@ configuration {
 #window {
     anchor:     north;
     location:   north;
+    y-offset:   13px;
     width:      100%;
-    padding:    4px;
+    padding:    0px;
     children:   [ horibox ];
 }
 
@@ -31,19 +32,21 @@ configuration {
 
 #listview {
     layout:     horizontal;
-    spacing:    5px;
+    spacing:    0px;
     lines:      100;
 }
 
 #entry {
     expand:     false;
-    width:      1em;
+    width:      10em;
+    height:     13px;
 }
 
 #element {
-    padding: 0px 2px;
+    padding: 0px 5px;
 }
 #element selected {
     background-color: @bg1;
     text-color: @accent;
+    height:     13px;
 }
