@@ -20,4 +20,4 @@
 # source "${THIS_DIR}/_mondo-settings"
 cd ~/.config/dwm/
 sudo make install
-kill -HUP $(pidof dwm)
+killall -HUP $(pidof dwm)

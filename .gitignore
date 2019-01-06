@@ -21,6 +21,7 @@ Virtual*
 .npm
 .offlineimap
 .pki
+.steam
 .ssh
 .xdg_menu_cache
 cld/**

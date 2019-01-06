@@ -202,11 +202,15 @@ putgitrepo "https://github.com/LukeSmithxyz/mozillarbs.git" "/home/$name/.mozill
 # (sleep 30 && killall vim) &
 # sudo -u "$name" vim -E -c "PlugUpdate|visual|q|q" >/dev/null
 
+#get dwm source for mondo
+sudo -u "$name" git clone http://github.com/bob16795/dwm /home/$name/.config/dwm > /dev/null
+
+#setup themes
 dialog --infobox "Installing themes this will take a while..." 4 50
 gem install sass
-source /home/$name/.bashrc
-sudo -u "$name" git clone https://github.com/Ferdi265/numix-solarized-gtk-theme ~/thm/numix-solarized-gtk-theme
-sudo -u "$name" mondo -fg all > /dev/null
+export PATH = $PATH:/root/.gem/ruby/2.5.0/bin
+sudo -u "$name" git clone https://github.com/Ferdi265/numix-solarized-gtk-theme /home/$name/thm/numix-solarized-gtk-theme
+sudo -u "$name" mondo -fg moon > /dev/null
 sudo -u "$name" mondo -a moon > /dev/null
 
 # Enable services here.
@@ -218,11 +222,9 @@ systembeepoff
 #install scientifica font
 dialog --infobox "Installing fonts..." 4 50
 sudo -u "$name" git clone https://github.com/NerdyPepper/scientifica /home/$name/fon/scientifica
-ln -fs /home/$name/fon/scientifica/regular/scientifica-11.bdf /usr/share/fonts/scientifica-11.bdf
-ln -fs /home/$name/fon/scientifica/bold/scientifica-11.bdf /usr/share/fonts/scientificaBold-11.bdf
-fc-cache -fv
-
-sudo -u "$name" git clone http://github.com/bob16795/dwm ~/.config/dwm
+ln -fs /home/$name/fon/scientifica/regular/scientifica-11.bdf /usr/share/fonts/scientifica-11.bdf > /dev/null
+ln -fs /home/$name/fon/scientifica/bold/scientifica-11.bdf /usr/share/fonts/scientificaBold-11.bdf > /dev/null
+fc-cache -fv > /dev/null
 
 # This line, overwriting the `newperms` command above will allow the user to run
 # serveral important commands, `shutdown`, `reboot`, updating, etc. without a password.
@@ -231,7 +233,7 @@ newperms "%wheel ALL=(ALL) ALL\\n%wheel ALL=(ALL) NOPASSWD: /usr/bin/shutdown,/u
 # Make pacman and yay colorful because why not.
 sed -i "s/^#Color/Color/g" /etc/pacman.conf
 
-mkdir doc/src doc/arc dsk pix snd dwn vid 
+sudo -u "$name" mkdir ~/doc/src ~/doc/arc ~/dsk ~/pix ~/snd ~/dwn ~/vid 
 
 # Last message! Install complete!
 finalize

@@ -1,11 +1,2 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =9
-let g:netrw_dirhist_1='/home/john/.config/sublime-text-3'
-let g:netrw_dirhist_2='/home/john/.config/sublime-text-3/Packages'
-let g:netrw_dirhist_3='/home/john/.config/sublime-text-3'
-let g:netrw_dirhist_4='/home/john/.config/sublime-text-3/Local'
-let g:netrw_dirhist_5='/home/john/.config/sublime-text-3'
-let g:netrw_dirhist_6='/home/john/.config/sublime-text-3/Packages'
-let g:netrw_dirhist_7='/home/john/.config/sublime-text-3/Packages/Man Page Support'
-let g:netrw_dirhist_8='/home/john/.config/sublime-text-3/Packages/Pretty JSON'
-let g:netrw_dirhist_9='/home/john/.git'
+let g:netrw_dirhist_cnt =0
