@@ -17,19 +17,10 @@
 			}
 		},
 		{
-			"file": "/home/john/scr/updates/1",
-			"settings":
-			{
-				"buffer_size": 22,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		},
-		{
 			"file": "/home/john/git/parbs.sh",
 			"settings":
 			{
-				"buffer_size": 11253,
+				"buffer_size": 11371,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
@@ -256,7 +247,7 @@
 	"groups":
 	[
 		{
-			"selected": 1,
+			"selected": 0,
 			"sheets":
 			[
 				{
@@ -272,12 +263,15 @@
 						"selection":
 						[
 							[
-								62,
-								62
+								61,
+								61
 							]
 						],
 						"settings":
 						{
+							"SL.105.region_keys":
+							[
+							],
 							"SL.19.region_keys":
 							[
 							],
@@ -298,61 +292,31 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "/home/john/scr/updates/1",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 22,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								22,
-								22
-							]
-						],
-						"settings":
-						{
-							"SL.85.region_keys":
-							[
-							],
-							"apply_syntax_touched": true,
-							"git_gutter_is_enabled": true,
-							"syntax": "Packages/ShellScript/Bash.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
 					"stack_index": 0,
 					"type": "text"
 				},
 				{
-					"buffer": 2,
+					"buffer": 1,
 					"file": "/home/john/git/parbs.sh",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 11253,
+						"buffer_size": 11371,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								11236,
-								11236
+								9633,
+								9633
 							]
 						],
 						"settings":
 						{
+							"SL.107.region_keys":
+							[
+							],
 							"SL.44.region_keys":
 							[
 							],
@@ -364,14 +328,14 @@
 							"syntax": "Packages/ShellScript/Bash.sublime-syntax"
 						},
 						"translation.x": 0.0,
-						"translation.y": 2425.0,
+						"translation.y": 2112.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 4,
+					"stack_index": 1,
 					"type": "text"
 				},
 				{
-					"buffer": 3,
+					"buffer": 2,
 					"file": "/home/john/git/progs.csv",
 					"semi_transient": false,
 					"settings":
@@ -407,7 +371,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 4,
+					"buffer": 3,
 					"file": "/home/john/git/README.md",
 					"semi_transient": false,
 					"settings":
@@ -419,8 +383,8 @@
 						"selection":
 						[
 							[
-								179,
-								179
+								178,
+								178
 							]
 						],
 						"settings":

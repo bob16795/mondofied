@@ -28,10 +28,10 @@
 			}
 		},
 		{
-			"file": "/home/john/cfg/config/mondo/themes/moon",
+			"file": "/home/john/cfg/config/rofi/bmenu.rasi",
 			"settings":
 			{
-				"buffer_size": 296,
+				"buffer_size": 775,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
@@ -165,6 +165,8 @@
 	"expanded_folders":
 	[
 		"/home/john/cfg",
+		"/home/john/cfg/config",
+		"/home/john/cfg/config/rofi",
 		"/home/john/cfg/scripts",
 		"/home/john/cfg/config/mondo",
 		"/home/john/cfg/config/mondo/generator",
@@ -172,6 +174,7 @@
 	],
 	"file_history":
 	[
+		"/home/john/cfg/config/mondo/themes/moon",
 		"/home/john/cfg/config/mondo/generator/alacritty/_mondo-template",
 		"/home/john/cfg/config/mondo/themes/tree01",
 		"/home/john/cfg/config/mondo/generator/dwm/_mondo-settings",
@@ -181,7 +184,6 @@
 		"/home/john/cfg/config/mondo/post-apply",
 		"/home/john/cfg/config/mondo/themes/_template",
 		"/home/john/cfg/config/mondo/themes/bird01",
-		"/home/john/cfg/config/mondo/themes/moon",
 		"/home/john/cfg/config/mondo/themes/light",
 		"/home/john/cfg/config/mondo/themes/deer02",
 		"/home/john/cfg/config/mondo/themes/dragon01",
@@ -393,6 +395,9 @@
 						],
 						"settings":
 						{
+							"SL.114.region_keys":
+							[
+							],
 							"SL.124.region_keys":
 							[
 							],
@@ -424,27 +429,24 @@
 				},
 				{
 					"buffer": 2,
-					"file": "/home/john/cfg/config/mondo/themes/moon",
+					"file": "/home/john/cfg/config/rofi/bmenu.rasi",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 296,
+						"buffer_size": 775,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								275,
-								275
+								237,
+								237
 							]
 						],
 						"settings":
 						{
-							"SL.94.region_keys":
-							[
-							],
-							"SL.99.region_keys":
+							"SL.119.region_keys":
 							[
 							],
 							"apply_syntax_touched": true,
@@ -552,8 +554,8 @@
 						"selection":
 						[
 							[
-								2,
-								2
+								1,
+								1
 							]
 						],
 						"settings":
