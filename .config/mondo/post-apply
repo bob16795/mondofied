@@ -16,4 +16,4 @@
 
 # eval "${1}"
 gtkreload
-killall -HUP $(pidof dwm)
+killall -HUP dwm

@@ -8,30 +8,19 @@
 	"buffers":
 	[
 		{
-			"contents": "[draw]\npadding = 5\nscale = 1.90\nzero = 4\nsilence = 10\n\n[color]\nfg = #%%color_fg%%\nautofg = #%%color_fg%%\nbg = #%%color_bg%%\nauto = 0\n\n[offset]\nleft = 5\nright = 5\ntop = 5\nbottom = 5\n\n[window]\nmaximize = 0\nbelow = 0\nstick = 0\nwinbyscreen = 0\nimagebyscreen = 0\nbgpaint = 1\nfullscreen = 0\nskiptaskbar = 0\n\n[image]\nshow = 0\nusetag = 0\ndefault = /home/john/pix/deer.png\nva = 0\nha = 0\n\n[autocolor]\nbands = 255\nwindow = 8\nsaturation_min = 0.25\nvalue_min = 1.00\nisize = 160;90\n\n[misc]\nhint = NORMAL\ndsize = 1280;720\n\n[player]\nvolume = 0.50\nshuffle = 0\nshowqueue = 0\n\n[keys]\nexit = <Control>q\nnext = <Control>n\nplay = space\nhide = Escape\nshow = <Control>i\n\n",
-			"file": "/home/john/cfg/config/mondo/generator/cavalcade/_mondo-template",
-			"file_size": 647,
-			"file_write_time": 131912038989143181,
-			"settings":
-			{
-				"buffer_size": 647,
-				"line_ending": "Unix"
-			}
-		},
-		{
 			"file": "/home/john/cfg/config/mondo/post-apply",
 			"settings":
 			{
-				"buffer_size": 541,
+				"buffer_size": 532,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "/home/john/cfg/config/rofi/bmenu.rasi",
+			"file": "/home/john/cfg/config/mondo/generator/dwm/_mondo-settings",
 			"settings":
 			{
-				"buffer_size": 775,
+				"buffer_size": 723,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
@@ -166,14 +155,20 @@
 	[
 		"/home/john/cfg",
 		"/home/john/cfg/config",
+		"/home/john/cfg/config/mondo",
+		"/home/john/cfg/config/mondo/generator",
+		"/home/john/cfg/config/mondo/themes",
 		"/home/john/cfg/config/rofi",
 		"/home/john/cfg/scripts",
 		"/home/john/cfg/config/mondo",
 		"/home/john/cfg/config/mondo/generator",
+		"/home/john/cfg/config/mondo/generator/dwm",
 		"/home/john/cfg/config/mondo/themes"
 	],
 	"file_history":
 	[
+		"/home/john/cfg/config/mondo/generator/cavalcade/_mondo-template",
+		"/home/john/cfg/config/rofi/bmenu.rasi",
 		"/home/john/cfg/config/mondo/themes/moon",
 		"/home/john/cfg/config/mondo/generator/alacritty/_mondo-template",
 		"/home/john/cfg/config/mondo/themes/tree01",
@@ -250,7 +245,6 @@
 		"/home/john/.config/mondo/colors",
 		"/home/john/.config/mondo/generator/rofi/_mondo-template",
 		"/home/john/cfg/config/dwm/config.h",
-		"/home/john/cfg/config/rofi/bmenu.rasi",
 		"/home/john/doc/not/Todo_config.note",
 		"/home/john/cfg/config/rofi/globals.rasi",
 		"/home/john/doc/not/.brain/Inbox.note",
@@ -343,54 +337,24 @@
 	"groups":
 	[
 		{
-			"selected": 2,
+			"selected": 1,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "/home/john/cfg/config/mondo/generator/cavalcade/_mondo-template",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 647,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								7,
-								7
-							]
-						],
-						"settings":
-						{
-							"apply_syntax_touched": true,
-							"git_gutter_is_enabled": false,
-							"syntax": "Packages/Text/Plain text.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 2,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
 					"file": "/home/john/cfg/config/mondo/post-apply",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 541,
+						"buffer_size": 532,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								541,
-								541
+								531,
+								531
 							]
 						],
 						"settings":
@@ -399,6 +363,9 @@
 							[
 							],
 							"SL.124.region_keys":
+							[
+							],
+							"SL.130.region_keys":
 							[
 							],
 							"SL.14.region_keys":
@@ -421,37 +388,37 @@
 							"syntax": "Packages/ShellScript/Bash.sublime-syntax"
 						},
 						"translation.x": 0.0,
-						"translation.y": 210.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
+					"stack_index": 2,
 					"type": "text"
 				},
 				{
-					"buffer": 2,
-					"file": "/home/john/cfg/config/rofi/bmenu.rasi",
+					"buffer": 1,
+					"file": "/home/john/cfg/config/mondo/generator/dwm/_mondo-settings",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 775,
+						"buffer_size": 723,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								237,
-								237
+								723,
+								723
 							]
 						],
 						"settings":
 						{
-							"SL.119.region_keys":
+							"SL.136.region_keys":
 							[
 							],
 							"apply_syntax_touched": true,
 							"git_gutter_is_enabled": true,
-							"syntax": "Packages/Text/Plain text.tmLanguage"
+							"syntax": "Packages/ShellScript/Bash.sublime-syntax"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -461,7 +428,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 3,
+					"buffer": 2,
 					"file": "/home/john/cfg/config/mondo/generator/dwm/_mondo-apply",
 					"semi_transient": false,
 					"settings":
@@ -480,6 +447,9 @@
 						"settings":
 						{
 							"SL.126.region_keys":
+							[
+							],
+							"SL.132.region_keys":
 							[
 							],
 							"SL.15.region_keys":
@@ -502,11 +472,11 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 3,
+					"stack_index": 1,
 					"type": "text"
 				},
 				{
-					"buffer": 4,
+					"buffer": 3,
 					"file": "/home/john/cfg/config/mondo/generator/sublime/_mondo-settings",
 					"semi_transient": false,
 					"settings":
@@ -538,11 +508,11 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 4,
+					"stack_index": 3,
 					"type": "text"
 				},
 				{
-					"buffer": 5,
+					"buffer": 4,
 					"file": "/home/john/cfg/config/mondo/generator/gtkrc-20/_mondo-apply",
 					"semi_transient": false,
 					"settings":
@@ -554,8 +524,8 @@
 						"selection":
 						[
 							[
-								1,
-								1
+								0,
+								0
 							]
 						],
 						"settings":
@@ -571,7 +541,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 5,
+					"stack_index": 4,
 					"type": "text"
 				}
 			]

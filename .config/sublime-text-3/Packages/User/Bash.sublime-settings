@@ -1,6 +1,7 @@
 {
 	"extensions":
 	[
-		"bash"
+		"bash",
+		"_mondo-settings"
 	]
 }
