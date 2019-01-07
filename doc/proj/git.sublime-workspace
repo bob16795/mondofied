@@ -271,8 +271,8 @@
 						"selection":
 						[
 							[
-								297,
-								297
+								296,
+								296
 							]
 						],
 						"settings":
@@ -420,8 +420,8 @@
 						"selection":
 						[
 							[
-								40,
-								40
+								39,
+								39
 							]
 						],
 						"settings":
@@ -462,8 +462,8 @@
 						"selection":
 						[
 							[
-								297,
-								297
+								375,
+								375
 							]
 						],
 						"settings":
@@ -472,6 +472,9 @@
 							[
 							],
 							"SL.143.region_keys":
+							[
+							],
+							"SL.147.region_keys":
 							[
 							],
 							"SL.30.region_keys":
@@ -563,7 +566,7 @@
 	"project": "git.sublime-project",
 	"replace":
 	{
-		"height": 38.0
+		"height": 68.0
 	},
 	"save_all_on_build": true,
 	"select_file":

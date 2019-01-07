@@ -8,19 +8,10 @@
 	"buffers":
 	[
 		{
-			"file": "/home/john/cfg/config/mondo/themes/cfamfi",
+			"file": "/home/john/cfg/.vimrc",
 			"settings":
 			{
-				"buffer_size": 302,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "/home/john/cfg/config/mondo/themes/gruvbox",
-			"settings":
-			{
-				"buffer_size": 302,
+				"buffer_size": 6254,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
@@ -129,12 +120,15 @@
 		"/home/john/cfg",
 		"/home/john/cfg/config/mondo",
 		"/home/john/cfg/config/mondo/generator",
-		"/home/john/cfg/config/mondo/generator/dwm",
 		"/home/john/cfg/config/mondo/images",
 		"/home/john/cfg/config/mondo/themes"
 	],
 	"file_history":
 	[
+		"/home/john/cfg/config/mondo/themes/cfamfi",
+		"/home/john/cfg/config/mondo/themes/gruvbox",
+		"/home/john/cfg/config/mondo/generator/dwm/moon",
+		"/home/john/cfg/config/mondo/generator/dwm/_mondo-template",
 		"/home/john/cfg/scripts/tools/updateparse",
 		"/home/john/cfg/scripts/updates/check",
 		"/home/john/cfg/scripts/updates/1",
@@ -154,7 +148,6 @@
 		"/home/john/cfg/config/mondo/themes/tree01",
 		"/home/john/cfg/config/mondo/generator/wallpaper/_mondo-apply",
 		"/home/john/cfg/config/mondo/generator/gtk/_mondo-apply",
-		"/home/john/cfg/config/mondo/themes/gruvbox",
 		"/home/john/cfg/config/mondo/themes/_template",
 		"/home/john/cfg/config/mondo/themes/bird01",
 		"/home/john/cfg/config/mondo/themes/light",
@@ -162,7 +155,6 @@
 		"/home/john/cfg/config/mondo/themes/dragon01",
 		"/home/john/cfg/config/mondo/themes/deer01",
 		"/home/john/cfg/config/mondo/themes/Antepenultimata",
-		"/home/john/cfg/config/mondo/generator/dwm/_mondo-template",
 		"/home/john/cfg/config/mondo/generator/gtk/Antepenultimata",
 		"/home/john/cfg/config/mondo/generator/gtk/_mondo-generate",
 		"/home/john/cfg/config/cava/config",
@@ -312,77 +304,32 @@
 	"groups":
 	[
 		{
-			"selected": 1,
+			"selected": 0,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "/home/john/cfg/config/mondo/themes/cfamfi",
+					"file": "/home/john/cfg/.vimrc",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 302,
+						"buffer_size": 6254,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								302,
-								302
+								6008,
+								6008
 							]
 						],
 						"settings":
 						{
-							"SL.109.region_keys":
-							[
-							],
-							"SL.117.region_keys":
-							[
-							],
 							"SL.13.region_keys":
 							[
 							],
-							"SL.28.region_keys":
-							[
-							],
-							"SL.30.region_keys":
-							[
-							],
-							"apply_syntax_touched": true,
-							"git_gutter_is_enabled": true,
-							"syntax": "Packages/Text/Plain text.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "/home/john/cfg/config/mondo/themes/gruvbox",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 302,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								302,
-								302
-							]
-						],
-						"settings":
-						{
-							"SL.111.region_keys":
-							[
-							],
-							"SL.136.region_keys":
+							"SL.22.region_keys":
 							[
 							],
 							"apply_syntax_touched": true,
@@ -454,7 +401,7 @@
 	"project": "config",
 	"replace":
 	{
-		"height": 68.0
+		"height": 38.0
 	},
 	"save_all_on_build": true,
 	"select_file":
