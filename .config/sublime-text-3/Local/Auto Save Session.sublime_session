@@ -317,15 +317,6 @@
 					}
 				},
 				{
-					"file": "/home/john/scr/updates/1",
-					"settings":
-					{
-						"buffer_size": 29,
-						"encoding": "UTF-8",
-						"line_ending": "Unix"
-					}
-				},
-				{
 					"file": "/home/john/git/themes/cfamfi",
 					"settings":
 					{
@@ -349,8 +340,16 @@
 					{
 						"buffer_size": 169,
 						"encoding": "UTF-8",
-						"line_ending": "Unix",
-						"name": "Antepenultimata"
+						"line_ending": "Unix"
+					}
+				},
+				{
+					"file": "/home/john/git/theme",
+					"settings":
+					{
+						"buffer_size": 147,
+						"encoding": "UTF-8",
+						"line_ending": "Unix"
 					}
 				}
 			],
@@ -365,6 +364,10 @@
 				"last_filter": "",
 				"selected_items":
 				[
+					[
+						"w",
+						"Tasks: Archive within selection(s)"
+					],
 					[
 						"Package Control: ",
 						"Package Control: Remove Package"
@@ -388,10 +391,6 @@
 					[
 						"pack",
 						"Package Control: Install Package"
-					],
-					[
-						"w",
-						"Tasks: Archive within selection(s)"
 					],
 					[
 						"pro",
@@ -439,15 +438,17 @@
 			"expanded_folders":
 			[
 				"/home/john/git",
+				"/home/john/git/themes",
 				"/home/john/scr/updates"
 			],
 			"file_history":
 			[
+				"/home/john/scr/updates/1",
+				"/home/john/git/themes/list",
 				"/home/john/git/.gitignore",
 				"/home/john/git/README.md",
 				"/home/john/git/parbs.sh",
 				"/home/john/git/progs.csv",
-				"/home/john/scr/updates/1",
 				"/home/john/git/update",
 				"/home/john/scr/updates/check",
 				"/home/john/scr/updates/2",
@@ -557,7 +558,7 @@
 			"groups":
 			[
 				{
-					"selected": 3,
+					"selected": 4,
 					"sheets":
 					[
 						{
@@ -583,6 +584,9 @@
 									[
 									],
 									"SL.122.region_keys":
+									[
+									],
+									"SL.13.region_keys":
 									[
 									],
 									"SL.18.region_keys":
@@ -620,53 +624,11 @@
 								"translation.y": 0.0,
 								"zoom_level": 1.0
 							},
-							"stack_index": 3,
+							"stack_index": 1,
 							"type": "text"
 						},
 						{
 							"buffer": 1,
-							"file": "/home/john/scr/updates/1",
-							"semi_transient": false,
-							"settings":
-							{
-								"buffer_size": 29,
-								"regions":
-								{
-								},
-								"selection":
-								[
-									[
-										0,
-										0
-									]
-								],
-								"settings":
-								{
-									"SL.20.region_keys":
-									[
-									],
-									"SL.28.region_keys":
-									[
-									],
-									"SL.33.region_keys":
-									[
-									],
-									"SL.88.region_keys":
-									[
-									],
-									"apply_syntax_touched": true,
-									"git_gutter_is_enabled": true,
-									"syntax": "Packages/ShellScript/Bash.sublime-syntax"
-								},
-								"translation.x": 0.0,
-								"translation.y": 0.0,
-								"zoom_level": 1.0
-							},
-							"stack_index": 4,
-							"type": "text"
-						},
-						{
-							"buffer": 2,
 							"file": "/home/john/git/themes/cfamfi",
 							"semi_transient": false,
 							"settings":
@@ -695,11 +657,11 @@
 								"translation.y": 0.0,
 								"zoom_level": 1.0
 							},
-							"stack_index": 1,
+							"stack_index": 4,
 							"type": "text"
 						},
 						{
-							"buffer": 3,
+							"buffer": 2,
 							"file": "/home/john/git/themes/Antepenultimata",
 							"semi_transient": false,
 							"settings":
@@ -711,12 +673,15 @@
 								"selection":
 								[
 									[
-										0,
-										0
+										319,
+										319
 									]
 								],
 								"settings":
 								{
+									"SL.16.region_keys":
+									[
+									],
 									"SL.35.region_keys":
 									[
 									],
@@ -728,11 +693,11 @@
 								"translation.y": 0.0,
 								"zoom_level": 1.0
 							},
-							"stack_index": 0,
+							"stack_index": 3,
 							"type": "text"
 						},
 						{
-							"buffer": 4,
+							"buffer": 3,
 							"file": "/home/john/git/themes/list",
 							"semi_transient": false,
 							"settings":
@@ -744,17 +709,16 @@
 								"selection":
 								[
 									[
-										166,
-										166
+										169,
+										169
 									]
 								],
 								"settings":
 								{
-									"SL.23.region_keys":
+									"SL.25.region_keys":
 									[
 									],
 									"apply_syntax_touched": true,
-									"auto_name": "Antepenultimata",
 									"git_gutter_is_enabled": true,
 									"syntax": "Packages/Text/Plain text.tmLanguage"
 								},
@@ -763,6 +727,39 @@
 								"zoom_level": 1.0
 							},
 							"stack_index": 2,
+							"type": "text"
+						},
+						{
+							"buffer": 4,
+							"file": "/home/john/git/theme",
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 147,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										123,
+										123
+									]
+								],
+								"settings":
+								{
+									"SL.28.region_keys":
+									[
+									],
+									"apply_syntax_touched": true,
+									"git_gutter_is_enabled": true,
+									"syntax": "Packages/Text/Plain text.tmLanguage"
+								},
+								"translation.x": 0.0,
+								"translation.y": 0.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 0,
 							"type": "text"
 						}
 					]
@@ -820,7 +817,7 @@
 			"project": "git.sublime-project",
 			"replace":
 			{
-				"height": 68.0
+				"height": 38.0
 			},
 			"save_all_on_build": true,
 			"select_file":
