@@ -70,3 +70,4 @@ git/**
 .stea*
 .git*
 .gem
+.config/mondo/themes/**
