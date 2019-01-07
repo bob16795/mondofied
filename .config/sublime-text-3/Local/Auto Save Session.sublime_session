@@ -338,7 +338,7 @@
 					"file": "/home/john/git/.gitignore",
 					"settings":
 					{
-						"buffer_size": 676,
+						"buffer_size": 683,
 						"encoding": "UTF-8",
 						"line_ending": "Unix"
 					}
@@ -706,15 +706,15 @@
 							"semi_transient": false,
 							"settings":
 							{
-								"buffer_size": 676,
+								"buffer_size": 683,
 								"regions":
 								{
 								},
 								"selection":
 								[
 									[
-										0,
-										676
+										681,
+										681
 									]
 								],
 								"settings":
