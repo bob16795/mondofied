@@ -346,7 +346,7 @@
 					"file": "/home/john/git/README.md",
 					"settings":
 					{
-						"buffer_size": 354,
+						"buffer_size": 353,
 						"encoding": "UTF-8",
 						"line_ending": "Unix"
 					}
@@ -571,8 +571,8 @@
 								"selection":
 								[
 									[
-										288,
-										288
+										287,
+										287
 									]
 								],
 								"settings":
@@ -737,15 +737,15 @@
 							"semi_transient": false,
 							"settings":
 							{
-								"buffer_size": 354,
+								"buffer_size": 353,
 								"regions":
 								{
 								},
 								"selection":
 								[
 									[
-										300,
-										300
+										17,
+										17
 									]
 								],
 								"settings":
@@ -760,6 +760,9 @@
 									[
 									],
 									"SL.48.region_keys":
+									[
+									],
+									"SL.51.region_keys":
 									[
 									],
 									"SL.76.region_keys":
@@ -890,10 +893,10 @@
 		"recent_workspaces":
 		[
 			"/home/john/doc/proj/git.sublime-workspace",
+			"/home/john/doc/proj/school.sublime-workspace",
 			"/home/john/doc/proj/config.sublime-workspace",
 			"/home/john/doc/proj/cod.sublime-workspace",
 			"/home/john/doc/proj/web.sublime-workspace",
-			"/home/john/doc/proj/school.sublime-workspace",
 			"/home/john/doc/proj/youtube.sublime-workspace",
 			"/home/john/doc/proj/dwm.sublime-workspace",
 			"/home/john/.config/sublime-text-3/Packages/Sublime Tutor/tutorial/sublimetutor.sublime-workspace"
