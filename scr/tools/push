@@ -3,3 +3,6 @@ cd ~
 git add -A && git commit -m "$(date) manual commit" && git push
 cd ~/.config/dwm
 git add -A && git commit -m "$(date) manual commit" && git push
+cd ~/git/themes
+cp -r ~/.config/mondo/ ./
+git add -A && git commit -m "$(date) manual commit" && git push
