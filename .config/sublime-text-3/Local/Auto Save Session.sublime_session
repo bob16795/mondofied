@@ -347,7 +347,7 @@
 					"file": "/home/john/git/theme",
 					"settings":
 					{
-						"buffer_size": 147,
+						"buffer_size": 308,
 						"encoding": "UTF-8",
 						"line_ending": "Unix"
 					}
@@ -735,15 +735,15 @@
 							"semi_transient": false,
 							"settings":
 							{
-								"buffer_size": 147,
+								"buffer_size": 308,
 								"regions":
 								{
 								},
 								"selection":
 								[
 									[
-										123,
-										123
+										12,
+										12
 									]
 								],
 								"settings":
@@ -753,7 +753,7 @@
 									],
 									"apply_syntax_touched": true,
 									"git_gutter_is_enabled": true,
-									"syntax": "Packages/Text/Plain text.tmLanguage"
+									"syntax": "Packages/ShellScript/Bash.sublime-syntax"
 								},
 								"translation.x": 0.0,
 								"translation.y": 0.0,
@@ -813,7 +813,7 @@
 				"height": 84.0
 			},
 			"pinned_build_system": "Packages/User/push.sublime-build",
-			"position": "0,0,0,0,0,0,13,1366,768,1366,768",
+			"position": "0,0,0,0,0,0,13,751,768,1366,768",
 			"project": "git.sublime-project",
 			"replace":
 			{
