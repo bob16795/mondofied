@@ -320,7 +320,7 @@
 					"file": "/home/john/git/parbs.sh",
 					"settings":
 					{
-						"buffer_size": 11333,
+						"buffer_size": 11332,
 						"encoding": "UTF-8",
 						"line_ending": "Unix"
 					}
@@ -615,15 +615,15 @@
 							"semi_transient": false,
 							"settings":
 							{
-								"buffer_size": 11333,
+								"buffer_size": 11332,
 								"regions":
 								{
 								},
 								"selection":
 								[
 									[
-										11318,
-										11318
+										11277,
+										11277
 									]
 								],
 								"settings":

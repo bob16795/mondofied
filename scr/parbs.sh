@@ -239,7 +239,7 @@ newperms "%wheel ALL=(ALL) ALL\\n%wheel ALL=(ALL) NOPASSWD: /usr/bin/shutdown,/u
 # Make pacman and yay colorful because why not.
 sed -i "s/^#Color/Color/g" /etc/pacman.conf
 
-sudo -u "$name" mkdir ~/doc/src ~/doc/arc ~/dsk ~/pix ~/snd ~/dwn ~/vid 
+sudo -u "$name" mkdir ~/doc/src ~/doc/arc ~/dsk ~/pix ~/snd ~/dwn ~/vid
 
 # Last update! then Install complete!
 finalize
