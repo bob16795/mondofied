@@ -707,8 +707,8 @@
 								"selection":
 								[
 									[
-										692,
-										692
+										693,
+										693
 									]
 								],
 								"settings":
@@ -823,7 +823,7 @@
 				"height": 84.0
 			},
 			"pinned_build_system": "Packages/User/push.sublime-build",
-			"position": "0,0,0,0,0,0,13,751,768,2646,1024",
+			"position": "0,0,0,0,0,0,13,1366,768,2646,1024",
 			"project": "git.sublime-project",
 			"replace":
 			{

@@ -328,8 +328,8 @@
 						"selection":
 						[
 							[
-								260,
-								260
+								302,
+								302
 							]
 						],
 						"settings":
@@ -338,6 +338,9 @@
 							[
 							],
 							"SL.13.region_keys":
+							[
+							],
+							"SL.28.region_keys":
 							[
 							],
 							"apply_syntax_touched": true,
