@@ -69,3 +69,4 @@ git/**
 \!
 .stea*
 .git*
+.gem

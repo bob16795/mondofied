@@ -337,7 +337,7 @@
 					"file": "/home/john/git/.gitignore",
 					"settings":
 					{
-						"buffer_size": 689,
+						"buffer_size": 694,
 						"encoding": "UTF-8",
 						"line_ending": "Unix"
 					}
@@ -689,15 +689,26 @@
 							"semi_transient": false,
 							"settings":
 							{
-								"buffer_size": 689,
+								"buffer_size": 694,
 								"regions":
 								{
+									"bookmark_i":
+									{
+										"flags": 144,
+										"regions":
+										[
+											[
+												694,
+												694
+											]
+										]
+									}
 								},
 								"selection":
 								[
 									[
-										689,
-										689
+										692,
+										692
 									]
 								],
 								"settings":
@@ -812,7 +823,7 @@
 				"height": 84.0
 			},
 			"pinned_build_system": "Packages/User/push.sublime-build",
-			"position": "0,0,0,0,0,0,13,1366,768,2646,1024",
+			"position": "0,0,0,0,0,0,13,751,768,2646,1024",
 			"project": "git.sublime-project",
 			"replace":
 			{
