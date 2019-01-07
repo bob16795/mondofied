@@ -7,13 +7,14 @@ or run scr/parbs.sh on a preinstalled arch system
 ## released:
 ### 1
  - Initial version
-
+ - got install working
+ - fix occurences of my home directory
+ 
 ## unreleased:
 ### 2
+ - optional themes
 
 # TODO:
- - optional themes
  - system settings?
- - get install working
  - make updates script?
- - fix occurences of my home directory
+ - seprate theme repository.
