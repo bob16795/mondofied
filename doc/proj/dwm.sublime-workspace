@@ -222,13 +222,16 @@
 						"selection":
 						[
 							[
-								57346,
-								57346
+								57345,
+								57345
 							]
 						],
 						"settings":
 						{
 							"SL.36.region_keys":
+							[
+							],
+							"SL.54.region_keys":
 							[
 							],
 							"apply_syntax_touched": true,

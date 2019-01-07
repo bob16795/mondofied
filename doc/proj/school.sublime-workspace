@@ -7,6 +7,14 @@
 	},
 	"buffers":
 	[
+		{
+			"file": "/home/john/doc/src/ela_syllabus.tex",
+			"settings":
+			{
+				"buffer_size": 1654,
+				"line_ending": "Unix"
+			}
+		}
 	],
 	"build_system": "Packages/LaTeXBox/support/LaTeX.sublime-build",
 	"build_system_choices":
@@ -107,9 +115,8 @@
 	[
 		"/home/john/tmp",
 		"/home/john/doc",
-		"/home/john/doc/proj",
-		"/home/john/doc/src",
-		"/home/john/doc/xls"
+		"/home/john/doc/pdf",
+		"/home/john/doc/src"
 	],
 	"file_history":
 	[
@@ -177,8 +184,42 @@
 	"groups":
 	[
 		{
+			"selected": 0,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "/home/john/doc/src/ela_syllabus.tex",
+					"semi_transient": true,
+					"settings":
+					{
+						"buffer_size": 1654,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"SL.64.region_keys":
+							[
+							],
+							"apply_syntax_touched": true,
+							"git_gutter_is_enabled": true,
+							"syntax": "Packages/LaTeX/TeX.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
 			]
 		}
 	],

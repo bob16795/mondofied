@@ -190,6 +190,9 @@
 						],
 						"settings":
 						{
+							"SL.57.region_keys":
+							[
+							],
 							"apply_syntax_touched": true,
 							"git_gutter_is_enabled": true,
 							"syntax": "Packages/Text/Plain text.tmLanguage"

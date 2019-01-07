@@ -118,15 +118,6 @@
 	"expanded_folders":
 	[
 		"/home/john/cfg",
-		"/home/john/cfg/config",
-		"/home/john/cfg/config/mondo",
-		"/home/john/cfg/config/mondo/generator",
-		"/home/john/cfg/config/mondo/generator/dwm",
-		"/home/john/cfg/config/mondo/images",
-		"/home/john/cfg/config/mondo/themes",
-		"/home/john/cfg/scripts",
-		"/home/john/cfg/scripts/tools",
-		"/home/john/cfg/scripts/updates",
 		"/home/john/cfg/config/mondo",
 		"/home/john/cfg/config/mondo/generator",
 		"/home/john/cfg/config/mondo/generator/dwm",
@@ -341,6 +332,9 @@
 							[
 							],
 							"SL.28.region_keys":
+							[
+							],
+							"SL.30.region_keys":
 							[
 							],
 							"apply_syntax_touched": true,

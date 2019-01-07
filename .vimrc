@@ -3,16 +3,31 @@
 " \ \ / / | '_ ` _ \| '__/ __|
 "  \ V /| | | | | | | | | (__
 "   \_/ |_|_| |_| |_|_|  \___|
-
+autocmd VimEnter * MinimapToggle
+"autocmd VimEnter * NERDTreeToggle
 let mapleader =" "
-
 call plug#begin('~/.vim/plugged')
+Plug 'severin-lemaignan/vim-minimap'
+Plug 'scrooloose/nerdtree'
 Plug 'junegunn/goyo.vim'
 Plug 'PotatoesMaster/i3-vim-syntax'
 Plug 'jreybert/vimagit'
 Plug 'LukeSmithxyz/vimling'
 Plug 'vimwiki/vimwiki'
+Plug 'scrooloose/nerdtree'
+Plug 'tpope/vim-surround'
+Plug 'gcmt/breeze.vim'
+Plug 'kien/ctrlp.vim'
+Plug 'SirVer/ultisnips'
+Plug 'tomtom/tcomment_vim'
+Plug 'vim-airline/vim-airline'
+Plug 'vim-airline/vim-airline-themes'
+Plug 'airblade/vim-gitgutter'
+Plug 'Valloric/YouCompleteMe'
+Plug 'davidhalter/jedi-vim'
 call plug#end()
+
+set mouse=a
 
 " Some basics:
 	set nocompatible
@@ -69,12 +84,8 @@ call plug#end()
 	autocmd BufRead,BufNewFile *.md set tw=79
 
 " Use urlscan to choose and open a url:
-	:noremap <leader>u :w<Home>silent <End> !urlscan<CR>
-	:noremap ,, :w<Home>silent <End> !urlscan<CR>
-
-" Copy selected text to system clipboard (requires gvim installed):
-	vnoremap <C-c> "*Y :let @+=@*<CR>
-	map <C-p> "+P
+	:noremap <leader>u :w<Home> !urlscan -r 'linkhandler {}'<CR>
+	:noremap ,, !urlscan -r 'linkhandler {}'<CR>
 
 " Enable Goyo by default for mutt writting
 	" Goyo's width will be the line limit in mutt.
@@ -95,123 +106,147 @@ call plug#end()
 	vnoremap <Space><Tab> <Esc>/<++><Enter>"_c4l
 	map <Space><Tab> <Esc>/<++><Enter>"_c4l
 
- "____        _                  _
-"/ ___| _ __ (_)_ __  _ __   ___| |_ ___
-"\___ \| '_ \| | '_ \| '_ \ / _ \ __/ __|
- "___) | | | | | |_) | |_) |  __/ |_\__ \
-"|____/|_| |_|_| .__/| .__/ \___|\__|___/
-              "|_|   |_|
+autocmd FileType tex <f7> :!pdflatex %
+filetype plugin indent on
 
-"""LATEX
-	" Word count:
-	autocmd FileType tex map <leader>o :w !detex \| wc -w<CR>
-	autocmd FileType tex inoremap <leader>o <Esc>:w !detex \| wc -w<CR>
-	" Code snippets
-	autocmd FileType tex inoremap ,fr \begin{frame}<Enter>\frametitle{}<Enter><Enter><++><Enter><Enter>\end{frame}<Enter><Enter><++><Esc>6kf}i
-	autocmd FileType tex inoremap ,fi \begin{fitch}<Enter><Enter>\end{fitch}<Enter><Enter><++><Esc>3kA
-	autocmd FileType tex inoremap ,exe \begin{exe}<Enter>\ex<Space><Enter>\end{exe}<Enter><Enter><++><Esc>3kA
-	autocmd FileType tex inoremap ,em \emph{}<++><Esc>T{i
-	autocmd FileType tex inoremap ,bf \textbf{}<++><Esc>T{i
-	autocmd FileType tex vnoremap , <ESC>`<i\{<ESC>`>2la}<ESC>?\\{<Enter>a
-	autocmd FileType tex inoremap ,it \textit{}<++><Esc>T{i
-	autocmd FileType tex inoremap ,ct \textcite{}<++><Esc>T{i
-	autocmd FileType tex inoremap ,cp \parencite{}<++><Esc>T{i
-	autocmd FileType tex inoremap ,glos {\gll<Space><++><Space>\\<Enter><++><Space>\\<Enter>\trans{``<++>''}}<Esc>2k2bcw
-	autocmd FileType tex inoremap ,x \begin{xlist}<Enter>\ex<Space><Enter>\end{xlist}<Esc>kA<Space>
-	autocmd FileType tex inoremap ,ol \begin{enumerate}<Enter><Enter>\end{enumerate}<Enter><Enter><++><Esc>3kA\item<Space>
-	autocmd FileType tex inoremap ,ul \begin{itemize}<Enter><Enter>\end{itemize}<Enter><Enter><++><Esc>3kA\item<Space>
-	autocmd FileType tex inoremap ,li <Enter>\item<Space>
-	autocmd FileType tex inoremap ,ref \ref{}<Space><++><Esc>T{i
-	autocmd FileType tex inoremap ,tab \begin{tabular}<Enter><++><Enter>\end{tabular}<Enter><Enter><++><Esc>4kA{}<Esc>i
-	autocmd FileType tex inoremap ,ot \begin{tableau}<Enter>\inp{<++>}<Tab>\const{<++>}<Tab><++><Enter><++><Enter>\end{tableau}<Enter><Enter><++><Esc>5kA{}<Esc>i
-	autocmd FileType tex inoremap ,can \cand{}<Tab><++><Esc>T{i
-	autocmd FileType tex inoremap ,con \const{}<Tab><++><Esc>T{i
-	autocmd FileType tex inoremap ,v \vio{}<Tab><++><Esc>T{i
-	autocmd FileType tex inoremap ,a \href{}{<++>}<Space><++><Esc>2T{i
-	autocmd FileType tex inoremap ,sc \textsc{}<Space><++><Esc>T{i
-	autocmd FileType tex inoremap ,chap \chapter{}<Enter><Enter><++><Esc>2kf}i
-	autocmd FileType tex inoremap ,sec \section{}<Enter><Enter><++><Esc>2kf}i
-	autocmd FileType tex inoremap ,ssec \subsection{}<Enter><Enter><++><Esc>2kf}i
-	autocmd FileType tex inoremap ,sssec \subsubsection{}<Enter><Enter><++><Esc>2kf}i
-	autocmd FileType tex inoremap ,st <Esc>F{i*<Esc>f}i
-	autocmd FileType tex inoremap ,beg \begin{DELRN}<Enter><++><Enter>\end{DELRN}<Enter><Enter><++><Esc>4k0fR:MultipleCursorsFind<Space>DELRN<Enter>c
-	autocmd FileType tex inoremap ,up <Esc>/usepackage<Enter>o\usepackage{}<Esc>i
-	autocmd FileType tex nnoremap ,up /usepackage<Enter>o\usepackage{}<Esc>i
-	autocmd FileType tex inoremap ,tt \texttt{}<Space><++><Esc>T{i
-	autocmd FileType tex inoremap ,bt {\blindtext}
-	autocmd FileType tex inoremap ,nu $\varnothing$
-	autocmd FileType tex inoremap ,col \begin{columns}[T]<Enter>\begin{column}{.5\textwidth}<Enter><Enter>\end{column}<Enter>\begin{column}{.5\textwidth}<Enter><++><Enter>\end{column}<Enter>\end{columns}<Esc>5kA
-	autocmd FileType tex inoremap ,rn (\ref{})<++><Esc>F}i
+""""""""
+if has('autocmd')
+  filetype plugin indent on
+endif
+if has('syntax') && !exists('g:syntax_on')
+  syntax enable
+endif
 
-"""HTML
-	autocmd FileType html inoremap ,b <b></b><Space><++><Esc>FbT>i
-	autocmd FileType html inoremap ,it <em></em><Space><++><Esc>FeT>i
-	autocmd FileType html inoremap ,1 <h1></h1><Enter><Enter><++><Esc>2kf<i
-	autocmd FileType html inoremap ,2 <h2></h2><Enter><Enter><++><Esc>2kf<i
-	autocmd FileType html inoremap ,3 <h3></h3><Enter><Enter><++><Esc>2kf<i
-	autocmd FileType html inoremap ,p <p></p><Enter><Enter><++><Esc>02kf>a
-	autocmd FileType html inoremap ,a <a<Space>href=""><++></a><Space><++><Esc>14hi
-	autocmd FileType html inoremap ,e <a<Space>target="_blank"<Space>href=""><++></a><Space><++><Esc>14hi
-	autocmd FileType html inoremap ,ul <ul><Enter><li></li><Enter></ul><Enter><Enter><++><Esc>03kf<i
-	autocmd FileType html inoremap ,li <Esc>o<li></li><Esc>F>a
-	autocmd FileType html inoremap ,ol <ol><Enter><li></li><Enter></ol><Enter><Enter><++><Esc>03kf<i
-	autocmd FileType html inoremap ,im <img src="" alt="<++>"><++><esc>Fcf"a
-	autocmd FileType html inoremap ,td <td></td><++><Esc>Fdcit
-	autocmd FileType html inoremap ,tr <tr></tr><Enter><++><Esc>kf<i
-	autocmd FileType html inoremap ,th <th></th><++><Esc>Fhcit
-	autocmd FileType html inoremap ,tab <table><Enter></table><Esc>O
-	autocmd FileType html inoremap ,gr <font color="green"></font><Esc>F>a
-	autocmd FileType html inoremap ,rd <font color="red"></font><Esc>F>a
-	autocmd FileType html inoremap ,yl <font color="yellow"></font><Esc>F>a
-	autocmd FileType html inoremap ,dt <dt></dt><Enter><dd><++></dd><Enter><++><esc>2kcit
-	autocmd FileType html inoremap ,dl <dl><Enter><Enter></dl><enter><enter><++><esc>3kcc
-	autocmd FileType html inoremap &<space> &amp;<space>
-	autocmd FileType html inoremap á &aacute;
-	autocmd FileType html inoremap é &eacute;
-	autocmd FileType html inoremap í &iacute;
-	autocmd FileType html inoremap ó &oacute;
-	autocmd FileType html inoremap ú &uacute;
-	autocmd FileType html inoremap ä &auml;
-	autocmd FileType html inoremap ë &euml;
-	autocmd FileType html inoremap ï &iuml;
-	autocmd FileType html inoremap ö &ouml;
-	autocmd FileType html inoremap ü &uuml;
-	autocmd FileType html inoremap ã &atilde;
-	autocmd FileType html inoremap ẽ &etilde;
-	autocmd FileType html inoremap ĩ &itilde;
-	autocmd FileType html inoremap õ &otilde;
-	autocmd FileType html inoremap ũ &utilde;
-	autocmd FileType html inoremap ñ &ntilde;
-	autocmd FileType html inoremap à &agrave;
-	autocmd FileType html inoremap è &egrave;
-	autocmd FileType html inoremap ì &igrave;
-	autocmd FileType html inoremap ò &ograve;
-	autocmd FileType html inoremap ù &ugrave;
+" Use :help 'option' to see the documentation for the given option.
+set autoindent
+set backspace=indent,eol,start
+set complete-=i
+set showmatch
+set showmode
+set smarttab
 
+set nrformats-=octal
+set shiftround
 
-""".bib
-	autocmd FileType bib inoremap ,a @article{<Enter>author<Space>=<Space>{<++>},<Enter>year<Space>=<Space>{<++>},<Enter>title<Space>=<Space>{<++>},<Enter>journal<Space>=<Space>{<++>},<Enter>volume<Space>=<Space>{<++>},<Enter>pages<Space>=<Space>{<++>},<Enter>}<Enter><++><Esc>8kA,<Esc>i
-	autocmd FileType bib inoremap ,b @book{<Enter>author<Space>=<Space>{<++>},<Enter>year<Space>=<Space>{<++>},<Enter>title<Space>=<Space>{<++>},<Enter>publisher<Space>=<Space>{<++>},<Enter>}<Enter><++><Esc>6kA,<Esc>i
-	autocmd FileType bib inoremap ,c @incollection{<Enter>author<Space>=<Space>{<++>},<Enter>title<Space>=<Space>{<++>},<Enter>booktitle<Space>=<Space>{<++>},<Enter>editor<Space>=<Space>{<++>},<Enter>year<Space>=<Space>{<++>},<Enter>publisher<Space>=<Space>{<++>},<Enter>}<Enter><++><Esc>8kA,<Esc>i
+set ttimeout
+set ttimeoutlen=50
 
-"MARKDOWN
-	autocmd Filetype markdown,rmd map <leader>w yiWi[<esc>Ea](<esc>pa)
-	autocmd Filetype markdown,rmd inoremap ,n ---<Enter><Enter>
-	autocmd Filetype markdown,rmd inoremap ,b ****<++><Esc>F*hi
-	autocmd Filetype markdown,rmd inoremap ,s ~~~~<++><Esc>F~hi
-	autocmd Filetype markdown,rmd inoremap ,e **<++><Esc>F*i
-	autocmd Filetype markdown,rmd inoremap ,h ====<Space><++><Esc>F=hi
-	autocmd Filetype markdown,rmd inoremap ,i ![](<++>)<++><Esc>F[a
-	autocmd Filetype markdown,rmd inoremap ,a [](<++>)<++><Esc>F[a
-	autocmd Filetype markdown,rmd inoremap ,1 #<Space><Enter><++><Esc>kA
-	autocmd Filetype markdown,rmd inoremap ,2 ##<Space><Enter><++><Esc>kA
-	autocmd Filetype markdown,rmd inoremap ,3 ###<Space><Enter><++><Esc>kA
-	autocmd Filetype markdown,rmd inoremap ,l --------<Enter>
-	autocmd Filetype rmd inoremap ,r ```{r}<CR>```<CR><CR><esc>2kO
-	autocmd Filetype rmd inoremap ,p ```{python}<CR>```<CR><CR><esc>2kO
-	autocmd Filetype rmd inoremap ,c ```<cr>```<cr><cr><esc>2kO
+set incsearch
+" Use <C-L> to clear the highlighting of :set hlsearch.
+if maparg('<C-L>', 'n') ==# ''
+  nnoremap <silent> <C-L> :nohlsearch<CR><C-L>
+endif
 
-""".xml
-	autocmd FileType xml inoremap ,e <item><Enter><title><++></title><Enter><guid<space>isPermaLink="false"><++></guid><Enter><pubDate><Esc>:put<Space>=strftime('%a, %d %b %Y %H:%M:%S %z')<Enter>kJA</pubDate><Enter><link><++></link><Enter><description><![CDATA[<++>]]></description><Enter></item><Esc>?<title><enter>cit
-	autocmd FileType xml inoremap ,a <a href="<++>"><++></a><++><Esc>F"ci"
+set laststatus=2
+set ruler
+set showcmd
+set wildmenu
 
+set autoread
+
+set encoding=utf-8
+set tabstop=2 shiftwidth=2 expandtab
+
+inoremap <C-U> <C-G>u<C-U>
+
+set number
+set hlsearch
+set ignorecase
+set smartcase
+
+" Don't use Ex mode, use Q for formatting
+map Q gq
+
+" In many terminal emulators the mouse works just fine, thus enable it.
+if has('mouse')
+  set mouse=a
+endif
+
+" do not history when leavy buffer
+set hidden
+
+" FIXME: (broken) ctrl s to save
+noremap  <C-S> :update<CR>
+vnoremap <C-S> <C-C>:update<CR>
+inoremap <C-S> <Esc>:update<CR>
+
+set nobackup
+set nowritebackup
+set noswapfile
+set fileformats=unix,dos,mac
+
+" exit insert mode
+inoremap <C-c> <Esc>
+
+set completeopt=menuone,longest,preview
+
+"
+" Plugins config
+"
+
+" NERDTree
+nnoremap <S-n> :NERDTreeToggle<CR>
+
+" CtrlP
+set wildignore+=*/.git/*,*/.hg/*,*/.svn/*
+
+" Ultisnip
+" NOTE: <f1> otherwise it overrides <tab> forever
+let g:UltiSnipsExpandTrigger="<f1>"
+let g:UltiSnipsJumpForwardTrigger="<f1>"
+let g:UltiSnipsJumpBackwardTrigger="<c-k>"
+let g:did_UltiSnips_vim_after = 1
+
+" vim-airline
+let g:airline#extensions#tabline#enabled = 1
+let g:airline_powerline_fonts = 1
+
+"
+" Basic shortcuts definitions
+"  most in visual mode / selection (v or ⇧ v)
+"
+
+" Find
+map <C-f> /
+" indent / deindent after selecting the text with (⇧ v), (.) to repeat.
+vnoremap <Tab> >
+vnoremap <S-Tab> <
+" comment / decomment & normal comment behavior
+vmap <C-m> gc
+" Disable tComment to escape some entities
+let g:tcomment#replacements_xml={}
+" Text wrap simpler, then type the open tag or ',"
+vmap <C-w> S
+" Cut, Paste, Copy
+vmap <C-x> d
+vmap <C-v> p
+vmap <C-c> y
+" Undo, Redo (broken)
+nnoremap <C-z>  :undo<CR>
+inoremap <C-z>  <Esc>:undo<CR>
+nnoremap <C-y>  :redo<CR>
+inoremap <C-y>  <Esc>:redo<CR>
+" Tabs
+let g:airline_theme='badwolf'
+let g:airline#extensions#tabline#enabled = 1
+nnoremap <C-b>  :tabprevious<CR>
+inoremap <C-b>  <Esc>:tabprevious<CR>i
+nnoremap <C-n>  :tabnext<CR>
+inoremap <C-n>  <Esc>:tabnext<CR>i
+nnoremap <C-t>  :tabnew<CR>
+inoremap <C-t>  <Esc>:tabnew<CR>i
+nnoremap <C-k>  :tabclose<CR>
+inoremap <C-k>  <Esc>:tabclose<CR>i
+
+" lazy ':'
+map \ :
+
+let mapleader = ','
+nnoremap <Leader>p :set paste<CR>
+nnoremap <Leader>o :set nopaste<CR>
+noremap  <Leader>g :GitGutterToggle<CR>
+
+" this machine config
+if filereadable(expand("~/.vimrc.local"))
+  source ~/.vimrc.local
+endif
