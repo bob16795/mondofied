@@ -17,3 +17,4 @@ or run scr/parbs.sh on a preinstalled arch system
  - system settings?
  - make updates script?
  - seprate theme repository.
+ - choose text editor?

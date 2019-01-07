@@ -346,7 +346,7 @@
 					"file": "/home/john/git/README.md",
 					"settings":
 					{
-						"buffer_size": 352,
+						"buffer_size": 375,
 						"encoding": "UTF-8",
 						"line_ending": "Unix"
 					}
@@ -737,15 +737,15 @@
 							"semi_transient": false,
 							"settings":
 							{
-								"buffer_size": 352,
+								"buffer_size": 375,
 								"regions":
 								{
 								},
 								"selection":
 								[
 									[
-										117,
-										117
+										375,
+										375
 									]
 								],
 								"settings":
@@ -776,7 +776,7 @@
 									"syntax": "Packages/Markdown/Markdown.sublime-syntax"
 								},
 								"translation.x": 0.0,
-								"translation.y": 0.0,
+								"translation.y": 45.0,
 								"zoom_level": 1.0
 							},
 							"stack_index": 0,
@@ -833,7 +833,7 @@
 				"height": 84.0
 			},
 			"pinned_build_system": "Packages/User/push.sublime-build",
-			"position": "0,0,0,0,0,0,13,1366,768,1366,768",
+			"position": "0,0,0,0,0,0,13,751,768,1366,768",
 			"project": "git.sublime-project",
 			"replace":
 			{

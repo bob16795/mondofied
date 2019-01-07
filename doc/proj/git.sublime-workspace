@@ -46,7 +46,7 @@
 			"file": "/home/john/git/README.md",
 			"settings":
 			{
-				"buffer_size": 354,
+				"buffer_size": 375,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
@@ -271,8 +271,8 @@
 						"selection":
 						[
 							[
-								288,
-								288
+								287,
+								287
 							]
 						],
 						"settings":
@@ -437,15 +437,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 354,
+						"buffer_size": 375,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								299,
-								299
+								375,
+								375
 							]
 						],
 						"settings":
@@ -462,6 +462,9 @@
 							"SL.48.region_keys":
 							[
 							],
+							"SL.51.region_keys":
+							[
+							],
 							"SL.76.region_keys":
 							[
 							],
@@ -473,7 +476,7 @@
 							"syntax": "Packages/Markdown/Markdown.sublime-syntax"
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 45.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
