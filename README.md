@@ -11,12 +11,13 @@ or run scr/parbs.sh on a preinstalled arch system
 
 ## unfinished:
 ### 2
- - vim
- - optional themes
- - theme install script
+ - vim?
+ - optional themes?
+ - theme install script?
  - make updates script?
  - seprate theme repository.
 
 # TODO:
  - system settings?
- - choose text editor?
+ - choose text editor on install?
+ - separate stable release from testing

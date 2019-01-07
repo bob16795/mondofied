@@ -320,8 +320,16 @@
 					"file": "/home/john/git/README.md",
 					"settings":
 					{
-						"buffer_size": 403,
+						"buffer_size": 457,
 						"encoding": "UTF-8",
+						"line_ending": "Unix"
+					}
+				},
+				{
+					"file": "/home/john/git/check",
+					"settings":
+					{
+						"buffer_size": 312,
 						"line_ending": "Unix"
 					}
 				},
@@ -331,14 +339,6 @@
 					{
 						"buffer_size": 11314,
 						"encoding": "UTF-8",
-						"line_ending": "Unix"
-					}
-				},
-				{
-					"file": "/home/john/git/install.sh",
-					"settings":
-					{
-						"buffer_size": 2108,
 						"line_ending": "Unix"
 					}
 				},
@@ -558,7 +558,7 @@
 			"groups":
 			[
 				{
-					"selected": 2,
+					"selected": 1,
 					"sheets":
 					[
 						{
@@ -603,15 +603,15 @@
 							"semi_transient": false,
 							"settings":
 							{
-								"buffer_size": 403,
+								"buffer_size": 457,
 								"regions":
 								{
 								},
 								"selection":
 								[
 									[
-										401,
-										401
+										457,
+										457
 									]
 								],
 								"settings":
@@ -627,11 +627,44 @@
 								"translation.y": 0.0,
 								"zoom_level": 1.0
 							},
-							"stack_index": 2,
+							"stack_index": 0,
 							"type": "text"
 						},
 						{
 							"buffer": 2,
+							"file": "/home/john/git/check",
+							"semi_transient": true,
+							"settings":
+							{
+								"buffer_size": 312,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										0,
+										0
+									]
+								],
+								"settings":
+								{
+									"SL.52.region_keys":
+									[
+									],
+									"apply_syntax_touched": true,
+									"git_gutter_is_enabled": true,
+									"syntax": "Packages/ShellScript/Bash.sublime-syntax"
+								},
+								"translation.x": 0.0,
+								"translation.y": 0.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 1,
+							"type": "text"
+						},
+						{
+							"buffer": 3,
 							"file": "/home/john/git/parbs.sh",
 							"semi_transient": false,
 							"settings":
@@ -660,40 +693,7 @@
 								"translation.y": 0.0,
 								"zoom_level": 1.0
 							},
-							"stack_index": 0,
-							"type": "text"
-						},
-						{
-							"buffer": 3,
-							"file": "/home/john/git/install.sh",
-							"semi_transient": true,
-							"settings":
-							{
-								"buffer_size": 2108,
-								"regions":
-								{
-								},
-								"selection":
-								[
-									[
-										0,
-										0
-									]
-								],
-								"settings":
-								{
-									"SL.45.region_keys":
-									[
-									],
-									"apply_syntax_touched": true,
-									"git_gutter_is_enabled": true,
-									"syntax": "Packages/ShellScript/Bash.sublime-syntax"
-								},
-								"translation.x": 0.0,
-								"translation.y": 0.0,
-								"zoom_level": 1.0
-							},
-							"stack_index": 1,
+							"stack_index": 2,
 							"type": "text"
 						},
 						{
