@@ -3,19 +3,20 @@ to install run scr/install.sh on a live arch media
 
 or run scr/parbs.sh on a preinstalled arch system
 # Versions
-## released:
+## stable:
 ### 1
  - Initial version
  - got install working
  - fix occurences of my home directory
 
-## unreleased:
+## unfinished:
 ### 2
- - optional themes
-
-# TODO:
  - vim
- - system settings?
+ - optional themes
+ - theme install script
  - make updates script?
  - seprate theme repository.
+
+# TODO:
+ - system settings?
  - choose text editor?
