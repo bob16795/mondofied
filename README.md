@@ -21,3 +21,4 @@ or run scr/parbs.sh on a preinstalled arch system
  - system settings?
  - choose text editor on install?
  - separate stable release from testing
+google-authenticator
