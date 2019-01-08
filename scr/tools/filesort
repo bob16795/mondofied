@@ -65,6 +65,7 @@ types = {
         "sfc":"/home/john/rom/snes/",
         None: {
             "LICENSE":"/home/john/doc/man",
+            "1":"rm ",
             }
         }
 

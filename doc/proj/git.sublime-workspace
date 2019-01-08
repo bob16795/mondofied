@@ -20,7 +20,7 @@
 			"file": "/home/john/git/README.md",
 			"settings":
 			{
-				"buffer_size": 478,
+				"buffer_size": 457,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
@@ -307,7 +307,7 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 478,
+						"buffer_size": 457,
 						"regions":
 						{
 						},
@@ -320,6 +320,9 @@
 						],
 						"settings":
 						{
+							"SL.14.region_keys":
+							[
+							],
 							"SL.37.region_keys":
 							[
 							],

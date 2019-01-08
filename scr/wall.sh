@@ -1,2 +1,2 @@
 #!/bin/bash
-feh --bg-fill ~/.config/mondo/images/bird.png
+feh --bg-fill ~/.config/mondo/images/cfamfi.png

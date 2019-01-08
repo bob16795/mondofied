@@ -222,12 +222,15 @@
 						"selection":
 						[
 							[
-								57345,
-								57345
+								57344,
+								57344
 							]
 						],
 						"settings":
 						{
+							"SL.22.region_keys":
+							[
+							],
 							"SL.36.region_keys":
 							[
 							],

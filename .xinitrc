@@ -18,10 +18,10 @@ firefox & #web
 #qutebrowser file:///home/john/.config/webhome/index.html &
 dockd --daemon & #dock
 #glava & # music vis
-#alacritty --class dev -e vim ~/dev & #dev
+alacritty --class dev & #dev
 alacritty --class visual -e vis & #music vis
 steam & #game
-sublime & #dev
+#sublime & #dev
 #cairo-dock &
 
 exec dwm

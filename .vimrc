@@ -20,8 +20,8 @@ Plug 'gcmt/breeze.vim'
 Plug 'kien/ctrlp.vim'
 Plug 'SirVer/ultisnips'
 Plug 'tomtom/tcomment_vim'
-Plug 'vim-airline/vim-airline'
-Plug 'vim-airline/vim-airline-themes'
+" Plug 'vim-airline/vim-airline'
+" Plug 'vim-airline/vim-airline-themes'
 Plug 'airblade/vim-gitgutter'
 Plug 'Valloric/YouCompleteMe'
 Plug 'davidhalter/jedi-vim'
@@ -33,7 +33,6 @@ set mouse=a
 	set nocompatible
 	filetype plugin on
 	syntax on
-	set encoding=utf-8
 	set number relativenumber
 " Enable autocompletion:
 	set wildmode=longest,list,full
@@ -105,7 +104,7 @@ set mouse=a
 	inoremap <Space><Tab> <Esc>/<++><Enter>"_c4l
 	vnoremap <Space><Tab> <Esc>/<++><Enter>"_c4l
 	map <Space><Tab> <Esc>/<++><Enter>"_c4l
-  map <F7> :!make<Enter>
+  map <F7> :!make_cmd %:p<Enter>
 filetype plugin indent on
 
 """"""""
@@ -248,3 +247,4 @@ noremap  <Leader>g :GitGutterToggle<CR>
 if filereadable(expand("~/.vimrc.local"))
   source ~/.vimrc.local
 endif
+set t_Co=16
