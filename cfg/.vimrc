@@ -105,7 +105,7 @@ set mouse=a
 	inoremap <Space><Tab> <Esc>/<++><Enter>"_c4l
 	vnoremap <Space><Tab> <Esc>/<++><Enter>"_c4l
 	map <Space><Tab> <Esc>/<++><Enter>"_c4l
-  map <F7> :!push
+  map <F7> :!push<Enter>
 autocmd FileType tex <f7> :!pdflatex %
 filetype plugin indent on
 
