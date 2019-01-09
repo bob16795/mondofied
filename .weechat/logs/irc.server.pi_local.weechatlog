@@ -47,3 +47,13 @@
 2019-01-02 08:29:09	??? 	2 4 :Current global users: 2, Max: 4
 2019-01-02 08:29:09	??? 	Highest connection count: 4 (50 connections received)
 2019-01-02 08:29:09	??? 	MOTD file is missing
+2019-01-09 08:40:26	??? 	irc: connecting to server 192.168.1.29/6667...
+2019-01-09 08:40:26	err:	irc: connection refused
+2019-01-09 08:40:26	??? 	irc: reconnecting to server in 10 seconds
+2019-01-09 08:40:28	err:	irc: this buffer is not a channel!
+2019-01-09 08:40:36	??? 	irc: reconnecting to server...
+2019-01-09 08:40:36	??? 	irc: connecting to server 192.168.1.29/6667...
+2019-01-09 08:40:36	err:	irc: connection refused
+2019-01-09 08:40:36	??? 	irc: reconnecting to server in 20 seconds
+2019-01-09 08:40:46	err:	irc: this buffer is not a channel!
+2019-01-09 08:40:47	err:	irc: this buffer is not a channel!

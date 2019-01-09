@@ -28,6 +28,7 @@
     </ExtraData>
     <MachineRegistry>
       <MachineEntry uuid="{11db9f98-e6bc-4164-ad89-57ed1b0339e8}" src="/home/john/VirtualBox VMs/arch/arch.vbox"/>
+      <MachineEntry uuid="{96760e39-f1da-42b7-8940-a151a1e1016c}" src="/home/john/.Genymobile/Genymotion/deployed/Google Pixel 2/Google Pixel 2.vbox"/>
     </MachineRegistry>
     <NetserviceRegistry>
       <DHCPServers>

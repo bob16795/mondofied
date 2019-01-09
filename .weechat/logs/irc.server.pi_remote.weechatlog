@@ -1,0 +1,3 @@
+2019-01-09 08:40:59	??? 	irc: connecting to server 98.10.21.14/6667...
+2019-01-09 08:41:01	??? 	irc: connected to 98.10.21.14/6667 (98.10.21.14)
+2019-01-09 08:41:01	err:	irc: sending data to server: error 9 Bad file descriptor

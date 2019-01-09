@@ -23,14 +23,6 @@
 				"buffer_size": 3758,
 				"line_ending": "Unix"
 			}
-		},
-		{
-			"file": "/home/john/www/styles/purebasic.css",
-			"settings":
-			{
-				"buffer_size": 2338,
-				"line_ending": "Unix"
-			}
 		}
 	],
 	"build_system": "Packages/Python/Python.sublime-build",
@@ -118,10 +110,7 @@
 	"expanded_folders":
 	[
 		"/home/john/cfg/config/webhome",
-		"/home/john/www",
-		"/home/john/www/.git",
-		"/home/john/www/blog_posts",
-		"/home/john/www/styles"
+		"/home/john/www"
 	],
 	"file_history":
 	[
@@ -232,7 +221,7 @@
 	"groups":
 	[
 		{
-			"selected": 2,
+			"selected": 1,
 			"sheets":
 			[
 				{
@@ -265,7 +254,7 @@
 						"translation.y": 132.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 2,
+					"stack_index": 1,
 					"type": "text"
 				},
 				{
@@ -281,8 +270,8 @@
 						"selection":
 						[
 							[
-								0,
-								0
+								1875,
+								1875
 							]
 						],
 						"settings":
@@ -290,214 +279,15 @@
 							"SL.110.region_keys":
 							[
 							],
+							"SL.113.region_keys":
+							[
+							],
+							"SL.146.region_keys":
+							[
+							],
 							"apply_syntax_touched": true,
 							"git_gutter_is_enabled": true,
 							"syntax": "Packages/PackageDev/Package/Sublime Text Settings/Sublime Text Settings.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 704.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "/home/john/www/styles/purebasic.css",
-					"semi_transient": true,
-					"settings":
-					{
-						"buffer_size": 2338,
-						"regions":
-						{
-							"col_000000FF":
-							{
-								"flags": 16,
-								"regions":
-								[
-									[
-										1287,
-										1294
-									]
-								],
-								"scope": "col_000000FF"
-							},
-							"col_000000FF_icon":
-							{
-								"flags": 16,
-								"icon": "Packages/User/Color Highlight.cache/col_000000FF_circle.png",
-								"regions":
-								[
-									[
-										1279,
-										1279
-									]
-								],
-								"scope": "col_gutter"
-							},
-							"col_006666FF":
-							{
-								"flags": 16,
-								"regions":
-								[
-									[
-										1599,
-										1606
-									],
-									[
-										1795,
-										1802
-									]
-								],
-								"scope": "col_006666FF"
-							},
-							"col_006666FF_icon":
-							{
-								"flags": 16,
-								"icon": "Packages/User/Color Highlight.cache/col_006666FF_circle.png",
-								"regions":
-								[
-									[
-										1591,
-										1591
-									],
-									[
-										1787,
-										1787
-									]
-								],
-								"scope": "col_gutter"
-							},
-							"col_0080FFFF":
-							{
-								"flags": 16,
-								"regions":
-								[
-									[
-										1939,
-										1946
-									]
-								],
-								"scope": "col_0080FFFF"
-							},
-							"col_0080FFFF_icon":
-							{
-								"flags": 16,
-								"icon": "Packages/User/Color Highlight.cache/col_0080FFFF_circle.png",
-								"regions":
-								[
-									[
-										1931,
-										1931
-									]
-								],
-								"scope": "col_gutter"
-							},
-							"col_00AAAAFF":
-							{
-								"flags": 16,
-								"regions":
-								[
-									[
-										1445,
-										1452
-									]
-								],
-								"scope": "col_00AAAAFF"
-							},
-							"col_00AAAAFF_icon":
-							{
-								"flags": 16,
-								"icon": "Packages/User/Color Highlight.cache/col_00AAAAFF_circle.png",
-								"regions":
-								[
-									[
-										1437,
-										1437
-									]
-								],
-								"scope": "col_gutter"
-							},
-							"col_924B72FF":
-							{
-								"flags": 16,
-								"regions":
-								[
-									[
-										2093,
-										2100
-									],
-									[
-										2188,
-										2195
-									]
-								],
-								"scope": "col_924B72FF"
-							},
-							"col_924B72FF_icon":
-							{
-								"flags": 16,
-								"icon": "Packages/User/Color Highlight.cache/col_924B72FF_circle.png",
-								"regions":
-								[
-									[
-										2085,
-										2085
-									],
-									[
-										2180,
-										2180
-									]
-								],
-								"scope": "col_gutter"
-							},
-							"col_FFFFDFFF":
-							{
-								"flags": 16,
-								"regions":
-								[
-									[
-										885,
-										892
-									]
-								],
-								"scope": "col_FFFFDFFF"
-							},
-							"col_FFFFDFFF_icon":
-							{
-								"flags": 16,
-								"icon": "Packages/User/Color Highlight.cache/col_FFFFDFFF_circle.png",
-								"regions":
-								[
-									[
-										872,
-										872
-									]
-								],
-								"scope": "col_gutter"
-							}
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"SL.129.region_keys":
-							[
-							],
-							"SL.134.region_keys":
-							[
-							],
-							"SL.41.region_keys":
-							[
-							],
-							"apply_syntax_touched": true,
-							"git_gutter_is_enabled": true,
-							"syntax": "Packages/CSS/CSS.sublime-syntax"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -552,7 +342,7 @@
 	{
 		"height": 0.0
 	},
-	"pinned_build_system": "Packages/ShellScript/ShellScript.sublime-build",
+	"pinned_build_system": "Packages/User/f7.sublime-build",
 	"project": "web.sublime-project",
 	"replace":
 	{

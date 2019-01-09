@@ -1,0 +1,17 @@
+2019/01/08-11:27:04.715 f22 Reusing MANIFEST /home/john/.config/vivaldi/Default/Storage/ext/mpognobbkildjkofajifpdfhcoklimli/def/IndexedDB/chrome-extension_mpognobbkildjkofajifpdfhcoklimli_0.indexeddb.leveldb/MANIFEST-000001
+2019/01/08-11:27:05.453 f22 Current memtable full; waiting...
+2019/01/08-11:27:05.453 1100 Level-0 table #5: started
+2019/01/08-11:27:05.494 1100 Level-0 table #5: 511 bytes OK
+2019/01/08-11:27:05.536 1100 Delete type=0 #3
+2019/01/08-11:27:05.537 1100 Level-0 table #7: started
+2019/01/08-11:27:05.537 1100 Level-0 table #7: 0 bytes OK
+2019/01/08-11:27:05.578 1100 Delete type=0 #4
+2019/01/08-11:27:05.579 1100 Manual compaction at level-0 from '\x00\x02\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x03\x00\x00\x00' @ 0 : 0; will stop at (end)
+2019/01/08-11:27:06.592 fee Current memtable full; waiting...
+2019/01/08-11:27:06.593 1100 Level-0 table #9: started
+2019/01/08-11:27:06.634 1100 Level-0 table #9: 1122 bytes OK
+2019/01/08-11:27:06.692 1100 Delete type=0 #6
+2019/01/08-11:27:06.693 1100 Level-0 table #11: started
+2019/01/08-11:27:06.693 1100 Level-0 table #11: 0 bytes OK
+2019/01/08-11:27:06.734 1100 Delete type=0 #8
+2019/01/08-11:27:06.735 1100 Manual compaction at level-0 from '\x00\x03\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x04\x00\x00\x00' @ 0 : 0; will stop at (end)

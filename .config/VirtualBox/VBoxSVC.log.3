@@ -1,131 +1,150 @@
 VirtualBox XPCOM Server 5.2.22 r126257 linux.amd64 (Dec 25 2018 23:59:23) release log
-00:00:00.000332 main     Log opened 2019-01-05T16:34:46.727275000Z
-00:00:00.000334 main     Build Type: release
-00:00:00.000336 main     OS Product: Linux
-00:00:00.000337 main     OS Release: 4.19.12-arch1-1-ARCH
-00:00:00.000338 main     OS Version: #1 SMP PREEMPT Fri Dec 21 13:56:54 UTC 2018
-00:00:00.000359 main     DMI Product Name: 4291EK2
-00:00:00.000366 main     DMI Product Version: ThinkPad X220
-00:00:00.000402 main     Host RAM: 7858MB (7.6GB) total, 6389MB (6.2GB) available
-00:00:00.000405 main     Executable: /usr/lib/virtualbox/VBoxSVC
-00:00:00.000405 main     Process ID: 28138
-00:00:00.000406 main     Package type: LINUX_64BITS_GENERIC (OSE)
-00:00:00.001872 main     IPC socket path: /tmp/.vbox-john-ipc/ipcd
-00:00:00.111173 nspr-2   VirtualBox: object creation starts
-00:00:00.111418 nspr-2   Home directory: '/home/john/.config/VirtualBox'
-00:00:00.112084 nspr-2   Loading settings file "/home/john/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
-00:00:00.148663 nspr-2   NetIfAdpCtlOut: VBoxNetAdpCtl: Error while retrieving link speed for wlp3s0: VBoxNetAdpCtl: ioctl failed: Operation not supported
-00:00:00.219380 nspr-2   NAT: resolv.conf: nameserver 192.168.1.1
-00:00:00.219430 nspr-2   HostDnsMonitor: old information
-00:00:00.219437 nspr-2     no server entries
-00:00:00.219443 nspr-2     no domain set
-00:00:00.219448 nspr-2     no search string entries
-00:00:00.219453 nspr-2   HostDnsMonitor: new information
-00:00:00.219458 nspr-2     server 1: 192.168.1.1
-00:00:00.219464 nspr-2     no domain set
-00:00:00.219468 nspr-2     no search string entries
-00:00:00.219475 nspr-2   HostDnsMonitorProxy::notify
-00:00:00.258066 nspr-2   failed to create vboxnet0, error (0x80004005)
-00:00:00.288941 nspr-2   failed to create vboxnet1, error (0x80004005)
-00:00:00.289201 nspr-2   VD: VDInit finished with VINF_SUCCESS
-00:00:00.289307 nspr-2   ERROR [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={0eb668d2-495e-5a36-8890-29999b5f030c} aComponent={SystemPropertiesWrap} aText={Cannot determine default Guest Additions ISO location. Most likely they are not available}, preserve=false aResultDetail=0
-00:00:00.289914 nspr-2   VirtualBox: object created
-00:00:00.305550 nspr-2   ERROR [COM]: aRC=NS_ERROR_NOT_IMPLEMENTED (0x80004001) aIID={0eb668d2-495e-5a36-8890-29999b5f030c} aComponent={SystemPropertiesWrap} aText={Method setDefaultAdditionsISO is not implemented}, preserve=false aResultDetail=0
-00:00:00.586862 nspr-2   ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={9570b9d5-f1a1-448a-10c5-e12f5285adad} aComponent={VirtualBoxWrap} aText={Could not find a registered machine named 'Motorola Droid Razr'}, preserve=false aResultDetail=0
-00:00:00.875023 nspr-2   Saving settings file "/home/john/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
-00:00:01.289482 nspr-2   Import settings with version "1.12-linux"
-00:00:01.289864 nspr-2   ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={9570b9d5-f1a1-448a-10c5-e12f5285adad} aComponent={VirtualBoxWrap} aText={Could not find a registered machine named 'genymotion_vbox86p_4.1_181205_193056'}, preserve=false aResultDetail=0
-00:00:01.290173 nspr-2   ERROR [COM]: aRC=VBOX_E_FILE_ERROR (0x80bb0004) aIID={4afe423b-43e0-e9d0-82e8-ceb307940dda} aComponent={MediumWrap} aText={Could not find file for the medium '/home/john/.Genymobile/Genymotion/deployed/genymotion_vbox86p_4.1_181205_193056/android_system_disk.vmdk' (VERR_FILE_NOT_FOUND)}, preserve=false aResultDetail=0
-00:00:01.290341 nspr-2   ERROR [COM]: aRC=VBOX_E_FILE_ERROR (0x80bb0004) aIID={4afe423b-43e0-e9d0-82e8-ceb307940dda} aComponent={MediumWrap} aText={Could not find file for the medium '/home/john/.Genymobile/Genymotion/deployed/genymotion_vbox86p_4.1_181205_193056/android_data_disk.vmdk' (VERR_FILE_NOT_FOUND)}, preserve=false aResultDetail=0
-00:00:01.290407 nspr-2   ERROR [COM]: aRC=VBOX_E_FILE_ERROR (0x80bb0004) aIID={4afe423b-43e0-e9d0-82e8-ceb307940dda} aComponent={MediumWrap} aText={Could not find file for the medium '/home/john/.Genymobile/Genymotion/deployed/genymotion_vbox86p_4.1_181205_193056/android_sdcard_disk.vmdk' (VERR_FILE_NOT_FOUND)}, preserve=false aResultDetail=0
-00:00:06.660891 ApplImp  Saving settings file "/home/john/.Genymobile/Genymotion/deployed/Motorola Droid Razr/Motorola Droid Razr.vbox" with version "1.12-linux"
-00:00:06.718921 ApplImp  Saving settings file "/home/john/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
-00:00:07.103496 nspr-2   ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={85cd948e-a71f-4289-281e-0ca7ad48cd89} aComponent={SessionMachine} aText={No storage device attached to device slot 1 on port 1 of controller 'IDEController'}, preserve=false aResultDetail=0
-00:00:07.104101 nspr-3   ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={85cd948e-a71f-4289-281e-0ca7ad48cd89} aComponent={SessionMachine} aText={No storage device attached to device slot 1 on port 1 of controller 'IDEController'}, preserve=false aResultDetail=0
-00:00:07.119454 nspr-2   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={afca788c-4477-787d-60b2-3fa70e56fbbc} aComponent={HostWrap} aText={VirtualBox is not currently allowed to access USB devices.  You can change this by adding your user to the 'vboxusers' group.  Please see the user manual for a more detailed explanation}, preserve=true  aResultDetail=0
-00:00:07.119879 nspr-2   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={afca788c-4477-787d-60b2-3fa70e56fbbc} aComponent={HostWrap} aText={VirtualBox is not currently allowed to access USB devices.  You can change this by adding your user to the 'vboxusers' group.  Please see the user manual for a more detailed explanation}, preserve=true  aResultDetail=0
-00:00:07.121780 nspr-2   ERROR [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={85cd948e-a71f-4289-281e-0ca7ad48cd89} aComponent={SessionMachine} aText={This machine does not have any snapshots}, preserve=false aResultDetail=0
-00:00:07.754714 nspr-2   ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={85cd948e-a71f-4289-281e-0ca7ad48cd89} aComponent={SessionMachine} aText={No storage device attached to device slot 1 on port 1 of controller 'IDEController'}, preserve=false aResultDetail=0
-00:00:07.755530 nspr-3   ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={85cd948e-a71f-4289-281e-0ca7ad48cd89} aComponent={SessionMachine} aText={No storage device attached to device slot 1 on port 1 of controller 'IDEController'}, preserve=false aResultDetail=0
-00:00:07.772917 nspr-2   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={afca788c-4477-787d-60b2-3fa70e56fbbc} aComponent={HostWrap} aText={VirtualBox is not currently allowed to access USB devices.  You can change this by adding your user to the 'vboxusers' group.  Please see the user manual for a more detailed explanation}, preserve=true  aResultDetail=0
-00:00:07.773405 nspr-2   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={afca788c-4477-787d-60b2-3fa70e56fbbc} aComponent={HostWrap} aText={VirtualBox is not currently allowed to access USB devices.  You can change this by adding your user to the 'vboxusers' group.  Please see the user manual for a more detailed explanation}, preserve=true  aResultDetail=0
-00:00:07.775184 nspr-2   ERROR [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={85cd948e-a71f-4289-281e-0ca7ad48cd89} aComponent={SessionMachine} aText={This machine does not have any snapshots}, preserve=false aResultDetail=0
-00:00:08.109973 nspr-3   ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={85cd948e-a71f-4289-281e-0ca7ad48cd89} aComponent={SessionMachine} aText={No storage device attached to device slot 1 on port 1 of controller 'IDEController'}, preserve=false aResultDetail=0
-00:00:08.110479 nspr-2   ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={85cd948e-a71f-4289-281e-0ca7ad48cd89} aComponent={SessionMachine} aText={No storage device attached to device slot 1 on port 1 of controller 'IDEController'}, preserve=false aResultDetail=0
-00:00:08.125501 nspr-3   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={afca788c-4477-787d-60b2-3fa70e56fbbc} aComponent={HostWrap} aText={VirtualBox is not currently allowed to access USB devices.  You can change this by adding your user to the 'vboxusers' group.  Please see the user manual for a more detailed explanation}, preserve=true  aResultDetail=0
-00:00:08.125981 nspr-3   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={afca788c-4477-787d-60b2-3fa70e56fbbc} aComponent={HostWrap} aText={VirtualBox is not currently allowed to access USB devices.  You can change this by adding your user to the 'vboxusers' group.  Please see the user manual for a more detailed explanation}, preserve=true  aResultDetail=0
-00:00:08.127484 nspr-3   ERROR [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={85cd948e-a71f-4289-281e-0ca7ad48cd89} aComponent={SessionMachine} aText={This machine does not have any snapshots}, preserve=false aResultDetail=0
-00:00:08.460136 nspr-3   Saving settings file "/home/john/.Genymobile/Genymotion/deployed/Motorola Droid Razr/Motorola Droid Razr.vbox" with version "1.12-linux"
-00:00:08.817991 nspr-3   Saving settings file "/home/john/.Genymobile/Genymotion/deployed/Motorola Droid Razr/Motorola Droid Razr.vbox" with version "1.12-linux"
-00:00:09.485687 nspr-2   ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={85cd948e-a71f-4289-281e-0ca7ad48cd89} aComponent={SessionMachine} aText={No storage device attached to device slot 0 on port 1 of controller 'IDEController'}, preserve=false aResultDetail=0
-00:00:09.486329 nspr-2   ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={85cd948e-a71f-4289-281e-0ca7ad48cd89} aComponent={SessionMachine} aText={No storage device attached to device slot 0 on port 1 of controller 'IDEController'}, preserve=false aResultDetail=0
-00:00:09.488072 nspr-2   Saving settings file "/home/john/.Genymobile/Genymotion/deployed/Motorola Droid Razr/Motorola Droid Razr.vbox" with version "1.12-linux"
-00:00:09.879598 nspr-2   Saving settings file "/home/john/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
-00:00:10.280034 nspr-2   NetIfAdpCtlOut: VBoxNetAdpCtl: Error while retrieving link speed for wlp3s0: VBoxNetAdpCtl: ioctl failed: Operation not supported
-00:00:10.747442 nspr-2   NetIfAdpCtlOut: VBoxNetAdpCtl: Error while retrieving link speed for wlp3s0: VBoxNetAdpCtl: ioctl failed: Operation not supported
-00:00:10.862549 nspr-2   NetIfAdpCtlOut: VBoxNetAdpCtl: Error while retrieving link speed for wlp3s0: VBoxNetAdpCtl: ioctl failed: Operation not supported
-00:00:10.981487 nspr-2   NetIfAdpCtlOut: VBoxNetAdpCtl: Error while retrieving link speed for wlp3s0: VBoxNetAdpCtl: ioctl failed: Operation not supported
-00:00:11.085712 nspr-2   Saving settings file "/home/john/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
-00:00:11.162061 nspr-2   Saving settings file "/home/john/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
-00:00:11.717612 nspr-2   Saving settings file "/home/john/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
-00:00:11.778800 nspr-2   Saving settings file "/home/john/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
-00:00:12.218267 nspr-3   NetIfAdpCtlOut: VBoxNetAdpCtl: Error while retrieving link speed for wlp3s0: VBoxNetAdpCtl: ioctl failed: Operation not supported
-00:00:12.653776 nspr-3   NetIfAdpCtlOut: VBoxNetAdpCtl: Error while retrieving link speed for wlp3s0: VBoxNetAdpCtl: ioctl failed: Operation not supported
-00:00:13.102339 nspr-3   NetIfAdpCtlOut: VBoxNetAdpCtl: Error while retrieving link speed for wlp3s0: VBoxNetAdpCtl: ioctl failed: Operation not supported
-00:00:13.186598 nspr-2   Saving settings file "/home/john/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
-00:00:13.670526 nspr-2   NetIfAdpCtlOut: VBoxNetAdpCtl: Error while retrieving link speed for wlp3s0: VBoxNetAdpCtl: ioctl failed: Operation not supported
-00:00:13.752756 nspr-3   Saving settings file "/home/john/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
-00:00:13.885289 nspr-2   Saving settings file "/home/john/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
-00:00:13.944238 nspr-3   Saving settings file "/home/john/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
-00:00:14.474650 nspr-2   Saving settings file "/home/john/.Genymobile/Genymotion/deployed/Motorola Droid Razr/Motorola Droid Razr.vbox" with version "1.12-linux"
-00:00:14.888901 nspr-2   Saving settings file "/home/john/.Genymobile/Genymotion/deployed/Motorola Droid Razr/Motorola Droid Razr.vbox" with version "1.12-linux"
-00:00:15.318058 nspr-2   Saving settings file "/home/john/.Genymobile/Genymotion/deployed/Motorola Droid Razr/Motorola Droid Razr.vbox" with version "1.12-linux"
-00:00:15.709028 nspr-2   Saving settings file "/home/john/.Genymobile/Genymotion/deployed/Motorola Droid Razr/Motorola Droid Razr.vbox" with version "1.12-linux"
-00:00:16.115824 nspr-3   Saving settings file "/home/john/.Genymobile/Genymotion/deployed/Motorola Droid Razr/Motorola Droid Razr.vbox" with version "1.12-linux"
-00:00:16.506356 nspr-2   Saving settings file "/home/john/.Genymobile/Genymotion/deployed/Motorola Droid Razr/Motorola Droid Razr.vbox" with version "1.12-linux"
-00:00:16.932834 nspr-3   ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={85cd948e-a71f-4289-281e-0ca7ad48cd89} aComponent={SessionMachine} aText={No storage device attached to device slot 1 on port 1 of controller 'IDEController'}, preserve=false aResultDetail=0
-00:00:16.933218 nspr-2   ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={85cd948e-a71f-4289-281e-0ca7ad48cd89} aComponent={SessionMachine} aText={No storage device attached to device slot 1 on port 1 of controller 'IDEController'}, preserve=false aResultDetail=0
-00:00:16.948362 nspr-3   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={afca788c-4477-787d-60b2-3fa70e56fbbc} aComponent={HostWrap} aText={VirtualBox is not currently allowed to access USB devices.  You can change this by adding your user to the 'vboxusers' group.  Please see the user manual for a more detailed explanation}, preserve=true  aResultDetail=0
-00:00:16.948743 nspr-3   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={afca788c-4477-787d-60b2-3fa70e56fbbc} aComponent={HostWrap} aText={VirtualBox is not currently allowed to access USB devices.  You can change this by adding your user to the 'vboxusers' group.  Please see the user manual for a more detailed explanation}, preserve=true  aResultDetail=0
-00:00:16.950234 nspr-3   ERROR [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={85cd948e-a71f-4289-281e-0ca7ad48cd89} aComponent={SessionMachine} aText={This machine does not have any snapshots}, preserve=false aResultDetail=0
-00:00:17.714835 nspr-3   ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={85cd948e-a71f-4289-281e-0ca7ad48cd89} aComponent={SessionMachine} aText={No storage device attached to device slot 1 on port 1 of controller 'IDEController'}, preserve=false aResultDetail=0
-00:00:17.715239 nspr-2   ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={85cd948e-a71f-4289-281e-0ca7ad48cd89} aComponent={SessionMachine} aText={No storage device attached to device slot 1 on port 1 of controller 'IDEController'}, preserve=false aResultDetail=0
-00:00:17.729575 nspr-2   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={afca788c-4477-787d-60b2-3fa70e56fbbc} aComponent={HostWrap} aText={VirtualBox is not currently allowed to access USB devices.  You can change this by adding your user to the 'vboxusers' group.  Please see the user manual for a more detailed explanation}, preserve=true  aResultDetail=0
-00:00:17.729972 nspr-2   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={afca788c-4477-787d-60b2-3fa70e56fbbc} aComponent={HostWrap} aText={VirtualBox is not currently allowed to access USB devices.  You can change this by adding your user to the 'vboxusers' group.  Please see the user manual for a more detailed explanation}, preserve=true  aResultDetail=0
-00:00:17.731420 nspr-2   ERROR [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={85cd948e-a71f-4289-281e-0ca7ad48cd89} aComponent={SessionMachine} aText={This machine does not have any snapshots}, preserve=false aResultDetail=0
-00:00:18.098737 nspr-2   Saving settings file "/home/john/.Genymobile/Genymotion/deployed/Motorola Droid Razr/Motorola Droid Razr.vbox" with version "1.12-linux"
-00:00:18.558352 nspr-2   Saving settings file "/home/john/.Genymobile/Genymotion/deployed/Motorola Droid Razr/Motorola Droid Razr.vbox" with version "1.12-linux"
-00:00:18.972272 nspr-2   Saving settings file "/home/john/.Genymobile/Genymotion/deployed/Motorola Droid Razr/Motorola Droid Razr.vbox" with version "1.12-linux"
-00:00:19.404263 nspr-2   Saving settings file "/home/john/.Genymobile/Genymotion/deployed/Motorola Droid Razr/Motorola Droid Razr.vbox" with version "1.12-linux"
-00:00:19.833682 nspr-2   Saving settings file "/home/john/.Genymobile/Genymotion/deployed/Motorola Droid Razr/Motorola Droid Razr.vbox" with version "1.12-linux"
-00:00:20.297217 nspr-2   Saving settings file "/home/john/.Genymobile/Genymotion/deployed/Motorola Droid Razr/Motorola Droid Razr.vbox" with version "1.12-linux"
-00:00:20.865357 nspr-2   Saving settings file "/home/john/.Genymobile/Genymotion/deployed/Motorola Droid Razr/Motorola Droid Razr.vbox" with version "1.12-linux"
-00:00:21.281116 nspr-2   Saving settings file "/home/john/.Genymobile/Genymotion/deployed/Motorola Droid Razr/Motorola Droid Razr.vbox" with version "1.12-linux"
-00:00:21.721496 nspr-2   Saving settings file "/home/john/.Genymobile/Genymotion/deployed/Motorola Droid Razr/Motorola Droid Razr.vbox" with version "1.12-linux"
-00:00:22.176356 nspr-2   Saving settings file "/home/john/.Genymobile/Genymotion/deployed/Motorola Droid Razr/Motorola Droid Razr.vbox" with version "1.12-linux"
-00:00:22.738447 nspr-2   Saving settings file "/home/john/.Genymobile/Genymotion/deployed/Motorola Droid Razr/Motorola Droid Razr.vbox" with version "1.12-linux"
-00:00:23.188392 nspr-2   Saving settings file "/home/john/.Genymobile/Genymotion/deployed/Motorola Droid Razr/Motorola Droid Razr.vbox" with version "1.12-linux"
-00:00:23.626984 nspr-2   Saving settings file "/home/john/.Genymobile/Genymotion/deployed/Motorola Droid Razr/Motorola Droid Razr.vbox" with version "1.12-linux"
-00:00:24.060110 nspr-2   Saving settings file "/home/john/.Genymobile/Genymotion/deployed/Motorola Droid Razr/Motorola Droid Razr.vbox" with version "1.12-linux"
-00:00:24.513668 TakeSnap Saving settings file "/home/john/.Genymobile/Genymotion/deployed/Motorola Droid Razr/Motorola Droid Razr.vbox" with version "1.12-linux"
-00:00:24.576158 TakeSnap Saving settings file "/home/john/.Genymobile/Genymotion/deployed/Motorola Droid Razr/Motorola Droid Razr.vbox" with version "1.12-linux"
-00:00:24.645960 TakeSnap Saving settings file "/home/john/.Genymobile/Genymotion/deployed/Motorola Droid Razr/Motorola Droid Razr.vbox" with version "1.12-linux"
-00:00:24.704138 TakeSnap Saving settings file "/home/john/.Genymobile/Genymotion/deployed/Motorola Droid Razr/Motorola Droid Razr.vbox" with version "1.12-linux"
-00:00:25.159158 nspr-2   ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={85cd948e-a71f-4289-281e-0ca7ad48cd89} aComponent={SessionMachine} aText={No storage device attached to device slot 1 on port 1 of controller 'IDEController'}, preserve=false aResultDetail=0
-00:00:25.159560 nspr-3   ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={85cd948e-a71f-4289-281e-0ca7ad48cd89} aComponent={SessionMachine} aText={No storage device attached to device slot 1 on port 1 of controller 'IDEController'}, preserve=false aResultDetail=0
-00:00:25.172258 nspr-3   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={afca788c-4477-787d-60b2-3fa70e56fbbc} aComponent={HostWrap} aText={VirtualBox is not currently allowed to access USB devices.  You can change this by adding your user to the 'vboxusers' group.  Please see the user manual for a more detailed explanation}, preserve=true  aResultDetail=0
-00:00:25.172627 nspr-3   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={afca788c-4477-787d-60b2-3fa70e56fbbc} aComponent={HostWrap} aText={VirtualBox is not currently allowed to access USB devices.  You can change this by adding your user to the 'vboxusers' group.  Please see the user manual for a more detailed explanation}, preserve=true  aResultDetail=0
-00:00:25.979385 nspr-3   ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={85cd948e-a71f-4289-281e-0ca7ad48cd89} aComponent={SessionMachine} aText={No storage device attached to device slot 1 on port 1 of controller 'IDEController'}, preserve=false aResultDetail=0
-00:00:25.979818 nspr-2   ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={85cd948e-a71f-4289-281e-0ca7ad48cd89} aComponent={SessionMachine} aText={No storage device attached to device slot 1 on port 1 of controller 'IDEController'}, preserve=false aResultDetail=0
-00:00:25.994095 nspr-2   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={afca788c-4477-787d-60b2-3fa70e56fbbc} aComponent={HostWrap} aText={VirtualBox is not currently allowed to access USB devices.  You can change this by adding your user to the 'vboxusers' group.  Please see the user manual for a more detailed explanation}, preserve=true  aResultDetail=0
-00:00:25.994576 nspr-2   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={afca788c-4477-787d-60b2-3fa70e56fbbc} aComponent={HostWrap} aText={VirtualBox is not currently allowed to access USB devices.  You can change this by adding your user to the 'vboxusers' group.  Please see the user manual for a more detailed explanation}, preserve=true  aResultDetail=0
-00:00:30.999873 main     VirtualBox: object deletion starts
-00:00:30.999977 main     ERROR [COM]: aRC=VBOX_E_OBJECT_IN_USE (0x80bb000c) aIID={4afe423b-43e0-e9d0-82e8-ceb307940dda} aComponent={MediumWrap} aText={Medium '/home/john/.Genymobile/Genymotion/deployed/Motorola Droid Razr/Snapshots/{62c1c9b3-77e3-4b42-989c-c00ede7709fd}.vmdk' cannot be closed because it is still attached to 1 virtual machines}, preserve=false aResultDetail=0
-00:00:31.000039 main     ERROR [COM]: aRC=VBOX_E_OBJECT_IN_USE (0x80bb000c) aIID={4afe423b-43e0-e9d0-82e8-ceb307940dda} aComponent={MediumWrap} aText={Medium '/home/john/.Genymobile/Genymotion/deployed/Motorola Droid Razr/android_system_disk.vmdk' cannot be closed because it is still attached to 1 virtual machines}, preserve=false aResultDetail=0
-00:00:31.000069 main     ERROR [COM]: aRC=VBOX_E_OBJECT_IN_USE (0x80bb000c) aIID={4afe423b-43e0-e9d0-82e8-ceb307940dda} aComponent={MediumWrap} aText={Medium '/home/john/.Genymobile/Genymotion/deployed/Motorola Droid Razr/Snapshots/{cbabc1d1-27e4-482b-87f0-43ac5c867cbd}.vmdk' cannot be closed because it is still attached to 1 virtual machines}, preserve=false aResultDetail=0
-00:00:31.000095 main     ERROR [COM]: aRC=VBOX_E_OBJECT_IN_USE (0x80bb000c) aIID={4afe423b-43e0-e9d0-82e8-ceb307940dda} aComponent={MediumWrap} aText={Medium '/home/john/.Genymobile/Genymotion/deployed/Motorola Droid Razr/android_data_disk.vmdk' cannot be closed because it is still attached to 1 virtual machines}, preserve=false aResultDetail=0
-00:00:31.000120 main     ERROR [COM]: aRC=VBOX_E_OBJECT_IN_USE (0x80bb000c) aIID={4afe423b-43e0-e9d0-82e8-ceb307940dda} aComponent={MediumWrap} aText={Medium '/home/john/.Genymobile/Genymotion/deployed/Motorola Droid Razr/Snapshots/{f4338831-cd2d-4bd6-99c4-45c574c06135}.vdi' cannot be closed because it is still attached to 1 virtual machines}, preserve=false aResultDetail=0
-00:00:31.000142 main     ERROR [COM]: aRC=VBOX_E_OBJECT_IN_USE (0x80bb000c) aIID={4afe423b-43e0-e9d0-82e8-ceb307940dda} aComponent={MediumWrap} aText={Medium '/home/john/.Genymobile/Genymotion/deployed/Motorola Droid Razr/sdcard.vdi' cannot be closed because it is still attached to 1 virtual machines}, preserve=false aResultDetail=0
-00:00:31.499350 Watcher  ERROR [COM]: aRC=E_ACCESSDENIED (0x80070005) aIID={9570b9d5-f1a1-448a-10c5-e12f5285adad} aComponent={VirtualBoxWrap} aText={The object is not ready}, preserve=false aResultDetail=0
-00:00:36.000944 main     {00007f29840182c0} HostPowerServiceLinux::~HostPowerServiceLinux: RTThreadWait() for 5000 ms failed with VERR_TIMEOUT
-00:00:36.001240 main     VirtualBox: object deleted
+00:00:00.000361 main     Log opened 2019-01-08T14:36:14.621063000Z
+00:00:00.000363 main     Build Type: release
+00:00:00.000366 main     OS Product: Linux
+00:00:00.000367 main     OS Release: 4.19.12-arch1-1-ARCH
+00:00:00.000369 main     OS Version: #1 SMP PREEMPT Fri Dec 21 13:56:54 UTC 2018
+00:00:00.000403 main     DMI Product Name: 4291EK2
+00:00:00.000419 main     DMI Product Version: ThinkPad X220
+00:00:00.000473 main     Host RAM: 7858MB (7.6GB) total, 6335MB (6.1GB) available
+00:00:00.000477 main     Executable: /usr/lib/virtualbox/VBoxSVC
+00:00:00.000478 main     Process ID: 16728
+00:00:00.000479 main     Package type: LINUX_64BITS_GENERIC (OSE)
+00:00:00.002764 main     IPC socket path: /tmp/.vbox-john-ipc/ipcd
+00:00:00.113380 nspr-2   VirtualBox: object creation starts
+00:00:00.113465 nspr-2   Home directory: '/home/john/.config/VirtualBox'
+00:00:00.113626 nspr-2   Loading settings file "/home/john/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+00:00:00.183711 nspr-2   NetIfAdpCtlOut: VBoxNetAdpCtl: Error while retrieving link speed for wlp3s0: VBoxNetAdpCtl: ioctl failed: Operation not supported
+00:00:00.219544 nspr-2   NAT: resolv.conf: nameserver 10.10.121.11
+00:00:00.219575 nspr-2   NAT: resolv.conf: nameserver 10.10.121.12
+00:00:00.219590 nspr-2   HostDnsMonitor: old information
+00:00:00.219595 nspr-2     no server entries
+00:00:00.219600 nspr-2     no domain set
+00:00:00.219604 nspr-2     no search string entries
+00:00:00.219608 nspr-2   HostDnsMonitor: new information
+00:00:00.219611 nspr-2     server 1: 10.10.121.11
+00:00:00.219616 nspr-2     server 2: 10.10.121.12
+00:00:00.219620 nspr-2     domain: newark.csd
+00:00:00.219624 nspr-2     search string 1: newark.csd
+00:00:00.219630 nspr-2   HostDnsMonitorProxy::notify
+00:00:00.255706 nspr-2   failed to create vboxnet0, error (0x80004005)
+00:00:00.290739 nspr-2   failed to create vboxnet1, error (0x80004005)
+00:00:00.291021 nspr-2   VD: VDInit finished with VINF_SUCCESS
+00:00:00.291123 nspr-2   ERROR [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={0eb668d2-495e-5a36-8890-29999b5f030c} aComponent={SystemPropertiesWrap} aText={Cannot determine default Guest Additions ISO location. Most likely they are not available}, preserve=false aResultDetail=0
+00:00:00.296989 nspr-2   ERROR [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={85cd948e-a71f-4289-281e-0ca7ad48cd89} aComponent={MachineWrap} aText={Runtime error opening '/home/john/VirtualBox VMs/arch/arch.vbox' for reading: -102 (File not found.).
+00:00:00.296998 nspr-2   /build/virtualbox/src/VirtualBox-5.2.22/src/VBox/Main/src-server/MachineImpl.cpp[743] (nsresult Machine::i_registeredInit())}, preserve=false aResultDetail=0
+00:00:00.297488 nspr-2   VirtualBox: object created
+00:00:00.346979 nspr-2   ERROR [COM]: aRC=NS_ERROR_NOT_IMPLEMENTED (0x80004001) aIID={0eb668d2-495e-5a36-8890-29999b5f030c} aComponent={SystemPropertiesWrap} aText={Method setDefaultAdditionsISO is not implemented}, preserve=false aResultDetail=0
+00:00:00.630680 nspr-2   ERROR [COM]: aRC=E_ACCESSDENIED (0x80070005) aIID={85cd948e-a71f-4289-281e-0ca7ad48cd89} aComponent={MachineWrap} aText={The object functionality is limited}, preserve=false aResultDetail=0
+00:00:00.630718 nspr-2   ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={9570b9d5-f1a1-448a-10c5-e12f5285adad} aComponent={VirtualBoxWrap} aText={Could not find a registered machine named 'Custom Phone'}, preserve=false aResultDetail=0
+00:00:00.923913 nspr-2   Saving settings file "/home/john/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+00:00:01.361931 nspr-2   Import settings with version "1.12-linux"
+00:00:01.362155 nspr-2   ERROR [COM]: aRC=E_ACCESSDENIED (0x80070005) aIID={85cd948e-a71f-4289-281e-0ca7ad48cd89} aComponent={MachineWrap} aText={The object functionality is limited}, preserve=false aResultDetail=0
+00:00:01.362192 nspr-2   ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={9570b9d5-f1a1-448a-10c5-e12f5285adad} aComponent={VirtualBoxWrap} aText={Could not find a registered machine named 'genymotion_vbox86p_4.1_181205_193056'}, preserve=false aResultDetail=0
+00:00:01.362401 nspr-2   ERROR [COM]: aRC=VBOX_E_FILE_ERROR (0x80bb0004) aIID={4afe423b-43e0-e9d0-82e8-ceb307940dda} aComponent={MediumWrap} aText={Could not find file for the medium '/home/john/.Genymobile/Genymotion/deployed/genymotion_vbox86p_4.1_181205_193056/android_system_disk.vmdk' (VERR_FILE_NOT_FOUND)}, preserve=false aResultDetail=0
+00:00:01.362499 nspr-2   ERROR [COM]: aRC=VBOX_E_FILE_ERROR (0x80bb0004) aIID={4afe423b-43e0-e9d0-82e8-ceb307940dda} aComponent={MediumWrap} aText={Could not find file for the medium '/home/john/.Genymobile/Genymotion/deployed/genymotion_vbox86p_4.1_181205_193056/android_data_disk.vmdk' (VERR_FILE_NOT_FOUND)}, preserve=false aResultDetail=0
+00:00:01.362570 nspr-2   ERROR [COM]: aRC=VBOX_E_FILE_ERROR (0x80bb0004) aIID={4afe423b-43e0-e9d0-82e8-ceb307940dda} aComponent={MediumWrap} aText={Could not find file for the medium '/home/john/.Genymobile/Genymotion/deployed/genymotion_vbox86p_4.1_181205_193056/android_sdcard_disk.vmdk' (VERR_FILE_NOT_FOUND)}, preserve=false aResultDetail=0
+00:00:06.663860 ApplImp  Saving settings file "/home/john/.Genymobile/Genymotion/deployed/Custom Phone/Custom Phone.vbox" with version "1.12-linux"
+00:00:06.718502 ApplImp  Saving settings file "/home/john/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+00:00:07.051874 nspr-2   ERROR [COM]: aRC=E_ACCESSDENIED (0x80070005) aIID={85cd948e-a71f-4289-281e-0ca7ad48cd89} aComponent={MachineWrap} aText={The object functionality is limited}, preserve=false aResultDetail=0
+00:00:07.114770 nspr-3   ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={85cd948e-a71f-4289-281e-0ca7ad48cd89} aComponent={SessionMachine} aText={No storage device attached to device slot 1 on port 1 of controller 'IDEController'}, preserve=false aResultDetail=0
+00:00:07.115074 nspr-2   ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={85cd948e-a71f-4289-281e-0ca7ad48cd89} aComponent={SessionMachine} aText={No storage device attached to device slot 1 on port 1 of controller 'IDEController'}, preserve=false aResultDetail=0
+00:00:07.127308 nspr-3   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={afca788c-4477-787d-60b2-3fa70e56fbbc} aComponent={HostWrap} aText={VirtualBox is not currently allowed to access USB devices.  You can change this by adding your user to the 'vboxusers' group.  Please see the user manual for a more detailed explanation}, preserve=true  aResultDetail=0
+00:00:07.127681 nspr-3   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={afca788c-4477-787d-60b2-3fa70e56fbbc} aComponent={HostWrap} aText={VirtualBox is not currently allowed to access USB devices.  You can change this by adding your user to the 'vboxusers' group.  Please see the user manual for a more detailed explanation}, preserve=true  aResultDetail=0
+00:00:07.129043 nspr-3   ERROR [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={85cd948e-a71f-4289-281e-0ca7ad48cd89} aComponent={SessionMachine} aText={This machine does not have any snapshots}, preserve=false aResultDetail=0
+00:00:07.690454 nspr-3   ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={85cd948e-a71f-4289-281e-0ca7ad48cd89} aComponent={SessionMachine} aText={No storage device attached to device slot 1 on port 1 of controller 'IDEController'}, preserve=false aResultDetail=0
+00:00:07.690820 nspr-2   ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={85cd948e-a71f-4289-281e-0ca7ad48cd89} aComponent={SessionMachine} aText={No storage device attached to device slot 1 on port 1 of controller 'IDEController'}, preserve=false aResultDetail=0
+00:00:07.703997 nspr-3   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={afca788c-4477-787d-60b2-3fa70e56fbbc} aComponent={HostWrap} aText={VirtualBox is not currently allowed to access USB devices.  You can change this by adding your user to the 'vboxusers' group.  Please see the user manual for a more detailed explanation}, preserve=true  aResultDetail=0
+00:00:07.704439 nspr-3   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={afca788c-4477-787d-60b2-3fa70e56fbbc} aComponent={HostWrap} aText={VirtualBox is not currently allowed to access USB devices.  You can change this by adding your user to the 'vboxusers' group.  Please see the user manual for a more detailed explanation}, preserve=true  aResultDetail=0
+00:00:07.706000 nspr-3   ERROR [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={85cd948e-a71f-4289-281e-0ca7ad48cd89} aComponent={SessionMachine} aText={This machine does not have any snapshots}, preserve=false aResultDetail=0
+00:00:08.000720 nspr-2   ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={85cd948e-a71f-4289-281e-0ca7ad48cd89} aComponent={SessionMachine} aText={No storage device attached to device slot 1 on port 1 of controller 'IDEController'}, preserve=false aResultDetail=0
+00:00:08.001196 nspr-3   ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={85cd948e-a71f-4289-281e-0ca7ad48cd89} aComponent={SessionMachine} aText={No storage device attached to device slot 1 on port 1 of controller 'IDEController'}, preserve=false aResultDetail=0
+00:00:08.015186 nspr-2   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={afca788c-4477-787d-60b2-3fa70e56fbbc} aComponent={HostWrap} aText={VirtualBox is not currently allowed to access USB devices.  You can change this by adding your user to the 'vboxusers' group.  Please see the user manual for a more detailed explanation}, preserve=true  aResultDetail=0
+00:00:08.015524 nspr-2   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={afca788c-4477-787d-60b2-3fa70e56fbbc} aComponent={HostWrap} aText={VirtualBox is not currently allowed to access USB devices.  You can change this by adding your user to the 'vboxusers' group.  Please see the user manual for a more detailed explanation}, preserve=true  aResultDetail=0
+00:00:08.017060 nspr-2   ERROR [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={85cd948e-a71f-4289-281e-0ca7ad48cd89} aComponent={SessionMachine} aText={This machine does not have any snapshots}, preserve=false aResultDetail=0
+00:00:08.325056 nspr-2   ERROR [COM]: aRC=E_ACCESSDENIED (0x80070005) aIID={85cd948e-a71f-4289-281e-0ca7ad48cd89} aComponent={MachineWrap} aText={The object functionality is limited}, preserve=false aResultDetail=0
+00:00:08.330200 nspr-3   ERROR [COM]: aRC=E_ACCESSDENIED (0x80070005) aIID={85cd948e-a71f-4289-281e-0ca7ad48cd89} aComponent={MachineWrap} aText={The object functionality is limited}, preserve=false aResultDetail=0
+00:00:08.330523 nspr-2   Saving settings file "/home/john/.Genymobile/Genymotion/deployed/Custom Phone/Custom Phone.vbox" with version "1.12-linux"
+00:00:08.701708 nspr-2   ERROR [COM]: aRC=E_ACCESSDENIED (0x80070005) aIID={85cd948e-a71f-4289-281e-0ca7ad48cd89} aComponent={MachineWrap} aText={The object functionality is limited}, preserve=false aResultDetail=0
+00:00:08.702195 nspr-2   Saving settings file "/home/john/.Genymobile/Genymotion/deployed/Custom Phone/Custom Phone.vbox" with version "1.12-linux"
+00:00:09.363566 nspr-2   ERROR [COM]: aRC=E_ACCESSDENIED (0x80070005) aIID={85cd948e-a71f-4289-281e-0ca7ad48cd89} aComponent={MachineWrap} aText={The object functionality is limited}, preserve=false aResultDetail=0
+00:00:09.367171 nspr-3   ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={85cd948e-a71f-4289-281e-0ca7ad48cd89} aComponent={SessionMachine} aText={No storage device attached to device slot 0 on port 1 of controller 'IDEController'}, preserve=false aResultDetail=0
+00:00:09.368177 nspr-3   ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={85cd948e-a71f-4289-281e-0ca7ad48cd89} aComponent={SessionMachine} aText={No storage device attached to device slot 0 on port 1 of controller 'IDEController'}, preserve=false aResultDetail=0
+00:00:09.368552 nspr-3   ERROR [COM]: aRC=E_ACCESSDENIED (0x80070005) aIID={85cd948e-a71f-4289-281e-0ca7ad48cd89} aComponent={MachineWrap} aText={The object functionality is limited}, preserve=false aResultDetail=0
+00:00:09.368592 nspr-3   ERROR [COM]: aRC=E_ACCESSDENIED (0x80070005) aIID={85cd948e-a71f-4289-281e-0ca7ad48cd89} aComponent={MachineWrap} aText={The object functionality is limited}, preserve=false aResultDetail=0
+00:00:09.369017 nspr-3   Saving settings file "/home/john/.Genymobile/Genymotion/deployed/Custom Phone/Custom Phone.vbox" with version "1.12-linux"
+00:00:09.728446 nspr-3   Saving settings file "/home/john/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+00:00:10.162524 nspr-3   NetIfAdpCtlOut: VBoxNetAdpCtl: Error while retrieving link speed for wlp3s0: VBoxNetAdpCtl: ioctl failed: Operation not supported
+00:00:10.648628 nspr-3   NetIfAdpCtlOut: VBoxNetAdpCtl: Error while retrieving link speed for wlp3s0: VBoxNetAdpCtl: ioctl failed: Operation not supported
+00:00:10.759248 nspr-3   NetIfAdpCtlOut: VBoxNetAdpCtl: Error while retrieving link speed for wlp3s0: VBoxNetAdpCtl: ioctl failed: Operation not supported
+00:00:10.862649 nspr-3   NetIfAdpCtlOut: VBoxNetAdpCtl: Error while retrieving link speed for wlp3s0: VBoxNetAdpCtl: ioctl failed: Operation not supported
+00:00:10.918094 nspr-3   Saving settings file "/home/john/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+00:00:10.997045 nspr-3   Saving settings file "/home/john/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+00:00:11.547892 nspr-3   Saving settings file "/home/john/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+00:00:11.754401 nspr-3   Saving settings file "/home/john/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+00:00:12.207116 nspr-2   NetIfAdpCtlOut: VBoxNetAdpCtl: Error while retrieving link speed for wlp3s0: VBoxNetAdpCtl: ioctl failed: Operation not supported
+00:00:12.640356 nspr-2   NetIfAdpCtlOut: VBoxNetAdpCtl: Error while retrieving link speed for wlp3s0: VBoxNetAdpCtl: ioctl failed: Operation not supported
+00:00:13.105972 nspr-2   NetIfAdpCtlOut: VBoxNetAdpCtl: Error while retrieving link speed for wlp3s0: VBoxNetAdpCtl: ioctl failed: Operation not supported
+00:00:13.147304 nspr-3   Saving settings file "/home/john/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+00:00:13.629004 nspr-3   NetIfAdpCtlOut: VBoxNetAdpCtl: Error while retrieving link speed for wlp3s0: VBoxNetAdpCtl: ioctl failed: Operation not supported
+00:00:13.674090 nspr-2   Saving settings file "/home/john/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+00:00:13.835233 nspr-3   Saving settings file "/home/john/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+00:00:13.894566 nspr-2   Saving settings file "/home/john/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+00:00:14.761375 nspr-3   Saving settings file "/home/john/.Genymobile/Genymotion/deployed/Custom Phone/Custom Phone.vbox" with version "1.12-linux"
+00:00:15.166241 nspr-3   Saving settings file "/home/john/.Genymobile/Genymotion/deployed/Custom Phone/Custom Phone.vbox" with version "1.12-linux"
+00:00:15.551388 nspr-3   Saving settings file "/home/john/.Genymobile/Genymotion/deployed/Custom Phone/Custom Phone.vbox" with version "1.12-linux"
+00:00:15.953734 nspr-3   Saving settings file "/home/john/.Genymobile/Genymotion/deployed/Custom Phone/Custom Phone.vbox" with version "1.12-linux"
+00:00:16.342209 nspr-2   ERROR [COM]: aRC=E_ACCESSDENIED (0x80070005) aIID={85cd948e-a71f-4289-281e-0ca7ad48cd89} aComponent={MachineWrap} aText={The object functionality is limited}, preserve=false aResultDetail=0
+00:00:16.346241 nspr-2   Saving settings file "/home/john/.Genymobile/Genymotion/deployed/Custom Phone/Custom Phone.vbox" with version "1.12-linux"
+00:00:16.756801 nspr-2   Saving settings file "/home/john/.Genymobile/Genymotion/deployed/Custom Phone/Custom Phone.vbox" with version "1.12-linux"
+00:00:17.154852 nspr-3   ERROR [COM]: aRC=E_ACCESSDENIED (0x80070005) aIID={85cd948e-a71f-4289-281e-0ca7ad48cd89} aComponent={MachineWrap} aText={The object functionality is limited}, preserve=false aResultDetail=0
+00:00:17.171413 nspr-3   ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={85cd948e-a71f-4289-281e-0ca7ad48cd89} aComponent={SessionMachine} aText={No storage device attached to device slot 1 on port 1 of controller 'IDEController'}, preserve=false aResultDetail=0
+00:00:17.171704 nspr-2   ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={85cd948e-a71f-4289-281e-0ca7ad48cd89} aComponent={SessionMachine} aText={No storage device attached to device slot 1 on port 1 of controller 'IDEController'}, preserve=false aResultDetail=0
+00:00:17.183050 nspr-2   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={afca788c-4477-787d-60b2-3fa70e56fbbc} aComponent={HostWrap} aText={VirtualBox is not currently allowed to access USB devices.  You can change this by adding your user to the 'vboxusers' group.  Please see the user manual for a more detailed explanation}, preserve=true  aResultDetail=0
+00:00:17.183419 nspr-2   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={afca788c-4477-787d-60b2-3fa70e56fbbc} aComponent={HostWrap} aText={VirtualBox is not currently allowed to access USB devices.  You can change this by adding your user to the 'vboxusers' group.  Please see the user manual for a more detailed explanation}, preserve=true  aResultDetail=0
+00:00:17.184812 nspr-2   ERROR [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={85cd948e-a71f-4289-281e-0ca7ad48cd89} aComponent={SessionMachine} aText={This machine does not have any snapshots}, preserve=false aResultDetail=0
+00:00:17.917027 nspr-3   ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={85cd948e-a71f-4289-281e-0ca7ad48cd89} aComponent={SessionMachine} aText={No storage device attached to device slot 1 on port 1 of controller 'IDEController'}, preserve=false aResultDetail=0
+00:00:17.917337 nspr-2   ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={85cd948e-a71f-4289-281e-0ca7ad48cd89} aComponent={SessionMachine} aText={No storage device attached to device slot 1 on port 1 of controller 'IDEController'}, preserve=false aResultDetail=0
+00:00:17.928452 nspr-2   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={afca788c-4477-787d-60b2-3fa70e56fbbc} aComponent={HostWrap} aText={VirtualBox is not currently allowed to access USB devices.  You can change this by adding your user to the 'vboxusers' group.  Please see the user manual for a more detailed explanation}, preserve=true  aResultDetail=0
+00:00:17.929387 nspr-2   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={afca788c-4477-787d-60b2-3fa70e56fbbc} aComponent={HostWrap} aText={VirtualBox is not currently allowed to access USB devices.  You can change this by adding your user to the 'vboxusers' group.  Please see the user manual for a more detailed explanation}, preserve=true  aResultDetail=0
+00:00:17.930617 nspr-2   ERROR [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={85cd948e-a71f-4289-281e-0ca7ad48cd89} aComponent={SessionMachine} aText={This machine does not have any snapshots}, preserve=false aResultDetail=0
+00:00:18.288454 nspr-2   Saving settings file "/home/john/.Genymobile/Genymotion/deployed/Custom Phone/Custom Phone.vbox" with version "1.12-linux"
+00:00:18.730082 nspr-3   Saving settings file "/home/john/.Genymobile/Genymotion/deployed/Custom Phone/Custom Phone.vbox" with version "1.12-linux"
+00:00:19.141958 nspr-3   Saving settings file "/home/john/.Genymobile/Genymotion/deployed/Custom Phone/Custom Phone.vbox" with version "1.12-linux"
+00:00:19.551511 nspr-3   Saving settings file "/home/john/.Genymobile/Genymotion/deployed/Custom Phone/Custom Phone.vbox" with version "1.12-linux"
+00:00:19.975972 nspr-3   Saving settings file "/home/john/.Genymobile/Genymotion/deployed/Custom Phone/Custom Phone.vbox" with version "1.12-linux"
+00:00:20.404863 nspr-3   Saving settings file "/home/john/.Genymobile/Genymotion/deployed/Custom Phone/Custom Phone.vbox" with version "1.12-linux"
+00:00:20.825352 nspr-3   Saving settings file "/home/john/.Genymobile/Genymotion/deployed/Custom Phone/Custom Phone.vbox" with version "1.12-linux"
+00:00:21.239304 nspr-3   Saving settings file "/home/john/.Genymobile/Genymotion/deployed/Custom Phone/Custom Phone.vbox" with version "1.12-linux"
+00:00:21.681970 nspr-3   Saving settings file "/home/john/.Genymobile/Genymotion/deployed/Custom Phone/Custom Phone.vbox" with version "1.12-linux"
+00:00:22.123873 nspr-3   Saving settings file "/home/john/.Genymobile/Genymotion/deployed/Custom Phone/Custom Phone.vbox" with version "1.12-linux"
+00:00:22.558212 nspr-3   Saving settings file "/home/john/.Genymobile/Genymotion/deployed/Custom Phone/Custom Phone.vbox" with version "1.12-linux"
+00:00:22.989019 nspr-3   Saving settings file "/home/john/.Genymobile/Genymotion/deployed/Custom Phone/Custom Phone.vbox" with version "1.12-linux"
+00:00:23.467767 nspr-3   Saving settings file "/home/john/.Genymobile/Genymotion/deployed/Custom Phone/Custom Phone.vbox" with version "1.12-linux"
+00:00:24.038073 nspr-3   Saving settings file "/home/john/.Genymobile/Genymotion/deployed/Custom Phone/Custom Phone.vbox" with version "1.12-linux"
+00:00:24.486471 TakeSnap Saving settings file "/home/john/.Genymobile/Genymotion/deployed/Custom Phone/Custom Phone.vbox" with version "1.12-linux"
+00:00:24.843271 TakeSnap ERROR [COM]: aRC=E_ACCESSDENIED (0x80070005) aIID={85cd948e-a71f-4289-281e-0ca7ad48cd89} aComponent={MachineWrap} aText={The object functionality is limited}, preserve=true  aResultDetail=0
+00:00:24.845157 TakeSnap ERROR [COM]: aRC=E_ACCESSDENIED (0x80070005) aIID={85cd948e-a71f-4289-281e-0ca7ad48cd89} aComponent={MachineWrap} aText={The object functionality is limited}, preserve=true  aResultDetail=0
+00:00:24.845756 TakeSnap ERROR [COM]: aRC=E_ACCESSDENIED (0x80070005) aIID={85cd948e-a71f-4289-281e-0ca7ad48cd89} aComponent={MachineWrap} aText={The object functionality is limited}, preserve=true  aResultDetail=0
+00:00:24.846228 TakeSnap Saving settings file "/home/john/.Genymobile/Genymotion/deployed/Custom Phone/Custom Phone.vbox" with version "1.12-linux"
+00:00:24.901468 TakeSnap Saving settings file "/home/john/.Genymobile/Genymotion/deployed/Custom Phone/Custom Phone.vbox" with version "1.12-linux"
+00:00:24.951317 TakeSnap Saving settings file "/home/john/.Genymobile/Genymotion/deployed/Custom Phone/Custom Phone.vbox" with version "1.12-linux"
+00:00:25.366568 nspr-3   ERROR [COM]: aRC=E_ACCESSDENIED (0x80070005) aIID={85cd948e-a71f-4289-281e-0ca7ad48cd89} aComponent={MachineWrap} aText={The object functionality is limited}, preserve=false aResultDetail=0
+00:00:25.385857 nspr-3   ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={85cd948e-a71f-4289-281e-0ca7ad48cd89} aComponent={SessionMachine} aText={No storage device attached to device slot 1 on port 1 of controller 'IDEController'}, preserve=false aResultDetail=0
+00:00:25.386196 nspr-2   ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={85cd948e-a71f-4289-281e-0ca7ad48cd89} aComponent={SessionMachine} aText={No storage device attached to device slot 1 on port 1 of controller 'IDEController'}, preserve=false aResultDetail=0
+00:00:25.397572 nspr-2   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={afca788c-4477-787d-60b2-3fa70e56fbbc} aComponent={HostWrap} aText={VirtualBox is not currently allowed to access USB devices.  You can change this by adding your user to the 'vboxusers' group.  Please see the user manual for a more detailed explanation}, preserve=true  aResultDetail=0
+00:00:25.397885 nspr-2   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={afca788c-4477-787d-60b2-3fa70e56fbbc} aComponent={HostWrap} aText={VirtualBox is not currently allowed to access USB devices.  You can change this by adding your user to the 'vboxusers' group.  Please see the user manual for a more detailed explanation}, preserve=true  aResultDetail=0
+00:00:26.161421 nspr-2   ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={85cd948e-a71f-4289-281e-0ca7ad48cd89} aComponent={SessionMachine} aText={No storage device attached to device slot 1 on port 1 of controller 'IDEController'}, preserve=false aResultDetail=0
+00:00:26.161813 nspr-3   ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={85cd948e-a71f-4289-281e-0ca7ad48cd89} aComponent={SessionMachine} aText={No storage device attached to device slot 1 on port 1 of controller 'IDEController'}, preserve=false aResultDetail=0
+00:00:26.175971 nspr-3   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={afca788c-4477-787d-60b2-3fa70e56fbbc} aComponent={HostWrap} aText={VirtualBox is not currently allowed to access USB devices.  You can change this by adding your user to the 'vboxusers' group.  Please see the user manual for a more detailed explanation}, preserve=true  aResultDetail=0
+00:00:26.176449 nspr-3   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={afca788c-4477-787d-60b2-3fa70e56fbbc} aComponent={HostWrap} aText={VirtualBox is not currently allowed to access USB devices.  You can change this by adding your user to the 'vboxusers' group.  Please see the user manual for a more detailed explanation}, preserve=true  aResultDetail=0
+00:00:31.182442 main     VirtualBox: object deletion starts
+00:00:31.182639 main     ERROR [COM]: aRC=VBOX_E_OBJECT_IN_USE (0x80bb000c) aIID={4afe423b-43e0-e9d0-82e8-ceb307940dda} aComponent={MediumWrap} aText={Medium '/home/john/.Genymobile/Genymotion/deployed/Custom Phone/Snapshots/{9c37b182-335f-46c6-a50c-a59eab0d7b5c}.vmdk' cannot be closed because it is still attached to 1 virtual machines}, preserve=false aResultDetail=0
+00:00:31.182702 main     ERROR [COM]: aRC=VBOX_E_OBJECT_IN_USE (0x80bb000c) aIID={4afe423b-43e0-e9d0-82e8-ceb307940dda} aComponent={MediumWrap} aText={Medium '/home/john/.Genymobile/Genymotion/deployed/Custom Phone/android_system_disk.vmdk' cannot be closed because it is still attached to 1 virtual machines}, preserve=false aResultDetail=0
+00:00:31.182735 main     ERROR [COM]: aRC=VBOX_E_OBJECT_IN_USE (0x80bb000c) aIID={4afe423b-43e0-e9d0-82e8-ceb307940dda} aComponent={MediumWrap} aText={Medium '/home/john/.Genymobile/Genymotion/deployed/Custom Phone/Snapshots/{4f2d9b86-6dd5-4c20-8bfd-6a085076137c}.vmdk' cannot be closed because it is still attached to 1 virtual machines}, preserve=false aResultDetail=0
+00:00:31.182765 main     ERROR [COM]: aRC=VBOX_E_OBJECT_IN_USE (0x80bb000c) aIID={4afe423b-43e0-e9d0-82e8-ceb307940dda} aComponent={MediumWrap} aText={Medium '/home/john/.Genymobile/Genymotion/deployed/Custom Phone/android_data_disk.vmdk' cannot be closed because it is still attached to 1 virtual machines}, preserve=false aResultDetail=0
+00:00:31.182793 main     ERROR [COM]: aRC=VBOX_E_OBJECT_IN_USE (0x80bb000c) aIID={4afe423b-43e0-e9d0-82e8-ceb307940dda} aComponent={MediumWrap} aText={Medium '/home/john/.Genymobile/Genymotion/deployed/Custom Phone/Snapshots/{e613e0b5-2974-45f1-aee2-71a2869276b2}.vdi' cannot be closed because it is still attached to 1 virtual machines}, preserve=false aResultDetail=0
+00:00:31.182824 main     ERROR [COM]: aRC=VBOX_E_OBJECT_IN_USE (0x80bb000c) aIID={4afe423b-43e0-e9d0-82e8-ceb307940dda} aComponent={MediumWrap} aText={Medium '/home/john/.Genymobile/Genymotion/deployed/Custom Phone/sdcard.vdi' cannot be closed because it is still attached to 1 virtual machines}, preserve=false aResultDetail=0
+00:00:31.681351 Watcher  ERROR [COM]: aRC=E_ACCESSDENIED (0x80070005) aIID={9570b9d5-f1a1-448a-10c5-e12f5285adad} aComponent={VirtualBoxWrap} aText={The object is not ready}, preserve=false aResultDetail=0
+00:00:36.183841 main     {00007f25bc019250} HostPowerServiceLinux::~HostPowerServiceLinux: RTThreadWait() for 5000 ms failed with VERR_TIMEOUT
+00:00:36.184439 main     VirtualBox: object deleted

@@ -111,6 +111,9 @@
 	],
 	"font_size": 8,
 	"highlight_modified_tabs": true,
+	"ignored_packages":
+	[
+	],
 	"skin": "",
 	"theme": "Adaptive.sublime-theme",
 	"translate_tabs_to_spaces": true

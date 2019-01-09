@@ -190,6 +190,12 @@
 						],
 						"settings":
 						{
+							"SL.109.region_keys":
+							[
+							],
+							"SL.127.region_keys":
+							[
+							],
 							"SL.57.region_keys":
 							[
 							],
@@ -250,7 +256,7 @@
 	{
 		"height": 0.0
 	},
-	"pinned_build_system": "Packages/LaTeXBox/support/LaTeX.sublime-build",
+	"pinned_build_system": "Packages/User/f7.sublime-build",
 	"project": "youtube.sublime-project",
 	"replace":
 	{

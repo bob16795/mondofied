@@ -1,11 +1,11 @@
 config ~/cfg
+cpp_gameboy ~/cod/cpp/gameboy
 dwm ~/.config/dwm
 git ~/git
 home ~/
 mondo ~/.config/mondo
-py-polylib ~/cod/python/poly
 school ~/doc
 scripts ~/scr
-cpp-gameboy ~/cod/cpp
 vim-conf ~/.vim
+py_polylib ~/cod/python/poly
 

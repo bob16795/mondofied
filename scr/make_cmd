@@ -1,3 +1,0 @@
-(echo $1 | grep .config/mondo/themes) && mondo -g all && mondosel
-(echo $1 | grep git/) && push
-(echo $1 | grep doc/src/) && pdflatex $1 && (filesort |sh)

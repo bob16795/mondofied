@@ -8,10 +8,10 @@
 	"buffers":
 	[
 		{
-			"file": "/home/john/cfg/.vimrc",
+			"file": "/home/john/cfg/scripts/tools/make_cmd",
 			"settings":
 			{
-				"buffer_size": 6254,
+				"buffer_size": 382,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
@@ -45,12 +45,12 @@
 		"selected_items":
 		[
 			[
-				"w",
-				"Tasks: Archive within selection(s)"
+				"Package Control: ",
+				"Package Control: Upgrade/Overwrite All Packages"
 			],
 			[
-				"Package Control: ",
-				"Package Control: Install Package"
+				"w",
+				"Tasks: Archive within selection(s)"
 			],
 			[
 				"q",
@@ -118,43 +118,55 @@
 	"expanded_folders":
 	[
 		"/home/john/cfg",
+		"/home/john/cfg/scripts",
+		"/home/john/cfg/scripts/tools",
 		"/home/john/cfg/config/mondo",
-		"/home/john/cfg/config/mondo/generator",
-		"/home/john/cfg/config/mondo/images",
-		"/home/john/cfg/config/mondo/themes"
+		"/home/john/cfg/config/mondo/themes",
+		"/home/john/cfg/config/mondo/themes/.config"
 	],
 	"file_history":
 	[
-		"/home/john/cfg/config/mondo/themes/cfamfi",
+		"/home/john/cfg/scripts/tools/youdown",
+		"/home/john/cfg/scripts/tools/make_cmd",
+		"/home/john/cfg/config/mondo/themes/Antepenultimata",
+		"/home/john/cfg/config/mondo/post-apply",
 		"/home/john/cfg/config/mondo/themes/gruvbox",
+		"/home/john/.config/sublime-text-3/Packages/User/f7.sublime-build",
+		"/home/john/cfg/config/mondo/themes/solarized-light",
+		"/home/john/cfg/config/mondo/themes/triangles02",
+		"/home/john/cfg/config/mondo/themes/tree01",
+		"/home/john/cfg/config/mondo/themes/solarized-dark01",
+		"/home/john/cfg/config/mondo/themes/zdzis01",
+		"/home/john/cfg/config/mondo/themes/triangles01",
+		"/home/john/cfg/config/mondo/themes/squares01",
+		"/home/john/cfg/config/mondo/themes/solarized-dark02",
+		"/home/john/cfg/config/mondo/themes/moon",
+		"/home/john/cfg/config/mondo/themes/light",
+		"/home/john/cfg/config/mondo/themes/deer02",
+		"/home/john/cfg/config/mondo/themes/dragon01",
+		"/home/john/cfg/config/mondo/themes/deer01",
+		"/home/john/cfg/config/mondo/themes/comfy01",
+		"/home/john/cfg/config/mondo/themes/cfamfi",
+		"/home/john/cfg/config/mondo/themes/bird01",
+		"/home/john/cfg/.vimrc",
 		"/home/john/cfg/config/mondo/generator/dwm/moon",
 		"/home/john/cfg/config/mondo/generator/dwm/_mondo-template",
 		"/home/john/cfg/scripts/tools/updateparse",
 		"/home/john/cfg/scripts/updates/check",
 		"/home/john/cfg/scripts/updates/1",
-		"/home/john/cfg/config/mondo/themes/comfy01",
 		"/home/john/cfg/config/mondo/themes/cafamfi",
 		"/home/john/cfg/scripts/parbs.sh",
 		"/home/john/cfg/config/mondo/generator/sublime/_mondo-settings",
 		"/home/john/cfg/scripts/tools/filesort",
 		"/home/john/cfg/config/mondo/generator/gtkrc-20/_mondo-apply",
 		"/home/john/cfg/config/mondo/generator/dwm/_mondo-apply",
-		"/home/john/cfg/config/mondo/post-apply",
 		"/home/john/cfg/config/mondo/generator/dwm/_mondo-settings",
 		"/home/john/cfg/config/rofi/bmenu.rasi",
 		"/home/john/cfg/config/mondo/generator/cavalcade/_mondo-template",
-		"/home/john/cfg/config/mondo/themes/moon",
 		"/home/john/cfg/config/mondo/generator/alacritty/_mondo-template",
-		"/home/john/cfg/config/mondo/themes/tree01",
 		"/home/john/cfg/config/mondo/generator/wallpaper/_mondo-apply",
 		"/home/john/cfg/config/mondo/generator/gtk/_mondo-apply",
 		"/home/john/cfg/config/mondo/themes/_template",
-		"/home/john/cfg/config/mondo/themes/bird01",
-		"/home/john/cfg/config/mondo/themes/light",
-		"/home/john/cfg/config/mondo/themes/deer02",
-		"/home/john/cfg/config/mondo/themes/dragon01",
-		"/home/john/cfg/config/mondo/themes/deer01",
-		"/home/john/cfg/config/mondo/themes/Antepenultimata",
 		"/home/john/cfg/config/mondo/generator/gtk/Antepenultimata",
 		"/home/john/cfg/config/mondo/generator/gtk/_mondo-generate",
 		"/home/john/cfg/config/cava/config",
@@ -163,16 +175,10 @@
 		"/home/john/cfg/config/cavalcade/main.ini",
 		"/home/john/cfg/gitignore",
 		"/home/john/cfg/config/cavalcade/cavalcade/data/main.ini",
-		"/home/john/cfg/config/mondo/themes/zdzis01",
 		"/home/john/cfg/scripts/tools/phoneumount",
 		"/home/john/cfg/config/mondo/generator/gtkrc-30/_mondo-template",
 		"/home/john/cfg/config/mondo/generator/gtkrc-20/_mondo-template",
 		"/home/john/cfg/config/mondo/generator/wallpaper/Antepenultimata",
-		"/home/john/cfg/config/mondo/themes/triangles02",
-		"/home/john/cfg/config/mondo/themes/triangles01",
-		"/home/john/cfg/config/mondo/themes/solarized-light",
-		"/home/john/cfg/config/mondo/themes/solarized-dark02",
-		"/home/john/cfg/config/mondo/themes/solarized-dark01",
 		"/home/john/cfg/config/mondo/generator/wallpaper/_mondo-template",
 		"/home/john/cfg/config/mondo/generator/wallpaper/bird01",
 		"/home/john/cfg/config/mondo/generator/wallpaper/_mondo-generate",
@@ -309,32 +315,35 @@
 			[
 				{
 					"buffer": 0,
-					"file": "/home/john/cfg/.vimrc",
+					"file": "/home/john/cfg/scripts/tools/make_cmd",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 6254,
+						"buffer_size": 382,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								6008,
-								6008
+								128,
+								128
 							]
 						],
 						"settings":
 						{
-							"SL.13.region_keys":
+							"SL.244.region_keys":
 							[
 							],
-							"SL.22.region_keys":
+							"SL.255.region_keys":
+							[
+							],
+							"SL.272.region_keys":
 							[
 							],
 							"apply_syntax_touched": true,
 							"git_gutter_is_enabled": true,
-							"syntax": "Packages/Text/Plain text.tmLanguage"
+							"syntax": "Packages/ShellScript/Bash.sublime-syntax"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -397,7 +406,7 @@
 	{
 		"height": 0.0
 	},
-	"pinned_build_system": "Packages/User/mondo.sublime-build",
+	"pinned_build_system": "Packages/User/f7.sublime-build",
 	"project": "config",
 	"replace":
 	{
@@ -443,7 +452,7 @@
 	"show_open_files": true,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 257.0,
+	"side_bar_width": 240.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{

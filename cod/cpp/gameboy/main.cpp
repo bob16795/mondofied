@@ -42,8 +42,8 @@ int run_cpu(int inst){
   switch(inst) {
     case 0x00 : //cout << "NOP";
                 PC_reg += 1;
-                return(0); 
-                break;       
+                return(0);
+                break;
     case 0x01 : return(0);
                 break;
     case 0x60 : cout << "LD H,B";
@@ -63,7 +63,7 @@ int run_cpu(int inst){
 
 int main(int argc, char **argv){
   streampos size;
-  char * buffer; 
+  char * buffer;
 
   ifstream file;
 
@@ -84,6 +84,7 @@ int main(int argc, char **argv){
     int g = 1;
     int lol;
     int nope;
+    cout << "lol";
     init_cpu();
     while(running == true){
       lol = int((unsigned char)(buffer[PC_reg]));
@@ -94,5 +95,5 @@ int main(int argc, char **argv){
     delete[] buffer;
   }
   else cout << "Unable to open file";
-  file.close(); 
+  file.close();
 }

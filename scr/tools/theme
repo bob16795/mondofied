@@ -1,7 +1,11 @@
 #!/bin/bash
 cat=$(cat --number-nonblank ~/git/themes/list)
-choice=$(dialog --menu "add themes" 20 20 18 $cat 3>&1 1>&2 2>&3 3>&-)
-choice=$(sed "${choice}q;d" ~/git/themes/list)
+choices=$(dialog --checklist "add themes" 20 20 18 $cat 3>&1 1>&2 2>&3 3>&-)
+for i in $choices
+do
+choice=$(sed "${i}q;d" ~/git/themes/list)
+echo $(echo $choice | sed "s/ 0//")
 wget -O ~/.config/mondo/themes/$choice http://raw.githubusercontent.com/bob16795/mondofied-themes/master/$choice
-mondo -fg $choice
+#mondo -fg $choice
 mondo -a $choice
+done

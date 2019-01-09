@@ -19,6 +19,14 @@
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
+		},
+		{
+			"file": "/home/john/cfg/config/dwm/drw.c",
+			"settings":
+			{
+				"buffer_size": 9918,
+				"line_ending": "Unix"
+			}
 		}
 	],
 	"build_system": "Packages/Makefile/Make.sublime-build",
@@ -195,7 +203,7 @@
 	"groups":
 	[
 		{
-			"selected": 0,
+			"selected": 1,
 			"sheets":
 			[
 				{
@@ -222,12 +230,15 @@
 						"selection":
 						[
 							[
-								57344,
-								57344
+								57340,
+								57340
 							]
 						],
 						"settings":
 						{
+							"SL.150.region_keys":
+							[
+							],
 							"SL.22.region_keys":
 							[
 							],
@@ -237,12 +248,83 @@
 							"SL.54.region_keys":
 							[
 							],
+							"SL.82.region_keys":
+							[
+							],
 							"apply_syntax_touched": true,
 							"git_gutter_is_enabled": true,
 							"syntax": "Packages/C++/C.sublime-syntax"
 						},
 						"translation.x": 0.0,
 						"translation.y": 25540.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "/home/john/cfg/config/dwm/drw.c",
+					"semi_transient": true,
+					"settings":
+					{
+						"buffer_size": 9918,
+						"regions":
+						{
+							"col_10FFFFFF":
+							{
+								"flags": 16,
+								"regions":
+								[
+									[
+										539,
+										547
+									],
+									[
+										570,
+										578
+									]
+								],
+								"scope": "col_10FFFFFF"
+							},
+							"col_10FFFFFF_icon":
+							{
+								"flags": 16,
+								"icon": "Packages/User/Color Highlight.cache/col_10FFFFFF_circle.png",
+								"regions":
+								[
+									[
+										498,
+										498
+									]
+								],
+								"scope": "col_gutter"
+							}
+						},
+						"selection":
+						[
+							[
+								592,
+								592
+							]
+						],
+						"settings":
+						{
+							"SL.152.region_keys":
+							[
+							],
+							"SL.166.region_keys":
+							[
+							],
+							"SL.179.region_keys":
+							[
+							],
+							"apply_syntax_touched": true,
+							"git_gutter_is_enabled": true,
+							"syntax": "Packages/C++/C.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
@@ -281,7 +363,7 @@
 			1.0
 		]
 	},
-	"menu_visible": false,
+	"menu_visible": true,
 	"output.SublimeLinter":
 	{
 		"height": 84.0
@@ -302,7 +384,7 @@
 	{
 		"height": 0.0
 	},
-	"pinned_build_system": "Packages/Makefile/Make.sublime-build",
+	"pinned_build_system": "Packages/User/f7.sublime-build",
 	"project": "dwm.sublime-project",
 	"replace":
 	{

@@ -104,8 +104,9 @@ set mouse=a
 	inoremap <Space><Tab> <Esc>/<++><Enter>"_c4l
 	vnoremap <Space><Tab> <Esc>/<++><Enter>"_c4l
 	map <Space><Tab> <Esc>/<++><Enter>"_c4l
-  map <F7> :!make_cmd %:p<Enter>
-filetype plugin indent on
+  map <F7> :w<Enter>:!make_cmd %:p<Enter>
+  map <C-o> :NERDTreeFocus<Enter><S-b>
+  filetype plugin indent on
 
 """"""""
 if has('autocmd')

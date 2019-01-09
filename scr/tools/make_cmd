@@ -1,0 +1,9 @@
+#!/bin/bash
+(echo $1 | grep .config/mondo/themes) && mondo -a $2
+(echo $1 | grep git/) && push
+(echo $1 | grep doc/src/) && cd $1 && pdflatex $2 && (filesort |sh)
+(echo $1 | grep .py) && python $1
+(echo $1 | grep .cpp) && g++ $1
+(echo $1 | grep config/dwm) && sudo make install && kill -HUP $(pidof dwm)
+(echo $1 | grep snd/) && youdown
+(echo $1 | grep .sh) && chmod +x $1 && sh $1
