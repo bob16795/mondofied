@@ -13,15 +13,15 @@ slstatus & # status
 compton & #composite
 #feh --bg-fill ~/.config/wall.png # wallpaper old
 ~/scr/wall.sh & # wallpaper
-alacritty --class lin & # terminal
+#alacritty --class lin & # terminal
 firefox & #web
 #qutebrowser file:///home/john/.config/webhome/index.html &
 dockd --daemon & #dock
 #glava & # music vis
-#alacritty --class dev & #dev
+alacritty --class dev & #dev
 alacritty --class visual -e vis & #music vis
 steam & #game
-sublime & #dev
+#sublime & #dev
 #cairo-dock &
 
 exec dwm

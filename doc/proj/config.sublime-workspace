@@ -15,6 +15,24 @@
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
+		},
+		{
+			"file": "/home/john/cfg/config/mondo/themes/speaker",
+			"settings":
+			{
+				"buffer_size": 319,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/home/john/cfg/config/mondo/themes/gruvbox",
+			"settings":
+			{
+				"buffer_size": 318,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
 		}
 	],
 	"build_system": "Packages/Python/Python.sublime-build",
@@ -119,8 +137,8 @@
 	[
 		"/home/john/cfg",
 		"/home/john/cfg/scripts",
-		"/home/john/cfg/scripts/tools",
 		"/home/john/cfg/config/mondo",
+		"/home/john/cfg/config/mondo/images",
 		"/home/john/cfg/config/mondo/themes",
 		"/home/john/cfg/config/mondo/themes/.config"
 	],
@@ -310,7 +328,7 @@
 	"groups":
 	[
 		{
-			"selected": 0,
+			"selected": 1,
 			"sheets":
 			[
 				{
@@ -326,8 +344,8 @@
 						"selection":
 						[
 							[
-								128,
-								128
+								127,
+								127
 							]
 						],
 						"settings":
@@ -341,15 +359,87 @@
 							"SL.272.region_keys":
 							[
 							],
+							"SL.283.region_keys":
+							[
+							],
 							"apply_syntax_touched": true,
 							"git_gutter_is_enabled": true,
 							"syntax": "Packages/ShellScript/Bash.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 100.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "/home/john/cfg/config/mondo/themes/speaker",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 319,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								288,
+								288
+							]
+						],
+						"settings":
+						{
+							"SL.14.region_keys":
+							[
+							],
+							"SL.284.region_keys":
+							[
+							],
+							"apply_syntax_touched": true,
+							"git_gutter_is_enabled": true,
+							"syntax": "Packages/Text/Plain text.tmLanguage"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "/home/john/cfg/config/mondo/themes/gruvbox",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 318,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								243,
+								64
+							]
+						],
+						"settings":
+						{
+							"SL.285.region_keys":
+							[
+							],
+							"apply_syntax_touched": true,
+							"git_gutter_is_enabled": true,
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
 					"type": "text"
 				}
 			]

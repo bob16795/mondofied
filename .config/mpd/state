@@ -2,8 +2,8 @@ sw_volume: 94
 audio_device_state:1:pulse audio
 audio_device_state:1:toggle_visualizer
 state: pause
-current: 632
-time: 23.189000
+current: 13
+time: 61.727000
 random: 0
 repeat: 0
 single: 0
@@ -645,4 +645,12 @@ playlist_begin
 630:Lyrical Lemonade/Ski Mask The Slump God - Catch Me Outside (Dir. by @_ColeBennett_).opus
 631:Lyrical Lemonade/Ski Mask The Slump God - BabyWipe (Dir. by @_ColeBennett_).opus
 632:Lyrical Lemonade/Ski Mask The Slump God - LA LA (Dir. by @_ColeBennett_).ogg
+633:W.N.O/Sheck Wes - Mo Bamba But I'm Making Every sound in the beat with my mouth.opus
+634:W.N.O/Sheck Wes - Mo Bamba But I'm Making Every sound in the beat with my mouth.opus
+635:Zolii Doge/Araki-Snow Drive.opus
+636:Pretty ok/Initial D - Deja Vu.opus
+637:RPT Music/Sheck Wes - Real Nigga (prod. Nedarb).opus
+638:Vash/NOMA - Brain Power.ogg
+639:Virkato/BlackYooh vs. siromaru - BLACK or WHITE (Extended).ogg
+640:W.N.O/Sheck Wes - Mo Bamba But I'm Making Every sound in the beat with my mouth.opus
 playlist_end

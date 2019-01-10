@@ -308,16 +308,6 @@
 			"buffers":
 			[
 				{
-					"file": "/home/john/cod/cpp/main.cpp",
-					"settings":
-					{
-						"buffer_size": 1956,
-						"encoding": "UTF-8",
-						"line_ending": "Unix",
-						"name": "#include <iostream>"
-					}
-				},
-				{
 					"contents": "Game Boy CPU Instruction Behavior Test\n--------------------------------------\nThis ROM tests the behavior of all CPU instructions except STOP and the\n11 illegal opcodes. The tests are fairly thorough, running instructions\nwith boundary data and verifying both the result and that other\nregisters are not modified. Instructions which perform the same\noperation on different registers are each tested just as thoroughly, in\ncase an emulator implements each independently. Some sub-tests take half\nminute to complete.\n\nFailed instructions are listed as\n\n\t[CB] opcode\n\nSome errors cannot of course be diagnosed properly, since the test\nframework itself relies on basic instruction behavior being correct.\n\n\nInternal operation\n------------------\nThe main tests use a framework that runs each instruction in a loop,\nvarying the register values on input and examining them on output.\nRather than keep a table of correct values, it simply calculates a\nCRC-32 checksum of all the output, then compares this with the correct\nvalue. Instructions are divided into several groups, each with a\ndifferent set of input values suited for their behavior; for example,\nthe bit test instructions are fed $01, $02, $04 ... $40, $80, to ensure\neach bit is handled properly, while the arithmetic instructions are fed\n$01, $0F, $10, $7F, $FF, to exercise carry and half-carry. A few\ninstructions require a custom test due to their uniqueness.\n\n\nMulti-ROM\n---------\nIn the main directory is a single ROM which runs all the tests. It\nprints a test's number, runs the test, then \"ok\" if it passes, otherwise\na failure code. Once all tests have completed it either reports that all\ntests passed, or prints the number of failed tests. Finally, it makes\nseveral beeps. If a test fails, it can be run on its own by finding the\ncorresponding ROM in individual/.\n\nThs compact format on screen is to avoid having the results scroll off\nthe top, so the test can be started and allowed to run without having to\nconstantly monitor the display. \n\nCurrently there is no well-defined way for an emulator test rig to\nprogramatically find the result of the test; contact me if you're trying\nto do completely automated testing of your emulator. One simple approach\nis to take a screenshot after all tests have run, or even just a\nchecksum of one, and compare this with a previous run.\n\n\nFailure codes\n-------------\nFailed tests may print a failure code, and also short description of the\nproblem. For more information about a failure code, look in the\ncorresponding source file in source/; the point in the code where\n\"set_test n\" occurs is where that failure code will be generated.\nFailure code 1 is a general failure of the test; any further information\nwill be printed.\n\nNote that once a sub-test fails, no further tests for that file are run.\n\n\nConsole output\n--------------\nInformation is printed on screen in a way that needs only minimum LCD\nsupport, and won't hang if LCD output isn't supported at all.\nSpecifically, while polling LY to wait for vblank, it will time out if\nit takes too long, so LY always reading back as the same value won't\nhang the test. It's also OK if scrolling isn't supported; in this case,\ntext will appear starting at the top of the screen.\n\nEverything printed on screen is also sent to the game link port by\nwriting the character to SB, then writing $81 to SC. This is useful for\ntests which print lots of information that scrolls off screen.\n\n\nSource code\n-----------\nSource code is included for all tests, in source/. It can be used to\nbuild the individual test ROMs. Code for the multi test isn't included\ndue to the complexity of putting everything together.\n\nCode is written for the wla-dx assembler. To assemble a particular test,\nexecute\n\n\twla -o \"source_filename.s\" test.o\n\twlalink linkfile test.gb\n\nTest code uses a common shell framework contained in common/.\n\n\nInternal framework operation\n----------------------------\nTests use a common framework for setting things up, reporting results,\nand ending. All files first include \"shell.inc\", which sets up the ROM\nheader and shell code, and includes other commonly-used modules.\n\nOne oddity is that test code is first copied to internal RAM at $D000,\nthen executed there. This allows self-modification, and ensures the code\nis executed the same way it is on my devcart, which doesn't have a\nrewritable ROM as most do.\n\nSome macros are used to simplify common tasks:\n\n\tMacro               Behavior\n\t- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -\n\twreg addr,data      Writes data to addr using LDH\n\tlda  addr           Loads byte from addr into A using LDH\n\tsta  addr           Stores A at addr using LDH\n\tdelay n             Delays n cycles, where NOP = 1 cycle\n\tdelay_msec n        Delays n milliseconds\n\tset_test n,\"Cause\"  Sets failure code and optional string\n\nRoutines and macros are documented where they are defined.\n\n-- \nShay Green <gblargg@gmail.com>\n",
 					"file": "/home/john/cod/cpp/cpu_instrs/readme.txt",
 					"file_size": 5044,
@@ -325,7 +315,6 @@
 					"settings":
 					{
 						"buffer_size": 4925,
-						"encoding": "UTF-8",
 						"line_ending": "Windows"
 					}
 				},
@@ -337,16 +326,6 @@
 					"settings":
 					{
 						"buffer_size": 163840,
-						"encoding": "UTF-8",
-						"line_ending": "Unix"
-					}
-				},
-				{
-					"file": "/home/john/cod/cpp/main",
-					"settings":
-					{
-						"buffer_size": 46780,
-						"encoding": "Hexadecimal",
 						"line_ending": "Unix"
 					}
 				}
@@ -480,10 +459,14 @@
 			"expanded_folders":
 			[
 				"/home/john/cod",
-				"/home/john/cod/cpp"
+				"/home/john/cod/cpp",
+				"/home/john/cod/cpp/gameboy",
+				"/home/john/cod/cpp/gameboy/cpu_instrs"
 			],
 			"file_history":
 			[
+				"/home/john/cod/cpp/main.cpp",
+				"/home/john/cod/cpp/main",
 				"/home/john/cod/cpp/cpu_instrs/cpu_instrs.gb",
 				"/home/john/cod/python/poly/polynomial.py",
 				"/home/john/cod/python/poly/test.py",
@@ -562,57 +545,6 @@
 					[
 						{
 							"buffer": 0,
-							"file": "/home/john/cod/cpp/main.cpp",
-							"semi_transient": false,
-							"settings":
-							{
-								"buffer_size": 1956,
-								"regions":
-								{
-									"bookmark_y":
-									{
-										"flags": 144,
-										"regions":
-										[
-											[
-												1953,
-												1953
-											]
-										]
-									}
-								},
-								"selection":
-								[
-									[
-										1677,
-										1677
-									]
-								],
-								"settings":
-								{
-									"SL.13.region_keys":
-									[
-									],
-									"SL.155.region_keys":
-									[
-									],
-									"SL.25.region_keys":
-									[
-									],
-									"apply_syntax_touched": true,
-									"auto_name": "#include <iostream>",
-									"git_gutter_is_enabled": false,
-									"syntax": "Packages/C++/C++.sublime-syntax"
-								},
-								"translation.x": 0.0,
-								"translation.y": 759.0,
-								"zoom_level": 1.0
-							},
-							"stack_index": 0,
-							"type": "text"
-						},
-						{
-							"buffer": 1,
 							"file": "/home/john/cod/cpp/cpu_instrs/readme.txt",
 							"semi_transient": false,
 							"settings":
@@ -631,17 +563,18 @@
 								"settings":
 								{
 									"apply_syntax_touched": true,
+									"git_gutter_is_enabled": false,
 									"syntax": "Packages/Markdown/Markdown.sublime-syntax"
 								},
 								"translation.x": 0.0,
-								"translation.y": 0.0,
+								"translation.y": 1882.0,
 								"zoom_level": 1.0
 							},
-							"stack_index": 3,
+							"stack_index": 0,
 							"type": "text"
 						},
 						{
-							"buffer": 2,
+							"buffer": 1,
 							"file": "/home/john/cod/cpp/cpu_instrs/cpu_instrs.gb",
 							"semi_transient": false,
 							"settings":
@@ -653,8 +586,8 @@
 								"selection":
 								[
 									[
-										681,
-										681
+										680,
+										680
 									]
 								],
 								"settings":
@@ -665,39 +598,6 @@
 								},
 								"translation.x": 0.0,
 								"translation.y": 0.0,
-								"zoom_level": 1.0
-							},
-							"stack_index": 2,
-							"type": "text"
-						},
-						{
-							"buffer": 3,
-							"file": "/home/john/cod/cpp/main",
-							"semi_transient": false,
-							"settings":
-							{
-								"buffer_size": 46780,
-								"regions":
-								{
-								},
-								"selection":
-								[
-									[
-										0,
-										0
-									]
-								],
-								"settings":
-								{
-									"SL.158.region_keys":
-									[
-									],
-									"apply_syntax_touched": true,
-									"git_gutter_is_enabled": false,
-									"syntax": "Packages/Text/Plain text.tmLanguage"
-								},
-								"translation.x": 0.0,
-								"translation.y": 198.0,
 								"zoom_level": 1.0
 							},
 							"stack_index": 1,
@@ -757,8 +657,8 @@
 			{
 				"height": 84.0
 			},
-			"pinned_build_system": "Packages/C++/C++ Single File.sublime-build",
-			"position": "0,0,0,0,0,0,13,1366,768,1366,768",
+			"pinned_build_system": "Packages/User/f7.sublime-build",
+			"position": "0,0,0,0,0,0,13,1366,768,2646,1024",
 			"project": "cod.sublime-project",
 			"replace":
 			{
@@ -819,11 +719,11 @@
 		[
 			"/home/john/doc/proj/cod.sublime-workspace",
 			"/home/john/doc/proj/config.sublime-workspace",
-			"/home/john/doc/proj/dwm.sublime-workspace",
-			"/home/john/doc/proj/git.sublime-workspace",
 			"/home/john/doc/proj/school.sublime-workspace",
-			"/home/john/doc/proj/youtube.sublime-workspace",
+			"/home/john/doc/proj/git.sublime-workspace",
+			"/home/john/doc/proj/dwm.sublime-workspace",
 			"/home/john/doc/proj/web.sublime-workspace",
+			"/home/john/doc/proj/youtube.sublime-workspace",
 			"/home/john/.config/sublime-text-3/Packages/Sublime Tutor/tutorial/sublimetutor.sublime-workspace"
 		]
 	}

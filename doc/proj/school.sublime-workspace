@@ -37,7 +37,7 @@
 			"file": "/home/john/doc/src/ela_95-116.tex",
 			"settings":
 			{
-				"buffer_size": 796,
+				"buffer_size": 820,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
@@ -50,7 +50,6 @@
 			"settings":
 			{
 				"buffer_size": 0,
-				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
 		},
@@ -301,8 +300,8 @@
 						"selection":
 						[
 							[
-								605,
-								605
+								604,
+								604
 							]
 						],
 						"settings":
@@ -387,15 +386,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 796,
+						"buffer_size": 820,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								553,
-								553
+								564,
+								564
 							]
 						],
 						"settings":
@@ -407,6 +406,9 @@
 							[
 							],
 							"SL.261.region_keys":
+							[
+							],
+							"SL.278.region_keys":
 							[
 							],
 							"apply_syntax_touched": true,
@@ -468,8 +470,8 @@
 						"selection":
 						[
 							[
-								2489,
-								2489
+								2488,
+								2488
 							]
 						],
 						"settings":
