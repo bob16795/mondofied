@@ -1,1 +1,0 @@
-/home/john/subvim/vim/base/gvimrc
