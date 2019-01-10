@@ -1,2 +1,2 @@
 #!/bin/bash
-feh --bg-fill ~/.config/mondo/images/lub.png
+feh --bg-fill ~/.config/mondo/images/antlers.jpg

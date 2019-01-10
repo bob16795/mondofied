@@ -2,8 +2,8 @@ sw_volume: 94
 audio_device_state:1:pulse audio
 audio_device_state:1:toggle_visualizer
 state: pause
-current: 13
-time: 61.727000
+current: 14
+time: 4.559000
 random: 0
 repeat: 0
 single: 0

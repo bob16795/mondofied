@@ -1,0 +1,4 @@
+combo=()
+combo+=('tor' 'sudo -u tor tor')
+combo+=('dev' 'cd; vim')
+combo+=('home' 'cd ~; tput reset')

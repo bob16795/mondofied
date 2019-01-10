@@ -21,7 +21,8 @@ LC_CTYPE="en_US.UTF-8"
 source ~/.profile
 #fi
 
-[ -z "$TMUX"  ] && { tmux attach || exec tmux new-session && exit;}
+[ -z "$TMUX"  ] && { tmux attach -tStarTmux || tmux_a && exit;}
+#[ -z "$TMUX"  ] && { tmux attach || exec tmux new-session && exit;}
 export GPG_TTY=$(tty)
 
 # System Maintainence
@@ -64,4 +65,4 @@ export TERMINAL=alacritty
 export PATH=$PATH:~/bin:~/.gem/ruby/2.5.0/bin
 #~/.cache/wal/colors.sh
 #neofetch
-#source ~/.dotfiles/index.sh
+#source ~/.dotfiles/index.shp

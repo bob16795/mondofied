@@ -26,8 +26,8 @@ window:
   # Blank space added around the window in pixels. This padding is scaled
   # by DPI and the specified value is always added at both opposing sides.
   padding:
-    x: 5
-    y: 5
+    x: 0
+    y: 0
 
   # Window decorations
   #
@@ -103,7 +103,7 @@ font:
     #style: Italic
 
   # Point size
-  size: 5.0
+  size: 6.0
 
   # Offset is the extra space around each character. `offset.y` can be thought of
   # as modifying the line spacing, and `offset.x` as modifying the letter spacing.
@@ -134,8 +134,8 @@ draw_bold_text_with_bright_colors: false
 colors:
   # Default colors
   primary:
-    background: '0x4b0025'
-    foreground: '0x9da4ba'
+    background: '0x091234'
+    foreground: '0x2D4D8E'
 
     # Bright and dim foreground colors
     #
@@ -155,25 +155,25 @@ colors:
 
   # Normal colors
   normal:
-    black:   '0x9da4ba'
-    red:     '0x3C437D'
-    green:   '0x4D4678'
-    yellow:  '0x305289'
-    blue:    '0x286797'
-    magenta: '0x1F7BA7'
-    cyan:    '0x2479A4'
-    white:   '0x9da4ba'
+    black:   '0x2D4D8E'
+    red:     '0x2067AC'
+    green:   '0x5A5F92'
+    yellow:  '0x1A7AC3'
+    blue:    '0x956F90'
+    magenta: '0x1C99CF'
+    cyan:    '0x9ad0dc'
+    white:   '0x6b919a'
 
   # Bright colors
   bright:
-    black:   '0x9da4ba'
-    red:     '0x3C437D'
-    green:   '0x4D4678'
-    yellow:  '0x305289'
-    blue:    '0x286797'
-    magenta: '0x1F7BA7'
-    cyan:    '0x2479A4'
-    white:   '0x9da4ba'
+    black:   '0x2D4D8E'
+    red:     '0x2067AC'
+    green:   '0x5A5F92'
+    yellow:  '0x1A7AC3'
+    blue:    '0x956F90'
+    magenta: '0x1C99CF'
+    cyan:    '0x9ad0dc'
+    white:   '0x6b919a'
 
   # Dim colors
   #
@@ -225,7 +225,7 @@ visual_bell:
 #
 # Window opacity as a floating point number from `0.0` to `1.0`.
 # The value `0.0` is completely transparent and `1.0` is opaque.
-background_opacity: 0.5
+background_opacity: 0.9
 
 # Mouse bindings
 #
