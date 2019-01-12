@@ -23,5 +23,6 @@ alacritty --class visual -e vis & #music vis
 steam & #game
 #sublime & #dev
 #cairo-dock &
+torify dropbox &
 
 exec dwm

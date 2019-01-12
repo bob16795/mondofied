@@ -26,8 +26,8 @@ window:
   # Blank space added around the window in pixels. This padding is scaled
   # by DPI and the specified value is always added at both opposing sides.
   padding:
-    x: 0
-    y: 0
+    x: 5
+    y: 5
 
   # Window decorations
   #
@@ -217,9 +217,9 @@ colors:
 #   - Linear
 #
 # Specifying a `duration` of `0` will disable the visual bell.
-visual_bell:
-  animation: Linear
-  duration: 500
+#visual_bell:
+#  animation: Linear
+#  duration: 500
 
 # Background opacity
 #

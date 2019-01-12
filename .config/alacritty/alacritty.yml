@@ -26,8 +26,8 @@ window:
   # Blank space added around the window in pixels. This padding is scaled
   # by DPI and the specified value is always added at both opposing sides.
   padding:
-    x: 0
-    y: 0
+    x: 5
+    y: 5
 
   # Window decorations
   #
@@ -134,8 +134,8 @@ draw_bold_text_with_bright_colors: false
 colors:
   # Default colors
   primary:
-    background: '0x091234'
-    foreground: '0x2D4D8E'
+    background: '0x0a1d36'
+    foreground: '0x7095DE'
 
     # Bright and dim foreground colors
     #
@@ -155,25 +155,25 @@ colors:
 
   # Normal colors
   normal:
-    black:   '0x2D4D8E'
-    red:     '0x2067AC'
-    green:   '0x5A5F92'
-    yellow:  '0x1A7AC3'
-    blue:    '0x956F90'
-    magenta: '0x1C99CF'
-    cyan:    '0x9ad0dc'
-    white:   '0x6b919a'
+    black:   '0x7095DE'
+    red:     '0x7FA6C1'
+    green:   '0x88A8BA'
+    yellow:  '0x90A4B0'
+    blue:    '0x92B3C5'
+    magenta: '0xA7BCC8'
+    cyan:    '0xcedadf'
+    white:   '0x90989c'
 
   # Bright colors
   bright:
-    black:   '0x2D4D8E'
-    red:     '0x2067AC'
-    green:   '0x5A5F92'
-    yellow:  '0x1A7AC3'
-    blue:    '0x956F90'
-    magenta: '0x1C99CF'
-    cyan:    '0x9ad0dc'
-    white:   '0x6b919a'
+    black:   '0x7095DE'
+    red:     '0x7FA6C1'
+    green:   '0x88A8BA'
+    yellow:  '0x90A4B0'
+    blue:    '0x92B3C5'
+    magenta: '0xA7BCC8'
+    cyan:    '0xcedadf'
+    white:   '0x90989c'
 
   # Dim colors
   #
@@ -217,15 +217,15 @@ colors:
 #   - Linear
 #
 # Specifying a `duration` of `0` will disable the visual bell.
-visual_bell:
-  animation: Linear
-  duration: 500
+#visual_bell:
+#  animation: Linear
+#  duration: 500
 
 # Background opacity
 #
 # Window opacity as a floating point number from `0.0` to `1.0`.
 # The value `0.0` is completely transparent and `1.0` is opaque.
-background_opacity: 0.9
+background_opacity: 0.5
 
 # Mouse bindings
 #

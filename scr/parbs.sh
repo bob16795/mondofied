@@ -213,8 +213,8 @@ dialog --infobox "Installing themes this will take a while..." 4 50
 gem install sass
 export PATH = $PATH:/root/.gem/ruby/2.5.0/bin
 sudo -u "$name" git clone https://github.com/Ferdi265/numix-solarized-gtk-theme /home/$name/thm/numix-solarized-gtk-theme > /dev/null
+mkdir ~/.config/mondo/themes/
 ~/scr/theme
-sudo -u "$name" mondo -a moon > /dev/null
 
 # Enable services here.
 serviceinit NetworkManager cronie

@@ -1,4 +1,10 @@
 import cmath
+def frange(start, stop, step):
+    i = start
+    while i < stop:
+        yield i
+        i += step
+
 class poly:
     def __init__(self,nums):
         lol = False
@@ -36,14 +42,23 @@ class poly:
 #   if self.height() == 1:
 #           print(stri)
         return stri
-    def solve(self):
-        if len(self.list) == 5:
-            list_new = [0]*5
-            for i in range(0,4):
-                list_new[i] = self.list[i] / self.list[4]
-            if list_new[3] ==0:
-            return list_new
-        #elif len(self.list) == 4:
+    def evaluate(self, x):
+        b = len(self.list) - 1
+        c = 0
+        for i in self.list:
+            c += i*x**b
+            b -= 1
+        ##print('{} is {}'.format(self.string(), c))
+        return c
+    def solve(self,degree):
+        g = None
+        for i in frange(-100,100,degree):
+            if g == None:
+                g = i
+            if abs(self.evaluate(i)) <= abs(self.evaluate(g)):
+                #print("best {}".format(self.evaluate(g)))
+                g = i
+        return g
     def solve_old(self):
         if len(self.list) == 1:
             return((None))

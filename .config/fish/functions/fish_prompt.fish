@@ -1,0 +1,1 @@
+/home/john/.local/share/omf/themes/ocean/fish_prompt.fish

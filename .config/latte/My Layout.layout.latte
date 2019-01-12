@@ -4,6 +4,7 @@ RightButton;NoModifier=org.kde.latte.contextmenu
 [Containments][1]
 activityId=
 dockWindowBehavior=true
+enableKWinEdges=true
 formfactor=2
 immutability=1
 lastScreen=-1
@@ -21,6 +22,9 @@ wallpaperplugin=org.kde.image
 immutability=1
 plugin=org.kde.latte.plasmoid
 
+[Containments][1][Applets][2][Configuration]
+PreloadWeight=42
+
 [Containments][1][Applets][2][Configuration][General]
 isInLatteDock=true
 launchers59=applications:firefox.desktop,applications:org.kde.dolphin.desktop
@@ -29,9 +33,15 @@ launchers59=applications:firefox.desktop,applications:org.kde.dolphin.desktop
 immutability=1
 plugin=org.kde.plasma.analogclock
 
+[Containments][1][Applets][3][Configuration]
+PreloadWeight=42
+
 [Containments][1][ConfigDialog]
-DialogHeight=600
-DialogWidth=586
+DialogHeight=547
+DialogWidth=470
+
+[Containments][1][Configuration]
+PreloadWeight=42
 
 [Containments][1][General]
 advanced=false

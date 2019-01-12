@@ -16,4 +16,5 @@
 
 # eval "${1}"
 gtkreload
+#cut -c3- ~/.tmux.conf | sh -s _apply_configuration
 killall -HUP dwm
