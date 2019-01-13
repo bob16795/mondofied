@@ -265,6 +265,9 @@
             }, {
                "date_added": "13191438425532208",
                "id": "35",
+               "meta_info": {
+                  "last_visited_desktop": "13191526376864554"
+               },
                "name": "GitHub · Build software better, together.",
                "type": "url",
                "url": "https://github.com/"

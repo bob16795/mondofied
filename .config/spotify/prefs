@@ -1,9 +1,9 @@
-autologin.canonical_username="21ndnpvlkdukezg7ht2mkcyay"
-autologin.saved_credentials="{\"21ndnpvlkdukezg7ht2mkcyay\":[\"prestosilver.ptp@gmail.com\",\"ofxSqyIcc9nO7piJcmOhGfKwtsvxT5fWDbUovXgB+vpYVWZofSoLnD00bVq92RdWWdLafE0rch7gSOecNJmMZjewRLqgxE63My6/CJGkuqJitsiWHrlYQCmmXCYo7TWwyt1P2neqiOgYjNZ9t1zXCop2Immv6wDefHSFKhc+0w+jBOKQRpVNfhV0iGouhysYJikMPgYPAkhUjDZJIvB2FjUMx5QngH+LB7efs4wpiZ5q+Io9VgAzWpFKVUVMxis6+OfqzTOtolNSi34NdcLSKA==\"]}"
-autologin.blob="ofxSqyIcc9nO7piJcmOhGfKwtsvxT5fWDbUovXgB+vpYVWZofSoLnD00bVq92RdWWdLafE0rch7gSOecNJmMZjewRLqgxE63My6/CJGkuqJitsiWHrlYQCmmXCYo7TWwyt1P2neqiOgYjNZ9t1zXCop2Immv6wDefHSFKhc+0w+jBOKQRpVNfhV0iGouhysYJikMPgYPAkhUjDZJIvB2FjUMx5QngH+LB7efs4wpiZ5q+Io9VgAzWpFKVUVMxis6+OfqzTOtolNSi34NdcLSKA=="
 autologin.username="prestosilver.ptp@gmail.com"
+autologin.blob="ofxSqyIcc9nO7piJcmOhGfKwtsvxT5fWDbUovXgB+vpYVWZofSoLnD00bVq92RdWWdLafE0rch7gSOecNJmMZjewRLqgxE63My6/CJGkuqJitsiWHrlYQCmmXCYo7TWwyt1P2neqiOgYjNZ9t1zXCop2Immv6wDefHSFKhc+0w+jBOKQRpVNfhV0iGouhysYJikMPgYPAkhUjDZJIvB2FjUMx5QngH+LB7efs4wpiZ5q+Io9VgAzWpFKVUVMxis6+OfqzTOtolNSi34NdcLSKA=="
+autologin.saved_credentials="{\"21ndnpvlkdukezg7ht2mkcyay\":[\"prestosilver.ptp@gmail.com\",\"ofxSqyIcc9nO7piJcmOhGfKwtsvxT5fWDbUovXgB+vpYVWZofSoLnD00bVq92RdWWdLafE0rch7gSOecNJmMZjewRLqgxE63My6/CJGkuqJitsiWHrlYQCmmXCYo7TWwyt1P2neqiOgYjNZ9t1zXCop2Immv6wDefHSFKhc+0w+jBOKQRpVNfhV0iGouhysYJikMPgYPAkhUjDZJIvB2FjUMx5QngH+LB7efs4wpiZ5q+Io9VgAzWpFKVUVMxis6+OfqzTOtolNSi34NdcLSKA==\"]}"
 app.autostart-mode=""
+autologin.canonical_username="21ndnpvlkdukezg7ht2mkcyay"
 storage.last-location="/home/john/.cache/spotify/Storage"
-core.clock_delta=29
+core.clock_delta=33
 app.last-launched-version="1.0.94.262.g3d5c231c"
 app.autostart-configured=true

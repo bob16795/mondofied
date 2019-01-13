@@ -1,5 +1,5 @@
 {
-   "checksum": "4a5ad2534bdedf1b62b9de1218118005",
+   "checksum": "17a30d42113723c8265a2a6a7298e489",
    "roots": {
       "bookmark_bar": {
          "children": [ {
@@ -57,7 +57,8 @@
                "id": "12",
                "meta_info": {
                   "Description": "shopping, electronics",
-                  "Thumbnail": "/resources/sd_amazon.png"
+                  "Thumbnail": "/resources/sd_amazon.png",
+                  "last_visited_desktop": "13191791092527952"
                },
                "name": "Amazon",
                "type": "url",
@@ -126,9 +127,28 @@
                "id": "15",
                "name": "News",
                "type": "folder"
+            }, {
+               "date_added": "13191791434134617",
+               "id": "154",
+               "meta_info": {
+                  "Thumbnail": "chrome://thumb/http://bookmark_thumbnail/154",
+                  "last_visited_desktop": "13191791437981766"
+               },
+               "name": "youtube.com/",
+               "type": "url",
+               "url": "http://youtube.com/"
+            }, {
+               "date_added": "13191791436329033",
+               "id": "155",
+               "meta_info": {
+                  "Thumbnail": "chrome://thumb/http://bookmark_thumbnail/155?1547317845574"
+               },
+               "name": "r/unixporn - the home for *NIX customization!",
+               "type": "url",
+               "url": "http://reddit.com/r/unixporn"
             } ],
             "date_added": "13191438425489789",
-            "date_modified": "13191438425496983",
+            "date_modified": "13191791436329033",
             "id": "6",
             "meta_info": {
                "Speeddial": "true"
@@ -266,7 +286,7 @@
                "date_added": "13191438425532208",
                "id": "35",
                "meta_info": {
-                  "last_visited_desktop": "13191526376864554"
+                  "last_visited_desktop": "13191789083237651"
                },
                "name": "GitHub · Build software better, together.",
                "type": "url",

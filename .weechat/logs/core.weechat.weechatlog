@@ -99,3 +99,8 @@
 2019-01-09 08:41:05	err:	irc: command "join" must be executed on connected irc server
 2019-01-09 08:41:17		fifo: pipe closed
 2019-01-09 08:41:18		perl: scripts unloaded
+2019-01-12 14:51:05	err:	buflist: warning: the script buffers.pl is loaded and provides a bar with list of buffers similar to the buflist plugin; you may want to uninstall the script buffers.pl (/script remove buffers.pl) or disable/unload the buflist plugin; see WeeChat release notes for more information
+2019-01-12 14:51:05		perl scripts loaded: buffers, iset
+2019-01-12 14:51:05		Plugins loaded: alias, aspell, buflist, charset, exec, fifo, fset, irc, logger, lua, perl, python, relay, ruby, script, trigger, xfer
+2019-01-12 14:51:06		fifo: pipe closed
+2019-01-12 14:51:06		perl: scripts unloaded

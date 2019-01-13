@@ -1,3 +1,72 @@
-2019/01/09-11:26:18.579 3e5a Reusing MANIFEST leveldb/MANIFEST-000001
-2019/01/09-11:26:18.580 3e5a Recovering log #3
-2019/01/09-11:26:18.580 3e5a Reusing old log leveldb/000003.log 
+2019/01/12-12:50:17.716 3783 Reusing MANIFEST leveldb/MANIFEST-000001
+2019/01/12-12:50:17.717 3783 Recovering log #3
+2019/01/12-12:50:17.774 3783 Reusing old log leveldb/000003.log 
+2019/01/12-12:51:37.654 377a Level-0 table #5: started
+2019/01/12-12:51:37.725 377a Level-0 table #5: 17031 bytes OK
+2019/01/12-12:51:37.768 377a Delete type=0 #3
+2019/01/12-13:31:34.289 5bd6 Level-0 table #7: started
+2019/01/12-13:31:34.351 5bd6 Level-0 table #7: 17818 bytes OK
+2019/01/12-13:31:34.395 5bd6 Delete type=0 #4
+2019/01/12-14:18:52.849 76d3 Level-0 table #9: started
+2019/01/12-14:18:52.927 76d3 Level-0 table #9: 15331 bytes OK
+2019/01/12-14:18:52.970 76d3 Delete type=0 #6
+2019/01/12-14:31:13.607 78e1 Level-0 table #11: started
+2019/01/12-14:31:13.684 78e1 Level-0 table #11: 13249 bytes OK
+2019/01/12-14:31:13.728 78e1 Delete type=0 #8
+2019/01/12-17:12:33.425 22a8 Level-0 table #13: started
+2019/01/12-17:12:33.496 22a8 Level-0 table #13: 11807 bytes OK
+2019/01/12-17:12:33.547 22a8 Delete type=0 #10
+2019/01/12-17:13:09.878 22a8 Level-0 table #15: started
+2019/01/12-17:13:09.949 22a8 Level-0 table #15: 11117 bytes OK
+2019/01/12-17:13:09.993 22a8 Delete type=0 #12
+2019/01/12-17:13:09.993 1d37 Compacting 4@0 + 1@1 files
+2019/01/12-17:13:10.032 1d37 Generated table #16@0: 80 keys, 13482 bytes
+2019/01/12-17:13:10.032 1d37 Compacted 4@0 + 1@1 files => 13482 bytes
+2019/01/12-17:13:10.074 1d37 compacted to: files[ 0 1 1 0 0 0 0 ]
+2019/01/12-17:13:10.075 1d37 Delete type=2 #13
+2019/01/12-17:13:10.076 1d37 Delete type=2 #9
+2019/01/12-17:13:10.076 1d37 Delete type=2 #11
+2019/01/12-17:13:10.077 1d37 Delete type=2 #15
+2019/01/12-17:13:10.077 1d37 Delete type=2 #7
+2019/01/12-17:15:33.794 22a7 Level-0 table #18: started
+2019/01/12-17:15:33.890 22a7 Level-0 table #18: 12952 bytes OK
+2019/01/12-17:15:33.932 22a7 Delete type=0 #14
+2019/01/12-17:18:24.901 3aa8 Level-0 table #20: started
+2019/01/12-17:18:25.004 3aa8 Level-0 table #20: 12065 bytes OK
+2019/01/12-17:18:25.047 3aa8 Delete type=0 #17
+2019/01/12-17:19:00.140 3db5 Level-0 table #22: started
+2019/01/12-17:19:00.210 3db5 Level-0 table #22: 13418 bytes OK
+2019/01/12-17:19:00.253 3db5 Delete type=0 #19
+2019/01/12-17:20:22.167 3db9 Level-0 table #24: started
+2019/01/12-17:20:22.237 3db9 Level-0 table #24: 15184 bytes OK
+2019/01/12-17:20:22.281 3db9 Delete type=0 #21
+2019/01/12-17:20:22.281 3db9 Compacting 4@0 + 1@1 files
+2019/01/12-17:20:22.329 3db9 Generated table #25@0: 80 keys, 16008 bytes
+2019/01/12-17:20:22.329 3db9 Compacted 4@0 + 1@1 files => 16008 bytes
+2019/01/12-17:20:22.379 3db9 compacted to: files[ 0 1 1 0 0 0 0 ]
+2019/01/12-17:20:22.380 3db9 Delete type=2 #20
+2019/01/12-17:20:22.381 3db9 Delete type=2 #16
+2019/01/12-17:20:22.381 3db9 Delete type=2 #18
+2019/01/12-17:20:22.381 3db9 Delete type=2 #22
+2019/01/12-17:20:22.381 3db9 Delete type=2 #24
+2019/01/12-17:21:11.952 3db7 Level-0 table #27: started
+2019/01/12-17:21:12.054 3db7 Level-0 table #27: 14464 bytes OK
+2019/01/12-17:21:12.121 3db7 Delete type=0 #23
+2019/01/12-17:23:37.313 3db9 Level-0 table #29: started
+2019/01/12-17:23:37.378 3db9 Level-0 table #29: 15912 bytes OK
+2019/01/12-17:23:37.421 3db9 Delete type=0 #26
+2019/01/12-17:24:02.066 445f Level-0 table #31: started
+2019/01/12-17:24:02.132 445f Level-0 table #31: 8910 bytes OK
+2019/01/12-17:24:02.175 445f Delete type=0 #28
+2019/01/12-17:24:19.922 445f Level-0 table #33: started
+2019/01/12-17:24:19.987 445f Level-0 table #33: 8348 bytes OK
+2019/01/12-17:24:20.030 445f Delete type=0 #30
+2019/01/12-17:24:20.030 445f Compacting 4@0 + 1@1 files
+2019/01/12-17:24:20.079 445f Generated table #34@0: 80 keys, 17548 bytes
+2019/01/12-17:24:20.079 445f Compacted 4@0 + 1@1 files => 17548 bytes
+2019/01/12-17:24:20.121 445f compacted to: files[ 0 1 1 0 0 0 0 ]
+2019/01/12-17:24:20.121 445f Delete type=2 #25
+2019/01/12-17:24:20.121 445f Delete type=2 #31
+2019/01/12-17:24:20.121 445f Delete type=2 #29
+2019/01/12-17:24:20.122 445f Delete type=2 #27
+2019/01/12-17:24:20.122 445f Delete type=2 #33
