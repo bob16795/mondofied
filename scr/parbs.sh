@@ -205,6 +205,9 @@ putgitrepo "https://github.com/LukeSmithxyz/mozillarbs.git" "/home/$name/.mozill
 #get dwm source for mondo
 sudo -u "$name" git clone http://github.com/bob16795/dwm /home/$name/.config/dwm > /dev/null
 
+#install spacevim
+curl -sLf https://spacevim.org/install.sh | sudo -u $name bash
+
 #copy rofi theme
 cp /home/$name/.config/rofi/bmenu.rasi /usr/share/rofi/> /dev/null
 

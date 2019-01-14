@@ -1,3 +1,0 @@
-Thank you for installing BetterFindBuffer.
-
-You need to *restart* your SublimeText for this plugin to work.

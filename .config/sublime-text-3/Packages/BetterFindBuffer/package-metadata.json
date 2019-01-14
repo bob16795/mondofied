@@ -1,1 +1,0 @@
-{"dependencies": [], "url": "https://github.com/aziz/BetterFindBuffer", "sublime_text": ">=3000", "version": "1.0.0", "platforms": ["*"], "description": "Adds a couple of missing features to SublimeText 3 Find Results buffer"}
