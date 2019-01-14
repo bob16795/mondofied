@@ -1,5 +1,0 @@
-1 Antepenultimata 2 bird01 3 cfamfi 4 comfy01 5 deer01 6 deer02 7 dragon01 8 gruvbox 9 light 10 moon 11 solarized-dark01 12 solarized-dark02 13 solarized-light 14 tree01 15 triangles01 16 triangles02 17 zdzis01
-1 Antepenultimata 2 bird01 3 cfamfi 4 comfy01 5 deer01 6 deer02 7 dragon01 8 gruvbox 9 light 10 moon 11 solarized-dark01 12 solarized-dark02 13 solarized-light 14 tree01 15 triangles01 16 triangles02 17 zdzis01
-1 Antepenultimata 2 bird01 3 cfamfi 4 comfy01 5 deer01 6 deer02 7 dragon01 8 gruvbox 9 light 10 moon 11 solarized-dark01 12 solarized-dark02 13 solarized-light 14 tree01 15 triangles01 16 triangles02 17 zdzis01
-1 Antepenultimata 2 bird01 3 cfamfi 4 comfy01 5 deer01 6 deer02 7 dragon01 8 gruvbox 9 light 10 moon 11 solarized-dark01 12 solarized-dark02 13 solarized-light 14 tree01 15 triangles01 16 triangles02 17 zdzis01
-1 Antepenultimata 2 bird01 3 cfamfi 4 comfy01 5 deer01 6 deer02 7 dragon01 8 gruvbox 9 light 10 moon 11 solarized-dark01 12 solarized-dark02 13 solarized-light 14 tree01 15 triangles01 16 triangles02 17 zdzis01
