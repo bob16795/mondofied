@@ -19,15 +19,14 @@
       <ExtraDataItem name="GUI/SuppressMessages" value="confirmInputCapture,remindAboutAutoCapture,remindAboutMouseIntegration"/>
       <ExtraDataItem name="GUI/Toolbar" value="false"/>
       <ExtraDataItem name="GUI/Toolbar/MachineTools/Order" value="None"/>
-      <ExtraDataItem name="GUI/UpdateCheckCount" value="5"/>
-      <ExtraDataItem name="GUI/UpdateDate" value="1 d, 2019-01-13, stable, 5.2.22"/>
+      <ExtraDataItem name="GUI/UpdateCheckCount" value="6"/>
+      <ExtraDataItem name="GUI/UpdateDate" value="1 d, 2019-01-15, stable, 5.2.22"/>
       <ExtraDataItem name="HostOnly/vboxnet0/IPAddress" value="192.168.56.1"/>
       <ExtraDataItem name="HostOnly/vboxnet0/IPNetMask" value="255.255.255.0"/>
       <ExtraDataItem name="HostOnly/vboxnet1/IPAddress" value="192.168.57.1"/>
       <ExtraDataItem name="HostOnly/vboxnet1/IPNetMask" value="255.255.255.0"/>
     </ExtraData>
     <MachineRegistry>
-      <MachineEntry uuid="{11db9f98-e6bc-4164-ad89-57ed1b0339e8}" src="/home/john/VirtualBox VMs/arch/arch.vbox"/>
       <MachineEntry uuid="{96760e39-f1da-42b7-8940-a151a1e1016c}" src="/home/john/.Genymobile/Genymotion/deployed/Google Pixel 2/Google Pixel 2.vbox"/>
     </MachineRegistry>
     <NetserviceRegistry>

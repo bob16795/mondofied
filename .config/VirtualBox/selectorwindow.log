@@ -1,18 +1,21 @@
 VirtualBox GUI VM Selector Window 5.2.22 r126257 linux.amd64 (Dec 25 2018 23:59:23) release log
-00:00:01.730558 Log opened 2019-01-12T17:36:23.290075000Z
-00:00:01.730560 Build Type: release
-00:00:01.730565 OS Product: Linux
-00:00:01.730567 OS Release: 4.19.12-arch1-1-ARCH
-00:00:01.730569 OS Version: #1 SMP PREEMPT Fri Dec 21 13:56:54 UTC 2018
-00:00:01.730608 DMI Product Name: 4291EK2
-00:00:01.730623 DMI Product Version: ThinkPad X220
-00:00:01.730691 Host RAM: 7858MB (7.6GB) total, 6351MB (6.2GB) available
-00:00:01.730697 Executable: /usr/lib/virtualbox/VirtualBox
-00:00:01.730698 Process ID: 18344
-00:00:01.730699 Package type: LINUX_64BITS_GENERIC (OSE)
-00:00:01.730748 Qt version: 5.12.0
-00:00:01.890595 GUI: UIMediumEnumerator: Medium-enumeration started...
-00:00:02.629487 GUI: UIDesktopWidgetWatchdog::sltHandleHostScreenAvailableGeometryCalculated: Screen 0 work area is actually resized to: 1375x22 x 682x989
-00:00:02.630143 GUI: UIDesktopWidgetWatchdog::sltHandleHostScreenAvailableGeometryCalculated: Screen 1 work area is actually resized to: 2079x22 x 554x483
-00:00:02.733595 Failed to open "/dev/vboxdrv", errno=13, rc=VERR_VM_DRIVER_NOT_ACCESSIBLE
-00:00:02.733874 GUI: UIMediumEnumerator: Medium-enumeration finished!
+00:00:01.925592 Log opened 2019-01-14T13:37:16.773912000Z
+00:00:01.925593 Build Type: release
+00:00:01.925596 OS Product: Linux
+00:00:01.925596 OS Release: 4.19.12-arch1-1-ARCH
+00:00:01.925597 OS Version: #1 SMP PREEMPT Fri Dec 21 13:56:54 UTC 2018
+00:00:01.925620 DMI Product Name: 4291EK2
+00:00:01.925627 DMI Product Version: ThinkPad X220
+00:00:01.925663 Host RAM: 7858MB (7.6GB) total, 5898MB (5.7GB) available
+00:00:01.925666 Executable: /usr/lib/virtualbox/VirtualBox
+00:00:01.925666 Process ID: 10583
+00:00:01.925667 Package type: LINUX_64BITS_GENERIC (OSE)
+00:00:01.925694 Qt version: 5.12.0
+00:00:02.227440 GUI: UIMediumEnumerator: Medium-enumeration started...
+00:00:02.909915 GUI: UIDesktopWidgetWatchdog::sltHandleHostScreenAvailableGeometryCalculated: Screen 0 work area is actually resized to: 9x22 x 729x733
+00:00:02.970416 Failed to open "/dev/vboxdrv", errno=13, rc=VERR_VM_DRIVER_NOT_ACCESSIBLE
+00:00:02.970819 GUI: UIMediumEnumerator: Medium-enumeration finished!
+00:00:14.493004 GUI: UIMediumEnumerator: Medium-enumeration started...
+00:00:14.552904 GUI: UIMediumEnumerator: Medium-enumeration finished!
+00:00:37.226135 GUI: UIMediumEnumerator: Medium with key={f3473c4b-168a-404a-857c-f2be2e29cf29} created
+00:00:37.549867 GUI: UIMediumEnumerator: Medium-enumeration finished!
