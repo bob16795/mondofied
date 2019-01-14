@@ -1,0 +1,3 @@
+#!/bin/bash
+feh --bg-fill ~/.config/mondo/images/sudoBlue.jpg
+cp ~/.config/mondo/images/sudoBlue.jpg ~/Dropbox/wallpaper/wall.png

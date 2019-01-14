@@ -1,9 +1,10 @@
 import cmath
-def frange(start, stop, step):
-    i = start
+from decimal import *
+def frange(start: Decimal, stop, step: Decimal):
+    i = Decimal(start)
     while i < stop:
         yield i
-        i += step
+        i += Decimal(step)
 
 class poly:
     def __init__(self,nums):
@@ -42,22 +43,32 @@ class poly:
 #   if self.height() == 1:
 #           print(stri)
         return stri
-    def evaluate(self, x):
+    def evaluate(self, x:Decimal):
         b = len(self.list) - 1
-        c = 0
+        c = Decimal('0')
         for i in self.list:
-            c += i*x**b
+            if(b !=0):
+                c += Decimal(i*x**b)
+            else:
+                c += Decimal(i)
             b -= 1
-        ##print('{} is {}'.format(self.string(), c))
+        #print('{} of x={} is {}'.format(self.string(),x, c))
         return c
-    def solve(self,degree):
-        g = None
-        for i in frange(-100,100,degree):
+    def solve(self, accuracy, accuracy_cur = 1, around = None, rerun = False):
+        getcontext().prec = 28
+        g = around
+        if around == None:
+            around = 0
+        accuracy_dec = Decimal('.'+'0'*(accuracy_cur-1)+'1')
+        mid = Decimal(around)
+        for i in frange(mid-10*(accuracy_dec),mid+10*(accuracy_dec),accuracy_dec):
             if g == None:
                 g = i
             if abs(self.evaluate(i)) <= abs(self.evaluate(g)):
                 #print("best {}".format(self.evaluate(g)))
                 g = i
+        if accuracy_cur != accuracy:
+            g  =self.solve(accuracy,accuracy_cur+1,g,True) 
         return g
     def solve_old(self):
         if len(self.list) == 1:
@@ -81,3 +92,6 @@ class poly:
             return((sol1,sol2,None))
         else:
             return(("0",None))
+if __name__ == "__main__":
+    lol = poly([])
+    print(lol.solve(6))

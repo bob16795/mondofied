@@ -1,0 +1,9 @@
+[
+  { 
+    "keys": ["Z","X"], 
+    "command": "delete_current_file", 
+    "context": [ 
+      {"key": "setting.command_mode"},
+    ]
+  },
+]

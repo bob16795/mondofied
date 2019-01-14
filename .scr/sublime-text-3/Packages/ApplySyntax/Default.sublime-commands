@@ -1,0 +1,16 @@
+[
+    {
+        "caption": "ApplySyntax: Settings",
+        "command": "edit_settings", "args": {
+            "base_file": "${packages}/ApplySyntax/ApplySyntax.sublime-settings",
+            "default": "{\n$0\n}\n"
+        }
+    },
+    {
+        "caption": "ApplySyntax: Documentation",
+        "command": "apply_syntax_open_site",
+        "args": {
+            "url": "http://facelessuser.github.io/ApplySyntax/"
+        }
+    }
+]

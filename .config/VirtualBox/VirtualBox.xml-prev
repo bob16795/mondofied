@@ -9,6 +9,7 @@
   <Global>
     <ExtraData>
       <ExtraDataItem name="GUI/DetailsPageBoxes" value="general,system,preview,display,storage,audio,network,usb,sharedFolders,description"/>
+      <ExtraDataItem name="GUI/GroupDefinitions/" value="m=11db9f98-e6bc-4164-ad89-57ed1b0339e8,m=96760e39-f1da-42b7-8940-a151a1e1016c"/>
       <ExtraDataItem name="GUI/LastItemSelected" value="m=arch"/>
       <ExtraDataItem name="GUI/LastWindowPosition" value="1366,13,1280,1011"/>
       <ExtraDataItem name="GUI/RecentFolderCD" value="/home/john/dwn"/>

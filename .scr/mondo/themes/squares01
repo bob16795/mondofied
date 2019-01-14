@@ -1,0 +1,18 @@
+!! Theme:    squares01
+!! Author:   john
+!! Created:  2019-01-08
+
+color_bg     121212
+color_fg     C80204
+color_2      9E6E11
+color_3      75A406
+color_4      03807F
+color_5      98A307
+color_6      D99206
+color_7      79b9b8
+color_8      548180
+
+bg           squares.jpg
+alpha        0.75
+alpha_hex    BF
+bar          0

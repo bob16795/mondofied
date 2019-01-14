@@ -1,0 +1,5 @@
+2019/01/13-09:57:38.998 e92 Reusing MANIFEST leveldb/MANIFEST-000001
+2019/01/13-09:57:38.998 e92 Recovering log #32
+2019/01/13-09:57:38.999 e92 Level-0 table #36: started
+2019/01/13-09:57:39.046 e92 Level-0 table #36: 8592 bytes OK
+2019/01/13-09:57:39.088 e92 Delete type=0 #32

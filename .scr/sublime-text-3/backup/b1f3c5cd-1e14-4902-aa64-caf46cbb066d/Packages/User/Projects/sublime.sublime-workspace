@@ -1,0 +1,641 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"sni",
+				"snippets"
+			],
+			[
+				"while",
+				"while\tWhile Loop"
+			],
+			[
+				"sublime-tex",
+				"sublime-text-3"
+			],
+			[
+				"kbd",
+				"kbd\tkeyboard tag"
+			],
+			[
+				"folder",
+				"folder_exclude_patterns\tfolder key"
+			],
+			[
+				"bud",
+				"budlabs"
+			],
+			[
+				"l",
+				"left"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"en",
+				"Package Control: Enable Package"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"disa",
+				"Package Control: Disable Package"
+			],
+			[
+				"dis",
+				"Package Control: Disable Package"
+			],
+			[
+				"sni",
+				"Snippet: New"
+			],
+			[
+				"remo",
+				"Package Control: Remove Package"
+			],
+			[
+				"snipp",
+				"Snippet: New"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"re",
+				"Package Control: Remove Package"
+			],
+			[
+				"br",
+				"BetterSnippetManager: Create New Snippet"
+			],
+			[
+				"snima",
+				"SnippetMaker: Make Snippet"
+			],
+			[
+				"edit",
+				"SnippetMaker: Edit Snippet"
+			],
+			[
+				"make",
+				"SnippetMaker: Make Snippet"
+			],
+			[
+				"san",
+				"SaneSnippets: New SaneSnippet..."
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"pack",
+				"Package Control: Remove Package"
+			],
+			[
+				"rem",
+				"Package Control: Remove Package"
+			],
+			[
+				"packa",
+				"Package Control: Add Repository"
+			],
+			[
+				"enab",
+				"Package Control: Enable Package"
+			],
+			[
+				"remov",
+				"Package Control: Remove Package"
+			],
+			[
+				"extra",
+				"Extract Sublime Package: Extract all packages"
+			],
+			[
+				"snippse",
+				"SnippetMaker: Make Snippet"
+			],
+			[
+				"liv",
+				"LiveReload: Enable/disable plug-ins"
+			],
+			[
+				"fig",
+				"Figlet: Add Text"
+			],
+			[
+				"mark",
+				"Markdown Preview: Preview in Browser"
+			],
+			[
+				"livere",
+				"LiveReload: Enable/disable plug-ins"
+			],
+			[
+				"markpr",
+				"Markdown Preview: Preview in Browser"
+			],
+			[
+				"ui",
+				"UI: Select Color Scheme"
+			],
+			[
+				"tabde",
+				"Table Editor: Show demo film in new scratch view"
+			],
+			[
+				"tab",
+				"Table Editor: Enable for current syntax"
+			],
+			[
+				"in",
+				"Package Control: Install Package"
+			],
+			[
+				"da",
+				"DA UI: Re-apply Settings"
+			],
+			[
+				"da ui",
+				"DA UI: Re-apply Settings"
+			],
+			[
+				"synta no",
+				"Set Syntax: Note"
+			],
+			[
+				"di",
+				"Package Control: Disable Package"
+			],
+			[
+				"synt",
+				"Syntax Manager: Reload Settings"
+			],
+			[
+				"syntax",
+				"Syntax Manager: Reload Settings"
+			],
+			[
+				"mini",
+				"View: Toggle Minimap"
+			],
+			[
+				"snippet de",
+				"Destroy all snippets!!"
+			],
+			[
+				"side",
+				"View: Toggle Side Bar"
+			]
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 226.0,
+		"history":
+		[
+			"clear()",
+			"clear",
+			"print(sublime.view.visibleRegion())",
+			"print(sublime.visibleRegion())",
+			"print(sublime.View.visibleRegion())",
+			"print(sublime.View.visibleRegion()",
+			"print(sublime.View.VisibleRegion()",
+			"print(sublime.View.visibleRegion()",
+			"print(sublime.Settings.get('is_panel')",
+			"print(sublime.Settings.__dict__)",
+			"print(sublime.__dict__)",
+			"print(sublime)",
+			"print(sublime.view.settins())",
+			"print(view.settins())",
+			"clear",
+			"ear",
+			"sublime.log_commands(True)",
+			"view.settings().get(\"syntax\")",
+			"command(\"reveal_in_side_bar\")"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/home/bud/.config/sublime-text-3/Packages",
+		"/home/bud/.config/sublime-text-3/Installed Packages",
+		"/home/bud/tmp/stpkg"
+	],
+	"file_history":
+	[
+		"/home/bud/.config/sublime-text-3/Packages/BetterSnippetManager/BetterSnippetManager.py",
+		"/home/bud/dox/not/sublime/note",
+		"/home/bud/dox/not/sublime/interpackage_communication.py",
+		"/home/bud/.config/sublime-text-3/Packages/User/Package Control.sublime-settings",
+		"/home/bud/.config/sublime-text-3/Packages/LoremIpsum/README.markdown",
+		"/home/bud/git/lab/budlime/awesome/README.md",
+		"/home/bud/.config/sublime-text-3/Packages/User/project_manager.sublime-settings",
+		"/home/bud/.config/sublime-text-3/Packages/iOpener/i_opener.py",
+		"/home/bud/dox/not/sublime/links.md",
+		"/home/bud/.config/sublime-text-3/Packages/User/snippets/sublime/kb.sane-snippet",
+		"/home/bud/dox/not/ytd/ytdl",
+		"/home/bud/.config/sublime-text-3/Packages/User/Projects/sublime.sublime-project",
+		"/home/bud/.config/sublime-text-3/Packages/PackageDev/README.md",
+		"/home/bud/dox/not/sublime/todo",
+		"/home/bud/.config/sublime-text-3/Packages/zublime/Default (Linux).sublime-keymap",
+		"/home/bud/.config/sublime-text-3/Packages/Delete Current File/Default (Linux).sublime-keymap",
+		"/home/bud/.config/sublime-text-3/Packages/Quick File Move/Default (Linux).sublime-keymap",
+		"/home/bud/.config/sublime-text-3/Packages/Delete Current File/Default (Linux).subime-keymap",
+		"/home/bud/.config/sublime-text-3/Packages/SideBarEnhancements/Commands.sublime-commands",
+		"/home/bud/.config/sublime-text-3/Packages/SideBarEnhancements/Default (Linux).sublime-keymap",
+		"/home/bud/dox/not/sublime/arnorld",
+		"/home/bud/.config/sublime-text-3/Packages/SideBarEnhancements/Side Bar.sublime-settings",
+		"/home/bud/.config/sublime-text-3/Packages/Table Editor/Default.sublime-commands",
+		"/home/bud/.config/sublime-text-3/Packages/zublime/Preferences.sublime-settings",
+		"/home/bud/tmp/stpkg/ProjectManager/project_manager.py",
+		"/home/bud/.config/sublime-text-3/Packages/FastOpen/fastopen.py",
+		"/home/bud/dox/not/${project_base_name}/todo",
+		"/home/bud/.config/sublime-text-3/Packages/TwoFont/tfnt.py",
+		"/home/bud/.config/sublime-text-3/Packages/User/Note.sublime-settings",
+		"/home/bud/.config/sublime-text-3/Packages/Table Editor/Default (Linux).sublime-keymap",
+		"/home/bud/dox/not/sublime.sublime-project/todo",
+		"/home/bud/src/bash/sublime/sublaction",
+		"/home/bud/git/lab/budlime/packages/Alignment/Default (Linux).sublime-keymap",
+		"/home/bud/tmp/stpkg/Table Editor/Default (Linux).sublime-keymap",
+		"/home/bud/tmp/stpkg/Snippet Destroyer/README.md",
+		"/home/bud/tmp/stpkg/Snippet Destroyer/symlink.sh",
+		"/home/bud/tmp/stpkg/Snippet Destroyer/Commands.sublime-commands",
+		"/home/bud/tmp/stpkg/Horizontal Scroll/Default (Linux).sublime-keymap",
+		"/home/bud/tmp/stpkg/SQL/Comments.tmPreferences",
+		"/home/bud/tmp/stpkg/SQL/Miscellaneous.tmPreferences",
+		"/home/bud/.config/sublime-text-3/Packages/TwoFont/Default (Linux).sublime-keymap",
+		"/home/bud/.config/sublime-text-3/Packages/MoveTab/Default.sublime-commands",
+		"/home/bud/.config/sublime-text-3/Packages/PlainTasks/tasks.hidden-tmTheme",
+		"/home/bud/dox/not/sublime/todo.md",
+		"/home/bud/.config/sublime-text-3/Packages/Vintage/Vintage.sublime-commands",
+		"/home/bud/.config/sublime-text-3/Packages/User/Notes.sublime-settings",
+		"/home/bud/.config/sublime-text-3/Packages/PlainTasks/PlainTasks (Linux).sublime-settings",
+		"/home/bud/git/lab/budlime/packages/PlainNotes/Default.sublime-commands",
+		"/home/bud/.config/sublime-text-3/Packages/User/Preferences.sublime-settings",
+		"/home/bud/.config/sublime-text-3/Packages/Vintage/Default.sublime-keymap",
+		"/home/bud/.config/sublime-text-3/Packages/PlainTasks/Default (Linux).sublime-keymap",
+		"/home/bud/git/lab/budlime/scripts/sublaunch/sublaunch.sh",
+		"/home/bud/.config/sublime-text-3/Packages/User/Snippets/test.bash",
+		"/home/bud/.config/sublime-text-3/Packages/PlainTasks/test/test.todo",
+		"/home/bud/.config/sublime-text-3/Packages/VintageSanity/Default (Linux).sublime-keymap",
+		"/home/bud/.config/sublime-text-3/Packages/PlainTasks/messages/install.txt",
+		"/home/bud/.config/sublime-text-3/Packages/PlainTasks/messages/Tutorial.todo",
+		"/home/bud/dox/not/sublime/waitforfile.py",
+		"/home/bud/git/lab/budlime/scripts/sublaction/sublaction.sh",
+		"/home/bud/dox/not/links.note",
+		"/home/bud/.config/sublime-text-3/Packages/User/snippets/sublime/snipp.sane-snippet",
+		"/home/bud/.config/sublime-text-3/Packages/User/Snippets/CS-prop.sublime-snippet",
+		"/home/bud/.config/sublime-text-3/Packages/User/Snippets/CS-act.sublime-snippet",
+		"/home/bud/.config/sublime-text-3/Packages/User/snippets/sublime/lkab.sane-snippet",
+		"/home/bud/.config/sublime-text-3/Packages/SaneSnippets/SaneSnippets.sublime-settings",
+		"/home/bud/.config/sublime-text-3/Packages/SaneSnippets/SaneSnippets.sublime-commands",
+		"/home/bud/.config/sublime-text-3/Packages/SaneSnippets/Test/highlight_test.sane_snippet",
+		"/home/bud/.config/sublime-text-3/Packages/BetterSnippetManager/BetterSnippetManager.sublime-commands",
+		"/home/bud/.config/sublime-text-3/Packages/BetterSnippetManager/BetterSnippetManager.sublime-settings",
+		"/home/bud/.config/sublime-text-3/Packages/User/Snippets/oo.sane.sublime-snippet",
+		"/home/bud/.config/sublime-text-3/Packages/User/Snippets/oo.sane-snippet",
+		"/home/bud/.config/sublime-text-3/Packages/User/Snippets/bash-new.sublime-snippet",
+		"/home/bud/.config/sublime-text-3/Packages/SnippetMaker/SnippetMaker.py",
+		"/home/bud/.config/sublime-text-3/Packages/SaneSnippets/new_sane_snippet.py",
+		"/home/bud/.config/sublime-text-3/Packages/User/Snippets/eee.sane.sublime-snippet",
+		"/home/bud/.config/sublime-text-3/Packages/User/Snippets/aaa.sane.sublime-snippet",
+		"/home/bud/.config/sublime-text-3/Packages/User/Snippets/barnn.sublime-snippet",
+		"/home/bud/.config/sublime-text-3/Packages/User/Snippets/lll.sane.sublime-snippet",
+		"/home/bud/.config/sublime-text-3/Packages/User/Snippets/fff.sane.sublime-snippet",
+		"/home/bud/.config/sublime-text-3/Packages/SaneSnippets/sane_snippets.py",
+		"/home/bud/tmp/stpkg/SnippetMaker/SnippetMaker.py",
+		"/home/bud/.config/sublime-text-3/Packages/User/Snippets/llkk.sublime-snippet",
+		"/home/bud/.config/sublime-text-3/Packages/User/Snippets/aa.sublime-snippet",
+		"/home/bud/.config/sublime-text-3/Packages/User/Snippets/fghs.sublime-snippet",
+		"/home/bud/.config/sublime-text-3/Packages/User/Snippets/qwe.sublime-snippet",
+		"/home/bud/.config/sublime-text-3/Packages/User/Snippets/ttt.sublime-snippet",
+		"/home/bud/.config/sublime-text-3/Packages/User/Snippets/rr.sane-snippet",
+		"/home/bud/.config/sublime-text-3/Packages/User/Snippets/aa.sane-snippet",
+		"/home/bud/.config/sublime-text-3/Packages/User/Snippets/gg.sane-snippet",
+		"/home/bud/.config/sublime-text-3/Packages/User/Snippets/ttff.sane-snippet",
+		"/home/bud/.config/sublime-text-3/Packages/User/Snippets/ll.sane-snippet",
+		"/etc/pacman.conf",
+		"/home/bud/.config/sublime-text-3/Packages/User/Snippets/hh.sane-snippet",
+		"/home/bud/.config/sublime-text-3/Packages/SaneSnippets/SaneSnippet.sane.sublime-snippet",
+		"/home/bud/.config/sublime-text-3/Packages/User/Snippets/tdb.sane-snippet",
+		"/home/bud/.config/sublime-text-3/Packages/User/Snippets/tdb.sane.sublime-snippet",
+		"/home/bud/.config/sublime-text-3/Packages/User/Snippets/hell.sane.sublime-snippet",
+		"/home/bud/.config/sublime-text-3/Packages/User/Snippets/hell.sane-snippet",
+		"/home/bud/src/bash/i3ass/i3fyra",
+		"/home/bud/.config/sublime-text-3/Packages/User/Snippets/hell.sublime-snippet",
+		"/home/bud/dox/websave/write-a-book.md",
+		"/home/bud/git/lab/budlime/packages/Increment Selection/Default (Linux).sublime-keymap",
+		"/home/bud/.config/sublime-text-3/Packages/Increment Selection/Default (Linux).sublime-keymap",
+		"/home/bud/src/bash/browser/brws",
+		"/home/bud/dox/websave/lesssoftware.md",
+		"/home/bud/tmp/stpkg/ProjectManager/support/Default.sublime-commands",
+		"/home/bud/git/lab/budlime/youtube/essential-package-ProjectManager/Default (Linux).sublime-keymap",
+		"/home/bud/git/lab/budlime/packages/iOpener/as/1.md",
+		"/home/bud/.config/sublime-text-3/Packages/Extract Sublime Package/Default.sublime-commands",
+		"/home/bud/tmp/stpkg/Extract Sublime Package/ExtractSublimePackage.py",
+		"/home/bud/tmp/stpkg/Extract Sublime Package/Default.sublime-commands",
+		"/home/bud/.config/sublime-text-3/Packages/Extract Sublime Package/ExtractSublimePackage.py",
+		"/home/bud/.config/sublime-text-3/Packages/User/Snippets/arne/mmm",
+		"/home/bud/.xinitrc",
+		"/home/bud/.config/sublime-text-3/Packages/User/Snippets/bash-gops.sublime-snippet",
+		"/home/bud/.config/sublime-text-3/Packages/User/Snippets/test/new",
+		"/home/bud/git/forks/iOpener/i_opener.py",
+		"/home/bud/dox/websave/dennis-comments-in-uv6.md",
+		"/home/bud/tmp/nix6/www.tom-yam.or.jp/2238/src/alloc.c.html",
+		"/home/bud/.config/sublime-text-3/Packages/CommandCommander/CommandCommander.py",
+		"/home/bud/git/lab/budlime/packages/sublime-swap-boolean-polarity/README.md",
+		"/home/bud/.config/sublime-text-3/Packages/DisableArrowkeys/Default (Linux).sublime-keymap",
+		"/home/bud/.config/sublime-text-3/Packages/iOpener/Default (Linux).sublime-keymap",
+		"/home/bud/tmp/stpkg/C#/Build.sublime-syntax",
+		"/home/bud/.config/sublime-text-3/Packages/Default/Default (Linux).sublime-keymap",
+		"/home/bud/tmp/stpkg/Default/arithmetic.py",
+		"/home/bud/git/lab/budlime/packages/DA UI/DA Theme.sublime-settings",
+		"/home/bud/git/lab/budlime/packages/sublime-swap-boolean-polarity/Default (Linux).sublime-keymap"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 138.0,
+		"where_history":
+		[
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"lorem",
+			": https://github.com/",
+			"re",
+			"sep",
+			"globals",
+			"\":",
+			"buffer",
+			"v",
+			"window",
+			"file",
+			"content",
+			", ",
+			"create",
+			"widget",
+			"panel",
+			"comments",
+			"```",
+			"extract",
+			"scheme",
+			"status_bar_background_color",
+			"color",
+			"highly",
+			"win_items",
+			"items",
+			"  \"path\": \"",
+			"basedir",
+			"gfiles",
+			"buddir",
+			"subdir",
+			"\"",
+			"echo",
+			"</kbd>",
+			"<kbd>",
+			"</kbd>",
+			"<kbd>",
+			"+left\"",
+			"+right\"",
+			"+down\"",
+			"+up\"",
+			"up",
+			"\"ctrl+k\",",
+			"      { \"key\": \"following_text\", \"operator\": \"regex_contains\", \"operand\": \"$\", \"match_all\": true }\n",
+			"Scroll",
+			"Horizontal",
+			"scroll",
+			"management",
+			"manipulation",
+			"true",
+			"'",
+			"// ",
+			"ctrl",
+			"Packages",
+			"]:",
+			")",
+			"(",
+			"](",
+			")",
+			"(",
+			"scheme",
+			"is",
+			"shift",
+			"descr",
+			"'",
+			"url",
+			"true",
+			"\": ",
+			"focus",
+			"Friend",
+			"  ",
+			"shift",
+			"Color",
+			"with",
+			"endwithsemi",
+			"package",
+			"},"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 35.0
+	},
+	"input":
+	{
+		"height": 57.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": false,
+	"output.SublimeLinter":
+	{
+		"height": 0.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.jotter":
+	{
+		"height": 166.0
+	},
+	"output.mdpopups":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "sublime.sublime-project",
+	"replace":
+	{
+		"height": 66.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"awe",
+				"awesome/README.md"
+			],
+			[
+				"aw",
+				"awesome/README.md"
+			],
+			[
+				"pac",
+				"packages - budlime/Package Control/Package Control.sublime-settings"
+			],
+			[
+				"subla",
+				"src/sublaction"
+			],
+			[
+				"doi",
+				"notes/doit.note"
+			],
+			[
+				"do",
+				"notes/doit.note"
+			],
+			[
+				"sube",
+				"budlime/scripts/subextract/subextract.sh"
+			],
+			[
+				"di",
+				"notes/doit.note"
+			],
+			[
+				"",
+				"notes/doit.note"
+			],
+			[
+				"hi",
+				"budlime/wiki/subl7_hidden_commands.md"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": false,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 331.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

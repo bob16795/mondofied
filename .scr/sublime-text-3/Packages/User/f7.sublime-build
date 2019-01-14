@@ -1,0 +1,3 @@
+{
+  "cmd": ["make_cmd", "$file_path", "$file_name"]
+}

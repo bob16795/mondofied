@@ -1,0 +1,3 @@
+#!/bin/bash
+feh --bg-fill ~/.config/mondo/images/speaker.jpg
+cp ~/.config/mondo/images/speaker.jpg ~/Dropbox/wallpaper/wall.png

@@ -1,0 +1,17 @@
+!! Theme:    light
+!! Author:   john
+!! Created:  2019-01-01
+
+color_bg     093449
+color_fg     54A9D8
+color_2      61AFD9
+color_3      71C3EF
+color_4      88B8D1
+color_5      93D0F0
+color_6      A6D8F3
+color_7      e3eff6
+color_8      9ea7ac
+bg           light.jpg
+alpha        0.5
+alpha_hex    80
+bar          0

@@ -1,0 +1,27 @@
+{
+  "root": "~/Dropbox/Notes/",
+	"archive_dir": ".archive",
+	"enable_yaml": false,
+	"jotter_date_format": "%d %b %Y",
+	"jotter_dir": ".brain",
+	"jotter_time_format": "%I:%M %p",
+	"note_color_scheme": "Packages/mondo/mondo.tmTheme",
+  "jotter_color_scheme": "Packages/mondo/mondo.tmTheme",
+  "list_options":
+	{
+		"display_folder": false,
+		"display_full_path": false,
+		"display_modified_date": false
+	},
+	"note_file_extensions":
+	[
+		"md",
+		"note"
+	],
+	"note_save_extension": "note",
+	"note_yaml":
+	[
+		"tags"
+	],
+	"root": "~/doc/not/"
+}

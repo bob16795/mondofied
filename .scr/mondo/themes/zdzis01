@@ -1,0 +1,17 @@
+!! Theme:    deer
+!! Author:   john
+!! Created:  2019-01-01
+
+color_bg     120f0d
+color_fg     785C43
+color_2      895F3B
+color_3      845E42
+color_4      976D45
+color_5      A77A4B
+color_6      B3874E
+color_7      cfbda7
+color_8      908474
+bg           1342985252561.jpg
+alpha        0.5
+alpha_hex    80
+bar          1
