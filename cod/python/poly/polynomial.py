@@ -92,6 +92,7 @@ class poly:
             return((sol1,sol2,None))
         else:
             return(("0",None))
+
 if __name__ == "__main__":
-    lol = poly([])
+    lol = poly([6,6,6,6])
     print(lol.solve(6))
