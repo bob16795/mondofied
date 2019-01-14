@@ -9,12 +9,11 @@
   <Global>
     <ExtraData>
       <ExtraDataItem name="GUI/DetailsPageBoxes" value="general,system,preview,display,storage,audio,network,usb,sharedFolders,description"/>
-      <ExtraDataItem name="GUI/GroupDefinitions/" value="m=11db9f98-e6bc-4164-ad89-57ed1b0339e8,m=96760e39-f1da-42b7-8940-a151a1e1016c"/>
-      <ExtraDataItem name="GUI/LastItemSelected" value="m=arch"/>
-      <ExtraDataItem name="GUI/LastWindowPosition" value="1366,13,1280,1011"/>
+      <ExtraDataItem name="GUI/LastItemSelected" value="m=mondofied"/>
+      <ExtraDataItem name="GUI/LastWindowPosition" value="761,23,593,733"/>
       <ExtraDataItem name="GUI/RecentFolderCD" value="/home/john/dwn"/>
       <ExtraDataItem name="GUI/RecentListCD" value="/home/john/dwn/archlinux-2019.01.01-x86_64.iso"/>
-      <ExtraDataItem name="GUI/SplitterSizes" value="394,882"/>
+      <ExtraDataItem name="GUI/SplitterSizes" value="182,407"/>
       <ExtraDataItem name="GUI/Statusbar" value="false"/>
       <ExtraDataItem name="GUI/SuppressMessages" value="confirmInputCapture,remindAboutAutoCapture,remindAboutMouseIntegration"/>
       <ExtraDataItem name="GUI/Toolbar" value="false"/>
@@ -28,6 +27,7 @@
     </ExtraData>
     <MachineRegistry>
       <MachineEntry uuid="{96760e39-f1da-42b7-8940-a151a1e1016c}" src="/home/john/.Genymobile/Genymotion/deployed/Google Pixel 2/Google Pixel 2.vbox"/>
+      <MachineEntry uuid="{14f0adb5-3daf-4571-85b0-d9b8bdece859}" src="/home/john/VirtualBox VMs/mondofied/mondofied.vbox"/>
     </MachineRegistry>
     <NetserviceRegistry>
       <DHCPServers>
