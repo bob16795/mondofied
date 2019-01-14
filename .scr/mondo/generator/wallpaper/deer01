@@ -1,3 +1,0 @@
-#!/bin/bash
-feh --bg-fill ~/.config/mondo/images/deer.png
-cp ~/.config/mondo/images/deer.png ~/Dropbox/wallpaper/wall.png

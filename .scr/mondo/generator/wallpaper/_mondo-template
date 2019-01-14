@@ -1,3 +1,0 @@
-#!/bin/bash
-feh --bg-fill ~/.config/mondo/images/%%bg%%
-cp ~/.config/mondo/images/%%bg%% ~/Dropbox/wallpaper/wall.png

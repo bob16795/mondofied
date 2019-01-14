@@ -1,3 +1,0 @@
-#!/bin/bash
-feh --bg-fill ~/.config/mondo/images/solarized-light.png
-cp ~/.config/mondo/images/solarized-light.png ~/Dropbox/wallpaper/wall.png
