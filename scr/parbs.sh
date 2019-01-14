@@ -208,6 +208,10 @@ sudo -u "$name" git clone http://github.com/bob16795/dwm /home/$name/.config/dwm
 #install spacevim
 curl -sLf https://spacevim.org/install.sh | sudo -u $name bash
 
+#install tmux
+sudo -u $name git clone http://github.com/gpakosz/.tmux
+sudo -u $name ln -s -f .tmux/.tmux.conf
+
 #copy rofi theme
 cp /home/$name/.config/rofi/bmenu.rasi /usr/share/rofi/> /dev/null
 
