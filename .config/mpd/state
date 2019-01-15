@@ -1,9 +1,9 @@
-sw_volume: 90
+sw_volume: 92
 audio_device_state:1:pulse audio
 audio_device_state:1:toggle_visualizer
 state: pause
-current: 2287
-time: 11.295000
+current: 16
+time: 7.613000
 random: 0
 repeat: 0
 single: 0
@@ -2428,4 +2428,11 @@ playlist_begin
 2413:TheOneUps/William & Mustin Announce Reytro.opus
 2414:TheOneUps/The OneUps 15 YEAR ANNIVERSARY _ Chrono Trigger - Secret of the Forest Cover.opus
 2415:TheOneUps/Castlevania - Symphony of the Night 'Lost Painting' Rock Ballad Cover by The OneUps.opus
+2416:88rising/Keith Ape x Ski Mask TheSlumpGod  - DR. EGGMAN (Prod By. RONNYJLISTENUP).opus
+2417:88rising/Keith Ape x Ski Mask TheSlumpGod  - DR. EGGMAN (Prod By. RONNYJLISTENUP).opus
+2418:Lyrical Lemonade/Ski Mask The Slump God - Catch Me Outside (Dir. by @_ColeBennett_).opus
+2419:Lyrical Lemonade/Ski Mask The Slump God - BabyWipe (Dir. by @_ColeBennett_).opus
+2420:88rising/Higher Brothers & Ski Mask the Slump God - Flo Rida.opus
+2421:88rising/Higher Brothers & Ski Mask the Slump God - Flo Rida (Official Music Video).opus
+2422:Lyrical Lemonade/Ski Mask The Slump God - LA LA (Dir. by @_ColeBennett_).ogg
 playlist_end

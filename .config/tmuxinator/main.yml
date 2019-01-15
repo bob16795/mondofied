@@ -44,10 +44,30 @@ root: ~/
 
 windows:
   - dev: cd ~/; vim
-  - doc: cd ~/doc; vim
-  - cod: cd ~/cod; vim
-  - cfg: cd ~/cfg; vim
+  - doc:
+      root: ~/doc/src
+      layout: e544,270x66,0,0{206x66,0,0[206x53,0,0,1,206x12,0,54,10],63x66,207,0[63x32,207,0,8,63x33,207,33,9]}
+      panes:
+        - vim
+        - vis
+        - tmux command-prompt -i clock
+        - 
+  - cod:
+      root: ~/cod
+      layout: e544,270x66,0,0{206x66,0,0[206x53,0,0,1,206x12,0,54,10],63x66,207,0[63x32,207,0,8,63x33,207,33,9]}
+      panes:
+        - vim
+        - vis
+        - tmux command-prompt -i clock
+        - 
+  - cfg:
+      root: ~/cfg
+      layout: e544,270x66,0,0{206x66,0,0[206x53,0,0,1,206x12,0,54,10],63x66,207,0[63x32,207,0,8,63x33,207,33,9]}
+      panes:
+        - vim
+        - vis
+        - tmux command-prompt -i clock
+        - 
   - git: cd ~/; git status
   - cmd: cd ~/; tput reset
   - mpd: ncmpcpp
-  - vis: set TERM rxvt-256color; vis

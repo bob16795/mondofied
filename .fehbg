@@ -1,2 +1,2 @@
 #!/bin/sh
-feh --bg-fill '/home/john/.config/mondo/images/speaker.jpg' 
+feh --bg-fill '/home/john/.config/mondo/images/bird.png' 

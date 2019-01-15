@@ -1,5 +1,6 @@
 # Mondofied
 
+
 # install
 run scr/install.sh on live arch media or scr/parbs.sh on pre installed
 
@@ -11,7 +12,7 @@ run scr/install.sh on live arch media or scr/parbs.sh on pre installed
 ## beta 2.0
 
 ### added
- - auto filesorting script: run `filesort | sh`
+ - auto file sorting script: run `filesort | sh`
 
 ### removed
  - sublime from programs installed
@@ -22,7 +23,7 @@ run scr/install.sh on live arch media or scr/parbs.sh on pre installed
  - cleanup of .config
 
 
-# todo
+# Todo
 
 ## ideas
  - cleanup ~/.config
@@ -32,3 +33,7 @@ run scr/install.sh on live arch media or scr/parbs.sh on pre installed
  - auto filesorting remove pipe and my username
 
 ## in progress
+
+# FAQ:
+## WTF is mondified?
+mondofied is a dotfiles repoitory based on a mondified version of mondo.
