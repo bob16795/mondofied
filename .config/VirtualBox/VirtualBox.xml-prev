@@ -9,6 +9,7 @@
   <Global>
     <ExtraData>
       <ExtraDataItem name="GUI/DetailsPageBoxes" value="general,system,preview,display,storage,audio,network,usb,sharedFolders,description"/>
+      <ExtraDataItem name="GUI/GroupDefinitions/" value="m=96760e39-f1da-42b7-8940-a151a1e1016c,m=14f0adb5-3daf-4571-85b0-d9b8bdece859"/>
       <ExtraDataItem name="GUI/LastItemSelected" value="m=mondofied"/>
       <ExtraDataItem name="GUI/LastWindowPosition" value="761,23,593,733"/>
       <ExtraDataItem name="GUI/RecentFolderCD" value="/home/john/dwn"/>
@@ -32,7 +33,7 @@
     <NetserviceRegistry>
       <DHCPServers>
         <DHCPServer networkName="HostInterfaceNetworking-vboxnet0" IPAddress="192.168.56.100" networkMask="255.255.255.0" lowerIP="192.168.56.101" upperIP="192.168.56.254" enabled="1"/>
-        <DHCPServer networkName="HostInterfaceNetworking-vboxnet1" IPAddress="192.168.57.100" networkMask="255.255.255.0" lowerIP="192.168.57.101" upperIP="192.168.57.254" enabled="1"/>
+        <DHCPServer networkName="HostInterfaceNetworking-vboxnet1" IPAddress="192.168.57.100" networkMask="255.255.255.0" lowerIP="192.168.57.101" upperIP="192.168.57.254" enabled="0"/>
       </DHCPServers>
     </NetserviceRegistry>
     <SystemProperties defaultMachineFolder="/home/john/VirtualBox VMs" defaultHardDiskFormat="VDI" VRDEAuthLibrary="VBoxAuth" webServiceAuthLibrary="VBoxAuth" LogHistoryCount="3" exclusiveHwVirt="true"/>

@@ -67,4 +67,4 @@ export PATH=$PATH:~/bin:~/.gem/ruby/2.5.0/bin
 #neofetch
 #source ~/.dotfiles/index.shp
 
-tmuxinator start main
+#tmuxinator start main

@@ -10,7 +10,7 @@ mpd & #music
 #bar & # status
 slstatus & # status
 #xset r rate 300 50 #key repeate
-compton & #composite
+compton -c& #composite
 #feh --bg-fill ~/.config/wall.png # wallpaper old
 ~/scr/wall.sh & # wallpaper
 #alacritty --class lin & # terminal

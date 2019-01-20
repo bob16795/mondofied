@@ -7,6 +7,7 @@ do
 done
 # --audio-format mp3
 wait
+cp ~/snd/* /mnt
 
 declare -i k;
 ((k==0))

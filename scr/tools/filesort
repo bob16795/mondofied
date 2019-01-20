@@ -59,7 +59,7 @@ types = {
         "md" :"/home/john/doc/man/",
         "ms" :"/home/john/doc/src/",
         "tex":"/home/john/doc/src/",
-        "bib":"/home/john/doc/cit/",
+#        "bib":"/home/john/doc/cit/",
         "nes":"/home/john/rom/nes/",
         "smc":"/home/john/rom/snes/",
         "sfc":"/home/john/rom/snes/",
