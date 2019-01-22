@@ -11,6 +11,6 @@ app.autostart-mode=""
 app.window.position.y=24
 storage.last-location="/home/john/.cache/spotify/Storage"
 app.window.position.width=865
-core.clock_delta=41
+core.clock_delta=44
 app.last-launched-version="1.0.94.262.g3d5c231c"
 app.autostart-configured=true

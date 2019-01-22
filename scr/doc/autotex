@@ -11,7 +11,7 @@ do
   then
     if [ $ela_parsed != "\\input{ela_master.tex}" ]
     then
-      echo \\subsection{$ela} | sed -s "s/ela_//" | sed -s "s/.tex//g" | sed -s "s/_/ /g"| sed -s  "s/ / /g">> ~/doc/src/ela_master.tex
+      echo \\subsection{$ela} | sed -s "s/The_//"| sed -s "s/ela_//" | sed -s "s/.tex//g" | sed -s "s/_/ /g"| sed -s  "s/ / /g">> ~/doc/src/ela_master.tex
       echo $ela_parsed >> ~/doc/src/ela_master.tex
       cat ~/doc/src/$ela | sed -s 's/%-// ' > ~/doc/tmp/$ela
       echo compiling $ela
@@ -39,6 +39,25 @@ do
     fi
   fi
 done
+filesort | sh
+echo -E \\section{Science} > ~/doc/src/science_master.tex
+for i in $(ls ~/doc/src -w 1)
+do
+  science=$(echo $i | grep 'science_*') 
+  science_parsed=$(echo -E \\input{$science})
+  if [ $science_parsed != "\\input{}" ] 
+  then
+    if [ $science_parsed != "\\input{science_master.tex}" ]
+    then
+      echo \\subsection{$science} | sed -s "s/science_//" | sed -s "s/.tex//g" | sed -s "s/_/ /g" | sed -s  "s/ / /g" >> ~/doc/src/science_master.tex
+      echo $science_parsed >> ~/doc/src/science_master.tex
+      cat ~/doc/src/$science | sed -s 's/%-// ' > ~/doc/tmp/$science
+      echo compiling $science
+      pdflatex ~/doc/tmp/$science >> /dev/null
+      rm ~/doc/tmp/$science
+    fi
+  fi
+done
 
 echo -E \\phantomsection > ~/doc/src/pdf_master.tex
 echo -E \\addcontentsline{toc}{section}{Esseys} >> ~/doc/src/pdf_master.tex
@@ -49,7 +68,7 @@ do
   pdf_parsed=$(echo -E \\includepdf[pages=-]{$HOME/doc/pdf/$pdf} | sed -s "s/.tex/.pdf/")
   if [ -z "${pdf}" ]
   then 
-    echo lol
+    echo lol >> /dev/null
   else
     if [ $pdf != "pdf_master.tex" ]
     then
@@ -67,7 +86,7 @@ filesort | sh
 rm .* >> /dev/null
 cd ~/doc/src
 echo compiling main
-pdflatex main #>> /dev/null
+pdflatex main >> /dev/null
 bibtex8 main >> /dev/null
 makeindex -q main >> /dev/null
 pdflatex main >> /dev/null
