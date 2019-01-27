@@ -16,7 +16,7 @@ compton -c& #composite
 #alacritty --class lin & # terminal
 firefox & #web
 #qutebrowser file:///home/john/.config/webhome/index.html &
-dockd --daemon & #dock
+#dockd --daemon & #dock
 #glava & # music vis
 alacritty --class dev & #dev
 alacritty --class visual -e vis & #music vis

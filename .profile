@@ -10,6 +10,7 @@ export READER="zathura"
 export BIB="$HOME/Documents/LaTeX/uni.bib"
 export REFER="$HOME/.referbib"
 
+export XDG_CONFIG_HOME="$HOME/.config"
 
 # less/man colors
 export LESS=-R

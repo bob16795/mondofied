@@ -1,0 +1,69 @@
+#!/usr/bin/env python
+import tkinter
+import os
+import subprocess
+
+top = tkinter.Tk()
+home = os.path.expanduser('~')
+os.environ['SDL_VIDEO_CENTERED'] = '1'
+
+themes = subprocess.check_output(['mondo', '-l', 'themes'])
+themes_list = themes.split(b'\n')
+for i in range(0,len(themes_list)):
+    themes_list[i] = themes_list[i].decode("utf-8")
+Topbar = tkinter.IntVar()
+Bartype = tkinter.IntVar()
+Gapps = tkinter.IntVar()
+Theme = tkinter.StringVar()
+def update(lol = Gapps.get()):
+    with open(home+'/.config/settings/main.conf','r') as infile:
+        with open(home+'/.config/mondo/generator/dwm/_mondo-template', "w") as outfile:
+            for line in infile:
+                new_line = line.replace("__barpos__", str(Topbar.get()))
+                new_line = new_line.replace("__bar__", str(Bartype.get()))
+                if lol not in themes_list:
+                    new_line = new_line.replace("__gapps__", str(lol))
+                else:
+                    new_line = new_line.replace("__gapps__", str(Gapps.get()))
+                print(new_line[0:-1])
+                outfile.write(new_line)
+    with open(home+'/.config/settings/current.conf','w') as outfile:
+        outfile.write(str(Topbar.get())+'\n')
+        outfile.write(str(Bartype.get())+'\n')
+        outfile.write(str(Gapps.get())+'\n')
+        outfile.write(Theme.get()+'\n')
+with open(home+'/.config/settings/current.conf','r') as infile:
+    Topbar.set(int(infile.readline()))
+    Bartype.set(int(infile.readline()))
+    Gapps.set(int(infile.readline()))
+    Theme.set(infile.readline())
+
+Frame_Topbar = tkinter.Frame(top)
+Topbar_c = tkinter.Checkbutton(Frame_Topbar, text = "Top Bar", variable = Topbar, \
+                               onvalue = 1, offvalue = 0, command = update)
+
+Frame_Bartype = tkinter.Frame(top)
+BarType0_r = tkinter.Radiobutton(Frame_Bartype, text="Selected window", variable=Bartype, value=0,
+                                 command=update)
+BarType1_r = tkinter.Radiobutton(Frame_Bartype, text="All windows", variable=Bartype, value=1,
+                                 command=update)
+Gapps_s = tkinter.Scale( top, variable = Gapps, from_ = 0, to = 40, \
+                        command = update )
+
+theme_m = tkinter.OptionMenu(top, Theme, *themes_list, command = update)
+
+Frame_Topbar.pack()
+Topbar_c.pack(side = tkinter.LEFT)
+
+
+Frame_Bartype.pack()
+BarType0_r.pack(side = tkinter.LEFT)
+BarType1_r.pack(side = tkinter.LEFT)
+Gapps_s.pack()
+theme_m.pack()
+
+top.mainloop()
+
+subprocess.call(["mondo", "-fg", "all"])
+subprocess.call(["mondo", "-a", Theme.get()])
+print("updated mondo")

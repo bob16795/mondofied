@@ -20,9 +20,9 @@ pane_x_size=320
 #Size of remote view
 pane_y_size=240
 #Size of window (full)
-wnd_x_size1=659
+wnd_x_size1=1280
 #Size of window (full)
-wnd_y_size1=587
+wnd_y_size1=1011
 #Size of window (no local)
 wnd_x_size2=320
 #Size of window (no local)
@@ -50,7 +50,7 @@ show_all=0
 #Ask for overwriting
 overwrite=1
 #Receive as group instead of single files
-recv_as_group=1
+recv_as_group=0
 #Receive as TIGroup instead of backup/group files
 backup_as_tigroup=1
 #Working folder
