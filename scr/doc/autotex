@@ -15,11 +15,12 @@ do
       echo $ela_parsed >> ~/doc/src/ela_master.tex
       cat ~/doc/src/$ela | sed -s 's/%-// ' > ~/doc/tmp/$ela
       echo compiling $ela
-      pdflatex ~/doc/tmp/$ela >> /dev/null
-      rm ~/doc/tmp/$ela
+      pdflatex ~/doc/tmp/$ela >> /dev/null &
     fi
   fi
 done
+wait
+rm ~/doc/tmp/*.tex
 filesort | sh
 echo -E \\section{Global} > ~/doc/src/ss_master.tex
 for i in $(ls ~/doc/src -w 1)
@@ -34,11 +35,12 @@ do
       echo $ss_parsed >> ~/doc/src/ss_master.tex
       cat ~/doc/src/$ss | sed -s 's/%-// ' > ~/doc/tmp/$ss
       echo compiling $ss
-      pdflatex ~/doc/tmp/$ss >> /dev/null
-      rm ~/doc/tmp/$ss
+      pdflatex ~/doc/tmp/$ss >> /dev/null &
     fi
   fi
 done
+wait
+rm ~/doc/tmp/*.tex
 filesort | sh
 echo -E \\section{Science} > ~/doc/src/science_master.tex
 for i in $(ls ~/doc/src -w 1)
@@ -53,14 +55,15 @@ do
       echo $science_parsed >> ~/doc/src/science_master.tex
       cat ~/doc/src/$science | sed -s 's/%-// ' > ~/doc/tmp/$science
       echo compiling $science
-      pdflatex ~/doc/tmp/$science >> /dev/null
-      rm ~/doc/tmp/$science
+      pdflatex ~/doc/tmp/$science >> /dev/null &
     fi
   fi
 done
 
 echo -E \\phantomsection > ~/doc/src/pdf_master.tex
 echo -E \\addcontentsline{toc}{section}{Esseys} >> ~/doc/src/pdf_master.tex
+wait
+rm ~/doc/tmp/*.tex
 filesort | sh
 for i in $(ls ~/doc/src -w 1)
 do
@@ -77,11 +80,12 @@ do
       echo $pdf_parsed >> ~/doc/src/pdf_master.tex
       cat ~/doc/src/$pdf | sed -s 's/%-// ' > ~/doc/tmp/$pdf
       echo compiling $pdf
-      pdflatex ~/doc/tmp/$pdf >> /dev/null
-      rm ~/doc/tmp/$pdf
+      pdflatex ~/doc/tmp/$pdf >> /dev/null &
     fi
   fi
 done
+wait
+rm ~/doc/tmp/*.tex
 filesort | sh
 rm .* >> /dev/null
 cd ~/doc/src

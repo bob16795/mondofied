@@ -9,7 +9,7 @@ run scr/install.sh on live arch media or scr/parbs.sh on pre installed
 ## 1.0
  - initial
 
-## beta 2.0
+## 2.0
 
 ### added
  - system settings
@@ -21,16 +21,20 @@ run scr/install.sh on live arch media or scr/parbs.sh on pre installed
 
 ### fixed
  - cleanup of root
+ - cleanup of ~/.config/
+ - auto filesorting remove pipe and my username
+
+## beta 3.0
+
+
 
 # Todo
 
 ## ideas
  - auto theme script
  - community themes?
- - auto filesorting remove pipe and my username
 
 ## in progress
- - cleaning ~/.config/
 
 # FAQ:
 ## WTF is mondified?
