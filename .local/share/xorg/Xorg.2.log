@@ -1236,3 +1236,11 @@ X Protocol Version 11, Revision 0
 [  1723.832] (II) systemd-logind: got resume for 13:68
 [  1723.833] (II) event4  - Razer Razer Firefly: is tagged by udev as: Mouse
 [  1723.833] (II) event4  - Razer Razer Firefly: device is a pointer
+[  2060.087] (II) modeset(0): EDID vendor "LGD", prod id 723
+[  2060.087] (II) modeset(0): Printing DDC gathered Modelines:
+[  2060.087] (II) modeset(0): Modeline "1366x768"x0.0   74.80  1366 1414 1446 1578  768 770 775 790 +hsync -vsync (47.4 kHz eP)
+[  2060.362] (EE) client bug: timer event14 debounce: offset negative (-219ms)
+[  2060.362] (EE) client bug: timer event14 debounce short: offset negative (-232ms)
+[  2060.362] (EE) client bug: timer event14 debounce: offset negative (-67ms)
+[  2060.362] (EE) client bug: timer event14 debounce: offset negative (-3ms)
+[  2060.362] (EE) client bug: timer event14 debounce short: offset negative (-16ms)
