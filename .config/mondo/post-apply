@@ -15,6 +15,6 @@
 # variables and stuff between the scripts.
 
 # eval "${1}"
-gtkreload
+#gtkreload
 #cut -c3- ~/.tmux.conf | sh -s _apply_configuration
 killall -HUP dwm

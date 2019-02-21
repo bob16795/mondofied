@@ -248,6 +248,8 @@ sed -i "s/^#Color/Color/g" /etc/pacman.conf
 
 sudo -u "$name" mkdir ~/doc/src ~/doc/arc ~/dsk ~/pix ~/snd ~/dwn ~/vid
 
+chmod -R $name /home/$name
+
 # Last update! then Install complete!
 finalize
 clear
