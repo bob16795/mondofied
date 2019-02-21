@@ -134,8 +134,8 @@ draw_bold_text_with_bright_colors: false
 colors:
   # Default colors
   primary:
-    background: '0x12181b'
-    foreground: '0x4e4d4c'
+    background: '0x1b2339'
+    foreground: '0x23718C'
 
     # Bright and dim foreground colors
     #
@@ -155,25 +155,25 @@ colors:
 
   # Normal colors
   normal:
-    black:   '0x4e4d4c'
-    red:     '0x6a5955'
-    green:   '0x8e3c41'
-    yellow:  '0x966259'
-    blue:    '0x9f8d74'
-    magenta: '0x7e7e81'
-    cyan:    '0xcac9c4'
-    white:   '0x8d8c89'
+    black:   '0x23718C'
+    red:     '0x6A7788'
+    green:   '0x767E91'
+    yellow:  '0x3B93A4'
+    blue:    '0x66919B'
+    magenta: '0x8E97AC'
+    cyan:    '0xc8d0dc'
+    white:   '0x8c919a'
 
   # Bright colors
   bright:
-    black:   '0x4e4d4c'
-    red:     '0x6a5955'
-    green:   '0x8e3c41'
-    yellow:  '0x966259'
-    blue:    '0x9f8d74'
-    magenta: '0x7e7e81'
-    cyan:    '0xcac9c4'
-    white:   '0x8d8c89'
+    black:   '0x23718C'
+    red:     '0x6A7788'
+    green:   '0x767E91'
+    yellow:  '0x3B93A4'
+    blue:    '0x66919B'
+    magenta: '0x8E97AC'
+    cyan:    '0xc8d0dc'
+    white:   '0x8c919a'
 
   # Dim colors
   #
@@ -225,7 +225,7 @@ colors:
 #
 # Window opacity as a floating point number from `0.0` to `1.0`.
 # The value `0.0` is completely transparent and `1.0` is opaque.
-background_opacity: 0.45
+background_opacity: 0.75
 
 # Mouse bindings
 #

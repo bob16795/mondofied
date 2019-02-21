@@ -75,5 +75,5 @@ tabs.add(page2, text='commands')
 top.mainloop()
 
 subprocess.call(["mondo", "-fg", "all"])
-#subprocess.call(["mondo", "-a", Theme.get()])
+subprocess.call(["mondo", "-a", Theme.get()])
 print("updated mondo")
