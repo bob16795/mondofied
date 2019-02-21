@@ -787,3 +787,16 @@ X Protocol Version 11, Revision 0
 [  1068.145] (II) modeset(0): EDID vendor "LGD", prod id 723
 [  1068.145] (II) modeset(0): Printing DDC gathered Modelines:
 [  1068.145] (II) modeset(0): Modeline "1366x768"x0.0   74.80  1366 1414 1446 1578  768 770 775 790 +hsync -vsync (47.4 kHz eP)
+[  1216.506] (II) modeset(0): EDID vendor "LGD", prod id 723
+[  1216.506] (II) modeset(0): Printing DDC gathered Modelines:
+[  1216.506] (II) modeset(0): Modeline "1366x768"x0.0   74.80  1366 1414 1446 1578  768 770 775 790 +hsync -vsync (47.4 kHz eP)
+[  1216.783] (EE) client bug: timer event14 debounce: offset negative (-187ms)
+[  1216.783] (EE) client bug: timer event14 debounce short: offset negative (-200ms)
+[  1229.498] (II) modeset(0): EDID vendor "LGD", prod id 723
+[  1229.498] (II) modeset(0): Printing DDC gathered Modelines:
+[  1229.498] (II) modeset(0): Modeline "1366x768"x0.0   74.80  1366 1414 1446 1578  768 770 775 790 +hsync -vsync (47.4 kHz eP)
+[  1263.104] (II) modeset(0): EDID vendor "LGD", prod id 723
+[  1263.104] (II) modeset(0): Printing DDC gathered Modelines:
+[  1263.104] (II) modeset(0): Modeline "1366x768"x0.0   74.80  1366 1414 1446 1578  768 770 775 790 +hsync -vsync (47.4 kHz eP)
+[  1263.379] (EE) client bug: timer event14 debounce: offset negative (-199ms)
+[  1263.379] (EE) client bug: timer event14 debounce short: offset negative (-212ms)
