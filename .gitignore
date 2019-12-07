@@ -15,6 +15,8 @@ dsk/**
 dwn/**
 exc/**
 gam/**
+doc/**
+cod/**
 .gem
 .phet
 .gnupg
@@ -88,3 +90,5 @@ vid
 git
 .rnd
 .cache
+.gitconfig
+.Xauthority

@@ -1,3 +1,3 @@
 #!/bin/bash
-feh --bg-fill ~/.config/mondo/images/moon.png
-cp ~/.config/mondo/images/moon.png ~/Dropbox/wallpaper/wall.png
+feh --bg-fill ~/.config/mondo/images/tree01.jpg
+cp ~/.config/mondo/images/tree01.jpg ~/Dropbox/wallpaper/wall.png

@@ -3,12 +3,12 @@
       xmlns:bookmark="http://www.freedesktop.org/standards/desktop-bookmarks"
       xmlns:mime="http://www.freedesktop.org/standards/shared-mime-info"
 >
-  <bookmark href="file:///home/john/scr/screen" added="2019-02-21T15:18:24Z" modified="2019-02-21T15:18:24Z" visited="2019-02-21T15:18:25Z">
+  <bookmark href="file:///home/john/.screen.sh" added="2019-12-07T14:21:38Z" modified="2019-12-07T14:21:38Z" visited="1969-12-31T23:59:59Z">
     <info>
       <metadata owner="http://freedesktop.org">
-        <mime:mime-type type="application/octet-stream"/>
+        <mime:mime-type type="application/x-shellscript"/>
         <bookmark:applications>
-          <bookmark:application name="arandr" exec="&apos;arandr %u&apos;" modified="2019-02-21T15:18:24Z" count="1"/>
+          <bookmark:application name="arandr" exec="&apos;arandr %u&apos;" modified="2019-12-07T14:21:38Z" count="1"/>
         </bookmark:applications>
       </metadata>
     </info>

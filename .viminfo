@@ -10,20 +10,51 @@
 
 # hlsearch on (H) or off (h):
 ~h
+# Last Search Pattern:
+~MSle0~/vis
+
 # Last Substitute String:
 $
 
 # Command Line History (newest to oldest):
 :wq!
-|2,0,1550763746,,"wq!"
-:q!
-|2,0,1550763257,,"q!"
+|2,0,1575738778,,"wq!"
 :w
-|2,0,1550762957,,"w"
+|2,0,1575738771,,"w"
+:q!
+|2,0,1575738715,,"q!"
+:q1
+|2,0,1575738636,,"q1"
+:Lwq
+|2,0,1575738138,,"Lwq"
+:W
+|2,0,1575729187,,"W"
 :q
-|2,0,1550763101,,"q"
+|2,0,1575728508,,"q"
+:Wq!
+|2,0,1575728329,,"Wq!"
+:waq
+|2,0,1575728329,,"waq"
+:wQ!
+|2,0,1575728328,,"wQ!"
+:qa!
+|2,0,1575727988,,"qa!"
+:wq
+|2,0,1575677060,,"wq"
 
 # Search String History (newest to oldest):
+?/vis
+|2,1,1575728302,47,"vis"
+?/_timer
+|2,1,1575677056,47,"_timer"
+?/re
+|2,1,1575677051,47,"re"
+?/rendere
+|2,1,1575677048,47,"rendere"
+?/faux
+|2,1,1575677037,47,"faux"
+?/fauc
+|2,1,1575677035,47,"fauc"
 
 # Expression History (newest to oldest):
 
@@ -32,243 +63,353 @@ $
 # Debug Line History (newest to oldest):
 
 # Registers:
-""-	CHAR	0
-	#
-|3,1,36,0,1,0,1550762812,"#"
+"0	LINE	0
+	gam/**
+|3,0,0,1,1,0,1575738766,"gam/**"
+""1	LINE	0
+	cod/
+|3,1,1,1,1,0,1575738772,"cod/"
+"2	LINE	0
+	doc/
+|3,0,2,1,1,0,1575738770,"doc/"
+"3	LINE	0
+	d
+|3,0,3,1,1,0,1575738341,"d"
+"4	LINE	0
+	render_timer: false
+|3,0,4,1,1,0,1575677057,"render_timer: false"
+"5	LINE	0
+	  # If this is `true`, the cursor will be rendered as a hollow box when the
+|3,0,5,1,1,0,1575677052,"  # If this is `true`, the cursor will be rendered as a hollow box when the"
+"6	LINE	0
+	  faux_multiplier: 3
+|3,0,6,1,1,0,1575677039,"  faux_multiplier: 3"
+"7	LINE	0
+	export PS1="\[$(tput bold)\]\[$(tput setaf 1)\][\[$(tput setaf 3)\]\u\[$(tput setaf 2)\]@\[$(tput setaf 4)\]\h \[$(tput setaf 5)\]\W\[$(tput setaf 1)\]]\[$(tput setaf 7)\]\\$ \[$(tput sgr0)\]"
+|3,0,7,1,1,0,1575676887,"export PS1=\"\\[$(tput bold)\\]\\[$(tput setaf 1)\\][\\[$(tput setaf 3)\\]\\u\\[$(tput setaf 2)\\]@\\[$(tput setaf 4)\\]\\h \\[$(tput setaf 5)\\]\\W\\[$(tput setaf 1)\\]]\\[$(tput setaf 7)\\]\\\\$ \\[$(tput sgr0)\\]\""
+"-	CHAR	0
+	o
+|3,0,36,0,1,0,1575738340,"o"
 
 # File marks:
-'0  90  5  ~/.gitignore
-|4,48,90,5,1550763746,"~/.gitignore"
-'1  66  25  ~/scr/progs.csv
-|4,49,66,25,1550763446,"~/scr/progs.csv"
-'2  251  25  ~/scr/parbs.sh
-|4,50,251,25,1550763366,"~/scr/parbs.sh"
-'3  22  4  ~/.config/mondo/generator/dwm/_mondo-apply
-|4,51,22,4,1550763268,"~/.config/mondo/generator/dwm/_mondo-apply"
-'4  1  0  ~/.config/mondo/generator/dwm/_mondo-settings
-|4,52,1,0,1550763257,"~/.config/mondo/generator/dwm/_mondo-settings"
-'5  2  0  ~/.config/mondo/generator/dwm/_mondo-generate
-|4,53,2,0,1550763251,"~/.config/mondo/generator/dwm/_mondo-generate"
-'6  19  0  ~/.config/mondo/post-apply
-|4,54,19,0,1550763226,"~/.config/mondo/post-apply"
-'7  77  8  ~/scr/settings/settings
-|4,55,77,8,1550763222,"~/scr/settings/settings"
-'8  77  8  ~/scr/settings/settings
-|4,56,77,8,1550763222,"~/scr/settings/settings"
-'9  18  0  ~/.config/mondo/post-apply
-|4,57,18,0,1550763212,"~/.config/mondo/post-apply"
+'0  19  5  ~/.gitignore
+|4,48,19,5,1575738778,"~/.gitignore"
+'1  253  0  ~/.git/COMMIT_EDITMSG
+|4,49,253,0,1575738715,"~/.git/COMMIT_EDITMSG"
+'2  326  0  ~/.git/COMMIT_EDITMSG
+|4,50,326,0,1575738636,"~/.git/COMMIT_EDITMSG"
+'3  326  0  ~/.git/COMMIT_EDITMSG
+|4,51,326,0,1575738636,"~/.git/COMMIT_EDITMSG"
+'4  27  0  ~/.gitignore
+|4,52,27,0,1575738626,"~/.gitignore"
+'5  25  0  ~/.gitignore
+|4,53,25,0,1575738626,"~/.gitignore"
+'6  24  0  ~/.gitignore
+|4,54,24,0,1575738529,"~/.gitignore"
+'7  24  0  ~/.gitignore
+|4,55,24,0,1575738529,"~/.gitignore"
+'8  22  0  ~/.gitignore
+|4,56,22,0,1575738529,"~/.gitignore"
+'9  22  0  ~/.gitignore
+|4,57,22,0,1575738529,"~/.gitignore"
 
 # Jumplist (newest first):
--'  90  5  ~/.gitignore
-|4,39,90,5,1550763746,"~/.gitignore"
--'  89  3  ~/.gitignore
-|4,39,89,3,1550763739,"~/.gitignore"
--'  66  25  ~/scr/progs.csv
-|4,39,66,25,1550763446,"~/scr/progs.csv"
--'  66  25  ~/scr/progs.csv
-|4,39,66,25,1550763446,"~/scr/progs.csv"
--'  1  0  ~/scr/progs.csv
-|4,39,1,0,1550763425,"~/scr/progs.csv"
--'  1  0  ~/scr/progs.csv
-|4,39,1,0,1550763425,"~/scr/progs.csv"
--'  251  25  ~/scr/parbs.sh
-|4,39,251,25,1550763366,"~/scr/parbs.sh"
--'  251  25  ~/scr/parbs.sh
-|4,39,251,25,1550763366,"~/scr/parbs.sh"
--'  251  25  ~/scr/parbs.sh
-|4,39,251,25,1550763366,"~/scr/parbs.sh"
--'  251  25  ~/scr/parbs.sh
-|4,39,251,25,1550763366,"~/scr/parbs.sh"
--'  1  0  ~/scr/parbs.sh
-|4,39,1,0,1550763338,"~/scr/parbs.sh"
--'  1  0  ~/scr/parbs.sh
-|4,39,1,0,1550763338,"~/scr/parbs.sh"
--'  1  0  ~/scr/parbs.sh
-|4,39,1,0,1550763338,"~/scr/parbs.sh"
--'  1  0  ~/scr/parbs.sh
-|4,39,1,0,1550763338,"~/scr/parbs.sh"
--'  22  4  ~/.config/mondo/generator/dwm/_mondo-apply
-|4,39,22,4,1550763268,"~/.config/mondo/generator/dwm/_mondo-apply"
--'  22  4  ~/.config/mondo/generator/dwm/_mondo-apply
-|4,39,22,4,1550763268,"~/.config/mondo/generator/dwm/_mondo-apply"
--'  22  4  ~/.config/mondo/generator/dwm/_mondo-apply
-|4,39,22,4,1550763268,"~/.config/mondo/generator/dwm/_mondo-apply"
--'  22  4  ~/.config/mondo/generator/dwm/_mondo-apply
-|4,39,22,4,1550763268,"~/.config/mondo/generator/dwm/_mondo-apply"
--'  22  4  ~/.config/mondo/generator/dwm/_mondo-apply
-|4,39,22,4,1550763268,"~/.config/mondo/generator/dwm/_mondo-apply"
--'  22  4  ~/.config/mondo/generator/dwm/_mondo-apply
-|4,39,22,4,1550763268,"~/.config/mondo/generator/dwm/_mondo-apply"
--'  22  4  ~/.config/mondo/generator/dwm/_mondo-apply
-|4,39,22,4,1550763268,"~/.config/mondo/generator/dwm/_mondo-apply"
--'  22  4  ~/.config/mondo/generator/dwm/_mondo-apply
-|4,39,22,4,1550763268,"~/.config/mondo/generator/dwm/_mondo-apply"
--'  1  0  ~/.config/mondo/generator/dwm/_mondo-apply
-|4,39,1,0,1550763260,"~/.config/mondo/generator/dwm/_mondo-apply"
--'  1  0  ~/.config/mondo/generator/dwm/_mondo-apply
-|4,39,1,0,1550763260,"~/.config/mondo/generator/dwm/_mondo-apply"
--'  1  0  ~/.config/mondo/generator/dwm/_mondo-apply
-|4,39,1,0,1550763260,"~/.config/mondo/generator/dwm/_mondo-apply"
--'  1  0  ~/.config/mondo/generator/dwm/_mondo-apply
-|4,39,1,0,1550763260,"~/.config/mondo/generator/dwm/_mondo-apply"
--'  1  0  ~/.config/mondo/generator/dwm/_mondo-apply
-|4,39,1,0,1550763260,"~/.config/mondo/generator/dwm/_mondo-apply"
--'  1  0  ~/.config/mondo/generator/dwm/_mondo-apply
-|4,39,1,0,1550763260,"~/.config/mondo/generator/dwm/_mondo-apply"
--'  1  0  ~/.config/mondo/generator/dwm/_mondo-apply
-|4,39,1,0,1550763260,"~/.config/mondo/generator/dwm/_mondo-apply"
--'  1  0  ~/.config/mondo/generator/dwm/_mondo-apply
-|4,39,1,0,1550763260,"~/.config/mondo/generator/dwm/_mondo-apply"
--'  1  0  ~/.config/mondo/generator/dwm/_mondo-settings
-|4,39,1,0,1550763257,"~/.config/mondo/generator/dwm/_mondo-settings"
--'  1  0  ~/.config/mondo/generator/dwm/_mondo-settings
-|4,39,1,0,1550763257,"~/.config/mondo/generator/dwm/_mondo-settings"
--'  1  0  ~/.config/mondo/generator/dwm/_mondo-settings
-|4,39,1,0,1550763257,"~/.config/mondo/generator/dwm/_mondo-settings"
--'  1  0  ~/.config/mondo/generator/dwm/_mondo-settings
-|4,39,1,0,1550763257,"~/.config/mondo/generator/dwm/_mondo-settings"
--'  1  0  ~/.config/mondo/generator/dwm/_mondo-settings
-|4,39,1,0,1550763257,"~/.config/mondo/generator/dwm/_mondo-settings"
--'  1  0  ~/.config/mondo/generator/dwm/_mondo-settings
-|4,39,1,0,1550763257,"~/.config/mondo/generator/dwm/_mondo-settings"
--'  1  0  ~/.config/mondo/generator/dwm/_mondo-settings
-|4,39,1,0,1550763257,"~/.config/mondo/generator/dwm/_mondo-settings"
--'  1  0  ~/.config/mondo/generator/dwm/_mondo-settings
-|4,39,1,0,1550763257,"~/.config/mondo/generator/dwm/_mondo-settings"
--'  1  0  ~/.config/mondo/generator/dwm/_mondo-settings
-|4,39,1,0,1550763257,"~/.config/mondo/generator/dwm/_mondo-settings"
--'  1  0  ~/.config/mondo/generator/dwm/_mondo-settings
-|4,39,1,0,1550763257,"~/.config/mondo/generator/dwm/_mondo-settings"
--'  1  0  ~/.config/mondo/generator/dwm/_mondo-settings
-|4,39,1,0,1550763257,"~/.config/mondo/generator/dwm/_mondo-settings"
--'  1  0  ~/.config/mondo/generator/dwm/_mondo-settings
-|4,39,1,0,1550763257,"~/.config/mondo/generator/dwm/_mondo-settings"
--'  1  0  ~/.config/mondo/generator/dwm/_mondo-settings
-|4,39,1,0,1550763257,"~/.config/mondo/generator/dwm/_mondo-settings"
--'  1  0  ~/.config/mondo/generator/dwm/_mondo-settings
-|4,39,1,0,1550763257,"~/.config/mondo/generator/dwm/_mondo-settings"
--'  1  0  ~/.config/mondo/generator/dwm/_mondo-settings
-|4,39,1,0,1550763257,"~/.config/mondo/generator/dwm/_mondo-settings"
--'  1  0  ~/.config/mondo/generator/dwm/_mondo-settings
-|4,39,1,0,1550763257,"~/.config/mondo/generator/dwm/_mondo-settings"
--'  2  0  ~/.config/mondo/generator/dwm/_mondo-generate
-|4,39,2,0,1550763251,"~/.config/mondo/generator/dwm/_mondo-generate"
--'  2  0  ~/.config/mondo/generator/dwm/_mondo-generate
-|4,39,2,0,1550763251,"~/.config/mondo/generator/dwm/_mondo-generate"
--'  2  0  ~/.config/mondo/generator/dwm/_mondo-generate
-|4,39,2,0,1550763251,"~/.config/mondo/generator/dwm/_mondo-generate"
--'  2  0  ~/.config/mondo/generator/dwm/_mondo-generate
-|4,39,2,0,1550763251,"~/.config/mondo/generator/dwm/_mondo-generate"
--'  2  0  ~/.config/mondo/generator/dwm/_mondo-generate
-|4,39,2,0,1550763251,"~/.config/mondo/generator/dwm/_mondo-generate"
--'  2  0  ~/.config/mondo/generator/dwm/_mondo-generate
-|4,39,2,0,1550763251,"~/.config/mondo/generator/dwm/_mondo-generate"
--'  2  0  ~/.config/mondo/generator/dwm/_mondo-generate
-|4,39,2,0,1550763251,"~/.config/mondo/generator/dwm/_mondo-generate"
--'  2  0  ~/.config/mondo/generator/dwm/_mondo-generate
-|4,39,2,0,1550763251,"~/.config/mondo/generator/dwm/_mondo-generate"
--'  2  0  ~/.config/mondo/generator/dwm/_mondo-generate
-|4,39,2,0,1550763251,"~/.config/mondo/generator/dwm/_mondo-generate"
--'  2  0  ~/.config/mondo/generator/dwm/_mondo-generate
-|4,39,2,0,1550763251,"~/.config/mondo/generator/dwm/_mondo-generate"
--'  2  0  ~/.config/mondo/generator/dwm/_mondo-generate
-|4,39,2,0,1550763251,"~/.config/mondo/generator/dwm/_mondo-generate"
--'  2  0  ~/.config/mondo/generator/dwm/_mondo-generate
-|4,39,2,0,1550763251,"~/.config/mondo/generator/dwm/_mondo-generate"
--'  2  0  ~/.config/mondo/generator/dwm/_mondo-generate
-|4,39,2,0,1550763251,"~/.config/mondo/generator/dwm/_mondo-generate"
--'  2  0  ~/.config/mondo/generator/dwm/_mondo-generate
-|4,39,2,0,1550763251,"~/.config/mondo/generator/dwm/_mondo-generate"
--'  2  0  ~/.config/mondo/generator/dwm/_mondo-generate
-|4,39,2,0,1550763251,"~/.config/mondo/generator/dwm/_mondo-generate"
--'  2  0  ~/.config/mondo/generator/dwm/_mondo-generate
-|4,39,2,0,1550763251,"~/.config/mondo/generator/dwm/_mondo-generate"
--'  2  0  ~/.config/mondo/generator/dwm/_mondo-generate
-|4,39,2,0,1550763251,"~/.config/mondo/generator/dwm/_mondo-generate"
--'  2  0  ~/.config/mondo/generator/dwm/_mondo-generate
-|4,39,2,0,1550763251,"~/.config/mondo/generator/dwm/_mondo-generate"
--'  2  0  ~/.config/mondo/generator/dwm/_mondo-generate
-|4,39,2,0,1550763251,"~/.config/mondo/generator/dwm/_mondo-generate"
--'  2  0  ~/.config/mondo/generator/dwm/_mondo-generate
-|4,39,2,0,1550763251,"~/.config/mondo/generator/dwm/_mondo-generate"
--'  2  0  ~/.config/mondo/generator/dwm/_mondo-generate
-|4,39,2,0,1550763251,"~/.config/mondo/generator/dwm/_mondo-generate"
--'  2  0  ~/.config/mondo/generator/dwm/_mondo-generate
-|4,39,2,0,1550763251,"~/.config/mondo/generator/dwm/_mondo-generate"
--'  2  0  ~/.config/mondo/generator/dwm/_mondo-generate
-|4,39,2,0,1550763251,"~/.config/mondo/generator/dwm/_mondo-generate"
--'  2  0  ~/.config/mondo/generator/dwm/_mondo-generate
-|4,39,2,0,1550763251,"~/.config/mondo/generator/dwm/_mondo-generate"
--'  2  0  ~/.config/mondo/generator/dwm/_mondo-generate
-|4,39,2,0,1550763251,"~/.config/mondo/generator/dwm/_mondo-generate"
--'  2  0  ~/.config/mondo/generator/dwm/_mondo-generate
-|4,39,2,0,1550763251,"~/.config/mondo/generator/dwm/_mondo-generate"
--'  2  0  ~/.config/mondo/generator/dwm/_mondo-generate
-|4,39,2,0,1550763251,"~/.config/mondo/generator/dwm/_mondo-generate"
--'  2  0  ~/.config/mondo/generator/dwm/_mondo-generate
-|4,39,2,0,1550763251,"~/.config/mondo/generator/dwm/_mondo-generate"
--'  2  0  ~/.config/mondo/generator/dwm/_mondo-generate
-|4,39,2,0,1550763251,"~/.config/mondo/generator/dwm/_mondo-generate"
--'  2  0  ~/.config/mondo/generator/dwm/_mondo-generate
-|4,39,2,0,1550763251,"~/.config/mondo/generator/dwm/_mondo-generate"
--'  2  0  ~/.config/mondo/generator/dwm/_mondo-generate
-|4,39,2,0,1550763251,"~/.config/mondo/generator/dwm/_mondo-generate"
--'  2  0  ~/.config/mondo/generator/dwm/_mondo-generate
-|4,39,2,0,1550763251,"~/.config/mondo/generator/dwm/_mondo-generate"
--'  1  0  ~/.config/mondo/generator/dwm/_mondo-generate
-|4,39,1,0,1550763249,"~/.config/mondo/generator/dwm/_mondo-generate"
--'  1  0  ~/.config/mondo/generator/dwm/_mondo-generate
-|4,39,1,0,1550763249,"~/.config/mondo/generator/dwm/_mondo-generate"
--'  1  0  ~/.config/mondo/generator/dwm/_mondo-generate
-|4,39,1,0,1550763249,"~/.config/mondo/generator/dwm/_mondo-generate"
--'  1  0  ~/.config/mondo/generator/dwm/_mondo-generate
-|4,39,1,0,1550763249,"~/.config/mondo/generator/dwm/_mondo-generate"
--'  1  0  ~/.config/mondo/generator/dwm/_mondo-generate
-|4,39,1,0,1550763249,"~/.config/mondo/generator/dwm/_mondo-generate"
--'  1  0  ~/.config/mondo/generator/dwm/_mondo-generate
-|4,39,1,0,1550763249,"~/.config/mondo/generator/dwm/_mondo-generate"
--'  1  0  ~/.config/mondo/generator/dwm/_mondo-generate
-|4,39,1,0,1550763249,"~/.config/mondo/generator/dwm/_mondo-generate"
--'  1  0  ~/.config/mondo/generator/dwm/_mondo-generate
-|4,39,1,0,1550763249,"~/.config/mondo/generator/dwm/_mondo-generate"
--'  1  0  ~/.config/mondo/generator/dwm/_mondo-generate
-|4,39,1,0,1550763249,"~/.config/mondo/generator/dwm/_mondo-generate"
--'  1  0  ~/.config/mondo/generator/dwm/_mondo-generate
-|4,39,1,0,1550763249,"~/.config/mondo/generator/dwm/_mondo-generate"
--'  1  0  ~/.config/mondo/generator/dwm/_mondo-generate
-|4,39,1,0,1550763249,"~/.config/mondo/generator/dwm/_mondo-generate"
--'  1  0  ~/.config/mondo/generator/dwm/_mondo-generate
-|4,39,1,0,1550763249,"~/.config/mondo/generator/dwm/_mondo-generate"
--'  1  0  ~/.config/mondo/generator/dwm/_mondo-generate
-|4,39,1,0,1550763249,"~/.config/mondo/generator/dwm/_mondo-generate"
--'  1  0  ~/.config/mondo/generator/dwm/_mondo-generate
-|4,39,1,0,1550763249,"~/.config/mondo/generator/dwm/_mondo-generate"
--'  1  0  ~/.config/mondo/generator/dwm/_mondo-generate
-|4,39,1,0,1550763249,"~/.config/mondo/generator/dwm/_mondo-generate"
--'  1  0  ~/.config/mondo/generator/dwm/_mondo-generate
-|4,39,1,0,1550763249,"~/.config/mondo/generator/dwm/_mondo-generate"
--'  1  0  ~/.config/mondo/generator/dwm/_mondo-generate
-|4,39,1,0,1550763249,"~/.config/mondo/generator/dwm/_mondo-generate"
--'  1  0  ~/.config/mondo/generator/dwm/_mondo-generate
-|4,39,1,0,1550763249,"~/.config/mondo/generator/dwm/_mondo-generate"
--'  1  0  ~/.config/mondo/generator/dwm/_mondo-generate
-|4,39,1,0,1550763249,"~/.config/mondo/generator/dwm/_mondo-generate"
--'  1  0  ~/.config/mondo/generator/dwm/_mondo-generate
-|4,39,1,0,1550763249,"~/.config/mondo/generator/dwm/_mondo-generate"
--'  1  0  ~/.config/mondo/generator/dwm/_mondo-generate
-|4,39,1,0,1550763249,"~/.config/mondo/generator/dwm/_mondo-generate"
--'  1  0  ~/.config/mondo/generator/dwm/_mondo-generate
-|4,39,1,0,1550763249,"~/.config/mondo/generator/dwm/_mondo-generate"
+-'  19  5  ~/.gitignore
+|4,39,19,5,1575738778,"~/.gitignore"
+-'  27  0  ~/.gitignore
+|4,39,27,0,1575738762,"~/.gitignore"
+-'  253  0  ~/.git/COMMIT_EDITMSG
+|4,39,253,0,1575738715,"~/.git/COMMIT_EDITMSG"
+-'  253  0  ~/.git/COMMIT_EDITMSG
+|4,39,253,0,1575738715,"~/.git/COMMIT_EDITMSG"
+-'  1  0  ~/.git/COMMIT_EDITMSG
+|4,39,1,0,1575738708,"~/.git/COMMIT_EDITMSG"
+-'  1  0  ~/.git/COMMIT_EDITMSG
+|4,39,1,0,1575738708,"~/.git/COMMIT_EDITMSG"
+-'  326  0  ~/.git/COMMIT_EDITMSG
+|4,39,326,0,1575738636,"~/.git/COMMIT_EDITMSG"
+-'  326  0  ~/.git/COMMIT_EDITMSG
+|4,39,326,0,1575738636,"~/.git/COMMIT_EDITMSG"
+-'  326  0  ~/.git/COMMIT_EDITMSG
+|4,39,326,0,1575738636,"~/.git/COMMIT_EDITMSG"
+-'  326  0  ~/.git/COMMIT_EDITMSG
+|4,39,326,0,1575738636,"~/.git/COMMIT_EDITMSG"
+-'  1  0  ~/.git/COMMIT_EDITMSG
+|4,39,1,0,1575738629,"~/.git/COMMIT_EDITMSG"
+-'  1  0  ~/.git/COMMIT_EDITMSG
+|4,39,1,0,1575738629,"~/.git/COMMIT_EDITMSG"
+-'  25  0  ~/.gitignore
+|4,39,25,0,1575738626,"~/.gitignore"
+-'  25  0  ~/.gitignore
+|4,39,25,0,1575738626,"~/.gitignore"
+-'  25  0  ~/.gitignore
+|4,39,25,0,1575738626,"~/.gitignore"
+-'  25  0  ~/.gitignore
+|4,39,25,0,1575738626,"~/.gitignore"
+-'  24  0  ~/.gitignore
+|4,39,24,0,1575738622,"~/.gitignore"
+-'  22  0  ~/.gitignore
+|4,39,22,0,1575738622,"~/.gitignore"
+-'  22  0  ~/.gitignore
+|4,39,22,0,1575738622,"~/.gitignore"
+-'  22  0  ~/.gitignore
+|4,39,22,0,1575738622,"~/.gitignore"
+-'  22  0  ~/.gitignore
+|4,39,22,0,1575738622,"~/.gitignore"
+-'  22  0  ~/.gitignore
+|4,39,22,0,1575738529,"~/.gitignore"
+-'  22  0  ~/.gitignore
+|4,39,22,0,1575738529,"~/.gitignore"
+-'  22  0  ~/.gitignore
+|4,39,22,0,1575738529,"~/.gitignore"
+-'  22  0  ~/.gitignore
+|4,39,22,0,1575738529,"~/.gitignore"
+-'  95  2  ~/.gitignore
+|4,39,95,2,1575738517,"~/.gitignore"
+-'  94  2  ~/.gitignore
+|4,39,94,2,1575738517,"~/.gitignore"
+-'  94  2  ~/.gitignore
+|4,39,94,2,1575738517,"~/.gitignore"
+-'  94  2  ~/.gitignore
+|4,39,94,2,1575738517,"~/.gitignore"
+-'  94  2  ~/.gitignore
+|4,39,94,2,1575738517,"~/.gitignore"
+-'  94  2  ~/.gitignore
+|4,39,94,2,1575738517,"~/.gitignore"
+-'  94  2  ~/.gitignore
+|4,39,94,2,1575738517,"~/.gitignore"
+-'  94  2  ~/.gitignore
+|4,39,94,2,1575738517,"~/.gitignore"
+-'  94  2  ~/.gitignore
+|4,39,94,2,1575738517,"~/.gitignore"
+-'  494  0  ~/.git/COMMIT_EDITMSG
+|4,39,494,0,1575738441,"~/.git/COMMIT_EDITMSG"
+-'  494  0  ~/.git/COMMIT_EDITMSG
+|4,39,494,0,1575738441,"~/.git/COMMIT_EDITMSG"
+-'  494  0  ~/.git/COMMIT_EDITMSG
+|4,39,494,0,1575738441,"~/.git/COMMIT_EDITMSG"
+-'  494  0  ~/.git/COMMIT_EDITMSG
+|4,39,494,0,1575738441,"~/.git/COMMIT_EDITMSG"
+-'  494  0  ~/.git/COMMIT_EDITMSG
+|4,39,494,0,1575738441,"~/.git/COMMIT_EDITMSG"
+-'  494  0  ~/.git/COMMIT_EDITMSG
+|4,39,494,0,1575738441,"~/.git/COMMIT_EDITMSG"
+-'  494  0  ~/.git/COMMIT_EDITMSG
+|4,39,494,0,1575738441,"~/.git/COMMIT_EDITMSG"
+-'  494  0  ~/.git/COMMIT_EDITMSG
+|4,39,494,0,1575738441,"~/.git/COMMIT_EDITMSG"
+-'  494  0  ~/.git/COMMIT_EDITMSG
+|4,39,494,0,1575738441,"~/.git/COMMIT_EDITMSG"
+-'  494  0  ~/.git/COMMIT_EDITMSG
+|4,39,494,0,1575738441,"~/.git/COMMIT_EDITMSG"
+-'  494  0  ~/.git/COMMIT_EDITMSG
+|4,39,494,0,1575738441,"~/.git/COMMIT_EDITMSG"
+-'  494  0  ~/.git/COMMIT_EDITMSG
+|4,39,494,0,1575738441,"~/.git/COMMIT_EDITMSG"
+-'  1  0  ~/.git/COMMIT_EDITMSG
+|4,39,1,0,1575738418,"~/.git/COMMIT_EDITMSG"
+-'  1  0  ~/.git/COMMIT_EDITMSG
+|4,39,1,0,1575738418,"~/.git/COMMIT_EDITMSG"
+-'  1  0  ~/.git/COMMIT_EDITMSG
+|4,39,1,0,1575738418,"~/.git/COMMIT_EDITMSG"
+-'  1  0  ~/.git/COMMIT_EDITMSG
+|4,39,1,0,1575738418,"~/.git/COMMIT_EDITMSG"
+-'  1  0  ~/.git/COMMIT_EDITMSG
+|4,39,1,0,1575738418,"~/.git/COMMIT_EDITMSG"
+-'  1  0  ~/.git/COMMIT_EDITMSG
+|4,39,1,0,1575738418,"~/.git/COMMIT_EDITMSG"
+-'  1  0  ~/.git/COMMIT_EDITMSG
+|4,39,1,0,1575738418,"~/.git/COMMIT_EDITMSG"
+-'  1  0  ~/.git/COMMIT_EDITMSG
+|4,39,1,0,1575738418,"~/.git/COMMIT_EDITMSG"
+-'  94  2  ~/.gitignore
+|4,39,94,2,1575738404,"~/.gitignore"
+-'  94  2  ~/.gitignore
+|4,39,94,2,1575738404,"~/.gitignore"
+-'  94  2  ~/.gitignore
+|4,39,94,2,1575738404,"~/.gitignore"
+-'  94  2  ~/.gitignore
+|4,39,94,2,1575738404,"~/.gitignore"
+-'  94  2  ~/.gitignore
+|4,39,94,2,1575738404,"~/.gitignore"
+-'  94  2  ~/.gitignore
+|4,39,94,2,1575738404,"~/.gitignore"
+-'  94  2  ~/.gitignore
+|4,39,94,2,1575738404,"~/.gitignore"
+-'  94  2  ~/.gitignore
+|4,39,94,2,1575738404,"~/.gitignore"
+-'  165  0  ~/.git/COMMIT_EDITMSG
+|4,39,165,0,1575738398,"~/.git/COMMIT_EDITMSG"
+-'  165  0  ~/.git/COMMIT_EDITMSG
+|4,39,165,0,1575738398,"~/.git/COMMIT_EDITMSG"
+-'  165  0  ~/.git/COMMIT_EDITMSG
+|4,39,165,0,1575738398,"~/.git/COMMIT_EDITMSG"
+-'  165  0  ~/.git/COMMIT_EDITMSG
+|4,39,165,0,1575738398,"~/.git/COMMIT_EDITMSG"
+-'  165  0  ~/.git/COMMIT_EDITMSG
+|4,39,165,0,1575738398,"~/.git/COMMIT_EDITMSG"
+-'  165  0  ~/.git/COMMIT_EDITMSG
+|4,39,165,0,1575738398,"~/.git/COMMIT_EDITMSG"
+-'  165  0  ~/.git/COMMIT_EDITMSG
+|4,39,165,0,1575738398,"~/.git/COMMIT_EDITMSG"
+-'  165  0  ~/.git/COMMIT_EDITMSG
+|4,39,165,0,1575738398,"~/.git/COMMIT_EDITMSG"
+-'  165  0  ~/.git/COMMIT_EDITMSG
+|4,39,165,0,1575738398,"~/.git/COMMIT_EDITMSG"
+-'  165  0  ~/.git/COMMIT_EDITMSG
+|4,39,165,0,1575738398,"~/.git/COMMIT_EDITMSG"
+-'  165  0  ~/.git/COMMIT_EDITMSG
+|4,39,165,0,1575738398,"~/.git/COMMIT_EDITMSG"
+-'  165  0  ~/.git/COMMIT_EDITMSG
+|4,39,165,0,1575738398,"~/.git/COMMIT_EDITMSG"
+-'  165  0  ~/.git/COMMIT_EDITMSG
+|4,39,165,0,1575738398,"~/.git/COMMIT_EDITMSG"
+-'  165  0  ~/.git/COMMIT_EDITMSG
+|4,39,165,0,1575738398,"~/.git/COMMIT_EDITMSG"
+-'  165  0  ~/.git/COMMIT_EDITMSG
+|4,39,165,0,1575738398,"~/.git/COMMIT_EDITMSG"
+-'  165  0  ~/.git/COMMIT_EDITMSG
+|4,39,165,0,1575738398,"~/.git/COMMIT_EDITMSG"
+-'  165  0  ~/.git/COMMIT_EDITMSG
+|4,39,165,0,1575738398,"~/.git/COMMIT_EDITMSG"
+-'  165  0  ~/.git/COMMIT_EDITMSG
+|4,39,165,0,1575738398,"~/.git/COMMIT_EDITMSG"
+-'  165  0  ~/.git/COMMIT_EDITMSG
+|4,39,165,0,1575738398,"~/.git/COMMIT_EDITMSG"
+-'  165  0  ~/.git/COMMIT_EDITMSG
+|4,39,165,0,1575738398,"~/.git/COMMIT_EDITMSG"
+-'  165  0  ~/.git/COMMIT_EDITMSG
+|4,39,165,0,1575738398,"~/.git/COMMIT_EDITMSG"
+-'  165  0  ~/.git/COMMIT_EDITMSG
+|4,39,165,0,1575738398,"~/.git/COMMIT_EDITMSG"
+-'  165  0  ~/.git/COMMIT_EDITMSG
+|4,39,165,0,1575738398,"~/.git/COMMIT_EDITMSG"
+-'  165  0  ~/.git/COMMIT_EDITMSG
+|4,39,165,0,1575738398,"~/.git/COMMIT_EDITMSG"
+-'  165  0  ~/.git/COMMIT_EDITMSG
+|4,39,165,0,1575738398,"~/.git/COMMIT_EDITMSG"
+-'  165  0  ~/.git/COMMIT_EDITMSG
+|4,39,165,0,1575738398,"~/.git/COMMIT_EDITMSG"
+-'  165  0  ~/.git/COMMIT_EDITMSG
+|4,39,165,0,1575738398,"~/.git/COMMIT_EDITMSG"
+-'  165  0  ~/.git/COMMIT_EDITMSG
+|4,39,165,0,1575738398,"~/.git/COMMIT_EDITMSG"
+-'  1  0  ~/.git/COMMIT_EDITMSG
+|4,39,1,0,1575738392,"~/.git/COMMIT_EDITMSG"
+-'  1  0  ~/.git/COMMIT_EDITMSG
+|4,39,1,0,1575738392,"~/.git/COMMIT_EDITMSG"
+-'  1  0  ~/.git/COMMIT_EDITMSG
+|4,39,1,0,1575738392,"~/.git/COMMIT_EDITMSG"
+-'  1  0  ~/.git/COMMIT_EDITMSG
+|4,39,1,0,1575738392,"~/.git/COMMIT_EDITMSG"
+-'  1  0  ~/.git/COMMIT_EDITMSG
+|4,39,1,0,1575738392,"~/.git/COMMIT_EDITMSG"
+-'  1  0  ~/.git/COMMIT_EDITMSG
+|4,39,1,0,1575738392,"~/.git/COMMIT_EDITMSG"
+-'  1  0  ~/.git/COMMIT_EDITMSG
+|4,39,1,0,1575738392,"~/.git/COMMIT_EDITMSG"
+-'  1  0  ~/.git/COMMIT_EDITMSG
+|4,39,1,0,1575738392,"~/.git/COMMIT_EDITMSG"
+-'  1  0  ~/.git/COMMIT_EDITMSG
+|4,39,1,0,1575738392,"~/.git/COMMIT_EDITMSG"
+-'  1  0  ~/.git/COMMIT_EDITMSG
+|4,39,1,0,1575738392,"~/.git/COMMIT_EDITMSG"
 
 # History of marks within files (newest to oldest):
 
 > ~/.gitignore
-	*	1550763745	0
-	"	90	5
-	^	90	6
-	.	90	5
-	+	89	3
-	+	90	5
+	*	1575738778	0
+	"	19	5
+	^	19	6
+	.	19	5
+	+	91	3
+	+	92	5
+	+	93	0
+	+	93	2
+	+	93	9
+	+	94	10
+	+	95	3
+	+	93	3
+	+	18	2
+	+	95	0
+	+	93	0
+	+	19	5
+
+> ~/.git/COMMIT_EDITMSG
+	*	1575738714	0
+	"	253	0
+
+> ~/.config/dwm/config.h
+	*	1575729464	0
+	"	86	9
+
+> ~/.xinitrc
+	*	1575729236	0
+	"	22	5
+	^	21	1
+	.	21	0
+	+	22	31
+	+	27	14
+	+	21	0
+
+> ~/.screen.sh
+	*	1575728507	0
+	"	1	0
+
+> ~/.screen
+	*	1575728504	0
+	"	1	0
+
+> ~/.config/mondo/generator/dwm/_mondo-template
+	*	1575728315	0
+	"	28	0
+	^	87	42
+	.	87	41
+	+	87	41
+
+> ~/cfg/gitignore
+	*	1575728238	0
+	"	1	0
+
+> ~/.config/mondo/generator/dwm/_mondo-settings
+	*	1575727998	0
+	"	22	30
+
+> ~/.Xre
+	*	1575677447	0
+	"	1	0
+
+> ~/.config/mondo/generator/alacritty/_mondo-template
+	*	1575677062	0
+	"	127	0
+	.	127	0
+	+	55	0
+	+	290	0
+	+	127	0
+
+> ~/.config/mondo/generator/alacritty/comfy01
+	*	1575677027	0
+	"	1	0
+
+> ~/.bashrc
+	*	1575676945	0
+	"	21	0
+	.	22	0
+	+	13	0
+	+	16	2
+	+	17	0
+	+	22	0
+	+	20	12
+	+	21	0
+	+	22	0
+
+> ~/.profile
+	*	1575676904	0
+	"	19	0
+
+> ~/.bash
+	*	1575676846	0
+	"	1	0
 
 > ~/scr/progs.csv
 	*	1550763445	0
@@ -291,10 +432,6 @@ $
 	^	22	5
 	.	22	4
 	+	22	4
-
-> ~/.config/mondo/generator/dwm/_mondo-settings
-	*	1550763254	0
-	"	1	0
 
 > ~/.config/mondo/generator/dwm/_mondo-generate
 	*	1550763249	0

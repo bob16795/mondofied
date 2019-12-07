@@ -18,11 +18,12 @@ firefox & #web
 #qutebrowser file:///home/john/.config/webhome/index.html &
 #dockd --daemon & #dock
 #glava & # music vis
-alacritty --class dev & #dev
-alacritty --class visual -e vis & #music vis
+#alacritty --class dev & #dev
+alacritty --class visual -e cava & #music vis
 steam & #game
 #sublime & #dev
 #cairo-dock &
 torify dropbox &
+sh ~/.screen.sh
 
 exec dwm
