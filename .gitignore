@@ -92,3 +92,9 @@ git
 .cache
 .gitconfig
 .Xauthority
+.esd_auth
+.bash_history
+.jgmenu-lockfile
+.pulse-cookie
+.local/share/xorg/**
+.SpaceVim**
