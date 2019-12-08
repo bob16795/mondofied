@@ -213,13 +213,6 @@ sudo -u $name ln -s -f .tmux/.tmux.conf
 #copy rofi theme
 cp /home/$name/.config/rofi/bmenu.rasi /usr/share/rofi/> /dev/null
 
-#setup themes
-dialog --infobox "Installing themes this will take a while..." 4 50
-gem install sass
-export PATH = $PATH:/root/.gem/ruby/2.5.0/bin
-sudo -u "$name" git clone https://github.com/Ferdi265/numix-solarized-gtk-theme /home/$name/thm/numix-solarized-gtk-theme > /dev/null
-mkdir ~/.config/mondo/themes/
-mondo -fg all
 
 # Enable services here.
 serviceinit NetworkManager cronie
@@ -255,16 +248,18 @@ sudo -u "$name" mkdir \
   /home/$name/dwn \
   /home/$name/vid
 
-sudo -i $name unlink -s \
+sudo -u $name unlink -s \
 	/home/$name/cfg/config \
 	/home/$name/cfg/scripts \
 	/home/$name/thm/mondo
 
-sudo -i $name ln -s /home/$name/.config/ /home/$name/cfg/config
-sudo -i $name ln -s /home/$name/scr/ /home/$name/cfg/scripts
-sudo -i $name ln -s /home/$name/.config/mondo/themes/ /home/$name/thm/mondo
+sudo -u $name ln -s /home/$name/.config/ /home/$name/cfg/config
+sudo -u $name ln -s /home/$name/scr/ /home/$name/cfg/scripts
+sudo -u $name ln -s /home/$name/.config/mondo/themes/ /home/$name/thm/mondo
 
 chmod -R $name /home/$name
+
+sudo -u $name mondo -fg all
 
 # Last update! then Install complete!
 finalize
