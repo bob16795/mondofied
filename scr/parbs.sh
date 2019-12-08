@@ -261,6 +261,8 @@ chmod -R $name /home/$name
 
 sudo -u $name mondo -fg all
 
+pacman -U https://archive.org/download/archlinux_pkg_pango/pango-1.43.0-1-x86_64.pkg.tar.xz 
+
 # Last update! then Install complete!
 finalize
 clear
