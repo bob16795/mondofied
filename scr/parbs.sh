@@ -245,7 +245,8 @@ newperms "%wheel ALL=(ALL) ALL\\n%wheel ALL=(ALL) NOPASSWD: /usr/bin/make,/usr/b
 # Make pacman and yay colorful because why not.
 sed -i "s/^#Color/Color/g" /etc/pacman.conf
 
-sudo -u "$name" mkdir /home/$name/doc \
+sudo -u "$name" mkdir \
+  /home/$name/doc \
   /home/$name/doc/src \
   /home/$name/doc/arc \
   /home/$name/dsk \
@@ -253,6 +254,11 @@ sudo -u "$name" mkdir /home/$name/doc \
   /home/$name/snd \
   /home/$name/dwn \
   /home/$name/vid
+
+sudo -i $name unlink -s \
+	/home/$name/cfg/config \
+	/home/$name/cfg/scripts \
+	/home/$name/thm/mondo
 
 sudo -i $name ln -s /home/$name/.config/ /home/$name/cfg/config
 sudo -i $name ln -s /home/$name/scr/ /home/$name/cfg/scripts

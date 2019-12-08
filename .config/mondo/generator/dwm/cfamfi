@@ -1,5 +1,5 @@
 /* appearance */
-static const unsigned int drawtagmask = ; 
+static const unsigned int drawtagmask = 0; 
 static const int tagrows              = 2;        
 static const unsigned int gappx       = 9;        /* gapps */
 static const unsigned int borderpx    = 0;        /* border pixel of windows */

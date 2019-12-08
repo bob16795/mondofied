@@ -11,26 +11,35 @@
 # hlsearch on (H) or off (h):
 ~h
 # Last Search Pattern:
-~MSle0~/git
+~MSle0~/expand
+
+# Last Substitute Search Pattern:
+~MSle0&\/home\/john
 
 # Last Substitute String:
-$
+$\~
 
 # Command Line History (newest to oldest):
+:q
+|2,0,1575828998,,"q"
+:wq
+|2,0,1575828953,,"wq"
+:w
+|2,0,1575828859,,"w"
+:w1
+|2,0,1575828807,,"w1"
+:%s/\/home\/john/\~/
+|2,0,1575828465,,"%s/\\/home\\/john/\\~/"
+:%s/\/home\/john/~/
+|2,0,1575828453,,"%s/\\/home\\/john/~/"
+:W
+|2,0,1575828242,,"W"
 :wq!
 |2,0,1575822098,,"wq!"
 :q!
 |2,0,1575822084,,"q!"
-:w
-|2,0,1575822071,,"w"
-:q
-|2,0,1575822000,,"q"
-:wq
-|2,0,1575821882,,"wq"
 :s
 |2,0,1575817022,,"s"
-:W
-|2,0,1575816825,,"W"
 :w!
 |2,0,1575816715,,"w!"
 :Q
@@ -53,6 +62,16 @@ $
 |2,0,1575727988,,"qa!"
 
 # Search String History (newest to oldest):
+?/expand
+|2,1,1575828560,47,"expand"
+?/check
+|2,1,1575828495,47,"check"
+? \/home\/john
+|2,1,1575828465,,"\\/home\\/john"
+?/hhome/john/
+|2,1,1575828460,47,"hhome/john/"
+?/john
+|2,1,1575828280,47,"john"
 ?/git
 |2,1,1575822016,47,"git"
 ?/mkdir
@@ -142,266 +161,353 @@ $
 
 # Registers:
 ""0	LINE	0
-	putgitrepo "$dotfilesrepo" "/home/$name"
-|3,1,0,1,1,0,1575822027,"putgitrepo \"$dotfilesrepo\" \"/home/$name\""
+	                        print("mkdir -p '{}'".format(checked))
+|3,1,0,1,1,0,1575828932,"                        print(\"mkdir -p '{}'\".format(checked))"
 "1	LINE	0
-	vsync = "opengl-swc";
-|3,0,1,1,1,0,1575821881,"vsync = \"opengl-swc\";"
+	                        subprocess.call(("mv '{}' '{}'".format(j.decode("utf-8"),checked+j.decode("utf-8").split('/')[-1])), shell=True)
+|3,0,1,1,1,0,1575828905,"                        subprocess.call((\"mv '{}' '{}'\".format(j.decode(\"utf-8\"),checked+j.decode(\"utf-8\").split('/')[-1])), shell=True)"
 "2	LINE	0
-	paint-on-overlay = true;
-|3,0,2,1,1,0,1575821873,"paint-on-overlay = true;"
+	#for i in pix:
+	#    subprocess.call(["feh", i.decode("utf-8")])
+	#    lol = subprocess.check_output(["~/bin/rofipix"]).decode("utf-8").split("::")
+	#    print("mv {} ~/pix/{}/{}$(ls /home/john/pix/{}/{}*.jpg | wc -l).jpg".format(i.decode("utf-8"), lol[0],lol[1] ,lol[0], lol[1]))
+	    #print("feh {} && mv {} ~/pix/$( cd /home/john/pix && ls -d */ | cut -f1 -d'/'| rofi -dmenu)/$(rofi -dmenu)$(ls *.jpg | wc -l).png".format(i.decode("utf-8"),i.decode("utf-8")))
+|3,0,2,1,5,0,1575828813,"#for i in pix:","#    subprocess.call([\"feh\", i.decode(\"utf-8\")])","#    lol = subprocess.check_output([\"~/bin/rofipix\"]).decode(\"utf-8\").split(\"::\")","#    print(\"mv {} ~/pix/{}/{}$(ls /home/john/pix/{}/{}*.jpg | wc -l).jpg\".format(i.decode(\"utf-8\"), lol[0],lol[1] ,lol[0], lol[1]))",>188
+|<"    #print(\"feh {} && mv {} ~/pix/$( cd /home/john/pix && ls -d */ | cut -f1 -d'/'| rofi -dmenu)/$(rofi -dmenu)$(ls *.jpg | wc -l).png\".format(i.decode(\"utf-8\"),i.decode(\"utf-8\")))"
 "3	LINE	0
-	paint-on-overlay = true;
-	glx-no-stencil = true;
-|3,0,3,1,2,0,1575821871,"paint-on-overlay = true;","glx-no-stencil = true;"
+	#for i in pix:
+	#    subprocess.call(["feh", i.decode("utf-8")])
+	#    lol = subprocess.check_output(["~/bin/rofipix"]).decode("utf-8").split("::")
+	#    print("mv {} ~/pix/{}/{}$(ls /home/john/pix/{}/{}*.jpg | wc -l).jpg".format(i.decode("utf-8"), lol[0],lol[1] ,lol[0], lol[1]))
+	    #print("feh {} && mv {} ~/pix/$( cd /home/john/pix && ls -d */ | cut -f1 -d'/'| rofi -dmenu)/$(rofi -dmenu)$(ls *.jpg | wc -l).png".format(i.decode("utf-8"),i.decode("utf-8")))
+|3,0,3,1,5,0,1575828806,"#for i in pix:","#    subprocess.call([\"feh\", i.decode(\"utf-8\")])","#    lol = subprocess.check_output([\"~/bin/rofipix\"]).decode(\"utf-8\").split(\"::\")","#    print(\"mv {} ~/pix/{}/{}$(ls /home/john/pix/{}/{}*.jpg | wc -l).jpg\".format(i.decode(\"utf-8\"), lol[0],lol[1] ,lol[0], lol[1]))",>188
+|<"    #print(\"feh {} && mv {} ~/pix/$( cd /home/john/pix && ls -d */ | cut -f1 -d'/'| rofi -dmenu)/$(rofi -dmenu)$(ls *.jpg | wc -l).png\".format(i.decode(\"utf-8\"),i.decode(\"utf-8\")))"
 "4	LINE	0
-	backend = "glx"
-|3,0,4,1,1,0,1575821864,"backend = \"glx\""
+	pix = subprocess.check_output(["tree","-N", "-f","-i", "~/pix/Unsorted"]).split(b'\n')[1:-4]
+|3,0,4,1,1,0,1575828769,"pix = subprocess.check_output([\"tree\",\"-N\", \"-f\",\"-i\", \"~/pix/Unsorted\"]).split(b'\\n')[1:-4]"
 "5	LINE	0
-	
-|3,0,5,1,1,0,1575816993,""
+	                checked = expanduser(check(j).decode())
+|3,0,5,1,1,0,1575828609,"                checked = expanduser(check(j).decode())"
 "6	LINE	0
-	@search,,0,0,100,13,3,left,top,#aaaaaa 90,#222222 3,Type to search...
 	
-|3,0,6,1,2,0,1575816960,"@search,,0,0,100,13,3,left,top,#aaaaaa 90,#222222 3,Type to search...",""
+|3,0,6,1,1,0,1575828430,""
 "7	LINE	0
-	Settings,~/scr/settings/settings,utilities-terminal
-|3,0,7,1,1,0,1575816625,"Settings,~/scr/settings/settings,utilities-terminal"
+	home = 
+|3,0,7,1,1,0,1575828429,"home = "
 "8	LINE	0
-	Rofi,rofi -show run,utilities-terminal
-|3,0,8,1,1,0,1575816623,"Rofi,rofi -show run,utilities-terminal"
-"9	LINE	0
+	home = expanduser("~")
+|3,0,8,1,1,0,1575828390,"home = expanduser(\"~\")"
+"9	CHAR	0
 	
-|3,0,9,1,1,0,1575813970,""
+	sudo -i $name unlink -s /home/$name/scr/
+|3,0,9,0,2,0,1575828216,"","sudo -i $name unlink -s /home/$name/scr/"
 "-	CHAR	0
-	~
-|3,0,36,0,1,0,1575821700,"~"
+	c
+|3,0,36,0,1,0,1575828781,"c"
 
 # File marks:
-'0  16  41  ~/scr/chroot.sh
-|4,48,16,41,1575822098,"~/scr/chroot.sh"
-'1  66  0  ~/scr/install.sh
-|4,49,66,0,1575822084,"~/scr/install.sh"
-'2  193  19  ~/scr/parbs.sh
-|4,50,193,19,1575822075,"~/scr/parbs.sh"
-'3  1  0  ~/scr/p
-|4,51,1,0,1575822009,"~/scr/p"
-'4  67  0  ~/scr/install.sh
-|4,52,67,0,1575822005,"~/scr/install.sh"
-'5  67  0  ~/scr/install.sh
-|4,53,67,0,1575822005,"~/scr/install.sh"
-'6  6  0  ~/.config/compton.conf
-|4,54,6,0,1575821888,"~/.config/compton.conf"
-'7  4  0  ~/.config/compton.conf
-|4,55,4,0,1575821883,"~/.config/compton.conf"
-'8  4  0  ~/.config/compton.conf
-|4,56,4,0,1575821883,"~/.config/compton.conf"
-'9  2  0  ~/.config/compton.conf
-|4,57,2,0,1575821877,"~/.config/compton.conf"
+'0  1  0  ~/scr/updates/1
+|4,48,1,0,1575828998,"~/scr/updates/1"
+'1  93  38  ~/scr/tools/filesort
+|4,49,93,38,1575828953,"~/scr/tools/filesort"
+'2  92  61  ~/scr/tools/filesort
+|4,50,92,61,1575828926,"~/scr/tools/filesort"
+'3  92  61  ~/scr/tools/filesort
+|4,51,92,61,1575828926,"~/scr/tools/filesort"
+'4  94  24  ~/scr/tools/filesort
+|4,52,94,24,1575828907,"~/scr/tools/filesort"
+'5  94  24  ~/scr/tools/filesort
+|4,53,94,24,1575828907,"~/scr/tools/filesort"
+'6  93  24  ~/scr/tools/filesort
+|4,54,93,24,1575828907,"~/scr/tools/filesort"
+'7  93  24  ~/scr/tools/filesort
+|4,55,93,24,1575828907,"~/scr/tools/filesort"
+'8  92  92  ~/scr/tools/filesort
+|4,56,92,92,1575828902,"~/scr/tools/filesort"
+'9  92  92  ~/scr/tools/filesort
+|4,57,92,92,1575828902,"~/scr/tools/filesort"
 
 # Jumplist (newest first):
--'  16  41  ~/scr/chroot.sh
-|4,39,16,41,1575822098,"~/scr/chroot.sh"
--'  19  69  ~/scr/chroot.sh
-|4,39,19,69,1575822089,"~/scr/chroot.sh"
--'  66  0  ~/scr/install.sh
-|4,39,66,0,1575822084,"~/scr/install.sh"
--'  66  0  ~/scr/install.sh
-|4,39,66,0,1575822084,"~/scr/install.sh"
--'  67  0  ~/scr/install.sh
-|4,39,67,0,1575822080,"~/scr/install.sh"
--'  67  0  ~/scr/install.sh
-|4,39,67,0,1575822080,"~/scr/install.sh"
--'  193  19  ~/scr/parbs.sh
-|4,39,193,19,1575822075,"~/scr/parbs.sh"
--'  193  19  ~/scr/parbs.sh
-|4,39,193,19,1575822075,"~/scr/parbs.sh"
--'  193  19  ~/scr/parbs.sh
-|4,39,193,19,1575822075,"~/scr/parbs.sh"
--'  193  19  ~/scr/parbs.sh
-|4,39,193,19,1575822075,"~/scr/parbs.sh"
--'  181  42  ~/scr/parbs.sh
-|4,39,181,42,1575822024,"~/scr/parbs.sh"
--'  180  78  ~/scr/parbs.sh
-|4,39,180,78,1575822024,"~/scr/parbs.sh"
--'  181  42  ~/scr/parbs.sh
-|4,39,181,42,1575822024,"~/scr/parbs.sh"
--'  180  78  ~/scr/parbs.sh
-|4,39,180,78,1575822024,"~/scr/parbs.sh"
--'  181  42  ~/scr/parbs.sh
-|4,39,181,42,1575822024,"~/scr/parbs.sh"
--'  180  78  ~/scr/parbs.sh
-|4,39,180,78,1575822024,"~/scr/parbs.sh"
--'  181  42  ~/scr/parbs.sh
-|4,39,181,42,1575822024,"~/scr/parbs.sh"
--'  180  78  ~/scr/parbs.sh
-|4,39,180,78,1575822024,"~/scr/parbs.sh"
--'  138  46  ~/scr/parbs.sh
-|4,39,138,46,1575822023,"~/scr/parbs.sh"
--'  126  32  ~/scr/parbs.sh
-|4,39,126,32,1575822023,"~/scr/parbs.sh"
--'  124  50  ~/scr/parbs.sh
-|4,39,124,50,1575822023,"~/scr/parbs.sh"
--'  138  46  ~/scr/parbs.sh
-|4,39,138,46,1575822023,"~/scr/parbs.sh"
--'  126  32  ~/scr/parbs.sh
-|4,39,126,32,1575822023,"~/scr/parbs.sh"
--'  124  50  ~/scr/parbs.sh
-|4,39,124,50,1575822023,"~/scr/parbs.sh"
--'  138  46  ~/scr/parbs.sh
-|4,39,138,46,1575822023,"~/scr/parbs.sh"
--'  126  32  ~/scr/parbs.sh
-|4,39,126,32,1575822023,"~/scr/parbs.sh"
--'  124  50  ~/scr/parbs.sh
-|4,39,124,50,1575822023,"~/scr/parbs.sh"
--'  138  46  ~/scr/parbs.sh
-|4,39,138,46,1575822023,"~/scr/parbs.sh"
--'  126  32  ~/scr/parbs.sh
-|4,39,126,32,1575822023,"~/scr/parbs.sh"
--'  124  50  ~/scr/parbs.sh
-|4,39,124,50,1575822023,"~/scr/parbs.sh"
--'  120  28  ~/scr/parbs.sh
-|4,39,120,28,1575822022,"~/scr/parbs.sh"
--'  102  7  ~/scr/parbs.sh
-|4,39,102,7,1575822022,"~/scr/parbs.sh"
--'  120  28  ~/scr/parbs.sh
-|4,39,120,28,1575822022,"~/scr/parbs.sh"
--'  102  7  ~/scr/parbs.sh
-|4,39,102,7,1575822022,"~/scr/parbs.sh"
--'  120  28  ~/scr/parbs.sh
-|4,39,120,28,1575822022,"~/scr/parbs.sh"
--'  102  7  ~/scr/parbs.sh
-|4,39,102,7,1575822022,"~/scr/parbs.sh"
--'  120  28  ~/scr/parbs.sh
-|4,39,120,28,1575822022,"~/scr/parbs.sh"
--'  102  7  ~/scr/parbs.sh
-|4,39,102,7,1575822022,"~/scr/parbs.sh"
--'  75  2  ~/scr/parbs.sh
-|4,39,75,2,1575822021,"~/scr/parbs.sh"
--'  75  2  ~/scr/parbs.sh
-|4,39,75,2,1575822021,"~/scr/parbs.sh"
--'  75  2  ~/scr/parbs.sh
-|4,39,75,2,1575822021,"~/scr/parbs.sh"
--'  75  2  ~/scr/parbs.sh
-|4,39,75,2,1575822021,"~/scr/parbs.sh"
--'  74  102  ~/scr/parbs.sh
-|4,39,74,102,1575822020,"~/scr/parbs.sh"
--'  72  0  ~/scr/parbs.sh
-|4,39,72,0,1575822020,"~/scr/parbs.sh"
--'  74  102  ~/scr/parbs.sh
-|4,39,74,102,1575822020,"~/scr/parbs.sh"
--'  72  0  ~/scr/parbs.sh
-|4,39,72,0,1575822020,"~/scr/parbs.sh"
--'  74  102  ~/scr/parbs.sh
-|4,39,74,102,1575822020,"~/scr/parbs.sh"
--'  72  0  ~/scr/parbs.sh
-|4,39,72,0,1575822020,"~/scr/parbs.sh"
--'  74  102  ~/scr/parbs.sh
-|4,39,74,102,1575822020,"~/scr/parbs.sh"
--'  72  0  ~/scr/parbs.sh
-|4,39,72,0,1575822020,"~/scr/parbs.sh"
--'  23  48  ~/scr/parbs.sh
-|4,39,23,48,1575822019,"~/scr/parbs.sh"
--'  22  80  ~/scr/parbs.sh
-|4,39,22,80,1575822019,"~/scr/parbs.sh"
--'  23  48  ~/scr/parbs.sh
-|4,39,23,48,1575822019,"~/scr/parbs.sh"
--'  22  80  ~/scr/parbs.sh
-|4,39,22,80,1575822019,"~/scr/parbs.sh"
--'  23  48  ~/scr/parbs.sh
-|4,39,23,48,1575822019,"~/scr/parbs.sh"
--'  22  80  ~/scr/parbs.sh
-|4,39,22,80,1575822019,"~/scr/parbs.sh"
--'  23  48  ~/scr/parbs.sh
-|4,39,23,48,1575822019,"~/scr/parbs.sh"
--'  22  80  ~/scr/parbs.sh
-|4,39,22,80,1575822019,"~/scr/parbs.sh"
--'  15  31  ~/scr/parbs.sh
-|4,39,15,31,1575822018,"~/scr/parbs.sh"
--'  15  31  ~/scr/parbs.sh
-|4,39,15,31,1575822018,"~/scr/parbs.sh"
--'  15  31  ~/scr/parbs.sh
-|4,39,15,31,1575822018,"~/scr/parbs.sh"
--'  15  31  ~/scr/parbs.sh
-|4,39,15,31,1575822018,"~/scr/parbs.sh"
--'  246  0  ~/scr/parbs.sh
-|4,39,246,0,1575822016,"~/scr/parbs.sh"
--'  246  0  ~/scr/parbs.sh
-|4,39,246,0,1575822016,"~/scr/parbs.sh"
--'  246  0  ~/scr/parbs.sh
-|4,39,246,0,1575822016,"~/scr/parbs.sh"
--'  246  0  ~/scr/parbs.sh
-|4,39,246,0,1575822016,"~/scr/parbs.sh"
--'  247  31  ~/scr/parbs.sh
-|4,39,247,31,1575822011,"~/scr/parbs.sh"
--'  247  31  ~/scr/parbs.sh
-|4,39,247,31,1575822011,"~/scr/parbs.sh"
--'  247  31  ~/scr/parbs.sh
-|4,39,247,31,1575822011,"~/scr/parbs.sh"
--'  247  31  ~/scr/parbs.sh
-|4,39,247,31,1575822011,"~/scr/parbs.sh"
--'  1  0  ~/scr/p
-|4,39,1,0,1575822009,"~/scr/p"
--'  1  0  ~/scr/p
-|4,39,1,0,1575822009,"~/scr/p"
--'  1  0  ~/scr/p
-|4,39,1,0,1575822009,"~/scr/p"
--'  1  0  ~/scr/p
-|4,39,1,0,1575822009,"~/scr/p"
--'  1  0  ~/scr/p
-|4,39,1,0,1575822009,"~/scr/p"
--'  1  0  ~/scr/p
-|4,39,1,0,1575822009,"~/scr/p"
--'  1  0  ~/scr/p
-|4,39,1,0,1575822009,"~/scr/p"
--'  1  0  ~/scr/p
-|4,39,1,0,1575822009,"~/scr/p"
--'  67  0  ~/scr/install.sh
-|4,39,67,0,1575822005,"~/scr/install.sh"
--'  67  0  ~/scr/install.sh
-|4,39,67,0,1575822005,"~/scr/install.sh"
--'  67  0  ~/scr/install.sh
-|4,39,67,0,1575822005,"~/scr/install.sh"
--'  67  0  ~/scr/install.sh
-|4,39,67,0,1575822005,"~/scr/install.sh"
--'  67  0  ~/scr/install.sh
-|4,39,67,0,1575822005,"~/scr/install.sh"
--'  67  0  ~/scr/install.sh
-|4,39,67,0,1575822005,"~/scr/install.sh"
--'  67  0  ~/scr/install.sh
-|4,39,67,0,1575822005,"~/scr/install.sh"
--'  67  0  ~/scr/install.sh
-|4,39,67,0,1575822005,"~/scr/install.sh"
--'  66  56  ~/scr/install.sh
-|4,39,66,56,1575821993,"~/scr/install.sh"
--'  66  56  ~/scr/install.sh
-|4,39,66,56,1575821993,"~/scr/install.sh"
--'  66  56  ~/scr/install.sh
-|4,39,66,56,1575821993,"~/scr/install.sh"
--'  66  56  ~/scr/install.sh
-|4,39,66,56,1575821993,"~/scr/install.sh"
--'  66  56  ~/scr/install.sh
-|4,39,66,56,1575821993,"~/scr/install.sh"
--'  66  56  ~/scr/install.sh
-|4,39,66,56,1575821993,"~/scr/install.sh"
--'  66  56  ~/scr/install.sh
-|4,39,66,56,1575821993,"~/scr/install.sh"
--'  66  56  ~/scr/install.sh
-|4,39,66,56,1575821993,"~/scr/install.sh"
--'  6  0  ~/.config/compton.conf
-|4,39,6,0,1575821888,"~/.config/compton.conf"
--'  6  0  ~/.config/compton.conf
-|4,39,6,0,1575821888,"~/.config/compton.conf"
--'  6  0  ~/.config/compton.conf
-|4,39,6,0,1575821888,"~/.config/compton.conf"
--'  6  0  ~/.config/compton.conf
-|4,39,6,0,1575821888,"~/.config/compton.conf"
--'  6  0  ~/.config/compton.conf
-|4,39,6,0,1575821888,"~/.config/compton.conf"
--'  6  0  ~/.config/compton.conf
-|4,39,6,0,1575821888,"~/.config/compton.conf"
+-'  1  0  ~/scr/updates/1
+|4,39,1,0,1575828998,"~/scr/updates/1"
+-'  93  38  ~/scr/tools/filesort
+|4,39,93,38,1575828953,"~/scr/tools/filesort"
+-'  93  38  ~/scr/tools/filesort
+|4,39,93,38,1575828953,"~/scr/tools/filesort"
+-'  92  61  ~/scr/tools/filesort
+|4,39,92,61,1575828928,"~/scr/tools/filesort"
+-'  92  61  ~/scr/tools/filesort
+|4,39,92,61,1575828928,"~/scr/tools/filesort"
+-'  92  61  ~/scr/tools/filesort
+|4,39,92,61,1575828926,"~/scr/tools/filesort"
+-'  92  61  ~/scr/tools/filesort
+|4,39,92,61,1575828926,"~/scr/tools/filesort"
+-'  94  24  ~/scr/tools/filesort
+|4,39,94,24,1575828911,"~/scr/tools/filesort"
+-'  93  24  ~/scr/tools/filesort
+|4,39,93,24,1575828911,"~/scr/tools/filesort"
+-'  94  24  ~/scr/tools/filesort
+|4,39,94,24,1575828911,"~/scr/tools/filesort"
+-'  93  24  ~/scr/tools/filesort
+|4,39,93,24,1575828911,"~/scr/tools/filesort"
+-'  93  24  ~/scr/tools/filesort
+|4,39,93,24,1575828907,"~/scr/tools/filesort"
+-'  93  24  ~/scr/tools/filesort
+|4,39,93,24,1575828907,"~/scr/tools/filesort"
+-'  92  92  ~/scr/tools/filesort
+|4,39,92,92,1575828903,"~/scr/tools/filesort"
+-'  92  92  ~/scr/tools/filesort
+|4,39,92,92,1575828903,"~/scr/tools/filesort"
+-'  92  92  ~/scr/tools/filesort
+|4,39,92,92,1575828902,"~/scr/tools/filesort"
+-'  92  92  ~/scr/tools/filesort
+|4,39,92,92,1575828902,"~/scr/tools/filesort"
+-'  98  24  ~/scr/tools/filesort
+|4,39,98,24,1575828848,"~/scr/tools/filesort"
+-'  99  24  ~/scr/tools/filesort
+|4,39,99,24,1575828848,"~/scr/tools/filesort"
+-'  97  24  ~/scr/tools/filesort
+|4,39,97,24,1575828848,"~/scr/tools/filesort"
+-'  98  24  ~/scr/tools/filesort
+|4,39,98,24,1575828848,"~/scr/tools/filesort"
+-'  97  24  ~/scr/tools/filesort
+|4,39,97,24,1575828848,"~/scr/tools/filesort"
+-'  98  24  ~/scr/tools/filesort
+|4,39,98,24,1575828848,"~/scr/tools/filesort"
+-'  98  24  ~/scr/tools/filesort
+|4,39,98,24,1575828848,"~/scr/tools/filesort"
+-'  99  24  ~/scr/tools/filesort
+|4,39,99,24,1575828848,"~/scr/tools/filesort"
+-'  97  24  ~/scr/tools/filesort
+|4,39,97,24,1575828848,"~/scr/tools/filesort"
+-'  98  24  ~/scr/tools/filesort
+|4,39,98,24,1575828848,"~/scr/tools/filesort"
+-'  97  24  ~/scr/tools/filesort
+|4,39,97,24,1575828848,"~/scr/tools/filesort"
+-'  98  24  ~/scr/tools/filesort
+|4,39,98,24,1575828848,"~/scr/tools/filesort"
+-'  96  24  ~/scr/tools/filesort
+|4,39,96,24,1575828828,"~/scr/tools/filesort"
+-'  97  24  ~/scr/tools/filesort
+|4,39,97,24,1575828828,"~/scr/tools/filesort"
+-'  95  24  ~/scr/tools/filesort
+|4,39,95,24,1575828828,"~/scr/tools/filesort"
+-'  96  24  ~/scr/tools/filesort
+|4,39,96,24,1575828828,"~/scr/tools/filesort"
+-'  95  24  ~/scr/tools/filesort
+|4,39,95,24,1575828828,"~/scr/tools/filesort"
+-'  96  24  ~/scr/tools/filesort
+|4,39,96,24,1575828828,"~/scr/tools/filesort"
+-'  96  24  ~/scr/tools/filesort
+|4,39,96,24,1575828828,"~/scr/tools/filesort"
+-'  97  24  ~/scr/tools/filesort
+|4,39,97,24,1575828828,"~/scr/tools/filesort"
+-'  95  24  ~/scr/tools/filesort
+|4,39,95,24,1575828828,"~/scr/tools/filesort"
+-'  96  24  ~/scr/tools/filesort
+|4,39,96,24,1575828828,"~/scr/tools/filesort"
+-'  95  24  ~/scr/tools/filesort
+|4,39,95,24,1575828828,"~/scr/tools/filesort"
+-'  96  24  ~/scr/tools/filesort
+|4,39,96,24,1575828828,"~/scr/tools/filesort"
+-'  96  24  ~/scr/tools/filesort
+|4,39,96,24,1575828814,"~/scr/tools/filesort"
+-'  96  24  ~/scr/tools/filesort
+|4,39,96,24,1575828814,"~/scr/tools/filesort"
+-'  95  24  ~/scr/tools/filesort
+|4,39,95,24,1575828804,"~/scr/tools/filesort"
+-'  94  24  ~/scr/tools/filesort
+|4,39,94,24,1575828804,"~/scr/tools/filesort"
+-'  96  24  ~/scr/tools/filesort
+|4,39,96,24,1575828804,"~/scr/tools/filesort"
+-'  94  24  ~/scr/tools/filesort
+|4,39,94,24,1575828804,"~/scr/tools/filesort"
+-'  94  24  ~/scr/tools/filesort
+|4,39,94,24,1575828804,"~/scr/tools/filesort"
+-'  95  24  ~/scr/tools/filesort
+|4,39,95,24,1575828804,"~/scr/tools/filesort"
+-'  94  24  ~/scr/tools/filesort
+|4,39,94,24,1575828804,"~/scr/tools/filesort"
+-'  96  24  ~/scr/tools/filesort
+|4,39,96,24,1575828804,"~/scr/tools/filesort"
+-'  94  24  ~/scr/tools/filesort
+|4,39,94,24,1575828804,"~/scr/tools/filesort"
+-'  94  24  ~/scr/tools/filesort
+|4,39,94,24,1575828804,"~/scr/tools/filesort"
+-'  94  24  ~/scr/tools/filesort
+|4,39,94,24,1575828802,"~/scr/tools/filesort"
+-'  94  24  ~/scr/tools/filesort
+|4,39,94,24,1575828802,"~/scr/tools/filesort"
+-'  96  73  ~/scr/tools/filesort
+|4,39,96,73,1575828796,"~/scr/tools/filesort"
+-'  96  73  ~/scr/tools/filesort
+|4,39,96,73,1575828796,"~/scr/tools/filesort"
+-'  96  73  ~/scr/tools/filesort
+|4,39,96,73,1575828790,"~/scr/tools/filesort"
+-'  96  73  ~/scr/tools/filesort
+|4,39,96,73,1575828790,"~/scr/tools/filesort"
+-'  96  29  ~/scr/tools/filesort
+|4,39,96,29,1575828782,"~/scr/tools/filesort"
+-'  94  29  ~/scr/tools/filesort
+|4,39,94,29,1575828782,"~/scr/tools/filesort"
+-'  97  29  ~/scr/tools/filesort
+|4,39,97,29,1575828782,"~/scr/tools/filesort"
+-'  95  29  ~/scr/tools/filesort
+|4,39,95,29,1575828782,"~/scr/tools/filesort"
+-'  95  29  ~/scr/tools/filesort
+|4,39,95,29,1575828782,"~/scr/tools/filesort"
+-'  95  29  ~/scr/tools/filesort
+|4,39,95,29,1575828782,"~/scr/tools/filesort"
+-'  95  29  ~/scr/tools/filesort
+|4,39,95,29,1575828782,"~/scr/tools/filesort"
+-'  96  29  ~/scr/tools/filesort
+|4,39,96,29,1575828782,"~/scr/tools/filesort"
+-'  94  29  ~/scr/tools/filesort
+|4,39,94,29,1575828782,"~/scr/tools/filesort"
+-'  97  29  ~/scr/tools/filesort
+|4,39,97,29,1575828782,"~/scr/tools/filesort"
+-'  95  29  ~/scr/tools/filesort
+|4,39,95,29,1575828782,"~/scr/tools/filesort"
+-'  95  29  ~/scr/tools/filesort
+|4,39,95,29,1575828782,"~/scr/tools/filesort"
+-'  95  29  ~/scr/tools/filesort
+|4,39,95,29,1575828782,"~/scr/tools/filesort"
+-'  95  29  ~/scr/tools/filesort
+|4,39,95,29,1575828782,"~/scr/tools/filesort"
+-'  95  122  ~/scr/tools/filesort
+|4,39,95,122,1575828753,"~/scr/tools/filesort"
+-'  93  122  ~/scr/tools/filesort
+|4,39,93,122,1575828753,"~/scr/tools/filesort"
+-'  93  122  ~/scr/tools/filesort
+|4,39,93,122,1575828753,"~/scr/tools/filesort"
+-'  93  122  ~/scr/tools/filesort
+|4,39,93,122,1575828753,"~/scr/tools/filesort"
+-'  93  122  ~/scr/tools/filesort
+|4,39,93,122,1575828753,"~/scr/tools/filesort"
+-'  95  122  ~/scr/tools/filesort
+|4,39,95,122,1575828753,"~/scr/tools/filesort"
+-'  93  122  ~/scr/tools/filesort
+|4,39,93,122,1575828753,"~/scr/tools/filesort"
+-'  93  122  ~/scr/tools/filesort
+|4,39,93,122,1575828753,"~/scr/tools/filesort"
+-'  93  122  ~/scr/tools/filesort
+|4,39,93,122,1575828753,"~/scr/tools/filesort"
+-'  93  122  ~/scr/tools/filesort
+|4,39,93,122,1575828753,"~/scr/tools/filesort"
+-'  93  122  ~/scr/tools/filesort
+|4,39,93,122,1575828739,"~/scr/tools/filesort"
+-'  93  122  ~/scr/tools/filesort
+|4,39,93,122,1575828739,"~/scr/tools/filesort"
+-'  93  96  ~/scr/tools/filesort
+|4,39,93,96,1575828724,"~/scr/tools/filesort"
+-'  93  96  ~/scr/tools/filesort
+|4,39,93,96,1575828724,"~/scr/tools/filesort"
+-'  88  48  ~/scr/tools/filesort
+|4,39,88,48,1575828684,"~/scr/tools/filesort"
+-'  88  48  ~/scr/tools/filesort
+|4,39,88,48,1575828684,"~/scr/tools/filesort"
+-'  88  48  ~/scr/tools/filesort
+|4,39,88,48,1575828684,"~/scr/tools/filesort"
+-'  88  48  ~/scr/tools/filesort
+|4,39,88,48,1575828684,"~/scr/tools/filesort"
+-'  88  48  ~/scr/tools/filesort
+|4,39,88,48,1575828684,"~/scr/tools/filesort"
+-'  88  48  ~/scr/tools/filesort
+|4,39,88,48,1575828684,"~/scr/tools/filesort"
+-'  88  48  ~/scr/tools/filesort
+|4,39,88,48,1575828684,"~/scr/tools/filesort"
+-'  88  48  ~/scr/tools/filesort
+|4,39,88,48,1575828684,"~/scr/tools/filesort"
+-'  88  48  ~/scr/tools/filesort
+|4,39,88,48,1575828684,"~/scr/tools/filesort"
+-'  88  48  ~/scr/tools/filesort
+|4,39,88,48,1575828684,"~/scr/tools/filesort"
+-'  88  48  ~/scr/tools/filesort
+|4,39,88,48,1575828684,"~/scr/tools/filesort"
+-'  88  48  ~/scr/tools/filesort
+|4,39,88,48,1575828684,"~/scr/tools/filesort"
+-'  88  48  ~/scr/tools/filesort
+|4,39,88,48,1575828684,"~/scr/tools/filesort"
 
 # History of marks within files (newest to oldest):
+
+> ~/scr/updates/1
+	*	1575828997	0
+	"	1	0
+
+> ~/scr/tools/filesort
+	*	1575828952	0
+	"	93	38
+	^	93	39
+	.	93	38
+	+	12	0
+	+	6	0
+	+	13	6
+	+	79	20
+	+	13	0
+	+	9	15
+	+	87	45
+	+	79	19
+	+	87	0
+	+	88	0
+	+	86	33
+	+	88	19
+	+	89	19
+	+	81	31
+	+	88	48
+	+	95	39
+	+	96	0
+	+	95	133
+	+	95	0
+	+	95	122
+	+	99	0
+	+	98	40
+	+	97	0
+	+	98	40
+	+	99	0
+	+	95	0
+	+	92	93
+	+	94	0
+	+	92	60
+	+	93	38
+
+> ~/scr/parbs.sh
+	*	1575828283	0
+	"	271	4
+	^	261	1
+	.	261	0
+	+	247	71
+	+	252	8
+	+	247	71
+	+	251	0
+	+	250	12
+	+	195	0
+	+	22	79
+	+	23	87
+	+	223	0
+	+	222	12
+	+	247	0
+	+	248	0
+	+	247	0
+	+	247	42
+	+	193	45
+	+	263	0
+	+	258	0
+	+	262	0
+	+	258	87
+	+	258	150
+	+	258	19
+	+	258	131
+	+	262	0
+	+	258	48
+	+	260	0
+	+	259	0
+	+	249	0
+	+	250	2
+	+	249	1
+	+	250	2
+	+	261	0
+	n	15	31
 
 > ~/scr/chroot.sh
 	*	1575822097	0
@@ -418,28 +524,6 @@ $
 	^	66	57
 	.	66	56
 	+	66	56
-
-> ~/scr/parbs.sh
-	*	1575822074	0
-	"	193	19
-	^	193	46
-	.	193	45
-	+	247	71
-	+	251	8
-	+	247	71
-	+	250	0
-	+	249	12
-	+	195	0
-	+	22	79
-	+	23	87
-	+	223	0
-	+	222	12
-	+	247	0
-	+	248	0
-	+	247	0
-	+	247	42
-	+	193	45
-	n	15	31
 
 > ~/scr/p
 	*	1575822008	0
