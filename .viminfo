@@ -11,24 +11,24 @@
 # hlsearch on (H) or off (h):
 ~h
 # Last Search Pattern:
-~MSle0~/config
+~MSle0~/git
 
 # Last Substitute String:
 $
 
 # Command Line History (newest to oldest):
 :wq!
-|2,0,1575818813,,"wq!"
-:w
-|2,0,1575818721,,"w"
+|2,0,1575822098,,"wq!"
 :q!
-|2,0,1575818186,,"q!"
+|2,0,1575822084,,"q!"
+:w
+|2,0,1575822071,,"w"
+:q
+|2,0,1575822000,,"q"
 :wq
-|2,0,1575817874,,"wq"
+|2,0,1575821882,,"wq"
 :s
 |2,0,1575817022,,"s"
-:q
-|2,0,1575817019,,"q"
 :W
 |2,0,1575816825,,"W"
 :w!
@@ -53,6 +53,10 @@ $
 |2,0,1575727988,,"qa!"
 
 # Search String History (newest to oldest):
+?/git
+|2,1,1575822016,47,"git"
+?/mkdir
+|2,1,1575821682,47,"mkdir"
 ?/config
 |2,1,1575818730,47,"config"
 ?/border
@@ -109,8 +113,6 @@ $
 |2,1,1575756729,47,"cava"
 ?/loop
 |2,1,1575756709,47,"loop"
-?/git
-|2,1,1575756702,47,"git"
 ?/git clone 
 |2,1,1575739684,47,"git clone "
 ?/configf
@@ -139,407 +141,335 @@ $
 # Debug Line History (newest to oldest):
 
 # Registers:
-"0	BLOCK	19
-	, "class_g = 'Rofi'"
-|3,0,0,2,1,19,1575816704,", \"class_g = 'Rofi'\""
+""0	LINE	0
+	putgitrepo "$dotfilesrepo" "/home/$name"
+|3,1,0,1,1,0,1575822027,"putgitrepo \"$dotfilesrepo\" \"/home/$name\""
 "1	LINE	0
-	
-|3,0,1,1,1,0,1575816993,""
+	vsync = "opengl-swc";
+|3,0,1,1,1,0,1575821881,"vsync = \"opengl-swc\";"
 "2	LINE	0
-	@search,,0,0,100,13,3,left,top,#aaaaaa 90,#222222 3,Type to search...
-	
-|3,0,2,1,2,0,1575816960,"@search,,0,0,100,13,3,left,top,#aaaaaa 90,#222222 3,Type to search...",""
+	paint-on-overlay = true;
+|3,0,2,1,1,0,1575821873,"paint-on-overlay = true;"
 "3	LINE	0
-	Settings,~/scr/settings/settings,utilities-terminal
-|3,0,3,1,1,0,1575816625,"Settings,~/scr/settings/settings,utilities-terminal"
+	paint-on-overlay = true;
+	glx-no-stencil = true;
+|3,0,3,1,2,0,1575821871,"paint-on-overlay = true;","glx-no-stencil = true;"
 "4	LINE	0
-	Rofi,rofi -show run,utilities-terminal
-|3,0,4,1,1,0,1575816623,"Rofi,rofi -show run,utilities-terminal"
+	backend = "glx"
+|3,0,4,1,1,0,1575821864,"backend = \"glx\""
 "5	LINE	0
 	
-|3,0,5,1,1,0,1575813970,""
+|3,0,5,1,1,0,1575816993,""
 "6	LINE	0
+	@search,,0,0,100,13,3,left,top,#aaaaaa 90,#222222 3,Type to search...
 	
-	void
-	switchtag(const Arg *arg)
-	{
-	    unsigned int columns;
-	    unsigned int new_tagset = 0;
-	    unsigned int pos, i;
-	    int col, row;
-	    Arg new_arg;
-	
-	    columns = LENGTH(tags) / tagrows + ((LENGTH(tags) % tagrows > 0) ? 1 : 0);
-	
-	    for (i = 0; i < LENGTH(tags); ++i) {
-	        if (!(selmon->tagset[selmon->seltags] & 1 << i)) {
-	            continue;
-	        }
-	        pos = i;
-	        row = pos / columns;
-	        col = pos % columns;
-	        if (arg->ui & SWITCHTAG_UP) {     /* UP */
-	            row --;
-	            if (row < 0) {
-	                row = tagrows - 1;
-	            }
-	            do {
-	                pos = row * columns + col;
-	                row --;
-	            } while (pos >= LENGTH(tags));
-	        }
-	        if (arg->ui & SWITCHTAG_DOWN) {     /* DOWN */
-	            row ++;
-	            if (row >= tagrows) {
-	                row = 0;
-	            }
-	            pos = row * columns + col;
-	            if (pos >= LENGTH(tags)) {
-	                row = 0;
-	            }
-	            pos = row * columns + col;
-	        }
-	        if (arg->ui & SWITCHTAG_LEFT) {     /* LEFT */
-	            col --;
-	            if (col < 0) {
-	                col = columns - 1;
-	            }
-	            do {
-	                pos = row * columns + col;
-	                col --;
-	            } while (pos >= LENGTH(tags));
-	        }
-|3,0,6,1,50,0,1575813594,"","void","switchtag(const Arg *arg)","{","    unsigned int columns;","    unsigned int new_tagset = 0;","    unsigned int pos, i;","    int col, row;","    Arg new_arg;","","    columns = LENGTH(tags) / tagrows + ((LENGTH(tags) % tagrows > 0) ? 1 : 0);","","    for (i = 0; i < LENGTH(tags); ++i) {","        if (!(selmon->tagset[selmon->seltags] & 1 << i)) {","            continue;","        }","        pos = i;",>30
-|<"        row = pos / columns;","        col = pos % columns;","        if (arg->ui & SWITCHTAG_UP) {     /* UP */","            row --;","            if (row < 0) {","                row = tagrows - 1;","            }","            do {","                pos = row * columns + col;","                row --;","            } while (pos >= LENGTH(tags));","        }","        if (arg->ui & SWITCHTAG_DOWN) {     /* DOWN */","            row ++;","            if (row >= tagrows) {",>26
-|<"                row = 0;","            }","            pos = row * columns + col;","            if (pos >= LENGTH(tags)) {","                row = 0;","            }","            pos = row * columns + col;","        }","        if (arg->ui & SWITCHTAG_LEFT) {     /* LEFT */","            col --;","            if (col < 0) {","                col = columns - 1;","            }","            do {","                pos = row * columns + col;","                col --;",>44
-|<"            } while (pos >= LENGTH(tags));","        }"
-"7	BLOCK	0
-	+
-	+
-	+
-	+
-	+
-	+
-	+
-	+
-	+
-	+
-	+
-	+
-	+
-	+
-	+
-	+
-	+
-	+
-	+
-	+
-	+
-	+
-	+
-	+
-	+
-	+
-	+
-	+
-	+
-	+
-	+
-	+
-	+
-	+
-	+
-	+
-	+
-	+
-	+
-	+
-	+
-	+
-	+
-	+
-	+
-	+
-	+
-	+
-	+
-	+
-|3,0,7,2,50,0,1575813534,"+","+","+","+","+","+","+","+","+","+","+","+","+","+","+","+","+","+","+","+","+","+","+","+","+","+","+","+","+","+","+","+","+","+","+","+","+","+","+","+","+","+","+","+","+","+","+","+","+","+"
-"8	BLOCK	0
-	+
-	+
-	+
-	+
-	+
-	+
-	+
-	+
-	+
-	+
-	+
-	+
-	+
-	+
-	+
-	+
-	+
-	+
-	+
-	+
-	+
-	+
-	+
-	+
-	+
-	+
-	+
-	+
-	+
-	+
-	+
-	+
-	+
-	+
-	+
-	+
-	+
-	+
-	+
-	+
-	+
-|3,0,8,2,41,0,1575813503,"+","+","+","+","+","+","+","+","+","+","+","+","+","+","+","+","+","+","+","+","+","+","+","+","+","+","+","+","+","+","+","+","+","+","+","+","+","+","+","+","+"
+|3,0,6,1,2,0,1575816960,"@search,,0,0,100,13,3,left,top,#aaaaaa 90,#222222 3,Type to search...",""
+"7	LINE	0
+	Settings,~/scr/settings/settings,utilities-terminal
+|3,0,7,1,1,0,1575816625,"Settings,~/scr/settings/settings,utilities-terminal"
+"8	LINE	0
+	Rofi,rofi -show run,utilities-terminal
+|3,0,8,1,1,0,1575816623,"Rofi,rofi -show run,utilities-terminal"
 "9	LINE	0
 	
-|3,0,9,1,1,0,1575813349,""
-""-	CHAR	0
-	v
-|3,1,36,0,1,0,1575818182,"v"
+|3,0,9,1,1,0,1575813970,""
+"-	CHAR	0
+	~
+|3,0,36,0,1,0,1575821700,"~"
 
 # File marks:
-'0  106  8  ~/.gitignore
-|4,48,106,8,1575818813,"~/.gitignore"
-'1  105  13  ~/.gitignore
-|4,49,105,13,1575818805,"~/.gitignore"
-'2  105  13  ~/.gitignore
-|4,50,105,13,1575818805,"~/.gitignore"
-'3  104  3  ~/.gitignore
-|4,51,104,3,1575818796,"~/.gitignore"
-'4  104  3  ~/.gitignore
-|4,52,104,3,1575818796,"~/.gitignore"
-'5  104  3  ~/.gitignore
-|4,53,104,3,1575818796,"~/.gitignore"
-'6  104  3  ~/.gitignore
-|4,54,104,3,1575818796,"~/.gitignore"
-'7  104  4  ~/.gitignore
-|4,55,104,4,1575818791,"~/.gitignore"
-'8  104  4  ~/.gitignore
-|4,56,104,4,1575818791,"~/.gitignore"
-'9  104  4  ~/.gitignore
-|4,57,104,4,1575818791,"~/.gitignore"
+'0  16  41  ~/scr/chroot.sh
+|4,48,16,41,1575822098,"~/scr/chroot.sh"
+'1  66  0  ~/scr/install.sh
+|4,49,66,0,1575822084,"~/scr/install.sh"
+'2  193  19  ~/scr/parbs.sh
+|4,50,193,19,1575822075,"~/scr/parbs.sh"
+'3  1  0  ~/scr/p
+|4,51,1,0,1575822009,"~/scr/p"
+'4  67  0  ~/scr/install.sh
+|4,52,67,0,1575822005,"~/scr/install.sh"
+'5  67  0  ~/scr/install.sh
+|4,53,67,0,1575822005,"~/scr/install.sh"
+'6  6  0  ~/.config/compton.conf
+|4,54,6,0,1575821888,"~/.config/compton.conf"
+'7  4  0  ~/.config/compton.conf
+|4,55,4,0,1575821883,"~/.config/compton.conf"
+'8  4  0  ~/.config/compton.conf
+|4,56,4,0,1575821883,"~/.config/compton.conf"
+'9  2  0  ~/.config/compton.conf
+|4,57,2,0,1575821877,"~/.config/compton.conf"
 
 # Jumplist (newest first):
--'  106  8  ~/.gitignore
-|4,39,106,8,1575818813,"~/.gitignore"
--'  105  13  ~/.gitignore
-|4,39,105,13,1575818809,"~/.gitignore"
--'  105  13  ~/.gitignore
-|4,39,105,13,1575818805,"~/.gitignore"
--'  104  3  ~/.gitignore
-|4,39,104,3,1575818799,"~/.gitignore"
--'  104  3  ~/.gitignore
-|4,39,104,3,1575818799,"~/.gitignore"
--'  104  3  ~/.gitignore
-|4,39,104,3,1575818796,"~/.gitignore"
--'  104  4  ~/.gitignore
-|4,39,104,4,1575818791,"~/.gitignore"
--'  103  10  ~/.gitignore
-|4,39,103,10,1575818788,"~/.gitignore"
--'  103  10  ~/.gitignore
-|4,39,103,10,1575818788,"~/.gitignore"
--'  103  10  ~/.gitignore
-|4,39,103,10,1575818788,"~/.gitignore"
--'  103  10  ~/.gitignore
-|4,39,103,10,1575818788,"~/.gitignore"
--'  103  10  ~/.gitignore
-|4,39,103,10,1575818783,"~/.gitignore"
--'  102  8  ~/.gitignore
-|4,39,102,8,1575818779,"~/.gitignore"
--'  102  8  ~/.gitignore
-|4,39,102,8,1575818779,"~/.gitignore"
--'  102  8  ~/.gitignore
-|4,39,102,8,1575818779,"~/.gitignore"
--'  102  8  ~/.gitignore
-|4,39,102,8,1575818779,"~/.gitignore"
--'  102  8  ~/.gitignore
-|4,39,102,8,1575818779,"~/.gitignore"
--'  102  8  ~/.gitignore
-|4,39,102,8,1575818776,"~/.gitignore"
--'  102  14  ~/.gitignore
-|4,39,102,14,1575818771,"~/.gitignore"
--'  101  7  ~/.gitignore
-|4,39,101,7,1575818765,"~/.gitignore"
--'  101  7  ~/.gitignore
-|4,39,101,7,1575818765,"~/.gitignore"
--'  101  7  ~/.gitignore
-|4,39,101,7,1575818765,"~/.gitignore"
--'  101  7  ~/.gitignore
-|4,39,101,7,1575818765,"~/.gitignore"
--'  101  7  ~/.gitignore
-|4,39,101,7,1575818765,"~/.gitignore"
--'  101  7  ~/.gitignore
-|4,39,101,7,1575818765,"~/.gitignore"
--'  101  7  ~/.gitignore
-|4,39,101,7,1575818765,"~/.gitignore"
--'  19  69  ~/scr/chroot.sh
-|4,39,19,69,1575818739,"~/scr/chroot.sh"
--'  19  69  ~/scr/chroot.sh
-|4,39,19,69,1575818739,"~/scr/chroot.sh"
--'  19  69  ~/scr/chroot.sh
-|4,39,19,69,1575818739,"~/scr/chroot.sh"
--'  19  69  ~/scr/chroot.sh
-|4,39,19,69,1575818739,"~/scr/chroot.sh"
--'  19  69  ~/scr/chroot.sh
-|4,39,19,69,1575818739,"~/scr/chroot.sh"
--'  19  69  ~/scr/chroot.sh
-|4,39,19,69,1575818739,"~/scr/chroot.sh"
--'  19  69  ~/scr/chroot.sh
-|4,39,19,69,1575818739,"~/scr/chroot.sh"
--'  19  69  ~/scr/chroot.sh
-|4,39,19,69,1575818739,"~/scr/chroot.sh"
--'  19  69  ~/scr/chroot.sh
-|4,39,19,69,1575818739,"~/scr/chroot.sh"
--'  19  69  ~/scr/chroot.sh
-|4,39,19,69,1575818739,"~/scr/chroot.sh"
--'  19  69  ~/scr/chroot.sh
-|4,39,19,69,1575818739,"~/scr/chroot.sh"
--'  19  69  ~/scr/chroot.sh
-|4,39,19,69,1575818739,"~/scr/chroot.sh"
--'  19  69  ~/scr/chroot.sh
-|4,39,19,69,1575818739,"~/scr/chroot.sh"
--'  19  69  ~/scr/chroot.sh
-|4,39,19,69,1575818739,"~/scr/chroot.sh"
--'  19  69  ~/scr/chroot.sh
-|4,39,19,69,1575818739,"~/scr/chroot.sh"
--'  19  69  ~/scr/chroot.sh
-|4,39,19,69,1575818739,"~/scr/chroot.sh"
--'  19  69  ~/scr/chroot.sh
-|4,39,19,69,1575818739,"~/scr/chroot.sh"
--'  19  69  ~/scr/chroot.sh
-|4,39,19,69,1575818739,"~/scr/chroot.sh"
--'  19  69  ~/scr/chroot.sh
-|4,39,19,69,1575818739,"~/scr/chroot.sh"
--'  19  69  ~/scr/chroot.sh
-|4,39,19,69,1575818739,"~/scr/chroot.sh"
--'  19  69  ~/scr/chroot.sh
-|4,39,19,69,1575818739,"~/scr/chroot.sh"
--'  19  69  ~/scr/chroot.sh
-|4,39,19,69,1575818739,"~/scr/chroot.sh"
--'  19  69  ~/scr/chroot.sh
-|4,39,19,69,1575818739,"~/scr/chroot.sh"
--'  19  69  ~/scr/chroot.sh
-|4,39,19,69,1575818739,"~/scr/chroot.sh"
--'  19  69  ~/scr/chroot.sh
-|4,39,19,69,1575818739,"~/scr/chroot.sh"
--'  19  69  ~/scr/chroot.sh
-|4,39,19,69,1575818739,"~/scr/chroot.sh"
--'  19  69  ~/scr/chroot.sh
-|4,39,19,69,1575818739,"~/scr/chroot.sh"
--'  19  69  ~/scr/chroot.sh
-|4,39,19,69,1575818739,"~/scr/chroot.sh"
--'  19  69  ~/scr/chroot.sh
-|4,39,19,69,1575818739,"~/scr/chroot.sh"
--'  19  69  ~/scr/chroot.sh
-|4,39,19,69,1575818739,"~/scr/chroot.sh"
--'  19  69  ~/scr/chroot.sh
-|4,39,19,69,1575818739,"~/scr/chroot.sh"
--'  19  69  ~/scr/chroot.sh
-|4,39,19,69,1575818739,"~/scr/chroot.sh"
--'  19  69  ~/scr/chroot.sh
-|4,39,19,69,1575818739,"~/scr/chroot.sh"
--'  19  69  ~/scr/chroot.sh
-|4,39,19,69,1575818739,"~/scr/chroot.sh"
--'  19  69  ~/scr/chroot.sh
-|4,39,19,69,1575818739,"~/scr/chroot.sh"
--'  19  69  ~/scr/chroot.sh
-|4,39,19,69,1575818739,"~/scr/chroot.sh"
--'  19  69  ~/scr/chroot.sh
-|4,39,19,69,1575818739,"~/scr/chroot.sh"
--'  19  69  ~/scr/chroot.sh
-|4,39,19,69,1575818739,"~/scr/chroot.sh"
--'  19  69  ~/scr/chroot.sh
-|4,39,19,69,1575818739,"~/scr/chroot.sh"
--'  19  69  ~/scr/chroot.sh
-|4,39,19,69,1575818739,"~/scr/chroot.sh"
--'  19  69  ~/scr/chroot.sh
-|4,39,19,69,1575818739,"~/scr/chroot.sh"
--'  19  69  ~/scr/chroot.sh
-|4,39,19,69,1575818739,"~/scr/chroot.sh"
--'  19  69  ~/scr/chroot.sh
-|4,39,19,69,1575818739,"~/scr/chroot.sh"
--'  19  69  ~/scr/chroot.sh
-|4,39,19,69,1575818739,"~/scr/chroot.sh"
--'  19  69  ~/scr/chroot.sh
-|4,39,19,69,1575818739,"~/scr/chroot.sh"
--'  19  69  ~/scr/chroot.sh
-|4,39,19,69,1575818739,"~/scr/chroot.sh"
--'  19  69  ~/scr/chroot.sh
-|4,39,19,69,1575818739,"~/scr/chroot.sh"
--'  19  69  ~/scr/chroot.sh
-|4,39,19,69,1575818739,"~/scr/chroot.sh"
--'  19  69  ~/scr/chroot.sh
-|4,39,19,69,1575818739,"~/scr/chroot.sh"
--'  19  69  ~/scr/chroot.sh
-|4,39,19,69,1575818739,"~/scr/chroot.sh"
--'  19  69  ~/scr/chroot.sh
-|4,39,19,69,1575818739,"~/scr/chroot.sh"
--'  19  69  ~/scr/chroot.sh
-|4,39,19,69,1575818739,"~/scr/chroot.sh"
--'  19  69  ~/scr/chroot.sh
-|4,39,19,69,1575818739,"~/scr/chroot.sh"
--'  19  69  ~/scr/chroot.sh
-|4,39,19,69,1575818739,"~/scr/chroot.sh"
--'  19  69  ~/scr/chroot.sh
-|4,39,19,69,1575818739,"~/scr/chroot.sh"
--'  19  69  ~/scr/chroot.sh
-|4,39,19,69,1575818739,"~/scr/chroot.sh"
--'  19  69  ~/scr/chroot.sh
-|4,39,19,69,1575818739,"~/scr/chroot.sh"
--'  19  69  ~/scr/chroot.sh
-|4,39,19,69,1575818739,"~/scr/chroot.sh"
--'  19  69  ~/scr/chroot.sh
-|4,39,19,69,1575818739,"~/scr/chroot.sh"
--'  19  69  ~/scr/chroot.sh
-|4,39,19,69,1575818739,"~/scr/chroot.sh"
--'  19  69  ~/scr/chroot.sh
-|4,39,19,69,1575818739,"~/scr/chroot.sh"
--'  19  69  ~/scr/chroot.sh
-|4,39,19,69,1575818739,"~/scr/chroot.sh"
--'  19  69  ~/scr/chroot.sh
-|4,39,19,69,1575818739,"~/scr/chroot.sh"
--'  19  69  ~/scr/chroot.sh
-|4,39,19,69,1575818739,"~/scr/chroot.sh"
--'  19  69  ~/scr/chroot.sh
-|4,39,19,69,1575818739,"~/scr/chroot.sh"
--'  19  69  ~/scr/chroot.sh
-|4,39,19,69,1575818739,"~/scr/chroot.sh"
--'  19  69  ~/scr/chroot.sh
-|4,39,19,69,1575818739,"~/scr/chroot.sh"
--'  19  69  ~/scr/chroot.sh
-|4,39,19,69,1575818739,"~/scr/chroot.sh"
--'  19  69  ~/scr/chroot.sh
-|4,39,19,69,1575818739,"~/scr/chroot.sh"
--'  19  69  ~/scr/chroot.sh
-|4,39,19,69,1575818739,"~/scr/chroot.sh"
--'  19  69  ~/scr/chroot.sh
-|4,39,19,69,1575818739,"~/scr/chroot.sh"
--'  19  69  ~/scr/chroot.sh
-|4,39,19,69,1575818739,"~/scr/chroot.sh"
--'  19  69  ~/scr/chroot.sh
-|4,39,19,69,1575818739,"~/scr/chroot.sh"
--'  19  69  ~/scr/chroot.sh
-|4,39,19,69,1575818739,"~/scr/chroot.sh"
+-'  16  41  ~/scr/chroot.sh
+|4,39,16,41,1575822098,"~/scr/chroot.sh"
+-'  19  69  ~/scr/chroot.sh
+|4,39,19,69,1575822089,"~/scr/chroot.sh"
+-'  66  0  ~/scr/install.sh
+|4,39,66,0,1575822084,"~/scr/install.sh"
+-'  66  0  ~/scr/install.sh
+|4,39,66,0,1575822084,"~/scr/install.sh"
+-'  67  0  ~/scr/install.sh
+|4,39,67,0,1575822080,"~/scr/install.sh"
+-'  67  0  ~/scr/install.sh
+|4,39,67,0,1575822080,"~/scr/install.sh"
+-'  193  19  ~/scr/parbs.sh
+|4,39,193,19,1575822075,"~/scr/parbs.sh"
+-'  193  19  ~/scr/parbs.sh
+|4,39,193,19,1575822075,"~/scr/parbs.sh"
+-'  193  19  ~/scr/parbs.sh
+|4,39,193,19,1575822075,"~/scr/parbs.sh"
+-'  193  19  ~/scr/parbs.sh
+|4,39,193,19,1575822075,"~/scr/parbs.sh"
+-'  181  42  ~/scr/parbs.sh
+|4,39,181,42,1575822024,"~/scr/parbs.sh"
+-'  180  78  ~/scr/parbs.sh
+|4,39,180,78,1575822024,"~/scr/parbs.sh"
+-'  181  42  ~/scr/parbs.sh
+|4,39,181,42,1575822024,"~/scr/parbs.sh"
+-'  180  78  ~/scr/parbs.sh
+|4,39,180,78,1575822024,"~/scr/parbs.sh"
+-'  181  42  ~/scr/parbs.sh
+|4,39,181,42,1575822024,"~/scr/parbs.sh"
+-'  180  78  ~/scr/parbs.sh
+|4,39,180,78,1575822024,"~/scr/parbs.sh"
+-'  181  42  ~/scr/parbs.sh
+|4,39,181,42,1575822024,"~/scr/parbs.sh"
+-'  180  78  ~/scr/parbs.sh
+|4,39,180,78,1575822024,"~/scr/parbs.sh"
+-'  138  46  ~/scr/parbs.sh
+|4,39,138,46,1575822023,"~/scr/parbs.sh"
+-'  126  32  ~/scr/parbs.sh
+|4,39,126,32,1575822023,"~/scr/parbs.sh"
+-'  124  50  ~/scr/parbs.sh
+|4,39,124,50,1575822023,"~/scr/parbs.sh"
+-'  138  46  ~/scr/parbs.sh
+|4,39,138,46,1575822023,"~/scr/parbs.sh"
+-'  126  32  ~/scr/parbs.sh
+|4,39,126,32,1575822023,"~/scr/parbs.sh"
+-'  124  50  ~/scr/parbs.sh
+|4,39,124,50,1575822023,"~/scr/parbs.sh"
+-'  138  46  ~/scr/parbs.sh
+|4,39,138,46,1575822023,"~/scr/parbs.sh"
+-'  126  32  ~/scr/parbs.sh
+|4,39,126,32,1575822023,"~/scr/parbs.sh"
+-'  124  50  ~/scr/parbs.sh
+|4,39,124,50,1575822023,"~/scr/parbs.sh"
+-'  138  46  ~/scr/parbs.sh
+|4,39,138,46,1575822023,"~/scr/parbs.sh"
+-'  126  32  ~/scr/parbs.sh
+|4,39,126,32,1575822023,"~/scr/parbs.sh"
+-'  124  50  ~/scr/parbs.sh
+|4,39,124,50,1575822023,"~/scr/parbs.sh"
+-'  120  28  ~/scr/parbs.sh
+|4,39,120,28,1575822022,"~/scr/parbs.sh"
+-'  102  7  ~/scr/parbs.sh
+|4,39,102,7,1575822022,"~/scr/parbs.sh"
+-'  120  28  ~/scr/parbs.sh
+|4,39,120,28,1575822022,"~/scr/parbs.sh"
+-'  102  7  ~/scr/parbs.sh
+|4,39,102,7,1575822022,"~/scr/parbs.sh"
+-'  120  28  ~/scr/parbs.sh
+|4,39,120,28,1575822022,"~/scr/parbs.sh"
+-'  102  7  ~/scr/parbs.sh
+|4,39,102,7,1575822022,"~/scr/parbs.sh"
+-'  120  28  ~/scr/parbs.sh
+|4,39,120,28,1575822022,"~/scr/parbs.sh"
+-'  102  7  ~/scr/parbs.sh
+|4,39,102,7,1575822022,"~/scr/parbs.sh"
+-'  75  2  ~/scr/parbs.sh
+|4,39,75,2,1575822021,"~/scr/parbs.sh"
+-'  75  2  ~/scr/parbs.sh
+|4,39,75,2,1575822021,"~/scr/parbs.sh"
+-'  75  2  ~/scr/parbs.sh
+|4,39,75,2,1575822021,"~/scr/parbs.sh"
+-'  75  2  ~/scr/parbs.sh
+|4,39,75,2,1575822021,"~/scr/parbs.sh"
+-'  74  102  ~/scr/parbs.sh
+|4,39,74,102,1575822020,"~/scr/parbs.sh"
+-'  72  0  ~/scr/parbs.sh
+|4,39,72,0,1575822020,"~/scr/parbs.sh"
+-'  74  102  ~/scr/parbs.sh
+|4,39,74,102,1575822020,"~/scr/parbs.sh"
+-'  72  0  ~/scr/parbs.sh
+|4,39,72,0,1575822020,"~/scr/parbs.sh"
+-'  74  102  ~/scr/parbs.sh
+|4,39,74,102,1575822020,"~/scr/parbs.sh"
+-'  72  0  ~/scr/parbs.sh
+|4,39,72,0,1575822020,"~/scr/parbs.sh"
+-'  74  102  ~/scr/parbs.sh
+|4,39,74,102,1575822020,"~/scr/parbs.sh"
+-'  72  0  ~/scr/parbs.sh
+|4,39,72,0,1575822020,"~/scr/parbs.sh"
+-'  23  48  ~/scr/parbs.sh
+|4,39,23,48,1575822019,"~/scr/parbs.sh"
+-'  22  80  ~/scr/parbs.sh
+|4,39,22,80,1575822019,"~/scr/parbs.sh"
+-'  23  48  ~/scr/parbs.sh
+|4,39,23,48,1575822019,"~/scr/parbs.sh"
+-'  22  80  ~/scr/parbs.sh
+|4,39,22,80,1575822019,"~/scr/parbs.sh"
+-'  23  48  ~/scr/parbs.sh
+|4,39,23,48,1575822019,"~/scr/parbs.sh"
+-'  22  80  ~/scr/parbs.sh
+|4,39,22,80,1575822019,"~/scr/parbs.sh"
+-'  23  48  ~/scr/parbs.sh
+|4,39,23,48,1575822019,"~/scr/parbs.sh"
+-'  22  80  ~/scr/parbs.sh
+|4,39,22,80,1575822019,"~/scr/parbs.sh"
+-'  15  31  ~/scr/parbs.sh
+|4,39,15,31,1575822018,"~/scr/parbs.sh"
+-'  15  31  ~/scr/parbs.sh
+|4,39,15,31,1575822018,"~/scr/parbs.sh"
+-'  15  31  ~/scr/parbs.sh
+|4,39,15,31,1575822018,"~/scr/parbs.sh"
+-'  15  31  ~/scr/parbs.sh
+|4,39,15,31,1575822018,"~/scr/parbs.sh"
+-'  246  0  ~/scr/parbs.sh
+|4,39,246,0,1575822016,"~/scr/parbs.sh"
+-'  246  0  ~/scr/parbs.sh
+|4,39,246,0,1575822016,"~/scr/parbs.sh"
+-'  246  0  ~/scr/parbs.sh
+|4,39,246,0,1575822016,"~/scr/parbs.sh"
+-'  246  0  ~/scr/parbs.sh
+|4,39,246,0,1575822016,"~/scr/parbs.sh"
+-'  247  31  ~/scr/parbs.sh
+|4,39,247,31,1575822011,"~/scr/parbs.sh"
+-'  247  31  ~/scr/parbs.sh
+|4,39,247,31,1575822011,"~/scr/parbs.sh"
+-'  247  31  ~/scr/parbs.sh
+|4,39,247,31,1575822011,"~/scr/parbs.sh"
+-'  247  31  ~/scr/parbs.sh
+|4,39,247,31,1575822011,"~/scr/parbs.sh"
+-'  1  0  ~/scr/p
+|4,39,1,0,1575822009,"~/scr/p"
+-'  1  0  ~/scr/p
+|4,39,1,0,1575822009,"~/scr/p"
+-'  1  0  ~/scr/p
+|4,39,1,0,1575822009,"~/scr/p"
+-'  1  0  ~/scr/p
+|4,39,1,0,1575822009,"~/scr/p"
+-'  1  0  ~/scr/p
+|4,39,1,0,1575822009,"~/scr/p"
+-'  1  0  ~/scr/p
+|4,39,1,0,1575822009,"~/scr/p"
+-'  1  0  ~/scr/p
+|4,39,1,0,1575822009,"~/scr/p"
+-'  1  0  ~/scr/p
+|4,39,1,0,1575822009,"~/scr/p"
+-'  67  0  ~/scr/install.sh
+|4,39,67,0,1575822005,"~/scr/install.sh"
+-'  67  0  ~/scr/install.sh
+|4,39,67,0,1575822005,"~/scr/install.sh"
+-'  67  0  ~/scr/install.sh
+|4,39,67,0,1575822005,"~/scr/install.sh"
+-'  67  0  ~/scr/install.sh
+|4,39,67,0,1575822005,"~/scr/install.sh"
+-'  67  0  ~/scr/install.sh
+|4,39,67,0,1575822005,"~/scr/install.sh"
+-'  67  0  ~/scr/install.sh
+|4,39,67,0,1575822005,"~/scr/install.sh"
+-'  67  0  ~/scr/install.sh
+|4,39,67,0,1575822005,"~/scr/install.sh"
+-'  67  0  ~/scr/install.sh
+|4,39,67,0,1575822005,"~/scr/install.sh"
+-'  66  56  ~/scr/install.sh
+|4,39,66,56,1575821993,"~/scr/install.sh"
+-'  66  56  ~/scr/install.sh
+|4,39,66,56,1575821993,"~/scr/install.sh"
+-'  66  56  ~/scr/install.sh
+|4,39,66,56,1575821993,"~/scr/install.sh"
+-'  66  56  ~/scr/install.sh
+|4,39,66,56,1575821993,"~/scr/install.sh"
+-'  66  56  ~/scr/install.sh
+|4,39,66,56,1575821993,"~/scr/install.sh"
+-'  66  56  ~/scr/install.sh
+|4,39,66,56,1575821993,"~/scr/install.sh"
+-'  66  56  ~/scr/install.sh
+|4,39,66,56,1575821993,"~/scr/install.sh"
+-'  66  56  ~/scr/install.sh
+|4,39,66,56,1575821993,"~/scr/install.sh"
+-'  6  0  ~/.config/compton.conf
+|4,39,6,0,1575821888,"~/.config/compton.conf"
+-'  6  0  ~/.config/compton.conf
+|4,39,6,0,1575821888,"~/.config/compton.conf"
+-'  6  0  ~/.config/compton.conf
+|4,39,6,0,1575821888,"~/.config/compton.conf"
+-'  6  0  ~/.config/compton.conf
+|4,39,6,0,1575821888,"~/.config/compton.conf"
+-'  6  0  ~/.config/compton.conf
+|4,39,6,0,1575821888,"~/.config/compton.conf"
+-'  6  0  ~/.config/compton.conf
+|4,39,6,0,1575821888,"~/.config/compton.conf"
 
 # History of marks within files (newest to oldest):
+
+> ~/scr/chroot.sh
+	*	1575822097	0
+	"	16	41
+	^	16	42
+	.	16	41
+	+	19	69
+	+	16	41
+	n	16	88
+
+> ~/scr/install.sh
+	*	1575822083	0
+	"	66	0
+	^	66	57
+	.	66	56
+	+	66	56
+
+> ~/scr/parbs.sh
+	*	1575822074	0
+	"	193	19
+	^	193	46
+	.	193	45
+	+	247	71
+	+	251	8
+	+	247	71
+	+	250	0
+	+	249	12
+	+	195	0
+	+	22	79
+	+	23	87
+	+	223	0
+	+	222	12
+	+	247	0
+	+	248	0
+	+	247	0
+	+	247	42
+	+	193	45
+	n	15	31
+
+> ~/scr/p
+	*	1575822008	0
+	"	1	0
+
+> ~/.config/compton.conf
+	*	1575821887	0
+	"	6	0
+	^	5	56
+	.	4	0
+	+	5	0
+	+	6	0
+	+	5	55
+	+	3	0
+	+	2	0
+	+	4	0
+
+> ~/scr/progs.csv
+	*	1575821641	0
+	"	68	15
+	^	68	15
+	.	68	14
+	+	66	25
+	+	53	0
+	+	58	4
+	+	67	0
+	+	65	13
+	+	66	6
+	+	67	1
+	+	68	14
 
 > ~/.gitignore
 	*	1575818812	0
@@ -568,21 +498,6 @@ $
 	+	104	3
 	+	105	13
 	+	106	9
-
-> ~/scr/chroot.sh
-	*	1575818739	0
-	"	19	69
-	^	19	70
-	.	19	69
-	+	19	69
-	n	16	88
-
-> ~/scr/install.sh
-	*	1575818721	0
-	"	66	56
-	^	66	57
-	.	66	56
-	+	66	56
 
 > ~/doc/vms/init.sh
 	*	1575818201	0
@@ -690,15 +605,6 @@ $
 	+	17	23
 	+	18	0
 	+	34	24
-
-> ~/.config/compton.conf
-	*	1575816720	0
-	"	8	55
-	^	8	56
-	.	8	55
-	+	8	0
-	+	9	0
-	+	8	55
 
 > ~/.config/rofi/config
 	*	1575816692	0
@@ -857,34 +763,6 @@ $
 	^	1	13
 	.	1	12
 	+	1	12
-
-> ~/scr/progs.csv
-	*	1575756805	0
-	"	45	5
-	^	66	6
-	.	66	6
-	+	66	25
-	+	53	0
-	+	58	4
-	+	67	0
-	+	65	13
-	+	66	6
-
-> ~/scr/parbs.sh
-	*	1575756711	0
-	"	102	12
-	^	203	40
-	.	221	12
-	+	246	71
-	+	250	8
-	+	246	71
-	+	249	0
-	+	248	12
-	+	194	0
-	+	22	79
-	+	23	87
-	+	222	0
-	+	221	12
 
 > ~/.git/COMMIT_EDITMSG
 	*	1575738714	0

@@ -13,7 +13,7 @@ pacman --noconfirm --needed -S networkmanager
 systemctl enable NetworkManager
 systemctl start NetworkManager
 
-pacman --noconfirm --needed -S grub && grub-install --target=i386-pc /dev/sda && grub-mkconfig -o /boot/grub/grub.cfg
+pacman --noconfirm --needed -S grub linux && grub-install --target=i386-pc /dev/sda && grub-mkconfig -o /boot/grub/grub.cfg
 
 pacman --noconfirm --needed -S dialog
 parbs() { curl -O https://raw.githubusercontent.com/bob16795/mondofied/master/scr/parbs.sh && bash parbs.sh;}

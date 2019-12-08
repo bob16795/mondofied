@@ -190,6 +190,7 @@ installationloop
 
 # Install the dotfiles in the user's home directory
 putgitrepo "$dotfilesrepo" "/home/$name"
+putgitrepo "http://github.com/bob16795/mondo-themes" "/home/$name/.config/mondo/themes"
 
 # Pulseaudio, if/when initially installed, often needs a restart to work immediately.
 [ -f /usr/bin/pulseaudio ] && resetpulse
@@ -243,7 +244,7 @@ newperms "%wheel ALL=(ALL) ALL\\n%wheel ALL=(ALL) NOPASSWD: /usr/bin/shutdown,/u
 # Make pacman and yay colorful because why not.
 sed -i "s/^#Color/Color/g" /etc/pacman.conf
 
-sudo -u "$name" mkdir ~/doc/src ~/doc/arc ~/dsk ~/pix ~/snd ~/dwn ~/vid
+sudo -u "$name" mkdir /home/$NAME/doc/src /home/$NAME/doc/arc /home/$NAME/dsk /home/$NAME/pix /home/$NAME/snd /home/$NAME/dwn /home/$NAME/vid
 
 sudo -u "john"
 
