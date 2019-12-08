@@ -2,9 +2,9 @@ sw_volume: 82
 audio_device_state:1:pulse audio
 audio_device_state:1:toggle_visualizer
 state: pause
-current: 0
-time: 5.898000
-random: 0
+current: 31
+time: 14.788000
+random: 1
 repeat: 0
 single: 0
 consume: 0
@@ -12,9 +12,508 @@ crossfade: 0
 mixrampdb: 0.000000
 mixrampdelay: -1.000000
 playlist_begin
-0:Ali Gatie - It's You (Official Lyrics Video)-PXGycbkbtW0.opus
-1:bbno$ - bunk ft. swerzie prod. lentra-eHZc0A-PeiE.opus
-2:bbno$ - nursery prod. lentra (tiktok)-Wjar_TtxnV4.opus
-3:pop song-KfTYyLRmhII.opus
-4:on god-n7cYErluUKw.opus
+0:bbno$/bbno$ - bad girl ft. BAINS prod. lentra (official music video).opus
+1:ExileLord/Soulless 5.opus
+2:TRUNKS ON DA TRACK/21 Savage - Bank Account 🔥.opus
+3:ChillTracks/21 Savage & J. Cole - A Lot (Lyrics).opus
+4:21SavageVEVO/21 Savage - a lot ft. J. Cole.opus
+5:24KGoldnVEVO/24KGoldn - DROPPED OUTTA COLLEGE (Official Video).opus
+6:2CELLOS/2CELLOS - Cinema Paradiso [Live at Sydney Opera House].opus
+7:2CELLOS/2CELLOS - My Heart Will Go On [OFFICIAL VIDEO].opus
+8:2CELLOS/2CELLOS - My Heart Will Go On [Live at Sydney Opera House].opus
+9:2CELLOS/2CELLOS - Highway To Hell [Live at Sydney Opera House].opus
+10:2CELLOS/2CELLOS - Cavatina [OFFICIAL VIDEO].opus
+11:2CELLOS/2CELLOS - Cavatina [Live at Sydney Opera House].opus
+12:2CELLOS/2CELLOS - For The Love Of A Princess [Live at Sydney Opera House].opus
+13:2CELLOS/2CELLOS - Perfect - Ed Sheeran.opus
+14:2CELLOS/2CELLOS - Satisfaction [Live at Sydney Opera House].opus
+15:2CELLOS/2CELLOS - Smells Like Teen Spirit [Live at Sydney Opera House].opus
+16:2CELLOS/2CELLOS - Eye Of The Tiger [OFFICIAL VIDEO].opus
+17:2CELLOS/2CELLOS - Seven Nation Army.opus
+18:2CELLOS/2CELLOS performance at the 2018 UEFA Champions League Final.opus
+19:2CELLOS/2CELLOS - Vivaldi Storm [OFFICIAL VIDEO].opus
+20:2CELLOS/2CELLOS - Pirates Of The Caribbean [OFFICIAL VIDEO].opus
+21:2CELLOS/2CELLOS - Hallelujah [OFFICIAL VIDEO].opus
+22:2CELLOS/2CELLOS - Thunderstruck.m4a
+23:2CELLOS/2CELLOS - Wake Me Up.opus
+24:2CELLOS/2CELLOS - Vilo Moja_Ne Dirajte Mi Ravnicu.opus
+25:2CELLOS/2CELLOS & Zucchero - Partigiano Reggiano.opus
+26:2CELLOS/2CELLOS & Zucchero - Baila Morena.opus
+27:2CELLOS/2CELLOS & Zucchero - Cosi Celeste.opus
+28:2CELLOS/2CELLOS - You Shook Me All Night Long.m4a
+29:2CELLOS/2CELLOS - Back In Black.m4a
+30:2CELLOS/2CELLOS - Highway to Hell.opus
+31:2CELLOS/2CELLOS - Smells Like Teen Spirit.opus
+32:2CELLOS/2CELLOS - They Don't Care About Us.opus
+33:2CELLOS/2CELLOS - The Trooper.opus
+34:2CELLOS/2CELLOS - (I Can't Get No) Satisfaction.opus
+35:2CELLOS/2CELLOS - Voodoo People.opus
+36:2CELLOS/2CELLOS - Mombasa.opus
+37:2CELLOS/2CELLOS & Oliver Dragojevic - Sto To Bjese Ljubav.opus
+38:2CELLOS/2CELLOS & Oliver Dragojevic - Galeb i Ja.opus
+39:2CELLOS/2CELLOS & Oliver Dragojevic - Lipa moja.opus
+40:2CELLOS/2CELLOS - We Found Love.opus
+41:Tekashi 6ix9ine/6IX9INE - STOOPID FT. BOBBY SHMURDA (Official Music Video).opus
+42:88rising/Keith Ape x Ski Mask The Slump God - Achoo! (Official Music Video).opus
+43:88rising/Head In The Clouds II x Sorayama Capsule Collection Available Now!.opus
+44:88rising/THE VERY BEST SO FAR... Feast Mansion Season 2 🍔.opus
+45:88rising/MS. PURPLE - a film by Justin Chon (Official Trailer).m4a
+46:88rising/⬆️ GUESS CLASS OF 88 ⬆️ CONGRATS!.opus
+47:88rising/WHO TF DOING MATH AT OUR FESTIVAL 💀💀💀.opus
+48:88rising/SEAN'S STORY ♡ BY FORBES.opus
+49:88rising/WE GONNA F YOU UP.opus
+50:88rising/REI AMI - DICTATOR (Lyric Video).opus
+51:88rising/Head In The Clouds II by Sorayama - FULL COLLECTION AVAILABLE NOW.opus
+52:88rising/NIKI - La La Lost You (Lyric Video).opus
+53:88rising/88rising & RHYME SO - Just Used Music Again.opus
+54:88rising/Rich Brian - Gold Coast (Lyric Video).opus
+55:88rising/Joji & AUGUST 08 - Hopscotch ft. Barney Bones & Rich Brian (Lyric Video).opus
+56:88rising/Hopscotch (Official Video) ft. Joji, AUGUST 08, Barney Bones, & Rich Brian.opus
+57:88rising/Jackson Wang & Higher Brothers - Tequila Sunrise ft. AUGUST 08 & Goldlink (Lyric Video).opus
+58:88rising/Joji & Don Krez - Breathe.opus
+59:88rising/Joji & GENERATIONS from EXILE TRIBE - Need Is Your Love (Lyric Video).opus
+60:88rising/Need Is Your Love (Official Video) ft. Joji & GENERATIONS from EXILE TRIBE.opus
+61:88rising/Joji & Jackson Wang - Walking ft. Swae Lee & Major Lazer (Lyric Video).opus
+62:88rising/Joji & Jackson Wang - Walking ft. Swae Lee & Major Lazer (Official Video).opus
+63:88rising/Their Head In The Clouds ft. Dumbfoundead, Chris Chann, and more.opus
+64:88rising/NIKI & Phum Viphurit - Strange Land (Lyric Video).opus
+65:88rising/NIKI & Rich Brian - Shouldn't Couldn't Wouldn't (Lyric Video).opus
+66:88rising/💖 FRIENDS 4EVA 💖 CONGRATS TO THE CLASS OF 88.opus
+67:88rising/RICH BRIAN & CHUNG HA - THESE NIGHTS (OFFICIAL VIDEO).opus
+68:88rising/REP THE BEST! 88RISING HEAD IN THE CLOUDS MERCH AVAILABLE NOW.opus
+69:88rising/THESE NIGHTS - Behind The Mullet.opus
+70:asapfergVEVO/A$AP Ferg - Plain Jane (Audio).opus
+71:LIVELOVEASAPVEVO/A$AP Rocky - Praise The Lord (Da Shine) (Official Video) ft. Skepta.opus
+72:AES •/Andrew Huang _ Grains of sand.opus
+73:Ali Gatie/Ali Gatie - It's You (Official Lyrics Video).opus
+74:Arizona Zervas/Arizona Zervas - ROXANNE (Prod. 94 Skrt).opus
+75:Ruby Ruby/Arizona Zervas - Roxanne (Lyrics).opus
+76:88rising/AUGUST 08 feat. Duckwrth - Good Girls (Official Music Video).opus
+77:ChillTracks/Bazzi – Focus (Lyrics) ft. 21 Savage.opus
+78:ChillTracks/Bazzi – I.F.L.Y (Lyrics).opus
+79:bbno$/bbno$ - bad girl ft. BAINS prod. lentra (official music video).opus
+80:bbno$/bbno$ - bunk ft. swerzie prod. lentra.opus
+81:Rap Paradise/Bbno$ - On God (Lyrics).opus
+82:bbno$ - Topic/on god.opus
+83:Rap Paradise/Bbno$ - Bad Thoughts (Lyrics).opus
+84:Rap Paradise/Bbno$ - Shining On My Ex (Lyrics) Feat. Yung Gravy.opus
+85:D.H. Lyrics Original/Khalid, Halsey - Eastside (Lyrics).opus
+86:ChillTracks/benny blanco, Juice WRLD – Graduation (Lyrics).opus
+87:benny blanco/benny blanco, Juice WRLD - Graduation (Official Music Video).opus
+88:Bethesda Softworks Music/Take Me Home, Country Roads _ Fallout 76 (Original Trailer Soundtrack).opus
+89:BillyCurringtonVEVO/Billy Currington - Must Be Doin' Somethin' Right (Official Video).opus
+90:hunter1s1k/Look Alive But Im Screaming The Lyrics.opus
+91:BluefaceVEVO/Blueface - First Class ft. Gunna.opus
+92:Soroosh Kermani/Bob Seger - Turn The Page (1973 Radio Version).opus
+93:Monstercat - Instinct/Braken - Wherever You Go [Monstercat Release].opus
+94:BrettYoungVEVO/Brett Young - In Case You Didn't Know (Official Music Video).opus
+95:Brooks & Dunn - Topic/Neon Moon.opus
+96:Ryan Upchurch/Upchurch   'So Brooklyn Remix'  (OFFICIAL MUSIC VIDEO).opus
+97:ChillTracks/Teddy, Lil Peep - Dreams & Nightmares (Lyrics).opus
+98:ChillTracks/bbno$ - thankful (Lyrics) ft. lewis grant.opus
+99:ChillTracks/Lauv – Sims (Lyrics).opus
+100:Ryan Upchurch/Upchurch “Deh SMESH”.opus
+101:ersinaq/Tennessee Whiskey [Lyrics].m4a
+102:DaBaby/DaBaby - BOP on Broadway (Hip Hop Musical).opus
+103:Sparky/Denzel Curry - SPACEGHOSTPUSSY (RIP YAMS) (feat. Lofty305, xxxtentacion & THESLUMPGOD).opus
+104:88rising/Devinta Trista - Fall Into You.opus
+105:ChillTracks/Jonas Brothers, Diplo – Lonely (Lyrics).opus
+106:DJ Blyatman/DJ Blyatman - Avtomat.opus
+107:DJ Blyatman/DJ Blyatman - Balalaika.opus
+108:DJ Blyatman/DJ Blyatman - Black Volga.opus
+109:DJ Blyatman/DJ Blyatman - Boris.opus
+110:DJ Blyatman/DJ Blyatman - Superfly.opus
+111:DJ Blyatman/DJ Blyatman - Slav Brothers.opus
+112:DJ Blyatman/DJ Blyatman - Blitzkrieg.opus
+113:DJ Blyatman/DJ Blyatman - Predator.opus
+114:DJ Blyatman/DJ Blyatman - Moonraker.opus
+115:DJ Blyatman/DJ Blyatman - Metro.opus
+116:DJ Blyatman/DJ Blyatman - Sputnik.opus
+117:DJ Blyatman/DJ Blyatman - Send Nukes.opus
+118:DJ Blyatman/DJ Blyatman - Sapsan.opus
+119:DJ Blyatman/DJ Blyatman - Duga.opus
+120:DJ Blyatman/Hard Bass School & DJ Blyatman - Blast (Official Music Video).opus
+121:DJ Blyatman/DJ Blyatman - Silk Road.opus
+122:DJ Blyatman/DJ Blyatman - Potato Juice (Official Music Video).opus
+123:DJ Blyatman/DJ Blyatman & Russian Village Boys - Cyka Blyat (Official Music Video).opus
+124:DJ Blyatman/DJ Blyatman - Dragunov.opus
+125:DJ Blyatman/DJ Blyatman & XS Project - How We Party (Official Music Video).opus
+126:DJ Blyatman/DJ Blyatman - Energy.opus
+127:DJ Blyatman/DJ Blyatman - Kosmos.opus
+128:DJ Blyatman/DJ Blyatman & Russian Village Boys - Ez Katka (Official Music Video).opus
+129:DJ Blyatman/DJ Blyatman - Potato Juice (Alan Aztec Remix).opus
+130:DJ Blyatman/DJ Blyatman & XS Project - Night in Pripyat.opus
+131:DJ Blyatman/DJ Blyatman & Hard Bass School - Vice City (Official Music Video).opus
+132:DJ Blyatman/DJ Blyatman - Atom.opus
+133:DJ Blyatman/DJ Blyatman - Molotov.opus
+134:DJ Blyatman/DJ Blyatman & DJ Pelix feat. xeK - Our Sound (Official Music Video).opus
+135:DJ Blyatman/DJ Blyatman & Alan Aztec - Russian Monster.opus
+136:DJ Blyatman/DJ Blyatman - Lunapark (Official Music Video).opus
+137:DJ Blyatman/DJ Blyatman & Alan Aztec - Stalker (Official Music Video).m4a
+138:DJ Blyatman/DJ Blyatman - Terminator.opus
+139:DJ Blyatman/DJ Blyatman & DJ Pelix feat. xeK - SLAVIC NAMES (Official Music Video).opus
+140:DJ Blyatman/DJ Blyatman & Hard Bass School - AREA 51 (Official Music Video).opus
+141:DJ Blyatman/DJ Blyatman & XS Project - Matryoshka (Official Music Video).opus
+142:DJ Blyatman/DJ Blyatman & Russian Village Boys - Made in Russia (Official Music Video).opus
+143:DJ Blyatman/DJ Blyatman & Alan Aztec - Shutdown (Official Music Video).opus
+144:DJ Scheme/HOW YOU FEEL ft. Ski Mask The Slump God, Danny Towers & Lil Yachty.opus
+145:Rap Paradise/Doja Cat - Bottom Bitch (Lyrics).opus
+146:dojacatVEVO/Doja Cat, Tyga - Juicy (Official Video).opus
+147:ExileLord/Custom GH3 Bot Gets Top TTFAF Score.opus
+148:ExileLord/HelgaBot - TTFAF Optimal Score (991934).opus
+149:hunter1s1k/God's Plan But Im Screaming The Lyrics.opus
+150:hunter1s1k/Nice For What But I'm Screaming The Lyrics.m4a
+151:hunter1s1k/Do You Love Me.avi.m4a
+152:Drake - Topic/Nonstop.opus
+153:Trending Tunes/Drake - Money In The Grave (Music Video) ft. Rick Ross.opus
+154:Shadow Music/Ellie Goulding & Juice WRLD - Hate Me (Lyrics).opus
+155:ExileLord/GH3 Custom - Misadventure.opus
+156:ExileLord/HOPO Chords are Broken (In a Specific Scenario).opus
+157:ExileLord/GH3 Custom - Soulless 3 Redux.opus
+158:ExileLord/GH3 Hack - Gem Randomization.opus
+159:ExileLord/I HAVE THE POWER.opus
+160:ExileLord/GH3+ v0.4 Release.opus
+161:ExileLord/GH3+ Plugin Tutorial - Mirror Mode Hack.opus
+162:ExileLord/GH3 Texture Progress.opus
+163:ExileLord/GH3 Hacking - First new ingame texture.opus
+164:ExileLord/GH3 Hack - Open Notes that Almost Work.m4a
+165:ExileLord/GH3 Hack - Open Note Progress.opus
+166:ExileLord/This guy is still working on open notes.opus
+167:ExileLord/Another Factorio Time Lapse.opus
+168:ExileLord/GH3+ v0.6 Release (Open Notes).opus
+169:ExileLord/WIP Music.opus
+170:ExileLord/Nice Duck.m4a
+171:ExileLord/Three Idiots Play Quake II.opus
+172:ExileLord/What Happens When You Play a Two Hour Long Song in GH3.opus
+173:ExileLord/HelgaBot Plays Soulless 3.opus
+174:ExileLord/HelgaBot - Soulless 4.opus
+175:ExileLord/How I Fixed a 10 Year Old Guitar Hero Bug Without the Source Code.opus
+176:ExileLord/Secret Guitar Hero III Song!.opus
+177:ExileLord/How I Made the Haunted Guitar Hero III Song.opus
+178:ExileLord/Double Guitar Custom - Monochrome.opus
+179:ExileLord/If Soulless 4 Wasn't Undercharted....opus
+180:ExileLord/Soulless 5.opus
+181:FallenVengeance1/Seven Nation Army (Pre-Release) (Complete).m4a
+182:FamilyJules/'Through The Fire and Flames' Feat. Caleb Hyles - Dragonforce Guitar Cover _ FamilyJules.opus
+183:FlippDineroVEVO/Flipp Dinero - Leave Me Alone (Official Video).opus
+184:FrenchMontanaVEVO/French Montana - No Stylist ft. Drake.opus
+185:FutureVEVO/Future - Mask Off (Official Music Video).opus
+186:FutureVEVO/Future, Juice WRLD - Fine China (Audio).opus
+187:FutureHype/Lil Nas X - Panini (Lyrics).opus
+188:GameChops/Zelda & Chill.opus
+189:Gamemusic/Hotline Miami Soundtrack [OST] ~ Musik 2.opus
+190:GENATARi/Sega Mega Drive - 'Soulless 5' (Exilelord) Remix.opus
+191:HalfDuck/SOULLESS 2 - DRAGONFORCE EDITION.opus
+192:HalfDuck/SOULLESS 3 BUT IT'S EXTREMELY METAL.opus
+193:HalfDuck/SOULLESS 1 METAL COVER.opus
+194:Halsey - Topic/Without Me.opus
+195:ChillTracks/Halsey ft. Juice WRLD - Without Me (Lyrics).opus
+196:HalseyVEVO/Halsey - Graveyard.opus
+197:88rising/Higher Brothers - One Punch Man feat. Ski Mask the Slump God & Denzel Curry (Lyric Video).opus
+198:CloudKid/Hippie Sabotage - Devil Eyes.opus
+199:hunter1s1k/It's Something About You Girl (Nazi Zombie Meme).opus
+200:hunter1s1k/Mine_You So F_ing Precious But I'm Screaming The Lyrics (Valentine's Day Special).opus
+201:hunter1s1k/#Gettin’LitWitThe🅱️ois👌🔥🔥🔥.m4a
+202:hunter1s1k/Psycho But Im Screaming The Lyrics.opus
+203:hunter1s1k/Subscribe To My Twitter.opus
+204:hunter1s1k/Globglogabgalab But Im Screaming The Lyrics.m4a
+205:hunter1s1k/Yodeling Walmart Kid Meme_Lovesick Blues But Im Screaming The Lyrics.m4a
+206:hunter1s1k/In The Rain Or In The Snow, It Wasn't Me..m4a
+207:hunter1s1k/Because I Got High But Im Screaming The Lyrics (422 Special).m4a
+208:hunter1s1k/Why Splatoon Is Better Than Fortnite (Feat. apandah).opus
+209:hunter1s1k/Why The Portal Gun Should Be In Mario Kart.opus
+210:hunter1s1k/Ali-A Intro But I'm Screaming The Instrumental.m4a
+211:hunter1s1k/In My Feelings But Im Screaming The Lyrics.opus
+212:hunter1s1k/You Thought This Would Be A Soviet Anthem Video! But It Was Me, Dio!.opus
+213:hunter1s1k/Baby Shark But Im Screaming The Lyrics.m4a
+214:hunter1s1k/Crab Rave But Im Screaming The Instrumental.m4a
+215:hunter1s1k/I have suicidal thoughts often.opus
+216:hunter1s1k/Every Jojo's Bizarre Adventure Intro But Im Screaming The Lyrics.opus
+217:hunter1s1k/50 Chains - Suckkk (Prod. By nymano).opus
+218:hunter1s1k/Fighting Gold But Im Screaming The Lyrics.opus
+219:hunter1s1k/Mia Khalifa But Im Screaming The Lyrics.opus
+220:hunter1s1k/when everyone you love leaves.opus
+221:hunter1s1k/Traffic Crando But Im Screaming The Lyrics.opus
+222:hunter1s1k/Bitch Lasagna But Im Screaming The Lyrics.m4a
+223:hunter1s1k/so it happened....m4a
+224:Igorrr Official/Igorrr - Cheval [OFFICIAL VIDEO].opus
+225:JColeVEVO/J. Cole - MIDDLE CHILD.opus
+226:Rap Paradise/Jason Derulo - Best Friend (Lyrics) Feat. Ty Dolla $ign.opus
+227:Jason Gray/Jason Gray - 'Remind Me You're Here' (Official Audio).opus
+228:JasonAldeanVEVO/Jason Aldean - Tonight Looks Good On You (Official Video).m4a
+229:hunter1s1k/Kings Dead But Im Screaming The Lyrics.opus
+230:Ryan Upchurch/Upchurch “me ok” (Jeezy Remix bored).opus
+231:88rising/Joji - SLOW DANCING IN THE DARK (Live at Head In The Clouds Festival 2019).opus
+232:ChillTracks/Joyner Lucas - I Love (Lyrics).opus
+233:hunter1s1k/Lucid Dreams But Im Screaming The lyrics.opus
+234:SyrebralVibes/Juice Wrld - Lucid Dreams (Lyrics).opus
+235:ChillTracks/Juice WLRD - Legends (Lyrics).opus
+236:ChillTracks/Juice WRLD - Rich And Blind (Lyrics).opus
+237:ChillTracks/Juice WRLD - Wasted (Lyrics) ft. Lil Uzi Vert.opus
+238:Gold Coast Music/Juice WRLD - Scared Of Love (Lyrics).opus
+239:JuiceWRLDVEVO/Juice WRLD - Black & White.opus
+240:Juice WRLD - Topic/Hide.opus
+241:Lyrical Lemonade/Juice WRLD - Bandit ft. NBA Youngboy (Dir. by @_ColeBennett_).opus
+242:hunter1s1k/Poopy-Di Scoop_Lift Yourself But Im Screaming The Lyrics.opus
+243:hunter1s1k/I Love It But Im Screaming The Lyrics.m4a
+244:KelseaBalleriniVEVO/Kelsea Ballerini - homecoming queen (Official Music Video).opus
+245:KendrickLamarVEVO/Kendrick Lamar - HUMBLE..opus
+246:KhalidVEVO/Khalid - Better (Audio).opus
+247:Kevin Gesto/Khalid - Better (Lyrics).opus
+248:Melomania Music/Khalid - Better.opus
+249:KhalidVEVO/Khalid - Bad Luck (Audio).opus
+250:Kmac2021/Thomas The Tank Engine Theme Song (Rewritten for fans of Rings Of Saturn).opus
+251:88rising/KNOWKNOW “MR. ENJOY DA MONEY” OUT 12_12.opus
+252:ChillTracks/Lauv – Feelings (Lyrics).opus
+253:ChillTracks/Lauv, LANY ‒ Mean It (Lyrics).opus
+254:2CELLOS/2CELLOS - Whole Lotta Love.opus
+255:Lil Baby Official 4PF/Lil Baby x Gunna - 'Drip Too Hard' (Official Music Video).opus
+256:Rap Paradise/Lil Mosey - See My Baby (Lyrics).opus
+257:LilNasXVEVO/Lil Nas X - Panini (Official Video).opus
+258:Lil Peep/Lil Peep - Belgium (Official Video).opus
+259:hunter1s1k/ESSKEETIT But Im Screaming The Lyrics.opus
+260:Lyrical Lemonade/Lil Tecca - Ransom (Dir. by @_ColeBennett_).opus
+261:liltjayVEVO/Lil Tjay - F.N (Official Video).opus
+262:Rodrii C.A/Lil Uzi Vert - XO TOUR Llif3(Sub español).opus
+263:hunter1s1k/No Mercy But Im Screaming The Lyrics.opus
+264:LukeCombsVEVO/Luke Combs - Beautiful Crazy.opus
+265:MaddieandTaeVEVO/Maddie & Tae - Die From A Broken Heart (Official Music Video).opus
+266:Franci Records/Marshmello ft. Khalid - Silence (lyrics) [handwritten].opus
+267:Matthew Van Ness/Odyssey Acai [improv singing made techno].opus
+268:Matthew Van Ness/Odyssey Sans Acai [ORIGINAL] - Matthew Van Ness.opus
+269:Rap Paradise/Schama Noel - What's Happening Now (Lyrics).opus
+270:X/Meek Mill - What's Free feat. Rick Ross & Jay Z (Video).opus
+271:Meek Mill/Meek Mill - Going Bad feat. Drake (Official Video).opus
+272:MetroBoominVEVO/Metro Boomin - 10 Freaky Girls ft. 21 Savage.opus
+273:MetroBoominVEVO/Metro Boomin - Space Cadet ft. Gunna.opus
+274:Epic Video Game Music Video/Michael Hunter - Soviet Connection (Grand Theft Auto IV).opus
+275:MustardVEVO/Mustard, Migos - Pure Water.opus
+276:NFVEVO/NF - When I Grow Up.opus
+277:88rising/NIKI Acoustic Sessions (Live) _ Head In The Clouds II.opus
+278:88rising/NIKI - La La Lost You (Live) _ Acoustic Sessions.opus
+279:Lyrical Lemonade/NLE Choppa - Shotta Flow Remix ft. Blueface (Dir. by @_ColeBennett_).opus
+280:Lyrical Lemonade/NLE Choppa - Camelot (Dir. by @_ColeBennett_).opus
+281:Monstercat - Instinct/Noisestorm - Crab Rave [Monstercat Release].opus
+282:21SavageVEVO/21 Savage, Offset, Metro Boomin - Ric Flair Drip (Official Music Video).opus
+283:DaymanOurSavior/EXTREME MEME MUSIC MEGAMASHUP.opus
+284:DJ Cummerbund/DJ Cummerbund - BasketFlies.opus
+285:Patrik Pietschmann/Light of the Seven - Game of Thrones (Piano Version).opus
+286:Patrik Pietschmann/VIOLET MELODY - Patrik Pietschmann (Original Piano Music).opus
+287:Patrik Pietschmann/Westworld - Main Theme (Piano Version).opus
+288:Patrik Pietschmann/Tetris Theme (Piano Version) - 400k Special.opus
+289:Patrik Pietschmann/Madagascar - Zoosters Breakout (Piano Version).opus
+290:Patrik Pietschmann/How To Train Your Dragon - Main Theme (Piano Version).opus
+291:Patrik Pietschmann/Transformers - Arrival To Earth (Piano Version).opus
+292:Patrik Pietschmann/GREEN RHYTHMS - Patrik Pietschmann (Original Piano Music).opus
+293:Patrik Pietschmann/The Last Samurai - Main Theme (Piano Version).opus
+294:Patrik Pietschmann/The Lord of the Rings - Main Theme (Piano Version).opus
+295:Patrik Pietschmann/Carol of the Bells (Piano Version) - Christmas Special.opus
+296:Patrik Pietschmann/Braveheart - Main Theme (Piano Version).opus
+297:Patrik Pietschmann/Pirates of the Caribbean - He's a Pirate (Piano Version).opus
+298:Patrik Pietschmann/TRON - Legacy - Main Theme (Piano Version).opus
+299:Patrik Pietschmann/Harry Potter - Hedwig's Theme (Piano Version).opus
+300:Patrik Pietschmann/Pearl Harbor - Tennessee (Piano Version).opus
+301:Patrik Pietschmann/The Chronicles of Narnia - Main Theme (Piano Version).opus
+302:Patrik Pietschmann/Kung Fu Panda - Oogway Ascends (Piano Version).opus
+303:Patrik Pietschmann/Sherlock Holmes - Discombobulate (Piano Version).opus
+304:Patrik Pietschmann/Pirates of the Caribbean 2 - Davy Jones (Piano Version).opus
+305:Patrik Pietschmann/Anni's Ballad - Patrik Pietschmann (Original Piano Music).opus
+306:Patrik Pietschmann/The Lion King - This Land (Piano Version).opus
+307:Patrik Pietschmann/Pirates of the Caribbean 3 - One Day (Piano Version).opus
+308:Patrik Pietschmann/Skyrim - Dragonborn (Piano Version).opus
+309:Patrik Pietschmann/Schindler's List - Main Theme (Piano Version).opus
+310:Patrik Pietschmann/Requiem for a Dream - Lux Aeterna (Piano Version).opus
+311:Patrik Pietschmann/Inception - Time (Piano Version) [Remake].opus
+312:Patrik Pietschmann/Oblivion - Main Theme (Piano Version).opus
+313:Patrik Pietschmann/Star Wars - Duel of the Fates (Piano Version).opus
+314:Patrik Pietschmann/Star Wars - The Imperial March (Piano Version).opus
+315:Patrik Pietschmann/Frozen 2 - Into the Unknown (Piano Version).opus
+316:Patrik Pietschmann/Two Steps From Hell - Heart of Courage (Piano Version).opus
+317:Plumato/Chigasm by Chaotrope (ft. Plumato (aka me -)))) - GH3 Custom (Preview).opus
+318:PnB Rock/PnB Rock - Middle Child (feat. XXXTENTACION)  [Official Music Video].opus
+319:Unique Sound/Post Malone - Wow (Lyrics).opus
+320:Post Malone/Post Malone - 'Wow.' (Official Music Video).opus
+321:Mr Shades/Post Malone - Hollywood's Bleeding (Lyrics).opus
+322:PostMaloneVEVO/Post Malone - Hollywood's Bleeding (Audio).opus
+323:Popular Music/Post Malone - Circles (Lyrics).opus
+324:Rap Paradise/Post Malone - Die For Me (Lyrics) feat. Future & Halsey.opus
+325:PostMaloneVEVO/Post Malone, Swae Lee - Sunflower (Spider-Man - Into the Spider-Verse).opus
+326:ExileLord/GH3 Tapping Plugin - Fixed Starpower Gem Mutations.opus
+327:Patrik Pietschmann/The Night King - Game of Thrones - Season 8 (Piano Version).opus
+328:Rap Paradise/24KGoldn - Valentino (Lyrics).opus
+329:88rising/Rich Brian - SLOW DOWN TURBO  (Live at Head in the Clouds 2019).opus
+330:88rising/CLASS OF 88 ✨OUR YEARBOOK✨.opus
+331:88rising/HEAD IN THE CLOUDS 2019 AFTERMOVIE  ☁️☁️☁️.opus
+332:88rising/Rich Brian - Yellow (Live at Head In The Clouds 2019).opus
+333:88rising/Rich Brian - Drive Safe (Live at Head In The Clouds 2019).opus
+334:88rising/ANNOUNCING - Head In The Clouds Festival Indonesia ☁️ March 7th.opus
+335:RichTheKidVEVO/Rich The Kid - Plug Walk.opus
+336:hunter1s1k/Plug Walk But Im Screaming The Lyrics.opus
+337:RichaadEB/Flowering Night (Sakuya's Theme) _ Metal Cover by RichaadEB.opus
+338:RichaadEB/BAD APPLE!! (Instrumental) _ METAL COVER by RichaadEB.opus
+339:RileyTaugor/XXXTentacion - IWatchedHimDrown ft. Ski Mask The Slump God (Lyrics).opus
+340:Rousseau/Liszt - La Campanella (100,000 special).opus
+341:Rousseau/Liszt - Consolation No. 3.opus
+342:Rousseau/Billie Eilish & Khalid - lovely (Piano Cover).opus
+343:Rousseau/Bach - Prelude & Fugue No. 2 in C Minor.opus
+344:Rousseau/Debussy - Rêverie.opus
+345:Rousseau/Liszt - Hungarian Rhapsody No.  2.opus
+346:Rousseau/League of Legends - Phoenix (Piano Cover) [ft. Cailin Russo and Chrissy Costanza].opus
+347:Rousseau/Mozart - Twinkle Twinkle Little Star (12 variations on Ah vous dirai-je, Maman).opus
+348:Rousseau/Queen - Bohemian Rhapsody (Piano Cover).opus
+349:Rousseau/Ravel - Scarbo (Gaspard de la nuit).opus
+350:Rousseau/Liebesleid (Love's Sorrow) - Kreisler (arr. Rachmaninoff).opus
+351:Rousseau/Giorno's Theme (Piano Cover) - JoJo's Bizarre Adventure - Golden Wind.opus
+352:Rousseau/Silent Night (Christmas Piano Cover).opus
+353:Rousseau/Deck the Halls (Christmas Piano Cover).opus
+354:Rousseau/Santa Claus Is Coming to Town (Christmas Piano Cover).opus
+355:Rousseau/The First Noel (Christmas Piano Cover).opus
+356:Rousseau/Wham! - Last Christmas (Piano Cover).opus
+357:Rousseau/O Holy Night (Christmas Piano Cover).opus
+358:Rousseau/Jingle Bells (Christmas Piano Cover).opus
+359:Rousseau/The BEST Christmas Songs on Piano.opus
+360:Rousseau/Chopin - Heroic Polonaise (Op. 53 in A Flat Major).opus
+361:Rousseau/Coldplay - Clocks (Piano Cover).opus
+362:Rousseau/Mozart - Piano Sonata No. 8 in A minor, K. 310 (1st Movement).opus
+363:Rap Paradise/Russ & BIA - Best On Earth (Lyrics).opus
+364:Ryan Upchurch/Sup fellers.m4a
+365:Ryan Upchurch/Upchurch “Hi-Deas 8” (OFFICIAL AUDIO).opus
+366:Ryan Upchurch/HIMS A BATTLE RAP JEBUS 😂.m4a
+367:Ryan Upchurch/Upchurch “Cargo Head”.opus
+368:Ryan Upchurch/Ol’ Witch Granny 🧙‍♀️.m4a
+369:Ryan Upchurch/Witch Granny FLEX 🧙‍♀️(5-0).m4a
+370:Ryan Upchurch/Upchurch (Far Cry 5) Gaming Clips #farcry5 #pc #gaming #videogames.opus
+371:Ryan Upchurch/Playing Modern WarSmell 🎮 #modernwarefare #upchurch.opus
+372:Ryan Upchurch/Attention ROCKY TOP! (January 3rd & maybe 4th).opus
+373:Ryan Upchurch/Lacquer Thinner Larry ft Bench Seat Bobby “E.D.K.H” (fuggin audio).opus
+374:Ryan Upchurch/Missed y’all Fuggin’s ❤️.m4a
+375:Ryan Upchurch/Da’ CELL-Uh-Ree 🥬.opus
+376:Ryan Upchurch/GloveBox Geeses’ 🦆.m4a
+377:Nuclear Blast Records/SABATON - Night Witches (OFFICIAL LYRIC VIDEO).opus
+378:Patrik Pietschmann/Forrest Gump - Feather Theme (Piano Version) - 500k Special.m4a
+379:Shadow Music/bbno$, y2k - lalala (Lyrics).opus
+380:Sheck Wes/Sheck Wes - Malle Ratty (Audio).opus
+381:Sheck Wes/Sheck Wes - 2017 Freestyle.m4a
+382:Sheck Wes/Sheck Wes - Live SheckWes Die SheckWes (Official Video).m4a
+383:SheckWesVEVO/Sheck Wes - Mo Bamba (Official Music Video).opus
+384:SheckWesVEVO/Sheck Wes - Chippi Chippi (Official Video).opus
+385:Sheck Wes/Sheck Wes - MUDBOY (Album Trailer).opus
+386:Sheck Wes/Sheck Wes - Burn Slow (Official Audio).opus
+387:Sheck Wes/Sheck Wes - Danimals (Official Audio).opus
+388:Sheck Wes/Sheck Wes - F_k Everybody (Official Audio).opus
+389:Sheck Wes/Sheck Wes - Gmail (Official Audio).opus
+390:Sheck Wes/Sheck Wes - Jiggy On the S_s (Official Audio).opus
+391:Sheck Wes/Sheck Wes - Kyrie (Official Audio).opus
+392:Sheck Wes/Sheck Wes - Mindfucker (Official Audio).opus
+393:Sheck Wes/Sheck Wes - Never Lost (Official Audio).opus
+394:Sheck Wes/Sheck Wes - Vetements Socks (Official Audio).opus
+395:Sheck Wes/Sheck Wes - WESPN (Official Audio).opus
+396:Sheck Wes/Sheck Wes - Wanted (Official Audio).opus
+397:Sheck Wes/Sheck Wes - Wanted (Official Music Video).opus
+398:Sheck Wes/Sheck Wes - YKTS.opus
+399:Sheet Music Boss/RUSH 🅱.opus
+400:Sheet Music Boss/It's IMPOSSIBLE, but....opus
+401:Ski Mask the Slump God - Topic/Life Is Short.opus
+402:Lyrical Lemonade/Ski Mask The Slump God - Catch Me Outside (Dir. by @_ColeBennett_).opus
+403:Lyrical Lemonade/Ski Mask The Slump God - BabyWipe (Dir. by @_ColeBennett_).opus
+404:Lyrical Lemonade/Ski Mask The Slump God - DoIHaveTheSause (Dir. by @_ColeBennett_).opus
+405:Ski Mask The Slump God/Ski Mask the Slump God - Unbothered (Official Audio).opus
+406:Ski Mask The Slump God/Ski Mask the Slump God - So High (Official Audio).opus
+407:8D Fusion/Ski Mask The Slump God - Foot Fungus 🔊8D AUDIO🔊.opus
+408:TheSlumpGodVEVO/Ski Mask The Slump God - LA LA.opus
+409:TheSlumpGodVEVO/Ski Mask The Slump God - Faucet Failure.opus
+410:Lyrical Lemonade/Ski Mask The Slump God - Nuketown ft. Juice WRLD (Dir. by @_ColeBennett_).opus
+411:Ski Mask The Slump God/Ski Mask the Slump God - Carbonated Water (Official Audio - Explicit).opus
+412:Ski Mask the Slump God - Topic/DAPPER DAN.opus
+413:Ski Mask the Slump God - Topic/RUN.opus
+414:Ski Mask the Slump God - Topic/Adults Swim.opus
+415:Ski Mask the Slump God - Topic/Get Geeked.opus
+416:Ski Mask the Slump God - Topic/Reborn To Rebel.opus
+417:Ski Mask the Slump God - Topic/U and I.opus
+418:Ski Mask the Slump God - Topic/Far Gone.opus
+419:Ski Mask the Slump God - Topic/COOLEST MONKEY IN THE JUNGLE.opus
+420:Rap Paradise/Skizzy Mars - Leave Me (Lyrics) Feat. Marc E. Bassy.opus
+421:DaymanOurSavior/EXTREME MEME MUSIC MEGAMASHUP 2.opus
+422:Rap Paradise/Smino - Trina (Lyrics).opus
+423:Rap Paradise/Smokepurpp - Stevie (Lyrics).opus
+424:Steely Dan - Topic/Reelin' In The Years.opus
+425:88rising/Stephanie Poetri & Jackson Wang - I LOVE YOU 3000 II (Official Video).opus
+426:BandiPat/Bee Why Oh Bee.opus
+427:TheOneUps/Battletoads 'Surf City' Prog_Synth Rock Cover by The OneUps.opus
+428:TheOneUps/Celeste 'A Cimeria (Reach for the Summit)' Bossa Nova Cover by The OneUps.opus
+429:TheOneUps/Mega Man 3 'Dr. Wily (Stage 1)' Dance Pop Cover by The OneUps.opus
+430:TheOneUps/Metroid Prime 'Primetime (Menu Select)' Bluegrass Ballad Version by The OneUps.opus
+431:TheOneUps/SimCity 'The Streets of SimCity (Metropolis)' Funk Band w_ Horns Cover by The OneUps.opus
+432:TheOneUps/Street Fighter II 'Kama Sutra (Dhalsim)' Live R&B Rock & World-Infused Cover by The OneUps.opus
+433:TheOneUps/Street Fighter II 'Ryu' Live Synth Wave Rock Cover by The OneUps.opus
+434:TheOneUps/Street Fighter II 'Zangief' Acid_Electro Live Jazz Cover by The OneUps.opus
+435:TheOneUps/Super Mario 64 'Dire, Dire Docks' Progressive Instrumental Jazz Cover by The OneUps.opus
+436:TheOneUps/ToeJam & Earl in Panic on Funkotron 'Rocket Rap' Live Funk Band Cover by The OneUps.opus
+437:TheophanyRemix/Theophany - Lovers Mask (Time's End).opus
+438:TheophanyRemix/Theophany - Majora's Mask (Time's End).opus
+439:TheophanyRemix/Theophany - Mooncatchers (Dust the Film) ft. Adriana Figueroa.opus
+440:TheophanyRemix/Theophany - Molgera (2013) [Free Download].opus
+441:TheophanyRemix/Theophany - From the Depths (Brinstar Depths).opus
+442:TheophanyRemix/Theophany ~ Mushroomized [2016].opus
+443:TheophanyRemix/Theophany - Aeon.opus
+444:TheophanyRemix/Theophany - Song of Healing (Disc 2).opus
+445:TheophanyRemix/Theophany - Time's End II - Majora's Mask Remixed.opus
+446:TheophanyRemix/Theophany - Deku Palace.opus
+447:TheophanyRemix/Theophany - Healing Termina.opus
+448:TheophanyRemix/Theophany - Woods of Mystery (Lost Woods).opus
+449:TheophanyRemix/Theophany - Back to the Beginning.opus
+450:TheophanyRemix/Theophany - Dawn of the First Day.opus
+451:TheophanyRemix/Theophany - Oath to Order.opus
+452:TheophanyRemix/Theophany - Odolwa's Mask.opus
+453:TheophanyRemix/Theophany - Woodfall Temple.opus
+454:TheophanyRemix/Majora's Mask - Terrible Fate (Music Only).opus
+455:TheophanyRemix/Quixel Rebirth - UE4 (Music_SFX Only).opus
+456:ThomasRhettVEVO/Thomas Rhett - Look What God Gave Her.opus
+457:hunter1s1k/Africa But Im Screaming The Lyrics.opus
+458:TravisScottVEVO/Travis Scott - BUTTERFLY EFFECT (Official Music Video).opus
+459:TravisScottVEVO/Travis Scott - SICKO MODE ft. Drake (Official Video).opus
+460:hunter1s1k/Sicko Mode But Im Screaming The Lyrics.opus
+461:TravisScottVEVO/Travis Scott - HIGHEST IN THE ROOM (Official Music Video).opus
+462:Rap Paradise/Travis Scott - Highest In The Room (Lyrics).opus
+463:SyrebralVibes/Trevor Daniel - Falling (Lyrics).opus
+464:FutureHype/Trevor Daniel - Closure (Lyrics).opus
+465:TrippieReddVEVO/Trippie Redd - Death (Visualizer) ft. DaBaby.opus
+466:TygaVEVO/Tyga - Taste (Official Video) ft. Offset.opus
+467:Ryan Upchurch/Upchurch “One of them Buddies” (OFFICIAL AUDIO) #parachute #newalbum #upchurch #rhec #music #country.opus
+468:Ryan Upchurch/Upchurch Ft. Struggle Jennings “West Side” (OFFICIAL AUDIO).opus
+469:Ryan Upchurch/Upchurch Ft Katie Noel & Chucky V “Dance with the Devil” (OFFICIAL AUDIO).opus
+470:Ryan Upchurch/Upchurch 'Ghost Ranch' (OFFICIAL MUSIC VIDEO).opus
+471:Ryan Upchurch/Upchurch  'Hollerboys' (OFFICIAL MUSIC VIDEO) #upchurch #hollerboys.opus
+472:Ryan Upchurch/Upchurch Ft Tom Macdonald & Struggle Jennings “Travelers” (OFFICIAL AUDIO) #upchurch #tommacdonald.opus
+473:Ryan Upchurch/Upchurch ft Patty Lynn   'Fallen' (OFFICIAL MUSIC VIDEO) #fallen #upchurch #pattylynn #parachute.opus
+474:Ryan Upchurch/Upchurch’s Car & Truck Collection (Part 2).opus
+475:Ryan Upchurch/Upchurch & Adam Calhoun “HOOLIGAN” (Official Audio).opus
+476:Ryan Upchurch/Upchurch & Adam Calhoun “ back N’ forth” (OFFICIAL AUDIO).opus
+477:Ryan Upchurch/Ryan Upchurch & Katie Noel 'Hey Boy, Hey Girl' (OFFICIAL MUSIC VIDEO).opus
+478:wew lads tbh/Soulless 3 Orchestral Version.opus
+479:wyskoj/What if Soulless 4 was played by an Orchestra.opus
+480:MYSTIC PIMP/SKI MASK THE SLUMP GOD x XXXTENTACION - TAKE A STEP BACK.opus
+481:XXXTENTACION/XXXTENTACION - Jocelyn Flores (Audio).opus
+482:XXXTENTACION/XXXTENTACION - SAD!.opus
+483:XXXTENTACION/XXXTENTACION - changes.opus
+484:hunter1s1k/SAD! But Im Screaming The Lyrics.opus
+485:hunter1s1k/#SippinTeaInYoHood But Im Whispering The Lyrics.opus
+486:XXXTENTACION/XXXTENTACION - BAD! (Audio).opus
+487:XXXTENTACION/XXXTENTACION - bad vibes forever (Official Video) (feat. PnB Rock & Trippie Redd).opus
+488:Yella Beezy/Yella Beezy - 'That's On Me' Remix (Official Music Video).opus
+489:YungGravyVEVO/Yung Gravy, bbno$ - Whip A Tesla.opus
+490:ChillTracks/YUNGBLUD, Halsey - 11 Minutes (Lyrics) ft. Travis Barker.opus
+491:zachwilliamsVEVO/Zach Williams - Chain Breaker (Official Lyric Video).opus
+492:zachwilliamsVEVO/Zach Williams - Chain Breaker (Official Lyric Video).opus
+493:zachwilliamsVEVO/Zach Williams - Chain Breaker (Official Lyric Video).opus
+494:zachwilliamsVEVO/Zach Williams - Chain Breaker (Official Lyric Video).opus
+495:zachwilliamsVEVO/Zach Williams - Chain Breaker (Official Lyric Video).opus
+496:zachwilliamsVEVO/Zach Williams - Chain Breaker (Official Lyric Video).opus
+497:zachwilliamsVEVO/Zach Williams - Chain Breaker (Official Lyric Video).opus
+498:zachwilliamsVEVO/Zach Williams - Chain Breaker (Official Lyric Video).opus
+499:zachwilliamsVEVO/Zach Williams - Chain Breaker (Official Lyric Video).opus
+500:zachwilliamsVEVO/Zach Williams - Chain Breaker (Official Lyric Video).opus
+501:zachwilliamsVEVO/Zach Williams - Chain Breaker (Official Lyric Video).opus
+502:zachwilliamsVEVO/Zach Williams - Chain Breaker (Official Lyric Video).opus
+503:zachwilliamsVEVO/Zach Williams - Chain Breaker (Official Lyric Video).opus
 playlist_end

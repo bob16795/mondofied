@@ -19,8 +19,8 @@ while getopts ":a:r:p:h" o; do case "${o}" in
 esac done
 
 # DEFAULTS:
-[ -z ${dotfilesrepo+x} ] && dotfilesrepo="https://github.com/bob16795/config.git"
-[ -z ${progsfile+x} ] && progsfile="https://raw.githubusercontent.com/bob16795/config/master/scr/progs.csv"
+[ -z ${dotfilesrepo+x} ] && dotfilesrepo="https://github.com/bob16795/mondofied.git"
+[ -z ${progsfile+x} ] && progsfile="https://raw.githubusercontent.com/bob16795/mondofied/master/scr/progs.csv"
 [ -z ${aurhelper+x} ] && aurhelper="yay"
 
 ### FUNCTIONS ###
@@ -191,9 +191,6 @@ installationloop
 # Install the dotfiles in the user's home directory
 putgitrepo "$dotfilesrepo" "/home/$name"
 
-# Install the PARBS Firefox profile in ~/.mozilla/firefox/
-putgitrepo "https://github.com/LukeSmithxyz/mozillarbs.git" "/home/$name/.mozilla/firefox"
-
 # Pulseaudio, if/when initially installed, often needs a restart to work immediately.
 [ -f /usr/bin/pulseaudio ] && resetpulse
 
@@ -221,7 +218,7 @@ gem install sass
 export PATH = $PATH:/root/.gem/ruby/2.5.0/bin
 sudo -u "$name" git clone https://github.com/Ferdi265/numix-solarized-gtk-theme /home/$name/thm/numix-solarized-gtk-theme > /dev/null
 mkdir ~/.config/mondo/themes/
-~/scr/theme
+mondo -fg all
 
 # Enable services here.
 serviceinit NetworkManager cronie
@@ -247,6 +244,8 @@ newperms "%wheel ALL=(ALL) ALL\\n%wheel ALL=(ALL) NOPASSWD: /usr/bin/shutdown,/u
 sed -i "s/^#Color/Color/g" /etc/pacman.conf
 
 sudo -u "$name" mkdir ~/doc/src ~/doc/arc ~/dsk ~/pix ~/snd ~/dwn ~/vid
+
+sudo -u "john"
 
 chmod -R $name /home/$name
 

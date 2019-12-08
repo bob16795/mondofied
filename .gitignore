@@ -98,3 +98,9 @@ git
 .pulse-cookie
 .local/share/xorg/**
 .SpaceVim**
+.ncmpcpp
+.config/discord
+.vscode-oss
+.klei
+.config/Code**
+.calcurse

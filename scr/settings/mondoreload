@@ -1,2 +1,3 @@
 #!/bin/bash
+mondo -fg $(mondo get theme)
 mondo -a $(mondo get theme)

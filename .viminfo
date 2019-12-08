@@ -11,26 +11,38 @@
 # hlsearch on (H) or off (h):
 ~h
 # Last Search Pattern:
-~MSle0~/vis
+~MSle0~/config
 
 # Last Substitute String:
 $
 
 # Command Line History (newest to oldest):
 :wq!
-|2,0,1575739027,,"wq!"
+|2,0,1575818813,,"wq!"
 :w
-|2,0,1575739025,,"w"
+|2,0,1575818721,,"w"
 :q!
-|2,0,1575738715,,"q!"
+|2,0,1575818186,,"q!"
+:wq
+|2,0,1575817874,,"wq"
+:s
+|2,0,1575817022,,"s"
+:q
+|2,0,1575817019,,"q"
+:W
+|2,0,1575816825,,"W"
+:w!
+|2,0,1575816715,,"w!"
+:Q
+|2,0,1575813953,,"Q"
+:i
+|2,0,1575756930,,"i"
+:swq
+|2,0,1575756789,,"swq"
 :q1
-|2,0,1575738636,,"q1"
+|2,0,1575739525,,"q1"
 :Lwq
 |2,0,1575738138,,"Lwq"
-:W
-|2,0,1575729187,,"W"
-:q
-|2,0,1575728508,,"q"
 :Wq!
 |2,0,1575728329,,"Wq!"
 :waq
@@ -39,12 +51,76 @@ $
 |2,0,1575728328,,"wQ!"
 :qa!
 |2,0,1575727988,,"qa!"
-:wq
-|2,0,1575677060,,"wq"
 
 # Search String History (newest to oldest):
+?/config
+|2,1,1575818730,47,"config"
+?/border
+|2,1,1575816768,47,"border"
+?/opa
+|2,1,1575816763,47,"opa"
+? @$
+|2,1,1575816571,,"@$"
 ?/vis
-|2,1,1575728302,47,"vis"
+|2,1,1575816365,47,"vis"
+?/mondo
+|2,1,1575814449,47,"mondo"
+?/drawtaggrid
+|2,1,1575813927,47,"drawtaggrid"
+?/grid
+|2,1,1575813922,47,"grid"
+?/paste
+|2,1,1575812856,47,"paste"
+?/SWITCH
+|2,1,1575813569,47,"SWITCH"
+?/showhide
+|2,1,1575813514,47,"showhide"
+??:w
+|2,1,1575813507,63,":w"
+?/dr
+|2,1,1575813492,47,"dr"
+?/drawtagmask ==
+|2,1,1575813440,47,"drawtagmask =="
+?/DRAWC
+|2,1,1575813396,47,"DRAWC"
+?/draw
+|2,1,1575813314,47,"draw"
+?/buttonpress
+|2,1,1575813129,47,"buttonpress"
+?/spawn
+|2,1,1575813116,47,"spawn"
+?/drawbars
+|2,1,1575813095,47,"drawbars"
+?/mondosel
+|2,1,1575767562,47,"mondosel"
+?/Stea
+|2,1,1575767269,47,"Stea"
+?/firef
+|2,1,1575767250,47,"firef"
+?/@$
+|2,1,1575767247,47,"@$"
+??:wq
+|2,1,1575757032,63,":wq"
+??:Lwq
+|2,1,1575756881,63,":Lwq"
+?/spot
+|2,1,1575756773,47,"spot"
+?/cava
+|2,1,1575756729,47,"cava"
+?/loop
+|2,1,1575756709,47,"loop"
+?/git
+|2,1,1575756702,47,"git"
+?/git clone 
+|2,1,1575739684,47,"git clone "
+?/configf
+|2,1,1575739501,47,"configf"
+?/master
+|2,1,1575739481,47,"master"
+?/beta
+|2,1,1575739477,47,"beta"
+?/sudo
+|2,1,1575739444,47,"sudo"
 ?/_timer
 |2,1,1575677056,47,"_timer"
 ?/re
@@ -63,265 +139,413 @@ $
 # Debug Line History (newest to oldest):
 
 # Registers:
-"0	LINE	0
-	gam/**
-|3,0,0,1,1,0,1575738766,"gam/**"
-""1	LINE	0
-	cod/
-|3,1,1,1,1,0,1575738772,"cod/"
+"0	BLOCK	19
+	, "class_g = 'Rofi'"
+|3,0,0,2,1,19,1575816704,", \"class_g = 'Rofi'\""
+"1	LINE	0
+	
+|3,0,1,1,1,0,1575816993,""
 "2	LINE	0
-	doc/
-|3,0,2,1,1,0,1575738770,"doc/"
+	@search,,0,0,100,13,3,left,top,#aaaaaa 90,#222222 3,Type to search...
+	
+|3,0,2,1,2,0,1575816960,"@search,,0,0,100,13,3,left,top,#aaaaaa 90,#222222 3,Type to search...",""
 "3	LINE	0
-	d
-|3,0,3,1,1,0,1575738341,"d"
+	Settings,~/scr/settings/settings,utilities-terminal
+|3,0,3,1,1,0,1575816625,"Settings,~/scr/settings/settings,utilities-terminal"
 "4	LINE	0
-	render_timer: false
-|3,0,4,1,1,0,1575677057,"render_timer: false"
+	Rofi,rofi -show run,utilities-terminal
+|3,0,4,1,1,0,1575816623,"Rofi,rofi -show run,utilities-terminal"
 "5	LINE	0
-	  # If this is `true`, the cursor will be rendered as a hollow box when the
-|3,0,5,1,1,0,1575677052,"  # If this is `true`, the cursor will be rendered as a hollow box when the"
+	
+|3,0,5,1,1,0,1575813970,""
 "6	LINE	0
-	  faux_multiplier: 3
-|3,0,6,1,1,0,1575677039,"  faux_multiplier: 3"
-"7	LINE	0
-	export PS1="\[$(tput bold)\]\[$(tput setaf 1)\][\[$(tput setaf 3)\]\u\[$(tput setaf 2)\]@\[$(tput setaf 4)\]\h \[$(tput setaf 5)\]\W\[$(tput setaf 1)\]]\[$(tput setaf 7)\]\\$ \[$(tput sgr0)\]"
-|3,0,7,1,1,0,1575676887,"export PS1=\"\\[$(tput bold)\\]\\[$(tput setaf 1)\\][\\[$(tput setaf 3)\\]\\u\\[$(tput setaf 2)\\]@\\[$(tput setaf 4)\\]\\h \\[$(tput setaf 5)\\]\\W\\[$(tput setaf 1)\\]]\\[$(tput setaf 7)\\]\\\\$ \\[$(tput sgr0)\\]\""
-"-	CHAR	0
-	o
-|3,0,36,0,1,0,1575738340,"o"
+	
+	void
+	switchtag(const Arg *arg)
+	{
+	    unsigned int columns;
+	    unsigned int new_tagset = 0;
+	    unsigned int pos, i;
+	    int col, row;
+	    Arg new_arg;
+	
+	    columns = LENGTH(tags) / tagrows + ((LENGTH(tags) % tagrows > 0) ? 1 : 0);
+	
+	    for (i = 0; i < LENGTH(tags); ++i) {
+	        if (!(selmon->tagset[selmon->seltags] & 1 << i)) {
+	            continue;
+	        }
+	        pos = i;
+	        row = pos / columns;
+	        col = pos % columns;
+	        if (arg->ui & SWITCHTAG_UP) {     /* UP */
+	            row --;
+	            if (row < 0) {
+	                row = tagrows - 1;
+	            }
+	            do {
+	                pos = row * columns + col;
+	                row --;
+	            } while (pos >= LENGTH(tags));
+	        }
+	        if (arg->ui & SWITCHTAG_DOWN) {     /* DOWN */
+	            row ++;
+	            if (row >= tagrows) {
+	                row = 0;
+	            }
+	            pos = row * columns + col;
+	            if (pos >= LENGTH(tags)) {
+	                row = 0;
+	            }
+	            pos = row * columns + col;
+	        }
+	        if (arg->ui & SWITCHTAG_LEFT) {     /* LEFT */
+	            col --;
+	            if (col < 0) {
+	                col = columns - 1;
+	            }
+	            do {
+	                pos = row * columns + col;
+	                col --;
+	            } while (pos >= LENGTH(tags));
+	        }
+|3,0,6,1,50,0,1575813594,"","void","switchtag(const Arg *arg)","{","    unsigned int columns;","    unsigned int new_tagset = 0;","    unsigned int pos, i;","    int col, row;","    Arg new_arg;","","    columns = LENGTH(tags) / tagrows + ((LENGTH(tags) % tagrows > 0) ? 1 : 0);","","    for (i = 0; i < LENGTH(tags); ++i) {","        if (!(selmon->tagset[selmon->seltags] & 1 << i)) {","            continue;","        }","        pos = i;",>30
+|<"        row = pos / columns;","        col = pos % columns;","        if (arg->ui & SWITCHTAG_UP) {     /* UP */","            row --;","            if (row < 0) {","                row = tagrows - 1;","            }","            do {","                pos = row * columns + col;","                row --;","            } while (pos >= LENGTH(tags));","        }","        if (arg->ui & SWITCHTAG_DOWN) {     /* DOWN */","            row ++;","            if (row >= tagrows) {",>26
+|<"                row = 0;","            }","            pos = row * columns + col;","            if (pos >= LENGTH(tags)) {","                row = 0;","            }","            pos = row * columns + col;","        }","        if (arg->ui & SWITCHTAG_LEFT) {     /* LEFT */","            col --;","            if (col < 0) {","                col = columns - 1;","            }","            do {","                pos = row * columns + col;","                col --;",>44
+|<"            } while (pos >= LENGTH(tags));","        }"
+"7	BLOCK	0
+	+
+	+
+	+
+	+
+	+
+	+
+	+
+	+
+	+
+	+
+	+
+	+
+	+
+	+
+	+
+	+
+	+
+	+
+	+
+	+
+	+
+	+
+	+
+	+
+	+
+	+
+	+
+	+
+	+
+	+
+	+
+	+
+	+
+	+
+	+
+	+
+	+
+	+
+	+
+	+
+	+
+	+
+	+
+	+
+	+
+	+
+	+
+	+
+	+
+	+
+|3,0,7,2,50,0,1575813534,"+","+","+","+","+","+","+","+","+","+","+","+","+","+","+","+","+","+","+","+","+","+","+","+","+","+","+","+","+","+","+","+","+","+","+","+","+","+","+","+","+","+","+","+","+","+","+","+","+","+"
+"8	BLOCK	0
+	+
+	+
+	+
+	+
+	+
+	+
+	+
+	+
+	+
+	+
+	+
+	+
+	+
+	+
+	+
+	+
+	+
+	+
+	+
+	+
+	+
+	+
+	+
+	+
+	+
+	+
+	+
+	+
+	+
+	+
+	+
+	+
+	+
+	+
+	+
+	+
+	+
+	+
+	+
+	+
+	+
+|3,0,8,2,41,0,1575813503,"+","+","+","+","+","+","+","+","+","+","+","+","+","+","+","+","+","+","+","+","+","+","+","+","+","+","+","+","+","+","+","+","+","+","+","+","+","+","+","+","+"
+"9	LINE	0
+	
+|3,0,9,1,1,0,1575813349,""
+""-	CHAR	0
+	v
+|3,1,36,0,1,0,1575818182,"v"
 
 # File marks:
-'0  98  12  ~/.gitignore
-|4,48,98,12,1575739027,"~/.gitignore"
-'1  19  5  ~/.gitignore
-|4,49,19,5,1575738778,"~/.gitignore"
-'2  19  5  ~/.gitignore
-|4,50,19,5,1575738778,"~/.gitignore"
-'3  253  0  ~/.git/COMMIT_EDITMSG
-|4,51,253,0,1575738715,"~/.git/COMMIT_EDITMSG"
-'4  326  0  ~/.git/COMMIT_EDITMSG
-|4,52,326,0,1575738636,"~/.git/COMMIT_EDITMSG"
-'5  326  0  ~/.git/COMMIT_EDITMSG
-|4,53,326,0,1575738636,"~/.git/COMMIT_EDITMSG"
-'6  27  0  ~/.gitignore
-|4,54,27,0,1575738626,"~/.gitignore"
-'7  25  0  ~/.gitignore
-|4,55,25,0,1575738626,"~/.gitignore"
-'8  27  0  ~/.gitignore
-|4,56,27,0,1575738626,"~/.gitignore"
-'9  25  0  ~/.gitignore
-|4,57,25,0,1575738626,"~/.gitignore"
+'0  106  8  ~/.gitignore
+|4,48,106,8,1575818813,"~/.gitignore"
+'1  105  13  ~/.gitignore
+|4,49,105,13,1575818805,"~/.gitignore"
+'2  105  13  ~/.gitignore
+|4,50,105,13,1575818805,"~/.gitignore"
+'3  104  3  ~/.gitignore
+|4,51,104,3,1575818796,"~/.gitignore"
+'4  104  3  ~/.gitignore
+|4,52,104,3,1575818796,"~/.gitignore"
+'5  104  3  ~/.gitignore
+|4,53,104,3,1575818796,"~/.gitignore"
+'6  104  3  ~/.gitignore
+|4,54,104,3,1575818796,"~/.gitignore"
+'7  104  4  ~/.gitignore
+|4,55,104,4,1575818791,"~/.gitignore"
+'8  104  4  ~/.gitignore
+|4,56,104,4,1575818791,"~/.gitignore"
+'9  104  4  ~/.gitignore
+|4,57,104,4,1575818791,"~/.gitignore"
 
 # Jumplist (newest first):
--'  98  12  ~/.gitignore
-|4,39,98,12,1575739027,"~/.gitignore"
--'  19  5  ~/.gitignore
-|4,39,19,5,1575738938,"~/.gitignore"
--'  19  5  ~/.gitignore
-|4,39,19,5,1575738778,"~/.gitignore"
--'  27  0  ~/.gitignore
-|4,39,27,0,1575738762,"~/.gitignore"
--'  27  0  ~/.gitignore
-|4,39,27,0,1575738762,"~/.gitignore"
--'  253  0  ~/.git/COMMIT_EDITMSG
-|4,39,253,0,1575738715,"~/.git/COMMIT_EDITMSG"
--'  253  0  ~/.git/COMMIT_EDITMSG
-|4,39,253,0,1575738715,"~/.git/COMMIT_EDITMSG"
--'  253  0  ~/.git/COMMIT_EDITMSG
-|4,39,253,0,1575738715,"~/.git/COMMIT_EDITMSG"
--'  253  0  ~/.git/COMMIT_EDITMSG
-|4,39,253,0,1575738715,"~/.git/COMMIT_EDITMSG"
--'  1  0  ~/.git/COMMIT_EDITMSG
-|4,39,1,0,1575738708,"~/.git/COMMIT_EDITMSG"
--'  1  0  ~/.git/COMMIT_EDITMSG
-|4,39,1,0,1575738708,"~/.git/COMMIT_EDITMSG"
--'  1  0  ~/.git/COMMIT_EDITMSG
-|4,39,1,0,1575738708,"~/.git/COMMIT_EDITMSG"
--'  1  0  ~/.git/COMMIT_EDITMSG
-|4,39,1,0,1575738708,"~/.git/COMMIT_EDITMSG"
--'  326  0  ~/.git/COMMIT_EDITMSG
-|4,39,326,0,1575738636,"~/.git/COMMIT_EDITMSG"
--'  326  0  ~/.git/COMMIT_EDITMSG
-|4,39,326,0,1575738636,"~/.git/COMMIT_EDITMSG"
--'  326  0  ~/.git/COMMIT_EDITMSG
-|4,39,326,0,1575738636,"~/.git/COMMIT_EDITMSG"
--'  326  0  ~/.git/COMMIT_EDITMSG
-|4,39,326,0,1575738636,"~/.git/COMMIT_EDITMSG"
--'  326  0  ~/.git/COMMIT_EDITMSG
-|4,39,326,0,1575738636,"~/.git/COMMIT_EDITMSG"
--'  326  0  ~/.git/COMMIT_EDITMSG
-|4,39,326,0,1575738636,"~/.git/COMMIT_EDITMSG"
--'  326  0  ~/.git/COMMIT_EDITMSG
-|4,39,326,0,1575738636,"~/.git/COMMIT_EDITMSG"
--'  326  0  ~/.git/COMMIT_EDITMSG
-|4,39,326,0,1575738636,"~/.git/COMMIT_EDITMSG"
--'  1  0  ~/.git/COMMIT_EDITMSG
-|4,39,1,0,1575738629,"~/.git/COMMIT_EDITMSG"
--'  1  0  ~/.git/COMMIT_EDITMSG
-|4,39,1,0,1575738629,"~/.git/COMMIT_EDITMSG"
--'  1  0  ~/.git/COMMIT_EDITMSG
-|4,39,1,0,1575738629,"~/.git/COMMIT_EDITMSG"
--'  1  0  ~/.git/COMMIT_EDITMSG
-|4,39,1,0,1575738629,"~/.git/COMMIT_EDITMSG"
--'  25  0  ~/.gitignore
-|4,39,25,0,1575738626,"~/.gitignore"
--'  25  0  ~/.gitignore
-|4,39,25,0,1575738626,"~/.gitignore"
--'  25  0  ~/.gitignore
-|4,39,25,0,1575738626,"~/.gitignore"
--'  25  0  ~/.gitignore
-|4,39,25,0,1575738626,"~/.gitignore"
--'  25  0  ~/.gitignore
-|4,39,25,0,1575738626,"~/.gitignore"
--'  24  0  ~/.gitignore
-|4,39,24,0,1575738622,"~/.gitignore"
--'  22  0  ~/.gitignore
-|4,39,22,0,1575738622,"~/.gitignore"
--'  24  0  ~/.gitignore
-|4,39,24,0,1575738622,"~/.gitignore"
--'  22  0  ~/.gitignore
-|4,39,22,0,1575738622,"~/.gitignore"
--'  22  0  ~/.gitignore
-|4,39,22,0,1575738622,"~/.gitignore"
--'  22  0  ~/.gitignore
-|4,39,22,0,1575738622,"~/.gitignore"
--'  22  0  ~/.gitignore
-|4,39,22,0,1575738622,"~/.gitignore"
--'  22  0  ~/.gitignore
-|4,39,22,0,1575738529,"~/.gitignore"
--'  22  0  ~/.gitignore
-|4,39,22,0,1575738529,"~/.gitignore"
--'  22  0  ~/.gitignore
-|4,39,22,0,1575738529,"~/.gitignore"
--'  22  0  ~/.gitignore
-|4,39,22,0,1575738529,"~/.gitignore"
--'  95  2  ~/.gitignore
-|4,39,95,2,1575738517,"~/.gitignore"
--'  94  2  ~/.gitignore
-|4,39,94,2,1575738517,"~/.gitignore"
--'  95  2  ~/.gitignore
-|4,39,95,2,1575738517,"~/.gitignore"
--'  94  2  ~/.gitignore
-|4,39,94,2,1575738517,"~/.gitignore"
--'  94  2  ~/.gitignore
-|4,39,94,2,1575738517,"~/.gitignore"
--'  94  2  ~/.gitignore
-|4,39,94,2,1575738517,"~/.gitignore"
--'  94  2  ~/.gitignore
-|4,39,94,2,1575738517,"~/.gitignore"
--'  94  2  ~/.gitignore
-|4,39,94,2,1575738517,"~/.gitignore"
--'  94  2  ~/.gitignore
-|4,39,94,2,1575738517,"~/.gitignore"
--'  94  2  ~/.gitignore
-|4,39,94,2,1575738517,"~/.gitignore"
--'  94  2  ~/.gitignore
-|4,39,94,2,1575738517,"~/.gitignore"
--'  494  0  ~/.git/COMMIT_EDITMSG
-|4,39,494,0,1575738441,"~/.git/COMMIT_EDITMSG"
--'  494  0  ~/.git/COMMIT_EDITMSG
-|4,39,494,0,1575738441,"~/.git/COMMIT_EDITMSG"
--'  494  0  ~/.git/COMMIT_EDITMSG
-|4,39,494,0,1575738441,"~/.git/COMMIT_EDITMSG"
--'  494  0  ~/.git/COMMIT_EDITMSG
-|4,39,494,0,1575738441,"~/.git/COMMIT_EDITMSG"
--'  494  0  ~/.git/COMMIT_EDITMSG
-|4,39,494,0,1575738441,"~/.git/COMMIT_EDITMSG"
--'  494  0  ~/.git/COMMIT_EDITMSG
-|4,39,494,0,1575738441,"~/.git/COMMIT_EDITMSG"
--'  494  0  ~/.git/COMMIT_EDITMSG
-|4,39,494,0,1575738441,"~/.git/COMMIT_EDITMSG"
--'  494  0  ~/.git/COMMIT_EDITMSG
-|4,39,494,0,1575738441,"~/.git/COMMIT_EDITMSG"
--'  494  0  ~/.git/COMMIT_EDITMSG
-|4,39,494,0,1575738441,"~/.git/COMMIT_EDITMSG"
--'  494  0  ~/.git/COMMIT_EDITMSG
-|4,39,494,0,1575738441,"~/.git/COMMIT_EDITMSG"
--'  494  0  ~/.git/COMMIT_EDITMSG
-|4,39,494,0,1575738441,"~/.git/COMMIT_EDITMSG"
--'  494  0  ~/.git/COMMIT_EDITMSG
-|4,39,494,0,1575738441,"~/.git/COMMIT_EDITMSG"
--'  494  0  ~/.git/COMMIT_EDITMSG
-|4,39,494,0,1575738441,"~/.git/COMMIT_EDITMSG"
--'  494  0  ~/.git/COMMIT_EDITMSG
-|4,39,494,0,1575738441,"~/.git/COMMIT_EDITMSG"
--'  494  0  ~/.git/COMMIT_EDITMSG
-|4,39,494,0,1575738441,"~/.git/COMMIT_EDITMSG"
--'  494  0  ~/.git/COMMIT_EDITMSG
-|4,39,494,0,1575738441,"~/.git/COMMIT_EDITMSG"
--'  494  0  ~/.git/COMMIT_EDITMSG
-|4,39,494,0,1575738441,"~/.git/COMMIT_EDITMSG"
--'  494  0  ~/.git/COMMIT_EDITMSG
-|4,39,494,0,1575738441,"~/.git/COMMIT_EDITMSG"
--'  494  0  ~/.git/COMMIT_EDITMSG
-|4,39,494,0,1575738441,"~/.git/COMMIT_EDITMSG"
--'  494  0  ~/.git/COMMIT_EDITMSG
-|4,39,494,0,1575738441,"~/.git/COMMIT_EDITMSG"
--'  494  0  ~/.git/COMMIT_EDITMSG
-|4,39,494,0,1575738441,"~/.git/COMMIT_EDITMSG"
--'  494  0  ~/.git/COMMIT_EDITMSG
-|4,39,494,0,1575738441,"~/.git/COMMIT_EDITMSG"
--'  494  0  ~/.git/COMMIT_EDITMSG
-|4,39,494,0,1575738441,"~/.git/COMMIT_EDITMSG"
--'  494  0  ~/.git/COMMIT_EDITMSG
-|4,39,494,0,1575738441,"~/.git/COMMIT_EDITMSG"
--'  1  0  ~/.git/COMMIT_EDITMSG
-|4,39,1,0,1575738418,"~/.git/COMMIT_EDITMSG"
--'  1  0  ~/.git/COMMIT_EDITMSG
-|4,39,1,0,1575738418,"~/.git/COMMIT_EDITMSG"
--'  1  0  ~/.git/COMMIT_EDITMSG
-|4,39,1,0,1575738418,"~/.git/COMMIT_EDITMSG"
--'  1  0  ~/.git/COMMIT_EDITMSG
-|4,39,1,0,1575738418,"~/.git/COMMIT_EDITMSG"
--'  1  0  ~/.git/COMMIT_EDITMSG
-|4,39,1,0,1575738418,"~/.git/COMMIT_EDITMSG"
--'  1  0  ~/.git/COMMIT_EDITMSG
-|4,39,1,0,1575738418,"~/.git/COMMIT_EDITMSG"
--'  1  0  ~/.git/COMMIT_EDITMSG
-|4,39,1,0,1575738418,"~/.git/COMMIT_EDITMSG"
--'  1  0  ~/.git/COMMIT_EDITMSG
-|4,39,1,0,1575738418,"~/.git/COMMIT_EDITMSG"
--'  1  0  ~/.git/COMMIT_EDITMSG
-|4,39,1,0,1575738418,"~/.git/COMMIT_EDITMSG"
--'  1  0  ~/.git/COMMIT_EDITMSG
-|4,39,1,0,1575738418,"~/.git/COMMIT_EDITMSG"
--'  1  0  ~/.git/COMMIT_EDITMSG
-|4,39,1,0,1575738418,"~/.git/COMMIT_EDITMSG"
--'  1  0  ~/.git/COMMIT_EDITMSG
-|4,39,1,0,1575738418,"~/.git/COMMIT_EDITMSG"
--'  1  0  ~/.git/COMMIT_EDITMSG
-|4,39,1,0,1575738418,"~/.git/COMMIT_EDITMSG"
--'  1  0  ~/.git/COMMIT_EDITMSG
-|4,39,1,0,1575738418,"~/.git/COMMIT_EDITMSG"
--'  1  0  ~/.git/COMMIT_EDITMSG
-|4,39,1,0,1575738418,"~/.git/COMMIT_EDITMSG"
--'  1  0  ~/.git/COMMIT_EDITMSG
-|4,39,1,0,1575738418,"~/.git/COMMIT_EDITMSG"
--'  94  2  ~/.gitignore
-|4,39,94,2,1575738404,"~/.gitignore"
--'  94  2  ~/.gitignore
-|4,39,94,2,1575738404,"~/.gitignore"
--'  94  2  ~/.gitignore
-|4,39,94,2,1575738404,"~/.gitignore"
--'  94  2  ~/.gitignore
-|4,39,94,2,1575738404,"~/.gitignore"
--'  94  2  ~/.gitignore
-|4,39,94,2,1575738404,"~/.gitignore"
--'  94  2  ~/.gitignore
-|4,39,94,2,1575738404,"~/.gitignore"
--'  94  2  ~/.gitignore
-|4,39,94,2,1575738404,"~/.gitignore"
--'  94  2  ~/.gitignore
-|4,39,94,2,1575738404,"~/.gitignore"
+-'  106  8  ~/.gitignore
+|4,39,106,8,1575818813,"~/.gitignore"
+-'  105  13  ~/.gitignore
+|4,39,105,13,1575818809,"~/.gitignore"
+-'  105  13  ~/.gitignore
+|4,39,105,13,1575818805,"~/.gitignore"
+-'  104  3  ~/.gitignore
+|4,39,104,3,1575818799,"~/.gitignore"
+-'  104  3  ~/.gitignore
+|4,39,104,3,1575818799,"~/.gitignore"
+-'  104  3  ~/.gitignore
+|4,39,104,3,1575818796,"~/.gitignore"
+-'  104  4  ~/.gitignore
+|4,39,104,4,1575818791,"~/.gitignore"
+-'  103  10  ~/.gitignore
+|4,39,103,10,1575818788,"~/.gitignore"
+-'  103  10  ~/.gitignore
+|4,39,103,10,1575818788,"~/.gitignore"
+-'  103  10  ~/.gitignore
+|4,39,103,10,1575818788,"~/.gitignore"
+-'  103  10  ~/.gitignore
+|4,39,103,10,1575818788,"~/.gitignore"
+-'  103  10  ~/.gitignore
+|4,39,103,10,1575818783,"~/.gitignore"
+-'  102  8  ~/.gitignore
+|4,39,102,8,1575818779,"~/.gitignore"
+-'  102  8  ~/.gitignore
+|4,39,102,8,1575818779,"~/.gitignore"
+-'  102  8  ~/.gitignore
+|4,39,102,8,1575818779,"~/.gitignore"
+-'  102  8  ~/.gitignore
+|4,39,102,8,1575818779,"~/.gitignore"
+-'  102  8  ~/.gitignore
+|4,39,102,8,1575818779,"~/.gitignore"
+-'  102  8  ~/.gitignore
+|4,39,102,8,1575818776,"~/.gitignore"
+-'  102  14  ~/.gitignore
+|4,39,102,14,1575818771,"~/.gitignore"
+-'  101  7  ~/.gitignore
+|4,39,101,7,1575818765,"~/.gitignore"
+-'  101  7  ~/.gitignore
+|4,39,101,7,1575818765,"~/.gitignore"
+-'  101  7  ~/.gitignore
+|4,39,101,7,1575818765,"~/.gitignore"
+-'  101  7  ~/.gitignore
+|4,39,101,7,1575818765,"~/.gitignore"
+-'  101  7  ~/.gitignore
+|4,39,101,7,1575818765,"~/.gitignore"
+-'  101  7  ~/.gitignore
+|4,39,101,7,1575818765,"~/.gitignore"
+-'  101  7  ~/.gitignore
+|4,39,101,7,1575818765,"~/.gitignore"
+-'  19  69  ~/scr/chroot.sh
+|4,39,19,69,1575818739,"~/scr/chroot.sh"
+-'  19  69  ~/scr/chroot.sh
+|4,39,19,69,1575818739,"~/scr/chroot.sh"
+-'  19  69  ~/scr/chroot.sh
+|4,39,19,69,1575818739,"~/scr/chroot.sh"
+-'  19  69  ~/scr/chroot.sh
+|4,39,19,69,1575818739,"~/scr/chroot.sh"
+-'  19  69  ~/scr/chroot.sh
+|4,39,19,69,1575818739,"~/scr/chroot.sh"
+-'  19  69  ~/scr/chroot.sh
+|4,39,19,69,1575818739,"~/scr/chroot.sh"
+-'  19  69  ~/scr/chroot.sh
+|4,39,19,69,1575818739,"~/scr/chroot.sh"
+-'  19  69  ~/scr/chroot.sh
+|4,39,19,69,1575818739,"~/scr/chroot.sh"
+-'  19  69  ~/scr/chroot.sh
+|4,39,19,69,1575818739,"~/scr/chroot.sh"
+-'  19  69  ~/scr/chroot.sh
+|4,39,19,69,1575818739,"~/scr/chroot.sh"
+-'  19  69  ~/scr/chroot.sh
+|4,39,19,69,1575818739,"~/scr/chroot.sh"
+-'  19  69  ~/scr/chroot.sh
+|4,39,19,69,1575818739,"~/scr/chroot.sh"
+-'  19  69  ~/scr/chroot.sh
+|4,39,19,69,1575818739,"~/scr/chroot.sh"
+-'  19  69  ~/scr/chroot.sh
+|4,39,19,69,1575818739,"~/scr/chroot.sh"
+-'  19  69  ~/scr/chroot.sh
+|4,39,19,69,1575818739,"~/scr/chroot.sh"
+-'  19  69  ~/scr/chroot.sh
+|4,39,19,69,1575818739,"~/scr/chroot.sh"
+-'  19  69  ~/scr/chroot.sh
+|4,39,19,69,1575818739,"~/scr/chroot.sh"
+-'  19  69  ~/scr/chroot.sh
+|4,39,19,69,1575818739,"~/scr/chroot.sh"
+-'  19  69  ~/scr/chroot.sh
+|4,39,19,69,1575818739,"~/scr/chroot.sh"
+-'  19  69  ~/scr/chroot.sh
+|4,39,19,69,1575818739,"~/scr/chroot.sh"
+-'  19  69  ~/scr/chroot.sh
+|4,39,19,69,1575818739,"~/scr/chroot.sh"
+-'  19  69  ~/scr/chroot.sh
+|4,39,19,69,1575818739,"~/scr/chroot.sh"
+-'  19  69  ~/scr/chroot.sh
+|4,39,19,69,1575818739,"~/scr/chroot.sh"
+-'  19  69  ~/scr/chroot.sh
+|4,39,19,69,1575818739,"~/scr/chroot.sh"
+-'  19  69  ~/scr/chroot.sh
+|4,39,19,69,1575818739,"~/scr/chroot.sh"
+-'  19  69  ~/scr/chroot.sh
+|4,39,19,69,1575818739,"~/scr/chroot.sh"
+-'  19  69  ~/scr/chroot.sh
+|4,39,19,69,1575818739,"~/scr/chroot.sh"
+-'  19  69  ~/scr/chroot.sh
+|4,39,19,69,1575818739,"~/scr/chroot.sh"
+-'  19  69  ~/scr/chroot.sh
+|4,39,19,69,1575818739,"~/scr/chroot.sh"
+-'  19  69  ~/scr/chroot.sh
+|4,39,19,69,1575818739,"~/scr/chroot.sh"
+-'  19  69  ~/scr/chroot.sh
+|4,39,19,69,1575818739,"~/scr/chroot.sh"
+-'  19  69  ~/scr/chroot.sh
+|4,39,19,69,1575818739,"~/scr/chroot.sh"
+-'  19  69  ~/scr/chroot.sh
+|4,39,19,69,1575818739,"~/scr/chroot.sh"
+-'  19  69  ~/scr/chroot.sh
+|4,39,19,69,1575818739,"~/scr/chroot.sh"
+-'  19  69  ~/scr/chroot.sh
+|4,39,19,69,1575818739,"~/scr/chroot.sh"
+-'  19  69  ~/scr/chroot.sh
+|4,39,19,69,1575818739,"~/scr/chroot.sh"
+-'  19  69  ~/scr/chroot.sh
+|4,39,19,69,1575818739,"~/scr/chroot.sh"
+-'  19  69  ~/scr/chroot.sh
+|4,39,19,69,1575818739,"~/scr/chroot.sh"
+-'  19  69  ~/scr/chroot.sh
+|4,39,19,69,1575818739,"~/scr/chroot.sh"
+-'  19  69  ~/scr/chroot.sh
+|4,39,19,69,1575818739,"~/scr/chroot.sh"
+-'  19  69  ~/scr/chroot.sh
+|4,39,19,69,1575818739,"~/scr/chroot.sh"
+-'  19  69  ~/scr/chroot.sh
+|4,39,19,69,1575818739,"~/scr/chroot.sh"
+-'  19  69  ~/scr/chroot.sh
+|4,39,19,69,1575818739,"~/scr/chroot.sh"
+-'  19  69  ~/scr/chroot.sh
+|4,39,19,69,1575818739,"~/scr/chroot.sh"
+-'  19  69  ~/scr/chroot.sh
+|4,39,19,69,1575818739,"~/scr/chroot.sh"
+-'  19  69  ~/scr/chroot.sh
+|4,39,19,69,1575818739,"~/scr/chroot.sh"
+-'  19  69  ~/scr/chroot.sh
+|4,39,19,69,1575818739,"~/scr/chroot.sh"
+-'  19  69  ~/scr/chroot.sh
+|4,39,19,69,1575818739,"~/scr/chroot.sh"
+-'  19  69  ~/scr/chroot.sh
+|4,39,19,69,1575818739,"~/scr/chroot.sh"
+-'  19  69  ~/scr/chroot.sh
+|4,39,19,69,1575818739,"~/scr/chroot.sh"
+-'  19  69  ~/scr/chroot.sh
+|4,39,19,69,1575818739,"~/scr/chroot.sh"
+-'  19  69  ~/scr/chroot.sh
+|4,39,19,69,1575818739,"~/scr/chroot.sh"
+-'  19  69  ~/scr/chroot.sh
+|4,39,19,69,1575818739,"~/scr/chroot.sh"
+-'  19  69  ~/scr/chroot.sh
+|4,39,19,69,1575818739,"~/scr/chroot.sh"
+-'  19  69  ~/scr/chroot.sh
+|4,39,19,69,1575818739,"~/scr/chroot.sh"
+-'  19  69  ~/scr/chroot.sh
+|4,39,19,69,1575818739,"~/scr/chroot.sh"
+-'  19  69  ~/scr/chroot.sh
+|4,39,19,69,1575818739,"~/scr/chroot.sh"
+-'  19  69  ~/scr/chroot.sh
+|4,39,19,69,1575818739,"~/scr/chroot.sh"
+-'  19  69  ~/scr/chroot.sh
+|4,39,19,69,1575818739,"~/scr/chroot.sh"
+-'  19  69  ~/scr/chroot.sh
+|4,39,19,69,1575818739,"~/scr/chroot.sh"
+-'  19  69  ~/scr/chroot.sh
+|4,39,19,69,1575818739,"~/scr/chroot.sh"
+-'  19  69  ~/scr/chroot.sh
+|4,39,19,69,1575818739,"~/scr/chroot.sh"
+-'  19  69  ~/scr/chroot.sh
+|4,39,19,69,1575818739,"~/scr/chroot.sh"
+-'  19  69  ~/scr/chroot.sh
+|4,39,19,69,1575818739,"~/scr/chroot.sh"
+-'  19  69  ~/scr/chroot.sh
+|4,39,19,69,1575818739,"~/scr/chroot.sh"
+-'  19  69  ~/scr/chroot.sh
+|4,39,19,69,1575818739,"~/scr/chroot.sh"
+-'  19  69  ~/scr/chroot.sh
+|4,39,19,69,1575818739,"~/scr/chroot.sh"
+-'  19  69  ~/scr/chroot.sh
+|4,39,19,69,1575818739,"~/scr/chroot.sh"
+-'  19  69  ~/scr/chroot.sh
+|4,39,19,69,1575818739,"~/scr/chroot.sh"
+-'  19  69  ~/scr/chroot.sh
+|4,39,19,69,1575818739,"~/scr/chroot.sh"
+-'  19  69  ~/scr/chroot.sh
+|4,39,19,69,1575818739,"~/scr/chroot.sh"
+-'  19  69  ~/scr/chroot.sh
+|4,39,19,69,1575818739,"~/scr/chroot.sh"
+-'  19  69  ~/scr/chroot.sh
+|4,39,19,69,1575818739,"~/scr/chroot.sh"
+-'  19  69  ~/scr/chroot.sh
+|4,39,19,69,1575818739,"~/scr/chroot.sh"
 
 # History of marks within files (newest to oldest):
 
 > ~/.gitignore
-	*	1575739026	0
-	"	98	12
-	^	98	13
-	.	98	13
+	*	1575818812	0
+	"	106	8
+	^	106	9
+	.	106	9
 	+	91	3
 	+	92	5
 	+	93	0
@@ -336,23 +560,335 @@ $
 	+	19	5
 	+	96	12
 	+	98	13
+	+	99	19
+	+	100	9
+	+	101	7
+	+	102	8
+	+	103	10
+	+	104	3
+	+	105	13
+	+	106	9
+
+> ~/scr/chroot.sh
+	*	1575818739	0
+	"	19	69
+	^	19	70
+	.	19	69
+	+	19	69
+	n	16	88
+
+> ~/scr/install.sh
+	*	1575818721	0
+	"	66	56
+	^	66	57
+	.	66	56
+	+	66	56
+
+> ~/doc/vms/init.sh
+	*	1575818201	0
+	"	1	39
+	^	1	40
+	.	1	39
+	+	1	109
+	+	2	0
+	+	1	39
+
+> ~/.config/mondo/generator/jgmenu/_mondo-template
+	*	1575817874	0
+	"	35	0
+	^	22	25
+	.	22	24
+	+	31	0
+	+	24	22
+	+	31	22
+	+	34	23
+	+	22	23
+	+	34	23
+	+	22	24
+
+> ~/doc/rep/heroku/bobject/markup/parser.py
+	*	1575817623	0
+	"	2	0
+
+> ~/doc/rep/heroku/bobject/src/home.mu
+	*	1575817568	0
+	"	11	0
+
+> ~/doc/rep/heroku/bobject/src/h
+	*	1575817465	0
+	"	1	0
+
+> ~/doc/rep/heroku/bobject/hello.py
+	*	1575817451	0
+	"	33	21
+	^	33	22
+
+> ~/.config/mondo/generator/dwm/_mondo-template
+	*	1575817351	0
+	"	15	31
+	^	9	30
+	.	3	0
+	+	90	41
+	+	43	5
+	+	134	68
+	+	8	24
+	+	8	0
+	+	2	104
+	+	4	0
+	+	2	44
+	+	6	0
+	+	2	0
+	+	3	28
+	+	2	41
+	+	3	40
+	+	9	29
+	+	3	40
+	+	3	0
+
+> ~/snd/youtube.txt
+	*	1575817172	0
+	"	2	75
+	^	2	76
+	.	2	75
+	+	1	78
+	+	2	75
+
+> ~/snd/archive
+	*	1575817115	0
+	"	1	0
+
+> ~/cfg/youtube.txt
+	*	1575817054	0
+	"	17	0
+
+> ~/.config/jgmenu/prepend.csv
+	*	1575817024	0
+	"	4	28
+	^	1	58
+	.	1	58
+	+	5	0
+	+	4	0
+	+	1	0
+	+	1	58
+
+> ~/.config/jgmenu/append.csv
+	*	1575816988	0
+	"	9	8
+	.	10	0
+	+	9	0
+	+	10	0
+
+> ~/.config/jgmenu/jgmenurc
+	*	1575816946	0
+	"	34	23
+	^	34	24
+	.	34	24
+	+	13	0
+	+	43	23
+	+	31	0
+	+	24	0
+	+	17	23
+	+	18	0
+	+	34	24
+
+> ~/.config/compton.conf
+	*	1575816720	0
+	"	8	55
+	^	8	56
+	.	8	55
+	+	8	0
+	+	9	0
+	+	8	55
+
+> ~/.config/rofi/config
+	*	1575816692	0
+	"	1	0
+
+> ~/.xinitrc
+	*	1575816374	0
+	"	13	9
+	^	13	10
+	.	13	9
+	+	22	31
+	+	27	14
+	+	21	0
+	+	9	0
+	+	14	0
+	+	13	9
+
+> ~/.config/dwm/config.h
+	*	1575816366	0
+	"	49	19
+	^	116	67
+	.	116	67
+	+	46	11
+	+	44	0
+	+	43	11
+	+	8	48
+	+	2	47
+	+	9	33
+	+	2	0
+	+	5	0
+	+	1	16
+	+	2	42
+	+	2	0
+	+	2	104
+	+	3	0
+	+	2	40
+	+	3	37
+	+	5	0
+	+	17	37
+	+	3	0
+	+	3	28
+	+	4	0
+	+	3	28
+	+	116	67
+
+> ~/.config/dwm/config.
+	*	1575816355	0
+	"	1	0
+
+> ~/.bashrc
+	*	1575814412	0
+	"	25	0
+	.	22	0
+	+	13	0
+	+	16	2
+	+	17	0
+	+	22	0
+	+	20	12
+	+	21	0
+	+	22	0
+
+> ~/.profile
+	*	1575814402	0
+	"	27	0
+
+> ~/scr/tools/mondosel
+	*	1575814300	0
+	"	2	47
+	^	2	48
+	.	2	47
+	+	2	6
+	+	3	15
+	+	4	7
+	+	2	47
+
+> ~/.config/dwm/dwm.c
+	*	1575814215	0
+	"	891	56
+	^	880	62
+	.	880	61
+	+	170	65
+	+	217	37
+	+	436	21
+	+	442	74
+	+	455	35
+	+	455	0
+	+	457	0
+	+	464	0
+	+	463	58
+	+	476	0
+	+	475	51
+	+	466	1
+	+	467	0
+	+	468	0
+	+	469	0
+	+	471	0
+	+	470	0
+	+	472	0
+	+	473	0
+	+	474	0
+	+	476	0
+	+	475	0
+	+	783	0
+	+	782	0
+	+	783	34
+	+	783	0
+	+	786	0
+	+	786	21
+	+	457	21
+	+	463	41
+	+	466	66
+	+	786	20
+	+	800	0
+	+	799	20
+	+	801	1
+	+	909	1
+	+	869	0
+	+	866	0
+	+	867	4
+	+	1825	1
+	+	1825	0
+	+	888	0
+	+	890	77
+	+	896	82
+	+	880	0
+	+	888	0
+	+	880	61
+
+> ~/scr/settings/mondoreload
+	*	1575813973	0
+	"	2	8
+	^	2	9
+	.	2	8
+	+	1	0
+	+	2	0
+	+	2	8
+
+> ~/.config/dwm.c
+	*	1575813842	0
+	"	1	0
+
+> ~/.config/alacritty/alacritty.yml
+	*	1575812862	0
+	"	387	0
+
+> ~/.config/mondo/themes/.git/COMMIT_EDITMSG
+	*	1575757032	0
+	"	1	17
+	^	1	18
+	.	1	17
+	+	1	17
+
+> ~/.config/dwm/.git/COMMIT_EDITMSG
+	*	1575756932	0
+	"	1	12
+	^	1	13
+	.	1	12
+	+	1	12
+
+> ~/scr/progs.csv
+	*	1575756805	0
+	"	45	5
+	^	66	6
+	.	66	6
+	+	66	25
+	+	53	0
+	+	58	4
+	+	67	0
+	+	65	13
+	+	66	6
+
+> ~/scr/parbs.sh
+	*	1575756711	0
+	"	102	12
+	^	203	40
+	.	221	12
+	+	246	71
+	+	250	8
+	+	246	71
+	+	249	0
+	+	248	12
+	+	194	0
+	+	22	79
+	+	23	87
+	+	222	0
+	+	221	12
 
 > ~/.git/COMMIT_EDITMSG
 	*	1575738714	0
 	"	253	0
-
-> ~/.config/dwm/config.h
-	*	1575729464	0
-	"	86	9
-
-> ~/.xinitrc
-	*	1575729236	0
-	"	22	5
-	^	21	1
-	.	21	0
-	+	22	31
-	+	27	14
-	+	21	0
 
 > ~/.screen.sh
 	*	1575728507	0
@@ -361,13 +897,6 @@ $
 > ~/.screen
 	*	1575728504	0
 	"	1	0
-
-> ~/.config/mondo/generator/dwm/_mondo-template
-	*	1575728315	0
-	"	28	0
-	^	87	42
-	.	87	41
-	+	87	41
 
 > ~/cfg/gitignore
 	*	1575728238	0
@@ -393,40 +922,9 @@ $
 	*	1575677027	0
 	"	1	0
 
-> ~/.bashrc
-	*	1575676945	0
-	"	21	0
-	.	22	0
-	+	13	0
-	+	16	2
-	+	17	0
-	+	22	0
-	+	20	12
-	+	21	0
-	+	22	0
-
-> ~/.profile
-	*	1575676904	0
-	"	19	0
-
 > ~/.bash
 	*	1575676846	0
 	"	1	0
-
-> ~/scr/progs.csv
-	*	1550763445	0
-	"	66	25
-	^	66	26
-	.	66	25
-	+	66	25
-
-> ~/scr/parbs.sh
-	*	1550763365	0
-	"	251	25
-	^	251	26
-	.	251	8
-	+	250	0
-	+	251	8
 
 > ~/.config/mondo/generator/dwm/_mondo-apply
 	*	1550763267	0
