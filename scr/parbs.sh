@@ -256,6 +256,7 @@ sudo -u "$name" mkdir /home/$name/doc \
 
 sudo -i $name ln -s /home/$name/.config/ /home/$name/cfg/config
 sudo -i $name ln -s /home/$name/scr/ /home/$name/cfg/scripts
+sudo -i $name ln -s /home/$name/.config/mondo/themes/ /home/$name/thm/mondo
 
 chmod -R $name /home/$name
 
