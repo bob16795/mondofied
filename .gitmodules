@@ -1,9 +1,9 @@
 [submodule ".config/dwm"]
-	url = http://github.com/bob17896/dwm
+	url = http://github.com/bob16795/dwm
 	path = .config/dwm
 [submodule ".config/mondo/themes"]
 	path = .config/mondo/themes
-	url = http://github.com/bob17896/mondofied-themes
+	url = http://github.com/bob16795/mondofied-themes
 [submodule ".mozilla/firefox"]
 	path = .mozilla/firefox
 	url = http://github.com/lukesmithxyz/mozillarbs
