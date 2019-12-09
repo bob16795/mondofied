@@ -11,177 +11,26 @@
 # hlsearch on (H) or off (h):
 ~h
 # Last Search Pattern:
-<<<<<<< HEAD
 ~MSle0~/spi
-=======
-~MSle0~/expand
 
 # Last Substitute Search Pattern:
 ~MSle0&\/home\/john
->>>>>>> c0bb0dce74df38b6703dcc20593028ca171a5cb0
-
-# Last Substitute String:
-$\~
 
 # Command Line History (newest to oldest):
-<<<<<<< HEAD
-:wq!
-|2,0,1575896049,,"wq!"
 :q!
-|2,0,1575895812,,"q!"
-:q
-|2,0,1575895421,,"q"
-:w
-|2,0,1575843830,,"w"
-:wq
-|2,0,1575843708,,"wq"
-:s
-|2,0,1575817022,,"s"
-:W
-|2,0,1575816825,,"W"
-=======
-:q
-|2,0,1575828998,,"q"
-:wq
-|2,0,1575828953,,"wq"
-:w
-|2,0,1575828859,,"w"
-:w1
-|2,0,1575828807,,"w1"
-:%s/\/home\/john/\~/
-|2,0,1575828465,,"%s/\\/home\\/john/\\~/"
-:%s/\/home\/john/~/
-|2,0,1575828453,,"%s/\\/home\\/john/~/"
-:W
-|2,0,1575828242,,"W"
+|2,0,1575905228,,"q!"
 :wq!
-|2,0,1575822098,,"wq!"
-:q!
-|2,0,1575822084,,"q!"
-:s
-|2,0,1575817022,,"s"
->>>>>>> c0bb0dce74df38b6703dcc20593028ca171a5cb0
+|2,0,1575905142,,"wq!"
+:q
+|2,0,1575905093,,"q"
 :w!
-|2,0,1575816715,,"w!"
-:Q
-|2,0,1575813953,,"Q"
-:i
-|2,0,1575756930,,"i"
-:swq
-|2,0,1575756789,,"swq"
-:q1
-|2,0,1575739525,,"q1"
-:Lwq
-|2,0,1575738138,,"Lwq"
-:Wq!
-|2,0,1575728329,,"Wq!"
-:waq
-|2,0,1575728329,,"waq"
-:wQ!
-|2,0,1575728328,,"wQ!"
-:qa!
-|2,0,1575727988,,"qa!"
+|2,0,1575905040,,"w!"
+:d
+|2,0,1575905024,,"d"
+:w
+|2,0,1575905005,,"w"
 
 # Search String History (newest to oldest):
-<<<<<<< HEAD
-?/spi
-|2,1,1575843566,47,"spi"
-?/;q
-|2,1,1575843462,47,";q"
-?/cava
-|2,1,1575843433,47,"cava"
-?/cav
-|2,1,1575843417,47,"cav"
-? @$
-|2,1,1575836515,,"@$"
-=======
-?/expand
-|2,1,1575828560,47,"expand"
-?/check
-|2,1,1575828495,47,"check"
-? \/home\/john
-|2,1,1575828465,,"\\/home\\/john"
-?/hhome/john/
-|2,1,1575828460,47,"hhome/john/"
-?/john
-|2,1,1575828280,47,"john"
-?/git
-|2,1,1575822016,47,"git"
-?/mkdir
-|2,1,1575821682,47,"mkdir"
->>>>>>> c0bb0dce74df38b6703dcc20593028ca171a5cb0
-?/config
-|2,1,1575818730,47,"config"
-?/border
-|2,1,1575816768,47,"border"
-?/opa
-|2,1,1575816763,47,"opa"
-?/vis
-|2,1,1575816365,47,"vis"
-?/mondo
-|2,1,1575814449,47,"mondo"
-?/drawtaggrid
-|2,1,1575813927,47,"drawtaggrid"
-?/grid
-|2,1,1575813922,47,"grid"
-?/paste
-|2,1,1575812856,47,"paste"
-?/SWITCH
-|2,1,1575813569,47,"SWITCH"
-?/showhide
-|2,1,1575813514,47,"showhide"
-??:w
-|2,1,1575813507,63,":w"
-?/dr
-|2,1,1575813492,47,"dr"
-?/drawtagmask ==
-|2,1,1575813440,47,"drawtagmask =="
-?/DRAWC
-|2,1,1575813396,47,"DRAWC"
-?/draw
-|2,1,1575813314,47,"draw"
-?/buttonpress
-|2,1,1575813129,47,"buttonpress"
-?/spawn
-|2,1,1575813116,47,"spawn"
-?/drawbars
-|2,1,1575813095,47,"drawbars"
-?/mondosel
-|2,1,1575767562,47,"mondosel"
-?/Stea
-|2,1,1575767269,47,"Stea"
-?/firef
-|2,1,1575767250,47,"firef"
-?/@$
-|2,1,1575767247,47,"@$"
-??:wq
-|2,1,1575757032,63,":wq"
-??:Lwq
-|2,1,1575756881,63,":Lwq"
-?/spot
-|2,1,1575756773,47,"spot"
-?/loop
-|2,1,1575756709,47,"loop"
-?/git clone 
-|2,1,1575739684,47,"git clone "
-?/configf
-|2,1,1575739501,47,"configf"
-?/master
-|2,1,1575739481,47,"master"
-?/beta
-|2,1,1575739477,47,"beta"
-?/sudo
-|2,1,1575739444,47,"sudo"
-?/_timer
-|2,1,1575677056,47,"_timer"
-?/re
-|2,1,1575677051,47,"re"
-?/rendere
-|2,1,1575677048,47,"rendere"
-?/faux
-|2,1,1575677037,47,"faux"
-?/fauc
-|2,1,1575677035,47,"fauc"
 
 # Expression History (newest to oldest):
 
@@ -190,1108 +39,332 @@ $\~
 # Debug Line History (newest to oldest):
 
 # Registers:
-<<<<<<< HEAD
-"0	CHAR	0
-	v
-|3,0,0,0,1,0,1575836515,"v"
 ""1	LINE	0
-	        "/home/john/doc",
-|3,1,1,1,1,0,1575896048,"        \"/home/john/doc\","
+	alpha        0.75
+	alpha_hex    BF
+|3,1,1,1,2,0,1575905051,"alpha        0.75","alpha_hex    BF"
 "2	LINE	0
-	#alacritty --class lin & # terminal
-|3,0,2,1,1,0,1575843829,"#alacritty --class lin & # terminal"
+	tags         1
+|3,0,2,1,1,0,1575905024,"tags         1"
 "3	LINE	0
-	#cairo-dock &
-|3,0,3,1,1,0,1575843711,"#cairo-dock &"
+	tags         1
+|3,0,3,1,1,0,1575905019,"tags         1"
 "4	LINE	0
-	#sublime & #dev
-|3,0,4,1,1,0,1575843709,"#sublime & #dev"
+	tags         1
+|3,0,4,1,1,0,1575905015,"tags         1"
 "5	LINE	0
-	
-|3,0,5,1,1,0,1575816993,""
-=======
-""0	LINE	0
-	                        print("mkdir -p '{}'".format(checked))
-|3,1,0,1,1,0,1575828932,"                        print(\"mkdir -p '{}'\".format(checked))"
-"1	LINE	0
-	                        subprocess.call(("mv '{}' '{}'".format(j.decode("utf-8"),checked+j.decode("utf-8").split('/')[-1])), shell=True)
-|3,0,1,1,1,0,1575828905,"                        subprocess.call((\"mv '{}' '{}'\".format(j.decode(\"utf-8\"),checked+j.decode(\"utf-8\").split('/')[-1])), shell=True)"
-"2	LINE	0
-	#for i in pix:
-	#    subprocess.call(["feh", i.decode("utf-8")])
-	#    lol = subprocess.check_output(["~/bin/rofipix"]).decode("utf-8").split("::")
-	#    print("mv {} ~/pix/{}/{}$(ls /home/john/pix/{}/{}*.jpg | wc -l).jpg".format(i.decode("utf-8"), lol[0],lol[1] ,lol[0], lol[1]))
-	    #print("feh {} && mv {} ~/pix/$( cd /home/john/pix && ls -d */ | cut -f1 -d'/'| rofi -dmenu)/$(rofi -dmenu)$(ls *.jpg | wc -l).png".format(i.decode("utf-8"),i.decode("utf-8")))
-|3,0,2,1,5,0,1575828813,"#for i in pix:","#    subprocess.call([\"feh\", i.decode(\"utf-8\")])","#    lol = subprocess.check_output([\"~/bin/rofipix\"]).decode(\"utf-8\").split(\"::\")","#    print(\"mv {} ~/pix/{}/{}$(ls /home/john/pix/{}/{}*.jpg | wc -l).jpg\".format(i.decode(\"utf-8\"), lol[0],lol[1] ,lol[0], lol[1]))",>188
-|<"    #print(\"feh {} && mv {} ~/pix/$( cd /home/john/pix && ls -d */ | cut -f1 -d'/'| rofi -dmenu)/$(rofi -dmenu)$(ls *.jpg | wc -l).png\".format(i.decode(\"utf-8\"),i.decode(\"utf-8\")))"
-"3	LINE	0
-	#for i in pix:
-	#    subprocess.call(["feh", i.decode("utf-8")])
-	#    lol = subprocess.check_output(["~/bin/rofipix"]).decode("utf-8").split("::")
-	#    print("mv {} ~/pix/{}/{}$(ls /home/john/pix/{}/{}*.jpg | wc -l).jpg".format(i.decode("utf-8"), lol[0],lol[1] ,lol[0], lol[1]))
-	    #print("feh {} && mv {} ~/pix/$( cd /home/john/pix && ls -d */ | cut -f1 -d'/'| rofi -dmenu)/$(rofi -dmenu)$(ls *.jpg | wc -l).png".format(i.decode("utf-8"),i.decode("utf-8")))
-|3,0,3,1,5,0,1575828806,"#for i in pix:","#    subprocess.call([\"feh\", i.decode(\"utf-8\")])","#    lol = subprocess.check_output([\"~/bin/rofipix\"]).decode(\"utf-8\").split(\"::\")","#    print(\"mv {} ~/pix/{}/{}$(ls /home/john/pix/{}/{}*.jpg | wc -l).jpg\".format(i.decode(\"utf-8\"), lol[0],lol[1] ,lol[0], lol[1]))",>188
-|<"    #print(\"feh {} && mv {} ~/pix/$( cd /home/john/pix && ls -d */ | cut -f1 -d'/'| rofi -dmenu)/$(rofi -dmenu)$(ls *.jpg | wc -l).png\".format(i.decode(\"utf-8\"),i.decode(\"utf-8\")))"
-"4	LINE	0
-	pix = subprocess.check_output(["tree","-N", "-f","-i", "~/pix/Unsorted"]).split(b'\n')[1:-4]
-|3,0,4,1,1,0,1575828769,"pix = subprocess.check_output([\"tree\",\"-N\", \"-f\",\"-i\", \"~/pix/Unsorted\"]).split(b'\\n')[1:-4]"
-"5	LINE	0
-	                checked = expanduser(check(j).decode())
-|3,0,5,1,1,0,1575828609,"                checked = expanduser(check(j).decode())"
->>>>>>> c0bb0dce74df38b6703dcc20593028ca171a5cb0
+	tags         0
+|3,0,5,1,1,0,1575905012,"tags         0"
 "6	LINE	0
-	@search,,0,0,100,13,3,left,top,#aaaaaa 90,#222222 3,Type to search...
-	
-<<<<<<< HEAD
-|3,0,6,1,2,0,1575816960,"@search,,0,0,100,13,3,left,top,#aaaaaa 90,#222222 3,Type to search...",""
+	tags         1
+|3,0,6,1,1,0,1575905008,"tags         1"
 "7	LINE	0
-	Settings,~/scr/settings/settings,utilities-terminal
-|3,0,7,1,1,0,1575816625,"Settings,~/scr/settings/settings,utilities-terminal"
-"8	LINE	0
-	Rofi,rofi -show run,utilities-terminal
-|3,0,8,1,1,0,1575816623,"Rofi,rofi -show run,utilities-terminal"
-"9	LINE	0
-	
-|3,0,9,1,1,0,1575813970,""
-"-	CHAR	0
-	#
-|3,0,36,0,1,0,1575843855,"#"
+	tags         0
+|3,0,7,1,1,0,1575905005,"tags         0"
 
 # File marks:
-'0  11  8  ~/scr/tools/filesort
-|4,48,11,8,1575896049,"~/scr/tools/filesort"
-'1  4  29  ~/scr/dwmcmds/bar
-|4,49,4,29,1575895812,"~/scr/dwmcmds/bar"
-'2  21  0  ~/doc/src/master.mu
-|4,50,21,0,1575895754,"~/doc/src/master.mu"
-'3  21  0  ~/doc/src/master.mu
-|4,51,21,0,1575895421,"~/doc/src/master.mu"
-'4  1  0  ~/doc/src/2019-2020/us_essay_dumb.mu
-|4,52,1,0,1575894881,"~/doc/src/2019-2020/us_essay_dumb.mu"
-'5  211  17  ~/.config/alacritty/alacritty.yml
-|4,53,211,17,1575844150,"~/.config/alacritty/alacritty.yml"
-'6  12  0  ~/.xinitrc
-|4,54,12,0,1575843856,"~/.xinitrc"
-'7  19  0  ~/.xinitrc
-|4,55,19,0,1575843718,"~/.xinitrc"
-'8  20  0  ~/.xinitrc
-|4,56,20,0,1575843718,"~/.xinitrc"
-'9  40  33  ~/.config/mondo/generator/dwm/_mondo-template
-|4,57,40,33,1575843662,"~/.config/mondo/generator/dwm/_mondo-template"
+'0  14  0  ~/.gitignore
+|4,48,14,0,1575905320,"~/.gitignore"
+'1  1  0  ~/.config/dwm/config.
+|4,49,1,0,1575905271,"~/.config/dwm/config."
+'2  1  0  ~/doc/rep/bob16795/markup/requirements.txt
+|4,50,1,0,1575905228,"~/doc/rep/bob16795/markup/requirements.txt"
+'3  9  41  ~/.config/mondo/generator/dwm/_mondo-template
+|4,51,9,41,1575905142,"~/.config/mondo/generator/dwm/_mondo-template"
+'4  2  13  ~/.config/mondo/themes/_default
+|4,52,2,13,1575905096,"~/.config/mondo/themes/_default"
+'5  3  0  ~/.config/mondo/themes/_default
+|4,53,3,0,1575905054,"~/.config/mondo/themes/_default"
+'6  2  0  ~/.config/mondo/themes/_default
+|4,54,2,0,1575905054,"~/.config/mondo/themes/_default"
+'7  1  13  ~/.config/mondo/themes/_default
+|4,55,1,13,1575905040,"~/.config/mondo/themes/_default"
+'8  1  13  ~/.config/mondo/themes/_default
+|4,56,1,13,1575905040,"~/.config/mondo/themes/_default"
+'9  1  13  ~/.config/mondo/themes/_default
+|4,57,1,13,1575905040,"~/.config/mondo/themes/_default"
 
 # Jumplist (newest first):
--'  11  8  ~/scr/tools/filesort
-|4,39,11,8,1575896049,"~/scr/tools/filesort"
--'  1  0  ~/scr/tools/filesort
-|4,39,1,0,1575896046,"~/scr/tools/filesort"
--'  4  29  ~/scr/dwmcmds/bar
-|4,39,4,29,1575895812,"~/scr/dwmcmds/bar"
--'  4  29  ~/scr/dwmcmds/bar
-|4,39,4,29,1575895812,"~/scr/dwmcmds/bar"
--'  1  0  ~/scr/dwmcmds/bar
-|4,39,1,0,1575895802,"~/scr/dwmcmds/bar"
--'  1  0  ~/scr/dwmcmds/bar
-|4,39,1,0,1575895802,"~/scr/dwmcmds/bar"
--'  21  0  ~/doc/src/master.mu
-|4,39,21,0,1575895754,"~/doc/src/master.mu"
--'  21  0  ~/doc/src/master.mu
-|4,39,21,0,1575895754,"~/doc/src/master.mu"
--'  21  0  ~/doc/src/master.mu
-|4,39,21,0,1575895754,"~/doc/src/master.mu"
--'  21  0  ~/doc/src/master.mu
-|4,39,21,0,1575895754,"~/doc/src/master.mu"
--'  21  0  ~/doc/src/master.mu
-|4,39,21,0,1575895421,"~/doc/src/master.mu"
--'  21  0  ~/doc/src/master.mu
-|4,39,21,0,1575895421,"~/doc/src/master.mu"
--'  21  0  ~/doc/src/master.mu
-|4,39,21,0,1575895421,"~/doc/src/master.mu"
--'  21  0  ~/doc/src/master.mu
-|4,39,21,0,1575895421,"~/doc/src/master.mu"
--'  1  0  ~/doc/src/master.mu
-|4,39,1,0,1575895418,"~/doc/src/master.mu"
--'  1  0  ~/doc/src/master.mu
-|4,39,1,0,1575895418,"~/doc/src/master.mu"
--'  1  0  ~/doc/src/master.mu
-|4,39,1,0,1575895418,"~/doc/src/master.mu"
--'  1  0  ~/doc/src/master.mu
-|4,39,1,0,1575895418,"~/doc/src/master.mu"
--'  1  0  ~/doc/src/master.mu
-|4,39,1,0,1575895418,"~/doc/src/master.mu"
--'  1  0  ~/doc/src/master.mu
-|4,39,1,0,1575895418,"~/doc/src/master.mu"
--'  1  0  ~/doc/src/master.mu
-|4,39,1,0,1575895418,"~/doc/src/master.mu"
--'  1  0  ~/doc/src/master.mu
-|4,39,1,0,1575895418,"~/doc/src/master.mu"
--'  1  0  ~/doc/src/2019-2020/us_essay_dumb.mu
-|4,39,1,0,1575894881,"~/doc/src/2019-2020/us_essay_dumb.mu"
--'  1  0  ~/doc/src/2019-2020/us_essay_dumb.mu
-|4,39,1,0,1575894881,"~/doc/src/2019-2020/us_essay_dumb.mu"
--'  1  0  ~/doc/src/2019-2020/us_essay_dumb.mu
-|4,39,1,0,1575894881,"~/doc/src/2019-2020/us_essay_dumb.mu"
--'  1  0  ~/doc/src/2019-2020/us_essay_dumb.mu
-|4,39,1,0,1575894881,"~/doc/src/2019-2020/us_essay_dumb.mu"
--'  1  0  ~/doc/src/2019-2020/us_essay_dumb.mu
-|4,39,1,0,1575894881,"~/doc/src/2019-2020/us_essay_dumb.mu"
--'  1  0  ~/doc/src/2019-2020/us_essay_dumb.mu
-|4,39,1,0,1575894881,"~/doc/src/2019-2020/us_essay_dumb.mu"
--'  1  0  ~/doc/src/2019-2020/us_essay_dumb.mu
-|4,39,1,0,1575894881,"~/doc/src/2019-2020/us_essay_dumb.mu"
--'  1  0  ~/doc/src/2019-2020/us_essay_dumb.mu
-|4,39,1,0,1575894881,"~/doc/src/2019-2020/us_essay_dumb.mu"
--'  1  0  ~/doc/src/2019-2020/us_essay_dumb.mu
-|4,39,1,0,1575894881,"~/doc/src/2019-2020/us_essay_dumb.mu"
--'  1  0  ~/doc/src/2019-2020/us_essay_dumb.mu
-|4,39,1,0,1575894881,"~/doc/src/2019-2020/us_essay_dumb.mu"
--'  1  0  ~/doc/src/2019-2020/us_essay_dumb.mu
-|4,39,1,0,1575894881,"~/doc/src/2019-2020/us_essay_dumb.mu"
--'  1  0  ~/doc/src/2019-2020/us_essay_dumb.mu
-|4,39,1,0,1575894881,"~/doc/src/2019-2020/us_essay_dumb.mu"
--'  1  0  ~/doc/src/2019-2020/us_essay_dumb.mu
-|4,39,1,0,1575894881,"~/doc/src/2019-2020/us_essay_dumb.mu"
--'  1  0  ~/doc/src/2019-2020/us_essay_dumb.mu
-|4,39,1,0,1575894881,"~/doc/src/2019-2020/us_essay_dumb.mu"
--'  1  0  ~/doc/src/2019-2020/us_essay_dumb.mu
-|4,39,1,0,1575894881,"~/doc/src/2019-2020/us_essay_dumb.mu"
--'  1  0  ~/doc/src/2019-2020/us_essay_dumb.mu
-|4,39,1,0,1575894881,"~/doc/src/2019-2020/us_essay_dumb.mu"
--'  211  17  ~/.config/alacritty/alacritty.yml
-|4,39,211,17,1575844150,"~/.config/alacritty/alacritty.yml"
--'  211  17  ~/.config/alacritty/alacritty.yml
-|4,39,211,17,1575844150,"~/.config/alacritty/alacritty.yml"
--'  211  17  ~/.config/alacritty/alacritty.yml
-|4,39,211,17,1575844150,"~/.config/alacritty/alacritty.yml"
--'  211  17  ~/.config/alacritty/alacritty.yml
-|4,39,211,17,1575844150,"~/.config/alacritty/alacritty.yml"
--'  211  17  ~/.config/alacritty/alacritty.yml
-|4,39,211,17,1575844150,"~/.config/alacritty/alacritty.yml"
--'  211  17  ~/.config/alacritty/alacritty.yml
-|4,39,211,17,1575844150,"~/.config/alacritty/alacritty.yml"
--'  211  17  ~/.config/alacritty/alacritty.yml
-|4,39,211,17,1575844150,"~/.config/alacritty/alacritty.yml"
--'  211  17  ~/.config/alacritty/alacritty.yml
-|4,39,211,17,1575844150,"~/.config/alacritty/alacritty.yml"
--'  211  17  ~/.config/alacritty/alacritty.yml
-|4,39,211,17,1575844150,"~/.config/alacritty/alacritty.yml"
--'  211  17  ~/.config/alacritty/alacritty.yml
-|4,39,211,17,1575844150,"~/.config/alacritty/alacritty.yml"
--'  211  17  ~/.config/alacritty/alacritty.yml
-|4,39,211,17,1575844150,"~/.config/alacritty/alacritty.yml"
--'  211  17  ~/.config/alacritty/alacritty.yml
-|4,39,211,17,1575844150,"~/.config/alacritty/alacritty.yml"
--'  211  17  ~/.config/alacritty/alacritty.yml
-|4,39,211,17,1575844150,"~/.config/alacritty/alacritty.yml"
--'  211  17  ~/.config/alacritty/alacritty.yml
-|4,39,211,17,1575844150,"~/.config/alacritty/alacritty.yml"
--'  211  17  ~/.config/alacritty/alacritty.yml
-|4,39,211,17,1575844150,"~/.config/alacritty/alacritty.yml"
--'  211  17  ~/.config/alacritty/alacritty.yml
-|4,39,211,17,1575844150,"~/.config/alacritty/alacritty.yml"
--'  211  17  ~/.config/alacritty/alacritty.yml
-|4,39,211,17,1575844150,"~/.config/alacritty/alacritty.yml"
--'  211  17  ~/.config/alacritty/alacritty.yml
-|4,39,211,17,1575844150,"~/.config/alacritty/alacritty.yml"
--'  211  17  ~/.config/alacritty/alacritty.yml
-|4,39,211,17,1575844150,"~/.config/alacritty/alacritty.yml"
--'  211  17  ~/.config/alacritty/alacritty.yml
-|4,39,211,17,1575844150,"~/.config/alacritty/alacritty.yml"
--'  211  17  ~/.config/alacritty/alacritty.yml
-|4,39,211,17,1575844150,"~/.config/alacritty/alacritty.yml"
--'  211  17  ~/.config/alacritty/alacritty.yml
-|4,39,211,17,1575844150,"~/.config/alacritty/alacritty.yml"
--'  211  17  ~/.config/alacritty/alacritty.yml
-|4,39,211,17,1575844150,"~/.config/alacritty/alacritty.yml"
--'  211  17  ~/.config/alacritty/alacritty.yml
-|4,39,211,17,1575844150,"~/.config/alacritty/alacritty.yml"
--'  211  17  ~/.config/alacritty/alacritty.yml
-|4,39,211,17,1575844150,"~/.config/alacritty/alacritty.yml"
--'  211  17  ~/.config/alacritty/alacritty.yml
-|4,39,211,17,1575844150,"~/.config/alacritty/alacritty.yml"
--'  211  17  ~/.config/alacritty/alacritty.yml
-|4,39,211,17,1575844150,"~/.config/alacritty/alacritty.yml"
--'  211  17  ~/.config/alacritty/alacritty.yml
-|4,39,211,17,1575844150,"~/.config/alacritty/alacritty.yml"
--'  211  17  ~/.config/alacritty/alacritty.yml
-|4,39,211,17,1575844150,"~/.config/alacritty/alacritty.yml"
--'  211  17  ~/.config/alacritty/alacritty.yml
-|4,39,211,17,1575844150,"~/.config/alacritty/alacritty.yml"
--'  211  17  ~/.config/alacritty/alacritty.yml
-|4,39,211,17,1575844150,"~/.config/alacritty/alacritty.yml"
--'  211  17  ~/.config/alacritty/alacritty.yml
-|4,39,211,17,1575844150,"~/.config/alacritty/alacritty.yml"
--'  387  0  ~/.config/alacritty/alacritty.yml
-|4,39,387,0,1575844124,"~/.config/alacritty/alacritty.yml"
--'  387  0  ~/.config/alacritty/alacritty.yml
-|4,39,387,0,1575844124,"~/.config/alacritty/alacritty.yml"
--'  387  0  ~/.config/alacritty/alacritty.yml
-|4,39,387,0,1575844124,"~/.config/alacritty/alacritty.yml"
--'  387  0  ~/.config/alacritty/alacritty.yml
-|4,39,387,0,1575844124,"~/.config/alacritty/alacritty.yml"
--'  387  0  ~/.config/alacritty/alacritty.yml
-|4,39,387,0,1575844124,"~/.config/alacritty/alacritty.yml"
--'  387  0  ~/.config/alacritty/alacritty.yml
-|4,39,387,0,1575844124,"~/.config/alacritty/alacritty.yml"
--'  387  0  ~/.config/alacritty/alacritty.yml
-|4,39,387,0,1575844124,"~/.config/alacritty/alacritty.yml"
--'  387  0  ~/.config/alacritty/alacritty.yml
-|4,39,387,0,1575844124,"~/.config/alacritty/alacritty.yml"
--'  387  0  ~/.config/alacritty/alacritty.yml
-|4,39,387,0,1575844124,"~/.config/alacritty/alacritty.yml"
--'  387  0  ~/.config/alacritty/alacritty.yml
-|4,39,387,0,1575844124,"~/.config/alacritty/alacritty.yml"
--'  387  0  ~/.config/alacritty/alacritty.yml
-|4,39,387,0,1575844124,"~/.config/alacritty/alacritty.yml"
--'  387  0  ~/.config/alacritty/alacritty.yml
-|4,39,387,0,1575844124,"~/.config/alacritty/alacritty.yml"
--'  387  0  ~/.config/alacritty/alacritty.yml
-|4,39,387,0,1575844124,"~/.config/alacritty/alacritty.yml"
--'  387  0  ~/.config/alacritty/alacritty.yml
-|4,39,387,0,1575844124,"~/.config/alacritty/alacritty.yml"
--'  387  0  ~/.config/alacritty/alacritty.yml
-|4,39,387,0,1575844124,"~/.config/alacritty/alacritty.yml"
--'  387  0  ~/.config/alacritty/alacritty.yml
-|4,39,387,0,1575844124,"~/.config/alacritty/alacritty.yml"
--'  387  0  ~/.config/alacritty/alacritty.yml
-|4,39,387,0,1575844124,"~/.config/alacritty/alacritty.yml"
--'  387  0  ~/.config/alacritty/alacritty.yml
-|4,39,387,0,1575844124,"~/.config/alacritty/alacritty.yml"
--'  387  0  ~/.config/alacritty/alacritty.yml
-|4,39,387,0,1575844124,"~/.config/alacritty/alacritty.yml"
--'  387  0  ~/.config/alacritty/alacritty.yml
-|4,39,387,0,1575844124,"~/.config/alacritty/alacritty.yml"
--'  387  0  ~/.config/alacritty/alacritty.yml
-|4,39,387,0,1575844124,"~/.config/alacritty/alacritty.yml"
--'  387  0  ~/.config/alacritty/alacritty.yml
-|4,39,387,0,1575844124,"~/.config/alacritty/alacritty.yml"
--'  387  0  ~/.config/alacritty/alacritty.yml
-|4,39,387,0,1575844124,"~/.config/alacritty/alacritty.yml"
--'  387  0  ~/.config/alacritty/alacritty.yml
-|4,39,387,0,1575844124,"~/.config/alacritty/alacritty.yml"
--'  387  0  ~/.config/alacritty/alacritty.yml
-|4,39,387,0,1575844124,"~/.config/alacritty/alacritty.yml"
--'  387  0  ~/.config/alacritty/alacritty.yml
-|4,39,387,0,1575844124,"~/.config/alacritty/alacritty.yml"
--'  387  0  ~/.config/alacritty/alacritty.yml
-|4,39,387,0,1575844124,"~/.config/alacritty/alacritty.yml"
--'  387  0  ~/.config/alacritty/alacritty.yml
-|4,39,387,0,1575844124,"~/.config/alacritty/alacritty.yml"
--'  387  0  ~/.config/alacritty/alacritty.yml
-|4,39,387,0,1575844124,"~/.config/alacritty/alacritty.yml"
--'  387  0  ~/.config/alacritty/alacritty.yml
-|4,39,387,0,1575844124,"~/.config/alacritty/alacritty.yml"
+-'  14  0  ~/.gitignore
+|4,39,14,0,1575905320,"~/.gitignore"
+-'  1  0  ~/.gitignore
+|4,39,1,0,1575905313,"~/.gitignore"
+-'  1  0  ~/.config/dwm/config.
+|4,39,1,0,1575905271,"~/.config/dwm/config."
+-'  1  0  ~/.config/dwm/config.
+|4,39,1,0,1575905271,"~/.config/dwm/config."
+-'  1  0  ~/doc/rep/bob16795/markup/requirements.txt
+|4,39,1,0,1575905228,"~/doc/rep/bob16795/markup/requirements.txt"
+-'  1  0  ~/doc/rep/bob16795/markup/requirements.txt
+|4,39,1,0,1575905228,"~/doc/rep/bob16795/markup/requirements.txt"
+-'  1  0  ~/doc/rep/bob16795/markup/requirements.txt
+|4,39,1,0,1575905228,"~/doc/rep/bob16795/markup/requirements.txt"
+-'  1  0  ~/doc/rep/bob16795/markup/requirements.txt
+|4,39,1,0,1575905228,"~/doc/rep/bob16795/markup/requirements.txt"
+-'  9  41  ~/.config/mondo/generator/dwm/_mondo-template
+|4,39,9,41,1575905142,"~/.config/mondo/generator/dwm/_mondo-template"
+-'  9  41  ~/.config/mondo/generator/dwm/_mondo-template
+|4,39,9,41,1575905142,"~/.config/mondo/generator/dwm/_mondo-template"
+-'  9  41  ~/.config/mondo/generator/dwm/_mondo-template
+|4,39,9,41,1575905142,"~/.config/mondo/generator/dwm/_mondo-template"
+-'  9  41  ~/.config/mondo/generator/dwm/_mondo-template
+|4,39,9,41,1575905142,"~/.config/mondo/generator/dwm/_mondo-template"
+-'  9  41  ~/.config/mondo/generator/dwm/_mondo-template
+|4,39,9,41,1575905142,"~/.config/mondo/generator/dwm/_mondo-template"
+-'  9  41  ~/.config/mondo/generator/dwm/_mondo-template
+|4,39,9,41,1575905142,"~/.config/mondo/generator/dwm/_mondo-template"
+-'  9  41  ~/.config/mondo/generator/dwm/_mondo-template
+|4,39,9,41,1575905142,"~/.config/mondo/generator/dwm/_mondo-template"
+-'  9  41  ~/.config/mondo/generator/dwm/_mondo-template
+|4,39,9,41,1575905142,"~/.config/mondo/generator/dwm/_mondo-template"
+-'  1  0  ~/.config/mondo/generator/dwm/_mondo-template
+|4,39,1,0,1575905128,"~/.config/mondo/generator/dwm/_mondo-template"
+-'  1  0  ~/.config/mondo/generator/dwm/_mondo-template
+|4,39,1,0,1575905128,"~/.config/mondo/generator/dwm/_mondo-template"
+-'  1  0  ~/.config/mondo/generator/dwm/_mondo-template
+|4,39,1,0,1575905128,"~/.config/mondo/generator/dwm/_mondo-template"
+-'  1  0  ~/.config/mondo/generator/dwm/_mondo-template
+|4,39,1,0,1575905128,"~/.config/mondo/generator/dwm/_mondo-template"
+-'  1  0  ~/.config/mondo/generator/dwm/_mondo-template
+|4,39,1,0,1575905128,"~/.config/mondo/generator/dwm/_mondo-template"
+-'  1  0  ~/.config/mondo/generator/dwm/_mondo-template
+|4,39,1,0,1575905128,"~/.config/mondo/generator/dwm/_mondo-template"
+-'  1  0  ~/.config/mondo/generator/dwm/_mondo-template
+|4,39,1,0,1575905128,"~/.config/mondo/generator/dwm/_mondo-template"
+-'  1  0  ~/.config/mondo/generator/dwm/_mondo-template
+|4,39,1,0,1575905128,"~/.config/mondo/generator/dwm/_mondo-template"
+-'  2  13  ~/.config/mondo/themes/_default
+|4,39,2,13,1575905096,"~/.config/mondo/themes/_default"
+-'  2  13  ~/.config/mondo/themes/_default
+|4,39,2,13,1575905096,"~/.config/mondo/themes/_default"
+-'  2  13  ~/.config/mondo/themes/_default
+|4,39,2,13,1575905096,"~/.config/mondo/themes/_default"
+-'  2  13  ~/.config/mondo/themes/_default
+|4,39,2,13,1575905096,"~/.config/mondo/themes/_default"
+-'  2  13  ~/.config/mondo/themes/_default
+|4,39,2,13,1575905096,"~/.config/mondo/themes/_default"
+-'  2  13  ~/.config/mondo/themes/_default
+|4,39,2,13,1575905096,"~/.config/mondo/themes/_default"
+-'  2  13  ~/.config/mondo/themes/_default
+|4,39,2,13,1575905096,"~/.config/mondo/themes/_default"
+-'  2  13  ~/.config/mondo/themes/_default
+|4,39,2,13,1575905096,"~/.config/mondo/themes/_default"
+-'  2  13  ~/.config/mondo/themes/_default
+|4,39,2,13,1575905096,"~/.config/mondo/themes/_default"
+-'  2  13  ~/.config/mondo/themes/_default
+|4,39,2,13,1575905096,"~/.config/mondo/themes/_default"
+-'  2  13  ~/.config/mondo/themes/_default
+|4,39,2,13,1575905096,"~/.config/mondo/themes/_default"
+-'  2  13  ~/.config/mondo/themes/_default
+|4,39,2,13,1575905096,"~/.config/mondo/themes/_default"
+-'  2  13  ~/.config/mondo/themes/_default
+|4,39,2,13,1575905096,"~/.config/mondo/themes/_default"
+-'  2  13  ~/.config/mondo/themes/_default
+|4,39,2,13,1575905096,"~/.config/mondo/themes/_default"
+-'  2  13  ~/.config/mondo/themes/_default
+|4,39,2,13,1575905096,"~/.config/mondo/themes/_default"
+-'  2  13  ~/.config/mondo/themes/_default
+|4,39,2,13,1575905096,"~/.config/mondo/themes/_default"
+-'  3  0  ~/.config/mondo/themes/_default
+|4,39,3,0,1575905086,"~/.config/mondo/themes/_default"
+-'  3  0  ~/.config/mondo/themes/_default
+|4,39,3,0,1575905086,"~/.config/mondo/themes/_default"
+-'  3  0  ~/.config/mondo/themes/_default
+|4,39,3,0,1575905086,"~/.config/mondo/themes/_default"
+-'  3  0  ~/.config/mondo/themes/_default
+|4,39,3,0,1575905086,"~/.config/mondo/themes/_default"
+-'  3  0  ~/.config/mondo/themes/_default
+|4,39,3,0,1575905086,"~/.config/mondo/themes/_default"
+-'  3  0  ~/.config/mondo/themes/_default
+|4,39,3,0,1575905086,"~/.config/mondo/themes/_default"
+-'  3  0  ~/.config/mondo/themes/_default
+|4,39,3,0,1575905086,"~/.config/mondo/themes/_default"
+-'  3  0  ~/.config/mondo/themes/_default
+|4,39,3,0,1575905086,"~/.config/mondo/themes/_default"
+-'  3  0  ~/.config/mondo/themes/_default
+|4,39,3,0,1575905086,"~/.config/mondo/themes/_default"
+-'  3  0  ~/.config/mondo/themes/_default
+|4,39,3,0,1575905086,"~/.config/mondo/themes/_default"
+-'  3  0  ~/.config/mondo/themes/_default
+|4,39,3,0,1575905086,"~/.config/mondo/themes/_default"
+-'  3  0  ~/.config/mondo/themes/_default
+|4,39,3,0,1575905086,"~/.config/mondo/themes/_default"
+-'  3  0  ~/.config/mondo/themes/_default
+|4,39,3,0,1575905086,"~/.config/mondo/themes/_default"
+-'  3  0  ~/.config/mondo/themes/_default
+|4,39,3,0,1575905086,"~/.config/mondo/themes/_default"
+-'  3  0  ~/.config/mondo/themes/_default
+|4,39,3,0,1575905086,"~/.config/mondo/themes/_default"
+-'  3  0  ~/.config/mondo/themes/_default
+|4,39,3,0,1575905086,"~/.config/mondo/themes/_default"
+-'  2  0  ~/.config/mondo/themes/_default
+|4,39,2,0,1575905054,"~/.config/mondo/themes/_default"
+-'  2  0  ~/.config/mondo/themes/_default
+|4,39,2,0,1575905054,"~/.config/mondo/themes/_default"
+-'  2  0  ~/.config/mondo/themes/_default
+|4,39,2,0,1575905054,"~/.config/mondo/themes/_default"
+-'  2  0  ~/.config/mondo/themes/_default
+|4,39,2,0,1575905054,"~/.config/mondo/themes/_default"
+-'  2  0  ~/.config/mondo/themes/_default
+|4,39,2,0,1575905054,"~/.config/mondo/themes/_default"
+-'  2  0  ~/.config/mondo/themes/_default
+|4,39,2,0,1575905054,"~/.config/mondo/themes/_default"
+-'  2  0  ~/.config/mondo/themes/_default
+|4,39,2,0,1575905054,"~/.config/mondo/themes/_default"
+-'  2  0  ~/.config/mondo/themes/_default
+|4,39,2,0,1575905054,"~/.config/mondo/themes/_default"
+-'  2  0  ~/.config/mondo/themes/_default
+|4,39,2,0,1575905054,"~/.config/mondo/themes/_default"
+-'  2  0  ~/.config/mondo/themes/_default
+|4,39,2,0,1575905054,"~/.config/mondo/themes/_default"
+-'  2  0  ~/.config/mondo/themes/_default
+|4,39,2,0,1575905054,"~/.config/mondo/themes/_default"
+-'  2  0  ~/.config/mondo/themes/_default
+|4,39,2,0,1575905054,"~/.config/mondo/themes/_default"
+-'  2  0  ~/.config/mondo/themes/_default
+|4,39,2,0,1575905054,"~/.config/mondo/themes/_default"
+-'  2  0  ~/.config/mondo/themes/_default
+|4,39,2,0,1575905054,"~/.config/mondo/themes/_default"
+-'  2  0  ~/.config/mondo/themes/_default
+|4,39,2,0,1575905054,"~/.config/mondo/themes/_default"
+-'  2  0  ~/.config/mondo/themes/_default
+|4,39,2,0,1575905054,"~/.config/mondo/themes/_default"
+-'  1  0  ~/.config/mondo/themes/_default
+|4,39,1,0,1575905052,"~/.config/mondo/themes/_default"
+-'  1  0  ~/.config/mondo/themes/_default
+|4,39,1,0,1575905052,"~/.config/mondo/themes/_default"
+-'  1  0  ~/.config/mondo/themes/_default
+|4,39,1,0,1575905052,"~/.config/mondo/themes/_default"
+-'  1  0  ~/.config/mondo/themes/_default
+|4,39,1,0,1575905052,"~/.config/mondo/themes/_default"
+-'  1  0  ~/.config/mondo/themes/_default
+|4,39,1,0,1575905052,"~/.config/mondo/themes/_default"
+-'  1  0  ~/.config/mondo/themes/_default
+|4,39,1,0,1575905052,"~/.config/mondo/themes/_default"
+-'  1  0  ~/.config/mondo/themes/_default
+|4,39,1,0,1575905052,"~/.config/mondo/themes/_default"
+-'  1  0  ~/.config/mondo/themes/_default
+|4,39,1,0,1575905052,"~/.config/mondo/themes/_default"
+-'  1  0  ~/.config/mondo/themes/_default
+|4,39,1,0,1575905052,"~/.config/mondo/themes/_default"
+-'  1  0  ~/.config/mondo/themes/_default
+|4,39,1,0,1575905052,"~/.config/mondo/themes/_default"
+-'  1  0  ~/.config/mondo/themes/_default
+|4,39,1,0,1575905052,"~/.config/mondo/themes/_default"
+-'  1  0  ~/.config/mondo/themes/_default
+|4,39,1,0,1575905052,"~/.config/mondo/themes/_default"
+-'  1  0  ~/.config/mondo/themes/_default
+|4,39,1,0,1575905052,"~/.config/mondo/themes/_default"
+-'  1  0  ~/.config/mondo/themes/_default
+|4,39,1,0,1575905052,"~/.config/mondo/themes/_default"
+-'  1  0  ~/.config/mondo/themes/_default
+|4,39,1,0,1575905052,"~/.config/mondo/themes/_default"
+-'  1  0  ~/.config/mondo/themes/_default
+|4,39,1,0,1575905052,"~/.config/mondo/themes/_default"
+-'  1  0  ~/.config/mondo/themes/_default
+|4,39,1,0,1575905052,"~/.config/mondo/themes/_default"
+-'  1  0  ~/.config/mondo/themes/_default
+|4,39,1,0,1575905052,"~/.config/mondo/themes/_default"
+-'  1  0  ~/.config/mondo/themes/_default
+|4,39,1,0,1575905052,"~/.config/mondo/themes/_default"
+-'  1  0  ~/.config/mondo/themes/_default
+|4,39,1,0,1575905052,"~/.config/mondo/themes/_default"
+-'  1  0  ~/.config/mondo/themes/_default
+|4,39,1,0,1575905052,"~/.config/mondo/themes/_default"
+-'  1  0  ~/.config/mondo/themes/_default
+|4,39,1,0,1575905052,"~/.config/mondo/themes/_default"
+-'  1  0  ~/.config/mondo/themes/_default
+|4,39,1,0,1575905052,"~/.config/mondo/themes/_default"
+-'  1  0  ~/.config/mondo/themes/_default
+|4,39,1,0,1575905052,"~/.config/mondo/themes/_default"
+-'  1  0  ~/.config/mondo/themes/_default
+|4,39,1,0,1575905052,"~/.config/mondo/themes/_default"
+-'  1  0  ~/.config/mondo/themes/_default
+|4,39,1,0,1575905052,"~/.config/mondo/themes/_default"
+-'  1  0  ~/.config/mondo/themes/_default
+|4,39,1,0,1575905052,"~/.config/mondo/themes/_default"
+-'  1  0  ~/.config/mondo/themes/_default
+|4,39,1,0,1575905052,"~/.config/mondo/themes/_default"
 
 # History of marks within files (newest to oldest):
 
-> ~/scr/tools/filesort
-	*	1575896049	0
-	"	11	8
-	.	11	0
-	+	11	0
+> ~/.gitignore
+	*	1575905314	0
+	"	14	0
 
-> ~/scr/dwmcmds/bar
-	*	1575895812	0
-	"	4	29
-
-> ~/doc/src/master.mu
-	*	1575895754	0
-	"	21	0
-
-> ~/doc/src/2019-2020/us_essay_dumb.mu
-	*	1575894881	0
+> ~/.config/dwm/config.
+	*	1575905269	0
 	"	1	0
 
-> ~/.config/alacritty/alacritty.yml
-	*	1575844149	0
-	"	211	17
-
-> ~/.xinitrc
-	*	1575843855	0
-	"	12	0
-	^	23	11
-	.	12	0
-	+	21	31
-	+	25	14
-	+	20	0
-	+	9	0
-	+	14	0
-	+	13	9
-	+	21	31
-	+	22	0
-	+	23	10
-	+	24	0
-	+	16	0
-	+	12	0
+> ~/doc/rep/bob16795/markup/requirements.txt
+	*	1575905228	0
+	"	1	0
 
 > ~/.config/mondo/generator/dwm/_mondo-template
-	*	1575843661	0
-	"	40	33
-	^	40	34
-	.	40	33
-	+	90	41
-	+	43	5
-	+	134	68
-	+	8	24
-	+	8	0
-	+	2	104
-	+	4	0
-	+	2	44
-	+	6	0
-	+	2	0
-	+	3	28
-	+	2	41
-	+	3	40
-	+	9	29
-	+	3	40
-	+	3	0
-	+	40	33
+	*	1575905141	0
+	"	9	41
+	^	9	42
+	.	9	41
+	+	9	41
 
-> ~/cfg/youtube.txt
-	*	1575843468	0
-	"	17	1
+> ~/.config/mondo/themes/_default
+	*	1575905095	0
+	"	2	13
+	^	2	14
+	.	2	13
+	+	1	13
+	+	3	0
+	+	2	13
+
+> /usr/share/vim/vim81/doc/help.txt
+	*	1575905092	0
+	"	2	0
+
+> ~/.config/mondo/themes/deer02
+	*	1575905024	0
+	"	16	0
 	.	17	0
 	+	17	0
 
-> ~/cfg/gitignore
-	*	1575843462	0
-	"	1	0
-
-> ~/scr/progs.csv
-	*	1575843451	0
-	"	58	0
-	^	58	1
-	.	58	0
-=======
-|3,0,6,1,1,0,1575828430,""
-"7	LINE	0
-	home = 
-|3,0,7,1,1,0,1575828429,"home = "
-"8	LINE	0
-	home = expanduser("~")
-|3,0,8,1,1,0,1575828390,"home = expanduser(\"~\")"
-"9	CHAR	0
-	
-	sudo -i $name unlink -s /home/$name/scr/
-|3,0,9,0,2,0,1575828216,"","sudo -i $name unlink -s /home/$name/scr/"
-"-	CHAR	0
-	c
-|3,0,36,0,1,0,1575828781,"c"
-
-# File marks:
-'0  1  0  ~/scr/updates/1
-|4,48,1,0,1575828998,"~/scr/updates/1"
-'1  93  38  ~/scr/tools/filesort
-|4,49,93,38,1575828953,"~/scr/tools/filesort"
-'2  92  61  ~/scr/tools/filesort
-|4,50,92,61,1575828926,"~/scr/tools/filesort"
-'3  92  61  ~/scr/tools/filesort
-|4,51,92,61,1575828926,"~/scr/tools/filesort"
-'4  94  24  ~/scr/tools/filesort
-|4,52,94,24,1575828907,"~/scr/tools/filesort"
-'5  94  24  ~/scr/tools/filesort
-|4,53,94,24,1575828907,"~/scr/tools/filesort"
-'6  93  24  ~/scr/tools/filesort
-|4,54,93,24,1575828907,"~/scr/tools/filesort"
-'7  93  24  ~/scr/tools/filesort
-|4,55,93,24,1575828907,"~/scr/tools/filesort"
-'8  92  92  ~/scr/tools/filesort
-|4,56,92,92,1575828902,"~/scr/tools/filesort"
-'9  92  92  ~/scr/tools/filesort
-|4,57,92,92,1575828902,"~/scr/tools/filesort"
-
-# Jumplist (newest first):
--'  1  0  ~/scr/updates/1
-|4,39,1,0,1575828998,"~/scr/updates/1"
--'  93  38  ~/scr/tools/filesort
-|4,39,93,38,1575828953,"~/scr/tools/filesort"
--'  93  38  ~/scr/tools/filesort
-|4,39,93,38,1575828953,"~/scr/tools/filesort"
--'  92  61  ~/scr/tools/filesort
-|4,39,92,61,1575828928,"~/scr/tools/filesort"
--'  92  61  ~/scr/tools/filesort
-|4,39,92,61,1575828928,"~/scr/tools/filesort"
--'  92  61  ~/scr/tools/filesort
-|4,39,92,61,1575828926,"~/scr/tools/filesort"
--'  92  61  ~/scr/tools/filesort
-|4,39,92,61,1575828926,"~/scr/tools/filesort"
--'  94  24  ~/scr/tools/filesort
-|4,39,94,24,1575828911,"~/scr/tools/filesort"
--'  93  24  ~/scr/tools/filesort
-|4,39,93,24,1575828911,"~/scr/tools/filesort"
--'  94  24  ~/scr/tools/filesort
-|4,39,94,24,1575828911,"~/scr/tools/filesort"
--'  93  24  ~/scr/tools/filesort
-|4,39,93,24,1575828911,"~/scr/tools/filesort"
--'  93  24  ~/scr/tools/filesort
-|4,39,93,24,1575828907,"~/scr/tools/filesort"
--'  93  24  ~/scr/tools/filesort
-|4,39,93,24,1575828907,"~/scr/tools/filesort"
--'  92  92  ~/scr/tools/filesort
-|4,39,92,92,1575828903,"~/scr/tools/filesort"
--'  92  92  ~/scr/tools/filesort
-|4,39,92,92,1575828903,"~/scr/tools/filesort"
--'  92  92  ~/scr/tools/filesort
-|4,39,92,92,1575828902,"~/scr/tools/filesort"
--'  92  92  ~/scr/tools/filesort
-|4,39,92,92,1575828902,"~/scr/tools/filesort"
--'  98  24  ~/scr/tools/filesort
-|4,39,98,24,1575828848,"~/scr/tools/filesort"
--'  99  24  ~/scr/tools/filesort
-|4,39,99,24,1575828848,"~/scr/tools/filesort"
--'  97  24  ~/scr/tools/filesort
-|4,39,97,24,1575828848,"~/scr/tools/filesort"
--'  98  24  ~/scr/tools/filesort
-|4,39,98,24,1575828848,"~/scr/tools/filesort"
--'  97  24  ~/scr/tools/filesort
-|4,39,97,24,1575828848,"~/scr/tools/filesort"
--'  98  24  ~/scr/tools/filesort
-|4,39,98,24,1575828848,"~/scr/tools/filesort"
--'  98  24  ~/scr/tools/filesort
-|4,39,98,24,1575828848,"~/scr/tools/filesort"
--'  99  24  ~/scr/tools/filesort
-|4,39,99,24,1575828848,"~/scr/tools/filesort"
--'  97  24  ~/scr/tools/filesort
-|4,39,97,24,1575828848,"~/scr/tools/filesort"
--'  98  24  ~/scr/tools/filesort
-|4,39,98,24,1575828848,"~/scr/tools/filesort"
--'  97  24  ~/scr/tools/filesort
-|4,39,97,24,1575828848,"~/scr/tools/filesort"
--'  98  24  ~/scr/tools/filesort
-|4,39,98,24,1575828848,"~/scr/tools/filesort"
--'  96  24  ~/scr/tools/filesort
-|4,39,96,24,1575828828,"~/scr/tools/filesort"
--'  97  24  ~/scr/tools/filesort
-|4,39,97,24,1575828828,"~/scr/tools/filesort"
--'  95  24  ~/scr/tools/filesort
-|4,39,95,24,1575828828,"~/scr/tools/filesort"
--'  96  24  ~/scr/tools/filesort
-|4,39,96,24,1575828828,"~/scr/tools/filesort"
--'  95  24  ~/scr/tools/filesort
-|4,39,95,24,1575828828,"~/scr/tools/filesort"
--'  96  24  ~/scr/tools/filesort
-|4,39,96,24,1575828828,"~/scr/tools/filesort"
--'  96  24  ~/scr/tools/filesort
-|4,39,96,24,1575828828,"~/scr/tools/filesort"
--'  97  24  ~/scr/tools/filesort
-|4,39,97,24,1575828828,"~/scr/tools/filesort"
--'  95  24  ~/scr/tools/filesort
-|4,39,95,24,1575828828,"~/scr/tools/filesort"
--'  96  24  ~/scr/tools/filesort
-|4,39,96,24,1575828828,"~/scr/tools/filesort"
--'  95  24  ~/scr/tools/filesort
-|4,39,95,24,1575828828,"~/scr/tools/filesort"
--'  96  24  ~/scr/tools/filesort
-|4,39,96,24,1575828828,"~/scr/tools/filesort"
--'  96  24  ~/scr/tools/filesort
-|4,39,96,24,1575828814,"~/scr/tools/filesort"
--'  96  24  ~/scr/tools/filesort
-|4,39,96,24,1575828814,"~/scr/tools/filesort"
--'  95  24  ~/scr/tools/filesort
-|4,39,95,24,1575828804,"~/scr/tools/filesort"
--'  94  24  ~/scr/tools/filesort
-|4,39,94,24,1575828804,"~/scr/tools/filesort"
--'  96  24  ~/scr/tools/filesort
-|4,39,96,24,1575828804,"~/scr/tools/filesort"
--'  94  24  ~/scr/tools/filesort
-|4,39,94,24,1575828804,"~/scr/tools/filesort"
--'  94  24  ~/scr/tools/filesort
-|4,39,94,24,1575828804,"~/scr/tools/filesort"
--'  95  24  ~/scr/tools/filesort
-|4,39,95,24,1575828804,"~/scr/tools/filesort"
--'  94  24  ~/scr/tools/filesort
-|4,39,94,24,1575828804,"~/scr/tools/filesort"
--'  96  24  ~/scr/tools/filesort
-|4,39,96,24,1575828804,"~/scr/tools/filesort"
--'  94  24  ~/scr/tools/filesort
-|4,39,94,24,1575828804,"~/scr/tools/filesort"
--'  94  24  ~/scr/tools/filesort
-|4,39,94,24,1575828804,"~/scr/tools/filesort"
--'  94  24  ~/scr/tools/filesort
-|4,39,94,24,1575828802,"~/scr/tools/filesort"
--'  94  24  ~/scr/tools/filesort
-|4,39,94,24,1575828802,"~/scr/tools/filesort"
--'  96  73  ~/scr/tools/filesort
-|4,39,96,73,1575828796,"~/scr/tools/filesort"
--'  96  73  ~/scr/tools/filesort
-|4,39,96,73,1575828796,"~/scr/tools/filesort"
--'  96  73  ~/scr/tools/filesort
-|4,39,96,73,1575828790,"~/scr/tools/filesort"
--'  96  73  ~/scr/tools/filesort
-|4,39,96,73,1575828790,"~/scr/tools/filesort"
--'  96  29  ~/scr/tools/filesort
-|4,39,96,29,1575828782,"~/scr/tools/filesort"
--'  94  29  ~/scr/tools/filesort
-|4,39,94,29,1575828782,"~/scr/tools/filesort"
--'  97  29  ~/scr/tools/filesort
-|4,39,97,29,1575828782,"~/scr/tools/filesort"
--'  95  29  ~/scr/tools/filesort
-|4,39,95,29,1575828782,"~/scr/tools/filesort"
--'  95  29  ~/scr/tools/filesort
-|4,39,95,29,1575828782,"~/scr/tools/filesort"
--'  95  29  ~/scr/tools/filesort
-|4,39,95,29,1575828782,"~/scr/tools/filesort"
--'  95  29  ~/scr/tools/filesort
-|4,39,95,29,1575828782,"~/scr/tools/filesort"
--'  96  29  ~/scr/tools/filesort
-|4,39,96,29,1575828782,"~/scr/tools/filesort"
--'  94  29  ~/scr/tools/filesort
-|4,39,94,29,1575828782,"~/scr/tools/filesort"
--'  97  29  ~/scr/tools/filesort
-|4,39,97,29,1575828782,"~/scr/tools/filesort"
--'  95  29  ~/scr/tools/filesort
-|4,39,95,29,1575828782,"~/scr/tools/filesort"
--'  95  29  ~/scr/tools/filesort
-|4,39,95,29,1575828782,"~/scr/tools/filesort"
--'  95  29  ~/scr/tools/filesort
-|4,39,95,29,1575828782,"~/scr/tools/filesort"
--'  95  29  ~/scr/tools/filesort
-|4,39,95,29,1575828782,"~/scr/tools/filesort"
--'  95  122  ~/scr/tools/filesort
-|4,39,95,122,1575828753,"~/scr/tools/filesort"
--'  93  122  ~/scr/tools/filesort
-|4,39,93,122,1575828753,"~/scr/tools/filesort"
--'  93  122  ~/scr/tools/filesort
-|4,39,93,122,1575828753,"~/scr/tools/filesort"
--'  93  122  ~/scr/tools/filesort
-|4,39,93,122,1575828753,"~/scr/tools/filesort"
--'  93  122  ~/scr/tools/filesort
-|4,39,93,122,1575828753,"~/scr/tools/filesort"
--'  95  122  ~/scr/tools/filesort
-|4,39,95,122,1575828753,"~/scr/tools/filesort"
--'  93  122  ~/scr/tools/filesort
-|4,39,93,122,1575828753,"~/scr/tools/filesort"
--'  93  122  ~/scr/tools/filesort
-|4,39,93,122,1575828753,"~/scr/tools/filesort"
--'  93  122  ~/scr/tools/filesort
-|4,39,93,122,1575828753,"~/scr/tools/filesort"
--'  93  122  ~/scr/tools/filesort
-|4,39,93,122,1575828753,"~/scr/tools/filesort"
--'  93  122  ~/scr/tools/filesort
-|4,39,93,122,1575828739,"~/scr/tools/filesort"
--'  93  122  ~/scr/tools/filesort
-|4,39,93,122,1575828739,"~/scr/tools/filesort"
--'  93  96  ~/scr/tools/filesort
-|4,39,93,96,1575828724,"~/scr/tools/filesort"
--'  93  96  ~/scr/tools/filesort
-|4,39,93,96,1575828724,"~/scr/tools/filesort"
--'  88  48  ~/scr/tools/filesort
-|4,39,88,48,1575828684,"~/scr/tools/filesort"
--'  88  48  ~/scr/tools/filesort
-|4,39,88,48,1575828684,"~/scr/tools/filesort"
--'  88  48  ~/scr/tools/filesort
-|4,39,88,48,1575828684,"~/scr/tools/filesort"
--'  88  48  ~/scr/tools/filesort
-|4,39,88,48,1575828684,"~/scr/tools/filesort"
--'  88  48  ~/scr/tools/filesort
-|4,39,88,48,1575828684,"~/scr/tools/filesort"
--'  88  48  ~/scr/tools/filesort
-|4,39,88,48,1575828684,"~/scr/tools/filesort"
--'  88  48  ~/scr/tools/filesort
-|4,39,88,48,1575828684,"~/scr/tools/filesort"
--'  88  48  ~/scr/tools/filesort
-|4,39,88,48,1575828684,"~/scr/tools/filesort"
--'  88  48  ~/scr/tools/filesort
-|4,39,88,48,1575828684,"~/scr/tools/filesort"
--'  88  48  ~/scr/tools/filesort
-|4,39,88,48,1575828684,"~/scr/tools/filesort"
--'  88  48  ~/scr/tools/filesort
-|4,39,88,48,1575828684,"~/scr/tools/filesort"
--'  88  48  ~/scr/tools/filesort
-|4,39,88,48,1575828684,"~/scr/tools/filesort"
--'  88  48  ~/scr/tools/filesort
-|4,39,88,48,1575828684,"~/scr/tools/filesort"
-
-# History of marks within files (newest to oldest):
-
-> ~/scr/updates/1
-	*	1575828997	0
-	"	1	0
-
-> ~/scr/tools/filesort
-	*	1575828952	0
-	"	93	38
-	^	93	39
-	.	93	38
-	+	12	0
-	+	6	0
-	+	13	6
-	+	79	20
-	+	13	0
-	+	9	15
-	+	87	45
-	+	79	19
-	+	87	0
-	+	88	0
-	+	86	33
-	+	88	19
-	+	89	19
-	+	81	31
-	+	88	48
-	+	95	39
-	+	96	0
-	+	95	133
-	+	95	0
-	+	95	122
-	+	99	0
-	+	98	40
-	+	97	0
-	+	98	40
-	+	99	0
-	+	95	0
-	+	92	93
-	+	94	0
-	+	92	60
-	+	93	38
-
-> ~/scr/parbs.sh
-	*	1575828283	0
-	"	271	4
-	^	261	1
-	.	261	0
-	+	247	71
-	+	252	8
-	+	247	71
-	+	251	0
-	+	250	12
-	+	195	0
-	+	22	79
-	+	23	87
-	+	223	0
-	+	222	12
-	+	247	0
-	+	248	0
-	+	247	0
-	+	247	42
-	+	193	45
-	+	263	0
-	+	258	0
-	+	262	0
-	+	258	87
-	+	258	150
-	+	258	19
-	+	258	131
-	+	262	0
-	+	258	48
-	+	260	0
-	+	259	0
-	+	249	0
-	+	250	2
-	+	249	1
-	+	250	2
-	+	261	0
-	n	15	31
-
-> ~/scr/chroot.sh
-	*	1575822097	0
-	"	16	41
-	^	16	42
-	.	16	41
-	+	19	69
-	+	16	41
-	n	16	88
-
-> ~/scr/install.sh
-	*	1575822083	0
-	"	66	0
-	^	66	57
-	.	66	56
-	+	66	56
-
-> ~/scr/p
-	*	1575822008	0
-	"	1	0
-
-> ~/.config/compton.conf
-	*	1575821887	0
-	"	6	0
-	^	5	56
-	.	4	0
-	+	5	0
-	+	6	0
-	+	5	55
-	+	3	0
-	+	2	0
-	+	4	0
-
-> ~/scr/progs.csv
-	*	1575821641	0
-	"	68	15
-	^	68	15
-	.	68	14
->>>>>>> c0bb0dce74df38b6703dcc20593028ca171a5cb0
-	+	66	25
-	+	53	0
-	+	58	4
-	+	67	0
-	+	65	13
-	+	66	6
-<<<<<<< HEAD
-	+	58	0
-
-> ~/.config/user-dirs.dirs
-	*	1575831295	0
-	"	1	0
-
-> ~/.config/mondo/themes/.git/COMMIT_EDITMSG
-	*	1575822260	0
-	"	1	24
-	^	1	25
-	.	1	24
-	+	1	24
-
-> ~/scr/tools/in
-	*	1575821489	0
-	"	1	0
-
-> ~/.git/COMMIT_EDITMSG
-	*	1575818875	0
-	"	1	1
-	^	1	2
-	.	1	1
-	+	2	0
-	+	1	1
-=======
-	+	67	1
-	+	68	14
->>>>>>> c0bb0dce74df38b6703dcc20593028ca171a5cb0
-
-> ~/.gitignore
-	*	1575818812	0
-	"	106	8
-	^	106	9
-	.	106	9
-	+	91	3
-	+	92	5
-	+	93	0
-	+	93	2
-	+	93	9
-	+	94	10
-	+	95	3
-	+	93	3
-	+	18	2
-	+	95	0
-	+	93	0
-	+	19	5
-	+	96	12
-	+	98	13
-	+	99	19
-	+	100	9
-	+	101	7
-	+	102	8
-	+	103	10
-	+	104	3
-	+	105	13
-	+	106	9
-
-> ~/doc/vms/init.sh
-	*	1575818201	0
-	"	1	39
-	^	1	40
-	.	1	39
-	+	1	109
-	+	2	0
-	+	1	39
-
-> ~/.config/mondo/generator/jgmenu/_mondo-template
-	*	1575817874	0
-	"	35	0
-	^	22	25
-	.	22	24
-	+	31	0
-	+	24	22
-	+	31	22
-	+	34	23
-	+	22	23
-	+	34	23
-	+	22	24
-
-> ~/doc/rep/heroku/bobject/markup/parser.py
-	*	1575817623	0
-	"	2	0
-
-> ~/doc/rep/heroku/bobject/src/home.mu
-	*	1575817568	0
-	"	11	0
-
-> ~/doc/rep/heroku/bobject/src/h
-	*	1575817465	0
-	"	1	0
-
-> ~/doc/rep/heroku/bobject/hello.py
-	*	1575817451	0
-	"	33	21
-	^	33	22
-
-> ~/snd/youtube.txt
-	*	1575817172	0
-	"	2	75
-	^	2	76
-	.	2	75
-	+	1	78
-	+	2	75
-
-> ~/snd/archive
-	*	1575817115	0
-	"	1	0
-
-> ~/.config/jgmenu/prepend.csv
-	*	1575817024	0
-	"	4	28
-	^	1	58
-	.	1	58
-	+	5	0
-	+	4	0
-	+	1	0
-	+	1	58
-
-> ~/.config/jgmenu/append.csv
-	*	1575816988	0
-	"	9	8
-	.	10	0
-	+	9	0
-	+	10	0
-
-> ~/.config/jgmenu/jgmenurc
-	*	1575816946	0
-	"	34	23
-	^	34	24
-	.	34	24
-	+	13	0
-	+	43	23
-	+	31	0
-	+	24	0
-	+	17	23
-	+	18	0
-	+	34	24
-
-> ~/.config/rofi/config
-	*	1575816692	0
-	"	1	0
-
-> ~/.config/dwm/config.h
-	*	1575816366	0
-	"	49	19
-	^	116	67
-	.	116	67
-	+	46	11
-	+	44	0
-	+	43	11
-	+	8	48
-	+	2	47
-	+	9	33
-	+	2	0
-	+	5	0
-	+	1	16
-	+	2	42
-	+	2	0
-	+	2	104
-	+	3	0
-	+	2	40
-	+	3	37
-	+	5	0
-	+	17	37
-	+	3	0
-	+	3	28
-	+	4	0
-	+	3	28
-	+	116	67
-
-> ~/.config/dwm/config.
-	*	1575816355	0
-	"	1	0
-
-> ~/.bashrc
-	*	1575814412	0
-	"	25	0
-	.	22	0
-	+	13	0
-	+	16	2
+> ~/.config/mondo/themes/deer01
+	*	1575905019	0
+	"	16	0
+	.	17	0
 	+	17	0
-	+	22	0
-	+	20	12
-	+	21	0
-	+	22	0
 
-> ~/.profile
-	*	1575814402	0
-	"	27	0
+> ~/.config/mondo/themes/comfy01
+	*	1575905016	0
+	"	16	0
+	.	17	0
+	+	17	0
 
-> ~/scr/tools/mondosel
-	*	1575814300	0
-	"	2	47
-	^	2	48
-	.	2	47
-	+	2	6
-	+	3	15
-	+	4	7
-	+	2	47
-
-> ~/.config/dwm/dwm.c
-	*	1575814215	0
-	"	891	56
-	^	880	62
-	.	880	61
-	+	170	65
-	+	217	37
-	+	436	21
-	+	442	74
-	+	455	35
-	+	455	0
-	+	457	0
-	+	464	0
-	+	463	58
-	+	476	0
-	+	475	51
-	+	466	1
-	+	467	0
-	+	468	0
-	+	469	0
-	+	471	0
-	+	470	0
-	+	472	0
-	+	473	0
-	+	474	0
-	+	476	0
-	+	475	0
-	+	783	0
-	+	782	0
-	+	783	34
-	+	783	0
-	+	786	0
-	+	786	21
-	+	457	21
-	+	463	41
-	+	466	66
-	+	786	20
-	+	800	0
-	+	799	20
-	+	801	1
-	+	909	1
-	+	869	0
-	+	866	0
-	+	867	4
-	+	1825	1
-	+	1825	0
-	+	888	0
-	+	890	77
-	+	896	82
-	+	880	0
-	+	888	0
-	+	880	61
-
-> ~/scr/settings/mondoreload
-	*	1575813973	0
-	"	2	8
-	^	2	9
-	.	2	8
-	+	1	0
-	+	2	0
-	+	2	8
-
-> ~/.config/dwm.c
-	*	1575813842	0
-	"	1	0
-
-> ~/.config/dwm/.git/COMMIT_EDITMSG
-	*	1575756932	0
-	"	1	12
-	^	1	13
-	.	1	12
-	+	1	12
-
-<<<<<<< HEAD
-> ~/scr/parbs.sh
-	*	1575756711	0
-	"	102	12
-	^	203	40
-	.	221	12
-	+	246	71
-	+	250	8
-	+	246	71
-	+	249	0
-	+	248	12
-	+	194	0
-	+	22	79
-	+	23	87
-	+	222	0
-	+	221	12
-=======
-> ~/.git/COMMIT_EDITMSG
-	*	1575738714	0
-	"	253	0
->>>>>>> c0bb0dce74df38b6703dcc20593028ca171a5cb0
-
-> ~/.screen.sh
-	*	1575728507	0
-	"	1	0
-
-> ~/.screen
-	*	1575728504	0
-	"	1	0
-
-> ~/.config/mondo/generator/dwm/_mondo-settings
-	*	1575727998	0
-	"	22	30
-
-> ~/.Xre
-	*	1575677447	0
-	"	1	0
-
-> ~/.config/mondo/generator/alacritty/_mondo-template
-	*	1575677062	0
-	"	127	0
-	.	127	0
-	+	55	0
-	+	290	0
-	+	127	0
-
-> ~/.config/mondo/generator/alacritty/comfy01
-	*	1575677027	0
-	"	1	0
-
-> ~/.bash
-	*	1575676846	0
-	"	1	0
-
-> ~/.config/mondo/generator/dwm/_mondo-apply
-	*	1550763267	0
-	"	22	4
-	^	22	5
-	.	22	4
-	+	22	4
-
-> ~/.config/mondo/generator/dwm/_mondo-generate
-	*	1550763249	0
-	"	2	0
-
-> ~/.config/mondo/post-apply
-	*	1550763225	0
-	"	19	0
-	^	18	1
+> ~/.config/mondo/themes/cfamfi
+	*	1575905012	0
+	"	17	0
 	.	18	0
 	+	18	0
 
-> ~/.config/mondo/pre-apply
-	*	1550763204	0
-	"	2	0
-	.	1	0
-	+	1	0
+> ~/.config/mondo/themes/bird01
+	*	1575905009	0
+	"	16	0
+	.	17	0
+	+	17	0
 
-> ~/scr/settings/settings
-	*	1550763189	0
-	"	77	8
-	.	78	0
-	+	78	0
+> ~/.config/mondo/themes/Antepenultimata
+	*	1575905006	0
+	"	16	0
+	.	17	0
+	+	17	0
 
-> ~/scr/settings/vimfiler:default
-	*	1550763172	0
-	"	2	0
-	.	3	0
-	+	3	0
+> /home/parbs.sh
+	*	1575904996	0
+	"	1	0
 
-> ~/README.md
-	*	1550763157	0
-	"	35	19
-	^	35	20
-	.	36	0
-	+	36	0
+> ~/.config/mondo/themes/solarized-dark02
+	*	1575904981	0
+	"	16	14
+	^	16	15
+	.	16	14
+	+	16	15
+	+	15	15
+	+	16	14

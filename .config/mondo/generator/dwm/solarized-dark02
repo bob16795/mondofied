@@ -1,5 +1,5 @@
 /* appearance */
-static const unsigned int drawtagmask = 0; 
+static const unsigned int drawtagmask = 1; 
 static const int tagrows              = 2;        
 static const unsigned int gappx       = 9;        /* gapps */
 static const unsigned int borderpx    = 0;        /* border pixel of windows */
@@ -14,7 +14,7 @@ static const char col_gray2[]         = "#268bd2";
 static const char col_gray3[]         = "#839496";
 static const char col_gray4[]         = "#b58900";
 static const char col_cyan[]          = "#859900";
-static const unsigned int baralpha    = 0x80;
+static const unsigned int baralpha    = 0xff;
 static const unsigned int borderalpha = OPAQUE;
 
 static const char *colors[][3]      = {
@@ -37,7 +37,7 @@ static const Rule rules[] = {
 	 *	WM_NAME(STRING) = title
 	 */
 	/* class         instance    title         tags mask     isfloating   monitor */
-	{ "Spotify",     NULL,       NULL,         1 << 6,       1,          -1 },
+	{ "spotify",     NULL,       NULL,         1 << 6,       1,          -1 },
 	{ NULL,          NULL,       "tk",         NULL,         1,          -1 },
     { "Steam",       NULL,       NULL,         1 << 7,       1,          -1 },
     { "discord",     NULL,       NULL,         1 << 7,       0,          -1 },
