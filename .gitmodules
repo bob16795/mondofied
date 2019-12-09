@@ -1,0 +1,15 @@
+[submodule ".config/dwm"]
+	url = http://github.com/bob17896/dwm
+	path = .config/dwm
+[submodule ".config/mondo/themes"]
+	path = .config/mondo/themes
+	url = http://github.com/bob17896/mondofied-themes
+[submodule ".mozilla/firefox"]
+	path = .mozilla/firefox
+	url = http://github.com/lukesmithxyz/mozillarbs
+[submodule "scientifica"]
+	path = scientifica
+	url = http://github.com/nerdypepper/scientifica
+[submodule "fon/scientifica"]
+	path = fon/scientifica
+	url = http://github.com/nerdypepper/scientifica
