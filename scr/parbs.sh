@@ -190,6 +190,7 @@ installationloop
 
 # Install the dotfiles in the user's home directory
 putgitrepo "$dotfilesrepo" "/home/$name"
+putgitrepo "http://github.com/bob16795/mondofied-themes" "/home/$name/.config/mondo/themes"
 
 # Pulseaudio, if/when initially installed, often needs a restart to work immediately.
 [ -f /usr/bin/pulseaudio ] && resetpulse
@@ -212,13 +213,6 @@ sudo -u $name ln -s -f .tmux/.tmux.conf
 #copy rofi theme
 cp /home/$name/.config/rofi/bmenu.rasi /usr/share/rofi/> /dev/null
 
-#setup themes
-dialog --infobox "Installing themes this will take a while..." 4 50
-gem install sass
-export PATH = $PATH:/root/.gem/ruby/2.5.0/bin
-sudo -u "$name" git clone https://github.com/Ferdi265/numix-solarized-gtk-theme /home/$name/thm/numix-solarized-gtk-theme > /dev/null
-mkdir ~/.config/mondo/themes/
-mondo -fg all
 
 # Enable services here.
 serviceinit NetworkManager cronie
@@ -230,6 +224,7 @@ systembeepoff
 dialog --infobox "Installing fonts..." 4 50
 cd /etc/fonts/conf.d/> /dev/null
 sudo rm /etc/fonts/conf.d/10* && sudo rm -rf 70-no-bitmaps.conf && sudo ln -s ../conf.avail/70-yes-bitmaps.conf> /dev/null
+
 #scientifica
 sudo -u "$name" git clone https://github.com/NerdyPepper/scientifica /home/$name/fon/scientifica> /dev/null
 ln -fs /home/$name/fon/scientifica/regular/scientifica-11.bdf /usr/share/fonts/scientifica-11.bdf > /dev/null
@@ -238,16 +233,35 @@ fc-cache -fv > /dev/null
 
 # This line, overwriting the `newperms` command above will allow the user to run
 # serveral important commands, `shutdown`, `reboot`, updating, etc. without a password.
-newperms "%wheel ALL=(ALL) ALL\\n%wheel ALL=(ALL) NOPASSWD: /usr/bin/shutdown,/usr/bin/reboot,/usr/bin/systemctl suspend,/usr/bin/wifi-menu,/usr/bin/mount,/usr/bin/umount,/usr/bin/pacman -Syu,/usr/bin/pacman -Syyu,/usr/bin/packer -Syu,/usr/bin/packer -Syyu,/usr/bin/systemctl restart NetworkManager,/usr/bin/rc-service NetworkManager restart,/usr/bin/pacman -Syyu --noconfirm,/usr/bin/loadkeys,/usr/bin/yay,/usr/bin/pacman -Syyuw --noconfirm"
+newperms "%wheel ALL=(ALL) ALL\\n%wheel ALL=(ALL) NOPASSWD: /usr/bin/make,/usr/bin/shutdown,/usr/bin/reboot,/usr/bin/systemctl suspend,/usr/bin/wifi-menu,/usr/bin/mount,/usr/bin/umount,/usr/bin/pacman -Syu,/usr/bin/pacman -Syyu,/usr/bin/packer -Syu,/usr/bin/packer -Syyu,/usr/bin/systemctl restart NetworkManager,/usr/bin/rc-service NetworkManager restart,/usr/bin/pacman -Syyu --noconfirm,/usr/bin/loadkeys,/usr/bin/yay,/usr/bin/pacman -Syyuw --noconfirm"
 
 # Make pacman and yay colorful because why not.
 sed -i "s/^#Color/Color/g" /etc/pacman.conf
 
-sudo -u "$name" mkdir ~/doc/src ~/doc/arc ~/dsk ~/pix ~/snd ~/dwn ~/vid
+sudo -u "$name" mkdir \
+  /home/$name/doc \
+  /home/$name/doc/src \
+  /home/$name/doc/arc \
+  /home/$name/dsk \
+  /home/$name/pix \
+  /home/$name/snd \
+  /home/$name/dwn \
+  /home/$name/vid
 
-sudo -u "john"
+sudo -u $name unlink -s \
+	/home/$name/cfg/config \
+	/home/$name/cfg/scripts \
+	/home/$name/thm/mondo
+
+sudo -u $name ln -s /home/$name/.config/ /home/$name/cfg/config
+sudo -u $name ln -s /home/$name/scr/ /home/$name/cfg/scripts
+sudo -u $name ln -s /home/$name/.config/mondo/themes/ /home/$name/thm/mondo
 
 chmod -R $name /home/$name
+
+sudo -u $name mondo -fg all
+
+pacman -U https://archive.org/download/archlinux_pkg_pango/pango-1.43.0-1-x86_64.pkg.tar.xz 
 
 # Last update! then Install complete!
 finalize
