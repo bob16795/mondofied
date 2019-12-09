@@ -9,19 +9,11 @@ def check(j):
         return types.get(j.decode("utf-8").split('.')[-1], None)
     else:
         return types[None].get(j.decode("utf-8").split('/')[-1], None)
-<<<<<<< HEAD
-paths = ["/home/john/dwn",
-        "/home/john/msc",
-        "/home/john/pix/Unsorted/",
-        "/home/john/rom/Unsorted"]
-=======
 
 paths = ["~/dwn",
-        "~/doc",
         "~/msc",
         "~/pix/Unsorted/",
         "~/rom/Unsorted"]
->>>>>>> c0bb0dce74df38b6703dcc20593028ca171a5cb0
 
 types = {
         "pdf":"~/doc/pdf/",
@@ -71,8 +63,9 @@ types = {
         "html":"~/doc/man/",
         "md" :"~/doc/man/",
         "ms" :"~/doc/src/",
-        "tex":"~/doc/src/",
-#        "bib":"~/doc/cit/",
+        "tex":"~/doc/src/msc",
+        "mu": "~/doc/src/msc",
+        "bib":"~/doc/cit/",
         "nes":"~/rom/nes/",
         "smc":"~/rom/snes/",
         "sfc":"~/rom/snes/",
