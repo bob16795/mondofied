@@ -37,7 +37,7 @@ static const Rule rules[] = {
 	 *	WM_NAME(STRING) = title
 	 */
 	/* class         instance    title         tags mask     isfloating   monitor */
-	{ "Spotify",     NULL,       NULL,         1 << 6,       1,          -1 },
+	{ "spotify",     NULL,       NULL,         1 << 6,       1,          -1 },
 	{ NULL,          NULL,       "tk",         NULL,         1,          -1 },
     { "Steam",       NULL,       NULL,         1 << 7,       1,          -1 },
     { "discord",     NULL,       NULL,         1 << 7,       0,          -1 },
@@ -84,8 +84,8 @@ static const Layout layouts[] = {
 /* commands */
 static char dmenumon[2] = "0"; /* component of dmenucmd, manipulated in spawn() */
 //static const char *dmenucmd[] = { "dmenu_run", "-m", dmenumon, "-fn", dmenufont, "-nb", col_gray1, "-nf", col_gray3, "-sb", col_cyan, "-sf", col_gray4, NULL };
-//static const char *dmenucmd[] = { "jgmenu_run", NULL };
-static const char *dmenucmd[] = { "rofi", "-show", "run", NULL };
+static const char *dmenucmd[] = { "jgmenu_run", NULL };
+//static const char *dmenucmd[] = { "rofi", "-show", "run", NULL };
 static const char *termcmd[]  = { "alacritty", NULL };
 static const char *webcmd[]   = { "firefox", NULL };
 

@@ -11,24 +11,24 @@
 # hlsearch on (H) or off (h):
 ~h
 # Last Search Pattern:
-~MSle0~/config
+~MSle0~/spi
 
 # Last Substitute String:
 $
 
 # Command Line History (newest to oldest):
 :wq!
-|2,0,1575818813,,"wq!"
-:w
-|2,0,1575818721,,"w"
+|2,0,1575896049,,"wq!"
 :q!
-|2,0,1575818186,,"q!"
+|2,0,1575895812,,"q!"
+:q
+|2,0,1575895421,,"q"
+:w
+|2,0,1575843830,,"w"
 :wq
-|2,0,1575817874,,"wq"
+|2,0,1575843708,,"wq"
 :s
 |2,0,1575817022,,"s"
-:q
-|2,0,1575817019,,"q"
 :W
 |2,0,1575816825,,"W"
 :w!
@@ -53,14 +53,22 @@ $
 |2,0,1575727988,,"qa!"
 
 # Search String History (newest to oldest):
+?/spi
+|2,1,1575843566,47,"spi"
+?/;q
+|2,1,1575843462,47,";q"
+?/cava
+|2,1,1575843433,47,"cava"
+?/cav
+|2,1,1575843417,47,"cav"
+? @$
+|2,1,1575836515,,"@$"
 ?/config
 |2,1,1575818730,47,"config"
 ?/border
 |2,1,1575816768,47,"border"
 ?/opa
 |2,1,1575816763,47,"opa"
-? @$
-|2,1,1575816571,,"@$"
 ?/vis
 |2,1,1575816365,47,"vis"
 ?/mondo
@@ -105,8 +113,6 @@ $
 |2,1,1575756881,63,":Lwq"
 ?/spot
 |2,1,1575756773,47,"spot"
-?/cava
-|2,1,1575756729,47,"cava"
 ?/loop
 |2,1,1575756709,47,"loop"
 ?/git
@@ -139,407 +145,375 @@ $
 # Debug Line History (newest to oldest):
 
 # Registers:
-"0	BLOCK	19
-	, "class_g = 'Rofi'"
-|3,0,0,2,1,19,1575816704,", \"class_g = 'Rofi'\""
-"1	LINE	0
-	
-|3,0,1,1,1,0,1575816993,""
+"0	CHAR	0
+	v
+|3,0,0,0,1,0,1575836515,"v"
+""1	LINE	0
+	        "/home/john/doc",
+|3,1,1,1,1,0,1575896048,"        \"/home/john/doc\","
 "2	LINE	0
-	@search,,0,0,100,13,3,left,top,#aaaaaa 90,#222222 3,Type to search...
-	
-|3,0,2,1,2,0,1575816960,"@search,,0,0,100,13,3,left,top,#aaaaaa 90,#222222 3,Type to search...",""
+	#alacritty --class lin & # terminal
+|3,0,2,1,1,0,1575843829,"#alacritty --class lin & # terminal"
 "3	LINE	0
-	Settings,~/scr/settings/settings,utilities-terminal
-|3,0,3,1,1,0,1575816625,"Settings,~/scr/settings/settings,utilities-terminal"
+	#cairo-dock &
+|3,0,3,1,1,0,1575843711,"#cairo-dock &"
 "4	LINE	0
-	Rofi,rofi -show run,utilities-terminal
-|3,0,4,1,1,0,1575816623,"Rofi,rofi -show run,utilities-terminal"
+	#sublime & #dev
+|3,0,4,1,1,0,1575843709,"#sublime & #dev"
 "5	LINE	0
 	
-|3,0,5,1,1,0,1575813970,""
+|3,0,5,1,1,0,1575816993,""
 "6	LINE	0
+	@search,,0,0,100,13,3,left,top,#aaaaaa 90,#222222 3,Type to search...
 	
-	void
-	switchtag(const Arg *arg)
-	{
-	    unsigned int columns;
-	    unsigned int new_tagset = 0;
-	    unsigned int pos, i;
-	    int col, row;
-	    Arg new_arg;
-	
-	    columns = LENGTH(tags) / tagrows + ((LENGTH(tags) % tagrows > 0) ? 1 : 0);
-	
-	    for (i = 0; i < LENGTH(tags); ++i) {
-	        if (!(selmon->tagset[selmon->seltags] & 1 << i)) {
-	            continue;
-	        }
-	        pos = i;
-	        row = pos / columns;
-	        col = pos % columns;
-	        if (arg->ui & SWITCHTAG_UP) {     /* UP */
-	            row --;
-	            if (row < 0) {
-	                row = tagrows - 1;
-	            }
-	            do {
-	                pos = row * columns + col;
-	                row --;
-	            } while (pos >= LENGTH(tags));
-	        }
-	        if (arg->ui & SWITCHTAG_DOWN) {     /* DOWN */
-	            row ++;
-	            if (row >= tagrows) {
-	                row = 0;
-	            }
-	            pos = row * columns + col;
-	            if (pos >= LENGTH(tags)) {
-	                row = 0;
-	            }
-	            pos = row * columns + col;
-	        }
-	        if (arg->ui & SWITCHTAG_LEFT) {     /* LEFT */
-	            col --;
-	            if (col < 0) {
-	                col = columns - 1;
-	            }
-	            do {
-	                pos = row * columns + col;
-	                col --;
-	            } while (pos >= LENGTH(tags));
-	        }
-|3,0,6,1,50,0,1575813594,"","void","switchtag(const Arg *arg)","{","    unsigned int columns;","    unsigned int new_tagset = 0;","    unsigned int pos, i;","    int col, row;","    Arg new_arg;","","    columns = LENGTH(tags) / tagrows + ((LENGTH(tags) % tagrows > 0) ? 1 : 0);","","    for (i = 0; i < LENGTH(tags); ++i) {","        if (!(selmon->tagset[selmon->seltags] & 1 << i)) {","            continue;","        }","        pos = i;",>30
-|<"        row = pos / columns;","        col = pos % columns;","        if (arg->ui & SWITCHTAG_UP) {     /* UP */","            row --;","            if (row < 0) {","                row = tagrows - 1;","            }","            do {","                pos = row * columns + col;","                row --;","            } while (pos >= LENGTH(tags));","        }","        if (arg->ui & SWITCHTAG_DOWN) {     /* DOWN */","            row ++;","            if (row >= tagrows) {",>26
-|<"                row = 0;","            }","            pos = row * columns + col;","            if (pos >= LENGTH(tags)) {","                row = 0;","            }","            pos = row * columns + col;","        }","        if (arg->ui & SWITCHTAG_LEFT) {     /* LEFT */","            col --;","            if (col < 0) {","                col = columns - 1;","            }","            do {","                pos = row * columns + col;","                col --;",>44
-|<"            } while (pos >= LENGTH(tags));","        }"
-"7	BLOCK	0
-	+
-	+
-	+
-	+
-	+
-	+
-	+
-	+
-	+
-	+
-	+
-	+
-	+
-	+
-	+
-	+
-	+
-	+
-	+
-	+
-	+
-	+
-	+
-	+
-	+
-	+
-	+
-	+
-	+
-	+
-	+
-	+
-	+
-	+
-	+
-	+
-	+
-	+
-	+
-	+
-	+
-	+
-	+
-	+
-	+
-	+
-	+
-	+
-	+
-	+
-|3,0,7,2,50,0,1575813534,"+","+","+","+","+","+","+","+","+","+","+","+","+","+","+","+","+","+","+","+","+","+","+","+","+","+","+","+","+","+","+","+","+","+","+","+","+","+","+","+","+","+","+","+","+","+","+","+","+","+"
-"8	BLOCK	0
-	+
-	+
-	+
-	+
-	+
-	+
-	+
-	+
-	+
-	+
-	+
-	+
-	+
-	+
-	+
-	+
-	+
-	+
-	+
-	+
-	+
-	+
-	+
-	+
-	+
-	+
-	+
-	+
-	+
-	+
-	+
-	+
-	+
-	+
-	+
-	+
-	+
-	+
-	+
-	+
-	+
-|3,0,8,2,41,0,1575813503,"+","+","+","+","+","+","+","+","+","+","+","+","+","+","+","+","+","+","+","+","+","+","+","+","+","+","+","+","+","+","+","+","+","+","+","+","+","+","+","+","+"
+|3,0,6,1,2,0,1575816960,"@search,,0,0,100,13,3,left,top,#aaaaaa 90,#222222 3,Type to search...",""
+"7	LINE	0
+	Settings,~/scr/settings/settings,utilities-terminal
+|3,0,7,1,1,0,1575816625,"Settings,~/scr/settings/settings,utilities-terminal"
+"8	LINE	0
+	Rofi,rofi -show run,utilities-terminal
+|3,0,8,1,1,0,1575816623,"Rofi,rofi -show run,utilities-terminal"
 "9	LINE	0
 	
-|3,0,9,1,1,0,1575813349,""
-""-	CHAR	0
-	v
-|3,1,36,0,1,0,1575818182,"v"
+|3,0,9,1,1,0,1575813970,""
+"-	CHAR	0
+	#
+|3,0,36,0,1,0,1575843855,"#"
 
 # File marks:
-'0  106  8  ~/.gitignore
-|4,48,106,8,1575818813,"~/.gitignore"
-'1  105  13  ~/.gitignore
-|4,49,105,13,1575818805,"~/.gitignore"
-'2  105  13  ~/.gitignore
-|4,50,105,13,1575818805,"~/.gitignore"
-'3  104  3  ~/.gitignore
-|4,51,104,3,1575818796,"~/.gitignore"
-'4  104  3  ~/.gitignore
-|4,52,104,3,1575818796,"~/.gitignore"
-'5  104  3  ~/.gitignore
-|4,53,104,3,1575818796,"~/.gitignore"
-'6  104  3  ~/.gitignore
-|4,54,104,3,1575818796,"~/.gitignore"
-'7  104  4  ~/.gitignore
-|4,55,104,4,1575818791,"~/.gitignore"
-'8  104  4  ~/.gitignore
-|4,56,104,4,1575818791,"~/.gitignore"
-'9  104  4  ~/.gitignore
-|4,57,104,4,1575818791,"~/.gitignore"
+'0  11  8  ~/scr/tools/filesort
+|4,48,11,8,1575896049,"~/scr/tools/filesort"
+'1  4  29  ~/scr/dwmcmds/bar
+|4,49,4,29,1575895812,"~/scr/dwmcmds/bar"
+'2  21  0  ~/doc/src/master.mu
+|4,50,21,0,1575895754,"~/doc/src/master.mu"
+'3  21  0  ~/doc/src/master.mu
+|4,51,21,0,1575895421,"~/doc/src/master.mu"
+'4  1  0  ~/doc/src/2019-2020/us_essay_dumb.mu
+|4,52,1,0,1575894881,"~/doc/src/2019-2020/us_essay_dumb.mu"
+'5  211  17  ~/.config/alacritty/alacritty.yml
+|4,53,211,17,1575844150,"~/.config/alacritty/alacritty.yml"
+'6  12  0  ~/.xinitrc
+|4,54,12,0,1575843856,"~/.xinitrc"
+'7  19  0  ~/.xinitrc
+|4,55,19,0,1575843718,"~/.xinitrc"
+'8  20  0  ~/.xinitrc
+|4,56,20,0,1575843718,"~/.xinitrc"
+'9  40  33  ~/.config/mondo/generator/dwm/_mondo-template
+|4,57,40,33,1575843662,"~/.config/mondo/generator/dwm/_mondo-template"
 
 # Jumplist (newest first):
--'  106  8  ~/.gitignore
-|4,39,106,8,1575818813,"~/.gitignore"
--'  105  13  ~/.gitignore
-|4,39,105,13,1575818809,"~/.gitignore"
--'  105  13  ~/.gitignore
-|4,39,105,13,1575818805,"~/.gitignore"
--'  104  3  ~/.gitignore
-|4,39,104,3,1575818799,"~/.gitignore"
--'  104  3  ~/.gitignore
-|4,39,104,3,1575818799,"~/.gitignore"
--'  104  3  ~/.gitignore
-|4,39,104,3,1575818796,"~/.gitignore"
--'  104  4  ~/.gitignore
-|4,39,104,4,1575818791,"~/.gitignore"
--'  103  10  ~/.gitignore
-|4,39,103,10,1575818788,"~/.gitignore"
--'  103  10  ~/.gitignore
-|4,39,103,10,1575818788,"~/.gitignore"
--'  103  10  ~/.gitignore
-|4,39,103,10,1575818788,"~/.gitignore"
--'  103  10  ~/.gitignore
-|4,39,103,10,1575818788,"~/.gitignore"
--'  103  10  ~/.gitignore
-|4,39,103,10,1575818783,"~/.gitignore"
--'  102  8  ~/.gitignore
-|4,39,102,8,1575818779,"~/.gitignore"
--'  102  8  ~/.gitignore
-|4,39,102,8,1575818779,"~/.gitignore"
--'  102  8  ~/.gitignore
-|4,39,102,8,1575818779,"~/.gitignore"
--'  102  8  ~/.gitignore
-|4,39,102,8,1575818779,"~/.gitignore"
--'  102  8  ~/.gitignore
-|4,39,102,8,1575818779,"~/.gitignore"
--'  102  8  ~/.gitignore
-|4,39,102,8,1575818776,"~/.gitignore"
--'  102  14  ~/.gitignore
-|4,39,102,14,1575818771,"~/.gitignore"
--'  101  7  ~/.gitignore
-|4,39,101,7,1575818765,"~/.gitignore"
--'  101  7  ~/.gitignore
-|4,39,101,7,1575818765,"~/.gitignore"
--'  101  7  ~/.gitignore
-|4,39,101,7,1575818765,"~/.gitignore"
--'  101  7  ~/.gitignore
-|4,39,101,7,1575818765,"~/.gitignore"
--'  101  7  ~/.gitignore
-|4,39,101,7,1575818765,"~/.gitignore"
--'  101  7  ~/.gitignore
-|4,39,101,7,1575818765,"~/.gitignore"
--'  101  7  ~/.gitignore
-|4,39,101,7,1575818765,"~/.gitignore"
--'  19  69  ~/scr/chroot.sh
-|4,39,19,69,1575818739,"~/scr/chroot.sh"
--'  19  69  ~/scr/chroot.sh
-|4,39,19,69,1575818739,"~/scr/chroot.sh"
--'  19  69  ~/scr/chroot.sh
-|4,39,19,69,1575818739,"~/scr/chroot.sh"
--'  19  69  ~/scr/chroot.sh
-|4,39,19,69,1575818739,"~/scr/chroot.sh"
--'  19  69  ~/scr/chroot.sh
-|4,39,19,69,1575818739,"~/scr/chroot.sh"
--'  19  69  ~/scr/chroot.sh
-|4,39,19,69,1575818739,"~/scr/chroot.sh"
--'  19  69  ~/scr/chroot.sh
-|4,39,19,69,1575818739,"~/scr/chroot.sh"
--'  19  69  ~/scr/chroot.sh
-|4,39,19,69,1575818739,"~/scr/chroot.sh"
--'  19  69  ~/scr/chroot.sh
-|4,39,19,69,1575818739,"~/scr/chroot.sh"
--'  19  69  ~/scr/chroot.sh
-|4,39,19,69,1575818739,"~/scr/chroot.sh"
--'  19  69  ~/scr/chroot.sh
-|4,39,19,69,1575818739,"~/scr/chroot.sh"
--'  19  69  ~/scr/chroot.sh
-|4,39,19,69,1575818739,"~/scr/chroot.sh"
--'  19  69  ~/scr/chroot.sh
-|4,39,19,69,1575818739,"~/scr/chroot.sh"
--'  19  69  ~/scr/chroot.sh
-|4,39,19,69,1575818739,"~/scr/chroot.sh"
--'  19  69  ~/scr/chroot.sh
-|4,39,19,69,1575818739,"~/scr/chroot.sh"
--'  19  69  ~/scr/chroot.sh
-|4,39,19,69,1575818739,"~/scr/chroot.sh"
--'  19  69  ~/scr/chroot.sh
-|4,39,19,69,1575818739,"~/scr/chroot.sh"
--'  19  69  ~/scr/chroot.sh
-|4,39,19,69,1575818739,"~/scr/chroot.sh"
--'  19  69  ~/scr/chroot.sh
-|4,39,19,69,1575818739,"~/scr/chroot.sh"
--'  19  69  ~/scr/chroot.sh
-|4,39,19,69,1575818739,"~/scr/chroot.sh"
--'  19  69  ~/scr/chroot.sh
-|4,39,19,69,1575818739,"~/scr/chroot.sh"
--'  19  69  ~/scr/chroot.sh
-|4,39,19,69,1575818739,"~/scr/chroot.sh"
--'  19  69  ~/scr/chroot.sh
-|4,39,19,69,1575818739,"~/scr/chroot.sh"
--'  19  69  ~/scr/chroot.sh
-|4,39,19,69,1575818739,"~/scr/chroot.sh"
--'  19  69  ~/scr/chroot.sh
-|4,39,19,69,1575818739,"~/scr/chroot.sh"
--'  19  69  ~/scr/chroot.sh
-|4,39,19,69,1575818739,"~/scr/chroot.sh"
--'  19  69  ~/scr/chroot.sh
-|4,39,19,69,1575818739,"~/scr/chroot.sh"
--'  19  69  ~/scr/chroot.sh
-|4,39,19,69,1575818739,"~/scr/chroot.sh"
--'  19  69  ~/scr/chroot.sh
-|4,39,19,69,1575818739,"~/scr/chroot.sh"
--'  19  69  ~/scr/chroot.sh
-|4,39,19,69,1575818739,"~/scr/chroot.sh"
--'  19  69  ~/scr/chroot.sh
-|4,39,19,69,1575818739,"~/scr/chroot.sh"
--'  19  69  ~/scr/chroot.sh
-|4,39,19,69,1575818739,"~/scr/chroot.sh"
--'  19  69  ~/scr/chroot.sh
-|4,39,19,69,1575818739,"~/scr/chroot.sh"
--'  19  69  ~/scr/chroot.sh
-|4,39,19,69,1575818739,"~/scr/chroot.sh"
--'  19  69  ~/scr/chroot.sh
-|4,39,19,69,1575818739,"~/scr/chroot.sh"
--'  19  69  ~/scr/chroot.sh
-|4,39,19,69,1575818739,"~/scr/chroot.sh"
--'  19  69  ~/scr/chroot.sh
-|4,39,19,69,1575818739,"~/scr/chroot.sh"
--'  19  69  ~/scr/chroot.sh
-|4,39,19,69,1575818739,"~/scr/chroot.sh"
--'  19  69  ~/scr/chroot.sh
-|4,39,19,69,1575818739,"~/scr/chroot.sh"
--'  19  69  ~/scr/chroot.sh
-|4,39,19,69,1575818739,"~/scr/chroot.sh"
--'  19  69  ~/scr/chroot.sh
-|4,39,19,69,1575818739,"~/scr/chroot.sh"
--'  19  69  ~/scr/chroot.sh
-|4,39,19,69,1575818739,"~/scr/chroot.sh"
--'  19  69  ~/scr/chroot.sh
-|4,39,19,69,1575818739,"~/scr/chroot.sh"
--'  19  69  ~/scr/chroot.sh
-|4,39,19,69,1575818739,"~/scr/chroot.sh"
--'  19  69  ~/scr/chroot.sh
-|4,39,19,69,1575818739,"~/scr/chroot.sh"
--'  19  69  ~/scr/chroot.sh
-|4,39,19,69,1575818739,"~/scr/chroot.sh"
--'  19  69  ~/scr/chroot.sh
-|4,39,19,69,1575818739,"~/scr/chroot.sh"
--'  19  69  ~/scr/chroot.sh
-|4,39,19,69,1575818739,"~/scr/chroot.sh"
--'  19  69  ~/scr/chroot.sh
-|4,39,19,69,1575818739,"~/scr/chroot.sh"
--'  19  69  ~/scr/chroot.sh
-|4,39,19,69,1575818739,"~/scr/chroot.sh"
--'  19  69  ~/scr/chroot.sh
-|4,39,19,69,1575818739,"~/scr/chroot.sh"
--'  19  69  ~/scr/chroot.sh
-|4,39,19,69,1575818739,"~/scr/chroot.sh"
--'  19  69  ~/scr/chroot.sh
-|4,39,19,69,1575818739,"~/scr/chroot.sh"
--'  19  69  ~/scr/chroot.sh
-|4,39,19,69,1575818739,"~/scr/chroot.sh"
--'  19  69  ~/scr/chroot.sh
-|4,39,19,69,1575818739,"~/scr/chroot.sh"
--'  19  69  ~/scr/chroot.sh
-|4,39,19,69,1575818739,"~/scr/chroot.sh"
--'  19  69  ~/scr/chroot.sh
-|4,39,19,69,1575818739,"~/scr/chroot.sh"
--'  19  69  ~/scr/chroot.sh
-|4,39,19,69,1575818739,"~/scr/chroot.sh"
--'  19  69  ~/scr/chroot.sh
-|4,39,19,69,1575818739,"~/scr/chroot.sh"
--'  19  69  ~/scr/chroot.sh
-|4,39,19,69,1575818739,"~/scr/chroot.sh"
--'  19  69  ~/scr/chroot.sh
-|4,39,19,69,1575818739,"~/scr/chroot.sh"
--'  19  69  ~/scr/chroot.sh
-|4,39,19,69,1575818739,"~/scr/chroot.sh"
--'  19  69  ~/scr/chroot.sh
-|4,39,19,69,1575818739,"~/scr/chroot.sh"
--'  19  69  ~/scr/chroot.sh
-|4,39,19,69,1575818739,"~/scr/chroot.sh"
--'  19  69  ~/scr/chroot.sh
-|4,39,19,69,1575818739,"~/scr/chroot.sh"
--'  19  69  ~/scr/chroot.sh
-|4,39,19,69,1575818739,"~/scr/chroot.sh"
--'  19  69  ~/scr/chroot.sh
-|4,39,19,69,1575818739,"~/scr/chroot.sh"
--'  19  69  ~/scr/chroot.sh
-|4,39,19,69,1575818739,"~/scr/chroot.sh"
--'  19  69  ~/scr/chroot.sh
-|4,39,19,69,1575818739,"~/scr/chroot.sh"
--'  19  69  ~/scr/chroot.sh
-|4,39,19,69,1575818739,"~/scr/chroot.sh"
--'  19  69  ~/scr/chroot.sh
-|4,39,19,69,1575818739,"~/scr/chroot.sh"
--'  19  69  ~/scr/chroot.sh
-|4,39,19,69,1575818739,"~/scr/chroot.sh"
--'  19  69  ~/scr/chroot.sh
-|4,39,19,69,1575818739,"~/scr/chroot.sh"
--'  19  69  ~/scr/chroot.sh
-|4,39,19,69,1575818739,"~/scr/chroot.sh"
+-'  11  8  ~/scr/tools/filesort
+|4,39,11,8,1575896049,"~/scr/tools/filesort"
+-'  1  0  ~/scr/tools/filesort
+|4,39,1,0,1575896046,"~/scr/tools/filesort"
+-'  4  29  ~/scr/dwmcmds/bar
+|4,39,4,29,1575895812,"~/scr/dwmcmds/bar"
+-'  4  29  ~/scr/dwmcmds/bar
+|4,39,4,29,1575895812,"~/scr/dwmcmds/bar"
+-'  1  0  ~/scr/dwmcmds/bar
+|4,39,1,0,1575895802,"~/scr/dwmcmds/bar"
+-'  1  0  ~/scr/dwmcmds/bar
+|4,39,1,0,1575895802,"~/scr/dwmcmds/bar"
+-'  21  0  ~/doc/src/master.mu
+|4,39,21,0,1575895754,"~/doc/src/master.mu"
+-'  21  0  ~/doc/src/master.mu
+|4,39,21,0,1575895754,"~/doc/src/master.mu"
+-'  21  0  ~/doc/src/master.mu
+|4,39,21,0,1575895754,"~/doc/src/master.mu"
+-'  21  0  ~/doc/src/master.mu
+|4,39,21,0,1575895754,"~/doc/src/master.mu"
+-'  21  0  ~/doc/src/master.mu
+|4,39,21,0,1575895421,"~/doc/src/master.mu"
+-'  21  0  ~/doc/src/master.mu
+|4,39,21,0,1575895421,"~/doc/src/master.mu"
+-'  21  0  ~/doc/src/master.mu
+|4,39,21,0,1575895421,"~/doc/src/master.mu"
+-'  21  0  ~/doc/src/master.mu
+|4,39,21,0,1575895421,"~/doc/src/master.mu"
+-'  1  0  ~/doc/src/master.mu
+|4,39,1,0,1575895418,"~/doc/src/master.mu"
+-'  1  0  ~/doc/src/master.mu
+|4,39,1,0,1575895418,"~/doc/src/master.mu"
+-'  1  0  ~/doc/src/master.mu
+|4,39,1,0,1575895418,"~/doc/src/master.mu"
+-'  1  0  ~/doc/src/master.mu
+|4,39,1,0,1575895418,"~/doc/src/master.mu"
+-'  1  0  ~/doc/src/master.mu
+|4,39,1,0,1575895418,"~/doc/src/master.mu"
+-'  1  0  ~/doc/src/master.mu
+|4,39,1,0,1575895418,"~/doc/src/master.mu"
+-'  1  0  ~/doc/src/master.mu
+|4,39,1,0,1575895418,"~/doc/src/master.mu"
+-'  1  0  ~/doc/src/master.mu
+|4,39,1,0,1575895418,"~/doc/src/master.mu"
+-'  1  0  ~/doc/src/2019-2020/us_essay_dumb.mu
+|4,39,1,0,1575894881,"~/doc/src/2019-2020/us_essay_dumb.mu"
+-'  1  0  ~/doc/src/2019-2020/us_essay_dumb.mu
+|4,39,1,0,1575894881,"~/doc/src/2019-2020/us_essay_dumb.mu"
+-'  1  0  ~/doc/src/2019-2020/us_essay_dumb.mu
+|4,39,1,0,1575894881,"~/doc/src/2019-2020/us_essay_dumb.mu"
+-'  1  0  ~/doc/src/2019-2020/us_essay_dumb.mu
+|4,39,1,0,1575894881,"~/doc/src/2019-2020/us_essay_dumb.mu"
+-'  1  0  ~/doc/src/2019-2020/us_essay_dumb.mu
+|4,39,1,0,1575894881,"~/doc/src/2019-2020/us_essay_dumb.mu"
+-'  1  0  ~/doc/src/2019-2020/us_essay_dumb.mu
+|4,39,1,0,1575894881,"~/doc/src/2019-2020/us_essay_dumb.mu"
+-'  1  0  ~/doc/src/2019-2020/us_essay_dumb.mu
+|4,39,1,0,1575894881,"~/doc/src/2019-2020/us_essay_dumb.mu"
+-'  1  0  ~/doc/src/2019-2020/us_essay_dumb.mu
+|4,39,1,0,1575894881,"~/doc/src/2019-2020/us_essay_dumb.mu"
+-'  1  0  ~/doc/src/2019-2020/us_essay_dumb.mu
+|4,39,1,0,1575894881,"~/doc/src/2019-2020/us_essay_dumb.mu"
+-'  1  0  ~/doc/src/2019-2020/us_essay_dumb.mu
+|4,39,1,0,1575894881,"~/doc/src/2019-2020/us_essay_dumb.mu"
+-'  1  0  ~/doc/src/2019-2020/us_essay_dumb.mu
+|4,39,1,0,1575894881,"~/doc/src/2019-2020/us_essay_dumb.mu"
+-'  1  0  ~/doc/src/2019-2020/us_essay_dumb.mu
+|4,39,1,0,1575894881,"~/doc/src/2019-2020/us_essay_dumb.mu"
+-'  1  0  ~/doc/src/2019-2020/us_essay_dumb.mu
+|4,39,1,0,1575894881,"~/doc/src/2019-2020/us_essay_dumb.mu"
+-'  1  0  ~/doc/src/2019-2020/us_essay_dumb.mu
+|4,39,1,0,1575894881,"~/doc/src/2019-2020/us_essay_dumb.mu"
+-'  1  0  ~/doc/src/2019-2020/us_essay_dumb.mu
+|4,39,1,0,1575894881,"~/doc/src/2019-2020/us_essay_dumb.mu"
+-'  1  0  ~/doc/src/2019-2020/us_essay_dumb.mu
+|4,39,1,0,1575894881,"~/doc/src/2019-2020/us_essay_dumb.mu"
+-'  211  17  ~/.config/alacritty/alacritty.yml
+|4,39,211,17,1575844150,"~/.config/alacritty/alacritty.yml"
+-'  211  17  ~/.config/alacritty/alacritty.yml
+|4,39,211,17,1575844150,"~/.config/alacritty/alacritty.yml"
+-'  211  17  ~/.config/alacritty/alacritty.yml
+|4,39,211,17,1575844150,"~/.config/alacritty/alacritty.yml"
+-'  211  17  ~/.config/alacritty/alacritty.yml
+|4,39,211,17,1575844150,"~/.config/alacritty/alacritty.yml"
+-'  211  17  ~/.config/alacritty/alacritty.yml
+|4,39,211,17,1575844150,"~/.config/alacritty/alacritty.yml"
+-'  211  17  ~/.config/alacritty/alacritty.yml
+|4,39,211,17,1575844150,"~/.config/alacritty/alacritty.yml"
+-'  211  17  ~/.config/alacritty/alacritty.yml
+|4,39,211,17,1575844150,"~/.config/alacritty/alacritty.yml"
+-'  211  17  ~/.config/alacritty/alacritty.yml
+|4,39,211,17,1575844150,"~/.config/alacritty/alacritty.yml"
+-'  211  17  ~/.config/alacritty/alacritty.yml
+|4,39,211,17,1575844150,"~/.config/alacritty/alacritty.yml"
+-'  211  17  ~/.config/alacritty/alacritty.yml
+|4,39,211,17,1575844150,"~/.config/alacritty/alacritty.yml"
+-'  211  17  ~/.config/alacritty/alacritty.yml
+|4,39,211,17,1575844150,"~/.config/alacritty/alacritty.yml"
+-'  211  17  ~/.config/alacritty/alacritty.yml
+|4,39,211,17,1575844150,"~/.config/alacritty/alacritty.yml"
+-'  211  17  ~/.config/alacritty/alacritty.yml
+|4,39,211,17,1575844150,"~/.config/alacritty/alacritty.yml"
+-'  211  17  ~/.config/alacritty/alacritty.yml
+|4,39,211,17,1575844150,"~/.config/alacritty/alacritty.yml"
+-'  211  17  ~/.config/alacritty/alacritty.yml
+|4,39,211,17,1575844150,"~/.config/alacritty/alacritty.yml"
+-'  211  17  ~/.config/alacritty/alacritty.yml
+|4,39,211,17,1575844150,"~/.config/alacritty/alacritty.yml"
+-'  211  17  ~/.config/alacritty/alacritty.yml
+|4,39,211,17,1575844150,"~/.config/alacritty/alacritty.yml"
+-'  211  17  ~/.config/alacritty/alacritty.yml
+|4,39,211,17,1575844150,"~/.config/alacritty/alacritty.yml"
+-'  211  17  ~/.config/alacritty/alacritty.yml
+|4,39,211,17,1575844150,"~/.config/alacritty/alacritty.yml"
+-'  211  17  ~/.config/alacritty/alacritty.yml
+|4,39,211,17,1575844150,"~/.config/alacritty/alacritty.yml"
+-'  211  17  ~/.config/alacritty/alacritty.yml
+|4,39,211,17,1575844150,"~/.config/alacritty/alacritty.yml"
+-'  211  17  ~/.config/alacritty/alacritty.yml
+|4,39,211,17,1575844150,"~/.config/alacritty/alacritty.yml"
+-'  211  17  ~/.config/alacritty/alacritty.yml
+|4,39,211,17,1575844150,"~/.config/alacritty/alacritty.yml"
+-'  211  17  ~/.config/alacritty/alacritty.yml
+|4,39,211,17,1575844150,"~/.config/alacritty/alacritty.yml"
+-'  211  17  ~/.config/alacritty/alacritty.yml
+|4,39,211,17,1575844150,"~/.config/alacritty/alacritty.yml"
+-'  211  17  ~/.config/alacritty/alacritty.yml
+|4,39,211,17,1575844150,"~/.config/alacritty/alacritty.yml"
+-'  211  17  ~/.config/alacritty/alacritty.yml
+|4,39,211,17,1575844150,"~/.config/alacritty/alacritty.yml"
+-'  211  17  ~/.config/alacritty/alacritty.yml
+|4,39,211,17,1575844150,"~/.config/alacritty/alacritty.yml"
+-'  211  17  ~/.config/alacritty/alacritty.yml
+|4,39,211,17,1575844150,"~/.config/alacritty/alacritty.yml"
+-'  211  17  ~/.config/alacritty/alacritty.yml
+|4,39,211,17,1575844150,"~/.config/alacritty/alacritty.yml"
+-'  211  17  ~/.config/alacritty/alacritty.yml
+|4,39,211,17,1575844150,"~/.config/alacritty/alacritty.yml"
+-'  211  17  ~/.config/alacritty/alacritty.yml
+|4,39,211,17,1575844150,"~/.config/alacritty/alacritty.yml"
+-'  387  0  ~/.config/alacritty/alacritty.yml
+|4,39,387,0,1575844124,"~/.config/alacritty/alacritty.yml"
+-'  387  0  ~/.config/alacritty/alacritty.yml
+|4,39,387,0,1575844124,"~/.config/alacritty/alacritty.yml"
+-'  387  0  ~/.config/alacritty/alacritty.yml
+|4,39,387,0,1575844124,"~/.config/alacritty/alacritty.yml"
+-'  387  0  ~/.config/alacritty/alacritty.yml
+|4,39,387,0,1575844124,"~/.config/alacritty/alacritty.yml"
+-'  387  0  ~/.config/alacritty/alacritty.yml
+|4,39,387,0,1575844124,"~/.config/alacritty/alacritty.yml"
+-'  387  0  ~/.config/alacritty/alacritty.yml
+|4,39,387,0,1575844124,"~/.config/alacritty/alacritty.yml"
+-'  387  0  ~/.config/alacritty/alacritty.yml
+|4,39,387,0,1575844124,"~/.config/alacritty/alacritty.yml"
+-'  387  0  ~/.config/alacritty/alacritty.yml
+|4,39,387,0,1575844124,"~/.config/alacritty/alacritty.yml"
+-'  387  0  ~/.config/alacritty/alacritty.yml
+|4,39,387,0,1575844124,"~/.config/alacritty/alacritty.yml"
+-'  387  0  ~/.config/alacritty/alacritty.yml
+|4,39,387,0,1575844124,"~/.config/alacritty/alacritty.yml"
+-'  387  0  ~/.config/alacritty/alacritty.yml
+|4,39,387,0,1575844124,"~/.config/alacritty/alacritty.yml"
+-'  387  0  ~/.config/alacritty/alacritty.yml
+|4,39,387,0,1575844124,"~/.config/alacritty/alacritty.yml"
+-'  387  0  ~/.config/alacritty/alacritty.yml
+|4,39,387,0,1575844124,"~/.config/alacritty/alacritty.yml"
+-'  387  0  ~/.config/alacritty/alacritty.yml
+|4,39,387,0,1575844124,"~/.config/alacritty/alacritty.yml"
+-'  387  0  ~/.config/alacritty/alacritty.yml
+|4,39,387,0,1575844124,"~/.config/alacritty/alacritty.yml"
+-'  387  0  ~/.config/alacritty/alacritty.yml
+|4,39,387,0,1575844124,"~/.config/alacritty/alacritty.yml"
+-'  387  0  ~/.config/alacritty/alacritty.yml
+|4,39,387,0,1575844124,"~/.config/alacritty/alacritty.yml"
+-'  387  0  ~/.config/alacritty/alacritty.yml
+|4,39,387,0,1575844124,"~/.config/alacritty/alacritty.yml"
+-'  387  0  ~/.config/alacritty/alacritty.yml
+|4,39,387,0,1575844124,"~/.config/alacritty/alacritty.yml"
+-'  387  0  ~/.config/alacritty/alacritty.yml
+|4,39,387,0,1575844124,"~/.config/alacritty/alacritty.yml"
+-'  387  0  ~/.config/alacritty/alacritty.yml
+|4,39,387,0,1575844124,"~/.config/alacritty/alacritty.yml"
+-'  387  0  ~/.config/alacritty/alacritty.yml
+|4,39,387,0,1575844124,"~/.config/alacritty/alacritty.yml"
+-'  387  0  ~/.config/alacritty/alacritty.yml
+|4,39,387,0,1575844124,"~/.config/alacritty/alacritty.yml"
+-'  387  0  ~/.config/alacritty/alacritty.yml
+|4,39,387,0,1575844124,"~/.config/alacritty/alacritty.yml"
+-'  387  0  ~/.config/alacritty/alacritty.yml
+|4,39,387,0,1575844124,"~/.config/alacritty/alacritty.yml"
+-'  387  0  ~/.config/alacritty/alacritty.yml
+|4,39,387,0,1575844124,"~/.config/alacritty/alacritty.yml"
+-'  387  0  ~/.config/alacritty/alacritty.yml
+|4,39,387,0,1575844124,"~/.config/alacritty/alacritty.yml"
+-'  387  0  ~/.config/alacritty/alacritty.yml
+|4,39,387,0,1575844124,"~/.config/alacritty/alacritty.yml"
+-'  387  0  ~/.config/alacritty/alacritty.yml
+|4,39,387,0,1575844124,"~/.config/alacritty/alacritty.yml"
+-'  387  0  ~/.config/alacritty/alacritty.yml
+|4,39,387,0,1575844124,"~/.config/alacritty/alacritty.yml"
 
 # History of marks within files (newest to oldest):
+
+> ~/scr/tools/filesort
+	*	1575896049	0
+	"	11	8
+	.	11	0
+	+	11	0
+
+> ~/scr/dwmcmds/bar
+	*	1575895812	0
+	"	4	29
+
+> ~/doc/src/master.mu
+	*	1575895754	0
+	"	21	0
+
+> ~/doc/src/2019-2020/us_essay_dumb.mu
+	*	1575894881	0
+	"	1	0
+
+> ~/.config/alacritty/alacritty.yml
+	*	1575844149	0
+	"	211	17
+
+> ~/.xinitrc
+	*	1575843855	0
+	"	12	0
+	^	23	11
+	.	12	0
+	+	21	31
+	+	25	14
+	+	20	0
+	+	9	0
+	+	14	0
+	+	13	9
+	+	21	31
+	+	22	0
+	+	23	10
+	+	24	0
+	+	16	0
+	+	12	0
+
+> ~/.config/mondo/generator/dwm/_mondo-template
+	*	1575843661	0
+	"	40	33
+	^	40	34
+	.	40	33
+	+	90	41
+	+	43	5
+	+	134	68
+	+	8	24
+	+	8	0
+	+	2	104
+	+	4	0
+	+	2	44
+	+	6	0
+	+	2	0
+	+	3	28
+	+	2	41
+	+	3	40
+	+	9	29
+	+	3	40
+	+	3	0
+	+	40	33
+
+> ~/cfg/youtube.txt
+	*	1575843468	0
+	"	17	1
+	.	17	0
+	+	17	0
+
+> ~/cfg/gitignore
+	*	1575843462	0
+	"	1	0
+
+> ~/scr/progs.csv
+	*	1575843451	0
+	"	58	0
+	^	58	1
+	.	58	0
+	+	66	25
+	+	53	0
+	+	58	4
+	+	67	0
+	+	65	13
+	+	66	6
+	+	58	0
+
+> ~/.config/user-dirs.dirs
+	*	1575831295	0
+	"	1	0
+
+> ~/.config/mondo/themes/.git/COMMIT_EDITMSG
+	*	1575822260	0
+	"	1	24
+	^	1	25
+	.	1	24
+	+	1	24
+
+> ~/scr/tools/in
+	*	1575821489	0
+	"	1	0
+
+> ~/.git/COMMIT_EDITMSG
+	*	1575818875	0
+	"	1	1
+	^	1	2
+	.	1	1
+	+	2	0
+	+	1	1
 
 > ~/.gitignore
 	*	1575818812	0
@@ -623,28 +597,6 @@ $
 	"	33	21
 	^	33	22
 
-> ~/.config/mondo/generator/dwm/_mondo-template
-	*	1575817351	0
-	"	15	31
-	^	9	30
-	.	3	0
-	+	90	41
-	+	43	5
-	+	134	68
-	+	8	24
-	+	8	0
-	+	2	104
-	+	4	0
-	+	2	44
-	+	6	0
-	+	2	0
-	+	3	28
-	+	2	41
-	+	3	40
-	+	9	29
-	+	3	40
-	+	3	0
-
 > ~/snd/youtube.txt
 	*	1575817172	0
 	"	2	75
@@ -656,10 +608,6 @@ $
 > ~/snd/archive
 	*	1575817115	0
 	"	1	0
-
-> ~/cfg/youtube.txt
-	*	1575817054	0
-	"	17	0
 
 > ~/.config/jgmenu/prepend.csv
 	*	1575817024	0
@@ -703,18 +651,6 @@ $
 > ~/.config/rofi/config
 	*	1575816692	0
 	"	1	0
-
-> ~/.xinitrc
-	*	1575816374	0
-	"	13	9
-	^	13	10
-	.	13	9
-	+	22	31
-	+	27	14
-	+	21	0
-	+	9	0
-	+	14	0
-	+	13	9
 
 > ~/.config/dwm/config.h
 	*	1575816366	0
@@ -840,35 +776,12 @@ $
 	*	1575813842	0
 	"	1	0
 
-> ~/.config/alacritty/alacritty.yml
-	*	1575812862	0
-	"	387	0
-
-> ~/.config/mondo/themes/.git/COMMIT_EDITMSG
-	*	1575757032	0
-	"	1	17
-	^	1	18
-	.	1	17
-	+	1	17
-
 > ~/.config/dwm/.git/COMMIT_EDITMSG
 	*	1575756932	0
 	"	1	12
 	^	1	13
 	.	1	12
 	+	1	12
-
-> ~/scr/progs.csv
-	*	1575756805	0
-	"	45	5
-	^	66	6
-	.	66	6
-	+	66	25
-	+	53	0
-	+	58	4
-	+	67	0
-	+	65	13
-	+	66	6
 
 > ~/scr/parbs.sh
 	*	1575756711	0
@@ -886,20 +799,12 @@ $
 	+	222	0
 	+	221	12
 
-> ~/.git/COMMIT_EDITMSG
-	*	1575738714	0
-	"	253	0
-
 > ~/.screen.sh
 	*	1575728507	0
 	"	1	0
 
 > ~/.screen
 	*	1575728504	0
-	"	1	0
-
-> ~/cfg/gitignore
-	*	1575728238	0
 	"	1	0
 
 > ~/.config/mondo/generator/dwm/_mondo-settings

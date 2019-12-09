@@ -21,17 +21,17 @@ menu_border          = 0
 menu_halign          = left
 menu_valign          = top
 
-#sub_spacing         = 1
+sub_spacing         = 0
 #sub_padding_top     = -1
 #sub_padding_right   = -1
 #sub_padding_bottom  = -1
 #sub_padding_left    = -1
 sub_hover_action     = 1
 
-#item_margin_x       = 3
+item_margin_x       = 0
 item_margin_y        = 0
 item_height          = 13
-item_padding_x       = 0
+item_padding_x       = 3
 item_radius          = 0
 item_border          = 0
 #item_halign         = left

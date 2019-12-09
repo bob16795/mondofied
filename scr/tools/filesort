@@ -8,7 +8,6 @@ def check(j):
     else:
         return types[None].get(j.decode("utf-8").split('/')[-1], None)
 paths = ["/home/john/dwn",
-        "/home/john/doc",
         "/home/john/msc",
         "/home/john/pix/Unsorted/",
         "/home/john/rom/Unsorted"]
