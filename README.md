@@ -2,8 +2,6 @@
 
 ## install
 
-### master branch
-
 run the following in an arch live environment
 
 ```text
@@ -19,25 +17,6 @@ wget https://raw.githubusercontent.com/bob16795/mondofied/master/scr/parbs.sh
 chmod +x parbs.sh
 sh parbs.sh
 ```
-
-### beta branch
-
-run the following in an arch live environment
-
-```text
-wget https://raw.githubusercontent.com/bob16795/mondofied/beta/scr/install.sh
-chmod +x install.sh
-sh install.sh
-```
-
-or the following in a preinstalled environment
-
-```text
-wget https://raw.githubusercontent.com/bob16795/mondofied/beta/scr/parbs.sh
-chmod +x parbs.sh
-sh parbs.sh
-```
-
 ## versions
 
 ### 1.0
@@ -72,11 +51,11 @@ sh parbs.sh
 
 ### ideas
 
-none
+- none
 
 ### in progress
 
-dwm store compiled
+- dwm store compiled
 
 ## FAQ:
 

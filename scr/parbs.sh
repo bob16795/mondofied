@@ -121,7 +121,7 @@ putgitrepo() { # Downlods a gitrepo $1 and places the files in $2 only overwriti
   dialog --infobox "Downloading and installing config files..." 4 60
   dir=$(mktemp -d)
   chown -R "$name":wheel "$dir"
-  sudo -u "$name" git clone --depth 1 "$1" "$dir"/gitrepo >/dev/null 2>&1 &&
+  sudo -u "$name" git clone --depth 1 --recursive "$1" "$dir"/gitrepo >/dev/null 2>&1 &&
   sudo -u "$name" mkdir -p "$2" &&
   sudo -u "$name" cp -rT "$dir"/gitrepo "$2"
   }
@@ -201,14 +201,10 @@ putgitrepo "http://github.com/bob16795/mondofied-themes" "/home/$name/.config/mo
 # sudo -u "$name" vim -E -c "PlugUpdate|visual|q|q" >/dev/null
 
 #get dwm source for mondo
-sudo -u "$name" git clone http://github.com/bob16795/dwm /home/$name/.config/dwm > /dev/null
+# sudo -u "$name" git clone http://github.com/bob16795/dwm /home/$name/.config/dwm > /dev/null
 
 #install spacevim
 curl -sLf https://spacevim.org/install.sh | sudo -u $name bash
-
-#install tmux
-sudo -u $name git clone http://github.com/gpakosz/.tmux
-sudo -u $name ln -s -f .tmux/.tmux.conf
 
 #copy rofi theme
 cp /home/$name/.config/rofi/bmenu.rasi /usr/share/rofi/> /dev/null
@@ -226,7 +222,7 @@ cd /etc/fonts/conf.d/> /dev/null
 sudo rm /etc/fonts/conf.d/10* && sudo rm -rf 70-no-bitmaps.conf && sudo ln -s ../conf.avail/70-yes-bitmaps.conf> /dev/null
 
 #scientifica
-sudo -u "$name" git clone https://github.com/NerdyPepper/scientifica /home/$name/fon/scientifica> /dev/null
+# sudo -u "$name" git clone https://github.com/NerdyPepper/scientifica /home/$name/fon/scientifica> /dev/null
 ln -fs /home/$name/fon/scientifica/regular/scientifica-11.bdf /usr/share/fonts/scientifica-11.bdf > /dev/null
 ln -fs /home/$name/fon/scientifica/bold/scientifica-11.bdf /usr/share/fonts/scientificaBold-11.bdf > /dev/null
 fc-cache -fv > /dev/null

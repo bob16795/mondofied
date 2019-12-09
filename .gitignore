@@ -96,7 +96,7 @@ git
 .bash_history
 .jgmenu-lockfile
 .pulse-cookie
-.local/share/xorg/**
+.local/share/**
 .SpaceVim**
 .ncmpcpp
 .config/discord
