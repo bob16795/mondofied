@@ -7,9 +7,6 @@
 [submodule ".mozilla/firefox"]
 	path = .mozilla/firefox
 	url = http://github.com/lukesmithxyz/mozillarbs
-[submodule "scientifica"]
-	path = scientifica
-	url = http://github.com/nerdypepper/scientifica
 [submodule "fon/scientifica"]
 	path = fon/scientifica
 	url = http://github.com/nerdypepper/scientifica
