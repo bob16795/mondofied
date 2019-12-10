@@ -46,6 +46,7 @@ sh parbs.sh
 ## added
 
 - cleaned everything
+- dwm store compiled
 
 ## Todo
 
@@ -55,7 +56,7 @@ sh parbs.sh
 
 ### in progress
 
-- dwm store compiled
+- settings
 
 ## FAQ:
 
