@@ -1,3 +1,2 @@
 #!/bin/bash
-feh --bg-fill ~/.config/mondo/images/triangles_landscape.jpg
-cp ~/.config/mondo/images/triangles_landscape.jpg ~/Dropbox/wallpaper/wall.png
+feh --bg-fill ~/.config/mondo/images/bird.png

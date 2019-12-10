@@ -1,4 +1,4 @@
 #mondo -fg all
 THEME="$(mondo -l themes | rofi -dmenu 'Theme')"
-mondo -fg $THEME
+#mondo -fg $THEME
 mondo -a $THEME

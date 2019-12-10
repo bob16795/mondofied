@@ -13,10 +13,9 @@
 # MONDO_DIR="${1%%/generator*}"
 # THIS_DIR="${1%/*}"
 # THIS_GENERATOR="${THIS_DIR##*/}"
-# THIS_FILE="${1##*/}"
+THIS_FILE="${1}"
 # THIS_THEME="${THIS_FILE%.*}"
 
 # To source the settings file one could use this:
 # source "${THIS_DIR}/_mondo-settings"
-cd ~/.config/dwm/
-sudo make install
+sudo cp -f $THIS_FILE.dwm /usr/local/bin/dwm
