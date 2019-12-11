@@ -1,1 +1,0 @@
-"use strict";if(window.infinity=window.infinity||{},infinity.import)SETTING.isShowTopBar&&"bookmarks"==SETTING.topBarType&&infinity.import("top-bookmarks","#bookmarkbar",function(){},!0);else var onModuleResLoaded=function(){SETTING.isShowTopBar&&"bookmarks"==SETTING.topBarType&&infinity.import("top-bookmarks","#bookmarkbar",function(){},!0)};

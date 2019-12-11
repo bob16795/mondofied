@@ -1,1 +1,0 @@
-"use strict";Vue.prototype.i18n=function(e){try{return e+="",chrome.i18n.getMessage.apply(this,arguments)||e}catch(t){return e}};

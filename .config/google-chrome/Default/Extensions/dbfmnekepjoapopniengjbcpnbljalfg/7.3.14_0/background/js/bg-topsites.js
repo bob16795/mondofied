@@ -1,1 +1,0 @@
-"use strict";var bgTopsites={init:function(){infinity.init("infinity-topsites",[]),infinity.alarms.onAlarm("getTopSites",function(i){chrome.topSites.get(function(i){infinity.set("infinity-topsites",i)})}),infinity.alarms.get("getTopSites",function(i){i||infinity.alarms.create("getTopSites",{periodInMinutes:10})})}};

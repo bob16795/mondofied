@@ -1,1 +1,0 @@
-"use strict";window.infinity=window.infinity||{},infinity.browser=0<navigator.userAgent.indexOf("Chrome")?"Chrome":"FireFox";

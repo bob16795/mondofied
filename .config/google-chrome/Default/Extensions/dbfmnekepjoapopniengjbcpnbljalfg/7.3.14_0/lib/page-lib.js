@@ -1,1 +1,0 @@
-"use strict";var page={setI18nTitle:function(){var t=document.getElementsByTagName("title")[0].getAttribute("i-i18n");document.getElementsByTagName("title")[0].innerText=infinity.i18n(t)+"-"+infinity.i18n("name")}};Vue.prototype.i18n=function(e){try{return chrome.i18n.getMessage.apply(this,arguments)||e}catch(t){return e}};

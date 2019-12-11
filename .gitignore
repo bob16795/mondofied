@@ -106,3 +106,4 @@ git
 .calcurse
 .viminfo
 .lesshist
+.config/google-chrome/**
