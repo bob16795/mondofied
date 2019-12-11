@@ -1,2 +1,7 @@
 #!/bin/bash
-feh --bg-fill ~/.config/mondo/images/antlers.jpg
+if [[ 0 == 0 ]]; then
+  xwallpaper --zoom ~/.config/mondo/images/antlers.jpg
+else
+  xsetroot -solid '#091234'
+fi
+

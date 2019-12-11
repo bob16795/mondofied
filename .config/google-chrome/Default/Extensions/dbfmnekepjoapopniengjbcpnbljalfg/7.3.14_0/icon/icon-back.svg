@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="8px" height="12px" viewBox="0 0 8 12" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.1 (47250) - http://www.bohemiancoding.com/sketch -->
+    <title>icon-back</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="12" height="12"></rect>
+    </defs>
+    <g id="控件规范" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(-161.000000, -100.000000)">
+        <g id="icon-back" transform="translate(159.000000, 100.000000)">
+            <mask id="mask-2" fill="white">
+                <use xlink:href="#path-1"></use>
+            </mask>
+            <g id="Mask"></g>
+            <path d="M6,2 L12,2 L12,4 L6,4 L6,10 L4,10 L4,2 L6,2 Z" id="Combined-Shape" fill="#2ECC71" mask="url(#mask-2)" transform="translate(8.000000, 6.000000) rotate(-45.000000) translate(-8.000000, -6.000000) "></path>
+        </g>
+    </g>
+</svg>

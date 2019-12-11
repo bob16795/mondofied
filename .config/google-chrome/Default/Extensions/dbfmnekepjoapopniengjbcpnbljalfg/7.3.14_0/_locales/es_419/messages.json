@@ -1,0 +1,731 @@
+{
+   "about": {
+      "message": "Acerca de"
+   },
+   "account_already_exists": {
+      "message": "Esta cuenta ya existe"
+   },
+   "account_backup": {
+      "message": "Cuenta y copias de seguridad"
+   },
+   "account_validation_invalid": {
+      "message": "El nombre de usuario o la contraseña son incorrectos"
+   },
+   "add": {
+      "message": "Agregar"
+   },
+   "add_addtional_search": {
+      "message": "Agregar motor de búsqueda"
+   },
+   "add_fail_due_to_network_error": {
+      "message": "Fallo al añadir debido a problemas de red, inténtalo de nuevo más tarde"
+   },
+   "add_search": {
+      "message": "Agregar motor de búsqueda"
+   },
+   "add_success": {
+      "message": "¡Añadido con éxito!"
+   },
+   "add_to_infinity": {
+      "message": "Agregar a Infinity New Tab"
+   },
+   "added": {
+      "message": "Agregada"
+   },
+   "additional_se_desc": {
+      "message": "Aparecerán motores de búsqueda adicionales cuando se ingresen palabras clave"
+   },
+   "addtional_search": {
+      "message": "Motor de búsqueda adicional"
+   },
+   "app": {
+      "message": "Aplicaciones"
+   },
+   "appearance": {
+      "message": "Diseño"
+   },
+   "apps": {
+      "message": "Aplicaciones"
+   },
+   "are_you_sure": {
+      "message": "¿Seguro? Esta acción no se puede deshacer."
+   },
+   "auto_backup": {
+      "message": "Respaldar automáticamente"
+   },
+   "auto_change_wp_per_day": {
+      "message": "Cambiar automáticamente el fondo de escritorio todos los días"
+   },
+   "back": {
+      "message": "Atrás"
+   },
+   "backup_data": {
+      "message": "Copia de seguridad de los datos"
+   },
+   "backup_failed": {
+      "message": "Error en el respaldo"
+   },
+   "backup_file": {
+      "message": "Hacer una copia de seguridad de los archivos"
+   },
+   "backup_now": {
+      "message": "Realizar respaldo ahora"
+   },
+   "backup_success": {
+      "message": "Respaldo completado"
+   },
+   "backup_success_desc": {
+      "message": "Se ha realizado una copia de seguridad de tus datos en el almacenamiento en la nube"
+   },
+   "backuping": {
+      "message": "Creando respaldo…"
+   },
+   "baidu": {
+      "message": "Baidu"
+   },
+   "bing": {
+      "message": "Bing"
+   },
+   "blur_wallpaper": {
+      "message": "Añade un efecto de desenfoque al fondo de escritorio"
+   },
+   "bookmark_manager": {
+      "message": "Administrador de favoritos"
+   },
+   "bookmarks": {
+      "message": "Favoritos"
+   },
+   "can_not_add_page": {
+      "message": "Lo sentimos, esta página no permite añadir a Nuevas pestañas de Infinity"
+   },
+   "can_not_delete_current_search_engine": {
+      "message": "No se puede eliminar el motor de búsqueda actual"
+   },
+   "cancel": {
+      "message": "Cancelar"
+   },
+   "cancel_add": {
+      "message": "Cancelar"
+   },
+   "celsius": {
+      "message": "Celsius"
+   },
+   "change_city": {
+      "message": "Cambiar ciudad"
+   },
+   "choose_image": {
+      "message": "Elegir imagen"
+   },
+   "chrome_apps": {
+      "message": "Aplicaciones de Chrome"
+   },
+   "city_not_found": {
+      "message": "No se encontró ninguna ciudad"
+   },
+   "city_set_failed": {
+      "message": "No se ha podido configurar tu ciudad, inténtalo de nuevo más tarde."
+   },
+   "clear_done": {
+      "message": "Borrado completado"
+   },
+   "click_refresh_valicode": {
+      "message": "Haz clic en la imagen para actualizar el código de verificación"
+   },
+   "completed": {
+      "message": "Completada"
+   },
+   "contact_us": {
+      "message": "Contáctenos"
+   },
+   "custom": {
+      "message": "Personalizado"
+   },
+   "custom_add": {
+      "message": "Añadir de forma personalizada"
+   },
+   "data_recovery_failed": {
+      "message": "Error al recuperar los datos"
+   },
+   "default": {
+      "message": "Predeterminado"
+   },
+   "delete_account_title": {
+      "message": "Eliminar cuenta"
+   },
+   "delete_my_account": {
+      "message": "Suprimir mi cuenta"
+   },
+   "detect_cloud_backup": {
+      "message": "Nuevos datos detectados en el almacenamiento en la nube. ¿Quieres recuperar primero el almacenamiento local? "
+   },
+   "discard": {
+      "message": "Rechazar"
+   },
+   "does_not_exist": {
+      "message": "No existe"
+   },
+   "done": {
+      "message": "Listo"
+   },
+   "download_current_wp": {
+      "message": "Descargar fondo de escritorio"
+   },
+   "edit_failed_due_to_net_work": {
+      "message": "Fallo al editar debido a problemas de red, inténtalo de nuevo más tarde"
+   },
+   "edit_image": {
+      "message": "Editar imagen"
+   },
+   "education": {
+      "message": "Educación y reclutamiento"
+   },
+   "email": {
+      "message": "Correo electrónico"
+   },
+   "email_verification_code": {
+      "message": "Código de verificación de correo electrónico"
+   },
+   "enter_and_search": {
+      "message": "Ingresar y buscar... "
+   },
+   "enter_city_name_to_search": {
+      "message": "Introduce el nombre de tu ciudad y pulsa Enter para buscar"
+   },
+   "enter_new_passcode": {
+      "message": "Código nuevo"
+   },
+   "enter_password": {
+      "message": "Ingresar contraseña"
+   },
+   "enter_to_search": {
+      "message": "Pulsa Enter para buscar"
+   },
+   "ext_has_been_deleted": {
+      "message": "Se eliminó “$name$”",
+      "placeholders": {
+         "name": {
+            "content": "$1"
+         }
+      }
+   },
+   "extension": {
+      "message": "Extensiones"
+   },
+   "extension_des": {
+      "message": "Esta nueva pestaña agrega ícono de sitio web, fondos de pantalla HD, marcador, clima, notas, lista de tareas, Gestión de la historia"
+   },
+   "fahrenheit": {
+      "message": "Fahrenheit"
+   },
+   "feedback_suggestion": {
+      "message": "Comentarios y sugerencias"
+   },
+   "feedback_us": {
+      "message": "Si tiene alguna otra pregunta, no dude en contactarnos:"
+   },
+   "finance": {
+      "message": "Financiero"
+   },
+   "find_password": {
+      "message": "Recuperar contraseña"
+   },
+   "font_color": {
+      "message": "Color del texto"
+   },
+   "forgot": {
+      "message": "Recuperar contraseña"
+   },
+   "format_error": {
+      "message": "Error de formato"
+   },
+   "games": {
+      "message": "Juegos y entretenimiento"
+   },
+   "general": {
+      "message": "General"
+   },
+   "generate_backup_file": {
+      "message": "Generar copia de seguridad de archivos"
+   },
+   "get_bookmarks": {
+      "message": "Leer y cambiar los favoritos"
+   },
+   "give_up_account": {
+      "message": "¿No quieres conservar tu cuenta? "
+   },
+   "give_us_a_five_star": {
+      "message": "¿Estás dispuesto/a a darnos una calificación de cinco estrellas?"
+   },
+   "gmail_noti": {
+      "message": "Notificaciones de Gmail"
+   },
+   "go_on_add": {
+      "message": "Continuar añadiendo"
+   },
+   "google": {
+      "message": "Google"
+   },
+   "got_it": {
+      "message": "Entendido"
+   },
+   "has_update": {
+      "message": "$name$ se ha actualizado",
+      "placeholders": {
+         "name": {
+            "content": "$1"
+         }
+      }
+   },
+   "hide_icon_name": {
+      "message": "Ocultar nombre del icono"
+   },
+   "history": {
+      "message": "Historial"
+   },
+   "humidity": {
+      "message": "humedad"
+   },
+   "i_city": {
+      "message": "Ciudad"
+   },
+   "i_clear_history": {
+      "message": "Borrar historial"
+   },
+   "i_delete": {
+      "message": "Eliminar"
+   },
+   "i_edit": {
+      "message": "Editar"
+   },
+   "i_empty_history": {
+      "message": "Actualmente no hay historial de navegación"
+   },
+   "i_more": {
+      "message": "Más"
+   },
+   "i_new_tab": {
+      "message": "Nueva pestaña"
+   },
+   "i_no_bookmarks_in_folder": {
+      "message": "La carpeta no contiene ningún marcador"
+   },
+   "i_ok": {
+      "message": "DE ACUERDO"
+   },
+   "i_please_wait": {
+      "message": "Por favor, espere…"
+   },
+   "i_to_do": {
+      "message": "Tarea"
+   },
+   "icon": {
+      "message": "Ícono"
+   },
+   "icon_border_radius": {
+      "message": "Esquinas redondeadas del icono"
+   },
+   "icon_opacity": {
+      "message": "Transparencia del icono"
+   },
+   "if_not_recovery_now": {
+      "message": "De lo contrario, los cambios realizados en el almacenamiento local sobrescribirán los datos del almacenamiento en la nube"
+   },
+   "images": {
+      "message": "Imágenes"
+   },
+   "invalid_password_header": {
+      "message": "Contraseña incorrecta"
+   },
+   "invalid_verification_code_title": {
+      "message": "Código de verificación incorrecto"
+   },
+   "last_backup": {
+      "message": "Último respaldo:"
+   },
+   "layout": {
+      "message": "Diseño"
+   },
+   "life": {
+      "message": "Estilo de vida"
+   },
+   "loading_module": {
+      "message": "Cargando…"
+   },
+   "local_is_new": {
+      "message": "El almacenamiento local está actualizado"
+   },
+   "local_wallpaper": {
+      "message": "Fondos de escritorio locales"
+   },
+   "login_it": {
+      "message": "Iniciar sesión"
+   },
+   "login_now": {
+      "message": "Iniciar sesión ahora"
+   },
+   "login_to_backup": {
+      "message": "Accede a tu cuenta Infinity y realiza una copia de seguridad de tus datos en el almacenamiento en la nube"
+   },
+   "maps": {
+      "message": "Mapas"
+   },
+   "music": {
+      "message": "Música y video"
+   },
+   "must_fill": {
+      "message": "Completa este campo"
+   },
+   "name": {
+      "message": "Infinity Nueva pestaña - Productividad y Marcación rápida"
+   },
+   "need_further_improvement": {
+      "message": "No, necesitan mejorar más"
+   },
+   "net_error": {
+      "message": "Error de red"
+   },
+   "new_edit_notes": {
+      "message": "Últimas notas"
+   },
+   "new_notes": {
+      "message": "Nueva nota"
+   },
+   "news": {
+      "message": "Noticias"
+   },
+   "no_account": {
+      "message": "¿Aún no tienes una cuenta? "
+   },
+   "no_any_add_search": {
+      "message": "No ha añadido ningún motor de búsquedas adicional"
+   },
+   "no_any_custom_search": {
+      "message": "No se ha añadido ningún motor de búsqueda personalizado"
+   },
+   "no_dones": {
+      "message": "No hay cosas por hacer completadas"
+   },
+   "no_more": {
+      "message": "Nada más"
+   },
+   "no_search_results": {
+      "message": "No se encontraron resultados en la búsqueda"
+   },
+   "no_todos": {
+      "message": "No hay cosas por hacer"
+   },
+   "not_support": {
+      "message": "Esta característica no es compatible con la versión actual, actualiza a $pro_version$ si es necesario",
+      "placeholders": {
+         "pro_version": {
+            "content": "$1"
+         }
+      }
+   },
+   "note_view_zoom": {
+      "message": "Tenga en cuenta que este elemento sigue su computadora actual y no se sincronizará en la nube."
+   },
+   "notes": {
+      "message": "Notas"
+   },
+   "noti_sound": {
+      "message": "Tono de notificación de Gmail"
+   },
+   "open__in_a_new_tab": {
+      "message": "Abrir “$type$” en una pestaña nueva",
+      "placeholders": {
+         "type": {
+            "content": "$1"
+         }
+      }
+   },
+   "operation_completed_successfully": {
+      "message": "Operación exitosa"
+   },
+   "other_search": {
+      "message": "Otros motores de búsqueda"
+   },
+   "otherbookmarks": {
+      "message": "Otros favoritos"
+   },
+   "others": {
+      "message": "Otro"
+   },
+   "password": {
+      "message": "Contraseña"
+   },
+   "password_min": {
+      "message": "La contraseña debe tener entre 6 y 20 caracteres"
+   },
+   "photos": {
+      "message": "Imágenes"
+   },
+   "please_enter_format_email": {
+      "message": "Introduce una dirección de correo electrónico en el formato correcto"
+   },
+   "please_input_correct_search_url": {
+      "message": "Ingresaste un URL incorrecto."
+   },
+   "pmset": {
+      "message": "Definir código"
+   },
+   "popular": {
+      "message": "Popular"
+   },
+   "pressure": {
+      "message": "Presión"
+   },
+   "privacy_policy": {
+      "message": "Política de privacidad"
+   },
+   "random_wp": {
+      "message": "Fondo de escritorio al azar"
+   },
+   "random_wp_change_by": {
+      "message": "Consigue un fondo de escritorio aleatorio haciendo clic en el molino de viento en la esquina inferior derecha del escritorio"
+   },
+   "read": {
+      "message": "leer"
+   },
+   "recent": {
+      "message": "Recientes"
+   },
+   "recovery_data": {
+      "message": "Recuperar datos"
+   },
+   "recovery_default_wp": {
+      "message": "Volver al fondo de escritorio predeterminado... "
+   },
+   "recovery_from_backup_file": {
+      "message": "Recuperar datos de la copia de seguridad de los archivos"
+   },
+   "recovery_now": {
+      "message": "Recuperar ahora"
+   },
+   "recovery_to_default_wp": {
+      "message": "Revertir a papel tapiz por omisión"
+   },
+   "reload": {
+      "message": "Cargar de nuevo"
+   },
+   "remove_image": {
+      "message": "Eliminar imagen"
+   },
+   "require_new_permissition": {
+      "message": "\"$name$\" ha solicitado permisos adicionales",
+      "placeholders": {
+         "name": {
+            "content": "$1"
+         }
+      }
+   },
+   "reset_email_has_send": {
+      "message": "Se le ha enviado la información de verificación por correo electrónico. Copia el código de verificación de correo electrónico para continuar restableciendo tu contraseña."
+   },
+   "restore_complete": {
+      "message": "Restauración completada"
+   },
+   "restoring": {
+      "message": "Restaurando…"
+   },
+   "save": {
+      "message": "Guardar"
+   },
+   "search": {
+      "message": "Buscar"
+   },
+   "search360": {
+      "message": "360 Search"
+   },
+   "search_by": {
+      "message": "Buscar por: $searchName$",
+      "placeholders": {
+         "searchName": {
+            "content": "$1"
+         }
+      }
+   },
+   "search_engine": {
+      "message": "Buscador"
+   },
+   "search_results": {
+      "message": "Resultados"
+   },
+   "search_url": {
+      "message": "URL con %s en el lugar de la consulta"
+   },
+   "select_wp": {
+      "message": "Selecciona un fondo de escritorio local"
+   },
+   "server_error": {
+      "message": "Ocurrió un error en el servidor"
+   },
+   "setting_city": {
+      "message": "Configurar tu ciudad"
+   },
+   "settings": {
+      "message": "Configuración"
+   },
+   "shopping": {
+      "message": "Compras"
+   },
+   "show_bookmarks": {
+      "message": "Mostrar marcadores"
+   },
+   "show_gmail_num": {
+      "message": "Mostrar el número de mensajes de correo electrónico no leídos de Gmail en el icono"
+   },
+   "show_random_wp_btn": {
+      "message": "Mostrar botón para cambiar aleatoriamente los fondos de escritorio en la esquina inferior derecha"
+   },
+   "show_search_box": {
+      "message": "Mostrar cuadro de búsqueda"
+   },
+   "show_search_btn": {
+      "message": "Mostrar botón de búsqueda"
+   },
+   "show_search_type": {
+      "message": "Mostrar tipo de búsqueda"
+   },
+   "show_todos_num": {
+      "message": "Mostrar número de tareas pendientes en el icono"
+   },
+   "show_topsites": {
+      "message": "Mostrar mejores sitios"
+   },
+   "sign_in_success": {
+      "message": "Inicio de sesión exitoso"
+   },
+   "sign_in_to_backup_cloud": {
+      "message": "Regístrate en una cuenta de Infinity y haz una copia de seguridad de tus datos en el almacenamiento en la nube"
+   },
+   "sign_out": {
+      "message": "Cerrar sesión"
+   },
+   "sign_up": {
+      "message": "Registrarse"
+   },
+   "sign_up_success": {
+      "message": "Cuenta registrada con éxito"
+   },
+   "site_name": {
+      "message": "Nombre"
+   },
+   "site_url": {
+      "message": "URL"
+   },
+   "site_website": {
+      "message": "Sitio web"
+   },
+   "social": {
+      "message": "Social y blog"
+   },
+   "sogou": {
+      "message": "Sogou"
+   },
+   "sports": {
+      "message": "Deportes y viajes"
+   },
+   "start_animation": {
+      "message": "Animación de apertura"
+   },
+   "sync_bing_wp": {
+      "message": "Sincronizar fondo de escritorio de Bing"
+   },
+   "tech": {
+      "message": "Tecnología digital"
+   },
+   "temperature_unit": {
+      "message": "Unidad de temperatura"
+   },
+   "terms_of_use": {
+      "message": "Condiciones de uso"
+   },
+   "this_page_no_space": {
+      "message": "No hay más espacio en esta página"
+   },
+   "to_top": {
+      "message": "Parte superior"
+   },
+   "todos": {
+      "message": "Tareas"
+   },
+   "todos_welcome": {
+      "message": "Bienvenidos a Nuevas pestañas de Infinity. Este es un ejemplo de lo que hay que hacer."
+   },
+   "top_bar": {
+      "message": "Barra superior"
+   },
+   "try_later": {
+      "message": "Intenta más tarde"
+   },
+   "undo": {
+      "message": "Deshacer"
+   },
+   "unname_folder": {
+      "message": "carpeta sin título"
+   },
+   "verification_code": {
+      "message": "Código de verificación"
+   },
+   "videos": {
+      "message": "videos"
+   },
+   "view_zoom": {
+      "message": "Ver zoom (icono y cuadro de búsqueda)"
+   },
+   "wallpaper": {
+      "message": "Fondo de pantalla"
+   },
+   "wallpaper_type": {
+      "message": "Tipo de fondo de escritorio"
+   },
+   "we_update": {
+      "message": "Hola, se ha actualizado Infinity New Tab."
+   },
+   "weather": {
+      "message": "Clima"
+   },
+   "weather_setting": {
+      "message": "Ajustes de tiempo"
+   },
+   "web": {
+      "message": "Web"
+   },
+   "weixin": {
+      "message": "WeChat"
+   },
+   "welcome": {
+      "message": "Bienvenido a Infinity"
+   },
+   "what_to_do": {
+      "message": "¿Qué debería hacer? "
+   },
+   "will_cover_cloud": {
+      "message": "Esta operación sobrescribirá los datos del almacenamiento en la nube"
+   },
+   "will_cover_local": {
+      "message": "Esta operación sobrescribirá los datos en el almacenamiento local"
+   },
+   "will_rate": {
+      "message": "Sí, los califico así"
+   },
+   "wind": {
+      "message": "Viento"
+   },
+   "write_sth": {
+      "message": "Escribe algo... "
+   },
+   "yahoo": {
+      "message": "Yahoo!"
+   },
+   "you_can_set_view": {
+      "message": "Si no está satisfecho con el tamaño de vista actual, puede ajustarlo desde la configuración."
+   },
+   "you_did_not_backup": {
+      "message": "No has hecho una copia de seguridad de tus datos"
+   },
+   "your_password_change": {
+      "message": "Se cambió el código"
+   }
+}

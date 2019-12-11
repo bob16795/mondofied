@@ -1,0 +1,734 @@
+{
+   "about": {
+      "message": "概要"
+   },
+   "account_already_exists": {
+      "message": "アカウントがすでに存在します"
+   },
+   "account_backup": {
+      "message": "アカウントとバックアップ"
+   },
+   "account_validation_invalid": {
+      "message": "ユーザ名またはパスワードが間違っています"
+   },
+   "add": {
+      "message": "追加"
+   },
+   "add_addtional_search": {
+      "message": "検索エンジンを追加"
+   },
+   "add_fail_due_to_network_error": {
+      "message": "ネットワークに問題があるため、追加できませんでした。後でもう一度やり直してください"
+   },
+   "add_search": {
+      "message": "検索エンジンの追加"
+   },
+   "add_success": {
+      "message": "追加しました"
+   },
+   "add_to_infinity": {
+      "message": "Infinityに追加新しいタブ"
+   },
+   "added": {
+      "message": "追加済み"
+   },
+   "additional_se_desc": {
+      "message": "キーワードを入力すると、追加の検索エンジンが表示されます"
+   },
+   "addtional_search": {
+      "message": "その他のサーチエンジン"
+   },
+   "app": {
+      "message": "アプリ"
+   },
+   "appearance": {
+      "message": "デザイン"
+   },
+   "apps": {
+      "message": "アプリ"
+   },
+   "are_you_sure": {
+      "message": "本当によろしいですか? この操作は取り消しできません。"
+   },
+   "auto_backup": {
+      "message": "バックアップを自動作成"
+   },
+   "auto_change_wp_per_day": {
+      "message": "壁紙を毎日自動で変更します"
+   },
+   "back": {
+      "message": "戻る"
+   },
+   "backup_data": {
+      "message": "データバックアップ"
+   },
+   "backup_failed": {
+      "message": "バックアップに失敗しました"
+   },
+   "backup_file": {
+      "message": "バックアップファイル"
+   },
+   "backup_now": {
+      "message": "今すぐバックアップを作成"
+   },
+   "backup_success": {
+      "message": "バックアップ完了"
+   },
+   "backup_success_desc": {
+      "message": "データがクラウドストレージにバックアップされました"
+   },
+   "backuping": {
+      "message": "バックアップを作成中…"
+   },
+   "baidu": {
+      "message": "Baidu"
+   },
+   "bing": {
+      "message": "Bing"
+   },
+   "blur_wallpaper": {
+      "message": "壁紙にブラーエフェクトを追加します"
+   },
+   "bookmark_manager": {
+      "message": "ブックマーク マネージャ"
+   },
+   "bookmarks": {
+      "message": "ブックマーク"
+   },
+   "can_not_add_page": {
+      "message": "申し訳ありませんが、このページは Infinity の新しいタブへの追加をサポートしていません"
+   },
+   "can_not_delete_current_search_engine": {
+      "message": "現在使用されている検索エンジンは削除できません"
+   },
+   "cancel": {
+      "message": "キャンセル"
+   },
+   "cancel_add": {
+      "message": "キャンセル"
+   },
+   "celsius": {
+      "message": "摂氏"
+   },
+   "change_city": {
+      "message": "都市を変更"
+   },
+   "choose_image": {
+      "message": "画像を選択"
+   },
+   "chrome_apps": {
+      "message": "Chrome アプリ"
+   },
+   "city_not_found": {
+      "message": "住所が見つかりませんでした"
+   },
+   "city_set_failed": {
+      "message": "都市を設定できませんでした、後でもう一度やり直してください"
+   },
+   "clear_done": {
+      "message": "Clear up completed"
+   },
+   "click_refresh_valicode": {
+      "message": "画像をクリックして認証コードを更新"
+   },
+   "completed": {
+      "message": "完了"
+   },
+   "contact_us": {
+      "message": "お問い合わせ"
+   },
+   "custom": {
+      "message": "カスタム"
+   },
+   "custom_add": {
+      "message": "カスタムして追加"
+   },
+   "data_recovery_failed": {
+      "message": "データの回復に失敗しました"
+   },
+   "default": {
+      "message": "既定"
+   },
+   "delete_account_title": {
+      "message": "アカウントを削除"
+   },
+   "delete_my_account": {
+      "message": "アカウントを削除"
+   },
+   "detect_cloud_backup": {
+      "message": "クラウドストレージ上で新しいデータが検出されました。ローカルストレージを先に回復しますか？"
+   },
+   "discard": {
+      "message": "破棄"
+   },
+   "does_not_exist": {
+      "message": "が存在しない"
+   },
+   "done": {
+      "message": "完了"
+   },
+   "download_current_wp": {
+      "message": "壁紙ダウンロード"
+   },
+   "edit_failed_due_to_net_work": {
+      "message": "ネットワークに問題があるため、編集できませんでした。後でもう一度やり直してください"
+   },
+   "edit_image": {
+      "message": "ピクチャを編集"
+   },
+   "education": {
+      "message": "教育と募集"
+   },
+   "email": {
+      "message": "メール"
+   },
+   "email_verification_code": {
+      "message": "認証コードをメールで送信"
+   },
+   "enter_and_search": {
+      "message": "入力して検索する..."
+   },
+   "enter_city_name_to_search": {
+      "message": "都市名を入力し、 Enter を押して検索してください"
+   },
+   "enter_new_passcode": {
+      "message": "新しいパスコード"
+   },
+   "enter_password": {
+      "message": "パスワードを入力"
+   },
+   "enter_to_search": {
+      "message": "Enter を押して検索"
+   },
+   "ext_has_been_deleted": {
+      "message": "“$name$”は削除されました",
+      "placeholders": {
+         "name": {
+            "content": "$1"
+         }
+      }
+   },
+   "extension": {
+      "message": "拡張機能"
+   },
+   "extension_des": {
+      "message": "何百万人ものユーザーのための新しいタブで、ウェブサイトのアイコン、クラウドのHD壁紙、ブックマークへの迅速なアクセス、天気、メモ、予定の項目、拡張された管理と履歴を自由に追加できます。"
+   },
+   "fahrenheit": {
+      "message": "華氏"
+   },
+   "feedback_suggestion": {
+      "message": "フィードバックと提案"
+   },
+   "feedback_us": {
+      "message": "その他ご不明な点がございましたら、お気軽にお問い合わせください。"
+   },
+   "finance": {
+      "message": "財務"
+   },
+   "find_password": {
+      "message": "パスワードを再設定"
+   },
+   "font_color": {
+      "message": "テキストカラー"
+   },
+   "forgot": {
+      "message": "パスワードを忘れたら"
+   },
+   "format_error": {
+      "message": "フォーマットエラー"
+   },
+   "games": {
+      "message": "ゲームとエンターテイメント"
+   },
+   "general": {
+      "message": "一般"
+   },
+   "generate_backup_file": {
+      "message": "バックアップファイルを生成します"
+   },
+   "get_bookmarks": {
+      "message": "ブックマークの読み取りと変更"
+   },
+   "give_up_account": {
+      "message": "もうアカウントは必要ありませんか？"
+   },
+   "give_us_a_five_star": {
+      "message": "私たちに5つ星の高評価をいただけますか？"
+   },
+   "gmail_noti": {
+      "message": "Gmail通知"
+   },
+   "go_on_add": {
+      "message": "さらに追加"
+   },
+   "google": {
+      "message": "Google"
+   },
+   "got_it": {
+      "message": "了解"
+   },
+   "has_update": {
+      "message": "$name$ を更新しました",
+      "placeholders": {
+         "name": {
+            "content": "$1"
+         }
+      }
+   },
+   "hide_icon_name": {
+      "message": "アイコン名を隠す"
+   },
+   "history": {
+      "message": "履歴"
+   },
+   "humidity": {
+      "message": "湿度"
+   },
+   "i_city": {
+      "message": "都市"
+   },
+   "i_clear_history": {
+      "message": "履歴を消去"
+   },
+   "i_delete": {
+      "message": "削除"
+   },
+   "i_edit": {
+      "message": "編集"
+   },
+   "i_empty_history": {
+      "message": "現在閲覧履歴はありません"
+   },
+   "i_more": {
+      "message": "もっと見る"
+   },
+   "i_new_tab": {
+      "message": "新しいタブ"
+   },
+   "i_no_bookmarks_in_folder": {
+      "message": "フォルダにブックマークがありません"
+   },
+   "i_ok": {
+      "message": "[OK]"
+   },
+   "i_please_wait": {
+      "message": "お待ちください…"
+   },
+   "i_to_do": {
+      "message": "To Do"
+   },
+   "icon": {
+      "message": "アイコン"
+   },
+   "icon_border_radius": {
+      "message": "アイコンの角度"
+   },
+   "icon_opacity": {
+      "message": "アイコンの透過度"
+   },
+   "if_not_recovery_now": {
+      "message": "回復しない場合、ローカルストレージを変更するとクラウドストレージのデータが上書きされます"
+   },
+   "images": {
+      "message": "画像"
+   },
+   "invalid_password_header": {
+      "message": "不正なパスワード"
+   },
+   "invalid_verification_code_title": {
+      "message": "認証コードが違います"
+   },
+   "last_backup": {
+      "message": "前回のバックアップ:"
+   },
+   "layout": {
+      "message": "レイアウト"
+   },
+   "life": {
+      "message": "ライフスタイル"
+   },
+   "loading_module": {
+      "message": "読み込んでいます…"
+   },
+   "local_is_new": {
+      "message": "ローカルストレージは最新の状態です"
+   },
+   "local_wallpaper": {
+      "message": "基本の壁紙"
+   },
+   "login_it": {
+      "message": "サインイン"
+   },
+   "login_now": {
+      "message": "今すぐサインイン"
+   },
+   "login_to_backup": {
+      "message": "Infinity アカウントにサインインして、クラウドストレージにデータをバックアップしましょう"
+   },
+   "maps": {
+      "message": "マップ"
+   },
+   "music": {
+      "message": "音楽とビデオ"
+   },
+   "must_fill": {
+      "message": "このフィールドを入力してください"
+   },
+   "name": {
+      "message": "Infinity 新しいタブ - 生産性とスピードダイヤル"
+   },
+   "need_further_improvement": {
+      "message": "いいえ、さらに改善が必要です"
+   },
+   "net_error": {
+      "message": "ネットワーク エラー"
+   },
+   "new_edit_notes": {
+      "message": "最近のメモ"
+   },
+   "new_notes": {
+      "message": "新しいメモ"
+   },
+   "news": {
+      "message": "ニュース"
+   },
+   "no_account": {
+      "message": "アカウントをお持ちではないですか？"
+   },
+   "no_any_add_search": {
+      "message": "あなたはさらなる検索エンジンを追加していません"
+   },
+   "no_any_custom_search": {
+      "message": "カスタム検索エンジンが追加されていません"
+   },
+   "no_dones": {
+      "message": "完了したto-doアイテムはありません"
+   },
+   "no_more": {
+      "message": "これ以上はありません"
+   },
+   "no_search_results": {
+      "message": "一致する結果は見つかりませんでした"
+   },
+   "no_todos": {
+      "message": "to-doアイテムがありません"
+   },
+   "not_support": {
+      "message": "この機能は現在のバージョンではサポートされていません。必要に応じ、$pro_version$ にアップグレードしてください",
+      "placeholders": {
+         "pro_version": {
+            "content": "$1"
+         }
+      }
+   },
+   "note_view_zoom": {
+      "message": "このアイテムはあなたの現在のコンピュータの後ろにあり、クラウドでは同期しません。"
+   },
+   "notes": {
+      "message": "メモ"
+   },
+   "noti_sound": {
+      "message": "Gmail着信通知音"
+   },
+   "open__in_a_new_tab": {
+      "message": "“$type$”を新規タブで開く",
+      "placeholders": {
+         "type": {
+            "content": "$1"
+         }
+      }
+   },
+   "operation_completed_successfully": {
+      "message": "操作が完了しました"
+   },
+   "other_search": {
+      "message": "その他の検索エンジン"
+   },
+   "otherbookmarks": {
+      "message": "その他のブックマーク"
+   },
+   "others": {
+      "message": "その他"
+   },
+   "password": {
+      "message": "パスワード"
+   },
+   "password_min": {
+      "message": "パスワードは6～20文字にしてください"
+   },
+   "photos": {
+      "message": "ピクチャ"
+   },
+   "please_enter_format_email": {
+      "message": "メールアドレスを正しい形式で入力してください"
+   },
+   "please_input_correct_search_url": {
+      "message": "入力したURLが正しくありません。"
+   },
+   "pmset": {
+      "message": "パスコードを設定"
+   },
+   "popular": {
+      "message": "人気"
+   },
+   "pressure": {
+      "message": "気圧"
+   },
+   "privacy_policy": {
+      "message": "プライバシーポリシー"
+   },
+   "random_wp": {
+      "message": "ランダム壁紙"
+   },
+   "random_wp_change_by": {
+      "message": "デスクトップの右下隅にある風車をクリックすると、ランダム壁紙を取得できます"
+   },
+   "read": {
+      "message": "開封"
+   },
+   "recent": {
+      "message": "最近の写真"
+   },
+   "recovery_data": {
+      "message": "データの復元"
+   },
+   "recovery_default_wp": {
+      "message": "デフォルトの壁紙に戻しています…"
+   },
+   "recovery_from_backup_file": {
+      "message": "バックアップファイルからデータを回復させます"
+   },
+   "recovery_now": {
+      "message": "回復させる"
+   },
+   "recovery_to_default_wp": {
+      "message": "デフォルトの壁紙に戻る"
+   },
+   "reload": {
+      "message": "再読み込み"
+   },
+   "remove_image": {
+      "message": "画像を削除"
+   },
+   "require_new_permissition": {
+      "message": "「$name$」が追加の許可をリクエストしています",
+      "placeholders": {
+         "name": {
+            "content": "$1"
+         }
+      }
+   },
+   "reset_email_has_send": {
+      "message": "あなたのメールアドレスに認証情報を送信しました。メールに記載された認証コードをコピーして、パスワードをリセットしてください。"
+   },
+   "restore_complete": {
+      "message": "復元完了"
+   },
+   "restoring": {
+      "message": "復元中…"
+   },
+   "save": {
+      "message": "保存"
+   },
+   "search": {
+      "message": "検索"
+   },
+   "search360": {
+      "message": "360 Search"
+   },
+   "search_by": {
+      "message": "$searchName$による検索",
+      "placeholders": {
+         "searchName": {
+            "content": "$1"
+         }
+      }
+   },
+   "search_engine": {
+      "message": "検索エンジン"
+   },
+   "search_results": {
+      "message": "検索結果"
+   },
+   "search_url": {
+      "message": "URL（%s=検索語句）"
+   },
+   "select_wp": {
+      "message": "基本の壁紙を選択"
+   },
+   "server_error": {
+      "message": "サーバエラーが起きました"
+   },
+   "setting_city": {
+      "message": "お住まいの都市を設定"
+   },
+   "settings": {
+      "message": "設定"
+   },
+   "shopping": {
+      "message": "ショッピング"
+   },
+   "show_bookmarks": {
+      "message": "ブックマークを表示"
+   },
+   "show_gmail_num": {
+      "message": "チャート上にGmailの未読件数を表示"
+   },
+   "show_random_wp_btn": {
+      "message": "右下にランダム切替壁紙ボタンを表示する"
+   },
+   "show_search_box": {
+      "message": "検索ボックスを表示"
+   },
+   "show_search_btn": {
+      "message": "検索ボタンを表示"
+   },
+   "show_search_type": {
+      "message": "検索タイプを表示"
+   },
+   "show_todos_num": {
+      "message": "チャート上にTo-Doリストの件数を表示する"
+   },
+   "show_topsites": {
+      "message": "上位サイトを表示"
+   },
+   "sign_in_success": {
+      "message": "サインインに成功しました"
+   },
+   "sign_in_to_backup_cloud": {
+      "message": "Infinity アカウントにサインアップして、クラウドストレージにデータをバックアップしましょう"
+   },
+   "sign_out": {
+      "message": "登録キャンセル"
+   },
+   "sign_up": {
+      "message": "サインアップ"
+   },
+   "sign_up_success": {
+      "message": "アカウントのサインアップが完了しました"
+   },
+   "site_name": {
+      "message": "名前"
+   },
+   "site_url": {
+      "message": "URL"
+   },
+   "site_website": {
+      "message": "ウェブサイト"
+   },
+   "social": {
+      "message": "社会とブログ"
+   },
+   "sogou": {
+      "message": "Sogou"
+   },
+   "sports": {
+      "message": "スポーツと旅行"
+   },
+   "start_animation": {
+      "message": "起動アニメーション"
+   },
+   "sync_bing_wp": {
+      "message": "Bing の壁紙と同期します"
+   },
+   "tech": {
+      "message": "デジタル技術"
+   },
+   "temperature_unit": {
+      "message": "温度単位"
+   },
+   "terms_of_use": {
+      "message": "利用規約"
+   },
+   "this_page_no_space": {
+      "message": "このページにはこれ以上スペースがありません"
+   },
+   "to_top": {
+      "message": "上"
+   },
+   "todos": {
+      "message": "To Do"
+   },
+   "todos_welcome": {
+      "message": "Infinity の「新しいタブ」へようこそ。これはto-doアイテムのサンプルです。"
+   },
+   "top_bar": {
+      "message": "上のバー"
+   },
+   "try_later": {
+      "message": "後でやり直してください"
+   },
+   "undo": {
+      "message": "取り消す"
+   },
+   "unname_folder": {
+      "message": "名称未設定フォルダ"
+   },
+   "verification_code": {
+      "message": "認証コード"
+   },
+   "videos": {
+      "message": "本のビデオ"
+   },
+   "view_zoom": {
+      "message": "ビューズーム（アイコンと検索ボックス）"
+   },
+   "wallpaper": {
+      "message": "壁紙"
+   },
+   "wallpaper_type": {
+      "message": "壁紙のタイプ"
+   },
+   "we_update": {
+      "message": "こんにちは、Infinity New Tab hasが更新されました。"
+   },
+   "weather": {
+      "message": "天気"
+   },
+   "weather_setting": {
+      "message": "天気予報の設定"
+   },
+   "web": {
+      "message": "Web"
+   },
+   "weixin": {
+      "message": "WeChat"
+   },
+   "welcome": {
+      "message": "Infinityにようこそ"
+   },
+   "what_to_do": {
+      "message": "何をすればいいですか？"
+   },
+   "will_cover_cloud": {
+      "message": "この操作を行うと、クラウドストレージ上のデータは上書きされます"
+   },
+   "will_cover_local": {
+      "message": "この操作を行うと、ローカルストレージのデータが上書きされます"
+   },
+   "will_rate": {
+      "message": "はい、評価します"
+   },
+   "wind": {
+      "message": "風"
+   },
+   "write_sth": {
+      "message": "記入してください"
+   },
+   "yahoo": {
+      "message": "Yahoo!"
+   },
+   "you_can_set_view": {
+      "message": "現在の表示サイズに満足できない場合は、設定から調整できます。"
+   },
+   "you_did_not_backup": {
+      "message": "データがバックアップされていません"
+   },
+   "you_never_install_this_app": {
+      "message": "現在のChromeにこのアプリをインストールしていません"
+   },
+   "your_password_change": {
+      "message": "パスコードが変更されました"
+   }
+}

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 54.1 (76490) - https://sketchapp.com -->
+    <title>添加</title>
+    <desc>Created with Sketch.</desc>
+    <g id="infinity改版1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="自定义搜索复制-15" transform="translate(-77.000000, -510.000000)" fill-rule="nonzero">
+            <g id="编组-9" transform="translate(30.000000, 134.000000)">
+                <g id="编组-5" transform="translate(0.000000, 332.000000)">
+                    <g id="添加" transform="translate(47.000000, 44.000000)">
+                        <g id="编组">
+                            <rect id="矩形" fill="#000000" opacity="0" x="0" y="0" width="24" height="24"></rect>
+                            <path d="M12,20.8 C7.14,20.8 3.19999999,16.86 3.19999999,12 C3.19999999,7.14 7.14,3.19999999 12,3.19999999 C16.86,3.19999999 20.8,7.14 20.8,12 C20.8,16.86 16.86,20.8 12,20.8 Z" id="形状" fill="#EA4747"></path>
+                            <polygon id="路径" fill="#FFFFFF" transform="translate(12.000000, 12.000000) rotate(-315.000000) translate(-12.000000, -12.000000) " points="12.8 11.2 16 11.2 16 12.8 12.8 12.8 12.8 16 11.2 16 11.2 12.8 7.99999999 12.8 7.99999999 11.2 11.2 11.2 11.2 7.99999999 12.8 7.99999999"></polygon>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

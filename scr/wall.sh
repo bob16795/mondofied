@@ -1,2 +1,7 @@
 #!/bin/bash
-feh --bg-fill ~/.config/mondo/images/gruvbox.jpg
+if [[ 0 == 0 ]]; then
+  xwallpaper --zoom ~/.config/mondo/images/bird.png
+else
+  xsetroot -solid '#f2f2f2'
+fi
+

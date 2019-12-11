@@ -36,29 +36,29 @@ item_radius          = 0
 item_border          = 0
 #item_halign         = left
 
-sep_height           = 0
+sep_height           = 1
 
 font                 = scientifica 12px
 #font_fallback       = xtg
-icon_size            = 11
+icon_size            = 0
 #icon_text_spacing   = 10
 #icon_theme          =
 #icon_theme_fallback = xtg
 
-arrow_string        = ▸
+arrow_string        = >
 arrow_width         = 8
 
-color_menu_bg        = #fcf9f9 100
-color_menu_fg        = #B16AD9 100
+color_menu_bg        = #6B3772 100
+color_menu_fg        = #EFDBD9 100
 #color_menu_border   = #1C2023 8
 
-color_norm_bg        = #fcf9f9 0
-color_norm_fg        = #B16AD9 100
+color_norm_bg        = #6B3772 0
+color_norm_fg        = #EFDBD9 100
 
 color_sel_bg         = #D9A3A0 60
 color_sel_fg         = #F1D59A 100
 #color_sel_border    = #1C2023 8
 
-color_sep_fg         = #B16AD9 40
+color_sep_fg         = #EFDBD9 40
 
 #csv_name_format     = %n (%g)

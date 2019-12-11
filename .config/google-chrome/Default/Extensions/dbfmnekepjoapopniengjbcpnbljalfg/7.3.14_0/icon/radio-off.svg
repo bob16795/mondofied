@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="14px" height="14px" viewBox="0 0 14 14" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.1 (47250) - http://www.bohemiancoding.com/sketch -->
+    <title>Radio Off</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="控件规范" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(-119.000000, -68.000000)">
+        <g id="Radio-Off" transform="translate(119.000000, 68.000000)">
+            <circle id="Oval" fill="#FFFFFF" cx="7" cy="7" r="7"></circle>
+            <path d="M7,14 C3.13400675,14 0,10.8659932 0,7 C0,3.13400675 3.13400675,0 7,0 C10.8659932,0 14,3.13400675 14,7 C14,10.8659932 10.8659932,14 7,14 Z M7,12.8333333 C10.221661,12.8333333 12.8333333,10.221661 12.8333333,7 C12.8333333,3.77833896 10.221661,1.16666667 7,1.16666667 C3.77833896,1.16666667 1.16666667,3.77833896 1.16666667,7 C1.16666667,10.221661 3.77833896,12.8333333 7,12.8333333 Z" id="Combined-Shape-Copy" fill="#B6B6B6"></path>
+        </g>
+    </g>
+</svg>

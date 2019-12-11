@@ -204,11 +204,10 @@ putgitrepo "http://github.com/bob16795/mondofied-themes" "/home/$name/.config/mo
 # sudo -u "$name" git clone http://github.com/bob16795/dwm /home/$name/.config/dwm > /dev/null
 
 #install spacevim
-curl -sLf https://spacevim.org/install.sh | sudo -u $name bash
+# curl -sLf https://spacevim.org/install.sh | sudo -u $name bash
 
 #copy rofi theme
 cp /home/$name/.config/rofi/bmenu.rasi /usr/share/rofi/> /dev/null
-
 
 # Enable services here.
 serviceinit NetworkManager cronie
@@ -237,8 +236,8 @@ sed -i "s/^#Color/Color/g" /etc/pacman.conf
 sudo -u "$name" mkdir \
   /home/$name/doc \
   /home/$name/doc/src \
-  /home/$name/doc/arc \
-  /home/$name/dsk \
+  /home/$name/doc/pdf \
+  /home/$name/doc/rep \
   /home/$name/pix \
   /home/$name/snd \
   /home/$name/dwn \
@@ -256,8 +255,10 @@ sudo -u $name ln -s /home/$name/.config/mondo/themes/ /home/$name/thm/mondo
 chmod -R $name /home/$name
 
 sudo -u $name mondo -fg all
+sudo -u $name mondo -a $(mondo -l themes | head -1)
 
-pacman -U https://archive.org/download/archlinux_pkg_pango/pango-1.43.0-1-x86_64.pkg.tar.xz 
+
+pacman -Uy https://archive.org/download/archlinux_pkg_pango/pango-1.43.0-1-x86_64.pkg.tar.xz 
 
 # Last update! then Install complete!
 finalize

@@ -1,0 +1,10 @@
+2019/12/11-07:32:13.183 8a1 Reusing MANIFEST /home/john/.config/google-chrome/Default/Sync Data/LevelDB/MANIFEST-000001
+2019/12/11-07:32:43.981 bdd Level-0 table #5: started
+2019/12/11-07:32:44.116 bdd Level-0 table #5: 386489 bytes OK
+2019/12/11-07:32:44.349 bdd Delete type=0 #3
+2019/12/11-07:34:02.656 bdd Level-0 table #7: started
+2019/12/11-07:34:02.777 bdd Level-0 table #7: 204999 bytes OK
+2019/12/11-07:34:02.811 bdd Delete type=0 #4
+2019/12/11-09:20:56.250 bdd Level-0 table #9: started
+2019/12/11-09:20:56.362 bdd Level-0 table #9: 123748 bytes OK
+2019/12/11-09:20:56.398 bdd Delete type=0 #6

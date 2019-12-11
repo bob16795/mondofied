@@ -1,0 +1,40 @@
+{
+   "background": {
+      "page": "background/background.html",
+      "persistent": true
+   },
+   "browser_action": {
+      "default_icon": {
+         "96": "app-icon/ico96.png"
+      },
+      "default_popup": "popup/popup.html",
+      "default_title": "__MSG_add_to_infinity__"
+   },
+   "chrome_url_overrides": {
+      "newtab": "index.html"
+   },
+   "content_scripts": [ {
+      "css": [ "/content/css/startbrowser.css" ],
+      "matches": [ "https://startbrowser.io/search/gcse*", "http://startbrowser.io/search/gcse*" ]
+   }, {
+      "all_frames": true,
+      "css": [ "/content/css/startbrowser-iframe.css" ],
+      "matches": [ "https://cse.google.com/cse_v2/ads?*startbrowser.io*" ]
+   } ],
+   "content_security_policy": "script-src 'self' 'unsafe-eval' ; object-src 'self'",
+   "default_locale": "en_US",
+   "description": "__MSG_extension_des__",
+   "icons": {
+      "128": "app-icon/ico128.png",
+      "96": "app-icon/ico96.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAmQpG4qhzmLueAHZ7qFWVfW7/g9SWI66+ALaiVXUpJiBMohJEa1fSe4SNfv0/Rvm+24Xhot2nKyhxMU1kuTVxL80ExTOhrNreBjURBwa66ph/n312euYtFPOeXKc6X4GDXTZrHftWqEWp7TjKRA4wqxG4DCDqASDmqBYjDiZM80w61t7XhEXsE3kR3DC87WSzPiP6Dplg/1BvCmYg7B+qOli3aJApFdrzMgtIvE9+EqISjH7FPMhtytQ7a2TVGKELQxDsy2P9baIj1kDF+/rgbO/E+4u5ACVV8wMB/DYQAxhGfJSMLE2CnbeUkl+RyVNS3J69IFfHlEd3CIEZZxQBfwIDAQAB",
+   "manifest_version": 2,
+   "minimum_chrome_version": "45",
+   "name": "__MSG_name__",
+   "offline_enabled": true,
+   "optional_permissions": [ "history", "geolocation", "notifications", "bookmarks" ],
+   "permissions": [ "topSites", "chrome://favicon/", "unlimitedStorage", "topSites", "identity", "http://*/", "https://*/", "alarms", "tabs", "activeTab", "management", "storage", "webNavigation", "webRequest", "webRequestBlocking", "cookies", "contextMenus", "notifications", "background" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "7.3.14"
+}

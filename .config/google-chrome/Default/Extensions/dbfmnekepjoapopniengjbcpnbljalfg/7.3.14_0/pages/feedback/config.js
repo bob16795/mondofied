@@ -1,0 +1,1 @@
+"use strict";var DISPLAY_NAME="Infinity New Tab 基础版";

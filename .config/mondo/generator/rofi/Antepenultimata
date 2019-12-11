@@ -2,8 +2,8 @@
 accent: #F1D59A;
 bg1: #D9A3A0;
 bg2: #F4DCA0;
-fg1: argb:BFfcf9f9;
-fg2: #B16AD9;
+fg1: argb:BF6B3772;
+fg2: #EFDBD9;
 redish: #dc322f;
 font1: "scientifica 12";
 }

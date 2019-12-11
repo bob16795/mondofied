@@ -1,0 +1,1 @@
+"use strict";var bgData={init:function(){var t=this;infinity.init("infinity-data",t.data,!0,function(){infinity.setting("toDoNumber",t.data.todos.todos.length)})},data:{todos:{todos:[{text:infinity.i18n("todos_welcome"),todoId:infinity.randomId("todo-id")}],dones:[]},notes:[{text:"",time:(new Date).getTime()}]}};

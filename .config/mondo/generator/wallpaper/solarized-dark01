@@ -1,2 +1,7 @@
 #!/bin/bash
-feh --bg-fill ~/.config/mondo/images/solarized.png
+if [[ 0 == 0 ]]; then
+  xwallpaper --zoom ~/.config/mondo/images/solarized.png
+else
+  xsetroot -solid '#002b36'
+fi
+

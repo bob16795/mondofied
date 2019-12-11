@@ -1,0 +1,731 @@
+{
+   "about": {
+      "message": "Despre"
+   },
+   "account_already_exists": {
+      "message": "Contul există deja"
+   },
+   "account_backup": {
+      "message": "Cont și copii de siguranță"
+   },
+   "account_validation_invalid": {
+      "message": "Nume de utilizator sau parolă incorectă"
+   },
+   "add": {
+      "message": "Adaugă"
+   },
+   "add_addtional_search": {
+      "message": "Adaugă un motor de căutare nou"
+   },
+   "add_fail_due_to_network_error": {
+      "message": "Adăugarea a eșuat datorită unor probleme de rețea. Încercați din nou mai târziu"
+   },
+   "add_search": {
+      "message": "Adaugă motorul de căutare"
+   },
+   "add_success": {
+      "message": "Adăugare reușită!"
+   },
+   "add_to_infinity": {
+      "message": "Adăugați la fila nouă Infinity"
+   },
+   "added": {
+      "message": "S-a adăugat"
+   },
+   "additional_se_desc": {
+      "message": "Când introduci cuvinte cheie, vor apărea motoare suplimentare de căutare"
+   },
+   "addtional_search": {
+      "message": "Motor de căutare suplimentar"
+   },
+   "app": {
+      "message": "Aplicații"
+   },
+   "appearance": {
+      "message": "Aspect"
+   },
+   "apps": {
+      "message": "Aplicații"
+   },
+   "are_you_sure": {
+      "message": "Confirmați? Această acțiune este ireversibilă."
+   },
+   "auto_backup": {
+      "message": "Efectuează backup automat"
+   },
+   "auto_change_wp_per_day": {
+      "message": "Schimbare automată a fundalului în fiecare zi"
+   },
+   "back": {
+      "message": "Înapoi"
+   },
+   "backup_data": {
+      "message": "Copie de siguranță a datelor"
+   },
+   "backup_failed": {
+      "message": "Backup eșuat"
+   },
+   "backup_file": {
+      "message": "Efectuare copie de siguranță a fișierelor"
+   },
+   "backup_now": {
+      "message": "Efectuați un backup acum"
+   },
+   "backup_success": {
+      "message": "Backup finalizat"
+   },
+   "backup_success_desc": {
+      "message": "Datele dvs. au fost copiate cu succes în cloud"
+   },
+   "backuping": {
+      "message": "Realizare backup..."
+   },
+   "baidu": {
+      "message": "Baidu"
+   },
+   "bing": {
+      "message": "Bing"
+   },
+   "blur_wallpaper": {
+      "message": "Adaugă efect de estompare tapetului"
+   },
+   "bookmark_manager": {
+      "message": "Manager de marcaje"
+   },
+   "bookmarks": {
+      "message": "Marcaje"
+   },
+   "can_not_add_page": {
+      "message": "Ne pare rău, dar această pagină nu permite adăugarea la Infinity File Noi"
+   },
+   "can_not_delete_current_search_engine": {
+      "message": "Motorul de căutare curent nu poate fi șters"
+   },
+   "cancel": {
+      "message": "Renunță"
+   },
+   "cancel_add": {
+      "message": "Anulați"
+   },
+   "celsius": {
+      "message": "Celsius"
+   },
+   "change_city": {
+      "message": "Schimbare oraș"
+   },
+   "choose_image": {
+      "message": "Alegere imagine"
+   },
+   "chrome_apps": {
+      "message": "Aplicații Chrome"
+   },
+   "city_not_found": {
+      "message": "Nu a fost găsit niciun oraș"
+   },
+   "city_set_failed": {
+      "message": "Orașul dvs. nu a putut fi salvat. Încercați din nou mai târziu"
+   },
+   "clear_done": {
+      "message": "Nu mai afișa elementele efectuate"
+   },
+   "click_refresh_valicode": {
+      "message": "Faceți clic pe imagine pentru a împrospăta codul de verificare"
+   },
+   "completed": {
+      "message": "Finalizare"
+   },
+   "contact_us": {
+      "message": "Contacteaza-ne"
+   },
+   "custom": {
+      "message": "Personalizează"
+   },
+   "custom_add": {
+      "message": "Adăugare personalizată"
+   },
+   "data_recovery_failed": {
+      "message": "Recuperarea datelor a eșuat"
+   },
+   "default": {
+      "message": "Prestabilit"
+   },
+   "delete_account_title": {
+      "message": "Ștergere cont"
+   },
+   "delete_my_account": {
+      "message": "Șterge-mi contul"
+   },
+   "detect_cloud_backup": {
+      "message": "Au fost detectate date noi în cloud. Doriți să recuperați pe spațiul de stocare local mai întâi? "
+   },
+   "discard": {
+      "message": "Renunță"
+   },
+   "does_not_exist": {
+      "message": "nu există"
+   },
+   "done": {
+      "message": "Terminat"
+   },
+   "download_current_wp": {
+      "message": "Descărcare tapet"
+   },
+   "edit_failed_due_to_net_work": {
+      "message": "Editarea a eșuat datorită unor probleme de rețea. Încercați din nou mai târziu"
+   },
+   "edit_image": {
+      "message": "Editare imagine"
+   },
+   "education": {
+      "message": "Educație și recrutare"
+   },
+   "email": {
+      "message": "Adresă de e-mail"
+   },
+   "email_verification_code": {
+      "message": "Cod de verificare prin email"
+   },
+   "enter_and_search": {
+      "message": "Intră şi caută..."
+   },
+   "enter_city_name_to_search": {
+      "message": "Introduceți numele orașului dvs. și apăsați Enter pentru a căuta"
+   },
+   "enter_new_passcode": {
+      "message": "Cod de acces nou"
+   },
+   "enter_password": {
+      "message": "Introduceți parola"
+   },
+   "enter_to_search": {
+      "message": "Apăsați Enter pentru a căuta"
+   },
+   "ext_has_been_deleted": {
+      "message": "“$name$” a fost șters",
+      "placeholders": {
+         "name": {
+            "content": "$1"
+         }
+      }
+   },
+   "extension": {
+      "message": "Extensii"
+   },
+   "extension_des": {
+      "message": "Fila Nou acceptă adăuga pictograma site-ului web, imagini de fundal HD, marcaj, vreme, note, lista de sarcini, managementul istoriei"
+   },
+   "fahrenheit": {
+      "message": "Fahrenheit"
+   },
+   "feedback_suggestion": {
+      "message": "Feedback și sugestii"
+   },
+   "feedback_us": {
+      "message": "Dacă aveți alte întrebări, nu ezitați să ne contactați:"
+   },
+   "finance": {
+      "message": "Financiar"
+   },
+   "find_password": {
+      "message": "Recuperare parolă"
+   },
+   "font_color": {
+      "message": "Culoare text"
+   },
+   "forgot": {
+      "message": "Ați uitat parola?"
+   },
+   "format_error": {
+      "message": "Eroare de format"
+   },
+   "games": {
+      "message": "Jocuri și divertisment"
+   },
+   "general": {
+      "message": "General"
+   },
+   "generate_backup_file": {
+      "message": "Generare copie de siguranță a fișierelor"
+   },
+   "get_bookmarks": {
+      "message": "Citește și modifică marcajele"
+   },
+   "give_up_account": {
+      "message": "Nu mai vreți acest cont? "
+   },
+   "give_us_a_five_star": {
+      "message": "Sunteți dispus să ne dea un rating pozitiv de cinci stele?"
+   },
+   "gmail_noti": {
+      "message": "Notificări Gmail"
+   },
+   "go_on_add": {
+      "message": "Continuă să adaugi"
+   },
+   "google": {
+      "message": "Google"
+   },
+   "got_it": {
+      "message": "OK"
+   },
+   "has_update": {
+      "message": "$name$ a fost actualizat",
+      "placeholders": {
+         "name": {
+            "content": "$1"
+         }
+      }
+   },
+   "hide_icon_name": {
+      "message": "Ascundere nume pictogramă"
+   },
+   "history": {
+      "message": "Istoric"
+   },
+   "humidity": {
+      "message": "umiditate"
+   },
+   "i_city": {
+      "message": "Oraș"
+   },
+   "i_clear_history": {
+      "message": "Degajează istoricul"
+   },
+   "i_delete": {
+      "message": "Șterge"
+   },
+   "i_edit": {
+      "message": "Editare"
+   },
+   "i_empty_history": {
+      "message": "Niciun istoric de navigare în prezent"
+   },
+   "i_more": {
+      "message": "Mai multe"
+   },
+   "i_new_tab": {
+      "message": "Filă nouă"
+   },
+   "i_no_bookmarks_in_folder": {
+      "message": "Nicio favorită în dosar"
+   },
+   "i_ok": {
+      "message": "O.K"
+   },
+   "i_please_wait": {
+      "message": "Așteptați…"
+   },
+   "i_to_do": {
+      "message": "De făcut"
+   },
+   "icon": {
+      "message": "Pictogramă"
+   },
+   "icon_border_radius": {
+      "message": "Pictograme cu colțurile rotunjite"
+   },
+   "icon_opacity": {
+      "message": "Transparență pictogramă"
+   },
+   "if_not_recovery_now": {
+      "message": "În caz că nu doriți acest lucru, modificările locale vor suprascrie datele din cloud"
+   },
+   "images": {
+      "message": "Imagini"
+   },
+   "invalid_password_header": {
+      "message": "Parolă incorectă"
+   },
+   "invalid_verification_code_title": {
+      "message": "Cod de verificare incorect"
+   },
+   "last_backup": {
+      "message": "Ultimul backup:"
+   },
+   "layout": {
+      "message": "Aspect"
+   },
+   "life": {
+      "message": "Mod de viata"
+   },
+   "loading_module": {
+      "message": "Se încarcă…"
+   },
+   "local_is_new": {
+      "message": "Datele stocate local sunt la zi"
+   },
+   "local_wallpaper": {
+      "message": "Tapete locale"
+   },
+   "login_it": {
+      "message": "Autentificare"
+   },
+   "login_now": {
+      "message": "Autentificați-vă acum"
+   },
+   "login_to_backup": {
+      "message": "Conectați-vă la contul dvs. Infinity și faceți o copie de siguranță a datelor în cloud"
+   },
+   "maps": {
+      "message": "Hărți"
+   },
+   "music": {
+      "message": "Muzică și video"
+   },
+   "must_fill": {
+      "message": "Completează acest câmp"
+   },
+   "name": {
+      "message": "Infinity Tab Nou - Productivitate şi Apelare Rapidă"
+   },
+   "need_further_improvement": {
+      "message": "Nu, aveți nevoie de îmbunătățiri suplimentare"
+   },
+   "net_error": {
+      "message": "Eroare de rețea"
+   },
+   "new_edit_notes": {
+      "message": "Cele mai recente note"
+   },
+   "new_notes": {
+      "message": "Notă nouă"
+   },
+   "news": {
+      "message": "Știri"
+   },
+   "no_account": {
+      "message": "Încă nu aveți cont? "
+   },
+   "no_any_add_search": {
+      "message": "Nu ai adăugat niciun motor de căutare suplimentar"
+   },
+   "no_any_custom_search": {
+      "message": "Nu a fost adăugat niciun motor de căutare personalizat."
+   },
+   "no_dones": {
+      "message": "Nu aveți elemente de făcut efectuate"
+   },
+   "no_more": {
+      "message": "Doar atât"
+   },
+   "no_search_results": {
+      "message": "Nu s-au găsit rezultate de căutare"
+   },
+   "no_todos": {
+      "message": "Nu aveți elemente de făcut"
+   },
+   "not_support": {
+      "message": "Această funcție nu este disponibilă în versiunea pe care o folosiți. Vă rugăm să treceți la $pro_version$ dacă este necesar",
+      "placeholders": {
+         "pro_version": {
+            "content": "$1"
+         }
+      }
+   },
+   "note_view_zoom": {
+      "message": "Rețineți că acest element urmează calculatorul dvs. curent și nu se va sincroniza în funcție de cloud."
+   },
+   "notes": {
+      "message": "Notițe"
+   },
+   "noti_sound": {
+      "message": "Sunet notificări Gmail"
+   },
+   "open__in_a_new_tab": {
+      "message": "Deschide “$type$” într-o filă nouă",
+      "placeholders": {
+         "type": {
+            "content": "$1"
+         }
+      }
+   },
+   "operation_completed_successfully": {
+      "message": "Operație reușită"
+   },
+   "other_search": {
+      "message": "Alte motoare de căutare"
+   },
+   "otherbookmarks": {
+      "message": "Alte marcaje"
+   },
+   "others": {
+      "message": "Altele"
+   },
+   "password": {
+      "message": "Parolă"
+   },
+   "password_min": {
+      "message": "Parola trebuie să aibă între 6 și 20 de caractere"
+   },
+   "photos": {
+      "message": "Imagini"
+   },
+   "please_enter_format_email": {
+      "message": "Vă rugăm să introduceți adresa de email în formatul corect"
+   },
+   "please_input_correct_search_url": {
+      "message": "Ați introdus un URL incorect."
+   },
+   "pmset": {
+      "message": "Fixare cod"
+   },
+   "popular": {
+      "message": "Popular"
+   },
+   "pressure": {
+      "message": "Presiune"
+   },
+   "privacy_policy": {
+      "message": "Confidențialitate"
+   },
+   "random_wp": {
+      "message": "Fundal aleatoriu"
+   },
+   "random_wp_change_by": {
+      "message": "Fă clic pe moara de vânt din colțul dreapta-jos al desktop-ului pentru a obține un tapet aleatoriu"
+   },
+   "read": {
+      "message": "citiți"
+   },
+   "recent": {
+      "message": "Recente"
+   },
+   "recovery_data": {
+      "message": "Recuperare date"
+   },
+   "recovery_default_wp": {
+      "message": "Întoarcere la tapetul inițial... "
+   },
+   "recovery_from_backup_file": {
+      "message": "Recuperează date din copiile de siguranță"
+   },
+   "recovery_now": {
+      "message": "Efectuează recuperarea acum"
+   },
+   "recovery_to_default_wp": {
+      "message": "Revenire la fundalul implicit"
+   },
+   "reload": {
+      "message": "Reîncarcă"
+   },
+   "remove_image": {
+      "message": "Îndepărtare imagine"
+   },
+   "require_new_permissition": {
+      "message": "„$name$” a solicitat permisiuni suplimentare",
+      "placeholders": {
+         "name": {
+            "content": "$1"
+         }
+      }
+   },
+   "reset_email_has_send": {
+      "message": "Informațiile de verificare v-au fost trimise prin email. Copiați codul de verificare din mesaj pentru a continua procedura de resetare a parolei."
+   },
+   "restore_complete": {
+      "message": "Restaurare finalizată"
+   },
+   "restoring": {
+      "message": "Restaurare…"
+   },
+   "save": {
+      "message": "Salvează"
+   },
+   "search": {
+      "message": "Căutare"
+   },
+   "search360": {
+      "message": "360 Search"
+   },
+   "search_by": {
+      "message": "Căutare după: $searchName$",
+      "placeholders": {
+         "searchName": {
+            "content": "$1"
+         }
+      }
+   },
+   "search_engine": {
+      "message": "Motor de căutare"
+   },
+   "search_results": {
+      "message": "Rezultate căutare"
+   },
+   "search_url": {
+      "message": "Adresă URL cu %s în loc de interogare"
+   },
+   "select_wp": {
+      "message": "Selectare tapet local"
+   },
+   "server_error": {
+      "message": "A survenit o eroare de server"
+   },
+   "setting_city": {
+      "message": "Setare oraș"
+   },
+   "settings": {
+      "message": "Configurări"
+   },
+   "shopping": {
+      "message": "Cumpărături"
+   },
+   "show_bookmarks": {
+      "message": "Afișați favoritele"
+   },
+   "show_gmail_num": {
+      "message": "Afișare număr mesaje Gmail necitite pe pictogramă"
+   },
+   "show_random_wp_btn": {
+      "message": "Afișare buton pentru schimbarea aleatorie a tapetului în colțul dreapta-jos"
+   },
+   "show_search_box": {
+      "message": "Afișare căsuță căutare"
+   },
+   "show_search_btn": {
+      "message": "Afișați butonul de căutare"
+   },
+   "show_search_type": {
+      "message": "Afișare tip căutare"
+   },
+   "show_todos_num": {
+      "message": "Afișare pe pictogramă a numărului de elemente de făcut"
+   },
+   "show_topsites": {
+      "message": "Afișare cele mai importante site-uri"
+   },
+   "sign_in_success": {
+      "message": "Autentificare reușită"
+   },
+   "sign_in_to_backup_cloud": {
+      "message": "Înregistrați-vă pentru a beneficia de un cont Infinity și a face copii de siguranțe ale datelor în cloud"
+   },
+   "sign_out": {
+      "message": "Deconectare"
+   },
+   "sign_up": {
+      "message": "Înscriere"
+   },
+   "sign_up_success": {
+      "message": "Contul a fost înregistrat cu succes"
+   },
+   "site_name": {
+      "message": "Nume"
+   },
+   "site_url": {
+      "message": "Adresă URL"
+   },
+   "site_website": {
+      "message": "Site"
+   },
+   "social": {
+      "message": "Social și blog"
+   },
+   "sogou": {
+      "message": "Sogou"
+   },
+   "sports": {
+      "message": "Sport și călătorie"
+   },
+   "start_animation": {
+      "message": "Animație la lansare"
+   },
+   "sync_bing_wp": {
+      "message": "Sincronizare fundal Bing"
+   },
+   "tech": {
+      "message": "Tehnologie digitala"
+   },
+   "temperature_unit": {
+      "message": "Unitate de temperatură"
+   },
+   "terms_of_use": {
+      "message": "Condiții de utilizare"
+   },
+   "this_page_no_space": {
+      "message": "Nu mai există spațiu pe această pagină"
+   },
+   "to_top": {
+      "message": "Top"
+   },
+   "todos": {
+      "message": "Lucruri de făcut"
+   },
+   "todos_welcome": {
+      "message": "Bine ai venit la Infinity File Noi. Acesta este un element de făcut, care este folosit ca exemplu."
+   },
+   "top_bar": {
+      "message": "Bara de sus"
+   },
+   "try_later": {
+      "message": "Reîncercați mai târziu"
+   },
+   "undo": {
+      "message": "Infirmați"
+   },
+   "unname_folder": {
+      "message": "dosar fără titlu"
+   },
+   "verification_code": {
+      "message": "Cod de verificare"
+   },
+   "videos": {
+      "message": "clipuri video"
+   },
+   "view_zoom": {
+      "message": "Vizualizați zoom (pictograma și caseta de căutare)"
+   },
+   "wallpaper": {
+      "message": "Imaginea de fundal"
+   },
+   "wallpaper_type": {
+      "message": "Tip tapet"
+   },
+   "we_update": {
+      "message": "Bună ziua, fila Infinity New a fost actualizată."
+   },
+   "weather": {
+      "message": "Vremea"
+   },
+   "weather_setting": {
+      "message": "Setările meteo"
+   },
+   "web": {
+      "message": "Web"
+   },
+   "weixin": {
+      "message": "WeChat"
+   },
+   "welcome": {
+      "message": "Bine ați venit la Infinity"
+   },
+   "what_to_do": {
+      "message": "Ce să fac? "
+   },
+   "will_cover_cloud": {
+      "message": "Această operațiune va suprascrie datele din cloud"
+   },
+   "will_cover_local": {
+      "message": "Această operațiune va suprascrie datele locale"
+   },
+   "will_rate": {
+      "message": "Da, da rating"
+   },
+   "wind": {
+      "message": "Vânt"
+   },
+   "write_sth": {
+      "message": "Scrieți ceva... "
+   },
+   "yahoo": {
+      "message": "Yahoo!"
+   },
+   "you_can_set_view": {
+      "message": "Dacă nu sunteți mulțumit de mărimea curentă de vizualizare, puteți să o reglați din setări."
+   },
+   "you_did_not_backup": {
+      "message": "Nu ați făcut copii de siguranță ale datelor"
+   },
+   "your_password_change": {
+      "message": "Codul dvs. de acces a fost schimbat"
+   }
+}

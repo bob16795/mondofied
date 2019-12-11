@@ -1,0 +1,1 @@
+"use strict";var bgHome={init:function(){infinity.init("infinity-icons",recommendIconsAll)}};

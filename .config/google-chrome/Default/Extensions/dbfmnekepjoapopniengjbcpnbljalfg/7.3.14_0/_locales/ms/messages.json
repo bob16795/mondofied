@@ -1,0 +1,731 @@
+{
+   "about": {
+      "message": "Mengenai"
+   },
+   "account_already_exists": {
+      "message": "Akaun telah wujud"
+   },
+   "account_backup": {
+      "message": "Akaun dan sandaran"
+   },
+   "account_validation_invalid": {
+      "message": "Nama Pengguna atau Kata Laluan salah"
+   },
+   "add": {
+      "message": "Tambah"
+   },
+   "add_addtional_search": {
+      "message": "Tmbh enjin carian baru\n"
+   },
+   "add_fail_due_to_network_error": {
+      "message": "Tambahan gagal disebabkan masalah rangkaian, sila cuba lagi kemudian"
+   },
+   "add_search": {
+      "message": "Tambah enjin carian"
+   },
+   "add_success": {
+      "message": "Berjaya ditambah!"
+   },
+   "add_to_infinity": {
+      "message": "Tambah ke Tab Infiniti Baru"
+   },
+   "added": {
+      "message": "Ditambah"
+   },
+   "additional_se_desc": {
+      "message": "Enjin carian tambahan akan dipaparkan apabila anda memasukkan kata kunci"
+   },
+   "addtional_search": {
+      "message": "Enjin carian tambahan"
+   },
+   "app": {
+      "message": "Apl"
+   },
+   "appearance": {
+      "message": "Tampilan"
+   },
+   "apps": {
+      "message": "Apl"
+   },
+   "are_you_sure": {
+      "message": "Adakah anda pasti? Tindakan ini tidak boleh dibuat asal"
+   },
+   "auto_backup": {
+      "message": "Sandarkan Secara Automatik"
+   },
+   "auto_change_wp_per_day": {
+      "message": "Tukar gambar latar secara automatik setiap hari"
+   },
+   "back": {
+      "message": "Balik"
+   },
+   "backup_data": {
+      "message": "Sandaran data"
+   },
+   "backup_failed": {
+      "message": "Sandaran Gagal"
+   },
+   "backup_file": {
+      "message": "Buat sandaran fail"
+   },
+   "backup_now": {
+      "message": "Sandarkan Sekarang"
+   },
+   "backup_success": {
+      "message": "Sandaran Selesai"
+   },
+   "backup_success_desc": {
+      "message": "Data anda telah berjaya disandarkan pada storan awan"
+   },
+   "backuping": {
+      "message": "Sedang buat sandaran..."
+   },
+   "baidu": {
+      "message": "Baidu"
+   },
+   "bing": {
+      "message": "Bing"
+   },
+   "blur_wallpaper": {
+      "message": "Tambah kesan kabur pada gambar latar"
+   },
+   "bookmark_manager": {
+      "message": "Pengurus Penanda Halaman"
+   },
+   "bookmarks": {
+      "message": "Penanda buku"
+   },
+   "can_not_add_page": {
+      "message": "Harap maaf, halaman ini tidak menyokong fungsi tambah kepada Infinity Tab Baharu"
+   },
+   "can_not_delete_current_search_engine": {
+      "message": "Enjin carian semasa tidak dapat dipadam"
+   },
+   "cancel": {
+      "message": "Batal"
+   },
+   "cancel_add": {
+      "message": "Batal"
+   },
+   "celsius": {
+      "message": "Celsius"
+   },
+   "change_city": {
+      "message": "Tukar bandar"
+   },
+   "choose_image": {
+      "message": "Pilih imej"
+   },
+   "chrome_apps": {
+      "message": "Chrome Apps"
+   },
+   "city_not_found": {
+      "message": "Tiada bandar dijumpai"
+   },
+   "city_set_failed": {
+      "message": "Gagal menetapkan bandar anda, sila cuba lagi kemudian"
+   },
+   "clear_done": {
+      "message": "Pembersihan selesai"
+   },
+   "click_refresh_valicode": {
+      "message": "Klik pada imej untuk memuatkan semula kod pengesahan"
+   },
+   "completed": {
+      "message": "Selesai"
+   },
+   "contact_us": {
+      "message": "Hubungi Kami"
+   },
+   "custom": {
+      "message": "Tersuai"
+   },
+   "custom_add": {
+      "message": "Tambahan tersuai"
+   },
+   "data_recovery_failed": {
+      "message": "Pemulihan data gagal"
+   },
+   "default": {
+      "message": "Lalai"
+   },
+   "delete_account_title": {
+      "message": "Padam akaun"
+   },
+   "delete_my_account": {
+      "message": "Padam akaun saya"
+   },
+   "detect_cloud_backup": {
+      "message": "Data baharu telah dikesan pada storan awan. Adakah anda mahu pulihkan ke storan setempat dahulu? "
+   },
+   "discard": {
+      "message": "Buang"
+   },
+   "does_not_exist": {
+      "message": "Tidak wujud"
+   },
+   "done": {
+      "message": "Selesai"
+   },
+   "download_current_wp": {
+      "message": "Muat turun gambar latar"
+   },
+   "edit_failed_due_to_net_work": {
+      "message": "Suntingan gagal disebabkan masalah rangkaian, sila cuba lagi kemudian"
+   },
+   "edit_image": {
+      "message": "Edit Gambar"
+   },
+   "education": {
+      "message": "Pendidikan dan pengambilan"
+   },
+   "email": {
+      "message": "E-mel"
+   },
+   "email_verification_code": {
+      "message": "Kod pengesahan e-mel"
+   },
+   "enter_and_search": {
+      "message": "Masukkan dan cari... "
+   },
+   "enter_city_name_to_search": {
+      "message": "Masukkan nama bandar anda dan tekan Enter untuk mencari"
+   },
+   "enter_new_passcode": {
+      "message": "Kod Laluan Baru"
+   },
+   "enter_password": {
+      "message": "Kata Laluan"
+   },
+   "enter_to_search": {
+      "message": "Tekan Enter untuk mencari"
+   },
+   "ext_has_been_deleted": {
+      "message": "“$name$” telah dipadamkan",
+      "placeholders": {
+         "name": {
+            "content": "$1"
+         }
+      }
+   },
+   "extension": {
+      "message": "Pelanjutan"
+   },
+   "extension_des": {
+      "message": "Tab Baru menyokong menambah ikon laman web, wallpaper HD, bookmark, cuaca, nota, senarai tugasan, pengurus dilanjutkan dan sejarah"
+   },
+   "fahrenheit": {
+      "message": "Fahrenheit"
+   },
+   "feedback_suggestion": {
+      "message": "Maklum balas dan cadangan"
+   },
+   "feedback_us": {
+      "message": "Sekiranya anda mempunyai sebarang pertanyaan lain, sila hubungi kami:"
+   },
+   "finance": {
+      "message": "Kewangan"
+   },
+   "find_password": {
+      "message": "Pulihkan kata laluan"
+   },
+   "font_color": {
+      "message": "Warna Teks"
+   },
+   "forgot": {
+      "message": "Terlupa Kata Laluan?"
+   },
+   "format_error": {
+      "message": "Ralat format"
+   },
+   "games": {
+      "message": "Permainan dan hiburan"
+   },
+   "general": {
+      "message": "Umum"
+   },
+   "generate_backup_file": {
+      "message": "Jana sandaran fail"
+   },
+   "get_bookmarks": {
+      "message": "Baca dan ubah penanda halaman anda"
+   },
+   "give_up_account": {
+      "message": "Tidak mahukan akaun anda lagi? "
+   },
+   "give_us_a_five_star": {
+      "message": "Adakah anda mahu memberikan kami rating positif lima bintang?"
+   },
+   "gmail_noti": {
+      "message": "Notifikasi Gmail"
+   },
+   "go_on_add": {
+      "message": "Teruskan menambah"
+   },
+   "google": {
+      "message": "Google"
+   },
+   "got_it": {
+      "message": "Faham"
+   },
+   "has_update": {
+      "message": "$name$ telah dikemas kini",
+      "placeholders": {
+         "name": {
+            "content": "$1"
+         }
+      }
+   },
+   "hide_icon_name": {
+      "message": "Sembunyikan nama ikon"
+   },
+   "history": {
+      "message": "Sejarah"
+   },
+   "humidity": {
+      "message": "kelembapan"
+   },
+   "i_city": {
+      "message": "Bandar"
+   },
+   "i_clear_history": {
+      "message": "Kosongkan Sejarah"
+   },
+   "i_delete": {
+      "message": "Padam"
+   },
+   "i_edit": {
+      "message": "Edit"
+   },
+   "i_empty_history": {
+      "message": "Tiada sejarah pelayaran buat masa ini"
+   },
+   "i_more": {
+      "message": "Lagi"
+   },
+   "i_new_tab": {
+      "message": "Tab Baharu"
+   },
+   "i_no_bookmarks_in_folder": {
+      "message": "Tiada penanda buku dalam folder"
+   },
+   "i_ok": {
+      "message": "okey"
+   },
+   "i_please_wait": {
+      "message": "Sila Tunggu…"
+   },
+   "i_to_do": {
+      "message": "Tugasan"
+   },
+   "icon": {
+      "message": "Ikon"
+   },
+   "icon_border_radius": {
+      "message": "Sudut bulat ikon"
+   },
+   "icon_opacity": {
+      "message": "Ketelusan ikon"
+   },
+   "if_not_recovery_now": {
+      "message": "Jika tidak, perubahan pada storan setempat anda akan menimpa data pada storan awan"
+   },
+   "images": {
+      "message": "Imej"
+   },
+   "invalid_password_header": {
+      "message": "Kata Laluan Salah"
+   },
+   "invalid_verification_code_title": {
+      "message": "Kod Pengesahan Salah"
+   },
+   "last_backup": {
+      "message": "Sandaran Terakhir:"
+   },
+   "layout": {
+      "message": "Susun atur"
+   },
+   "life": {
+      "message": "Cara hidup"
+   },
+   "loading_module": {
+      "message": "Memuatkan…"
+   },
+   "local_is_new": {
+      "message": "Storan setempat telah dikemas kini"
+   },
+   "local_wallpaper": {
+      "message": "Gambar latar setempat"
+   },
+   "login_it": {
+      "message": "Daftar masuk"
+   },
+   "login_now": {
+      "message": "Daftar Masuk Sekarang"
+   },
+   "login_to_backup": {
+      "message": "Daftar masuk ke akaun Infinity anda dan sandarkan data anda ke storan awan"
+   },
+   "maps": {
+      "message": "Peta"
+   },
+   "music": {
+      "message": "Muzik dan video"
+   },
+   "must_fill": {
+      "message": "Sila isikan medan ini"
+   },
+   "name": {
+      "message": "Infinity Tab Baru - Produktiviti&Pendailan Pantas"
+   },
+   "need_further_improvement": {
+      "message": "Tidak, anda perlu penambahbaikan lanjut"
+   },
+   "net_error": {
+      "message": "Ralat rangkaian"
+   },
+   "new_edit_notes": {
+      "message": "Nota terbaru"
+   },
+   "new_notes": {
+      "message": "Nota baharu"
+   },
+   "news": {
+      "message": "Berita"
+   },
+   "no_account": {
+      "message": "Belum mempunyai akaun? "
+   },
+   "no_any_add_search": {
+      "message": "Anda belum menambah sebarang enjin carian tambahan"
+   },
+   "no_any_custom_search": {
+      "message": "Tiada enjin carian tersuai yang telah ditambah"
+   },
+   "no_dones": {
+      "message": "Tiada senarai perkara untuk dilakukan yang telah selesai"
+   },
+   "no_more": {
+      "message": "Tiada apa-apa lagi"
+   },
+   "no_search_results": {
+      "message": "Tiada hasil carian ditemui"
+   },
+   "no_todos": {
+      "message": "Tiada senarai perkara untuk dilakukan"
+   },
+   "not_support": {
+      "message": "Ciri ini tidak disokong dalam versi ini, sila naik taraf kepada $pro_version$ jika perlu",
+      "placeholders": {
+         "pro_version": {
+            "content": "$1"
+         }
+      }
+   },
+   "note_view_zoom": {
+      "message": "Sila ambil perhatian bahawa item ini mengikuti komputer semasa anda dan tidak akan disegerakkan oleh awan."
+   },
+   "notes": {
+      "message": "Nota"
+   },
+   "noti_sound": {
+      "message": "Nada dering notifikasi Gmail"
+   },
+   "open__in_a_new_tab": {
+      "message": "Buka “$type$” dalam tab baru",
+      "placeholders": {
+         "type": {
+            "content": "$1"
+         }
+      }
+   },
+   "operation_completed_successfully": {
+      "message": "Operasi berjaya"
+   },
+   "other_search": {
+      "message": "Enjin carian lain"
+   },
+   "otherbookmarks": {
+      "message": "Penanda halaman lain"
+   },
+   "others": {
+      "message": "Lain"
+   },
+   "password": {
+      "message": "Kata laluan"
+   },
+   "password_min": {
+      "message": "Kata laluan perlu mempunyai antara 6-20 aksara"
+   },
+   "photos": {
+      "message": "Gambar"
+   },
+   "please_enter_format_email": {
+      "message": "Sila masukkan alamat e-mel dalam format yang betul"
+   },
+   "please_input_correct_search_url": {
+      "message": "Anda telah masukkan URL yang tidak betul."
+   },
+   "pmset": {
+      "message": "Setkan Kod Laluan"
+   },
+   "popular": {
+      "message": "Popular"
+   },
+   "pressure": {
+      "message": "Tekanan"
+   },
+   "privacy_policy": {
+      "message": "Dasar Privasi"
+   },
+   "random_wp": {
+      "message": "Gambar latar rawak"
+   },
+   "random_wp_change_by": {
+      "message": "Dapatkan gambar latar rawak dengan mengklik kincir angin pada sudut bawah kanan Desktop"
+   },
+   "read": {
+      "message": "baca"
+   },
+   "recent": {
+      "message": "Terbaru"
+   },
+   "recovery_data": {
+      "message": "Pulihkan data"
+   },
+   "recovery_default_wp": {
+      "message": "Kembali kepada gambar latar asal... "
+   },
+   "recovery_from_backup_file": {
+      "message": "Pulihkan semula data dari fail sandaran"
+   },
+   "recovery_now": {
+      "message": "Pulihkan sekarang"
+   },
+   "recovery_to_default_wp": {
+      "message": "Kembali kepada kertas dinding lalai"
+   },
+   "reload": {
+      "message": "Muat Semula"
+   },
+   "remove_image": {
+      "message": "Padam imej"
+   },
+   "require_new_permissition": {
+      "message": "\"$name$\" telah meminta kebenaran tambahan",
+      "placeholders": {
+         "name": {
+            "content": "$1"
+         }
+      }
+   },
+   "reset_email_has_send": {
+      "message": "Maklumat pengesahan telah dihantar kepada anda melalui e-mel. Salin kod pengesahan e-mel untuk menetapkan semula kata laluan anda."
+   },
+   "restore_complete": {
+      "message": "Pemulihan selesai"
+   },
+   "restoring": {
+      "message": "Memulihkan…"
+   },
+   "save": {
+      "message": "Simpan"
+   },
+   "search": {
+      "message": "Cari"
+   },
+   "search360": {
+      "message": "360 Search"
+   },
+   "search_by": {
+      "message": "Cari mengikut: $searchName$",
+      "placeholders": {
+         "searchName": {
+            "content": "$1"
+         }
+      }
+   },
+   "search_engine": {
+      "message": "Enjin Carian"
+   },
+   "search_results": {
+      "message": "Hasil Carian"
+   },
+   "search_url": {
+      "message": "URL dengan %s sebagai ganti pertanyaan"
+   },
+   "select_wp": {
+      "message": "Pilih gambar latar setempat"
+   },
+   "server_error": {
+      "message": "Ralat pelayan telah berlaku"
+   },
+   "setting_city": {
+      "message": "Menetapkan bandar anda"
+   },
+   "settings": {
+      "message": "Seting"
+   },
+   "shopping": {
+      "message": "Membeli-belah"
+   },
+   "show_bookmarks": {
+      "message": "Tunjukkan Penanda Buku"
+   },
+   "show_gmail_num": {
+      "message": "Tunjukkan bilangan e-mel yang belum dibuka daripada Gmail pada ikon"
+   },
+   "show_random_wp_btn": {
+      "message": "Tunjukkan butang untuk menukar gambar latar secara rawak di sudut bawah kanan"
+   },
+   "show_search_box": {
+      "message": "Tunjukkan kotak carian"
+   },
+   "show_search_btn": {
+      "message": "Tunjukkan butang carian"
+   },
+   "show_search_type": {
+      "message": "Tunjukkan jenis carian"
+   },
+   "show_todos_num": {
+      "message": "Tunjukkan bilangan perkara untuk dilakukan pada ikon"
+   },
+   "show_topsites": {
+      "message": "Tunjukkan laman teratas"
+   },
+   "sign_in_success": {
+      "message": "Daftar Masuk Berjaya"
+   },
+   "sign_in_to_backup_cloud": {
+      "message": "Daftar untuk akaun Infinity dan sandarkan data anda ke storan awan"
+   },
+   "sign_out": {
+      "message": "Log keluar"
+   },
+   "sign_up": {
+      "message": "Daftar"
+   },
+   "sign_up_success": {
+      "message": "Akaun telah berjaya didaftarkan"
+   },
+   "site_name": {
+      "message": "Nama"
+   },
+   "site_url": {
+      "message": "URL"
+   },
+   "site_website": {
+      "message": "Tapak web"
+   },
+   "social": {
+      "message": "Sosial dan blog"
+   },
+   "sogou": {
+      "message": "Sogou"
+   },
+   "sports": {
+      "message": "Sukan dan perjalanan"
+   },
+   "start_animation": {
+      "message": "Lancarkan Animasi"
+   },
+   "sync_bing_wp": {
+      "message": "Selaraskan dengan gambar latar Bing"
+   },
+   "tech": {
+      "message": "Teknologi digital"
+   },
+   "temperature_unit": {
+      "message": "Unit Suhu"
+   },
+   "terms_of_use": {
+      "message": "Syarat Penggunaan"
+   },
+   "this_page_no_space": {
+      "message": "Tiada lagi ruang pada halaman ini"
+   },
+   "to_top": {
+      "message": "Teratas"
+   },
+   "todos": {
+      "message": "Tugasan"
+   },
+   "todos_welcome": {
+      "message": "Selamat datang Infinity Tab Baharu. Ini merupakan contoh senarai perkara yang ingin dilakukan."
+   },
+   "top_bar": {
+      "message": "Bar Atas"
+   },
+   "try_later": {
+      "message": "Sila cuba lagi kemudian"
+   },
+   "undo": {
+      "message": "Buat Asal"
+   },
+   "unname_folder": {
+      "message": "folder tanpa tajuk"
+   },
+   "verification_code": {
+      "message": "Kod Pengesahan"
+   },
+   "videos": {
+      "message": "Video"
+   },
+   "view_zoom": {
+      "message": "Lihat zum (Ikon dan kotak carian)"
+   },
+   "wallpaper": {
+      "message": "Kertas dinding"
+   },
+   "wallpaper_type": {
+      "message": "Jenis gambar latar"
+   },
+   "we_update": {
+      "message": "Halo, Tab Infinity telah telah dikemas kini."
+   },
+   "weather": {
+      "message": "Cuaca"
+   },
+   "weather_setting": {
+      "message": "Tetapan cuaca"
+   },
+   "web": {
+      "message": "Web"
+   },
+   "weixin": {
+      "message": "WeChat"
+   },
+   "welcome": {
+      "message": "Selamat datang ke Infinity"
+   },
+   "what_to_do": {
+      "message": "Apa perlu saya lakukan? "
+   },
+   "will_cover_cloud": {
+      "message": "Operasi ini akan menimpa data pada storan awan"
+   },
+   "will_cover_local": {
+      "message": "Operasi ini akan menimpa data pada storan setempat"
+   },
+   "will_rate": {
+      "message": "Ya, berikan rating"
+   },
+   "wind": {
+      "message": "Angin"
+   },
+   "write_sth": {
+      "message": "Tuliskan sesuatu... "
+   },
+   "yahoo": {
+      "message": "Yahoo!"
+   },
+   "you_can_set_view": {
+      "message": "Jika anda tidak berpuas hati dengan saiz paparan semasa, anda boleh melaraskannya dari tetapan."
+   },
+   "you_did_not_backup": {
+      "message": "Anda belum membuat sandaran data anda"
+   },
+   "your_password_change": {
+      "message": "Kod laluan anda telah ditukar"
+   }
+}

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.1 (47250) - http://www.bohemiancoding.com/sketch -->
+    <title>icon-close</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="20" height="20"></rect>
+    </defs>
+    <g id="控件规范" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(-240.000000, -30.000000)">
+        <g id="icon-close" transform="translate(238.000000, 28.000000)">
+            <mask id="mask-2" fill="white">
+                <use xlink:href="#path-1"></use>
+            </mask>
+            <g id="Mask"></g>
+            <path d="M7.5,7.5 L7.5,2 C7.5,0.8954305 8.3954305,1.13068111e-13 9.5,1.13135747e-13 L10.5,1.13319444e-13 C11.6045695,1.13387079e-13 12.5,0.8954305 12.5,2 L12.5,7.5 L18,7.5 C19.1045695,7.5 20,8.3954305 20,9.5 L20,10.5 C20,11.6045695 19.1045695,12.5 18,12.5 L12.5,12.5 L12.5,18 C12.5,19.1045695 11.6045695,20 10.5,20 L9.5,20 C8.3954305,20 7.5,19.1045695 7.5,18 L7.5,12.5 L2,12.5 C0.8954305,12.5 1.3527075e-16,11.6045695 0,10.5 L0,9.5 C-1.3527075e-16,8.3954305 0.8954305,7.5 2,7.5 L7.5,7.5 Z" id="Combined-Shape" fill="#ffffff" mask="url(#mask-2)" transform="translate(10.000000, 10.000000) rotate(45.000000) translate(-10.000000, -10.000000) "></path>
+        </g>
+    </g>
+</svg>

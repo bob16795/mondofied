@@ -1,2 +1,7 @@
 #!/bin/bash
-feh --bg-fill ~/.config/mondo/images/sudoBlue.jpg
+if [[ 0 == 0 ]]; then
+  xwallpaper --zoom ~/.config/mondo/images/sudoBlue.jpg
+else
+  xsetroot -solid '#002b36'
+fi
+

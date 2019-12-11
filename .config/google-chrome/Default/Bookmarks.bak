@@ -1,0 +1,238 @@
+{
+   "checksum": "8065a47d8bf244301006154d4498b69a",
+   "roots": {
+      "bookmark_bar": {
+         "children": [ {
+            "date_added": "13212534843570699",
+            "guid": "db373ca8-6dfc-4ea5-a6c9-ee19a371fbb1",
+            "id": "22",
+            "name": "STUFFS",
+            "type": "url",
+            "url": "https://dmv.ny.gov/driver-license/drivers-manual-practice-tests"
+         }, {
+            "date_added": "13212596603508329",
+            "guid": "f3ea0b50-cc98-4997-9a0a-5e533a9783c0",
+            "id": "23",
+            "name": "Sections and chapters - Overleaf, Online LaTeX Editor",
+            "type": "url",
+            "url": "https://www.overleaf.com/learn/latex/Sections_and_chapters#Numbered_and_unnumbered_sections"
+         }, {
+            "date_added": "13212620515041900",
+            "guid": "a5572681-4a9d-4005-b8a6-c0ab81afb370",
+            "id": "24",
+            "name": "Sign in to your account",
+            "type": "url",
+            "url": "http://schoology.newarkcsd.org/"
+         }, {
+            "date_added": "13212868200436478",
+            "guid": "c91f92b5-c512-40b9-9260-20b6e562e875",
+            "id": "25",
+            "name": "Remind",
+            "type": "url",
+            "url": "https://www.remind.com/classes/precalcnew/messages"
+         }, {
+            "date_added": "13212937795259259",
+            "guid": "7f0d88bb-e896-4607-b493-fcdfa642d6a4",
+            "id": "26",
+            "name": "fonts - How to make a single word look as some code? - TeX - LaTeX Stack Exchange",
+            "type": "url",
+            "url": "https://tex.stackexchange.com/questions/36030/how-to-make-a-single-word-look-as-some-code"
+         }, {
+            "date_added": "13213282114259687",
+            "guid": "f3769802-b19d-4ee8-a038-53cd34b54d77",
+            "id": "27",
+            "name": "https://jgmize.github.io/paperclips/index2.html",
+            "type": "url",
+            "url": "https://jgmize.github.io/paperclips/index2.html"
+         }, {
+            "date_added": "13214497843735934",
+            "guid": "4a7e54fc-fb58-41c7-9290-c097cfdb9e34",
+            "id": "28",
+            "name": "laptops and netbooks :: thinkpad x series laptops :: thinkpad x220 :: 4286 Lenovo PC Support - US",
+            "type": "url",
+            "url": "https://pcsupport.lenovo.com/us/en/products/laptops-and-netbooks/thinkpad-x-series-laptops/thinkpad-x220/4286/parts/display/compatible"
+         }, {
+            "date_added": "13220541139932842",
+            "guid": "4325439a-cd1f-4250-a9b4-1653830b9e42",
+            "id": "5",
+            "name": "Gmail",
+            "type": "url",
+            "url": "https://accounts.google.com/b/0/AddMailService"
+         }, {
+            "date_added": "13220541139935928",
+            "guid": "9d932cd7-e28d-4894-b6ed-7b30a370d3f5",
+            "id": "6",
+            "name": "YouTube",
+            "type": "url",
+            "url": "https://youtube.com/"
+         }, {
+            "date_added": "13220541139936540",
+            "guid": "1bbb7b9b-bf9c-43de-ba96-58b9bc16503a",
+            "id": "7",
+            "name": "Maps",
+            "type": "url",
+            "url": "https://maps.google.com/"
+         }, {
+            "date_added": "13219100852160208",
+            "guid": "635a51d0-d38a-4950-a896-2f7e82913d74",
+            "id": "29",
+            "name": "News",
+            "type": "url",
+            "url": "https://news.google.com/"
+         }, {
+            "date_added": "13219100853176584",
+            "guid": "b9628652-fab4-496f-9f90-62913f42fabe",
+            "id": "30",
+            "name": "Translate",
+            "type": "url",
+            "url": "https://translate.google.com/"
+         }, {
+            "date_added": "13219946861345467",
+            "guid": "15cbc938-690a-428f-9a66-45db2f21f9af",
+            "id": "31",
+            "name": "Google Translate",
+            "type": "url",
+            "url": "https://translate.google.com/translate?hl=&sl=vi&tl=en&u=https%3A%2F%2Fn-o-d-e.net%2F&anno=2"
+         } ],
+         "date_added": "13220541133015693",
+         "date_modified": "13220541139936540",
+         "guid": "00000000-0000-4000-A000-000000000002",
+         "id": "1",
+         "name": "Bookmarks bar",
+         "type": "folder"
+      },
+      "other": {
+         "children": [  ],
+         "date_added": "13220541133015699",
+         "date_modified": "0",
+         "guid": "00000000-0000-4000-A000-000000000003",
+         "id": "2",
+         "name": "Other bookmarks",
+         "type": "folder"
+      },
+      "synced": {
+         "children": [ {
+            "children": [ {
+               "date_added": "13191680818420439",
+               "guid": "2e2c9967-8acd-40cb-a231-02012949be49",
+               "id": "9",
+               "meta_info": {
+                  "last_visited": "13200323957344046",
+                  "last_visited_desktop": "13204380556878421"
+               },
+               "name": "mondofied",
+               "type": "url",
+               "url": "https://github.com/bob16795/mondofied"
+            }, {
+               "date_added": "13171917687810030",
+               "guid": "a7fcb234-80b9-4cdc-aaf6-67e43d0ed981",
+               "id": "10",
+               "name": "RetroPie-Setup Wiki · GitHub",
+               "type": "url",
+               "url": "https://github.com/RetroPie/RetroPie-Setup/wiki"
+            }, {
+               "date_added": "13191680929709068",
+               "guid": "4e1b78c7-8cbd-4235-b4b1-d4f1c5e6d7ff",
+               "id": "11",
+               "name": "vim-ctrlspace: Vim Space Controller",
+               "type": "url",
+               "url": "https://github.com/vim-ctrlspace/vim-ctrlspace"
+            } ],
+            "date_added": "13220541163957273",
+            "date_modified": "13220541163957274",
+            "guid": "d4a40452-21b2-49bf-89bd-3c7b765a2402",
+            "id": "8",
+            "name": "Github",
+            "type": "folder"
+         }, {
+            "date_added": "13191680865998004",
+            "guid": "9d9a8ad6-a93c-4229-9da7-3f043a42f814",
+            "id": "12",
+            "name": "Welcome - ticalc.org",
+            "type": "url",
+            "url": "https://www.ticalc.org/"
+         }, {
+            "date_added": "13191680889301429",
+            "guid": "74bcde17-a378-4c72-8b82-4258274d04e0",
+            "id": "13",
+            "meta_info": {
+               "last_visited": "13204232330753249",
+               "last_visited_desktop": "13203775471364858"
+            },
+            "name": "GitHub · Where software is built",
+            "type": "url",
+            "url": "https://github.com/"
+         }, {
+            "date_added": "13191680900767690",
+            "guid": "4f9c7088-68d2-4538-b138-bf039023140d",
+            "id": "14",
+            "meta_info": {
+               "last_visited": "13204729198578898"
+            },
+            "name": "My site",
+            "type": "url",
+            "url": "http://lolnope.freevar.com/"
+         }, {
+            "date_added": "13194217165018014",
+            "guid": "0393a690-b488-477c-8a96-3d930dd43134",
+            "id": "15",
+            "name": "Platinum Silver Mouth Teeth Grills Grillz Upper & Lower Set Player USA Ship | eBay",
+            "type": "url",
+            "url": "https://www.ebay.com/p/Platinum-Silver-Mouth-Teeth-Grills-Grillz-Upper-Lower-Set-Player-USA-Ship/1162401370?iid=151917498344&chn=ps&ul_ref=https%253A%252F%252Frover.ebay.com%252Frover%252F1%252F711-117182-37290-0%252F2%253Fmpre%253Dhttps%25253A%25252F%25252Fwww.ebay.com%25252Fp%25252FPlatinum-Silver-Mouth-Teeth-Grills-Grillz-Upper-Lower-Set-Player-USA-Ship%25252F1162401370%25253Fiid%25253D151917498344%252526chn%25253Dps%2526itemid%253D151917498344%2526targetid%253D595232408349%2526device%253Dm%2526adtype%253Dpla%2526googleloc%253D9005616%2526poi%253D9007296%2526campaignid%253D1689945007%2526adgroupid%253D69559042207%2526rlsatarget%253Dpla-595232408349%2526abcId%253D1140466%2526merchantid%253D107147193%2526gclid%253DCj0KCQiAkfriBRD1ARIsAASKsQLaYbZOpfA-Rtbhc5Zzo6kOjwopDpBoTcih8l-_AnnRdHM-9NVcE_0aAro2EALw_wcB%2526srcrot%253D711-117182-37290-0%2526rvr_id%253D1852155592802%2526rvr_ts%253Dd3e9b0b31680ab4d83732856fff38885&thm=10"
+         }, {
+            "date_added": "13202876820700628",
+            "guid": "3df981ac-ffa3-40fe-964c-41b2de109e8f",
+            "id": "16",
+            "meta_info": {
+               "last_visited": "13202876820702222"
+            },
+            "name": "New Products : Adafruit Industries, Unique & fun DIY electronics and kits",
+            "type": "url",
+            "url": "https://www.adafruit.com/new"
+         }, {
+            "date_added": "13203008390698498",
+            "guid": "4d8fb246-05ac-49d0-af17-d51eaa620603",
+            "id": "17",
+            "name": "New tab",
+            "type": "url",
+            "url": "chrome-native://newtab/"
+         }, {
+            "date_added": "13203135160680510",
+            "guid": "5e4a4a93-2178-42f7-89e5-7d93654e3b0e",
+            "id": "18",
+            "name": "Abbie🎳 (@abigailolmstead) • Instagram photos and videos",
+            "type": "url",
+            "url": "https://www.instagram.com/abigailolmstead/"
+         }, {
+            "date_added": "13214970833732042",
+            "guid": "19b29c2c-df99-4977-8b87-9c4b14c81b6e",
+            "id": "19",
+            "name": "Login • Instagram",
+            "type": "url",
+            "url": "https://www.instagram.com/accounts/login/"
+         }, {
+            "date_added": "13216608600464971",
+            "guid": "3aef7fdb-a796-43f6-9d4a-a831f817d3c3",
+            "id": "20",
+            "name": "/Rubber animation - e621",
+            "type": "url",
+            "url": "https://e621.net/post/index/1/Rubber%20animation"
+         }, {
+            "date_added": "13217468874809985",
+            "guid": "2bc39648-3297-45fd-97e8-301b273075f2",
+            "id": "21",
+            "name": "GitHub - b-ggs/x220-hackintosh: 💻 macos budget meal",
+            "type": "url",
+            "url": "https://github.com/b-ggs/x220-hackintosh"
+         } ],
+         "date_added": "13220541133015701",
+         "date_modified": "13217468874809985",
+         "guid": "00000000-0000-4000-A000-000000000004",
+         "id": "3",
+         "name": "Mobile bookmarks",
+         "type": "folder"
+      }
+   },
+   "sync_metadata": "CugBCscBCIiBAhLAARKMAQgCEk4KBgoCYm0QARAzGhIJgKVOy2yZBQAhgKVOy2yZBQAiFAlfz8bTbJkFABALGa1LAaazspviMhgKFggCESyEKdxsmQUAGAAhAAAAAAAAAAASOAoGCgJiZBAAEDMaEgmApU7LbJkFACGApU7LbJkFADIYChYIAhGGQincbJkFABgAIQAAAAAAAAAAIAAyH0UxR1hSVFRRMndFWjRPWUVGckQ4SnlXRG1rUlA3eFlI5Y3Tp+8tcOWN06fvLRIAIAEqGHZHT3BCWDRIT2I0WmE1c0NhcldFVVE9PRLGAQgCEsEBEmZaOkFEcXRBWnhZRkxieElYTS9GR1hBWU9iV1VDZmdPa3lqaTNQZENKSHR6SVJOd3lxdmVjNGYzb3k5WS94U1IySFF5ZXZHWHY5UGhxcVFLY3lBc1F2djJRZjk2R0l5bHR2YjZRPT0YACAAKAAwu6TTmM2t5gI4AEAAShw1dXN5L2NwZnBpMUV0b0JIRGdYSXMwcWI0ckE9WiYiJIAAAAAAAAAAfZ6RJdw44QQk69NLsCCTc1DjG/lwi37FvmHcfxKLAggMEoYCEqYBWjpBRHF0QVp6NUYyYWlYNGZjR2FndFZ0akhSNWs3NnluRWVnZnBDNnZBYkJDNnRaZ05ZZ2VDeFNDZmthTEhKeGJwMUN5N0dPTElTSzlBbGpHSWIwUGd3U0ZTYWdQbDBSNktlbEhPN1ZYbmUwVWRJcTdGYklLMjg3b0hZbVV1Y01NRzhlZ1Z6NEdsU3RMc3doeVhJUWlSRTg5ZTB2VFVRSjRkZXc9PRgAIAAoADCrpO+w9cLgAjjQnfXlgy1A0J315YMtShxNTlZXZjYxcUlCOG1Dd3NXTlJFMnY0NGJOYjQ9WiAiHv/UbzdRc2Nid0hiRkhsNWFGNHR2dGRTOVcvRk1RPRKLAggOEoYCEqYBWjpBRHF0QVp6NUYyYWlYNGZjR2FndFZ0akhSNWs3NnluRWVnZnBDNnZBYkJDNnRaZ05ZaVJyOUJ6TXlyNmxSWjB4YmVzS1VPa29BSnYvMlhQZmxodXp2bnJuVlc4dmNMNlVqWjdXbVVCdWlGajNaWkhvc0FOYUVTaWhJejJWbWN3K1k2bEg3NnFRNzJjMDREaTJ6RTMrVmdXZEg3THgvWkJSaEE9PRgAIAAoADCT+9/ltf7lAjihrfflgy1Aoa335YMtShxsdGZuNGZTNWxuMTg2RkpucVl0d0NUNUNKdzQ9WiAiHv/1bm0zaEs1bzlWNU5LcHdmNDkwR29NRk5xakFRPRKJAggJEoQCEqYBWjpBRHF0QVp6NUYyYWlYNGZjR2FndFZ0akhSNWs3NnluRWVnZnBDNnZBYkJDNnRaZ05ZaWxiczBKNnRVdHFZZ1VsN1dtSGYxL3N6VzdxTFIycEp5dFA5b21sZFBIWWh0WVUrVVNZUm5PQ3VyL3hrMFhqNVJXclhDNGtad2x4QmRPSXVBZzVIL2oydk5QSHNYRkFKeWoxcFMvTkR1dEk5LytGQUE9PRgAIAAoADDB3pfi8ZnmAjj6qfLlgy1A+qny5YMtShxnZUpGVkxrTnIyRnhGSVRVZFlXNU9nYlZPOTg9Wh4iHDI0TEVqaHVtMEdRS2JBanM0Z21vaERQQWdtcz0SiwIIDRKGAhKmAVo6QURxdEFaejVGMmFpWDRmY0dhZ3RWdGpIUjVrNzZ5bkVlZ2ZwQzZ2QWJCQzZ0WmdOWWp1cGllejR2bnkrVnNRb1pZNlB6U1RURnUyMXlUME1qRTVSME9zcEdmUnZsZHh1dXNEQXAwa2V4dk1Md2pZTG8zNFhhQlNkT2J6Y05zZThJK0l5dkdXbGdqeE52S0djcTVrQ2RPZk5rYm9ucXBtV2NRPT0YACABKAEw3p6bns2t5gI41tP25YMtQISMyqfvLUocbkU3NlppWHc5blg2OE5lZTA3RHRKTkNSZGpnPVogIh7/6mw2V3NFT1JVN1V3cHc2d3NNVmxqRnFpVWZZZz0SiQIICBKEAhKmAVo6QURxdEFaejVGMmFpWDRmY0dhZ3RWdGpIUjVrNzZ5bkVlZ2ZwQzZ2QWJCQzZ0WmdOWXVZWE12ay9FbnBLZDJrKzhIajhMejU0QUFuYkN4TjJNZG0wTE9ZQnU5K05NaWJrQk05eS95VTJWbjdDYTJtMjZ2WGo3WG5XOEN4SklZOVJOdCt6ZkxTYmtVdWJUbGRlMnF6SG5PaWhBRUVUT2lKR3BBPT0YACAAKAAw4quK7tTl3wI4/tP/5YMtQP7T/+WDLUocbHUySFFqTGdCNG91RC9DTld6NmVoMCs2emdrPVoeIhxTV0xsQ25YNHNlTURPUnhydE9pSXI2bnN4V2c9EokCCAsShAISpgFaOkFEcXRBWno1RjJhaVg0ZmNHYWd0VnRqSFI1azc2eW5FZWdmcEM2dkFiQkM2dFpnTll1eHlpQlEyRlVOVnFFakxQWEtXdzRtMGF0Z1pyZ3VmT3pNZjYzTlNpbzB2RkdPVWs1ZFNrcGNpNjlHTWtyaXlRWk1jTVZ4MVhWWnB5Z01rZlN1R0VNQ2k2ellFQTI1MEdUVGovVFJkcGtHNndkbjBPUT09GAAgACgAMMHel+LxmeYCOK+P+eWDLUCvj/nlgy1KHGNvZld4aWdGdUJaUmZSL2tGa3QwR2pLUUhYWT1aHiIceEVnemgvNU9UQnI5MmhidllDdytoalZZMjFVPRKLAggdEoYCEqYBWjpBRHF0QVp6NUYyYWlYNGZjR2FndFZ0akhSNWs3Qm9LZzlaVGpnWmxoS3hkaUdpV1lvMTNmczZrMk5RbTR2MmM1eW40OHN0Qm1waTVGZ0lPckxaMS84QjcwOWVWMVY4TnpXMU5WdVZUcnZjcHlnOHFEUnZack1LMUlZZGd0YWt3Y0RYQ2JqR01hTG9nWU4xaUVKY091bE5DbGprRW1HcndLS1E9PRgAIAIoAjDenpueza3mAjj/l+b46S1ApozKp+8tShxjdEsvRThWclR6cnBxQ1pZVXpwajlONFhaNTA9WiAiHv/9UnZ1YmxXdldPUjdKWUpqS0RhRWdSUUc2eTQ4PRKLAggeEoYCEqYBWjpBRHF0QVp6NUYyYWlYNGZjR2FndFZ0akhSNWs3Qm9LZzlaVGpnWmxoS3hkaUdpV1lvNitOeXE2T3BFWVF1MThQVjU5UXBLZUpFNHlMT2trYm56bWNqa1JBbGNFN3ZqblVla3M3Qnp3eG4xdE5tNDJCWmFZTzMyRUtpLzIzM3Nha1EzMkRwdG14U2dZL1ZTeVNRdGZZZnk0Z0ZDRk9NL01uTVE9PRgAIAAoADDxvOfp75nmAjiAmOb46S1AgJjm+OktShx0bjBMV1VOL2djZXg2akRpMUN0dkVJR2NtVzg9WiAiHv/+SlRNU2x2Slh2ZmFXRWN2Z0dMZUV3ZWx1a21FPRKLAggGEoYCEqYBWjpBRHF0QVp6NUYyYWlYNGZjR2FndFZ0akhSNWs3Qm9LZzlaVGpnWmxoS3hkaUdpV1lvNzByQTFSWFY3VlRkNHFIUjNtc2diT2ZBNDYvYnl5WXN0U3ZBbHowNnNmNEtieGRZeWR2V2orZGY4empDdEdwc1h6cXNPa0gyTWo4R1hZUEN3R0lLSnhCZEpYWVUxZ1dYZzdxOVJYNzh3RnNmY0NReHc9PRgAIAAoADDJh6zh/Z7mAjj/l+b46S1A/5fm+OktShx1MHF5WTM5dkRyeFpub3JmVUs1M3NKNVdTcFk9WiAiHv/1T2RXRFRrdFF1ZzJhNUV6TlFRWDZGbHh5YTJnPRKLAggHEoYCEqYBWjpBRHF0QVp6NUYyYWlYNGZjR2FndFZ0akhSNWs3Qm9LZzlaVGpnWmxoS3hkaUdpV1lvOVkzby9OYUNwYVVrNVZCN21QOUpUbzJpTUtVRXp4K3ZyTnkvaTVHM1VtSENteVpGbEUwN0NLd2s1eGhrcW94MEV1MlJlVU9La2NteXU1TEk4NDV2T3hLQW10bFNJejhjTjVIU01keDVqTXQ5dzh0VkE9PRgAIAAoADDxvOfp75nmAjj/l+b46S1A/5fm+OktShwzSldSSkY3SnVXN0xBVEYycHVhMFpqaEpyak09WiAiHv/6VTZGMys5RFVkRW81ZkhGeU8vWUJyWFQzMXY4PRKLAggFEoYCEqYBWjpBRHF0QVp6NUYyYWlYNGZjR2FndFZ0akhSNWs3Qm9LZzlaVGpnWmxoS3hkaUdpV1lvejZtTW0vQnA4eDQ2VGRrVFp6LzcwWHBXUnBxMHRzU0tDNmlIc2xxclVoNzJ0cDRMODFHY0l2T0FHOWFiVUZxaEFZQTRkM24xb2lWZVlEMUFJM2Z3TWMxemg1TlMzUGNCVmhXMXlkZ2tZUm9XRS9xV1E9PRgAIAAoADDxvOfp75nmAjj+l+b46S1A/pfm+OktShx0Vy9oV2Q1Zm54Vkd4dCtXT3kwRk4yTGJZVkk9WiAiHv/qTUtobTM4SVIwT093dnMxQ0J4R0h3NWFOY3B3PRKLAggQEoYCEqYBWjpBRHF0QVp6NUYyYWlYNGZjR2FndFZ0akhSNWs3QzNQb084M0YzQ1RUTEFWQjFsQVVKQ0NWaHUrMkJBWkIrRVRsRk9BdGNIczJLc1lzZHJoWERpekxmb3AzT3lDOE5SWnd5MjRmRGJxMG9yUGRQRTV1L2xDQVUwbkpnODJPT09CV241Q01tUS8vZHlyM2NFTEtBZnlVdXBqb1orMmo0MVU2T0E9PRgAIAAoADDulYmWid3kAjjeicjArS1A3onIwK0tShxOa0VLc1NjbHY0amVhRUlCZG02MC81UlRLL3c9WiAiHv/9S3BXYXFCaDI5Wmt4Q0lBNlR3dnFFLzV0OEhrPRKLAggSEoYCEqYBWjpBRHF0QVp6NUYyYWlYNGZjR2FndFZ0akhSNWs3QzNQb084M0YzQ1RUTEFWQjFsQVVKS3BJYVFPM2NiajQ1NmxkMXBCalNiSERpN1B2TVp2ZXZOcms3cFFPeUxYMGhkdHI3MWdTNmliYlhjRVFUMFFRQ0k0emFSaW9ydU0zejM4QlNCbjRic1hjQ3llREJUeERTZlBuUENmWEhYVXR5ZmgrNGc9PRgAIAAoADCQheSJlOPkAjjq8t+7ri1A6vLfu64tShxwTE5ENmsrSndwZmR4R1lzd2ExK3h1Q05ydm89WiAiHv//MiszY2hKZkZEdDBXVWc3Q3pSVEcvWm9SS2lzPRKLAggREoYCEqYBWjpBRHF0QVp6NUYyYWlYNGZjR2FndFZ0akhSNWs3QzNQb084M0YzQ1RUTEFWQjFsQVVKTURaNzZtQ1JDeTJjamR0TE1IdWJob3lITEdiS0JSWi9mOGhJeGVOa1dGNWtwMm8zazJQcXZxZmJncllvSFl2UmhDbk1nQmt2bWlHVkZlZElISklLQTdJa3ZUWG9tcnNYL1lBWVZsOEFaOGppVGduS2c9PRgAIAAoADDJqP/Eqq/iAjj5vKb/rS1A+bym/60tShw1VW1kU2YybzJnUHdsOTJaMmZkK09lMlhZSFU9WiAiHv/+TGpBcWVWNnh3Vy9EZXcrOG5QckRSWUNraU9vPRKLAggUEoYCEqYBWjpBRHF0QVp6NUYyYWlYNGZjR2FndFZ0akhSNWs3R1ZBOTQwdENDNHMzSElmU3RCanN2QmZDZUIzQy90WVl2TVBQWkZGLzRSY1Q3aUd3bFIrQ0k3RkpDVEdSK2hZY3I0UnB5YVNsZmd0TElZMGZybkRRekt2Ynh3Nlo2TUNFdlVsTmRKbitGZFVYMXlhdWJwYTVoSXhnTUZOUmpwdUQ3ZW96QlE9PRgAIAAoADCrjKekk7vlAjids7HU4C1AnbOx1OAtShw2ak5kRkNqbkNFWS9KOG13bW9WbHh3SU1Fc2s9WiAiHv//ckwrMXZPQmVkWEdLVTBIMmpvTVpVazNIeGFJPRKLAggTEoYCEqYBWjpBRHF0QVp6NUYyYWlYNGZjR2FndFZ0akhSNWs3R1ZBOTQwdENDNHMzSElmU3RCanN2R08ra1F6Y0lVMndWT0V0WVNVQU5XMkY1WkltYm9XUkJYVHhtL09ML2VNMkVISDNGRWgyVkNFY3FsTDN2Ujd6M21CVVllQlNYTkRJZGJaQTNIbXV4UVRueVRBV1pkam9yNHF6MGRpUEw4dG8zYTcyaHc9PRgAIAAoADCl2OuOvovlAjjMhrjH2i1AzIa4x9otShxncDBwM3JZOVBaMTVCUnl5NlRvbHVoS1U1SVU9WiAiHv//RmVBWENXV21IYTg2L2JKcmVSZFRQMUZvQUowPRKMAggVEocCEqYBWjpBRHF0QVp6NUYyYWlYNGZjR2FndFZ0akhSNWs3R1ZBOTQwdENDNHMzSElmU3RCanN2R1N0L3QrelpId0ZzSVV5aWNUVzFQRFMxZU1XS3A4QktGa3lhM0JBN0VlYXk1RlRPQkJSL0VmMkdadU03NlN5Q1lqOUlHSUhXdm9USGMrQU9qV1cyNWdUa2c2THM0TkgzY2lPaFF0NFFVNmdRdUROQ1E9PRgAIAAoADDB3pfi8ZnmAji8sMzu4y1AvLDM7uMtShwzZWJhdDNMVmJqMkg4RkQ2Z0dmMm1hSkdJUms9WiEiH///uUdEZklxQWtFSGFBMTdmUXQyYmFBTlRVZ2psVT0SiQIIChKEAhKmAVo6QURxdEFaejVGMmFpWDRmY0dhZ3RWdGpIUjVrN2RIT044MTRCeGNKRjIxUEkyVlhXV0FZcUhCcVhVVitWK1JpbGdMMGlyRDgycVdlanNzVE9GZVVneDV0dzZYQ3UwQTRwZkhyaG5IZTBRN3NjeW5pZTVyMDg1MkhjZnl4NkdDWWJTaXhPRTJCY0M2ZzJUKzFrRXpLL0dwODA3WExKdXVwZ1JBPT0YACAAKAAwwd6X4vGZ5gI48oT20scsQPKE9tLHLEocYmZFMFBKcGh2bWs3M1RIK0dodXVvWXFaeXlVPVoeIhxRaGxNM2pJaDgvQUI0WFFaeEVEVnIxd1c4NGM9EooCCBYShQISpgFaOkFEcXRBWno1RjJhaVg0ZmNHYWd0VnRqSFI1azd3ZWNJb2hDTk5LVGdQdXpJY0xTU3crYmxIRGFrcFZrMjJTOUdYME9MV01qZ1pOVkcxeXIrMGFsU25YaTMwSFVXamtWUSt3WDJmTW1VVWFIaG5FVGJYdElQYXhHVDRaa1Z6UUx4UlY1OUsrUGoxM1BvQ2ppK05TdDlVUnh5OS83MkhTQStFUT09GAAgAigCMN6em57NreYCOIDrqtvRLUCgjMqn7y1KHFZoWTVVQ3Z4QzZyaXpWZUNxU2w2ZDV0RFZuVT1aHyId7TBKTWtBQzFkLytJK1dyMGZxaEJrNG9jcmJoMD0SiwIIHxKGAhKmAVo6QURxdEFaejVGMmFpWDRmY0dhZ3RWdGpIUjVrN3dlY0lvaENOTktUZ1B1ekljTFNTdzBWWVFDUkovNkNqUjRWMnFCaTd3VkVsZjFiTWVHNEF3OGt0ODRvWWJUbnROajYvNWlBMVZLREFoWFhaTEpSbHg2MXFLOWJjcmh6NTBjMVl5UWFCWGNvTFFRRWk2REtGRDZKY1RmeU5KQS96eWpscTdBPT0YACAAKAAwg7u90e6e5gI4sdaYjO0tQLHWmIztLUocMjlDeWJhVjluQ09VaHpkaisvNXN4NkhSdUgwPVogIh7//1ZEc1p5L1ZkaWx1RUFKbHhUMnphWVY4bS9XST0SiwIIHBKGAhKmAVo6QURxdEFaejVGMmFpWDRmY0dhZ3RWdGpIUjVrN3dlY0lvaENOTktUZ1B1ekljTFNTdzFQK0thMEJMdVF4cUZTK3ZaQ0RZVk5LSSsva1JlTUx1TE56NGNla2hyWUFaTDdUM29NMEJJTjhqdG5KWkdkdUhpV2NqM3Q2bVJjWmMrTFdPNnU3cXBuR2loRlZrb0RyOUpKWTlWR0Z1eHlDSFg2enZBPT0YACACKAIw3p6bns2t5gI4mYTz5dgtQKaMyqfvLUocSGw3OWVkWFJsVkJiajlOZDV0d0tNc0gzREdRPVogIh7/1EFndGRmNlRSSHJMbHl1Y3UrZC9iakRNSkdFaz0SigIIGhKFAhKmAVo6QURxdEFaejVGMmFpWDRmY0dhZ3RWdGpIUjVrN3dlY0lvaENOTktUZ1B1ekljTFNTdzNwNGhIQVN4ZE5FK3dCT21BYmRMZjZpcmpvbU15SUxNRi9oZW12WDd1NVJzSlZualM5clIwNnNoU05MQTVSUitsR0tMejNnVXU3ait1TDVsdUNSN2Rzd0YzYTR3eG03OHYvK1kzZzNYeTk5dFFFTzVnPT0YACACKAIw3p6bns2t5gI4kp6B/tItQKSMyqfvLUocN0VkTzBqUmhtUFJFcUxTN3N2VTJkMkphWlpvPVofIh3/KzAvWDR6K0JMU0tOU2hDWHpKTW14NTV1VVBZPRKKAggZEoUCEqYBWjpBRHF0QVp6NUYyYWlYNGZjR2FndFZ0akhSNWs3d2VjSW9oQ05OS1RnUHV6SWNMU1N3NVo0dUVWd2IwK3FieXNVcXA1aFR2SmEySU1yd0NwL1RuZHpDL0N4bitFakoyUDIrNjY5M1gwaTBQbmFkeG0rTklxeW5CcUp5T01tVFRMS3lhY1UvQW5ZdlQ5b1k2bFhadFpFYjZ2RU9NcjJRRlQxRUE9PRgAIAIoAjDenpueza3mAjj1v+nc0i1ApIzKp+8tShxrSXRXcFNFRGwxMldJcTAvdE1VeXVDNDlZR1E9Wh8iHf5uZWRGcCtubi9xL2puWlRydzUyK2JIcWNta2c9EosCCBsShgISpgFaOkFEcXRBWno1RjJhaVg0ZmNHYWd0VnRqSFI1azd3ZWNJb2hDTk5LVGdQdXpJY0xTU3c1ZWRXZHJCSXpYZHI4NTcxZ1kveTFkNzVhdUdPQS9rcXdxZkljTlJJVnFrMzhleENwazk1dU85cUZYV1phNys5RklYVkRJSkx0R3JEODVxd1ROVjc5S1U2a3cvR0ZmV2VBZTBwNUFMMzl0T2FvdDFRUT09GAAgACgAMLzu2JKr2uQCOOflmKLULUDn5Zii1C1KHFBGUHRJNkNVcmZUdzc4QzlQTnovREVYM2hzND1aICIe/6hGallyZjBtTG1hNWRBTCtMdmpKQXN2WWZDQnc9EooCCBgShQISpgFaOkFEcXRBWno1RjJhaVg0ZmNHYWd0VnRqSFI1azd3ZWNJb2hDTk5LVGdQdXpJY0xTU3c5bFk3azVncnhucDc0Uk5jOTYycDExWk5RQWU1QkdSK1U1L0MrK09rdmZyNTJHbWk3TkNxMmVQcmJadWRMK2xCeG9GSHJ3ck91bGxTT0tZVGplWE1HV01KVVlXTTMxcnN1UEVpa3NGZkxQM2ppcXgxQT09GAAgAigCMN6em57NreYCOOT92+bRLUCjjMqn7y1KHDZ0eEpLZFhLd3RSSzlRSHBabzQ3dzI1Z0M4OD1aHyId+21DN29jcDRUUTlyMGlVZTJQQ1FuU2REZS9LVT0SigIIFxKFAhKmAVo6QURxdEFaejVGMmFpWDRmY0dhZ3RWdGpIUjVrN3dlY0lvaENOTktUZ1B1ekljTFNTd3h0R3ZRYjNhSkVRb3FtL25uT01KeGRvZ3AwU3ZPRzFnNi9yYTloVThjNTBXd1padjljSG5GQ3FwOGdmQzFFUDkvekZTbVBwalBTL2wyVk9UMlZTM2dkSUNxc2NlVDQ3b1hkdjY3UlNvUWk3SWFDNXRBPT0YACACKAIw3p6bns2t5gI4gOuq29EtQKGMyqfvLUocTEYzODBHbjJwQ0MwYUQ1RW00QVIvd0lOUWtzPVofIh32QnFTVGMvMUU1eHYxd1M4Rm5oNmI3RVA3NGk0PRKLAggPEoYCEqYBWjpBRHF0QVp6NUYyYWlYNGZjR2FndFZ0akhSNWs3d3VuVURFN241TURiUzh5RjRDR0dXWFpFL3o5cWhibW1PdDhBU2hxVjQvSFRrMTFmaGsyYjd6QlF6ak5SNCsyb2N0ZGNsOGxFVFhKK2owelRMRGw4Q29aNVk5RGJWSnJYa2owSTc2NHVXbzhVRU0vbE83bGh2NnZmdW9IMWxyY1RjKzM3c0E9PRgAIAAoADCrpO+w9cLgAjjg0aifjS1A4NGon40tShxYRm5NV2I4Y0xwaUdLWWRINHNXNWtwckN2SzA9WiAiHv/6L2I0dkExaTB3RkFNVFE2UkwzQXYzUSsrbjNnPRLGAQgDEsEBEmZaOkFEcXRBWnpBSnNNUGk2Y3BsU0lOcEFVeVFVWU9DZzBvZzNTMUt5aExmSjJNVHpqdUlGeEpXL1hZNDNUQ3dnWmNPd24wS1lORFREVXVGYUVFeWh2eXBJUW5FbEQ4QVpSUjV3PT0YACAAKAAwu6TTmM2t5gI4AEAAShw3OWwrTFJFVXBpYUV2REQrRzQzY3BYU3R3QmM9WiYiJIAAAAAAAAAAOyj0gjR9Psa/GM+9Somt/IS3v9mc6dATLNzqfxKuAQgBEqkBEk5aOkFEcXRBWnpFNEMrU1g3MHNaMVAzKzNiNjNCZGc1c0d0RmJtLzEwUkQwWTJyalZsNmdYM0pBNU1lTys2c1MxaFJMRkVwdWFQNk9CK0MYACAAKAAwu6TTmM2t5gI4AEAAShxVK0dHSXRaRURwWnNJU2xPVWFJVHVJTGRNbkk9WiYiJIAAAAAAAAAAr5yXEcAqvpRMPD67zX2Q761E+20BC0lwGliAfw==",
+   "version": 1
+}

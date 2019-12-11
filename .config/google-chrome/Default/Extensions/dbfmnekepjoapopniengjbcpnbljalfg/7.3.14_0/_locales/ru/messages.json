@@ -1,0 +1,734 @@
+{
+   "about": {
+      "message": "О программе"
+   },
+   "account_already_exists": {
+      "message": "Учетная запись уже существует"
+   },
+   "account_backup": {
+      "message": "Аккаунт и резервные копии"
+   },
+   "account_validation_invalid": {
+      "message": "Пароль или имя пользователя неверны"
+   },
+   "add": {
+      "message": "Добавить"
+   },
+   "add_addtional_search": {
+      "message": "Добавить систему"
+   },
+   "add_fail_due_to_network_error": {
+      "message": "Ошибка добавления из-за проблем с сетью. Пожалуйста, повторите попытку позже"
+   },
+   "add_search": {
+      "message": "Добавить поисковую систему"
+   },
+   "add_success": {
+      "message": "Успешно добавлено!"
+   },
+   "add_to_infinity": {
+      "message": "Добавить в бесконечность Новая вкладка"
+   },
+   "added": {
+      "message": "Добавлено"
+   },
+   "additional_se_desc": {
+      "message": "Дополнительные поисковые системы появятся, когда вы введете ключевые слова"
+   },
+   "addtional_search": {
+      "message": "Дополнительная поисковая система"
+   },
+   "app": {
+      "message": "Сервисы"
+   },
+   "appearance": {
+      "message": "Внешний вид"
+   },
+   "apps": {
+      "message": "Сервисы"
+   },
+   "are_you_sure": {
+      "message": "Вы уверены? Это действие отменить нельзя"
+   },
+   "auto_backup": {
+      "message": "Создавать резервные\nкопии автоматически"
+   },
+   "auto_change_wp_per_day": {
+      "message": "Автоматически менять фон каждый день"
+   },
+   "back": {
+      "message": "Назад"
+   },
+   "backup_data": {
+      "message": "Резервная копия"
+   },
+   "backup_failed": {
+      "message": "Сбой резервного копирования"
+   },
+   "backup_file": {
+      "message": "Сделать резервную копию"
+   },
+   "backup_now": {
+      "message": "Создать резервную копию"
+   },
+   "backup_success": {
+      "message": "Копирование завершено"
+   },
+   "backup_success_desc": {
+      "message": "Ваши данные были успешно скопированы на облачное хранилище"
+   },
+   "backuping": {
+      "message": "Создание учетной копии…"
+   },
+   "baidu": {
+      "message": "Baidu"
+   },
+   "bing": {
+      "message": "Bing"
+   },
+   "blur_wallpaper": {
+      "message": "Добавить к фону эффект размытия"
+   },
+   "bookmark_manager": {
+      "message": "Диспетчер закладок"
+   },
+   "bookmarks": {
+      "message": "Закладки"
+   },
+   "can_not_add_page": {
+      "message": "Извините, эта страница не поддерживает добавление в Новые вкладки Infinity"
+   },
+   "can_not_delete_current_search_engine": {
+      "message": "Текущая поисковая система не может быть удалена"
+   },
+   "cancel": {
+      "message": "Отменить"
+   },
+   "cancel_add": {
+      "message": "Отмена"
+   },
+   "celsius": {
+      "message": "Цельсий"
+   },
+   "change_city": {
+      "message": "Изменить город"
+   },
+   "choose_image": {
+      "message": "Выбрать изображение"
+   },
+   "chrome_apps": {
+      "message": "Приложения Chrome"
+   },
+   "city_not_found": {
+      "message": "Городов не найдено"
+   },
+   "city_set_failed": {
+      "message": "Не удалось установить ваш город. Пожалуйста, повторите попытку позже"
+   },
+   "clear_done": {
+      "message": "Очистка завершена"
+   },
+   "click_refresh_valicode": {
+      "message": "Нажмите на изображение, чтобы обновить код верификации"
+   },
+   "completed": {
+      "message": "Завершено"
+   },
+   "contact_us": {
+      "message": "Свяжитесь с нами"
+   },
+   "custom": {
+      "message": "Персонализированные"
+   },
+   "custom_add": {
+      "message": "Добавить произвольно"
+   },
+   "data_recovery_failed": {
+      "message": "Сбой при восстановлении данных"
+   },
+   "default": {
+      "message": "По умолчанию"
+   },
+   "delete_account_title": {
+      "message": "Удалить аккаунт"
+   },
+   "delete_my_account": {
+      "message": "Удалить мой аккаунт"
+   },
+   "detect_cloud_backup": {
+      "message": "В облачном хранилище обнаружены новые данные. Вы хотите сначала восстановить их на локальном хранилище? "
+   },
+   "discard": {
+      "message": "Отменить передачу"
+   },
+   "does_not_exist": {
+      "message": "Не существует"
+   },
+   "done": {
+      "message": "Готово"
+   },
+   "download_current_wp": {
+      "message": "Скачать фон"
+   },
+   "edit_failed_due_to_net_work": {
+      "message": "Ошибка изменения из-за проблем с сетью. Пожалуйста, повторите попытку позже"
+   },
+   "edit_image": {
+      "message": "Подбор картинки"
+   },
+   "education": {
+      "message": "Образование и подбор персонала"
+   },
+   "email": {
+      "message": "Электронная почта"
+   },
+   "email_verification_code": {
+      "message": "Код подтверждения эл. почты"
+   },
+   "enter_and_search": {
+      "message": "Ввести и искать... "
+   },
+   "enter_city_name_to_search": {
+      "message": "Введите название вашего города и нажмите Enter для поиска"
+   },
+   "enter_new_passcode": {
+      "message": "Новый код‑пароль"
+   },
+   "enter_password": {
+      "message": "Введите пароль"
+   },
+   "enter_to_search": {
+      "message": "Нажмите Enter для поиска"
+   },
+   "ext_has_been_deleted": {
+      "message": "Файл «$name$» удален",
+      "placeholders": {
+         "name": {
+            "content": "$1"
+         }
+      }
+   },
+   "extension": {
+      "message": "Расширения"
+   },
+   "extension_des": {
+      "message": "Новая вкладка поддерживает добавление значка сайта, HD-обоев, закладки, погоды, заметок, списка дел, Управление историей"
+   },
+   "fahrenheit": {
+      "message": "Фаренгейт"
+   },
+   "feedback_suggestion": {
+      "message": "Обратная связь и предложения"
+   },
+   "feedback_us": {
+      "message": "Если у вас есть другие вопросы, не стесняйтесь обращаться к нам:"
+   },
+   "finance": {
+      "message": "финансовый"
+   },
+   "find_password": {
+      "message": "Восстановить пароль"
+   },
+   "font_color": {
+      "message": "Цвет текста"
+   },
+   "forgot": {
+      "message": "Забыли пароль?"
+   },
+   "format_error": {
+      "message": "Ошибка формата"
+   },
+   "games": {
+      "message": "Игры и развлечения"
+   },
+   "general": {
+      "message": "Общие"
+   },
+   "generate_backup_file": {
+      "message": "Сгенерировать резервную копию"
+   },
+   "get_bookmarks": {
+      "message": "Просмотр и изменение закладок"
+   },
+   "give_up_account": {
+      "message": "Вам больше не нужен ваш аккаунт? "
+   },
+   "give_us_a_five_star": {
+      "message": "Вы хотите поставить нам пять звезд?"
+   },
+   "gmail_noti": {
+      "message": "Уведомления Gmail"
+   },
+   "go_on_add": {
+      "message": "Продолжить добавлять"
+   },
+   "google": {
+      "message": "Google"
+   },
+   "got_it": {
+      "message": "Понятно"
+   },
+   "has_update": {
+      "message": "$name$ был обновлен",
+      "placeholders": {
+         "name": {
+            "content": "$1"
+         }
+      }
+   },
+   "hide_icon_name": {
+      "message": "Скрывать название иконки"
+   },
+   "history": {
+      "message": "История"
+   },
+   "humidity": {
+      "message": "влажность"
+   },
+   "i_city": {
+      "message": "Город"
+   },
+   "i_clear_history": {
+      "message": "Очистить журнал"
+   },
+   "i_delete": {
+      "message": "Удалить"
+   },
+   "i_edit": {
+      "message": "Изменить"
+   },
+   "i_empty_history": {
+      "message": "В настоящее время нет истории просмотров"
+   },
+   "i_more": {
+      "message": "Подробнее…"
+   },
+   "i_new_tab": {
+      "message": "Новая вкладка"
+   },
+   "i_no_bookmarks_in_folder": {
+      "message": "В папке нет закладок"
+   },
+   "i_ok": {
+      "message": "ОК"
+   },
+   "i_please_wait": {
+      "message": "Подождите…"
+   },
+   "i_to_do": {
+      "message": "В задачах"
+   },
+   "icon": {
+      "message": "Значок"
+   },
+   "icon_border_radius": {
+      "message": "Круглые края иконок"
+   },
+   "icon_opacity": {
+      "message": "Прозрачность иконок"
+   },
+   "if_not_recovery_now": {
+      "message": "Если нет, то изменения в вашем локальном хранилище перезапишут данные в облачном хранилище"
+   },
+   "images": {
+      "message": "Картинки"
+   },
+   "invalid_password_header": {
+      "message": "Неверный пароль"
+   },
+   "invalid_verification_code_title": {
+      "message": "Неверный код проверки"
+   },
+   "last_backup": {
+      "message": "Последняя копия:"
+   },
+   "layout": {
+      "message": "Раскладка"
+   },
+   "life": {
+      "message": "Стиль жизни"
+   },
+   "loading_module": {
+      "message": "Загрузка…"
+   },
+   "local_is_new": {
+      "message": "Локальное хранилище синхронизировано"
+   },
+   "local_wallpaper": {
+      "message": "Локальные фоны"
+   },
+   "login_it": {
+      "message": "Войти"
+   },
+   "login_now": {
+      "message": "Войти сейчас"
+   },
+   "login_to_backup": {
+      "message": "Войдите в свой аккаунт Infinity и сделайте резервную копию своих данных в облако"
+   },
+   "maps": {
+      "message": "Карты"
+   },
+   "music": {
+      "message": "Музыка и видео"
+   },
+   "must_fill": {
+      "message": "Заполните это поле"
+   },
+   "name": {
+      "message": "Infinity Новая вкладка - Производительность и скорость набора"
+   },
+   "need_further_improvement": {
+      "message": "Нет, вам нужно стать лучше"
+   },
+   "net_error": {
+      "message": "Ошибка сети"
+   },
+   "new_edit_notes": {
+      "message": "Последние заметки"
+   },
+   "new_notes": {
+      "message": "Новая заметка"
+   },
+   "news": {
+      "message": "Новости"
+   },
+   "no_account": {
+      "message": "Еще нет аккаунта? "
+   },
+   "no_any_add_search": {
+      "message": "Вы не добавили ни одной поисковой системы"
+   },
+   "no_any_custom_search": {
+      "message": "Пользовательские поисковые системы не добавлены"
+   },
+   "no_dones": {
+      "message": "Нет завершенных дел"
+   },
+   "no_more": {
+      "message": "Ничего больше"
+   },
+   "no_search_results": {
+      "message": "Ничего не найдено"
+   },
+   "no_todos": {
+      "message": "Нет дел"
+   },
+   "not_support": {
+      "message": "Эта функция не поддерживается в текущей версии. При необходимости обновитесь до версии $pro_version$",
+      "placeholders": {
+         "pro_version": {
+            "content": "$1"
+         }
+      }
+   },
+   "note_view_zoom": {
+      "message": "Обратите внимание, что этот элемент следует за вашим текущим компьютером и не будет синхронизироваться по облаку."
+   },
+   "notes": {
+      "message": "Заметки"
+   },
+   "noti_sound": {
+      "message": "Рингтон уведомлений Gmail"
+   },
+   "open__in_a_new_tab": {
+      "message": "Открыть «$type$» в новой вкладке",
+      "placeholders": {
+         "type": {
+            "content": "$1"
+         }
+      }
+   },
+   "operation_completed_successfully": {
+      "message": "Операция выполнена успешно"
+   },
+   "other_search": {
+      "message": "Другие поисковые системы"
+   },
+   "otherbookmarks": {
+      "message": "Другие закладки"
+   },
+   "others": {
+      "message": "Другое"
+   },
+   "password": {
+      "message": "Пароль"
+   },
+   "password_min": {
+      "message": "Пароль должен содержать от 6 до 20 символов"
+   },
+   "photos": {
+      "message": "Изображения"
+   },
+   "please_enter_format_email": {
+      "message": "Пожалуйста, укажите адрес эл. почты в верном формате"
+   },
+   "please_input_correct_search_url": {
+      "message": "Вы указали неверную ссылку."
+   },
+   "pmset": {
+      "message": "Настройка"
+   },
+   "popular": {
+      "message": "Популярный"
+   },
+   "pressure": {
+      "message": "Давление"
+   },
+   "privacy_policy": {
+      "message": "Политика конфиденциальности"
+   },
+   "random_wp": {
+      "message": "Случайный фон"
+   },
+   "random_wp_change_by": {
+      "message": "Получите случайный фон, нажав на мельницу в правом нижнем углу рабочего стола"
+   },
+   "read": {
+      "message": "Прочитайте"
+   },
+   "recent": {
+      "message": "Недавние"
+   },
+   "recovery_data": {
+      "message": "Восстановить данные"
+   },
+   "recovery_default_wp": {
+      "message": "Установить фон по умолчанию... "
+   },
+   "recovery_from_backup_file": {
+      "message": "Восстановить данные из резервной копии"
+   },
+   "recovery_now": {
+      "message": "Восстановить сейчас"
+   },
+   "recovery_to_default_wp": {
+      "message": "Вернуться к фоновому рисунку по умолчанию"
+   },
+   "reload": {
+      "message": "Перезагрузить"
+   },
+   "remove_image": {
+      "message": "Удалить изображение"
+   },
+   "require_new_permissition": {
+      "message": "Приложение \"$name$\" запросило дополнительные разрешения",
+      "placeholders": {
+         "name": {
+            "content": "$1"
+         }
+      }
+   },
+   "reset_email_has_send": {
+      "message": "Информация о верификации была отправлена вам по эл. почте. Скопируйте код верификации, чтобы продолжить сброс пароля."
+   },
+   "restore_complete": {
+      "message": "Восстановление завершено"
+   },
+   "restoring": {
+      "message": "Восстановление…"
+   },
+   "save": {
+      "message": "Сохранить"
+   },
+   "search": {
+      "message": "Поиск"
+   },
+   "search360": {
+      "message": "360 Search"
+   },
+   "search_by": {
+      "message": "Поиск через: $searchName$",
+      "placeholders": {
+         "searchName": {
+            "content": "$1"
+         }
+      }
+   },
+   "search_engine": {
+      "message": "Поисковая машина"
+   },
+   "search_results": {
+      "message": "Результаты поиска"
+   },
+   "search_url": {
+      "message": "Ссылка с параметром %s вместо запроса"
+   },
+   "select_wp": {
+      "message": "Выберите локальный фон"
+   },
+   "server_error": {
+      "message": "Произошла ошибка сервера"
+   },
+   "setting_city": {
+      "message": "Установка вашего города"
+   },
+   "settings": {
+      "message": "Настройки"
+   },
+   "shopping": {
+      "message": "Покупка"
+   },
+   "show_bookmarks": {
+      "message": "Показать закладки"
+   },
+   "show_gmail_num": {
+      "message": "Показывать на иконке число непрочитанных писем в Gmail"
+   },
+   "show_random_wp_btn": {
+      "message": "Показать кнопку случайной смены фона в правом нижнем углу"
+   },
+   "show_search_box": {
+      "message": "Показывать поле поиска"
+   },
+   "show_search_btn": {
+      "message": "Показать кнопку поиска"
+   },
+   "show_search_type": {
+      "message": "Показывать тип поиска"
+   },
+   "show_todos_num": {
+      "message": "Показывать число задач на иконке"
+   },
+   "show_topsites": {
+      "message": "Показывать топ сайтов"
+   },
+   "sign_in_success": {
+      "message": "Вход выполнен"
+   },
+   "sign_in_to_backup_cloud": {
+      "message": "Зарегистрируйте аккаунт Infinity и сохраняйте свои данные в облачном хранилище"
+   },
+   "sign_out": {
+      "message": "Выход"
+   },
+   "sign_up": {
+      "message": "Подписаться"
+   },
+   "sign_up_success": {
+      "message": "Аккаунт успешно зарегистрирован"
+   },
+   "site_name": {
+      "message": "Название"
+   },
+   "site_url": {
+      "message": "URL"
+   },
+   "site_website": {
+      "message": "Сайт"
+   },
+   "social": {
+      "message": "Социальные и блог"
+   },
+   "sogou": {
+      "message": "Sogou"
+   },
+   "sports": {
+      "message": "Спорт и путешествия"
+   },
+   "start_animation": {
+      "message": "Анимация запуска"
+   },
+   "sync_bing_wp": {
+      "message": "Синхронизировать фон Bing"
+   },
+   "tech": {
+      "message": "Цифровая технология"
+   },
+   "temperature_unit": {
+      "message": "Единицы температуры"
+   },
+   "terms_of_use": {
+      "message": "Условия"
+   },
+   "this_page_no_space": {
+      "message": "На этой странице больше нет места"
+   },
+   "to_top": {
+      "message": "верхний"
+   },
+   "todos": {
+      "message": "Задачи"
+   },
+   "todos_welcome": {
+      "message": "Добро пожаловать в Новые вкладки Infinity. Это пример списка дел."
+   },
+   "top_bar": {
+      "message": "Верхняя строка"
+   },
+   "try_later": {
+      "message": "Повторите попытку позже"
+   },
+   "undo": {
+      "message": "Отменить"
+   },
+   "unname_folder": {
+      "message": "новая папка"
+   },
+   "verification_code": {
+      "message": "Код проверки"
+   },
+   "videos": {
+      "message": "Видео"
+   },
+   "view_zoom": {
+      "message": "Просмотр увеличенного изображения (значок и окно поиска)"
+   },
+   "wallpaper": {
+      "message": "Обои"
+   },
+   "wallpaper_type": {
+      "message": "Тип фона"
+   },
+   "we_update": {
+      "message": "Привет, новая вкладка Infinity обновлена."
+   },
+   "weather": {
+      "message": "Погода"
+   },
+   "weather_setting": {
+      "message": "Настройки погоды"
+   },
+   "web": {
+      "message": "Веб"
+   },
+   "weixin": {
+      "message": "WeChat"
+   },
+   "welcome": {
+      "message": "Добро пожаловать в Infinity"
+   },
+   "what_to_do": {
+      "message": "Что мне делать? "
+   },
+   "will_cover_cloud": {
+      "message": "Эта операция перезапишет данные в облачном хранилище"
+   },
+   "will_cover_local": {
+      "message": "Эта операция перезапишет данные на локальном хранилище"
+   },
+   "will_rate": {
+      "message": "Да, поставить"
+   },
+   "wind": {
+      "message": "Ветер"
+   },
+   "write_sth": {
+      "message": "Напишите что-нибудь... "
+   },
+   "yahoo": {
+      "message": "Yahoo!"
+   },
+   "you_can_set_view": {
+      "message": "Если вы не удовлетворены текущим размером представления, вы можете настроить его из настроек."
+   },
+   "you_did_not_backup": {
+      "message": "Вы не сделали резервную копию своих данных"
+   },
+   "you_never_install_this_app": {
+      "message": "Вы не установили это приложение на текущий Chrome"
+   },
+   "your_password_change": {
+      "message": "Ваш код-пароль изменен"
+   }
+}

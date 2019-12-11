@@ -1,0 +1,21 @@
+{
+   "author": "Nick Vogt",
+   "chrome_url_overrides": {
+      "newtab": "n.html"
+   },
+   "description": "Replaces the New Tab page with a blank one.",
+   "icons": {
+      "128": "128.png",
+      "16": "16.png",
+      "32": "32.png",
+      "48": "48.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAwdnJK1Q5ft14Wy6a4KWnBNTv5F3JdtdpOKUtQKn3n0jtcYQxuGEOIOXOSvFwgCXLDOGHlwkDSHa4zvx2Tpv+e17Wi4aFAsiG80nJNX1yME+y9G0nhraVCmpNyZcVAN6UK3O41U5OAyqdLWwN0Y47tXPGRm++Uxsn4T7Loa8tzajqN3WRkISFt9W7TSleCcES2GBiFXunAxScJoQ5gpUoJAMKC9aOEWFp+QKkno1k224uZAwda/hzjr61jPiSrcCs0lnk3NwcdtgeOGuOjYMHakV3UUTKTzd8+Ah1szaAYhXmgDsfxHY96Yr2U6PL9a+senqR2QuidOTF31AS4pJodQIDAQAB",
+   "manifest_version": 2,
+   "minimum_chrome_version": "29",
+   "name": "Blank New Tab Page",
+   "offline_enabled": true,
+   "short_name": "Blank New Tab",
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "1.0.5"
+}

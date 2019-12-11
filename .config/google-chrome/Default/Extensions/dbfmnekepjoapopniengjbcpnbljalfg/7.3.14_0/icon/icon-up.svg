@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="12px" height="11px" viewBox="0 0 12 11" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.2 (47327) - http://www.bohemiancoding.com/sketch -->
+    <title>icon-up</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="12" height="12"></rect>
+    </defs>
+    <g id="控件规范" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(-269.000000, -108.000000)">
+        <g id="icon-up" transform="translate(269.000000, 108.000000)">
+            <mask id="mask-2" fill="white">
+                <use xlink:href="#path-1"></use>
+            </mask>
+            <g id="Mask"></g>
+            <path d="M5,4.17157288 L1.75735931,7.41421356 L0.343145751,6 L6,0.343145751 L7.41421356,1.75735931 L11.6568542,6 L10.2426407,7.41421356 L7,4.17157288 L7,11 L5,11 L5,4.17157288 Z" id="Combined-Shape" fill="#00C75D" mask="url(#mask-2)"></path>
+        </g>
+    </g>
+</svg>

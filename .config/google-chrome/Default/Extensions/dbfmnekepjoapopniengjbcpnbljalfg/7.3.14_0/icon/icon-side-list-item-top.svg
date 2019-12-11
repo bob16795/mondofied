@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="20px" height="20px" viewBox="0 0 20 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 54.1 (76490) - https://sketchapp.com -->
+    <title>置顶</title>
+    <desc>Created with Sketch.</desc>
+    <g id="infinity基础版" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="自定义搜索复制-16" transform="translate(-312.000000, -238.000000)" fill-rule="nonzero">
+            <g id="编组-2" transform="translate(30.000000, 194.000000)">
+                <g id="置顶" transform="translate(282.000000, 44.000000)">
+                    <g id="编组" transform="translate(2.000000, 2.000000)">
+                        <path d="M13.48,2.3 L2.52,2.3 C2.232,2.3 2,2.068 2,1.78 C2,1.492 2.232,1.26 2.52,1.26 L13.48,1.26 C13.768,1.26 14,1.492 14,1.78 C14,2.068 13.768,2.3 13.48,2.3 Z M8.584,5.06 L8.584,14.132 C8.584,14.468 8.312,14.74 7.976,14.74 C7.64,14.74 7.368,14.468 7.368,14.132 L7.368,5.06 C7.368,4.724 7.64,4.452 7.976,4.452 C8.312,4.452 8.584,4.724 8.584,5.06 Z" id="形状" stroke="#5DDB65" stroke-width="0.8" fill="#5DDB65"></path>
+                        <path d="M8.48,4.096 L3.248,10.332 C3.032,10.588 2.648,10.624 2.392,10.408 C2.136,10.192 2.1,9.808 2.316,9.552 L7.548,3.316 C7.764,3.06 8.148,3.024 8.404,3.24 C8.66,3.456 8.696,3.84 8.48,4.096 Z" id="路径" stroke="#5DDB65" stroke-width="0.8" fill="#5DDB65"></path>
+                        <path d="M7.52,4.096 L12.752,10.328 C12.968,10.584 13.352,10.62 13.608,10.404 C13.864,10.188 13.9,9.804 13.684,9.548 L8.452,3.316 C8.236,3.06 7.852,3.024 7.596,3.24 C7.34,3.456 7.304,3.84 7.52,4.096 Z" id="路径" stroke="#5DDB65" stroke-width="0.8" fill="#5DDB65"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

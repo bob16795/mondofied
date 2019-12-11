@@ -1,0 +1,1 @@
+"use strict";infinity.modules["search-add-search-add"]=function(){return new Vue({el:"#v-search-add",data:{tabValue:"default"},methods:{close:function(){iView.hideSideBar()},switchTab:function(a){this.tabValue=a}},mounted:function(){infinity.import("search-add-default","#search-add-default-container"),infinity.import("search-add-custom","#search-add-custom-container")}})};

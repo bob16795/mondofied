@@ -1,0 +1,731 @@
+{
+   "about": {
+      "message": "Tietoja asetuksista"
+   },
+   "account_already_exists": {
+      "message": "Tili on jo olemassa"
+   },
+   "account_backup": {
+      "message": "Käyttäjätili ja varmuuskopiot"
+   },
+   "account_validation_invalid": {
+      "message": "Käyttäjätunnus tai salasana virheellinen"
+   },
+   "add": {
+      "message": "Lisää"
+   },
+   "add_addtional_search": {
+      "message": "Lisää uusi hakukone"
+   },
+   "add_fail_due_to_network_error": {
+      "message": "Lisäys epäonnistui verkko-ongelmien vuoksi. Yritä myöhemmin uudelleen"
+   },
+   "add_search": {
+      "message": "Lisää hakukone"
+   },
+   "add_success": {
+      "message": "Lisäys onnistui!"
+   },
+   "add_to_infinity": {
+      "message": "Lisää Infinity Uusi välilehti"
+   },
+   "added": {
+      "message": "Lisätty"
+   },
+   "additional_se_desc": {
+      "message": "Ylimääräiset hakukoneet tulevat näkyviin, kun syötät avainsanoja"
+   },
+   "addtional_search": {
+      "message": "Ylimääräinen hakukone"
+   },
+   "app": {
+      "message": "Sovellukset"
+   },
+   "appearance": {
+      "message": "Ulkonäkö"
+   },
+   "apps": {
+      "message": "Sovellukset"
+   },
+   "are_you_sure": {
+      "message": "Oletko varma? Toimintoa ei voida perua."
+   },
+   "auto_backup": {
+      "message": "Varmuuskopioi automaattisesti"
+   },
+   "auto_change_wp_per_day": {
+      "message": "Vaihda taustakuva automaattisesti joka päivä"
+   },
+   "back": {
+      "message": "Takaisin"
+   },
+   "backup_data": {
+      "message": "Tietojen varmuuskopio"
+   },
+   "backup_failed": {
+      "message": "Ei varmuuskopioitu"
+   },
+   "backup_file": {
+      "message": "Varmuuskopioi tiedostot"
+   },
+   "backup_now": {
+      "message": "Varmuuskopioi nyt"
+   },
+   "backup_success": {
+      "message": "Varmuuskopio on valmis"
+   },
+   "backup_success_desc": {
+      "message": "Tietosi on onnistuneesti varmuuskopioitu pilvitallennustilaan"
+   },
+   "backuping": {
+      "message": "Varmuuskopioidaan…"
+   },
+   "baidu": {
+      "message": "Baidu"
+   },
+   "bing": {
+      "message": "Bing"
+   },
+   "blur_wallpaper": {
+      "message": "Lisää taustakuvaan sumennusefekti"
+   },
+   "bookmark_manager": {
+      "message": "Kirjanmerkkien hallinta"
+   },
+   "bookmarks": {
+      "message": "Kirjanmerkit"
+   },
+   "can_not_add_page": {
+      "message": "Pahoittelut, tämä sivusto ei tue Infinity New Tabsiin lisäämistä"
+   },
+   "can_not_delete_current_search_engine": {
+      "message": "Käytössä olevaa hakukonetta ei voi poistaa"
+   },
+   "cancel": {
+      "message": "Kumoa"
+   },
+   "cancel_add": {
+      "message": "Kumoa"
+   },
+   "celsius": {
+      "message": "Celsius"
+   },
+   "change_city": {
+      "message": "Vaihda kaupunkia"
+   },
+   "choose_image": {
+      "message": "Valitse kuva"
+   },
+   "chrome_apps": {
+      "message": "Chrome-sovellukset"
+   },
+   "city_not_found": {
+      "message": "Kaupunkeja ei löytynyt"
+   },
+   "city_set_failed": {
+      "message": "Kaupunkisi asettaminen epäonnistui. Yritä myöhemmin uudelleen"
+   },
+   "clear_done": {
+      "message": "Tyhjennys suoritettu"
+   },
+   "click_refresh_valicode": {
+      "message": "Päivitä tarkistuskoodi klikkaamalla kuvaa"
+   },
+   "completed": {
+      "message": "Valmis"
+   },
+   "contact_us": {
+      "message": "Ota meihin yhteyttä"
+   },
+   "custom": {
+      "message": "Muokattu"
+   },
+   "custom_add": {
+      "message": "Mukautettu lisäys"
+   },
+   "data_recovery_failed": {
+      "message": "Tietojen palautus epäonnistui"
+   },
+   "default": {
+      "message": "Oletus"
+   },
+   "delete_account_title": {
+      "message": "Poista käyttäjätili"
+   },
+   "delete_my_account": {
+      "message": "Poista käyttäjätilini"
+   },
+   "detect_cloud_backup": {
+      "message": "Pilvitallennustilassa on havaittu uusia tietoja. Haluaisitko palauttaa tiedot ensin paikalliseen tallennustilaan? "
+   },
+   "discard": {
+      "message": "Hylkää"
+   },
+   "does_not_exist": {
+      "message": "ei ole olemassa"
+   },
+   "done": {
+      "message": "Valmis"
+   },
+   "download_current_wp": {
+      "message": "Lataa taustakuva"
+   },
+   "edit_failed_due_to_net_work": {
+      "message": "Muokkaus epäonnistui verkko-ongelmien vuoksi. Yritä myöhemmin uudelleen"
+   },
+   "edit_image": {
+      "message": "Muokkaa kuvaa"
+   },
+   "education": {
+      "message": "Koulutus ja rekrytointi"
+   },
+   "email": {
+      "message": "Sähköposti"
+   },
+   "email_verification_code": {
+      "message": "Syötä vahvistuskoodi"
+   },
+   "enter_and_search": {
+      "message": "Syötä ja hae... "
+   },
+   "enter_city_name_to_search": {
+      "message": "Syötä kaupunkisi nimi ja paina Enteriä hakeaksesi"
+   },
+   "enter_new_passcode": {
+      "message": "Uusi pääsykoodi"
+   },
+   "enter_password": {
+      "message": "Syötä salasana"
+   },
+   "enter_to_search": {
+      "message": "Paina Enteriä hakeaksesi"
+   },
+   "ext_has_been_deleted": {
+      "message": "”$name$” on poistettu",
+      "placeholders": {
+         "name": {
+            "content": "$1"
+         }
+      }
+   },
+   "extension": {
+      "message": "Laajennukset"
+   },
+   "extension_des": {
+      "message": "Uusi välilehti lisää verkkosivujen kuvakkeen, HD-taustakuvan, kirjanmerkin, säätiedot, muistiinpanot, tehtäväluettelon ja historian"
+   },
+   "fahrenheit": {
+      "message": "Fahrenheit"
+   },
+   "feedback_suggestion": {
+      "message": "Palaute ja ehdotukset"
+   },
+   "feedback_us": {
+      "message": "Jos sinulla on muita kysymyksiä, ota meihin yhteyttä:"
+   },
+   "finance": {
+      "message": "taloudellinen"
+   },
+   "find_password": {
+      "message": "Palauta salasana"
+   },
+   "font_color": {
+      "message": "Tekstin väri"
+   },
+   "forgot": {
+      "message": "Unohditko salasanan?"
+   },
+   "format_error": {
+      "message": "Muotovirhe"
+   },
+   "games": {
+      "message": "Pelit ja viihde"
+   },
+   "general": {
+      "message": "Yleiset"
+   },
+   "generate_backup_file": {
+      "message": "Luo varmuuskopiotiedostot"
+   },
+   "get_bookmarks": {
+      "message": "Lukea ja muokata kirjanmerkkejä"
+   },
+   "give_up_account": {
+      "message": "Etkö enää tarvitse käyttäjätiliäsi? "
+   },
+   "give_us_a_five_star": {
+      "message": "Haluaisitko antaa meistä myönteisen, viiden tähden arvion?"
+   },
+   "gmail_noti": {
+      "message": "Gmail-ilmoitukset"
+   },
+   "go_on_add": {
+      "message": "Jatka lisäämistä"
+   },
+   "google": {
+      "message": "Google"
+   },
+   "got_it": {
+      "message": "Ymmärretty"
+   },
+   "has_update": {
+      "message": "$name$ on päivitetty",
+      "placeholders": {
+         "name": {
+            "content": "$1"
+         }
+      }
+   },
+   "hide_icon_name": {
+      "message": "Piilota ikonin nimi"
+   },
+   "history": {
+      "message": "Historia"
+   },
+   "humidity": {
+      "message": "kosteus"
+   },
+   "i_city": {
+      "message": "Kaupunki"
+   },
+   "i_clear_history": {
+      "message": "Tyhjennä historia"
+   },
+   "i_delete": {
+      "message": "Poista"
+   },
+   "i_edit": {
+      "message": "Muokkaa"
+   },
+   "i_empty_history": {
+      "message": "Selaushistoria on tällä hetkellä tyhjä"
+   },
+   "i_more": {
+      "message": "Lisää"
+   },
+   "i_new_tab": {
+      "message": "Uusi välilehti"
+   },
+   "i_no_bookmarks_in_folder": {
+      "message": "Kansiossa ei kirjanmerkkejä"
+   },
+   "i_ok": {
+      "message": "kunnossa"
+   },
+   "i_please_wait": {
+      "message": "Odota…"
+   },
+   "i_to_do": {
+      "message": "Tehtävä"
+   },
+   "icon": {
+      "message": "Kuvake"
+   },
+   "icon_border_radius": {
+      "message": "Ikonin pyöristetyt nurkat"
+   },
+   "icon_opacity": {
+      "message": "Ikonin läpinäkyvyys"
+   },
+   "if_not_recovery_now": {
+      "message": "Jos et, paikalliseen tallennustilaan tehdyt muutokset ylikirjoittavat pilvitallennustilassa olevat tiedot"
+   },
+   "images": {
+      "message": "Kuvat"
+   },
+   "invalid_password_header": {
+      "message": "Virheellinen salasana"
+   },
+   "invalid_verification_code_title": {
+      "message": "Virheellinen vahvistuskoodi"
+   },
+   "last_backup": {
+      "message": "Viime varmuuskopio:"
+   },
+   "layout": {
+      "message": "Ulkoasu"
+   },
+   "life": {
+      "message": "Lifestyle"
+   },
+   "loading_module": {
+      "message": "Ladataan…"
+   },
+   "local_is_new": {
+      "message": "Paikallinen tallennustila on ajan tasalla"
+   },
+   "local_wallpaper": {
+      "message": "Paikalliset taustakuvat"
+   },
+   "login_it": {
+      "message": "Kirjaudu"
+   },
+   "login_now": {
+      "message": "Kirjaudu sisään"
+   },
+   "login_to_backup": {
+      "message": "Kirjaudu Infinity-tilillesi ja varmuuskopioi tietosi pilvitallennustilaan"
+   },
+   "maps": {
+      "message": "Kartat"
+   },
+   "music": {
+      "message": "Musiikki ja video"
+   },
+   "must_fill": {
+      "message": "Täytä tämä kenttä"
+   },
+   "name": {
+      "message": "Infinity Uusi välilehti - tuottavuuden ja nopeuden osoitintaulu"
+   },
+   "need_further_improvement": {
+      "message": "En. Teidän tarvitsee parantaa vielä lisää"
+   },
+   "net_error": {
+      "message": "Verkkovirhe"
+   },
+   "new_edit_notes": {
+      "message": "Viimeisimmät merkinnät"
+   },
+   "new_notes": {
+      "message": "Uusi merkintä"
+   },
+   "news": {
+      "message": "Uutiset"
+   },
+   "no_account": {
+      "message": "Eikö sinulla ole vielä käyttäjätiliä? "
+   },
+   "no_any_add_search": {
+      "message": "Et ole lisännyt yhtään ylimääräistä hakukonetta"
+   },
+   "no_any_custom_search": {
+      "message": "Mukautettuja hakukoneita ei ole lisätty"
+   },
+   "no_dones": {
+      "message": "Ei suoritettua tehtävää"
+   },
+   "no_more": {
+      "message": "Ei muuta"
+   },
+   "no_search_results": {
+      "message": "Ei hakutuloksia"
+   },
+   "no_todos": {
+      "message": "Ei tehtävää"
+   },
+   "not_support": {
+      "message": "Nykyinen versio ei tue tätä ominaisuutta. Tarvittaessa päivitä $pro_version$ -versioon",
+      "placeholders": {
+         "pro_version": {
+            "content": "$1"
+         }
+      }
+   },
+   "note_view_zoom": {
+      "message": "Huomaa, että tämä kohde seuraa nykyistä tietokonetta, eikä se synkronoida pilvellä."
+   },
+   "notes": {
+      "message": "Merkinnät"
+   },
+   "noti_sound": {
+      "message": "Gmail-ilmoitusten hälytysääni"
+   },
+   "open__in_a_new_tab": {
+      "message": "Avaa $type$ uudella välilehdellä",
+      "placeholders": {
+         "type": {
+            "content": "$1"
+         }
+      }
+   },
+   "operation_completed_successfully": {
+      "message": "Toiminto onnistui"
+   },
+   "other_search": {
+      "message": "Muut hakukoneet"
+   },
+   "otherbookmarks": {
+      "message": "Muut kirjanmerkit"
+   },
+   "others": {
+      "message": "Muu"
+   },
+   "password": {
+      "message": "Salasana"
+   },
+   "password_min": {
+      "message": "Salasanan on oltava 6-20 merkin pituinen"
+   },
+   "photos": {
+      "message": "Kuvat"
+   },
+   "please_enter_format_email": {
+      "message": "Syötä sähköpostiosoite oikeassa muodossa"
+   },
+   "please_input_correct_search_url": {
+      "message": "Syötetty osoite on virheellinen."
+   },
+   "pmset": {
+      "message": "Aseta pääsykoodi"
+   },
+   "popular": {
+      "message": "Suosittu"
+   },
+   "pressure": {
+      "message": "Ilmanpaine"
+   },
+   "privacy_policy": {
+      "message": "Tietosuojakäytäntö"
+   },
+   "random_wp": {
+      "message": "Sattumanvarainen taustakuva"
+   },
+   "random_wp_change_by": {
+      "message": "Saat sattumanvaraisen taustakuvan klikkaamalla Työpöydän oikeassa alareunassa olevaa tuulimyllyä"
+   },
+   "read": {
+      "message": "Lue"
+   },
+   "recent": {
+      "message": "Uusimmat"
+   },
+   "recovery_data": {
+      "message": "Palauta tiedot"
+   },
+   "recovery_default_wp": {
+      "message": "Palataan oletustaustakuvaan... "
+   },
+   "recovery_from_backup_file": {
+      "message": "Palauta tiedot varmuuskopioista"
+   },
+   "recovery_now": {
+      "message": "Palauta nyt"
+   },
+   "recovery_to_default_wp": {
+      "message": "Palauta oletustaustakuva"
+   },
+   "reload": {
+      "message": "Lataa uudelleen"
+   },
+   "remove_image": {
+      "message": "Poista kuva"
+   },
+   "require_new_permissition": {
+      "message": "$name$ on pyytänyt lisäoikeuksia",
+      "placeholders": {
+         "name": {
+            "content": "$1"
+         }
+      }
+   },
+   "reset_email_has_send": {
+      "message": "Vahvistustiedot on lähetetty sinulle sähköpostitse. Jatka salasanasi nollaamista kopioimalla sähköpostiviestin vahvistuskoodi."
+   },
+   "restore_complete": {
+      "message": "Palautus valmis"
+   },
+   "restoring": {
+      "message": "Palautetaan…"
+   },
+   "save": {
+      "message": "Tallenna"
+   },
+   "search": {
+      "message": "Etsi"
+   },
+   "search360": {
+      "message": "360 Search"
+   },
+   "search_by": {
+      "message": "Hae käyttäen: $searchName$",
+      "placeholders": {
+         "searchName": {
+            "content": "$1"
+         }
+      }
+   },
+   "search_engine": {
+      "message": "Hakukone"
+   },
+   "search_results": {
+      "message": "Hakutulokset"
+   },
+   "search_url": {
+      "message": "URL-osoite jonka %s käytössä ennen hakua"
+   },
+   "select_wp": {
+      "message": "Valitse paikallinen taustakuva"
+   },
+   "server_error": {
+      "message": "Palvelinvirhe"
+   },
+   "setting_city": {
+      "message": "Kaupunkisi asettaminen"
+   },
+   "settings": {
+      "message": "Asetukset"
+   },
+   "shopping": {
+      "message": "ostokset"
+   },
+   "show_bookmarks": {
+      "message": "Näytä kirjanmerkit"
+   },
+   "show_gmail_num": {
+      "message": "Näytä ikonissa Gmailin lukemattomien sähköpostiviestien lukumäärä"
+   },
+   "show_random_wp_btn": {
+      "message": "Näytä oikeassa alareunassa nappi, jolla voi vaihtaa taustakuvaa sattumanvaraisesti"
+   },
+   "show_search_box": {
+      "message": "Näytä hakulaatikko"
+   },
+   "show_search_btn": {
+      "message": "Näytä hakupainike"
+   },
+   "show_search_type": {
+      "message": "Näytä haun tyyppi"
+   },
+   "show_todos_num": {
+      "message": "Näytä tehtävien lukumäärä ikonissa"
+   },
+   "show_topsites": {
+      "message": "Näytä kärkisivustot"
+   },
+   "sign_in_success": {
+      "message": "Sisäänkirjautuminen onnistui"
+   },
+   "sign_in_to_backup_cloud": {
+      "message": "Rekisteröi Infinity-käyttäjätili ja varmuuskopioi tietosi pilvitallennustilaan"
+   },
+   "sign_out": {
+      "message": "Kirjaudu ulos"
+   },
+   "sign_up": {
+      "message": "Rekisteröidy"
+   },
+   "sign_up_success": {
+      "message": "Käyttäjätilin rekisteröiminen onnistui"
+   },
+   "site_name": {
+      "message": "Nimi"
+   },
+   "site_url": {
+      "message": "URL-osoite"
+   },
+   "site_website": {
+      "message": "Verkkosivusto"
+   },
+   "social": {
+      "message": "Sosiaalinen ja blogi"
+   },
+   "sogou": {
+      "message": "Sogou"
+   },
+   "sports": {
+      "message": "Urheilu ja matkailu"
+   },
+   "start_animation": {
+      "message": "Käynnistysanimaatio"
+   },
+   "sync_bing_wp": {
+      "message": "Synkronoi Bing-taustakuva"
+   },
+   "tech": {
+      "message": "Digitaalinen tekniikka"
+   },
+   "temperature_unit": {
+      "message": "Lämpötilayksikkö"
+   },
+   "terms_of_use": {
+      "message": "Käyttöehdot"
+   },
+   "this_page_no_space": {
+      "message": "Tällä sivulla ei ole enempää tilaa"
+   },
+   "to_top": {
+      "message": "ylin"
+   },
+   "todos": {
+      "message": "Tehtävät"
+   },
+   "todos_welcome": {
+      "message": "Tervetuloa Infinity New Tabsiin. Tämä on esimerkki tehtävälistan kohteesta."
+   },
+   "top_bar": {
+      "message": "Yläpalkki"
+   },
+   "try_later": {
+      "message": "Yritä myöhemmin uudelleen"
+   },
+   "undo": {
+      "message": "Peru"
+   },
+   "unname_folder": {
+      "message": "nimetön kansio"
+   },
+   "verification_code": {
+      "message": "Vahvistuskoodi"
+   },
+   "videos": {
+      "message": "videota"
+   },
+   "view_zoom": {
+      "message": "Näytä zoomaus (kuvake ja hakukenttä)"
+   },
+   "wallpaper": {
+      "message": "Taustakuva"
+   },
+   "wallpaper_type": {
+      "message": "Taustakuvan tyyppi"
+   },
+   "we_update": {
+      "message": "Hei, Infinity New -välilehti on päivitetty."
+   },
+   "weather": {
+      "message": "Sää"
+   },
+   "weather_setting": {
+      "message": "Sääasetukset"
+   },
+   "web": {
+      "message": "WWW"
+   },
+   "weixin": {
+      "message": "WeChat"
+   },
+   "welcome": {
+      "message": "Tervetuloa Infinityyn"
+   },
+   "what_to_do": {
+      "message": "Mitä minun tulisi tehdä? "
+   },
+   "will_cover_cloud": {
+      "message": "Tämä toimenpide ylikirjoittaa pilvitallennustilassa olevat tiedot"
+   },
+   "will_cover_local": {
+      "message": "Tämä toimenpide ylikirjoittaa paikallisessa tallennustilassa olevat tiedot"
+   },
+   "will_rate": {
+      "message": "Haluaisin. Anna arvio"
+   },
+   "wind": {
+      "message": "Tuuli"
+   },
+   "write_sth": {
+      "message": "Kirjoita jotakin... "
+   },
+   "yahoo": {
+      "message": "Yahoo!"
+   },
+   "you_can_set_view": {
+      "message": "Jos et ole tyytyväinen nykyiseen näkymäkokoon, voit säätää sen asetuksista."
+   },
+   "you_did_not_backup": {
+      "message": "Et ole varmuuskopioinut tietojasi"
+   },
+   "your_password_change": {
+      "message": "Pääsykoodi on muutettu"
+   }
+}

@@ -1,2 +1,7 @@
 #!/bin/bash
-feh --bg-fill ~/.config/mondo/images/crag_dragon.png
+if [[ 0 == 0 ]]; then
+  xwallpaper --zoom ~/.config/mondo/images/crag_dragon.png
+else
+  xsetroot -solid '#12120f'
+fi
+
