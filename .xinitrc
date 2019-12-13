@@ -7,7 +7,7 @@ dunst & #notifications
 jgmenu --hide-on-startup & #menu
 mpd & #music
 #spotify & #music
-#bar & # status
+bar & # status
 slstatus & # status
 xset r rate 300 50 #key repeate
 compton -Cc& #composite
@@ -24,4 +24,5 @@ alacritty --class visual -e vis& #music vis
 torify dropbox &
 sh ~/.screen.sh
 
+disown
 exec dwm
