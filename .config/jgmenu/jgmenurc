@@ -4,7 +4,7 @@ stay_alive           = 1
 #hide_on_startup     = 0
 csv_cmd              = pmenu
 tint2_look           = 1
-at_pointer           = 0
+positition_mode      = mouse
 terminal_exec        = alacritty
 terminal_args        = -e
 #monitor             = 0
@@ -19,7 +19,7 @@ menu_padding_left    = 0
 menu_radius          = 0
 menu_border          = 0
 menu_halign          = left
-menu_valign          = top
+menu_valign          = bottom
 
 sub_spacing         = 0
 #sub_padding_top     = -1
@@ -48,17 +48,17 @@ icon_size            = 0
 arrow_string        = >
 arrow_width         = 8
 
-color_menu_bg        = #4b0025 100
-color_menu_fg        = #9da4ba 100
+color_menu_bg        = #f2f2f2 100
+color_menu_fg        = #0C3853 100
 #color_menu_border   = #1C2023 8
 
-color_norm_bg        = #4b0025 0
-color_norm_fg        = #9da4ba 100
+color_norm_bg        = #f2f2f2 0
+color_norm_fg        = #0C3853 100
 
-color_sel_bg         = #4D4678 60
-color_sel_fg         = #305289 100
+color_sel_bg         = #596148 60
+color_sel_fg         = #716E43 100
 #color_sel_border    = #1C2023 8
 
-color_sep_fg         = #9da4ba 40
+color_sep_fg         = #0C3853 40
 
 #csv_name_format     = %n (%g)

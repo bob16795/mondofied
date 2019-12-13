@@ -1,7 +1,7 @@
 #!/bin/bash
 if [[ 0 == 0 ]]; then
-  xwallpaper --zoom ~/.config/mondo/images/lub.png
+  xwallpaper --zoom ~/.config/mondo/images/pillars.jpg
 else
-  xsetroot -solid '#4b0025'
+  xsetroot -solid '#f2f2f2'
 fi
 

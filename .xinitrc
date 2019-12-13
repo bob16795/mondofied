@@ -7,8 +7,7 @@ dunst & #notifications
 jgmenu --hide-on-startup & #menu
 mpd & #music
 #spotify & #music
-bar & # status
-slstatus & # status
+dwmblocks & # status
 xset r rate 300 50 #key repeate
 compton -Cc& #composite
 #feh --bg-fill ~/.config/wall.png # wallpaper old

@@ -10,3 +10,6 @@
 [submodule "fon/scientifica"]
 	path = fon/scientifica
 	url = http://github.com/nerdypepper/scientifica
+[submodule "fon/bitmap-fonts"]
+	path = fon/bitmap-fonts
+	url = https://github.com/Tecate/bitmap-fonts

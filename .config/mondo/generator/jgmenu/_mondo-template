@@ -4,7 +4,7 @@ stay_alive           = 1
 #hide_on_startup     = 0
 csv_cmd              = pmenu
 tint2_look           = 1
-at_pointer           = 0
+positition_mode      = mouse
 terminal_exec        = alacritty
 terminal_args        = -e
 #monitor             = 0
@@ -19,7 +19,7 @@ menu_padding_left    = 0
 menu_radius          = 0
 menu_border          = 0
 menu_halign          = left
-menu_valign          = top
+menu_valign          = %%barpos%%
 
 sub_spacing         = 0
 #sub_padding_top     = -1

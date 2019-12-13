@@ -1,4 +1,5 @@
 #!/bin/bash
 
-killall -HUP dwm
 sh ~/scr/wall.sh
+killall -HUP dwm
+pkill -RTMIN+9 dwmblocks
