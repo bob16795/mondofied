@@ -2,16 +2,19 @@
 
 # A general audio interface for LARBS.
 
-newvol="notify-send -t 300 $(pulsemixer --get-volume )"
+newvol () {
+  VO=$(pulsemixer --get-volume)
+  notify-send -t 300 ${VO%% *}
+}
 
 [ -z "$2" ] && num="2" || num="$2"
 
 case "$1" in
-	u*) pulsemixer --change-volume +"$num" ; $newvol ;;
-	d*) pulsemixer --change-volume -"$num" ; $newvol ;;
-	mu*) pulsemixer --toggle-mute ; $newvol ;;
+	u*) pulsemixer --change-volume +"$num" ; newvol ;;
+	d*) pulsemixer --change-volume -"$num" ; newvol ;;
+	mu*) pulsemixer --toggle-mute ; newvol ;;
 	mn*) pulsemixer --id 1 --toggle-mute ;;
-	truemute) pulsemixer --mute ; $newvol ;;
+	truemute) pulsemixer --mute ; newvol ;;
 	play) mpc play ;;
 	n*) mpc next ;;
 	prev) mpc prev ;;

@@ -1,0 +1,26 @@
+selpreset() {
+  PRESET="$(ls ~/thm/presets/settings/ | rofi -dmenu 'preset')"
+  cp ~/thm/presets/settings/"$PRESET" ~/thm/mondo/_default
+}
+
+savepreset() {
+  PRESET="$( rofi -dmenu 'name')"
+  cp ~/thm/mondo/_default ~/thm/presets/settings/"$PRESET"
+}
+
+case "$1" in
+  "load" )
+    [[ -f ~/thm/presets/settings/"$2" ]] \
+      && cp ~/thm/presets/settings/"$2" ~/thm/mondo/_default \
+      || selpreset
+    ;;
+  "save" )
+    [[ -f ~/thm/presets/settings/"$2" ]] \
+      && cp ~/thm/mondo/_default ~/thm/presets/settings/"$PRESET" \
+      || savepreset
+    ;;
+  * )
+    echo "bad command $1"
+    ;;
+esac
+mondoman reload

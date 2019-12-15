@@ -1,0 +1,30 @@
+#!/bin/bash
+
+mondoreload(){
+  mondo -fg $(mondo -c theme)  
+  mondo -a $(mondo -c theme)  
+}
+
+mondoedit() {
+  vim ~/.config/mondo/themes/$(mondo -c theme)
+  mondoreload
+}
+
+mondosel() {
+  THEME="$(mondo -l themes | rofi -dmenu 'theme')"
+  mondo -a $THEME
+}
+
+mondosettings() {
+  vim ~/.config/mondo/themes/_default
+  mondoreload
+}
+
+
+case "$1" in
+  "edit" ) mondoedit ;;
+  "select" ) mondosel ;;
+  "settings" ) mondosettings ;;
+  "reload" ) mondoreload ;;
+  "*") echo "bad command $1";;
+esac

@@ -7,11 +7,13 @@ dunst & #notifications
 jgmenu --hide-on-startup & #menu
 mpd & #music
 #spotify & #music
-dwmblocks & # status
+# dwmblocks & # status
+bar &
 xset r rate 300 50 #key repeate
 compton -Cc& #composite
 #feh --bg-fill ~/.config/wall.png # wallpaper old
 ~/scr/wall.sh & # wallpaper
+mpd-notification &
 # firefox & #web
 #qutebrowser file:///home/john/.config/webhome/index.html &
 #dockd --daemon & #dock

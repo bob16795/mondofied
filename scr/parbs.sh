@@ -257,6 +257,7 @@ chmod -R $name /home/$name
 
 sudo -u $name mondo -fg all
 sudo -u $name mondo -a $(mondo -l themes | head -1)
+sudo -u $name preset load mondo
 
 
 pacman -Uy https://archive.org/download/archlinux_pkg_pango/pango-1.43.0-1-x86_64.pkg.tar.xz 

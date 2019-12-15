@@ -16,13 +16,12 @@
 #window {
     anchor:     north;
     location:   north;
-    y-offset:   13px;
     width:      100%;
-    padding:    0px;
     children:   [ horibox ];
 }
 
 #horibox {
+    padding:    1px;
     orientation: horizontal;
     children:   [ prompt, entry, listview ];
 }
@@ -40,9 +39,11 @@
 }
 
 #element {
+    padding:    0px;
     padding: 0px 5px;
 }
 #element selected {
+    padding:    0px;
     background-color: @bg1;
     text-color: @accent;
     height:     13px;

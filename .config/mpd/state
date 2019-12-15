@@ -1,9 +1,9 @@
-sw_volume: 92
+sw_volume: 88
 audio_device_state:1:pulse audio
 audio_device_state:1:toggle_visualizer
 state: pause
-current: 225
-time: 215.755000
+current: 478
+time: 2.154000
 random: 1
 repeat: 0
 single: 0
@@ -627,4 +627,17 @@ playlist_begin
 612:Ski Mask the Slump God - Topic/Life Is Short.opus
 613:XXXTENTACION/Ski Mask The Slump God - He Diddy! (Audio).opus
 614:88rising/Keith Ape x Ski Mask TheSlumpGod  - DR. EGGMAN (Prod By. RONNYJLISTENUP).opus
+615:Ryan Upchurch/Upchurch 'Rooster' by Alice in Chains (OFFICIAL COVER VIDEO).opus
+616:Ryan Upchurch/UPCHURCH “down in a hole” (AIC cover).opus
+617:Ryan Upchurch/Behind the Lyrics - Episode 7 'Hi Deas 1'.opus
+618:Ali Gatie/Ali Gatie - It's You (Official Lyrics Video).opus
+619:ChillTracks/Ali Gatie – Used To You (Lyrics).opus
+620:ChillTracks/Ali Gatie – Say To You (Lyrics).opus
+621:88rising/A$AP Rocky - Lord Pretty Flacko Jodye 2 (Live from Rolling Loud).opus
+622:LIVELOVEASAPVEVO/A$AP Rocky - Praise The Lord (Da Shine) (Official Video) ft. Skepta.opus
+623:African Grit/A$AP Rocky - Praise The Lord (Da Shine) [Lyrics] ft. Skepta.opus
+624:asapfergVEVO/A$AP Ferg - Plain Jane (Audio).opus
+625:A-Boogie Wit Da Hoodie/A Boogie Wit Da Hoodie - Look Back At It [Official Audio].opus
+626:A Boogie wit da Hoodie - Topic/Look Back at It.opus
+627:A-Boogie Wit Da Hoodie/A Boogie Wit Da Hoodie - Swervin [Official Music Video].opus
 playlist_end

@@ -2,10 +2,10 @@
 accent: #F1D59A;
 bg1: #D9A3A0;
 bg2: #F4DCA0;
-fg1: argb:BF6B3772;
+fg1: #6B3772;
 fg2: #EFDBD9;
 redish: #dc322f;
-font1: "scientifica 12";
+font1: "cherry 12";
 }
 
 // syntax:ssDslash

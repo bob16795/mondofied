@@ -1,5 +1,5 @@
 @search,,0,0,100,13,3,left,top,#aaaaaa 90,#222222 3,search
 
-Rofi,rofi -show run,utilities-terminal
-Theme,mondosel,utilities-terminal
+Settings,^checkout(settings),utilities-terminal
+
 ^sep()

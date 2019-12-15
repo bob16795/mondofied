@@ -1,0 +1,8 @@
+tags         1
+barmode      1
+starttext    "M"
+barpos       top
+font         scientifica
+alpha        0.75
+alpha_hex    BF
+solid_bg     0

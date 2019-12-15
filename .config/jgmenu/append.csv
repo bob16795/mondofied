@@ -1,8 +1,24 @@
 ^sep()
-Lock,i3lock-fancy -p,system-lock-screen
+Run,rofi -show run,utilities-terminal
 Exit,^checkout(exit),system-shutdown
 
 exit,^tag(exit)
+Lock,i3lock-fancy -p,system-lock-screen
 suspend,systemctl -i suspend,system-log-out
 reboot,systemctl -i reboot,system-reboot
 poweroff,systemctl -i poweroff,system-shutdown
+
+settings,^tag(settings)
+Theme,^checkout(theme),utilities-terminal
+Presets,^checkout(presets),utilities-terminal
+
+presets,^tag(presets)
+Set,settingsman load,utilities-terminal
+Save,settingsman save,utilities-terminal
+Edit,alacritty -e "mondoman settings",utilities-terminal
+
+theme,^tag(theme)
+Set,mondoman select,utilities-terminal
+Reload,mondoman reload,utilities-terminal
+Reload All,alacritty -e mondo -fg all,utilities-terminal
+Edit,alacritty -e "mondoman edit",utilities-terminal
