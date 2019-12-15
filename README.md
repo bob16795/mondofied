@@ -47,6 +47,8 @@ sh parbs.sh
 
 - cleaned everything
 - dwm store compiled
+- settings
+- better notifications
 
 ## Todo
 

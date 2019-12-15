@@ -1,7 +1,7 @@
 Dropbox
 .AndroidStudio3.2
 .Genymobile
-.config/mpd
+.config/mpd/**
 .cache
 .bm**
 .SpaceVim/
@@ -107,3 +107,4 @@ git
 .viminfo
 .lesshist
 .config/google-chrome/**
+.bliss/**

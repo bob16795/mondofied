@@ -3,10 +3,11 @@ declare -i k;
 ((k==0))
 for i in `cat ~/snd/youtube.txt`
 do
-	((k+=1)) && youtube-dl $i -i --download-archive ~/snd/archive -x --add-metadata -o "~/snd/%(uploader)s/%(title)s.%(ext)s" |grep download &
+  
+  youtube-dl $i -i --download-archive ~/snd/archive -x --add-metadata -o "~/snd/%(uploader)s/%(album)s/%(title)s.%(ext)s" && sacad_r ~/snd/ 40 cover.jpg &
 done
-# --audio-format mp3
 wait
+# --audio-format mp3
 
 declare -i k;
 ((k==0))

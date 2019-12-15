@@ -4,7 +4,7 @@
 
 newvol () {
   VO=$(pulsemixer --get-volume)
-  notify-send -t 300 ${VO%% *}
+  notify-send -t 300 "Volume - ${VO%% *}"
 }
 
 [ -z "$2" ] && num="2" || num="$2"
