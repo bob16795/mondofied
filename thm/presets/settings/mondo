@@ -6,3 +6,4 @@ font         scientifica
 alpha        0.75
 alpha_hex    BF
 solid_bg     0
+border       2

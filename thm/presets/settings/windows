@@ -2,7 +2,9 @@ tags         1
 barmode      1
 starttext    "Start "
 barpos       bottom
+barlayout    $BA | $VO | $TI
 font         cherry
 alpha        0.75
 alpha_hex    BF
 solid_bg     0
+border       2

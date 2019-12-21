@@ -1,16 +1,15 @@
 [global]
     monitor = 0
     follow = keyboard
-    geometry = "350x5-0+24"
+    geometry = "200x40-598+24"
     indicate_hidden = yes
-    shrink = yes
-    transparency = 20
+    shrink = no
     notification_height = 0
     separator_height = 2
-    padding = 0
-    horizontal_padding = 8
-    frame_width = 3
-    frame_color = "#666665"
+    padding = 3
+    horizontal_padding = 3
+    frame_width = 0
+    frame_color = "#f2f2f2"
 
     # Define a color for the separator.
     # possible values are:
@@ -24,7 +23,7 @@
     sort = yes
 
     idle_threshold = 120
-    font = scientifica 14
+    font = cherry 14
     line_height = 0
     markup = full
 
@@ -38,7 +37,7 @@
     #   %n  progress value if set without any extra characters
     #   %%  Literal %
     # Markup is allowed
-    format = "%s\n%b"
+    format = "%a: %s\n%b"
 
     alignment = left
     show_age_threshold = 60
@@ -75,16 +74,16 @@
 [urgency_low]
     # IMPORTANT: colors have to be defined in quotation marks.
     # Otherwise the "#" and following would be interpreted as a comment.
-    background = "#0C3853"
-    foreground = "#f2f2f2"
-    timeout = 5
+    background = "#f2f2f2"
+    foreground = "#0C3853"
+    timeout = 1
     # Icon for notifications with low urgency, uncomment to enable
     #icon = /path/to/icon
 
 [urgency_normal]
     background = "#f2f2f2"
-    foreground = "#%%color_bg"
-    timeout = 5
+    foreground = "#0C3853"
+    timeout = 15
 
 [urgency_critical]
     background = "#34424A"
@@ -124,10 +123,15 @@
 #    summary = "foobar"
 #    format = ""
 
-#[history-ignore]
-#    # This notification will not be saved in history
-#    summary = "foobar"
-#    history_ignore = yes
+[notify-send]
+    appname = notify-send
+    # This notification will not be saved in history
+    format="%s\n%b"
+[mpd-notification]
+    appname = mpd-notification
+    # This notification will not be saved in history
+    format="%b"
+
 
 #[signed_on]
 #    appname = Pidgin

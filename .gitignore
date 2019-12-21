@@ -108,3 +108,9 @@ git
 .lesshist
 .config/google-chrome/**
 .bliss/**
+.config/inkscape/**
+.config/dwm_/**
+.config/_dwm/**
+.config/dolphin-emu/**
+.config/tilem2/**
+.py**

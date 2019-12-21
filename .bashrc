@@ -63,7 +63,7 @@ shdl() { curl -O $(curl -s http://sci-hub.tw/"$@" | grep location.href | grep -o
 vf() { $EDITOR $(fzf) ;}
 #pdf() { groff -T pdf -t -ms $@ > $@i.pdf; zathura $@.pdf &; }
 export TERMINAL=alacritty
-export PATH=$PATH:~/bin:~/.gem/ruby/2.5.0/bin
+export PATH=$PATH:~/.local/bin/:~/bin:~/.gem/ruby/2.5.0/bin
 export PATH="/home/john/cod/Ndless/ndless-sdk/toolchain/install/bin:/home/john/cod/Ndless/ndless-sdk/bin:${PATH}"
 #~/.cache/wal/colors.sh
 #neofetch

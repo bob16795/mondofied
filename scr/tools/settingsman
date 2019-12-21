@@ -19,6 +19,9 @@ case "$1" in
       && cp ~/thm/mondo/_default ~/thm/presets/settings/"$PRESET" \
       || savepreset
     ;;
+  "edit" )
+      vim ~/thm/mondo/_default
+    ;;
   * )
     echo "bad command $1"
     ;;

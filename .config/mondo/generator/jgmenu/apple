@@ -39,7 +39,7 @@ item_border          = 0
 
 sep_height           = 1
 
-font                 = scientifica
+font                 = cherry
 #font_fallback       = xtg
 icon_size            = 0
 #icon_text_spacing   = 10

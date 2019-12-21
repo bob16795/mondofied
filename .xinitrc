@@ -3,11 +3,11 @@
 [ -f ~/.Xmodmap ] && xmodmap ~/.Xmodmap
 [ -f ~/.Xresources ] && xrdb -merge ~/.Xresources
 
+sh ~/.screen.sh
 dunst & #notifications
 jgmenu --hide-on-startup & #menu
 mpd & #music
 #spotify & #music
-# dwmblocks & # status
 bar &
 xset r rate 300 50 #key repeate
 compton -Cc& #composite
@@ -23,7 +23,6 @@ alacritty --class visual -e vis& #music vis
 #steam & #game
 #discord & #chat
 torify dropbox &
-sh ~/.screen.sh
 
-disown
+#exec alacritty
 exec dwm

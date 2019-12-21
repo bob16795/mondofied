@@ -15,10 +15,10 @@ Presets,^checkout(presets),utilities-terminal
 presets,^tag(presets)
 Set,settingsman load,utilities-terminal
 Save,settingsman save,utilities-terminal
-Edit,alacritty -e "mondoman settings",utilities-terminal
+Edit,alacritty -e settingsman edit,utilities-terminal
 
 theme,^tag(theme)
 Set,mondoman select,utilities-terminal
 Reload,mondoman reload,utilities-terminal
 Reload All,alacritty -e mondo -fg all,utilities-terminal
-Edit,alacritty -e "mondoman edit",utilities-terminal
+Edit,alacritty -e mondoman edit,utilities-terminal
