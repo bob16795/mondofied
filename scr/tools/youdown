@@ -1,20 +1,14 @@
-#!/bin/bash
-declare -i k;
-((k==0))
-for i in `cat ~/snd/youtube.txt`
-do
-  
-  youtube-dl $i -i --download-archive ~/snd/archive -x --add-metadata -o "~/snd/%(uploader)s/%(album)s/%(title)s.%(ext)s" && sacad_r ~/snd/ 40 cover.jpg &
-done
-wait
-# --audio-format mp3
-
-declare -i k;
-((k==0))
-for i in `cat ~/vid/youtube.txt`
-do
-	((k+=1)) && youtube-dl $i --download-archive ~/vid/archive --add-metadata -o ~/Videos/%\(title\)s.%\(ext\)s -f 18 | grep download &
-done
-# --audio-format mp3
-wait
-
+case  $1 in
+  "m")
+    youtube-dl -x --add-metadata --audio-format mp3 --download-archive ~/snd/archive -o "~/snd/%(uploader)s/%(album)s/%(title)s.%(ext)s" $2;;
+  "v")    
+    youtube-dl --add-metadata --audio-format mp3 --download-archive ~/vid/archive -o "~/vid/%(uploader)s/%(album)s/%(title)s.%(ext)s" $2;;
+  *)
+    for i in $(< ~/snd/youdown_list) ;do
+      youtube-dl -x --add-metadata --audio-format mp3 --download-archive ~/snd/archive -o "~/snd/%(uploader)s/%(album)s/%(title)s.%(ext)s" $i 
+    done
+    for i in $(< ~/vid/youdown_list) ;do
+      youtube-dl -x --add-metadata --audio-format mp3 --download-archive ~/vid/archive -o "~/vid/%(uploader)s/%(album)s/%(title)s.%(ext)s" $i 
+    done
+    wait;;
+esac
