@@ -1,7 +1,0 @@
-#!/bin/bash
-if [[ %%solid_bg%% == 0 ]]; then
-  xwallpaper --zoom ~/.config/mondo/images/%%bg%%
-else
-  xsetroot -solid '#%%color_bg%%'
-fi
-

@@ -1,7 +1,0 @@
-#!/bin/bash
-if [[ 0 == 0 ]]; then
-  xwallpaper --zoom ~/.config/mondo/images/Comfy\ 34.jpg
-else
-  xsetroot -solid '#0a2037'
-fi
-

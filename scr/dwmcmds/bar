@@ -10,6 +10,6 @@ do
   VO="VO: ${VOL%% *}$VMU"
   BA="BA: $(upower -i /org/freedesktop/UPower/devices/battery_BAT0 | grep -E "percentage"| sed 's/    percentage:          //')"
   TI="$(date +%H:%M)"
-  xsetroot -name "$BA | $VO | $TI "
+  xsetroot -name " "
 	sleep .5
 done

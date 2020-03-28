@@ -1,7 +1,0 @@
-#!/bin/bash
-if [[ 0 == 0 ]]; then
-  xwallpaper --zoom ~/.config/mondo/images/moon.png
-else
-  xsetroot -solid '#0a1d36'
-fi
-

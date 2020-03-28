@@ -1,7 +1,0 @@
-#!/bin/bash
-if [[ 0 == 0 ]]; then
-  xwallpaper --zoom ~/.config/mondo/images/solarized.png
-else
-  xsetroot -solid '#002b36'
-fi
-

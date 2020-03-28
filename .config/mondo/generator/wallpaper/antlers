@@ -1,7 +1,0 @@
-#!/bin/bash
-if [[ 0 == 0 ]]; then
-  xwallpaper --zoom ~/.config/mondo/images/antlers.jpg
-else
-  xsetroot -solid '#111d57'
-fi
-

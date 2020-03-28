@@ -1,7 +1,0 @@
-#!/bin/bash
-if [[ 0 == 0 ]]; then
-  xwallpaper --zoom ~/.config/mondo/images/Antepenultimata.png
-else
-  xsetroot -solid '#6B3772'
-fi
-

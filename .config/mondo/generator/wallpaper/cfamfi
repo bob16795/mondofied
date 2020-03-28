@@ -1,7 +1,0 @@
-#!/bin/bash
-if [[ 0 == 0 ]]; then
-  xwallpaper --zoom ~/.config/mondo/images/cfamfi.png
-else
-  xsetroot -solid '#7E280F'
-fi
-

@@ -16,7 +16,7 @@ case "$1" in
     ;;
   "save" )
     [[ -f ~/thm/presets/settings/"$2" ]] \
-      && cp ~/thm/mondo/_default ~/thm/presets/settings/"$PRESET" \
+      && cp ~/thm/mondo/_default ~/thm/presets/settings/"$2" \
       || savepreset
     ;;
   "edit" )

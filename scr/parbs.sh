@@ -195,17 +195,6 @@ putgitrepo "http://github.com/bob16795/mondofied-themes" "/home/$name/.config/mo
 # Pulseaudio, if/when initially installed, often needs a restart to work immediately.
 [ -f /usr/bin/pulseaudio ] && resetpulse
 
-# Install vim `plugged` plugins.
-# dialog --infobox "Installing vim plugins..." 4 50
-# (sleep 30 && killall vim) &
-# sudo -u "$name" vim -E -c "PlugUpdate|visual|q|q" >/dev/null
-
-#get dwm source for mondo
-# sudo -u "$name" git clone http://github.com/bob16795/dwm /home/$name/.config/dwm > /dev/null
-
-#install spacevim
-# curl -sLf https://spacevim.org/install.sh | sudo -u $name bash
-
 #copy rofi theme
 cp /home/$name/.config/rofi/bmenu.rasi /usr/share/rofi/> /dev/null
 
@@ -221,7 +210,6 @@ cd /etc/fonts/conf.d/> /dev/null
 sudo rm /etc/fonts/conf.d/10* && sudo rm -rf 70-no-bitmaps.conf && sudo ln -s ../conf.avail/70-yes-bitmaps.conf> /dev/null
 
 #scientifica
-# sudo -u "$name" git clone https://github.com/NerdyPepper/scientifica /home/$name/fon/scientifica> /dev/null
 sudo cp -avr /home/$name/fon/bitmap-fonts/bitmap/ /usr/share/fonts
 ln -fs /home/$name/fon/scientifica/regular/scientifica-11.bdf /usr/share/fonts/scientifica-11.bdf > /dev/null
 ln -fs /home/$name/fon/scientifica/bold/scientifica-11.bdf /usr/share/fonts/scientificaBold-11.bdf > /dev/null
@@ -258,7 +246,6 @@ chmod -R $name /home/$name
 sudo -u $name mondo -fg all
 sudo -u $name mondo -a $(mondo -l themes | head -1)
 sudo -u $name preset load mondo
-
 
 pacman --noconfirm --needed -U https://archive.org/download/archlinux_pkg_pango/pango-1.43.0-1-x86_64.pkg.tar.xz 
 

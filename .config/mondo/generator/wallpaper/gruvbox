@@ -1,7 +1,0 @@
-#!/bin/bash
-if [[ 0 == 0 ]]; then
-  xwallpaper --zoom ~/.config/mondo/images/gruvbox.jpg
-else
-  xsetroot -solid '#3c3836'
-fi
-

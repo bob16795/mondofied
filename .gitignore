@@ -114,3 +114,4 @@ git
 .config/dolphin-emu/**
 .config/tilem2/**
 .py**
+.nimble
