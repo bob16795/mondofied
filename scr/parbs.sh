@@ -222,7 +222,7 @@ sudo rm /etc/fonts/conf.d/10* && sudo rm -rf 70-no-bitmaps.conf && sudo ln -s ..
 
 #scientifica
 # sudo -u "$name" git clone https://github.com/NerdyPepper/scientifica /home/$name/fon/scientifica> /dev/null
-sudo cp -avr /home/$name/fon/bitmap/ /usr/share/fonts
+sudo cp -avr /home/$name/fon/bitmap-fonts/bitmap/ /usr/share/fonts
 ln -fs /home/$name/fon/scientifica/regular/scientifica-11.bdf /usr/share/fonts/scientifica-11.bdf > /dev/null
 ln -fs /home/$name/fon/scientifica/bold/scientifica-11.bdf /usr/share/fonts/scientificaBold-11.bdf > /dev/null
 fc-cache -fv > /dev/null
