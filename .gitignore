@@ -17,6 +17,9 @@ exc/**
 gam/**
 doc/**
 cod/**
+box/**
+.box/**
+vms/**
 .gem
 .phet
 .gnupg
@@ -122,4 +125,8 @@ git
 .config/dconf
 .config/ootr**
 .config/vivaldi-css
+.config/VirtualBox/**
+.config/sublime-text-3/**
+.config/QtProject.conf
+.mozilla/**
 scr/tools/vb4c
