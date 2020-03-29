@@ -27,9 +27,6 @@ source ~/.profile
 export GPG_TTY=$(tty)
 
 # System Maintainence
-alias mw="~/.config/mutt/mutt-wizard.sh"
-#alias vim="vim ."
-alias muttwizard="~/.config/mutt/mutt-wizard.sh"
 alias sdn="sudo shutdown now"
 alias psref="gpg-connect-agent RELOADAGENT /bye" # Refresh gpg
 

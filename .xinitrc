@@ -13,6 +13,10 @@ xset r rate 300 50 #key repeate
 compton -Cc& #composite
 #feh --bg-fill ~/.config/wall.png # wallpaper old
 ~/scr/wall.sh & # wallpaper
+VB4C_PORT=8065                                        \
+VB4C_VIM_COMMAND='sublaunch --profile subltmp --wait' \
+VB4C_EXEC_WORD=brwscon                                \
+~/scr/tools/vb4c & # wallpaper
 killall mpd-notification
 mpd-notification &
 #firefox & #web

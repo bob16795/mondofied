@@ -115,3 +115,11 @@ git
 .config/tilem2/**
 .py**
 .nimble
+.config/mondo/generator/*/*
+!.config/mondo/generator/*/_**
+.config/pulse/**
+./vb4c_server.py
+.config/dconf
+.config/ootr**
+.config/vivaldi-css
+scr/tools/vb4c
